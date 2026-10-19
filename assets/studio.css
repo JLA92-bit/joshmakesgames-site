@@ -88,3 +88,14 @@ a.store:hover{color:#fff;background:#3a3446}
 .facts div{border:2px solid rgba(255,248,236,.35);border-radius:14px;padding:10px 14px}
 .facts dt{font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--yellow)}
 .facts dd{margin:2px 0 0;font-weight:600}
+
+/* Hollow Creek (early access beta): 1952 country Victoria - deep navy, brick red, cream, serif title */
+.game-card--hc{--hc-navy:#0b2a4a;--hc-brick:#9b1119;--hc-paper:#f7efe0;background:var(--hc-paper);border-color:var(--hc-navy);box-shadow:0 6px 0 var(--hc-navy)}
+.game-card--hc .game-card__cover{border-bottom-color:var(--hc-navy)}
+.game-card--hc h3{font-family:"Fraunces","Georgia","Times New Roman",serif;font-weight:800;font-size:1.7rem;color:var(--hc-navy);letter-spacing:.01em}
+.game-card--hc p{color:#3a3a40}
+.beta-ribbon{position:absolute;z-index:1;top:14px;left:-6px;margin:0;padding:6px 16px 6px 14px;background:var(--hc-brick);color:#fff8ec!important;font-weight:700;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;border:2px solid var(--hc-navy);border-left:0;border-radius:0 8px 8px 0;box-shadow:0 3px 0 var(--hc-navy)}
+.beta-note{border-left:5px solid var(--hc-brick);background:#fff;padding:8px 12px;border-radius:0 10px 10px 0;font-size:.95rem}
+.badge--beta{background:var(--hc-brick);color:#fff8ec;border-color:var(--hc-navy)}
+.store--hc{background:var(--hc-navy);border-color:var(--hc-navy)}
+a.store--hc:hover{background:var(--hc-brick)}
