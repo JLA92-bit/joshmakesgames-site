@@ -213,7 +213,7 @@ export function catchmentState() {
     const last = rows[rows.length - 1];
     const pct = last.pct != null ? last.pct : last.volume != null && st.capacityML ? round((last.volume / st.capacityML) * 100, 1) : null;
     const weekAgo = rows.find((r) => r.date >= localDate(Date.parse(last.date) - 7 * DAY));
-    const spilling = st.fullSupplyLevel != null && last.level != null ? last.level >= st.fullSupplyLevel - 0.02 : pct != null ? pct >= 100 : null;
+    const spilling = st.fullSupplyLevel != null && last.level != null ? last.level >= st.fullSupplyLevel - 0.02 : pct != null ? pct >= 99.5 : null;
     return {
       id: st.id, name: st.name, capacity: st.capacityML, fullSupplyLevel: st.fullSupplyLevel, note: st.note,
       latest: { date: last.date, level: last.level, volume: last.volume, pct },
