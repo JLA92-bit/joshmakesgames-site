@@ -28,13 +28,5 @@ jobs:
         run: node river-watch/collector/collect.mjs
 
       - name: Save the new data to the repository
-        run: |
-          git config user.name "river-watch-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add river-watch/data
-          if ! git diff --cached --quiet; then
-            git commit -m "Data $(date -u +%Y-%m-%dT%H:%MZ)"
-            git pull --rebase --autostash origin main
-            git push
-          fi
+        run: bash river-watch/collector/save.sh "Data $(date -u +%Y-%m-%dT%H:%MZ)"
 
