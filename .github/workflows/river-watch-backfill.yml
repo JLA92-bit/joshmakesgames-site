@@ -35,20 +35,120 @@ jobs:
         with:
           node-version: 20
 
-      - name: Back-fill
-        run: node river-watch/collector/backfill.mjs --only "${{ inputs.only }}" --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
-
-      - name: Refresh the latest snapshot
-        run: node river-watch/collector/collect.mjs
-
-      - name: Save the data to the repository
+      # ---- daily: built and saved on its own, so a stall later never loses it
+      - name: Back-fill daily
+        if: inputs.only == 'all' || inputs.only == 'daily'
+        continue-on-error: true
+        timeout-minutes: 150
+        run: node river-watch/collector/backfill.mjs --only daily --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
+      - name: Save daily
+        if: always() && (inputs.only == 'all' || inputs.only == 'daily')
+        env:
+          STAGE: daily
         run: |
           git config user.name "river-watch-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add river-watch/data
           if ! git diff --cached --quiet; then
-            git commit -m "History back-fill (${{ inputs.only }} from ${{ inputs.from }})"
+            git commit -m "History back-fill: $STAGE (from ${{ inputs.from }})"
             git pull --rebase --autostash origin main
             git push
           fi
 
+      # ---- rain: built and saved on its own, so a stall later never loses it
+      - name: Back-fill rain
+        if: inputs.only == 'all' || inputs.only == 'rain'
+        continue-on-error: true
+        timeout-minutes: 60
+        run: node river-watch/collector/backfill.mjs --only rain --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
+      - name: Save rain
+        if: always() && (inputs.only == 'all' || inputs.only == 'rain')
+        env:
+          STAGE: rain
+        run: |
+          git config user.name "river-watch-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add river-watch/data
+          if ! git diff --cached --quiet; then
+            git commit -m "History back-fill: $STAGE (from ${{ inputs.from }})"
+            git pull --rebase --autostash origin main
+            git push
+          fi
+
+      # ---- storage: built and saved on its own, so a stall later never loses it
+      - name: Back-fill storage
+        if: inputs.only == 'all' || inputs.only == 'storage'
+        continue-on-error: true
+        timeout-minutes: 20
+        run: node river-watch/collector/backfill.mjs --only storage --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
+      - name: Save storage
+        if: always() && (inputs.only == 'all' || inputs.only == 'storage')
+        env:
+          STAGE: storage
+        run: |
+          git config user.name "river-watch-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add river-watch/data
+          if ! git diff --cached --quiet; then
+            git commit -m "History back-fill: $STAGE (from ${{ inputs.from }})"
+            git pull --rebase --autostash origin main
+            git push
+          fi
+
+      # ---- soil: built and saved on its own, so a stall later never loses it
+      - name: Back-fill soil
+        if: inputs.only == 'all' || inputs.only == 'soil'
+        continue-on-error: true
+        timeout-minutes: 40
+        run: node river-watch/collector/backfill.mjs --only soil --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
+      - name: Save soil
+        if: always() && (inputs.only == 'all' || inputs.only == 'soil')
+        env:
+          STAGE: soil
+        run: |
+          git config user.name "river-watch-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add river-watch/data
+          if ! git diff --cached --quiet; then
+            git commit -m "History back-fill: $STAGE (from ${{ inputs.from }})"
+            git pull --rebase --autostash origin main
+            git push
+          fi
+
+      # ---- events: built and saved on its own, so a stall later never loses it
+      - name: Back-fill events
+        if: inputs.only == 'all' || inputs.only == 'events'
+        continue-on-error: true
+        timeout-minutes: 90
+        run: node river-watch/collector/backfill.mjs --only events --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
+      - name: Save events
+        if: always() && (inputs.only == 'all' || inputs.only == 'events')
+        env:
+          STAGE: events
+        run: |
+          git config user.name "river-watch-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add river-watch/data
+          if ! git diff --cached --quiet; then
+            git commit -m "History back-fill: $STAGE (from ${{ inputs.from }})"
+            git pull --rebase --autostash origin main
+            git push
+          fi
+
+      - name: Refresh the latest snapshot
+        if: always()
+        timeout-minutes: 15
+        run: node river-watch/collector/collect.mjs
+      - name: Save the snapshot
+        if: always()
+        env:
+          STAGE: latest snapshot
+        run: |
+          git config user.name "river-watch-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add river-watch/data
+          if ! git diff --cached --quiet; then
+            git commit -m "History back-fill: $STAGE (from ${{ inputs.from }})"
+            git pull --rebase --autostash origin main
+            git push
+          fi
