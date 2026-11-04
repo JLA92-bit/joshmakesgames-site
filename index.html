@@ -32,7 +32,6 @@
     <a class="header__logo" href="/" aria-label="Josh Makes Games home"><img src="/assets/img/josh-makes-games-logo-full-colour.svg" alt="Josh Makes Games" width="240" height="44"></a>
     <nav aria-label="Main"><ul>
       <li><a href="#games">Games</a></li>
-      <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
       <li><a class="nav__pill" href="/river-watch/">River Watch</a></li>
     </ul></nav>
@@ -40,37 +39,21 @@
 </header>
 
 <main id="main">
-  <section class="hero">
-    <div class="wrap hero__grid">
-      <div class="hero__copy">
-        <p class="kicker"><span class="dot" aria-hidden="true"></span>Independent game studio, Australia</p>
-        <h1>Cozy couch games <span>for your phone.</span></h1>
-        <p class="hero__lead">I'm Josh. I make cozy couch games you can pick up and play on your phone. No tricks and no pressure.</p>
-        <div class="hero__cta">
-          <a class="btn btn--primary" href="https://cozyacres.joshmakesgames.app/play/">Play Cozy Acres</a>
-          <a class="btn btn--ghost" href="#games">See all games</a>
-        </div>
-        <dl class="hero__stats">
-          <div><dt>Games out</dt><dd>2</dd></div>
-          <div><dt>In early access</dt><dd>1</dd></div>
-          <div><dt>Team</dt><dd>Just me</dd></div>
-        </dl>
-      </div>
-      <div class="hero__art" aria-hidden="true">
-        <img class="hero__shot hero__shot--main" src="/assets/img/cozy-acres-feature-1024x500.jpg" alt="" width="1024" height="500">
-        <img class="hero__shot hero__shot--a" src="/assets/img/doodle-bridge-feature-1024x500.jpg" alt="" width="1024" height="500">
-        <img class="hero__shot hero__shot--b" src="/assets/img/hollow-creek-feature-1024x500.jpg" alt="" width="1024" height="500">
+  <section class="intro" id="about">
+    <div class="wrap">
+      <p class="kicker"><span class="dot" aria-hidden="true"></span>Solo game studio, Australia</p>
+      <h1>Hi, I'm Josh. I make <span>cozy couch games.</span></h1>
+      <p class="intro__lead">I'm a dad in a small Australian town making games in my spare time - relaxing little games you can play on your phone from the sofa. I build everything myself, from the art and code to the servers.</p>
+      <div class="intro__cta">
+        <a class="btn btn--primary" href="#games">See my games</a>
+        <a class="btn btn--ghost" href="#contact">Say hello</a>
       </div>
     </div>
   </section>
 
   <section id="games" class="section" aria-labelledby="games-title">
     <div class="wrap">
-      <header class="section__head">
-        <p class="kicker">Games</p>
-        <h2 id="games-title">Everything I've made so far</h2>
-        <p class="section__lead">Each game has its own look. Pick one and play in your browser, with more coming to phones.</p>
-      </header>
+      <h2 id="games-title" class="section__title">My games</h2>
       <ul class="games">
         <!-- Component: game card. Copy this <li> for each new game and add a theme class (gc--cozy, gc--hc, gc--doodle, gc--soon). -->
         <li>
@@ -146,10 +129,7 @@
 
   <section class="section section--tight" aria-labelledby="projects-title">
     <div class="wrap">
-      <header class="section__head">
-        <p class="kicker">Other projects</p>
-        <h2 id="projects-title">Made for my town</h2>
-      </header>
+      <h2 id="projects-title" class="section__title">Made for my town</h2>
       <a class="project" href="/river-watch/">
         <img class="project__cover" src="/assets/img/river-watch-cover.svg" alt="" width="1024" height="500" loading="lazy">
         <div class="project__body">
@@ -161,25 +141,13 @@
     </div>
   </section>
 
-  <section id="about" class="section section--alt" aria-labelledby="about-title">
-    <div class="wrap about">
-      <div class="about__text">
-        <p class="kicker">About</p>
-        <h2 id="about-title">One dad, one studio</h2>
-        <p>Hi, I'm Josh. I'm a 30-something dad living in a small town in Australia, and I make games in my spare time.</p>
-        <p>Josh Makes Games is just me. I design, build, test and release everything myself, from the art and code to the servers and the store listings. I make cozy couch games: the kind you can play on your phone from the sofa, a few relaxing minutes at a time.</p>
-        <p>Cozy Acres is my first game, and Hollow Creek, a 1950s country town mystery, is on its way in early access. Doodle Bridge, a draw-your-own-bridge physics game, is playable in your browser. There will be more, in all sorts of styles, made with the same care.</p>
-        <dl class="facts">
-          <div><dt>Based in</dt><dd>A small town in Australia</dd></div>
-          <div><dt>Team</dt><dd>One dad, solo developer</dd></div>
-          <div><dt>Games</dt><dd>2 out, 1 in early access</dd></div>
-        </dl>
+  <section id="contact" class="contact" aria-labelledby="contact-title">
+    <div class="wrap contact__inner">
+      <div>
+        <h2 id="contact-title">Say hello</h2>
+        <p>Questions, ideas, bug reports or a nice message about your farm. I read everything.</p>
       </div>
-      <div class="contact" id="contact">
-        <h3>Say hello</h3>
-        <p>Questions, ideas, bug reports or just a nice message about your farm. I read everything, though replies can take a few evenings.</p>
-        <a class="btn btn--light" href="mailto:joshmakesgames92@gmail.com">joshmakesgames92@gmail.com</a>
-      </div>
+      <a class="btn btn--light" href="mailto:joshmakesgames92@gmail.com">joshmakesgames92@gmail.com</a>
     </div>
   </section>
 </main>
