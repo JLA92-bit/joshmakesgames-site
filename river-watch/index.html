@@ -342,6 +342,57 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 .maplibregl-popup-content { font: 0.88rem var(--f-body); color: var(--ink); }
 @media (max-width: 900px) { .grid2, .grid3, .grid2.g-r, .grid2.g-l { grid-template-columns: 1fr; } #map { height: 420px; } .bar { grid-template-columns: 120px minmax(0, 1fr) 56px; } }
 
+/* ---------------------------------------------------------------- app layout: one view at a time */
+.emerg { position: relative; z-index: 6; }
+.appbar { position: sticky; top: 0; z-index: 5; background: rgba(0, 20, 39, 0.92); color: var(--on-night); border-bottom: 1px solid var(--night-line); backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px); padding-top: env(safe-area-inset-top, 0px); }
+.appbar-in { display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-areas: "brand status" "tabs tabs"; gap: 6px 16px; align-items: center; padding-block: 10px 0; }
+.ab-brand { grid-area: brand; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-family: var(--f-display); font-weight: 800; font-size: 1.25rem; letter-spacing: 0.04em; text-transform: uppercase; }
+.ab-status { grid-area: status; justify-self: stretch; justify-content: flex-end; display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-size: 0.88rem; color: var(--on-night-2); min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ab-status b { font-family: var(--f-data); color: var(--on-night); font-weight: 600; }
+.ab-tabs { grid-area: tabs; display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; margin: 0 -4px; padding: 0 4px; scroll-snap-type: x proximity; }
+.ab-tabs::-webkit-scrollbar { display: none; }
+.ab-tabs a { flex: none; scroll-snap-align: start; display: inline-flex; align-items: center; gap: 7px; min-height: 44px; padding: 0 14px; font: 700 0.92rem var(--f-body); color: var(--on-night-2); text-decoration: none; border-bottom: 3px solid transparent; transition: color 0.15s, border-color 0.15s; }
+.ab-tabs a:hover { color: var(--on-night); }
+.ab-tabs a[aria-selected="true"] { color: #fff; border-bottom-color: var(--water); }
+.ab-tabs .tdot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+@media (min-width: 1100px) { .appbar-in { grid-template-columns: auto minmax(0, 1fr) auto; grid-template-areas: "brand tabs status"; padding-block: 0; } .ab-tabs { margin: 0; } .ab-tabs a { min-height: 56px; } }
+[data-view][hidden] { display: none !important; }
+main.views > .band:first-child, .views .band { padding-block: clamp(32px, 5vw, 56px); }
+.views .sec-head { margin-bottom: 26px; }
+.views .sec-head h2 { font-size: clamp(2.2rem, 5vw, 3.6rem); }
+html { scroll-padding-top: 120px; }
+@media (prefers-reduced-motion: no-preference) { ::view-transition-old(root), ::view-transition-new(root) { animation-duration: 0.18s; } }
+.overview { background: var(--night); color: var(--on-night); padding-block: 8px 48px !important; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+.tile { display: grid; gap: 6px; align-content: start; padding: 18px; border-radius: 4px; border: 1px solid var(--night-line); background: rgba(255,255,255,0.04); color: inherit; text-decoration: none; transition: background 0.15s, border-color 0.15s, transform 0.15s; }
+.tile:hover, .tile:focus-visible { background: rgba(75, 201, 245, 0.10); border-color: var(--water); transform: translateY(-2px); }
+.tile .kicker { color: var(--water); }
+.tile .tv { font-family: var(--f-display); font-weight: 800; font-size: 2.1rem; line-height: 1; text-transform: uppercase; }
+.tile .tv small { font: 500 0.82rem var(--f-data); color: var(--on-night-2); margin-left: 4px; text-transform: none; }
+.tile p { margin: 0; color: var(--on-night-2); font-size: 0.92rem; }
+.tile .go { margin-top: 6px; font-weight: 700; font-size: 0.88rem; color: var(--on-night); }
+.tile.alert { border-color: var(--s-moderate); background: rgba(242, 104, 57, 0.12); }
+
+/* compact hero inside the app: the bar carries the name, so the hero is just the reading and the wall */
+.sr { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.views .hero-top { grid-template-columns: minmax(0, 1fr) auto; padding-block: 24px 18px; align-items: end; }
+.views .hero-top > div:first-child { display: none; }
+.views .readout { justify-self: start; text-align: left; justify-items: start; grid-template-columns: auto minmax(0, 1fr); grid-template-areas: "where pick" "big big" "chip chip" "gap gap" "when when"; width: 100%; column-gap: 24px; }
+.views .readout .where { grid-area: where; } .views .readout .gauge-pick { grid-area: pick; justify-content: flex-end; }
+.views .readout .big { grid-area: big; } .views #heroChip { grid-area: chip; } .views .readout .gap { grid-area: gap; max-width: 60ch; } .views .readout .when { grid-area: when; }
+.views .hero-top { grid-template-columns: 1fr; }
+.views .wall { height: clamp(230px, 24vw, 300px); }
+.views .versus { display: none; }
+.views .overview { padding-top: 28px !important; }
+.ab-status span { overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+@media (max-width: 700px) {
+  .views .readout { grid-template-areas: "where" "pick" "big" "chip" "gap" "when"; grid-template-columns: 1fr; }
+  .views .readout .gauge-pick { justify-content: flex-start; }
+  .emerg .wrap { gap: 2px 14px; padding-block: 7px; font-size: 0.84rem; }
+  .emerg .long { display: none; }
+  .ab-status .nm { display: none; }
+}
+
 @media (max-width: 900px) {
   .hero-top, .sec-head, .ev-head, .ev-grid, .rain-grid, footer .wrap { grid-template-columns: 1fr; }
   .readout { justify-self: start; text-align: left; justify-items: start; }
@@ -365,14 +416,33 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 
 <div class="example" id="exampleBar" hidden><div class="wrap"><b>EXAMPLE DATA</b><span>Readings, rain and the lettered floods are made up to preview the design. The real site fills these from the river gauges every hour.</span></div></div>
 
-<header class="hero">
+<div class="emerg"><div class="wrap">
+  <span>Emergency: <b>000</b></span>
+  <span>VicEmergency<span class="long"> Hotline</span> <b>1800 226 226</b><span class="long"> &middot; <a href="https://emergency.vic.gov.au/" target="_blank" rel="noopener">emergency.vic.gov.au</a></span></span>
+  <span>VICSES<span class="long"> flood and storm help</span> <b>132 500</b></span>
+  <span class="long">This site is for awareness. Follow official warnings.</span>
+</div></div>
+<nav class="appbar" aria-label="River Watch sections">
+  <div class="wrap appbar-in">
+    <a class="ab-brand" href="#/now" aria-label="River Watch, now">
+      <svg width="22" height="22" viewBox="0 0 30 30" aria-hidden="true"><rect x="9" y="1" width="12" height="28" rx="1" fill="#fff"/><g fill="#001427"><rect x="9" y="5" width="7" height="2"/><rect x="9" y="11" width="7" height="2"/><rect x="9" y="17" width="7" height="2"/></g><rect x="9" y="20" width="12" height="9" fill="#4BC9F5"/></svg>
+      <span>River Watch</span>
+    </a>
+    <a class="ab-status" id="abStatus" href="#/now" aria-live="polite"></a>
+    <div class="ab-tabs" id="abTabs" role="tablist" aria-label="Choose what to look at"></div>
+  </div>
+</nav>
+
+<main class="views" id="views">
+<h1 class="sr">Campaspe and Murray River Watch</h1>
+<header class="hero" id="hero" data-view="now">
   <div class="wrap hero-top">
     <div>
       <div class="brand">
         <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><rect x="9" y="1" width="12" height="28" rx="1" fill="#fff"/><g fill="#001427"><rect x="9" y="5" width="7" height="2"/><rect x="9" y="11" width="7" height="2"/><rect x="9" y="17" width="7" height="2"/></g><rect x="9" y="20" width="12" height="9" fill="#4BC9F5"/></svg>
         <span>Rochester &middot; Campaspe &middot; Murray</span>
       </div>
-      <h1>River<br><em>Watch</em></h1>
+      <p class="h1like" aria-hidden="true">River<br><em>Watch</em></p>
       <p class="lede">How high the Campaspe and Murray are right now, how much rain is coming, and how today compares with the floods this town remembers.</p>
     </div>
     <div class="readout" aria-live="polite">
@@ -394,14 +464,12 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   </div>
 </header>
 
-<div class="emerg"><div class="wrap">
-  <span>Emergency: <b>000</b></span>
-  <span>VicEmergency Hotline <b>1800 226 226</b> &middot; <a href="https://emergency.vic.gov.au/" target="_blank" rel="noopener">emergency.vic.gov.au</a></span>
-  <span>VICSES flood and storm help <b>132 500</b></span>
-  <span>This site is for awareness. Follow official warnings.</span>
-</div></div>
+<section class="band overview" id="overview" data-view="now" aria-label="At a glance">
+  <div class="wrap"><div class="tiles" id="tiles"></div></div>
+</section>
 
-<section class="band" id="outlook">
+
+<section class="band" id="outlook" data-view="next">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">The next hours and days</span><h2>What happens next</h2></div>
@@ -418,7 +486,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   </div>
 </section>
 
-<section class="band mist" id="rivers">
+<section class="band mist" id="rivers" data-view="gauges">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Lake Eppalock to Swan Hill</span><h2>Along the rivers</h2></div>
@@ -429,12 +497,13 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   </div>
 </section>
 
-<section class="band" id="gauges">
+<section class="band" id="gauges" data-view="gauges">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Last 7 days, every gauge</span><h2>River gauges</h2></div>
       <div class="tools" role="group" aria-label="Filter gauges" id="riverFilter">
-        <button type="button" data-f="all" aria-pressed="true">All rivers</button>
+        <button type="button" data-f="key" aria-pressed="true">Key gauges</button>
+        <button type="button" data-f="all" aria-pressed="false">All</button>
         <button type="button" data-f="Campaspe" aria-pressed="false">Campaspe</button>
         <button type="button" data-f="Murray" aria-pressed="false">Murray</button>
         <button type="button" data-f="Goulburn" aria-pressed="false">Goulburn</button>
@@ -447,7 +516,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 </section>
 
 
-<section class="band" id="ground">
+<section class="band" id="ground" data-view="map">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Rochester Town gauge</span><h2>What it means on the ground</h2></div>
@@ -477,7 +546,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   </div>
 </section>
 
-<section class="band night" id="past">
+<section class="band night" id="past" data-view="past">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Then and now</span><h2>Past floods</h2></div>
@@ -495,7 +564,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 </section>
 
 
-<section class="band night" id="catchment">
+<section class="band night" id="catchment" data-view="catchment">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Dam, soil and junction</span><h2>How primed is the catchment</h2></div>
@@ -510,7 +579,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   </div>
 </section>
 
-<section class="band mist" id="rain">
+<section class="band mist" id="rain" data-view="rain">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Past 30 days and next 7</span><h2>Catchment rain</h2></div>
@@ -534,7 +603,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 </section>
 
 
-<section class="band mist" id="unusual">
+<section class="band mist" id="unusual" data-view="rarity">
   <div class="wrap">
     <div class="sec-head">
       <div><span class="kicker">Every year on record</span><h2>How unusual is this</h2></div>
@@ -551,7 +620,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   </div>
 </section>
 
-<section class="band" id="info">
+<section class="band" id="info" data-view="data">
   <div class="wrap three">
     <div class="col">
       <h3>Warnings</h3>
@@ -569,6 +638,8 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   </div>
 </section>
 
+</main>
+
 <footer><div class="wrap">
   <div><div class="sig">Created by Josh Avard</div></div>
   <div>River data: State of Victoria (DEECA) Water Measurement Information System and WaterNSW, provisional data. Flood class levels: Bureau of Meteorology. Rain and soil moisture: Open-Meteo (CC BY 4.0), including ERA5 reanalysis. Flood maps: Victorian Government (DTP, DEECA, CMAs). Map: OpenFreeMap and OpenStreetMap contributors. Past flood figures from news reports are linked in the table. Always follow VicEmergency and BoM advice in a flood.</div>
@@ -584,7 +655,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   var CAMPASPE_ORDER = ["406201", "406218", "406283", "406265", "409200"];
   var LAYOUT = {
     "409204": [60, 86, "m"], "409005": [162, 86, "m"], "409207": [266, 86, "m"], "409200": [380, 86, "m"], "409202": [575, 86, "m"], "409025": [700, 86, "m"],
-    "405232": [516, 166], "405204": [546, 250], "403200": [704, 200, "m"],
+    "405232": [604, 240], "405204": [636, 312], "403200": [722, 165, "m"],
     "406265": [380, 146], "406202": [380, 202], "406283": [380, 246], "406218": [380, 300], "406201": [380, 356], "406207": [380, 412], "406213": [380, 486]
   };
   var SOURCES = [
@@ -600,7 +671,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     ["Reports", "Rochester Flood Management Plan review (HARC)", "https://harc.com.au/?p=4564"]
   ];
 
-  var S = { latest: null, events: [], byId: {}, hero: "406283", filter: "all", event: null, eventDetail: {}, catchment: null, example: false };
+  var S = { latest: null, events: [], byId: {}, hero: "406283", filter: "key", event: null, eventDetail: {}, catchment: null, example: false };
   function $(id) { return document.getElementById(id); }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function f(v, d) { return v == null || isNaN(v) ? "-" : Number(v).toFixed(d == null ? 2 : d); }
@@ -641,7 +712,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 
   function renderAll() {
     renderPicker(); renderHero(); renderVersus(); renderSchematic(); renderCards(); renderEvents(); renderRain(); renderInfo();
-    [renderOutlook, renderCatchment, renderGround, renderUnusual].forEach(function (fn) { try { fn(); } catch (e) { if (window.console) console.error(e); } });
+    [renderOutlook, renderCatchment, renderGround, renderUnusual, renderStatus, renderOverview].forEach(function (fn) { try { fn(); } catch (e) { if (window.console) console.error(e); } });
   }
 
   // ------------------------------------------------------------------ hero
@@ -700,6 +771,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     $("marks").innerHTML = html;
     drawStaff();
     startWater();
+    renderStatus();
   }
   function histMarks(siteId) {
     var out = [];
@@ -752,6 +824,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     size();
     var rz; window.onresize = function () { clearTimeout(rz); rz = setTimeout(function () { renderHero(); }, 150); };
     function frame(now) {
+      if (S.view && S.view !== "now") { raf = 0; return; } // paused while another view is open
       var w = cv.clientWidth, h = cv.clientHeight;
       ctx.clearRect(0, 0, w, h);
       if (wall.level == null) return;
@@ -813,10 +886,9 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     svg += '<path d="M752 86 H28" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none" class="flow"/>';
     svg += '<path d="M380 506 V86" stroke="#4BC9F5" stroke-width="8" stroke-linecap="round" fill="none"/>';
     svg += '<path d="M380 506 V86" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none" class="flow"/>';
-    svg += '<path d="M470 86 C480 130 510 150 520 170 S540 230 548 262" stroke="#4BC9F5" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.75"/>';
-    svg += '<text x="556" y="292" class="val">Goulburn River</text>';
-    svg += '<path d="M688 86 C692 130 700 160 704 200" stroke="#4BC9F5" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7"/>';
-    svg += '<text x="704" y="262" class="val" text-anchor="middle">Ovens River</text>';
+    svg += '<path d="M470 86 C540 130 590 190 604 240 S632 295 640 330" stroke="#4BC9F5" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.75"/>';
+    svg += '<text x="652" y="350" class="val">Goulburn River</text>';
+    svg += '<path d="M690 86 C700 110 718 130 722 165" stroke="#4BC9F5" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7"/>';
     svg += '<ellipse cx="380" cy="450" rx="44" ry="16" fill="#cdeefb" stroke="#4BC9F5" stroke-width="3"/>';
     svg += '<text x="432" y="455" class="val">Lake Eppalock</text>';
     svg += '<text x="28" y="30" class="rname">Murray River</text><text x="196" y="30" class="val">flows west</text>';
@@ -853,7 +925,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   Array.prototype.forEach.call($("riverFilter").querySelectorAll("button"), function (b) { b.addEventListener("click", function () { S.filter = b.getAttribute("data-f"); setFilter(); renderCards(); }); });
 
   function renderCards() {
-    var list = S.latest.sites.filter(function (s) { return S.filter === "all" || s.river === S.filter; });
+    var list = S.latest.sites.filter(function (s) { return S.filter === "all" || (S.filter === "key" ? s.key || ["near", "minor", "moderate", "major"].indexOf(s.status.code) > -1 || (s.rise && s.rise.toLevels && s.rise.toLevels.length) : s.river === S.filter); });
     $("cards").innerHTML = list.map(function (s) {
       var worst = worstEvent(s.id);
       var meter = "";
@@ -1358,6 +1430,92 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     if (!sk || !sk.leads || !sk.leads.length) { $("skill").innerHTML = '<div class="empty">Building up. The first scores appear once forecasts from a few days ago can be checked against what fell.</div>'; return; }
     $("skill").innerHTML = '<div style="overflow-x:auto"><table class="light-table" style="border:0"><thead><tr><th>Days ahead</th><th class="n">Typical miss</th><th class="n">Heavy days caught</th><th class="n">False alarms</th><th class="n">Checks</th></tr></thead><tbody>' +
       sk.leads.map(function (l) { return "<tr><td>" + l.lead + ' day' + (l.lead > 1 ? "s" : "") + '</td><td class="n">' + f(l.mae, 1) + ' mm</td><td class="n">' + (l.heavyCaught == null ? "-" : l.heavyCaught + "% (" + l.hits + "/" + (l.hits + l.misses) + ")") + '</td><td class="n">' + l.falseAlarms + '</td><td class="n">' + l.n + "</td></tr>"; }).join("") + "</tbody></table></div>";
+  }
+
+  // ================================================================== app views (one area at a time)
+  var VIEWS = [
+    ["now", "Now"], ["next", "Next 72 h"], ["gauges", "Gauges"], ["catchment", "Catchment"], ["rain", "Rain"],
+    ["map", "Flood map"], ["past", "Past floods"], ["rarity", "How rare"], ["data", "Data"]
+  ];
+  var VIEW_IDS = VIEWS.map(function (v) { return v[0]; });
+  // old in-page links (#rain, #past ...) still work: section id -> view
+  var SECTION_VIEW = {};
+  Array.prototype.forEach.call(document.querySelectorAll("[data-view]"), function (el) { SECTION_VIEW[el.id] = el.getAttribute("data-view"); });
+  S.view = null;
+  $("abTabs").innerHTML = VIEWS.map(function (v) { return '<a role="tab" id="tab-' + v[0] + '" href="#/' + v[0] + '" aria-controls="views" aria-selected="false" tabindex="-1">' + '<span class="tdot" id="tdot-' + v[0] + '" hidden></span>' + esc(v[1]) + "</a>"; }).join("");
+  function viewFromHash() {
+    var h = (location.hash || "").replace(/^#\/?/, "");
+    if (VIEW_IDS.indexOf(h) > -1) return h;
+    if (SECTION_VIEW[h]) return SECTION_VIEW[h];
+    var saved = null; try { saved = localStorage.getItem("rw-view"); } catch (e) { /* storage blocked */ }
+    return VIEW_IDS.indexOf(saved) > -1 && !h ? saved : "now";
+  }
+  function showView(v, opts) {
+    opts = opts || {};
+    if (v === S.view && !opts.force) return;
+    var apply = function () {
+      S.view = v;
+      Array.prototype.forEach.call(document.querySelectorAll("[data-view]"), function (el) { el.hidden = el.getAttribute("data-view") !== v; });
+      VIEW_IDS.forEach(function (id) { var a = $("tab-" + id); a.setAttribute("aria-selected", String(id === v)); a.tabIndex = id === v ? 0 : -1; });
+      var tab = $("tab-" + v); if (tab && tab.scrollIntoView) tab.scrollIntoView({ block: "nearest", inline: "nearest" });
+      try { localStorage.setItem("rw-view", v); } catch (e) { /* storage blocked */ }
+      document.title = (v === "now" ? "" : VIEWS[VIEW_IDS.indexOf(v)][1] + " · ") + "Campaspe & Murray River Watch";
+      if (S.latest) {
+        if (v === "now") renderHero();
+        if (v === "map") { lazyMap(); if (MAP) setTimeout(function () { MAP.resize(); }, 30); }
+        if (v === "rarity" && S.freq) renderUnusual();
+      }
+      if (!opts.keepScroll) { var bar = document.querySelector(".appbar"); var top = bar.getBoundingClientRect().top + window.scrollY; if (window.scrollY > top) window.scrollTo(0, top); }
+    };
+    if (document.startViewTransition && !opts.instant && !matchMedia("(prefers-reduced-motion: reduce)").matches) document.startViewTransition(apply); else apply();
+  }
+  window.addEventListener("hashchange", function () {
+    var h = (location.hash || "").replace(/^#\/?/, "");
+    showView(viewFromHash());
+    if (h && VIEW_IDS.indexOf(h) < 0) { var el = $(h); if (el) setTimeout(function () { el.scrollIntoView(); }, 40); }
+  });
+  $("abTabs").addEventListener("keydown", function (e) {
+    var i = VIEW_IDS.indexOf(S.view), n = null;
+    if (e.key === "ArrowRight") n = (i + 1) % VIEW_IDS.length; else if (e.key === "ArrowLeft") n = (i - 1 + VIEW_IDS.length) % VIEW_IDS.length; else if (e.key === "Home") n = 0; else if (e.key === "End") n = VIEW_IDS.length - 1;
+    if (n == null) return;
+    e.preventDefault(); location.hash = "#/" + VIEW_IDS[n]; $("tab-" + VIEW_IDS[n]).focus();
+  });
+  showView(viewFromHash(), { instant: true, keepScroll: true });
+
+  // ---------- status line in the bar, and dots on tabs that need attention
+  function renderStatus() {
+    var s = S.byId[S.hero] || S.byId["406283"];
+    if (s) $("abStatus").innerHTML = '<span class="dot c-' + s.status.code + '"></span><span><span class="nm">' + esc(shortName(s.name)) + "</span> <b>" + (s.latest ? f(s.latest.v) + " " + esc(s.unit) : "-") + "</b> " + esc(s.trend && s.trend !== "unknown" ? s.trend : "") + "</span>";
+    var flooding = S.latest.sites.filter(function (x) { return ["minor", "moderate", "major"].indexOf(x.status.code) > -1; });
+    var preds = (S.latest.warnings && S.latest.warnings.predictions) || [];
+    var rising = S.latest.sites.filter(function (x) { return x.rise && x.rise.toLevels && x.rise.toLevels.length; });
+    var dots = { gauges: flooding.length ? COLOR[flooding.some(function (x) { return x.status.code === "major"; }) ? "major" : "moderate"] : null, next: preds.length || rising.length ? COLOR.minor : null };
+    VIEW_IDS.forEach(function (id) { var d = $("tdot-" + id); d.hidden = !dots[id]; if (dots[id]) d.style.background = dots[id]; });
+  }
+
+  // ---------- "Now" view: one tile per area, each opens its view
+  function renderOverview() {
+    var a = A(), tiles = [];
+    function tile(view, kicker, value, text, alert) { tiles.push('<a class="tile' + (alert ? " alert" : "") + '" href="#/' + view + '"><span class="kicker">' + esc(kicker) + '</span><span class="tv">' + value + "</span><p>" + text + '</p><span class="go">Open ' + esc(VIEWS[VIEW_IDS.indexOf(view)][1].toLowerCase()) + " &rarr;</span></a>"); }
+    var preds = (S.latest.warnings && S.latest.warnings.predictions) || [];
+    var rising = S.latest.sites.filter(function (x) { return x.rise && x.rise.toLevels && x.rise.toLevels.length; }).sort(function (x, y) { return x.rise.toLevels[0].hours - y.rise.toLevels[0].hours; });
+    if (preds.length) { var p = preds[0], ps = S.byId[p.site] || {}; tile("next", "Bureau prediction", f(p.level) + "<small>" + esc(ps.unit || "m") + "</small>", esc(ps.name || p.place) + " " + esc(p.certainty) + " " + esc(p.kind) + (p.when ? ", " + esc(p.when) : "") + ".", true); }
+    else if (rising.length) { var r = rising[0], nx = r.rise.toLevels[0]; tile("next", "Next 72 hours", LEVEL_NAME[nx.level] + " in " + hrs(nx.hours), esc(shortName(r.name)) + " is rising " + f(r.rise.mPerHour6 * 100, 1) + " cm an hour. Worked out from the trend, not a forecast.", true); }
+    else { var up = S.latest.sites.filter(function (x) { return x.rise && x.rise.mPerHour6 > 0.003; }).length; tile("next", "Next 72 hours", up ? up + " rising" : "Steady", up ? "Some gauges are rising, but none is on track to reach a flood level in the next 4 days." : "No gauge is rising towards a flood level. No Bureau predictions are current."); }
+    var fl = S.latest.sites.filter(function (x) { return ["minor", "moderate", "major"].indexOf(x.status.code) > -1; });
+    var withData = S.latest.sites.filter(function (x) { return x.latest; }).length;
+    tile("gauges", "Gauges", fl.length ? fl.length + "<small>at flood level</small>" : withData + "<small>reporting</small>", fl.length ? esc(fl.map(function (x) { return shortName(x.name); }).join(", ")) + "." : "All reporting gauges are below their minor flood levels.", fl.length > 0);
+    var st = a.catchment && a.catchment.storages && a.catchment.storages[0], soil = a.catchment && a.catchment.soil && a.catchment.soil.filter(function (x) { return /Upper Campaspe/.test(x.catchment); })[0];
+    if (st && st.latest && st.latest.pct != null) tile("catchment", "Lake Eppalock", f(st.latest.pct, 0) + "<small>% full</small>", (st.spilling ? "Full and spilling: inflows carry on to Rochester." : "Room to hold some inflows.") + (soil && soil.percentile != null ? " Upper catchment soil wetness " + soil.percentile + " / 100." : ""), !!st.spilling);
+    var vs = a.versus;
+    if (vs && vs.now.next3 != null) tile("rain", "Rain ahead", f(vs.now.next3, 0) + "<small>mm, 3 days</small>", "Upper catchment forecast. " + f(vs.now.next7, 0) + " mm over 7 days.", vs.now.next3 >= 25);
+    tile("map", "Flood map", "Check an address", "See the 1-in-100-year flood area, mapped past floods and planning overlays.");
+    var worstPast = worstEvent("406283"), rt = S.byId["406283"];
+    if (worstPast && rt && rt.latest) tile("past", "Past floods", f(worstPast.v - rt.latest.v, 1) + "<small>m below</small>", "Rochester Town is " + f(worstPast.v - rt.latest.v, 2) + " m below the " + esc(worstPast.name) + " peak.");
+    else tile("past", "Past floods", (S.events || []).length + "<small>floods</small>", "Every past flood rebuilt hour by hour, with travel times and rain.");
+    var rs = S.byId["406202"] && S.byId["406202"].rarity;
+    if (rs && rs.years) tile("rarity", "How rare is today", rs.beyondRecord ? "Record" : rs.oneIn >= 2 ? "1 in " + Math.round(rs.oneIn) + "<small>years</small>" : "Ordinary", "Rochester Syphon " + (rs.kind === "flow" ? "flow" : "level") + " compared with every year since " + (S.freq && S.freq["406202"] ? S.freq["406202"].from : "records began") + ".", rs.oneIn >= 5);
+    $("tiles").innerHTML = tiles.join("");
   }
 
   load();
