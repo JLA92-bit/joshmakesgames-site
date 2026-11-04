@@ -1,0 +1,15 @@
+site,bom_number,name,river,datum,gauge_zero_m_ahd,minor,moderate,major,note
+406213,588006,Redesdale,Campaspe,gauge,213.053,5.3,,,Upstream of Lake Eppalock
+406207,581007,Lake Eppalock (downstream),Campaspe,AHD,,158.4,160.4,162.4,Below the dam wall
+406201,581002,Barnadown,Campaspe,gauge,132.489,3.8,4.4,5,
+406218,581008,Campaspe Weir (head gauge),Campaspe,AHD,120.133,121.2,121.4,121.6,Near Elmore
+406283,580011,Rochester Town,Campaspe,AHD,103.615,113,114,114.5,The gauge used in Rochester flood warnings
+406202,580010,Rochester Syphon,Campaspe,gauge,103.615,8,8.8,9.1,"Long record, used for older floods"
+406265,580014,Echuca (Campaspe),Campaspe,AHD,,92.8,94.4,95.7,Just above the Murray junction
+406214,,Gauge 406214 (GMW Water Status),Campaspe,gauge,,,,,From waterstatus.g-mwater.com.au; name fills in from WMIS
+409025,74246,Yarrawonga (downstream),Murray,gauge,,6.4,6.7,7.8,
+409202,574004,Tocumwal,Murray,gauge,103.83,6.4,6.7,7.3,
+409200,574000,Echuca Wharf / Moama,Murray,AHD,,93.5,93.9,94.4,At the Campaspe junction
+409207,574003,Torrumbarry Weir,Murray,gauge,78.545,7.3,7.6,7.8,
+409005,575000,Barham,Murray,gauge,71.434,5.5,5.8,6.1,
+409204,76112,Swan Hill,Murray,gauge,62.921,4.5,4.6,4.7,
