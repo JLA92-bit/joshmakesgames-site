@@ -17,6 +17,13 @@ on:
         description: "Rebuild past-flood files that already exist"
         type: boolean
         default: false
+      gaps:
+        description: "Daily history: only fetch periods that are missing"
+        type: boolean
+        default: false
+      sites:
+        description: "Daily history: only these gauges (comma separated, blank for all)"
+        default: ""
 
 permissions:
   contents: write
@@ -40,7 +47,7 @@ jobs:
         if: inputs.only == 'all' || inputs.only == 'daily'
         continue-on-error: true
         timeout-minutes: 150
-        run: node river-watch/collector/backfill.mjs --only daily --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
+        run: node river-watch/collector/backfill.mjs --only daily --from "${{ inputs.from }}" ${{ inputs.gaps && '--gaps' || '' }} ${{ inputs.sites != '' && format('--sites {0}', inputs.sites) || '' }}
       - name: Save daily
         if: always() && (inputs.only == 'all' || inputs.only == 'daily')
         env:
