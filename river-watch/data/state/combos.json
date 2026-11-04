@@ -33,7 +33,7 @@
  },
  "406265": {
   "portal": "vic",
-  "ds": "A"
+  "ds": "PUBLISH"
  },
  "406283": {
   "portal": "vic",
@@ -73,11 +73,11 @@
  },
  "406265:flow": {
   "portal": "vic",
-  "ds": "A"
+  "ds": "PUBLISH"
  },
  "406214:flow": {
   "portal": "vic",
-  "ds": "PUBLISH"
+  "ds": "A"
  },
  "409202:flow": {
   "portal": "vic",
