@@ -2,7 +2,7 @@
 const UA = 'RiverWatch/1.0 (Rochester community flood awareness project)';
 const VIC = 'https://data.water.vic.gov.au/WMIS/cgi/webservice.exe?';
 const NSW = 'https://realtimedata.waternsw.com.au/cgi/webservice.exe?';
-const get = async (u, opt = {}) => { const r = await fetch(u, { headers: { 'User-Agent': UA, ...opt } }); return { status: r.status, text: await r.text() }; };
+const get = async (u, opt = {}) => { try { const r = await fetch(u, { headers: { 'User-Agent': UA, ...opt }, signal: AbortSignal.timeout(25000) }); return { status: r.status, text: await r.text() }; } catch (e) { return { status: 'ERR ' + e.message, text: '' }; } };
 const hyd = async (base, payload) => { try { const r = await get(base + encodeURIComponent(JSON.stringify(payload))); return r.text; } catch (e) { return 'ERR ' + e.message; } };
 const cut = (s, n = 3000) => (s.length > n ? s.slice(0, n) + ' ...[' + s.length + ']' : s);
 const sec = (t) => console.log('\n=================== ' + t);
@@ -73,3 +73,11 @@ r = await get('https://nominatim.openstreetmap.org/search?q=' + encodeURICompone
 console.log(r.status, cut(r.text, 400));
 sec('GMW storage page');
 for (const u of ['https://www.g-mwater.com.au/water-resources/catchments/storage-levels', 'https://waterstatus.g-mwater.com.au/waterstatus/']) { try { const x = await get(u); console.log(u, x.status, cut(x.text.replace(/<script[\s\S]*?<\/script>/g,'').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' '), 1500)); } catch (e) { console.log(u, 'ERR', e.message); } }
+
+sec('Planning flood overlays (ArcGIS REST)');
+for (const u of [
+  'https://spatial.planning.vic.gov.au/server/rest/services/planning_flood_control/MapServer/layers?f=json',
+  'https://spatial.planning.vic.gov.au/server/rest/services/planning_flood_control/MapServer/identify?geometry=144.70,-36.363&geometryType=esriGeometryPoint&sr=4326&layers=all&tolerance=2&mapExtent=144.6,-36.45,144.8,-36.3&imageDisplay=600,400,96&returnGeometry=false&f=json',
+  'https://data.gov.au/geoserver/aep-flood-extent-north-central-cma-region-victoria-1/wms?service=WMS&request=GetCapabilities',
+  'https://opendata.maps.vic.gov.au/geoserver/wfs?service=WFS&request=GetCapabilities',
+]) { const x = await get(u); console.log('\n' + u, x.status, x.text.length); console.log(cut(x.text.replace(/\s+/g, ' '), 2500)); for (const m of x.text.matchAll(/<(?:Name|Title)>([^<]*(?:lood|FLOOD|AEP|aep)[^<]*)<\/(?:Name|Title)>/g)) console.log('  layer', m[1]); }
