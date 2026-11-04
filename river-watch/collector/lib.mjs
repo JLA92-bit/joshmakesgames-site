@@ -68,11 +68,11 @@ export function parseHydstraTime(s) {
 }
 
 // ------------------------------------------------------------ http
-export async function getJson(url, tries = 3) {
+export async function getJson(url, tries = 3, timeoutMs = 45000) {
   let err;
   for (let i = 0; i < tries; i++) {
     try {
-      const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' }, signal: AbortSignal.timeout(45000) });
+      const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' }, signal: AbortSignal.timeout(timeoutMs) });
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return await r.json();
     } catch (e) { err = e; await sleep(1500 * (i + 1)); }
@@ -102,17 +102,21 @@ export const unitFor = (site) => (site.datum === 'AHD' ? 'm AHD' : 'm');
  * Tries each portal and data source until one returns data; remembers what worked.
  * Returns { points: [{t, v, q}], name, portal }.
  */
-export async function traces(site, kind, start, end, interval, dataType) {
+export async function traces(site, kind, start, end, interval, dataType, opts = {}) {
   if (MOCK) return mock.traces(site, kind, start, end, interval);
   if (!combos) combos = readJson(COMBO_FILE(), {});
   const tries = [];
-  const rem = combos[site.id];
+  // remember what worked for each site and variable, and try that first
+  const key = kind === 'level' ? site.id : site.id + ':flow';
+  const rem = combos[key] || combos[site.id];
   if (rem) tries.push(rem);
   for (const pk of site.portals) for (const ds of CFG.portals[pk].datasources) {
     if (!rem || rem.portal !== pk || rem.ds !== ds) tries.push({ portal: pk, ds });
   }
   let lastErr = 'no data returned';
-  for (const c of tries) {
+  // once a source has worked, only use that source (saves minutes of retries on long back-fills)
+  const list = opts.onlyRemembered && combos[key] ? [combos[key]] : tries;
+  for (const c of list) {
     try {
       const payload = {
         function: 'get_ts_traces', version: '2',
@@ -123,7 +127,7 @@ export async function traces(site, kind, start, end, interval, dataType) {
           interval, multiplier: '1', data_type: dataType
         }
       };
-      const j = await getJson(CFG.portals[c.portal].url + encodeURIComponent(JSON.stringify(payload)), 2);
+      const j = await getJson(CFG.portals[c.portal].url + encodeURIComponent(JSON.stringify(payload)), opts.tries || 2, opts.timeoutMs || 45000);
       if (j.error_num) throw new Error(j.error_msg || 'error ' + j.error_num);
       const points = [];
       let name = '';
@@ -137,7 +141,7 @@ export async function traces(site, kind, start, end, interval, dataType) {
         }
       }
       if (points.length) {
-        if (kind === 'level') combos[site.id] = c;
+        combos[key] = c;
         return { points, name, portal: `${c.portal}:${c.ds}` };
       }
     } catch (e) { lastErr = String(e.message || e); }
