@@ -5,7 +5,7 @@
 //   node collector/backfill.mjs --only events   just detect floods and build event files
 //   node collector/backfill.mjs --only storage  just storage history (Lake Eppalock)
 //   node collector/backfill.mjs --only soil     just soil moisture history (ERA5)
-//   add --from 2000 to start later, --force to rebuild event files
+//   add --from 2000 to start later, --force to rebuild event files, --sites 406201,406283 for some gauges only
 // Created by Josh Avard
 import path from 'node:path';
 import fs from 'node:fs';
@@ -25,20 +25,46 @@ const polite = MOCK ? 0 : 300; // ms between requests
 
 // ------------------------------------------------------------ 1. daily levels and flows
 if (only === 'all' || only === 'daily') {
-  for (const site of CFG.sites) {
+  const siteList = opt('sites', '') ? CFG.sites.filter((s) => opt('sites', '').split(',').includes(s.id)) : CFG.sites;
+  // Flows are converted from levels on the server, which can be slow over long periods.
+  // Each period starts at 5 years; if the server takes too long, the period is split in half and
+  // tried again (down to about 3 months). Progress is printed after every piece.
+  const WAIT = 75000, MIN_DAYS = 100;
+  const fmtD = (d) => new Date(d.getTime() + CFG.hydstraOffsetHours * HOUR).toISOString().slice(0, 10);
+  for (const site of siteList) {
     for (const kind of ['level', 'flow']) {
-      let n = 0;
-      for (let y = fromYear; y <= thisYear; y += 5) {
+      let n = 0, stuck = 0, worked = false;
+      const t0 = Date.now();
+      const piece = async (start, end) => {
+        if (stuck >= 3) return;
+        const c0 = Date.now();
+        try {
+          const res = await traces(site, kind, start, end, 'day', kind === 'level' ? 'max' : 'mean', { tries: 1, timeoutMs: WAIT, onlyRemembered: worked });
+          upsertDaily(site.id, kind, res.points);
+          n += res.points.length; worked = true; stuck = 0;
+          console.log(`  ${site.id} ${kind} ${fmtD(start)} to ${fmtD(end)}: ${res.points.length} days (${((Date.now() - c0) / 1000).toFixed(0)}s)`);
+        } catch (err) {
+          const msg = String(err.message || err);
+          const slow = /abort|timeout|timed out/i.test(msg) || Date.now() - c0 >= WAIT - 1000;
+          if (slow && (end - start) / DAY > MIN_DAYS * 2) {
+            console.log(`  ${site.id} ${kind} ${fmtD(start)} to ${fmtD(end)}: slow, splitting in half`);
+            const mid = new Date(start.getTime() + Math.round((end - start) / 2 / DAY) * DAY);
+            await piece(start, mid); await sleep(polite); await piece(mid, end);
+            return;
+          }
+          if (slow) stuck++;
+          console.log(`  ${site.id} ${kind} ${fmtD(start)} to ${fmtD(end)}: none (${msg.slice(0, 70)}, ${((Date.now() - c0) / 1000).toFixed(0)}s)`);
+        }
+      };
+      for (let y = fromYear; y <= thisYear && stuck < 3; y += 5) {
         const start = new Date(Date.UTC(y, 0, 1) - CFG.hydstraOffsetHours * HOUR);
         const end = new Date(Math.min(Date.UTC(y + 5, 0, 1) - CFG.hydstraOffsetHours * HOUR, Date.now()));
-        try {
-          const res = await traces(site, kind, start, end, 'day', kind === 'level' ? 'max' : 'mean');
-          upsertDaily(site.id, kind, res.points);
-          n += res.points.length;
-        } catch { /* no record for this period */ }
+        await piece(start, end);
+        saveState();
         await sleep(polite);
       }
-      console.log(`daily ${site.id} ${site.name} ${kind}: ${n} days`);
+      if (stuck >= 3) console.log(`  ${site.id} ${kind}: the server kept timing out, skipped the rest for now`);
+      console.log(`daily ${site.id} ${site.name} ${kind}: ${n} days in ${((Date.now() - t0) / 60000).toFixed(1)} min`);
     }
   }
   saveState();

@@ -35,6 +35,8 @@ function level(site, t) {
 }
 
 export async function traces(site, kind, start, end, interval) {
+  // RW_MOCK_SLOW=1 pretends the server times out on flow requests longer than about 2 years (for testing)
+  if (process.env.RW_MOCK_SLOW === '1' && kind === 'flow' && end - start > 800 * DAY) throw new Error('The operation was aborted due to timeout');
   if (kind === 'flow' && NO_FLOW.includes(site.id)) throw new Error('no data returned');
   const from = Math.max(start.getTime(), Date.UTC(1990, 0, 1));
   const to = end.getTime();
