@@ -72,7 +72,7 @@ export async function getJson(url, tries = 3) {
   let err;
   for (let i = 0; i < tries; i++) {
     try {
-      const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
+      const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' }, signal: AbortSignal.timeout(45000) });
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return await r.json();
     } catch (e) { err = e; await sleep(1500 * (i + 1)); }
@@ -80,7 +80,7 @@ export async function getJson(url, tries = 3) {
   throw err;
 }
 export async function getText(url) {
-  const r = await fetch(url, { headers: { 'User-Agent': UA } });
+  const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(30000) });
   if (!r.ok) throw new Error('HTTP ' + r.status);
   return r.text();
 }

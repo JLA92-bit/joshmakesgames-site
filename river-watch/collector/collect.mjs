@@ -59,6 +59,7 @@ const sites = CFG.sites.map((s) => {
 });
 
 // ---------------- rain
+console.log('STEP rain', ((Date.now() - now.getTime()) / 1000).toFixed(1) + 's');
 let rain = readJson(path.join(DATA, 'latest.json'), {}).rain || null;
 try {
   const pts = await rainForecast();
@@ -88,6 +89,7 @@ try {
 } catch (e) { note('WARN', 'Rain: ' + e.message); }
 
 // ---------------- warnings
+console.log('STEP warnings', ((Date.now() - now.getTime()) / 1000).toFixed(1) + 's');
 let warn = { fetched: now.toISOString(), ok: false, items: [] };
 try {
   const items = await warnings();
@@ -105,6 +107,7 @@ try {
 } catch (e) { note('WARN', 'Warnings: ' + e.message + ' (BoM may block automated requests)'); }
 
 // ---------------- storages (daily level and volume)
+console.log('STEP storages', ((Date.now() - now.getTime()) / 1000).toFixed(1) + 's');
 for (const st of CFG.storages || []) {
   try {
     const s0 = new Date(now.getTime() - 14 * DAY);
@@ -120,6 +123,7 @@ for (const st of CFG.storages || []) {
 }
 
 // ---------------- soil moisture (ERA5 runs about 5 days behind, so refresh once a day)
+console.log('STEP soil', ((Date.now() - now.getTime()) / 1000).toFixed(1) + 's');
 if (CFG.soil && st.soilDay !== localDate(now.getTime())) {
   try {
     const endDate = localDate(now.getTime() - 2 * DAY), startDate = localDate(now.getTime() - 20 * DAY);
@@ -135,6 +139,7 @@ if (CFG.soil && st.soilDay !== localDate(now.getTime())) {
 }
 
 // ---------------- analysis (not official forecasts)
+console.log('STEP analysis', ((Date.now() - now.getTime()) / 1000).toFixed(1) + 's');
 const freq = {};
 for (const s of CFG.sites) {
   const f = frequency(s.id, 'flow') || frequency(s.id, 'level');
