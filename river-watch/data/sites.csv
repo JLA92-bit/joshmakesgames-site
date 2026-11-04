@@ -13,3 +13,6 @@ site,bom_number,name,river,datum,gauge_zero_m_ahd,minor,moderate,major,note
 409207,574003,Torrumbarry Weir,Murray,gauge,78.545,7.3,7.6,7.8,
 409005,575000,Barham,Murray,gauge,71.434,5.5,5.8,6.1,
 409204,76112,Swan Hill,Murray,gauge,62.921,4.5,4.6,4.7,
+405232,580000,McCoys Bridge,Goulburn,gauge,91.422,9,10,10.2,"Lower Goulburn, joins the Murray upstream of Echuca"
+405204,81044,Shepparton,Goulburn,gauge,100.127,9.5,10.7,11,
+403200,582033,Wangaratta,Ovens,gauge,130.426,11.9,12.4,12.7,"Ovens River, joins the Murray at Lake Mulwala"
