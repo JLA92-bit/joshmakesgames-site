@@ -1,101 +1,174 @@
 /* Josh Makes Games - studio site */
-:root{--ink:#26222e;--ink-2:#4a4456;--coral:#f25f5c;--coral-d:#c8413f;--cream:#fff8ec;--paper:#ffffff;--yellow:#ffc93c;--yellow-d:#c98f0a;--blue:#3fa9f5;--blue-d:#1f6fb8;--mint:#7cc85a;--green:#6cc644;--green-d:#3f8f22;
-  --font:"Fredoka","Nunito","Trebuchet MS",system-ui,sans-serif;--wrap:1120px;--r:20px}
+:root{
+  --bg:#faf8f5;--surface:#ffffff;--ink:#1d1a23;--muted:#5d5866;--line:#e9e4dd;
+  --coral:#f25f5c;--coral-d:#c23d3a;--yellow:#ffc93c;--blue:#3fa9f5;
+  --sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --display:"Fredoka","Inter",system-ui,sans-serif;
+  --wrap:1160px;--r:18px;
+  --shadow-sm:0 1px 2px rgba(29,26,35,.05);
+  --shadow:0 1px 2px rgba(29,26,35,.04),0 10px 30px -12px rgba(29,26,35,.18);
+  --shadow-lg:0 2px 4px rgba(29,26,35,.04),0 24px 48px -16px rgba(29,26,35,.28);
+}
 *,*::before,*::after{box-sizing:border-box}
-body{margin:0;font-family:var(--font);font-size:1.0625rem;line-height:1.6;color:var(--ink);background:var(--cream);
-  background-image:radial-gradient(rgba(38,34,46,.07) 2px,transparent 2.5px);background-size:32px 32px}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;font-family:var(--sans);font-size:1.0625rem;line-height:1.65;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
 img{max-width:100%;height:auto;display:block}
 a{color:var(--coral-d);text-underline-offset:3px}
-h1,h2,h3{font-weight:700;line-height:1.1;margin:0 0 .4em;text-wrap:balance}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.1;margin:0 0 .4em;text-wrap:balance;letter-spacing:-.01em}
 p{margin:0 0 1em;text-wrap:pretty}
-:focus-visible{outline:3px solid var(--blue-d);outline-offset:3px;border-radius:8px}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:8px}
 .wrap{width:min(100% - 32px,var(--wrap));margin-inline:auto}
-.skip{position:absolute;left:12px;top:-60px;background:var(--yellow);padding:10px 16px;border:3px solid var(--ink);border-radius:12px;z-index:9}
+.skip{position:absolute;left:12px;top:-60px;background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;z-index:20}
 .skip:focus{top:12px}
-/* Buttons (studio version of the candy button) */
-.btn{--c:var(--coral);--d:var(--coral-d);display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:8px 22px 12px;
-  font:700 1.1rem/1 var(--font);color:#fff;text-decoration:none;background:var(--c);border:3px solid var(--ink);border-radius:16px;
-  box-shadow:inset 0 -5px 0 var(--d),0 4px 0 var(--ink);transition:transform .08s}
-.btn:hover{color:#fff;filter:brightness(1.05)}.btn:active{transform:translateY(3px);box-shadow:inset 0 -3px 0 var(--d),0 1px 0 var(--ink)}
-.btn--green{--c:var(--green);--d:var(--green-d)}.btn--ink{--c:var(--ink);--d:#000}
-.play-badge img{height:58px;width:auto}
-/* Header */
-.header{border-bottom:3px solid var(--ink);background:var(--cream)}
-.header__bar{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:72px;flex-wrap:wrap}
-.header__logo img{height:44px;width:auto}
-.header nav ul{list-style:none;margin:0;padding:0;display:flex;gap:4px}
-.header nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border-radius:12px;color:var(--ink);font-weight:600;text-decoration:none}
-.header nav a:hover{background:#fff}
-@media (max-width:560px){.header nav{width:100%}.header nav ul{justify-content:space-between}.header__bar{padding:10px 0 4px}}
-/* Hero */
-.hero{padding:48px 0 56px}
-.hero h1{font-size:clamp(2.3rem,7vw,4rem);max-width:16ch}
-.hero h1 span{color:var(--coral)}
-.hero__lead{font-size:1.2rem;max-width:520px;color:var(--ink-2)}
-.banner{display:grid;gap:0;background:var(--paper);border:3px solid var(--ink);border-radius:var(--r);overflow:hidden;box-shadow:0 8px 0 var(--ink);margin-top:28px}
-.banner__img{aspect-ratio:1024/500;object-fit:cover;width:100%}
-.banner__body{padding:20px;display:flex;flex-direction:column;gap:12px}
-.banner__body h2{font-size:1.7rem;margin:0}
-.banner__cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
-.eyebrow{font-size:.85rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--coral-d);margin:0}
-@media (min-width:880px){.banner{grid-template-columns:1.6fr 1fr}.banner__img{height:100%}.banner__body{padding:32px;justify-content:center}}
-/* Sections */
-.section{padding:56px 0}
-.section h2{font-size:clamp(1.8rem,5vw,2.4rem)}
-.section--ink{background:var(--ink);color:var(--cream)}
-.section--ink a{color:var(--yellow)}
-/* Game card component */
-.games{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr))}
-.game-card{position:relative;display:flex;flex-direction:column;background:var(--paper);border:3px solid var(--ink);border-radius:var(--r);overflow:hidden;box-shadow:0 6px 0 var(--ink);height:100%}
-.game-card__cover{aspect-ratio:1024/500;object-fit:cover;width:100%;border-bottom:3px solid var(--ink)}
-.game-card__body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:10px;flex:1}
-.game-card h3{font-size:1.5rem;margin:0}
-.game-card p{margin:0;color:var(--ink-2)}
-.badges{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
-.badge{display:inline-flex;align-items:center;gap:6px;font-size:.9rem;font-weight:600;padding:3px 10px;border:2px solid var(--ink);border-radius:999px;background:var(--cream)}
-.badge img{width:18px;height:18px}
-.badge--soon{background:var(--yellow)}
-.game-card__link{margin-top:auto;font-weight:700;color:var(--ink);display:inline-flex;align-items:center;min-height:44px}
-.game-card__link::after{content:"";position:absolute;inset:0}
-.game-card:hover{transform:translateY(-2px)}
-.game-card--soon .game-card__body{background:var(--cream)}
-/* About */
-.about{display:grid;gap:28px;align-items:center}
-@media (min-width:820px){.about{grid-template-columns:1.3fr 1fr}}
-.about__card{background:var(--paper);color:var(--ink);border:3px solid var(--ink);border-radius:var(--r);padding:24px;box-shadow:0 6px 0 #000}
-.about__card h3{font-size:1.3rem}
-/* Footer */
-.footer{border-top:3px solid var(--ink);padding:36px 0 28px;background:var(--cream)}
-.footer__grid{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr))}
-.footer h2{font-size:1.05rem;margin:0 0 6px}
-.footer ul{list-style:none;margin:0;padding:0}
-.footer a{display:inline-flex;align-items:center;min-height:40px;color:var(--ink);font-weight:500}
-.footer small{display:block;margin-top:24px;color:var(--ink-2)}
-/* Store links (coming soon / live) */
-.section__lead{margin:-4px 0 0;color:var(--ink-2)}
-.stores{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
-.store{display:inline-flex;flex-direction:column;justify-content:center;min-height:48px;padding:6px 16px;border:2.5px solid var(--ink);border-radius:14px;background:var(--ink);color:var(--cream);text-decoration:none;line-height:1.15}
-.store__name{font-weight:700;font-size:1rem}
-.store__note{font-size:.78rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--yellow)}
-a.store:hover{color:#fff;background:#3a3446}
-.store--soon{background:transparent;color:var(--ink);border-style:dashed}
-.store--soon .store__note{color:var(--coral-d)}
-.game-card .stores{margin-top:2px}
-.game-card__link{position:static}
-.game-card__link::after{content:none}
-/* Quick facts */
-.facts{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(180px,100%),1fr));margin:20px 0 0}
-.facts div{border:2px solid rgba(255,248,236,.35);border-radius:14px;padding:10px 14px}
-.facts dt{font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--yellow)}
-.facts dd{margin:2px 0 0;font-weight:600}
+.kicker{display:inline-flex;align-items:center;gap:8px;margin:0 0 14px;font-size:.8rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--coral-d)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--coral);box-shadow:0 0 0 4px rgba(242,95,92,.18)}
 
-/* Hollow Creek (early access beta): 1952 country Victoria - deep navy, brick red, cream, serif title */
-.game-card--hc{--hc-navy:#0b2a4a;--hc-brick:#9b1119;--hc-paper:#f7efe0;background:var(--hc-paper);border-color:var(--hc-navy);box-shadow:0 6px 0 var(--hc-navy)}
-.game-card--hc .game-card__cover{border-bottom-color:var(--hc-navy)}
-.game-card--hc h3{font-family:"Fraunces","Georgia","Times New Roman",serif;font-weight:800;font-size:1.7rem;color:var(--hc-navy);letter-spacing:.01em}
-.game-card--hc p{color:#3a3a40}
-.beta-ribbon{position:absolute;z-index:1;top:14px;left:-6px;margin:0;padding:6px 16px 6px 14px;background:var(--hc-brick);color:#fff8ec!important;font-weight:700;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;border:2px solid var(--hc-navy);border-left:0;border-radius:0 8px 8px 0;box-shadow:0 3px 0 var(--hc-navy)}
-.beta-note{border-left:5px solid var(--hc-brick);background:#fff;padding:8px 12px;border-radius:0 10px 10px 0;font-size:.95rem}
-.badge--beta{background:var(--hc-brick);color:#fff8ec;border-color:var(--hc-navy)}
-.store--hc{background:var(--hc-navy);border-color:var(--hc-navy)}
-a.store--hc:hover{background:var(--hc-brick)}
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;font:600 1rem/1 var(--sans);text-decoration:none;border-radius:12px;border:1px solid transparent;transition:transform .15s,box-shadow .15s,background .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn--primary{background:var(--ink);color:#fff;box-shadow:var(--shadow)}
+.btn--primary:hover{background:#000;color:#fff}
+.btn--ghost{background:var(--surface);color:var(--ink);border-color:var(--line)}
+.btn--ghost:hover{border-color:#cfc8be;color:var(--ink)}
+.btn--light{background:#fff;color:var(--ink);word-break:break-all}
+.btn--light:hover{color:var(--ink);background:#f3efe9}
+
+/* Header */
+.header{position:sticky;top:0;z-index:10;background:rgba(250,248,245,.85);backdrop-filter:saturate(1.4) blur(12px);-webkit-backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid var(--line)}
+.header__bar{display:flex;align-items:center;justify-content:space-between;gap:8px 16px;min-height:68px;flex-wrap:wrap}
+.header__logo img{height:38px;width:auto}
+.header nav ul{list-style:none;margin:0;padding:0;display:flex;align-items:center;gap:2px}
+.header nav a{display:inline-flex;align-items:center;min-height:40px;padding:0 12px;border-radius:10px;color:var(--muted);font-weight:500;font-size:.95rem;text-decoration:none;transition:color .15s,background .15s}
+.header nav a:hover{color:var(--ink);background:rgba(29,26,35,.05)}
+.header nav a.nav__pill{color:#0f2a3d;background:#e3f2fc;margin-left:6px}
+.header nav a.nav__pill:hover{background:#cfe9fa}
+@media (max-width:600px){.header__bar{padding:10px 0 6px}.header nav{width:100%}.header nav ul{justify-content:space-between}.header nav a{padding:0 8px}.header nav a.nav__pill{margin-left:0}}
+
+/* Hero */
+.hero{padding:72px 0 88px;background:radial-gradient(60% 70% at 85% 30%,rgba(63,169,245,.12),transparent 70%),radial-gradient(50% 60% at 10% 0%,rgba(242,95,92,.10),transparent 70%)}
+.hero__grid{display:grid;gap:56px;align-items:center}
+@media (min-width:940px){.hero__grid{grid-template-columns:1fr 1.05fr}}
+.hero h1{font-size:clamp(2.5rem,6.4vw,4.4rem);font-weight:700;letter-spacing:-.025em;line-height:1.02}
+.hero h1 span{display:block;color:var(--coral)}
+.hero__lead{font-size:1.2rem;max-width:30em;color:var(--muted);margin-bottom:28px}
+.hero__cta{display:flex;flex-wrap:wrap;gap:12px}
+.hero__stats{display:flex;flex-wrap:wrap;gap:12px 36px;margin:40px 0 0;padding-top:24px;border-top:1px solid var(--line)}
+.hero__stats dt{font-size:.8rem;color:var(--muted);font-weight:500}
+.hero__stats dd{margin:0;font-family:var(--display);font-size:1.6rem;font-weight:600}
+.hero__art{position:relative;aspect-ratio:1.25;max-width:620px;width:100%;justify-self:center}
+.hero__shot{position:absolute;border-radius:16px;box-shadow:var(--shadow-lg);aspect-ratio:1024/500;object-fit:cover;border:4px solid #fff}
+.hero__shot--main{width:88%;left:0;top:18%;z-index:2;transform:rotate(-2deg)}
+.hero__shot--a{width:58%;right:0;top:0;z-index:1;transform:rotate(4deg)}
+.hero__shot--b{width:58%;right:2%;bottom:0;z-index:3;transform:rotate(3deg)}
+
+/* Sections */
+.section{padding:88px 0}
+.section--tight{padding-top:0}
+.section--alt{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.section__head{max-width:640px;margin-bottom:40px}
+.section h2{font-size:clamp(1.9rem,4.4vw,2.7rem);font-weight:700;letter-spacing:-.02em}
+.section__lead{color:var(--muted);font-size:1.1rem;margin:0}
+
+/* Game card - shared structure; each game has its own theme below */
+.games{list-style:none;padding:0;margin:0;display:grid;gap:28px;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr))}
+.game-card{--card-bg:#fff;--card-ink:var(--ink);--card-muted:var(--muted);--card-line:var(--line);--accent:var(--ink);--accent-ink:#fff;
+  position:relative;display:flex;flex-direction:column;height:100%;overflow:hidden;background:var(--card-bg);color:var(--card-ink);border:1px solid var(--card-line);border-radius:var(--r);box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s}
+.game-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.game-card__cover{aspect-ratio:1024/500;object-fit:cover;width:100%}
+.game-card__body{padding:24px 26px 26px;display:flex;flex-direction:column;gap:12px;flex:1}
+.game-card__tag{margin:0;font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.game-card h3{font-size:1.75rem;margin:0}
+.game-card p{margin:0;color:var(--card-muted)}
+.badges{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:4px 0 0}
+.badge{display:inline-flex;align-items:center;font-size:.82rem;font-weight:500;padding:4px 10px;border-radius:999px;background:rgba(0,0,0,.05);color:var(--card-ink)}
+.stores{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.store{display:inline-flex;flex-direction:column;justify-content:center;min-height:50px;padding:6px 16px;border-radius:12px;background:var(--accent);color:var(--accent-ink);text-decoration:none;line-height:1.2;border:1.5px solid var(--accent);transition:filter .15s,transform .15s}
+a.store:hover{filter:brightness(1.1);color:var(--accent-ink);transform:translateY(-1px)}
+.store__name{font-weight:600;font-size:.98rem}
+.store__note{font-size:.72rem;font-weight:500;letter-spacing:.06em;text-transform:uppercase;opacity:.8}
+.store--soon{background:transparent;color:var(--card-muted);border:1.5px dashed var(--card-line)}
+.game-card__link{margin-top:auto;padding-top:6px;font-weight:600;color:var(--card-ink);display:inline-flex;align-items:center;gap:6px;min-height:44px;text-decoration:none}
+.game-card__link:hover{color:var(--accent);text-decoration:underline}
+
+/* Cozy Acres - sunny cartoon farm: cream, chunky outlines, candy buttons, rounded type */
+.gc--cozy{--card-bg:#fff8ec;--card-ink:#3b2f2a;--card-muted:#6a5a50;--card-line:#3b2f2a;--accent:#4f9e2d;--accent-ink:#fff;
+  border:3px solid #3b2f2a;border-radius:26px;box-shadow:0 6px 0 #3b2f2a}
+.gc--cozy:hover{box-shadow:0 10px 0 #3b2f2a}
+.gc--cozy .game-card__cover{border-bottom:3px solid #3b2f2a}
+.gc--cozy .game-card__body{background:linear-gradient(#fff8ec,#fdf0d9)}
+.gc--cozy h3{font-family:"Fredoka",sans-serif;font-weight:700;font-size:2rem;color:#3b2f2a}
+.gc--cozy .game-card__tag{font-family:"Fredoka",sans-serif;color:#d9822b}
+.gc--cozy .badge{font-family:"Fredoka",sans-serif;font-weight:600;background:#fff;border:2px solid #3b2f2a}
+.gc--cozy .store{font-family:"Fredoka",sans-serif;border:2.5px solid #3b2f2a;border-radius:16px;box-shadow:inset 0 -4px 0 #2f6e18,0 3px 0 #3b2f2a}
+.gc--cozy .store__note{color:#fff3c4;opacity:1}
+.gc--cozy .store--soon{background:#fff;color:#6a5a50;border:2.5px dashed #3b2f2a;box-shadow:none}
+.gc--cozy .store--soon .store__note{color:#d9822b}
+
+/* Hollow Creek - 1952 country Victoria: deep navy, brick red, cream paper, serif title */
+.gc--hc{--card-bg:#f7efe0;--card-ink:#0b2a4a;--card-muted:#3a3a40;--card-line:#0b2a4a;--accent:#0b2a4a;--accent-ink:#f7efe0;
+  border:2px solid #0b2a4a;border-radius:6px;box-shadow:6px 6px 0 #0b2a4a}
+.gc--hc:hover{box-shadow:10px 10px 0 #0b2a4a}
+.gc--hc .game-card__cover{border-bottom:2px solid #0b2a4a}
+.gc--hc .game-card__body{border-top:6px double #9b1119}
+.gc--hc h3{font-family:"Fraunces",Georgia,"Times New Roman",serif;font-weight:800;font-size:2rem;letter-spacing:.01em}
+.gc--hc .game-card__tag{font-family:"Fraunces",Georgia,serif;color:#9b1119;letter-spacing:.18em}
+.gc--hc .badge{border-radius:3px;background:transparent;border:1px solid #0b2a4a;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
+.gc--hc .store{border-radius:4px;font-family:"Fraunces",Georgia,serif}
+.gc--hc .store__note{font-family:var(--sans);color:#f2c9a0;opacity:1}
+.gc--hc a.store:hover{background:#9b1119;border-color:#9b1119;filter:none}
+.beta-ribbon{position:absolute;z-index:1;top:16px;left:-2px;margin:0;padding:6px 16px 6px 14px;background:#9b1119;color:#fff8ec!important;font-weight:700;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;border:2px solid #0b2a4a;border-left:0;border-radius:0 4px 4px 0}
+.beta-note{border-left:4px solid #9b1119;background:#fffaf1;padding:10px 14px;font-size:.92rem}
+
+/* Doodle Bridge - lined notebook paper, pencil sketch outlines, blue ink handwriting */
+.gc--doodle{--card-bg:#f8f3e6;--card-ink:#2a2a2a;--card-muted:#454545;--card-line:#333;--accent:#2a4ea0;--accent-ink:#fff;
+  border:2.5px solid #333;border-radius:255px 18px 225px 18px/18px 225px 18px 255px;box-shadow:4px 5px 0 rgba(51,51,51,.85)}
+.gc--doodle:hover{transform:translateY(-4px) rotate(-.4deg);box-shadow:6px 8px 0 rgba(51,51,51,.85)}
+.gc--doodle .game-card__cover{border-bottom:2.5px solid #333}
+.gc--doodle .game-card__body{background:linear-gradient(90deg,transparent 30px,#f1a7a7 30px,#f1a7a7 32px,transparent 32px),repeating-linear-gradient(#f8f3e6 0 31px,#c9dcef 31px 32px);padding-left:48px;font-family:"Patrick Hand","Comic Sans MS",cursive;font-size:1.15rem;line-height:1.45}
+.gc--doodle h3{font-family:"Patrick Hand",cursive;font-weight:400;font-size:2.4rem;color:#2a4ea0;transform:rotate(-1.5deg);transform-origin:left}
+.gc--doodle .game-card__tag{font-family:"Patrick Hand",cursive;font-size:1rem;letter-spacing:.04em;color:#d23c33}
+.gc--doodle .badge{font-family:"Patrick Hand",cursive;font-size:1rem;background:#f5c542;border:2px solid #333;border-radius:14px 6px 12px 5px/6px 12px 5px 14px}
+.gc--doodle .store{font-family:"Patrick Hand",cursive;border:2.5px solid #333;border-radius:20px 8px 18px 6px/8px 18px 6px 20px;box-shadow:3px 3px 0 #333}
+.gc--doodle .store__name{font-weight:400;font-size:1.2rem}
+.gc--doodle .store__note{font-size:.85rem;letter-spacing:.04em}
+.gc--doodle a.store:hover{transform:rotate(-1deg)}
+
+/* Coming soon - dark dotted studio card */
+.gc--soon{--card-bg:#26222e;--card-ink:#fff8ec;--card-muted:#c9c2d3;--card-line:#3a3446;--accent:#ffc93c;
+  background-image:radial-gradient(rgba(255,255,255,.08) 2px,transparent 2.5px);background-size:28px 28px;border-color:#3a3446}
+.gc--soon h3{font-family:"Fredoka",sans-serif}
+.gc--soon .badge{background:#ffc93c;color:#26222e;font-weight:600}
+
+/* Other projects */
+.project{display:grid;overflow:hidden;background:#0f2a3d;color:#e7f3fb;border-radius:var(--r);text-decoration:none;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s}
+.project:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);color:#e7f3fb}
+.project__cover{width:100%;height:100%;aspect-ratio:1024/500;object-fit:cover}
+.project__body{padding:28px;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.project h3{font-family:var(--sans);font-weight:800;font-size:1.8rem;color:#fff;margin:0;letter-spacing:-.02em}
+.project p{margin:0;color:#b9dcf2}
+.project__link{font-weight:600;color:#7fd3ff;margin-top:6px}
+@media (min-width:860px){.project{grid-template-columns:1.2fr 1fr}.project__body{padding:40px}}
+
+/* About */
+.about{display:grid;gap:40px;align-items:start}
+@media (min-width:880px){.about{grid-template-columns:1.4fr 1fr}.contact{position:sticky;top:96px}}
+.about__text>p{color:var(--muted);max-width:38em}
+.facts{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(170px,100%),1fr));margin:28px 0 0}
+.facts div{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.facts dt{font-size:.75rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--coral-d)}
+.facts dd{margin:4px 0 0;font-weight:600}
+.contact{background:var(--ink);color:#f3eef7;border-radius:var(--r);padding:32px;box-shadow:var(--shadow-lg)}
+.contact h3{font-size:1.6rem;color:#fff}
+.contact p{color:#c9c2d3}
+
+/* Footer */
+.footer{padding:56px 0 32px}
+.footer__grid{display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(min(170px,100%),1fr))}
+.footer__brand img{height:36px;width:auto;margin-bottom:12px}
+.footer__brand p{color:var(--muted);font-size:.95rem}
+.footer h2{font-family:var(--sans);font-size:.78rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+.footer ul{list-style:none;margin:0;padding:0}
+.footer a{display:inline-flex;align-items:center;min-height:36px;color:var(--ink);font-weight:500;font-size:.95rem;text-decoration:none}
+.footer a:hover{color:var(--coral-d)}
+.footer small{display:block;margin-top:40px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted)}
