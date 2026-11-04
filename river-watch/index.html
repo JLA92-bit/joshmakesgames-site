@@ -8,6 +8,7 @@
 <meta name="description" content="River heights, catchment rain and past floods for Rochester, the Campaspe and the Murray.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800;900&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <!-- River Watch. Created by Josh Avard. -->
 <style>
@@ -243,6 +244,104 @@ footer { background: var(--night); color: var(--on-night-2); border-top: 6px sol
 footer .wrap { padding-block: 36px 44px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 24px 48px; font-size: 0.9rem; }
 footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem; text-transform: uppercase; color: var(--on-night); line-height: 1; }
 
+/* ---------------------------------------------------------------- analysis sections (outlook, catchment, ground, rarity) */
+.note { margin: 18px 0 0; color: var(--ink-2); font-size: 0.9rem; max-width: 90ch; }
+.night .note { color: var(--on-night-2); }
+.grid2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }
+.grid2.g-r { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); }
+.grid2.g-l { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); }
+.grid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.box { background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 18px; min-width: 0; }
+.night .box { background: rgba(255,255,255,0.04); border-color: var(--night-line); }
+.box h3 { font-size: 1.5rem; font-weight: 800; text-transform: uppercase; margin-bottom: 4px; }
+.box .lead { margin: 0 0 14px; color: var(--ink-2); font-size: 0.93rem; }
+.night .box .lead { color: var(--on-night-2); }
+.official { border-left: 6px solid var(--maroon); }
+.pred { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 16px; padding: 12px 0; border-top: 1px solid var(--line); }
+.pred:first-of-type { border-top: 0; }
+.pred .v { font-family: var(--f-display); font-weight: 800; font-size: 2rem; line-height: 1; color: var(--maroon); text-align: right; }
+.pred .v small { font: 500 0.78rem var(--f-data); color: var(--ink-2); margin-left: 4px; }
+.pred q { grid-column: 1 / -1; color: var(--ink-2); font-size: 0.9rem; quotes: "\201C" "\201D"; }
+.risetab td, .risetab th { padding: 8px 10px; }
+.risetab tbody tr { border-bottom: 1px solid var(--line); }
+.risetab .up { color: var(--maroon); font-weight: 700; }
+.risetab td.n { white-space: nowrap; }
+.vs { min-width: 720px; }
+.vs td.n { white-space: nowrap; }
+.pick select { font: 700 0.95rem var(--f-body); padding: 8px 12px; border: 1px solid var(--line); border-radius: 4px; background: var(--paper); color: var(--ink); max-width: 100%; }
+.risetab .down { color: #2b7d3d; }
+.eta { font: 600 0.82rem var(--f-data); padding: 3px 8px; border-radius: 3px; background: var(--mist); white-space: nowrap; }
+.eta.hot { background: #fde3d6; color: #8a2a0b; }
+.hop { display: grid; gap: 8px; padding: 14px 0; border-top: 1px solid var(--line); }
+.hop:first-of-type { border-top: 0; padding-top: 4px; }
+.hop .path { font-family: var(--f-display); font-weight: 800; font-size: 1.15rem; text-transform: uppercase; letter-spacing: 0.02em; }
+.hop .path span { color: var(--water); margin: 0 6px; }
+.lagbar { position: relative; height: 10px; border-radius: 5px; background: var(--mist); }
+.lagbar i { position: absolute; top: 0; bottom: 0; border-radius: 5px; background: var(--navy-2); opacity: 0.75; }
+.lagbar b { position: absolute; top: -3px; width: 3px; height: 16px; background: var(--maroon); border-radius: 2px; }
+.hop .live { border-left: 4px solid var(--s-moderate); background: #fff6ef; padding: 8px 12px; font-size: 0.93rem; }
+.hop small { color: var(--ink-3); font: 500 0.74rem var(--f-data); }
+.bars { display: grid; gap: 6px; }
+.bar { display: grid; grid-template-columns: 170px minmax(0, 1fr) 64px; gap: 10px; align-items: center; font-size: 0.9rem; }
+.bar .tr { height: 14px; background: var(--mist); border-radius: 3px; overflow: hidden; }
+.bar .tr i { display: block; height: 100%; background: var(--navy-2); }
+.bar.now .tr i { background: var(--water); }
+.bar.now { font-weight: 700; }
+.bar .n { font-family: var(--f-data); text-align: right; font-size: 0.85rem; }
+.lake { position: relative; height: 150px; border-radius: 4px; overflow: hidden; background: linear-gradient(#0a3a66, #00294d); border: 1px solid var(--night-line); }
+.lake .fillw { position: absolute; left: 0; right: 0; bottom: 0; background: linear-gradient(#4BC9F5, #1f8fc4); transition: height 1s ease; }
+.lake .fillw::before { content: ""; position: absolute; left: 0; right: 0; top: -6px; height: 12px; background: radial-gradient(12px 6px at 12px 6px, #4BC9F5 98%, transparent) repeat-x; background-size: 24px 12px; animation: wave 3s linear infinite; }
+@keyframes wave { to { background-position-x: 24px; } }
+@media (prefers-reduced-motion: reduce) { .lake .fillw::before { animation: none; } }
+.lake .pct { position: absolute; left: 14px; top: 10px; font-family: var(--f-display); font-weight: 900; font-size: 3.2rem; color: #fff; text-shadow: 0 2px 8px rgba(0,20,39,0.6); line-height: 1; }
+.lake .pct small { font: 500 0.9rem var(--f-data); margin-left: 4px; }
+.lake .full { position: absolute; left: 0; right: 0; top: 0; border-top: 2px dashed rgba(255,255,255,0.7); }
+.lake .full span { position: absolute; right: 8px; top: 2px; font: 600 0.7rem var(--f-data); color: #fff; letter-spacing: 0.1em; }
+.spill { display: inline-block; margin-top: 10px; font: 700 0.8rem var(--f-data); letter-spacing: 0.08em; text-transform: uppercase; padding: 5px 10px; border-radius: 3px; }
+.spill.yes { background: var(--s-moderate); color: #fff; } .spill.no { background: rgba(255,255,255,0.08); color: var(--on-night-2); }
+.soil { display: grid; gap: 12px; }
+.soil .row { display: grid; grid-template-columns: minmax(0, 1fr) 70px; gap: 6px 12px; align-items: center; }
+.soil .nm { font-size: 0.9rem; }
+.soil .pc { font-family: var(--f-display); font-weight: 800; font-size: 1.5rem; text-align: right; }
+.soil .track { grid-column: 1 / -1; position: relative; height: 10px; border-radius: 5px; background: linear-gradient(90deg, #8a5a2b, #c7a26a 35%, #9fd3a8 65%, #1f8fc4); }
+.soil .track b { position: absolute; top: -4px; width: 4px; height: 18px; border-radius: 2px; background: #fff; box-shadow: 0 0 0 2px var(--night); transform: translateX(-2px); }
+.soil .ends { grid-column: 1 / -1; display: flex; justify-content: space-between; font: 500 0.68rem var(--f-data); color: var(--on-night-2); }
+.vs td.hi { color: #ffb38a; font-weight: 700; }
+.ladder { position: relative; display: grid; gap: 0; border-left: 4px solid var(--navy); margin-left: 8px; }
+.rung { position: relative; padding: 12px 0 14px 22px; border-bottom: 1px dashed var(--line); }
+.rung::before { content: ""; position: absolute; left: -12px; top: 18px; width: 20px; height: 4px; background: var(--c, var(--navy)); }
+.rung .lv { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem; line-height: 1; color: var(--c, var(--navy)); }
+.rung .lv small { font: 500 0.78rem var(--f-data); color: var(--ink-2); margin-left: 4px; }
+.rung h4 { margin: 4px 0 2px; font-size: 1rem; }
+.rung p { margin: 0; color: var(--ink-2); font-size: 0.92rem; }
+.rung a { font-size: 0.8rem; color: var(--ink-3); }
+.rung.nowrung { background: #e9f8fe; border-bottom: 0; }
+.rung.nowrung::before { background: var(--water); width: 28px; height: 6px; top: 16px; }
+.rung.nowrung .lv { color: #0b6f99; }
+#map { height: 520px; border-radius: 4px; border: 1px solid var(--line); background: var(--mist); }
+.maptools { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; align-items: center; }
+.maptools label { display: inline-flex; gap: 6px; align-items: center; font-size: 0.9rem; cursor: pointer; }
+.search { display: flex; gap: 8px; flex-wrap: wrap; }
+.search input { flex: 1 1 240px; min-width: 0; font: 1rem var(--f-body); padding: 11px 14px; border: 1px solid var(--line); border-radius: 4px; background: var(--paper); color: var(--ink); }
+.search button { font: 700 0.95rem var(--f-body); padding: 11px 18px; border-radius: 4px; border: 0; background: var(--navy); color: #fff; cursor: pointer; }
+.answer { margin-top: 12px; padding: 14px 16px; border-radius: 4px; background: var(--paper); border: 1px solid var(--line); font-size: 0.95rem; }
+.answer.in { border-left: 6px solid var(--s-moderate); }
+.answer.out { border-left: 6px solid var(--s-normal); }
+.answer ul { margin: 8px 0 0; padding-left: 18px; }
+.links { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.links a { font-weight: 700; }
+.freq svg { display: block; width: 100%; height: auto; }
+.freq text { font: 11px var(--f-data); fill: var(--ink-2); }
+.verdict { font-family: var(--f-display); font-weight: 800; font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.05; text-transform: uppercase; color: var(--navy); }
+.verdict em { font-style: normal; color: var(--maroon); }
+.pick { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+.pick button { font: 700 0.84rem var(--f-body); border: 1px solid var(--line); background: var(--paper); color: var(--ink); padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+.pick button[aria-pressed="true"] { background: var(--navy); color: #fff; border-color: var(--navy); }
+.jn svg { display: block; width: 100%; height: auto; }
+.jn text { font: 11px var(--f-data); fill: var(--on-night-2); }
+.maplibregl-popup-content { font: 0.88rem var(--f-body); color: var(--ink); }
+@media (max-width: 900px) { .grid2, .grid3, .grid2.g-r, .grid2.g-l { grid-template-columns: 1fr; } #map { height: 420px; } .bar { grid-template-columns: 120px minmax(0, 1fr) 56px; } }
+
 @media (max-width: 900px) {
   .hero-top, .sec-head, .ev-head, .ev-grid, .rain-grid, footer .wrap { grid-template-columns: 1fr; }
   .readout { justify-self: start; text-align: left; justify-items: start; }
@@ -302,6 +401,23 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   <span>This site is for awareness. Follow official warnings.</span>
 </div></div>
 
+<section class="band" id="outlook">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">The next hours and days</span><h2>What happens next</h2></div>
+      <p>Official Bureau of Meteorology predictions come first. Everything else here is worked out from the river's own records and past floods. It shows how this river has behaved before, and is not a forecast.</p>
+    </div>
+    <div class="grid2">
+      <div class="box official"><h3>Bureau predictions</h3><p class="lead">Predicted heights read from current BoM flood warnings.</p><div id="preds"></div></div>
+      <div class="box"><h3>Rain ahead vs past floods</h3><p class="lead" id="rainVsLead">Upper catchment rain (Trentham, Kyneton, Woodend, Malmsbury, Redesdale). Forecast now, next to what fell in the week before each past flood.</p><div class="bars" id="rainVs"></div></div>
+    </div>
+    <div class="grid2" style="margin-top:24px">
+      <div class="box"><h3>Travelling downstream</h3><p class="lead">How long flood peaks have taken to travel between gauges in past floods. When an upstream gauge is high, the closest past floods show what followed downstream.</p><div id="hops"></div></div>
+      <div class="box"><h3>Rising or falling</h3><p class="lead">Change over the last day, and how long until each flood level if the river keeps rising at its current rate.</p><div style="overflow-x:auto"><table class="risetab"><thead><tr><th>Gauge</th><th class="n">24 h</th><th class="n">Rate</th><th>Next flood level</th></tr></thead><tbody id="riseRows"></tbody></table></div><button type="button" id="riseMore" style="margin-top:10px;font:700 0.86rem var(--f-body);border:1px solid var(--line);background:var(--paper);padding:6px 14px;border-radius:999px;cursor:pointer" hidden>Show all gauges</button></div>
+    </div>
+  </div>
+</section>
+
 <section class="band mist" id="rivers">
   <div class="wrap">
     <div class="sec-head">
@@ -321,10 +437,43 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
         <button type="button" data-f="all" aria-pressed="true">All rivers</button>
         <button type="button" data-f="Campaspe" aria-pressed="false">Campaspe</button>
         <button type="button" data-f="Murray" aria-pressed="false">Murray</button>
+        <button type="button" data-f="Goulburn" aria-pressed="false">Goulburn</button>
+        <button type="button" data-f="Ovens" aria-pressed="false">Ovens</button>
       </div>
     </div>
     <div class="cards" id="cards"></div>
     <p style="margin:20px 0 0;color:var(--ink-2);font-size:0.9rem;max-width:90ch">Flood class levels (minor, moderate, major) are set by the Bureau of Meteorology. "Within 0.5 m of minor" is this site's own marker, not an official warning. Readings are provisional until checked by the data owner.</p>
+  </div>
+</section>
+
+
+<section class="band" id="ground">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">Rochester Town gauge</span><h2>What it means on the ground</h2></div>
+      <p>What each height on the Rochester Town gauge has meant for the town, and a map of the mapped flood areas. Search an address to see which flood maps cover it.</p>
+    </div>
+    <div class="grid2 g-r">
+      <div>
+        <div class="ladder" id="ladder"></div>
+        <h3 style="font-size:1.5rem;font-weight:800;text-transform:uppercase;margin:28px 0 10px">During a flood</h3>
+        <ul class="links" id="groundLinks"></ul>
+      </div>
+      <div>
+        <form class="search" id="addrForm" role="search" aria-label="Check an address">
+          <input id="addr" type="search" placeholder="Type an address, e.g. 12 Ramsay Street Rochester" autocomplete="street-address" aria-label="Address">
+          <button type="submit">Check</button>
+        </form>
+        <div id="answer" aria-live="polite"></div>
+        <div class="maptools" id="mapTools">
+          <label><input type="checkbox" data-l="aep" checked> 1% AEP flood extent (1 in 100 chance a year)</label>
+          <label><input type="checkbox" data-l="hist" checked> Mapped past floods</label>
+          <label><input type="checkbox" data-l="lsio"> Planning flood overlays</label>
+        </div>
+        <div id="map" role="region" aria-label="Flood map of Rochester and the rivers"></div>
+        <p class="note">Flood maps: Victorian Government planning flood layers (DTP, CMAs) and the Victorian Flood History dataset (DEECA). Address search: OpenStreetMap Nominatim. Basemap: OpenFreeMap, OpenStreetMap contributors. Maps show modelled and recorded floods; areas outside them can still flood. Check <a href="https://mapshare.vic.gov.au/vicplan/" target="_blank" rel="noopener">VicPlan</a> for the official planning report for a property.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -342,6 +491,22 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
         <tbody id="eventRows"></tbody>
       </table>
     </div>
+  </div>
+</section>
+
+
+<section class="band night" id="catchment">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">Dam, soil and junction</span><h2>How primed is the catchment</h2></div>
+      <p>The same rain can pass harmlessly or cause a flood. It depends on whether Lake Eppalock is full, how wet the ground already is, and how high the Murray is where the Campaspe meets it.</p>
+    </div>
+    <div class="grid3">
+      <div class="box"><h3>Lake Eppalock</h3><p class="lead">When the lake is full, inflows pass straight over the spillway and on to Rochester.</p><div id="lake"></div></div>
+      <div class="box"><h3>Soil wetness</h3><p class="lead">How wet the top metre of soil is, compared with the same month in every year since 1970. 100 means the wettest on record.</p><div class="soil" id="soil"></div></div>
+      <div class="box jn"><h3>Where the rivers meet</h3><p class="lead">A high Murray at Echuca slows the Campaspe and backs it up. Both levels are shown in metres above sea level (m AHD).</p><div id="junction"></div></div>
+    </div>
+    <div class="box" style="margin-top:24px"><h3>Conditions now vs before past floods</h3><p class="lead">A week before each flood. Wetter soil, a fuller lake and more rain all add up. This is a comparison for learning, not a prediction.</p><div style="overflow-x:auto"><table class="vs"><thead><tr><th>When</th><th class="n">Rain, 30 days before</th><th class="n">Rain, 7 days before</th><th class="n">Lake Eppalock</th><th class="n">Soil wetness</th><th class="n">Rochester peak</th></tr></thead><tbody id="vsRows"></tbody></table></div></div>
   </div>
 </section>
 
@@ -368,6 +533,24 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   </div>
 </section>
 
+
+<section class="band mist" id="unusual">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">Every year on record</span><h2>How unusual is this</h2></div>
+      <p>Each dot is the highest the river reached in one year (July to June). The line is today. The further right a dot sits, the rarer that flood.</p>
+    </div>
+    <div class="grid2 g-l">
+      <div class="box freq"><div class="pick" id="freqPick" role="group" aria-label="Choose a gauge"></div><div id="freqChart"></div></div>
+      <div>
+        <div class="verdict" id="verdict"></div>
+        <p class="note" id="verdictNote" style="margin-top:12px"></p>
+        <div class="box" style="margin-top:22px"><h3>Forecast report card</h3><p class="lead">Every day the site saves the rain forecast, then checks it against the rain that fell. A heavy day means 10 mm or more at one place.</p><div id="skill"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="band" id="info">
   <div class="wrap three">
     <div class="col">
@@ -388,7 +571,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 
 <footer><div class="wrap">
   <div><div class="sig">Created by Josh Avard</div></div>
-  <div>River data: State of Victoria (DEECA) Water Measurement Information System and WaterNSW, provisional data. Flood class levels: Bureau of Meteorology. Rain: Open-Meteo (CC BY 4.0), including ERA5 reanalysis for past floods. Past flood figures from news reports are linked in the table. Always follow VicEmergency and BoM advice in a flood.</div>
+  <div>River data: State of Victoria (DEECA) Water Measurement Information System and WaterNSW, provisional data. Flood class levels: Bureau of Meteorology. Rain and soil moisture: Open-Meteo (CC BY 4.0), including ERA5 reanalysis. Flood maps: Victorian Government (DTP, DEECA, CMAs). Map: OpenFreeMap and OpenStreetMap contributors. Past flood figures from news reports are linked in the table. Always follow VicEmergency and BoM advice in a flood.</div>
 </div></footer>
 
 <script>
@@ -401,6 +584,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   var CAMPASPE_ORDER = ["406201", "406218", "406283", "406265", "409200"];
   var LAYOUT = {
     "409204": [60, 86, "m"], "409005": [162, 86, "m"], "409207": [266, 86, "m"], "409200": [380, 86, "m"], "409202": [575, 86, "m"], "409025": [700, 86, "m"],
+    "405232": [516, 166], "405204": [546, 250], "403200": [704, 200, "m"],
     "406265": [380, 146], "406202": [380, 202], "406283": [380, 246], "406218": [380, 300], "406201": [380, 356], "406207": [380, 412], "406213": [380, 486]
   };
   var SOURCES = [
@@ -457,6 +641,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 
   function renderAll() {
     renderPicker(); renderHero(); renderVersus(); renderSchematic(); renderCards(); renderEvents(); renderRain(); renderInfo();
+    [renderOutlook, renderCatchment, renderGround, renderUnusual].forEach(function (fn) { try { fn(); } catch (e) { if (window.console) console.error(e); } });
   }
 
   // ------------------------------------------------------------------ hero
@@ -488,6 +673,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     if (s.minor != null) marks.push({ v: s.minor, label: "Minor " + f(s.minor, 1), color: COLOR.minor });
     if (s.moderate != null) marks.push({ v: s.moderate, label: "Moderate " + f(s.moderate, 1), color: COLOR.moderate });
     if (s.major != null) marks.push({ v: s.major, label: "Major " + f(s.major, 1), color: "#ff6b74" });
+    ((S.latest.warnings && S.latest.warnings.predictions) || []).forEach(function (pr) { if (pr.site === s.id) marks.push({ v: pr.level, label: "BoM predicts " + f(pr.level) + (pr.when ? " " + pr.when : ""), color: "#ffffff" }); });
     var hist = histMarks(s.id);
     var vals = marks.concat(hist).map(function (m) { return m.v; });
     if (s.latest) vals.push(s.latest.v);
@@ -627,8 +813,10 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     svg += '<path d="M752 86 H28" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none" class="flow"/>';
     svg += '<path d="M380 506 V86" stroke="#4BC9F5" stroke-width="8" stroke-linecap="round" fill="none"/>';
     svg += '<path d="M380 506 V86" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none" class="flow"/>';
-    svg += '<path d="M470 86 C474 100 482 108 494 114" stroke="#4BC9F5" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.75"/>';
-    svg += '<text x="500" y="120" class="val">Goulburn joins</text>';
+    svg += '<path d="M470 86 C480 130 510 150 520 170 S540 230 548 262" stroke="#4BC9F5" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.75"/>';
+    svg += '<text x="556" y="292" class="val">Goulburn River</text>';
+    svg += '<path d="M688 86 C692 130 700 160 704 200" stroke="#4BC9F5" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7"/>';
+    svg += '<text x="704" y="262" class="val" text-anchor="middle">Ovens River</text>';
     svg += '<ellipse cx="380" cy="450" rx="44" ry="16" fill="#cdeefb" stroke="#4BC9F5" stroke-width="3"/>';
     svg += '<text x="432" y="455" class="val">Lake Eppalock</text>';
     svg += '<text x="28" y="30" class="rname">Murray River</text><text x="196" y="30" class="val">flows west</text>';
@@ -898,7 +1086,11 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       ["Catchment rain since 1970", "data/rain/daily.csv"],
       ["Past floods, summary", "data/events/index.json"],
       ["Warnings log", "data/warnings.csv"],
-      ["Gauge list and flood levels", "data/sites.csv"]
+      ["Gauge list and flood levels", "data/sites.csv"],
+      ["Lake Eppalock level and volume", "data/storage/406219.csv"],
+      ["Soil wetness by catchment since 1970", "data/soil/daily.csv"],
+      ["Yearly highest levels and flows", "data/frequency.json"],
+      ["BoM predicted heights log", "data/predictions.csv"]
     ];
     $("files").innerHTML = files.map(function (fl) {
       return "<li><span>" + (S.example ? esc(fl[0]) : '<a href="' + fl[1] + '">' + esc(fl[0]) + "</a>") + "</span><code>" + esc(fl[1].replace("data/", "")) + "</code></li>";
@@ -909,6 +1101,263 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     $("sources").innerHTML = Object.keys(groups).map(function (g) {
       return '<div class="g">' + esc(g) + "</div><ul>" + groups[g].map(function (s) { return '<li><a href="' + esc(s[2]) + '" target="_blank" rel="noopener">' + esc(s[1]) + "</a></li>"; }).join("") + "</ul>";
     }).join("");
+  }
+
+  // ================================================================== analysis sections
+  var A = function () { return (S.latest && S.latest.analysis) || {}; };
+  function hrs(h) { if (h == null) return "-"; if (h < 1) return "under 1 h"; if (h < 48) return Math.round(h) + " h"; return (h / 24).toFixed(1) + " days"; }
+  function signed(v, d, unit) { return v == null ? "-" : (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(d) + (unit || ""); }
+  var LEVEL_NAME = { minor: "Minor", moderate: "Moderate", major: "Major" };
+
+  // ---------- what happens next
+  function renderOutlook() {
+    var w = S.latest.warnings || {}, preds = w.predictions || [];
+    if (!w.ok) $("preds").innerHTML = '<div class="empty">The BoM feed did not load this hour. Check <a href="https://www.bom.gov.au/vic/warnings/" target="_blank" rel="noopener">BoM warnings</a>.</div>';
+    else if (!preds.length) $("preds").innerHTML = '<div class="empty">No current BoM flood warning predicts a height for these gauges (checked ' + esc(fmtTime(w.fetched)) + '). When one does, the predicted peak appears here and on the gauge chart.</div>';
+    else $("preds").innerHTML = preds.map(function (p) {
+      var s = S.byId[p.site] || { name: p.place, unit: "m" };
+      var now = s.latest ? s.latest.v : null;
+      return '<div class="pred"><div><b>' + esc(s.name) + '</b><div style="color:var(--ink-2);font-size:0.9rem">' + esc(p.certainty) + " " + esc(p.kind) + (p.when ? ", " + esc(p.when) : "") + (now != null ? " · now " + f(now) + " " + esc(s.unit) : "") + '</div></div><div class="v">' + f(p.level) + "<small>" + esc(s.unit) + "</small></div>" +
+        "<q>" + esc(p.sentence) + '</q><a style="grid-column:1/-1;font-size:0.84rem" href="' + esc(p.link) + '" target="_blank" rel="noopener">' + esc(p.title || "Read the warning") + "</a></div>";
+    }).join("");
+
+    var all = S.latest.sites.filter(function (s) { return s.latest && s.rise; });
+    all.sort(function (a, b) { return (b.rise.mPerHour6 || 0) - (a.rise.mPerHour6 || 0); });
+    // key gauges, plus any gauge that is rising or near a flood level; the rest behind a button
+    var rows = S.riseAll ? all : all.filter(function (s) { return s.key || (s.rise.mPerHour6 || 0) > 0.003 || ["near", "minor", "moderate", "major"].indexOf(s.status.code) > -1; });
+    var more = $("riseMore"); more.hidden = rows.length === all.length && !S.riseAll; more.textContent = S.riseAll ? "Show fewer" : "Show all " + all.length + " gauges";
+    more.onclick = function () { S.riseAll = !S.riseAll; renderOutlook(); };
+    $("riseRows").innerHTML = rows.map(function (s) {
+      var r = s.rise, rate = r.mPerHour6;
+      var cls = rate > 0.003 ? "up" : rate < -0.003 ? "down" : "";
+      var ch = r.change24 != null && Math.abs(r.change24) < 0.005 ? "0.00 m" : signed(r.change24, 2, " m");
+      var next = r.toLevels && r.toLevels[0];
+      var eta = next ? '<span class="eta' + (next.hours < 24 ? " hot" : "") + '">' + LEVEL_NAME[next.level] + " in " + hrs(next.hours) + "</span>" :
+        s.minor != null && s.latest.v >= s.minor ? '<span class="eta hot">At or above minor</span>' : '<span style="color:var(--ink-3)">' + (rate > 0.003 ? "Not within 4 days" : "Not rising") + "</span>";
+      return "<tr><td><b>" + esc(shortName(s.name)) + '</b><div class="sub" style="font:500 0.7rem var(--f-data);color:var(--ink-3)">' + esc(s.river) + '</div></td><td class="n ' + cls + '">' + ch + '</td><td class="n ' + cls + '">' + (rate == null ? "-" : Math.abs(rate) < 0.0005 ? "steady" : signed(rate * 100, 1, " cm/h")) + "</td><td>" + eta + "</td></tr>";
+    }).join("");
+
+    var hops = (A().outlook || []).slice();
+    hops.sort(function (a, b) { return (b.live && b.live.elevated ? 1 : 0) - (a.live && a.live.elevated ? 1 : 0); });
+    var maxLag = Math.max.apply(null, hops.map(function (h) { return h.lagMax; }).concat([24]));
+    $("hops").innerHTML = hops.length ? hops.map(function (h) {
+      var L = h.live, live = "";
+      if (L && L.elevated && L.downRange) {
+        live = '<div class="live"><b>' + esc(h.upName) + " reached " + f(L.upTop) + " " + esc((S.byId[h.up] || {}).unit || "m") + "</b> (" + esc(fmtTime(L.upTopT)) + "). In the " + L.analogs.length + " most similar past floods, " + esc(h.downName) + " peaked at <b>" + f(L.downRange[0]) + (L.downRange[1] !== L.downRange[0] ? " to " + f(L.downRange[1]) : "") + "</b>, " +
+          (L.etaRange[0] === L.etaRange[1] ? "around " + esc(fmtTime(L.etaRange[0])) : "between " + esc(fmtTime(L.etaRange[0])) + " and " + esc(fmtTime(L.etaRange[1]))) + " if this wave behaves the same way.</div>";
+      }
+      return '<div class="hop"><div class="path">' + esc(h.upName) + "<span>&rarr;</span>" + esc(h.downName) + "</div>" +
+        '<div class="lagbar" title="Range of travel times in past floods"><i style="left:' + (Math.max(0, h.lagMin) / maxLag * 100).toFixed(1) + "%;width:" + (Math.max(1.5, (h.lagMax - Math.max(0, h.lagMin)) / maxLag * 100)).toFixed(1) + '%"></i><b style="left:' + (Math.max(0, h.lagMedian) / maxLag * 100).toFixed(1) + '%"></b></div>' +
+        "<small>Typically " + hrs(h.lagMedian) + " (" + hrs(Math.max(0, h.lagMin)) + " to " + hrs(h.lagMax) + ") across " + h.n + " past flood" + (h.n === 1 ? "" : "s") + "</small>" + live + "</div>";
+    }).join("") : '<div class="empty">Travel times appear once the past floods have been rebuilt from the gauge records (the Back-fill history run).</div>';
+
+    var vs = A().versus;
+    if (vs) {
+      var items = [];
+      if (vs.now.next3 != null) items.push({ label: "Next 3 days (forecast)", v: vs.now.next3, now: true });
+      if (vs.now.next7 != null) items.push({ label: "Next 7 days (forecast)", v: vs.now.next7, now: true });
+      vs.events.filter(function (e) { return e.rain7 != null; }).forEach(function (e) { items.push({ label: e.name.replace(" flood", ""), v: e.rain7 }); });
+      var mx = Math.max.apply(null, items.map(function (i) { return i.v; }).concat([20]));
+      $("rainVs").innerHTML = items.length ? items.map(function (i) { return '<div class="bar' + (i.now ? " now" : "") + '"><span>' + esc(i.label) + '</span><div class="tr"><i style="width:' + (i.v / mx * 100).toFixed(1) + '%"></i></div><span class="n">' + f(i.v, 0) + " mm</span></div>"; }).join("") : '<div class="empty">Appears once rain history has loaded.</div>';
+    }
+  }
+
+  // ---------- how primed is the catchment
+  function renderCatchment() {
+    var c = A().catchment || { storages: [], soil: [] };
+    var st = c.storages && c.storages[0];
+    if (st && st.latest && st.latest.pct != null) {
+      var pct = st.latest.pct, h = Math.max(4, Math.min(100, pct));
+      $("lake").innerHTML = '<div class="lake" role="img" aria-label="Lake Eppalock ' + f(pct, 0) + '% full"><div class="fillw" style="height:' + h.toFixed(1) + '%"></div><div class="full"><span>FULL</span></div><div class="pct">' + f(pct, 0) + "<small>% full</small></div></div>" +
+        '<span class="spill ' + (st.spilling ? "yes" : "no") + '">' + (st.spilling ? "Full: inflows spill downstream" : "Room to hold inflows") + "</span>" +
+        '<dl class="facts" style="margin-top:12px;border-color:var(--night-line)">' +
+        "<div><dt>Volume</dt><dd>" + (st.latest.volume != null ? Math.round(st.latest.volume).toLocaleString("en-AU") + " ML" : "-") + "</dd></div>" +
+        "<div><dt>Level</dt><dd>" + (st.latest.level != null ? f(st.latest.level) + " m" : "-") + "</dd></div>" +
+        "<div><dt>7 days</dt><dd>" + (st.change7 != null ? signed(st.change7 / 1000, 1, " GL") : "-") + "</dd></div></dl>" +
+        '<p class="note" style="font-size:0.8rem">Reading ' + esc(fmtDate(st.latest.date)) + ". Capacity " + (st.capacity || 0).toLocaleString("en-AU") + " ML.</p>";
+    } else $("lake").innerHTML = '<div class="empty" style="color:var(--on-night-2);border-color:var(--night-line)">Storage readings appear after the next hourly run.</div>';
+
+    $("soil").innerHTML = (c.soil || []).length ? c.soil.map(function (s) {
+      var p = s.percentile;
+      return '<div class="row"><span class="nm">' + esc(s.catchment.replace(" (joins Murray above Echuca)", "")) + '</span><span class="pc">' + (p == null ? "-" : p) + '</span><div class="track">' + (p == null ? "" : '<b style="left:' + p + '%"></b>') + '</div><div class="ends"><span>dry</span><span>' + esc(fmtDate(s.date)) + "</span><span>wet</span></div></div>";
+    }).join("") : '<div class="empty" style="color:var(--on-night-2);border-color:var(--night-line)">Soil wetness appears once the soil history has loaded (Back-fill history, soil).</div>';
+
+    renderJunction();
+
+    var vs = A().versus;
+    if (vs) {
+      var now = vs.now, rows = [{ name: "Now", now: true, rain30: now.rain30, rain7: null, storagePct: now.storagePct, soilPct: now.soilPct, peak: null }].concat(vs.events);
+      var top = function (k) { return Math.max.apply(null, rows.map(function (r) { return r[k] == null ? -1 : r[k]; })); };
+      var hi = { rain30: top("rain30"), storagePct: top("storagePct"), soilPct: top("soilPct") };
+      $("vsRows").innerHTML = rows.map(function (r) {
+        function cell(k, txt) { return '<td class="n' + (r[k] != null && r[k] === hi[k] && hi[k] >= 0 ? " hi" : "") + '">' + txt + "</td>"; }
+        return "<tr" + (r.now ? ' style="background:rgba(75,201,245,0.12)"' : "") + "><td><b>" + esc(r.name) + "</b>" + (r.anchor ? '<div style="font:0.72rem var(--f-data);color:var(--on-night-2)">' + esc(fmtDate(r.anchor)) + "</div>" : "") + "</td>" +
+          cell("rain30", r.rain30 == null ? "-" : f(r.rain30, 0) + " mm") + '<td class="n">' + (r.now ? (now.next7 != null ? f(now.next7, 0) + " mm ahead" : "-") : r.rain7 == null ? "-" : f(r.rain7, 0) + " mm") + "</td>" +
+          cell("storagePct", r.storagePct == null ? "-" : f(r.storagePct, 0) + "%") + cell("soilPct", r.soilPct == null ? "-" : r.soilPct + " / 100") +
+          '<td class="n">' + (r.peak == null ? (r.now && S.byId["406283"] && S.byId["406283"].latest ? "now " + f(S.byId["406283"].latest.v) : "-") : f(r.peak) + (r.peakSite === "406202" ? " (Syphon)" : "")) + "</td></tr>";
+      }).join("");
+    }
+  }
+  function renderJunction() {
+    var j = A().junction || {}, box = $("junction");
+    var lines = [["murray", "Murray at Echuca Wharf", "#4BC9F5"], ["campaspe", "Campaspe at Echuca", "#FBAD45"]].filter(function (l) { return j[l[0]] && j[l[0]].series && j[l[0]].series.length > 1; });
+    if (!lines.length) { box.innerHTML = '<div class="empty" style="color:var(--on-night-2);border-color:var(--night-line)">No recent readings at Echuca.</div>'; return; }
+    var W = 320, H = 170, all = [];
+    lines.forEach(function (l) { j[l[0]].series.forEach(function (p) { all.push(p); }); });
+    var m = S.byId["409200"] || {}, cs = S.byId["406265"] || {};
+    var refs = [m.minor, cs.minor].filter(function (v) { return v != null; });
+    var vs = all.map(function (p) { return p[1]; }).concat(refs);
+    var lo = Math.min.apply(null, vs) - 0.3, hi = Math.max.apply(null, vs) + 0.3;
+    var t0 = Math.min.apply(null, all.map(function (p) { return p[0]; })), t1 = Math.max.apply(null, all.map(function (p) { return p[0]; }));
+    function x(t) { return 4 + (t - t0) / Math.max(t1 - t0, 1) * (W - 8); }
+    function y(v) { return 8 + (hi - v) / (hi - lo) * (H - 30); }
+    var svg = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Murray and Campaspe levels at Echuca, last 7 days">';
+    if (m.minor != null) svg += '<line x1="0" x2="' + W + '" y1="' + y(m.minor) + '" y2="' + y(m.minor) + '" stroke="#4BC9F5" stroke-dasharray="4 4" opacity="0.6"/><text x="' + W + '" y="' + (y(m.minor) - 4) + '" text-anchor="end">Murray minor ' + f(m.minor, 1) + "</text>";
+    if (cs.minor != null) svg += '<line x1="0" x2="' + W + '" y1="' + y(cs.minor) + '" y2="' + y(cs.minor) + '" stroke="#FBAD45" stroke-dasharray="4 4" opacity="0.6"/><text x="' + W + '" y="' + (y(cs.minor) - 4) + '" text-anchor="end">Campaspe minor ' + f(cs.minor, 1) + "</text>";
+    lines.forEach(function (l) { var pts = j[l[0]].series; svg += '<path d="' + pts.map(function (p, i) { return (i ? "L" : "M") + x(p[0]).toFixed(1) + " " + y(p[1]).toFixed(1); }).join(" ") + '" fill="none" stroke="' + l[2] + '" stroke-width="2.5"/>'; });
+    svg += '<text x="0" y="' + (H - 4) + '">7 days ago</text><text x="' + W + '" y="' + (H - 4) + '" text-anchor="end">now</text></svg>';
+    var txt = lines.map(function (l) { return '<span><span class="swatch" style="border-color:' + l[2] + '"></span>' + l[1] + " " + f(j[l[0]].v) + " m AHD</span>"; }).join("");
+    if (j.diff != null) txt += '<span>The Campaspe sits <b>' + f(Math.abs(j.diff)) + " m " + (j.diff >= 0 ? "above" : "below") + "</b> the Murray.</span>";
+    box.innerHTML = svg + '<div class="legend-night">' + txt + "</div>";
+  }
+
+  // ---------- what it means on the ground
+  function renderGround() {
+    var im = S.latest.impacts;
+    var s = S.byId[(im && im.site) || "406283"];
+    if (im) {
+      var rungs = im.levels.map(function (l) { return { v: l.level, html: '<div class="lv">' + f(l.level) + "<small>m AHD</small></div><h4>" + esc(l.label) + "</h4><p>" + esc(l.text) + '</p><a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.source) + "</a>", c: /major|peak/i.test(l.label) ? "#940E16" : /moderate/i.test(l.label) ? "#F26839" : "#FBAD45" }; });
+      if (s && s.latest) rungs.push({ v: s.latest.v, now: true, html: '<div class="lv">' + f(s.latest.v) + "<small>m AHD</small></div><h4>The river now</h4><p>" + esc(fmtTime(s.latest.t)) + ". " + (s.minor != null && s.latest.v < s.minor ? f(s.minor - s.latest.v) + " m below the minor flood level." : "At or above the minor flood level. Follow VicEmergency.") + "</p>" });
+      rungs.sort(function (a, b) { return b.v - a.v; });
+      $("ladder").innerHTML = rungs.map(function (r) { return '<div class="rung' + (r.now ? " nowrung" : "") + '" style="--c:' + (r.c || "") + '">' + r.html + "</div>"; }).join("");
+      $("groundLinks").innerHTML = im.links.map(function (l) { return '<li><a href="' + esc(l[1]) + '" target="_blank" rel="noopener">' + esc(l[0]) + " &rarr;</a></li>"; }).join("");
+    }
+    lazyMap();
+  }
+
+  var MAP = null, MAPLIB = "https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js";
+  var PLAN = "https://spatial.planning.vic.gov.au/server/rest/services/planning_flood_control/MapServer";
+  var HISTWMS = "https://opendata.maps.vic.gov.au/geoserver/wms";
+  var SITE_XY = {
+    "406213": [144.535, -37.017], "406207": [144.553, -36.860], "406201": [144.522, -36.663], "406218": [144.610, -36.500], "406283": [144.700, -36.360], "406202": [144.705, -36.380],
+    "406265": [144.735, -36.135], "406214": [144.390, -36.770], "409200": [144.751, -36.122], "409207": [144.464, -35.940], "409005": [144.135, -35.630], "409204": [143.560, -35.335],
+    "409202": [145.570, -35.810], "409025": [146.000, -36.010], "405232": [145.040, -36.190], "405204": [145.400, -36.360], "403200": [146.315, -36.355]
+  };
+  function lazyMap() {
+    if (MAP || lazyMap.pending) { if (MAP) updateMapSites(); return; }
+    lazyMap.pending = true;
+    var start = function () {
+      var css = document.createElement("link"); css.rel = "stylesheet"; css.href = MAPLIB.replace(".js", ".css"); document.head.appendChild(css);
+      var sc = document.createElement("script"); sc.src = MAPLIB; sc.onload = initMap; sc.onerror = function () { $("map").innerHTML = '<div class="empty" style="margin:16px">The map could not load. <a href="https://mapshare.vic.gov.au/vicplan/" target="_blank" rel="noopener">Open VicPlan</a> to see flood overlays.</div>'; };
+      document.head.appendChild(sc);
+    };
+    if ("IntersectionObserver" in window) { var io = new IntersectionObserver(function (es) { if (es.some(function (e) { return e.isIntersecting; })) { io.disconnect(); start(); } }, { rootMargin: "400px" }); io.observe($("map")); } else start();
+  }
+  function initMap() {
+    /* global maplibregl */
+    var planTiles = function (layers) { return PLAN + "/export?bbox={bbox-epsg-3857}&bboxSR=3857&imageSR=3857&size=512,512&format=png32&transparent=true&dpi=96&layers=show:" + layers + "&f=image"; };
+    MAP = new maplibregl.Map({ container: "map", style: "https://tiles.openfreemap.org/styles/positron", center: [144.70, -36.36], zoom: 12.3, attributionControl: { compact: true }, cooperativeGestures: true });
+    MAP.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    MAP.on("load", function () {
+      MAP.addSource("aep", { type: "raster", tiles: [planTiles("5,6,8")], tileSize: 512, attribution: "Flood extents: DTP / CMAs" });
+      MAP.addLayer({ id: "aep", type: "raster", source: "aep", paint: { "raster-opacity": 0.55 } });
+      MAP.addSource("hist", { type: "raster", tiles: [HISTWMS + "?service=WMS&version=1.1.1&request=GetMap&layers=open-data-platform:vic_flood_history_public&styles=&srs=EPSG:3857&bbox={bbox-epsg-3857}&width=512&height=512&format=image/png&transparent=true"], tileSize: 512, attribution: "Victorian Flood History: DEECA" });
+      MAP.addLayer({ id: "hist", type: "raster", source: "hist", paint: { "raster-opacity": 0.5 } });
+      MAP.addSource("lsio", { type: "raster", tiles: [planTiles("1")], tileSize: 512 });
+      MAP.addLayer({ id: "lsio", type: "raster", source: "lsio", layout: { visibility: "none" }, paint: { "raster-opacity": 0.6 } });
+      MAP.addSource("sites", { type: "geojson", data: sitesGeo() });
+      MAP.addLayer({ id: "sites-halo", type: "circle", source: "sites", paint: { "circle-radius": 13, "circle-color": ["get", "color"], "circle-opacity": 0.25 } });
+      MAP.addLayer({ id: "sites", type: "circle", source: "sites", paint: { "circle-radius": 7, "circle-color": ["get", "color"], "circle-stroke-color": "#ffffff", "circle-stroke-width": 2.5 } });
+      MAP.addLayer({ id: "sites-lbl", type: "symbol", source: "sites", layout: { "text-field": ["get", "label"], "text-font": ["Noto Sans Bold"], "text-size": 12, "text-offset": [0, 1.4], "text-anchor": "top" }, paint: { "text-color": "#00294d", "text-halo-color": "#ffffff", "text-halo-width": 1.6 } });
+      MAP.on("click", "sites", function (e) { var p = e.features[0].properties; new maplibregl.Popup().setLngLat(e.lngLat).setHTML("<b>" + esc(p.name) + "</b><br>" + esc(p.val) + "<br>" + esc(p.status)).addTo(MAP); });
+      MAP.on("mouseenter", "sites", function () { MAP.getCanvas().style.cursor = "pointer"; });
+      MAP.on("mouseleave", "sites", function () { MAP.getCanvas().style.cursor = ""; });
+    });
+    Array.prototype.forEach.call($("mapTools").querySelectorAll("input"), function (cb) { cb.addEventListener("change", function () { if (MAP.getLayer(cb.getAttribute("data-l"))) MAP.setLayoutProperty(cb.getAttribute("data-l"), "visibility", cb.checked ? "visible" : "none"); }); });
+  }
+  function sitesGeo() {
+    return { type: "FeatureCollection", features: S.latest.sites.filter(function (s) { return SITE_XY[s.id]; }).map(function (s) {
+      return { type: "Feature", geometry: { type: "Point", coordinates: SITE_XY[s.id] }, properties: { name: s.name, label: shortName(s.name), color: COLOR[s.status.code], status: s.status.label, val: s.latest ? f(s.latest.v) + " " + s.unit : "no data" } };
+    }) };
+  }
+  function updateMapSites() { var src = MAP && MAP.getSource && MAP.getSource("sites"); if (src) src.setData(sitesGeo()); }
+
+  var marker = null;
+  $("addrForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var q = $("addr").value.trim(); if (!q) return;
+    var out = $("answer"); out.innerHTML = '<div class="answer">Looking up the address...</div>';
+    fetch("https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=au&viewbox=143.3,-35.2,146.5,-37.4&q=" + encodeURIComponent(q + (/vic|victoria/i.test(q) ? "" : ", Victoria"))).then(function (r) { return r.json(); }).then(function (res) {
+      if (!res.length) { out.innerHTML = '<div class="answer">That address was not found. Try adding the town, for example "Rochester".</div>'; return; }
+      var lon = +res[0].lon, lat = +res[0].lat, where = res[0].display_name.split(",").slice(0, 3).join(",");
+      if (MAP) { MAP.flyTo({ center: [lon, lat], zoom: 15.5 }); if (marker) marker.remove(); marker = new maplibregl.Marker({ color: "#940E16" }).setLngLat([lon, lat]).addTo(MAP); }
+      var ext = (lon - 0.003) + "," + (lat - 0.003) + "," + (lon + 0.003) + "," + (lat + 0.003);
+      var u = PLAN + "/identify?geometry=" + lon + "," + lat + "&geometryType=esriGeometryPoint&sr=4326&layers=all:1,3,4,5,6,7,8,9,10,11&tolerance=1&mapExtent=" + ext + "&imageDisplay=400,400,96&returnGeometry=false&f=json";
+      var h = HISTWMS + "?service=WMS&version=1.1.1&request=GetFeatureInfo&layers=open-data-platform:vic_flood_history_public&query_layers=open-data-platform:vic_flood_history_public&info_format=application/json&srs=EPSG:4326&bbox=" + ext + "&width=101&height=101&x=50&y=50&feature_count=10";
+      return Promise.all([fetch(u).then(function (r) { return r.json(); }).catch(function () { return null; }), fetch(h).then(function (r) { return r.json(); }).catch(function () { return null; })]).then(function (rr) {
+        var plan = rr[0] && rr[0].results || [], hist = rr[1] && rr[1].features || [];
+        var overlays = plan.filter(function (x) { return x.layerId === 1; }).map(function (x) { return x.attributes.ZONE_DESCRIPTION + " (" + x.attributes.ZONE_CODE + ")"; });
+        var aep = plan.filter(function (x) { return x.layerId >= 3 && x.layerId <= 11; }).map(function (x) { return x.attributes.StudyName + (x.attributes.AEP && x.attributes.AEP !== "Null" ? ", " + x.attributes.AEP + " AEP" : ""); });
+        var past = hist.map(function (x) { var p = x.properties || {}; return p.EVENT_NAME || p.event_name || p.EVENT || p.DESCRIPTION || p.FLOOD_NAME || Object.keys(p).slice(0, 2).map(function (k) { return p[k]; }).join(" "); });
+        var any = overlays.length || aep.length || past.length;
+        if (!rr[0] && !rr[1]) { out.innerHTML = '<div class="answer">The flood map services did not answer. Try again, or use <a href="https://mapshare.vic.gov.au/vicplan/" target="_blank" rel="noopener">VicPlan</a>.</div>'; return; }
+        out.innerHTML = '<div class="answer ' + (any ? "in" : "out") + '"><b>' + esc(where) + "</b>" + (any ? "<ul>" +
+          aep.map(function (a) { return "<li>Inside the modelled 1-in-100-year flood extent: " + esc(a) + "</li>"; }).join("") +
+          overlays.map(function (o) { return "<li>Planning overlay: " + esc(o) + "</li>"; }).join("") +
+          past.map(function (p) { return "<li>Inside a recorded past flood: " + esc(p) + "</li>"; }).join("") + "</ul>" :
+          "<div>Not inside the mapped flood layers checked here. That does not mean it cannot flood.</div>") +
+          '<div style="margin-top:8px;font-size:0.84rem;color:var(--ink-2)">Address location is approximate. For the official planning report use <a href="https://mapshare.vic.gov.au/vicplan/" target="_blank" rel="noopener">VicPlan</a>.</div></div>';
+      });
+    }).catch(function () { out.innerHTML = '<div class="answer">The address search did not answer. Try again shortly.</div>'; });
+  });
+
+  // ---------- how unusual is this
+  S.freq = null; S.freqSite = null;
+  function renderUnusual() {
+    if (!S.freq) { getJSON("data/frequency.json").then(function (j) { S.freq = j.sites || {}; renderUnusual(); }).catch(function () { $("freqChart").innerHTML = '<div class="empty">The yearly record appears once the daily history has loaded.</div>'; }); renderSkill(); return; }
+    var ids = Object.keys(S.freq).filter(function (id) { return S.byId[id]; });
+    ids.sort(function (a, b) { return (S.byId[b].key ? 1 : 0) - (S.byId[a].key ? 1 : 0); });
+    if (!ids.length) { $("freqChart").innerHTML = '<div class="empty">The yearly record appears once the daily history has loaded (Back-fill history).</div>'; renderSkill(); return; }
+    if (!S.freqSite || ids.indexOf(S.freqSite) < 0) S.freqSite = ids.indexOf("406202") > -1 ? "406202" : ids[0];
+    $("freqPick").innerHTML = '<label for="freqSel" style="font:600 0.72rem var(--f-data);letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);align-self:center;margin-right:6px">Gauge</label><select id="freqSel">' + ids.map(function (id) { var s = S.byId[id]; return '<option value="' + id + '"' + (id === S.freqSite ? " selected" : "") + ">" + esc(shortName(s.name)) + " (" + esc(s.river) + ", " + (S.freq[id].kind === "flow" ? "flow" : "level") + ")</option>"; }).join("") + "</select>";
+    $("freqSel").addEventListener("change", function () { S.freqSite = this.value; renderUnusual(); });
+    drawFreq(S.freq[S.freqSite], S.byId[S.freqSite]);
+    renderSkill();
+  }
+  function drawFreq(fr, s) {
+    var flow = fr.kind === "flow", unit = flow ? "ML/day" : s.unit;
+    var now = flow ? (s.flowLatest && s.flowLatest.v) : (s.latest && s.latest.v);
+    var W = Math.max(340, Math.min(720, ($("freqChart").clientWidth || 640))), H = W < 500 ? 300 : 340, L = 58, B = 40, T = 14, R = 12;
+    var pts = fr.curve, vs = pts.map(function (p) { return p.v; }).concat(now != null ? [now] : []);
+    if (!flow) [s.minor, s.moderate, s.major].forEach(function (v) { if (v != null) vs.push(v); });
+    var lo = Math.min.apply(null, vs), hi = Math.max.apply(null, vs), pad = (hi - lo) * 0.08 || 1; lo -= pad; hi += pad;
+    if (flow) lo = Math.max(0, lo);
+    var xmin = Math.log(1), xmax = Math.log(Math.max(fr.years + 1, 20) * 1.15);
+    function x(ari) { return L + (Math.log(ari) - xmin) / (xmax - xmin) * (W - L - R); }
+    function y(v) { return T + (hi - v) / (hi - lo) * (H - T - B); }
+    var svg = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Highest level each year at ' + esc(s.name) + ', by how rare it was">';
+    var lastX = -99;
+    [1, 2, 5, 10, 20, 50, 100].forEach(function (a) { if (Math.log(a) > xmax) return; svg += '<line x1="' + x(a) + '" x2="' + x(a) + '" y1="' + T + '" y2="' + (H - B) + '" stroke="#dbe3ea"/>'; if (x(a) - lastX >= 52) { svg += '<text x="' + x(a) + '" y="' + (H - B + 16) + '" text-anchor="middle">1 in ' + a + "</text>"; lastX = x(a); } });
+    svg += '<text x="' + ((L + W - R) / 2) + '" y="' + (H - 4) + '" text-anchor="middle">How often, years</text>';
+    for (var k = 0; k <= 4; k++) { var v = lo + (hi - lo) * k / 4; svg += '<text x="' + (L - 8) + '" y="' + (y(v) + 4) + '" text-anchor="end">' + (flow ? Math.round(v).toLocaleString("en-AU") : f(v, 1)) + "</text>"; }
+    if (!flow) [["minor", s.minor], ["moderate", s.moderate], ["major", s.major]].forEach(function (m) { if (m[1] == null) return; svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(m[1]) + '" y2="' + y(m[1]) + '" stroke="' + COLOR[m[0]] + '" stroke-dasharray="5 4"/><text x="' + (L + 6) + '" y="' + (y(m[1]) - 4) + '" style="fill:' + COLOR[m[0]] + '">' + m[0] + "</text>"; });
+    var d = pts.map(function (p, i) { return (i ? "L" : "M") + x(p.ari).toFixed(1) + " " + y(p.v).toFixed(1); }).join(" ");
+    svg += '<path d="' + d + '" fill="none" stroke="#0a3a66" stroke-width="1.5" opacity="0.5"/>';
+    pts.forEach(function (p) { svg += '<circle cx="' + x(p.ari).toFixed(1) + '" cy="' + y(p.v).toFixed(1) + '" r="4" fill="#00294d"><title>' + (p.wy + "-" + String(p.wy + 1).slice(2)) + ": " + (flow ? Math.round(p.v).toLocaleString("en-AU") : f(p.v)) + " " + unit + " (" + fmtDate(p.date) + ")</title></circle>"; });
+    pts.slice(0, 3).forEach(function (p) { svg += '<text x="' + (x(p.ari) - 8) + '" y="' + (y(p.v) - 8) + '" text-anchor="end" style="fill:#940E16;font-weight:600">' + p.date.slice(0, 7) + "</text>"; });
+    if (now != null) svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(now) + '" y2="' + y(now) + '" stroke="#4BC9F5" stroke-width="3"/><text x="' + (W - R) + '" y="' + (y(now) - 6) + '" text-anchor="end" style="fill:#0b6f99;font-weight:700">Today ' + (flow ? Math.round(now).toLocaleString("en-AU") : f(now)) + " " + esc(unit) + "</text>";
+    svg += "</svg>";
+    $("freqChart").innerHTML = svg;
+    var r = s.rarity;
+    if (now == null || !r) { $("verdict").textContent = "No reading today"; $("verdictNote").textContent = ""; return; }
+    $("verdict").innerHTML = r.beyondRecord ? "Higher than <em>every year</em> on record" : r.oneIn >= 2 ? "About <em>1 in " + Math.round(r.oneIn) + "</em> years" : "An <em>ordinary</em> day for this river";
+    $("verdictNote").innerHTML = "At " + esc(s.name) + ", the river has reached today's " + (flow ? "flow" : "level") + " in <b>" + r.reachedYears + " of the " + r.years + "</b> years recorded (" + fr.from + " to " + (fr.to + 1) + "). Worked out from the yearly highest " + (flow ? "daily mean flows" : "daily levels") + " only. Gauges, rivers and dams change over time, so treat this as a rough guide.";
+  }
+  function renderSkill() {
+    var sk = A().skill;
+    if (!sk || !sk.leads || !sk.leads.length) { $("skill").innerHTML = '<div class="empty">Building up. The first scores appear once forecasts from a few days ago can be checked against what fell.</div>'; return; }
+    $("skill").innerHTML = '<div style="overflow-x:auto"><table class="light-table" style="border:0"><thead><tr><th>Days ahead</th><th class="n">Typical miss</th><th class="n">Heavy days caught</th><th class="n">False alarms</th><th class="n">Checks</th></tr></thead><tbody>' +
+      sk.leads.map(function (l) { return "<tr><td>" + l.lead + ' day' + (l.lead > 1 ? "s" : "") + '</td><td class="n">' + f(l.mae, 1) + ' mm</td><td class="n">' + (l.heavyCaught == null ? "-" : l.heavyCaught + "% (" + l.hits + "/" + (l.hits + l.misses) + ")") + '</td><td class="n">' + l.falseAlarms + '</td><td class="n">' + l.n + "</td></tr>"; }).join("") + "</tbody></table></div>";
   }
 
   load();

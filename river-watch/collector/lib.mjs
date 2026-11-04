@@ -72,7 +72,7 @@ export async function getJson(url, tries = 3) {
   let err;
   for (let i = 0; i < tries; i++) {
     try {
-      const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
+      const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' }, signal: AbortSignal.timeout(45000) });
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return await r.json();
     } catch (e) { err = e; await sleep(1500 * (i + 1)); }
@@ -80,7 +80,7 @@ export async function getJson(url, tries = 3) {
   throw err;
 }
 export async function getText(url) {
-  const r = await fetch(url, { headers: { 'User-Agent': UA } });
+  const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(30000) });
   if (!r.ok) throw new Error('HTTP ' + r.status);
   return r.text();
 }
@@ -212,4 +212,49 @@ export function trend(series, hours = 3, threshold = 0.02) {
   for (let i = series.length - 2; i >= 0; i--) if (series[i][0] <= last[0] - hours * HOUR) { prev = series[i]; break; }
   const d = last[1] - prev[1];
   return d > threshold ? 'rising' : d < -threshold ? 'falling' : 'steady';
+}
+
+// ------------------------------------------------------------ any Hydstra variable (storages)
+/** Raw series for one site and variable (e.g. storage level or volume). Returns [{t, v}]. */
+export async function varTrace(portalKey, ds, siteId, varfrom, varto, start, end, interval, dataType) {
+  if (MOCK) return mock.storageTrace(siteId, varto, start, end, interval);
+  const payload = {
+    function: 'get_ts_traces', version: '2',
+    params: { site_list: siteId, datasource: ds, varfrom, varto, start_time: hydstraTime(start), end_time: hydstraTime(end), interval, multiplier: '1', data_type: dataType }
+  };
+  const j = await getJson(CFG.portals[portalKey].url + encodeURIComponent(JSON.stringify(payload)), 2);
+  if (j.error_num) throw new Error(j.error_msg || 'error ' + j.error_num);
+  const out = [];
+  for (const tr of (j.return && j.return.traces) || []) {
+    if (tr.error_num) continue;
+    for (const r of tr.trace || []) {
+      const q = Number(r.q), v = parseFloat(r.v);
+      if (q === 255 || Number.isNaN(v)) continue;
+      out.push({ t: parseHydstraTime(r.t), v: round(v) });
+    }
+  }
+  if (!out.length) throw new Error('no data returned');
+  return out;
+}
+
+// ------------------------------------------------------------ soil moisture (Open-Meteo ERA5, CC BY 4.0)
+/** Daily mean root-zone soil moisture (m3/m3, 0 to 100 cm) for one point. */
+export async function soilArchive(point, startDate, endDate) {
+  if (MOCK) return mock.soilArchive(point, startDate, endDate);
+  const url = 'https://archive-api.open-meteo.com/v1/archive?latitude=' + point.lat + '&longitude=' + point.lon +
+    '&start_date=' + startDate + '&end_date=' + endDate + '&daily=' + CFG.soil.variable + '&timezone=' + encodeURIComponent(CFG.timezone);
+  const j = await getJson(url);
+  return j.daily.time.map((d, i) => [d, j.daily[CFG.soil.variable][i]]);
+}
+
+// ------------------------------------------------------------ BoM warning text
+/** Full text of a BoM warning product, from its link in the RSS feed. */
+export async function warningText(link) {
+  if (MOCK) return '';
+  // The plain-text version of a product (…/fwo/IDV36xxx.txt) is cleaner than the web page.
+  const id = (link.match(/(ID[A-Z]\d{5})/) || [])[1];
+  if (id) { try { return (await getText('http://www.bom.gov.au/fwo/' + id + '.txt')).replace(/\r/g, ''); } catch { /* fall back to the page */ } }
+  const html = await getText(link);
+  return html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/g, ' ').replace(/<br\s*\/?>|<\/p>/gi, '\n').replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/[ \t]+/g, ' ').trim();
 }

@@ -93,3 +93,31 @@ export async function rainForecast(points) {
     return { id: p.id, name: p.name, catchment: p.catchment, daily: { time, precipitation_sum, precipitation_probability_max } };
   });
 }
+
+// Example storage: fills in winter-spring, draws down in summer, tops out before each example flood.
+export async function storageTrace(siteId, varto, start, end, interval) {
+  const from = Math.max(start.getTime(), Date.UTC(1990, 0, 1)), to = end.getTime();
+  if (to <= from) throw new Error('no data returned');
+  const step = interval === 'day' ? DAY : HOUR, out = [];
+  for (let t = Math.ceil(from / step) * step; t <= to; t += step) {
+    const season = Math.sin(((t / DAY) % 365.25) / 365.25 * 2 * Math.PI - 1.2);
+    let pct = 62 + 26 * season + 6 * Math.sin(t / (DAY * 900));
+    for (const fl of EXAMPLE_FLOODS) { const d = (fl.peak - t) / DAY; if (d > -20 && d < 60) pct = Math.max(pct, 100 - Math.abs(d) * 0.2); }
+    pct = Math.min(101, Math.max(15, pct));
+    const vol = 304651 * pct / 100;
+    out.push({ t, v: Math.round((varto === '130.00' ? 193.0 - (100 - pct) * 0.09 : vol) * 1000) / 1000 });
+  }
+  return out;
+}
+
+// Example soil moisture (m3/m3): wetter in winter, wetter still before example floods.
+export async function soilArchive(point, startDate, endDate) {
+  const out = [];
+  for (let t = Date.parse(startDate + 'T00:00:00Z'); t <= Date.parse(endDate + 'T00:00:00Z'); t += DAY) {
+    const season = Math.sin(((t / DAY) % 365.25) / 365.25 * 2 * Math.PI - 1.4);
+    let v = 0.26 + 0.07 * season + 0.02 * (rnd(t / DAY / 9 + point.lat) - 0.5);
+    for (const fl of EXAMPLE_FLOODS) { const d = (fl.peak - t) / DAY; if (d > -15 && d < 40) v += 0.06 * Math.exp(-((d - 5) ** 2) / 300); }
+    out.push([new Date(t).toISOString().slice(0, 10), Math.round(v * 1000) / 1000]);
+  }
+  return out;
+}

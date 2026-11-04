@@ -8,7 +8,7 @@ on:
       only:
         description: "What to build"
         type: choice
-        options: [all, daily, rain, events]
+        options: [all, daily, rain, storage, soil, events]
         default: all
       from:
         description: "Start year"
