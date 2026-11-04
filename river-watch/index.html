@@ -248,6 +248,8 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 .note { margin: 18px 0 0; color: var(--ink-2); font-size: 0.9rem; max-width: 90ch; }
 .night .note { color: var(--on-night-2); }
 .grid2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }
+.grid2.g-r { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); }
+.grid2.g-l { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); }
 .grid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .box { background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 18px; min-width: 0; }
 .night .box { background: rgba(255,255,255,0.04); border-color: var(--night-line); }
@@ -338,7 +340,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 .jn svg { display: block; width: 100%; height: auto; }
 .jn text { font: 11px var(--f-data); fill: var(--on-night-2); }
 .maplibregl-popup-content { font: 0.88rem var(--f-body); color: var(--ink); }
-@media (max-width: 900px) { .grid2, .grid3 { grid-template-columns: 1fr; } #map { height: 420px; } .bar { grid-template-columns: 120px minmax(0, 1fr) 56px; } }
+@media (max-width: 900px) { .grid2, .grid3, .grid2.g-r, .grid2.g-l { grid-template-columns: 1fr; } #map { height: 420px; } .bar { grid-template-columns: 120px minmax(0, 1fr) 56px; } }
 
 @media (max-width: 900px) {
   .hero-top, .sec-head, .ev-head, .ev-grid, .rain-grid, footer .wrap { grid-template-columns: 1fr; }
@@ -451,7 +453,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       <div><span class="kicker">Rochester Town gauge</span><h2>What it means on the ground</h2></div>
       <p>What each height on the Rochester Town gauge has meant for the town, and a map of the mapped flood areas. Search an address to see which flood maps cover it.</p>
     </div>
-    <div class="grid2" style="grid-template-columns:minmax(0,0.8fr) minmax(0,1.2fr)">
+    <div class="grid2 g-r">
       <div>
         <div class="ladder" id="ladder"></div>
         <h3 style="font-size:1.5rem;font-weight:800;text-transform:uppercase;margin:28px 0 10px">During a flood</h3>
@@ -538,7 +540,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       <div><span class="kicker">Every year on record</span><h2>How unusual is this</h2></div>
       <p>Each dot is the highest the river reached in one year (July to June). The line is today. The further right a dot sits, the rarer that flood.</p>
     </div>
-    <div class="grid2" style="grid-template-columns:minmax(0,1.5fr) minmax(0,1fr)">
+    <div class="grid2 g-l">
       <div class="box freq"><div class="pick" id="freqPick" role="group" aria-label="Choose a gauge"></div><div id="freqChart"></div></div>
       <div>
         <div class="verdict" id="verdict"></div>
@@ -1325,7 +1327,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   function drawFreq(fr, s) {
     var flow = fr.kind === "flow", unit = flow ? "ML/day" : s.unit;
     var now = flow ? (s.flowLatest && s.flowLatest.v) : (s.latest && s.latest.v);
-    var W = 640, H = 340, L = 64, B = 40, T = 14, R = 14;
+    var W = Math.max(340, Math.min(720, ($("freqChart").clientWidth || 640))), H = W < 500 ? 300 : 340, L = 58, B = 40, T = 14, R = 12;
     var pts = fr.curve, vs = pts.map(function (p) { return p.v; }).concat(now != null ? [now] : []);
     if (!flow) [s.minor, s.moderate, s.major].forEach(function (v) { if (v != null) vs.push(v); });
     var lo = Math.min.apply(null, vs), hi = Math.max.apply(null, vs), pad = (hi - lo) * 0.08 || 1; lo -= pad; hi += pad;
@@ -1334,7 +1336,8 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     function x(ari) { return L + (Math.log(ari) - xmin) / (xmax - xmin) * (W - L - R); }
     function y(v) { return T + (hi - v) / (hi - lo) * (H - T - B); }
     var svg = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Highest level each year at ' + esc(s.name) + ', by how rare it was">';
-    [1, 2, 5, 10, 20, 50, 100].forEach(function (a) { if (Math.log(a) > xmax) return; svg += '<line x1="' + x(a) + '" x2="' + x(a) + '" y1="' + T + '" y2="' + (H - B) + '" stroke="#dbe3ea"/><text x="' + x(a) + '" y="' + (H - B + 16) + '" text-anchor="middle">1 in ' + a + "</text>"; });
+    var lastX = -99;
+    [1, 2, 5, 10, 20, 50, 100].forEach(function (a) { if (Math.log(a) > xmax) return; svg += '<line x1="' + x(a) + '" x2="' + x(a) + '" y1="' + T + '" y2="' + (H - B) + '" stroke="#dbe3ea"/>'; if (x(a) - lastX >= 52) { svg += '<text x="' + x(a) + '" y="' + (H - B + 16) + '" text-anchor="middle">1 in ' + a + "</text>"; lastX = x(a); } });
     svg += '<text x="' + ((L + W - R) / 2) + '" y="' + (H - 4) + '" text-anchor="middle">How often, years</text>';
     for (var k = 0; k <= 4; k++) { var v = lo + (hi - lo) * k / 4; svg += '<text x="' + (L - 8) + '" y="' + (y(v) + 4) + '" text-anchor="end">' + (flow ? Math.round(v).toLocaleString("en-AU") : f(v, 1)) + "</text>"; }
     if (!flow) [["minor", s.minor], ["moderate", s.moderate], ["major", s.major]].forEach(function (m) { if (m[1] == null) return; svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(m[1]) + '" y2="' + y(m[1]) + '" stroke="' + COLOR[m[0]] + '" stroke-dasharray="5 4"/><text x="' + (L + 6) + '" y="' + (y(m[1]) - 4) + '" style="fill:' + COLOR[m[0]] + '">' + m[0] + "</text>"; });
