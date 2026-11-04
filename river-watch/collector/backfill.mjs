@@ -23,7 +23,7 @@ const force = args.includes('--force');
 const gapsOnly = args.includes('--gaps');
 const fromYear = Number(opt('from', CFG.historyStartYear));
 const thisYear = new Date().getFullYear();
-const polite = MOCK ? 0 : 300; // ms between requests
+const polite = MOCK ? 0 : 1500; // ms between requests, keeps well under the state server's hourly download limit
 
 // ------------------------------------------------------------ 1. daily levels and flows
 if (only === 'all' || only === 'daily') {
@@ -54,8 +54,23 @@ if (only === 'all' || only === 'daily') {
             await piece(start, mid); await sleep(polite); await piece(mid, end);
             return;
           }
+          if (/over your limit|downloaded .* in the last/i.test(msg)) {
+            // the state server allows about 150 MB an hour; wait for the hour's total to fall, then retry
+            for (let w = 1; w <= 6; w++) {
+              console.log(`  ${site.id} ${kind}: hit the server's hourly download limit, waiting ${2 * w} min (try ${w} of 6)`);
+              await sleep(2 * w * 60000);
+              try {
+                const res = await traces(site, kind, start, end, 'day', kind === 'level' ? 'max' : 'mean', { tries: 1, timeoutMs: WAIT, onlyRemembered: worked });
+                upsertDaily(site.id, kind, res.points); n += res.points.length; worked = true;
+                console.log(`  ${site.id} ${kind} ${fmtD(start)} to ${fmtD(end)}: ${res.points.length} days after waiting`);
+                return;
+              } catch (e2) { if (!/over your limit|downloaded .* in the last/i.test(String(e2.message || e2))) break; }
+            }
+            console.log(`  ${site.id} ${kind} ${fmtD(start)} to ${fmtD(end)}: still limited, left for a --gaps run`);
+            return;
+          }
           if (slow) stuck++;
-          else if (!/no data|not found|no records|125|HTTP 403/i.test(msg) && !piece.retried) {
+          else if (!/no data|not found|no records|HTTP 403/i.test(msg) && !piece.retried) {
             console.log(`  ${site.id} ${kind} ${fmtD(start)} to ${fmtD(end)}: ${msg.slice(0, 70)}; waiting 60s and trying once more`);
             piece.retried = true; await sleep(60000); await piece(start, end); piece.retried = false;
             return;
