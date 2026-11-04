@@ -3,14 +3,17 @@
 //   node collector/backfill.mjs --only daily    just daily levels and flows
 //   node collector/backfill.mjs --only rain     just rain history (ERA5)
 //   node collector/backfill.mjs --only events   just detect floods and build event files
+//   node collector/backfill.mjs --only storage  just storage history (Lake Eppalock)
+//   node collector/backfill.mjs --only soil     just soil moisture history (ERA5)
 //   add --from 2000 to start later, --force to rebuild event files
 // Created by Josh Avard
 import path from 'node:path';
 import fs from 'node:fs';
 import {
-  CFG, DATA, MOCK, HOUR, DAY, traces, saveState, rainArchive, sleep, writeJson, readJson, localDate, floodClass, round
+  CFG, DATA, MOCK, HOUR, DAY, traces, saveState, rainArchive, sleep, writeJson, readJson, localDate, floodClass, round,
+  varTrace, soilArchive
 } from './lib.mjs';
-import { readDaily, upsertDaily, readRainDaily, upsertRainDaily } from './store.mjs';
+import { readDaily, upsertDaily, readRainDaily, upsertRainDaily, upsertStorage, upsertSoil } from './store.mjs';
 
 const args = process.argv.slice(2);
 const opt = (name, dflt) => { const i = args.indexOf('--' + name); return i > -1 ? args[i + 1] : dflt; };
@@ -59,6 +62,46 @@ if (only === 'all' || only === 'rain') {
     }
     console.log(`rain ${p.name}: ${n} days`);
   }
+}
+
+// ------------------------------------------------------------ 2b. storage history (Lake Eppalock and others)
+if (only === 'all' || only === 'storage') {
+  for (const st of CFG.storages || []) {
+    let n = 0;
+    for (let y = fromYear; y <= thisYear; y += 5) {
+      const start = new Date(Date.UTC(y, 0, 1) - CFG.hydstraOffsetHours * HOUR);
+      const end = new Date(Math.min(Date.UTC(y + 5, 0, 1) - CFG.hydstraOffsetHours * HOUR, Date.now()));
+      const rows = {};
+      for (const [k, v] of [['volume', st.volumeVar], ['level', st.levelVar]]) {
+        if (!v) continue;
+        try { for (const p of await varTrace(st.portal, st.ds, st.id, v.from, v.to, start, end, 'day', 'mean')) (rows[localDate(p.t + 12 * HOUR)] ||= { date: localDate(p.t + 12 * HOUR) })[k] = p.v; } catch { /* no record */ }
+        await sleep(polite);
+      }
+      upsertStorage(st, Object.values(rows));
+      n += Object.keys(rows).length;
+    }
+    console.log(`storage ${st.name}: ${n} days`);
+  }
+}
+
+// ------------------------------------------------------------ 2c. soil moisture history (ERA5, catchment means)
+if ((only === 'all' || only === 'soil') && CFG.soil) {
+  const endDate = localDate(Date.now() - 6 * DAY);
+  const byC = {};
+  for (const p of CFG.rainPoints) {
+    for (let y = Math.max(fromYear, 1950); y <= thisYear; y += 10) {
+      const s = `${y}-01-01`, e = y + 9 >= thisYear ? endDate : `${y + 9}-12-31`;
+      if (s > endDate) break;
+      try { for (const [d, v] of await soilArchive(p, s, e)) if (v != null) ((byC[p.catchment] ||= {})[d] ||= []).push(v); }
+      catch (err) { console.log(`soil ${p.id} ${s}: ${err.message}`); }
+      await sleep(MOCK ? 0 : 1200);
+    }
+    console.log(`soil ${p.name} done`);
+  }
+  const rows = [];
+  for (const [c, days] of Object.entries(byC)) for (const [d, vs] of Object.entries(days)) rows.push([d, c, round(vs.reduce((a, b) => a + b, 0) / vs.length, 4)]);
+  upsertSoil(rows);
+  console.log(`soil: ${rows.length} catchment-days`);
 }
 
 // ------------------------------------------------------------ 3. past floods

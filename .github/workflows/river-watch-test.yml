@@ -1,0 +1,32 @@
+# Temporary: dry run of the new collector against live services. Read-only, removed after use.
+name: River Watch test run
+on:
+  push:
+    branches: [claude/relaxed-pasteur-rrxgbb]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node river-watch/collector/collect.mjs
+      - run: node river-watch/collector/backfill.mjs --only storage --from 2015
+      - run: node river-watch/collector/collect.mjs
+      - name: Summary
+        run: |
+          cd river-watch
+          node -e "
+          const j=require('./data/latest.json');const a=j.analysis||{};
+          console.log('LOG',JSON.stringify(j.log));
+          console.log('STORAGE',JSON.stringify((a.catchment||{}).storages&&a.catchment.storages.map(s=>({...s,series:s.series&&s.series.length}))));
+          console.log('SOIL',JSON.stringify((a.catchment||{}).soil&&a.catchment.soil.map(s=>({...s,series:s.series.length}))));
+          console.log('OUTLOOK',(a.outlook||[]).length,'SKILL',JSON.stringify(a.skill));
+          console.log('JUNCTION',JSON.stringify({m:a.junction&&a.junction.murray&&a.junction.murray.v,c:a.junction&&a.junction.campaspe&&a.junction.campaspe.v}));
+          for(const s of j.sites)console.log('SITE',s.id,s.name,s.latest&&s.latest.v,s.trend,JSON.stringify(s.rise),JSON.stringify(s.rarity||null));
+          console.log('PRED',JSON.stringify(j.warnings.predictions));"
+          head -5 data/storage/406219.csv; tail -3 data/storage/406219.csv; wc -l data/storage/406219.csv data/soil/daily.csv

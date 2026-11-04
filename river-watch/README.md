@@ -49,8 +49,28 @@ Data sources: Victorian Water Measurement Information System (DEECA) and WaterNS
 | `data/events/index.json` and `data/events/<date>.json` | Every past flood: peaks, flows, travel times, rain before, hourly records |
 | `data/warnings.csv` | Each river-related BoM warning as it appeared |
 | `data/sites.csv` | Gauge list with BoM flood class levels |
+| `data/storage/406219.csv` | Lake Eppalock daily level, volume and % full (volume recorded from 2018, earlier fullness estimated from level) |
+| `data/soil/daily.csv` | Daily root-zone soil moisture (0 to 100 cm, ERA5) averaged for each catchment |
+| `data/frequency.json` | Highest level or flow in each year (July to June) with how often each was reached |
+| `data/predictions.csv` | Predicted heights read from BoM flood warnings, kept to check against what happened |
 
 Past floods are found automatically: any time Rochester Town, Rochester Syphon, Echuca (Campaspe) or Echuca Wharf went over the minor flood level. Known floods in `curatedEvents` (January 2011, October 2022, January 2024) add names, notes and the peaks reported at the time.
+
+## What the analysis adds (not official forecasts)
+
+`collector/insights.mjs` works out, every hour:
+
+- **Rate of rise** over the last 6 hours and the time to each flood level at that rate.
+- **Travel times** between gauges from the site's own past floods, and when an upstream gauge is high, what followed downstream in the three most similar floods.
+- **BoM predicted heights**, read from the text of current flood warnings and drawn on the hero chart.
+- **Catchment state**: Lake Eppalock fullness, soil wetness as a percentile of the same month since 1970, and the Murray and Campaspe side by side at Echuca.
+- **Conditions now vs the week before each past flood** (rain, lake, soil).
+- **How unusual** today's level or flow is, from the yearly highest values on record.
+- **Forecast report card**: saved rain forecasts checked against the rain that fell.
+
+The page also has a live flood map (MapLibre, loaded only when scrolled to) with the 1% AEP flood extents, mapped past floods and planning overlays, and an address check that asks the same Victorian Government map services. What each level means for Rochester is set in `impacts` in `config/sites.json`, with sources.
+
+Note: the Victorian water data service limits each user to about 150 MB an hour. The hourly run uses a tiny fraction of that; the back-fill is paced to stay under it.
 
 ## Changing things
 

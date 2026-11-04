@@ -106,3 +106,52 @@ export function writeSitesTable() {
 export function listFiles(dir) {
   try { return fs.readdirSync(path.join(DATA, dir)).sort(); } catch { return []; }
 }
+
+// ---------------- storages: data/storage/<id>.csv (date, level_m, volume_ml, pct_full)
+export function upsertStorage(st, rows) {
+  const file = path.join(DATA, 'storage', st.id + '.csv');
+  const map = new Map(readCsv(file).map((r) => [r[0], { date: r[0], level: r[1] === '' ? null : +r[1], volume: r[2] === '' ? null : +r[2] }]));
+  for (const r of rows) {
+    const old = map.get(r.date) || { date: r.date, level: null, volume: null };
+    if (r.level != null) old.level = r.level;
+    if (r.volume != null) old.volume = r.volume;
+    map.set(r.date, old);
+  }
+  const all = [...map.values()].sort((a, b) => (a.date < b.date ? -1 : 1));
+  // Volume is only recorded in recent years. Build a level-to-volume table from days that have both,
+  // and use it to estimate fullness on older days (marked "estimated").
+  const pairs = all.filter((r) => r.level != null && r.volume != null).map((r) => [r.level, r.volume]).sort((a, b) => a[0] - b[0]);
+  const est = (lv) => {
+    if (pairs.length < 30 || lv < pairs[0][0] || lv > pairs[pairs.length - 1][0] + 0.3) return null;
+    let i = pairs.findIndex((p) => p[0] >= lv);
+    if (i === -1) i = pairs.length - 1;
+    if (i === 0) return pairs[0][1];
+    const [l0, v0] = pairs[i - 1], [l1, v1] = pairs[i];
+    return l1 === l0 ? v1 : v0 + ((lv - l0) / (l1 - l0)) * (v1 - v0);
+  };
+  writeCsv(file, ['date', 'level_m', 'volume_ml', 'pct_full', 'volume_source'], all.map((r) => {
+    let vol = r.volume, src = r.volume != null ? 'recorded' : '';
+    if (vol == null && r.level != null) { const e = est(r.level); if (e != null) { vol = Math.round(e); src = 'estimated from level'; } }
+    return [r.date, r.level, r.volume, vol != null && st.capacityML ? round((vol / st.capacityML) * 100, 1) : '', src];
+  }));
+  return all.length;
+}
+
+// ---------------- soil moisture: data/soil/daily.csv (date, catchment, m3/m3 0-100 cm, catchment mean)
+export function upsertSoil(rows) {
+  const file = path.join(DATA, 'soil', 'daily.csv');
+  const map = new Map(readCsv(file).map((r) => [r[0] + '|' + r[1], r]));
+  for (const r of rows) map.set(r[0] + '|' + r[1], r);
+  const all = [...map.values()].sort((a, b) => (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : a[1] < b[1] ? -1 : 1));
+  writeCsv(file, ['date', 'catchment', 'soil_moisture_m3m3'], all);
+}
+
+// ---------------- BoM predicted heights, kept so they can be checked against what happened
+export function appendPredictions(fetchedIso, items) {
+  const file = path.join(DATA, 'predictions.csv');
+  const existing = readCsv(file);
+  const seen = new Set(existing.map((r) => r[1] + '|' + r[2] + '|' + r[4]));
+  const fresh = items.filter((p) => !seen.has(p.issued + '|' + p.site + '|' + p.level));
+  writeCsv(file, ['fetched_utc', 'issued', 'site', 'kind', 'level', 'when', 'window_start_utc', 'window_end_utc', 'sentence'],
+    existing.concat(fresh.map((p) => [fetchedIso, p.issued, p.site, p.kind, p.level, p.when, p.window ? new Date(p.window[0]).toISOString() : '', p.window ? new Date(p.window[1]).toISOString() : '', p.sentence])));
+}
