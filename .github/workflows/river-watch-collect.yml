@@ -1,0 +1,40 @@
+# River Watch - hourly collection and site deploy
+# Created by Josh Avard
+name: Collect river data
+
+on:
+  schedule:
+    - cron: "35 * * * *"   # every hour at :35 (gauges report hourly)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  
+concurrency:
+  group: river-data
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Collect gauges, rain and warnings
+        run: node river-watch/collector/collect.mjs
+
+      - name: Save the new data to the repository
+        run: |
+          git config user.name "river-watch-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add river-watch/data
+          if ! git diff --cached --quiet; then
+            git commit -m "Data $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash origin main
+            git push
+          fi
+

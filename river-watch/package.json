@@ -1,0 +1,15 @@
+{
+  "name": "river-watch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Campaspe & Murray River Watch - created by Josh Avard",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "collect": "node collector/collect.mjs",
+    "backfill": "node collector/backfill.mjs",
+    "events": "node collector/backfill.mjs --only events",
+    "discover": "node collector/discover.mjs",
+    "example": "RW_MOCK=1 RW_DATA_DIR=example-data node collector/backfill.mjs --from 1990 && RW_MOCK=1 RW_DATA_DIR=example-data node collector/collect.mjs"
+  }
+}
