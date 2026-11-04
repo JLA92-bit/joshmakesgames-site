@@ -1,0 +1,54 @@
+# River Watch - history back-fill and past-flood builder (run by hand from the Actions tab)
+# Created by Josh Avard
+name: Back-fill history
+
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "What to build"
+        type: choice
+        options: [all, daily, rain, events]
+        default: all
+      from:
+        description: "Start year"
+        default: "1970"
+      force:
+        description: "Rebuild past-flood files that already exist"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  
+concurrency:
+  group: river-data
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Back-fill
+        run: node river-watch/collector/backfill.mjs --only "${{ inputs.only }}" --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
+
+      - name: Refresh the latest snapshot
+        run: node river-watch/collector/collect.mjs
+
+      - name: Save the data to the repository
+        run: |
+          git config user.name "river-watch-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add river-watch/data
+          if ! git diff --cached --quiet; then
+            git commit -m "History back-fill (${{ inputs.only }} from ${{ inputs.from }})"
+            git pull --rebase --autostash origin main
+            git push
+          fi
+

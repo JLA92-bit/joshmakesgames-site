@@ -16,13 +16,13 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Josh Makes Games logo with a Cozy Acres banner">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#fff8ec">
+<meta name="theme-color" content="#faf8f5">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Fraunces:wght@800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=Patrick+Hand&display=swap">
 <link rel="stylesheet" href="/assets/studio.css">
 </head>
 <body>
@@ -32,90 +32,79 @@
     <a class="header__logo" href="/" aria-label="Josh Makes Games home"><img src="/assets/img/josh-makes-games-logo-full-colour.svg" alt="Josh Makes Games" width="240" height="44"></a>
     <nav aria-label="Main"><ul>
       <li><a href="#games">Games</a></li>
-      <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
+      <li><a class="nav__pill" href="/river-watch/">River Watch</a></li>
     </ul></nav>
   </div>
 </header>
 
 <main id="main">
-  <section class="hero">
+  <section class="intro" id="about">
     <div class="wrap">
-      <h1>Cozy couch games <span>for your phone</span></h1>
-      <p class="hero__lead">I'm Josh. I make cozy couch games you can pick up and play on your phone. No tricks and no pressure.</p>
-
-      <article class="banner" aria-labelledby="featured-title">
-        <img class="banner__img" src="/assets/img/cozy-acres-feature-1024x500.jpg" alt="Cozy Acres: a little farm island at golden hour with a farmhouse, barn, windmill and animals" width="1024" height="500">
-        <div class="banner__body">
-          <p class="eyebrow">Play now in your browser</p>
-          <h2 id="featured-title">Cozy Acres</h2>
-          <p>Grow your own cozy little farm. Plant, harvest, raise animals and go fishing and trade with friends - free to play.</p>
-          <div class="banner__cta">
-            <a class="btn btn--green" href="https://cozyacres.joshmakesgames.app/play/">Play now</a>
-            <a class="btn btn--ink" href="https://cozyacres.joshmakesgames.app/">Learn more</a>
-          </div>
-          <!-- Component: store links. Swap a <span class="store store--soon"> for <a class="store" href="..."> when the listing goes live. -->
-          <ul class="stores" aria-label="App stores">
-            <li><span class="store store--soon"><span class="store__name">App Store</span><span class="store__note">Coming soon</span></span></li>
-            <li><span class="store store--soon"><span class="store__name">Google Play</span><span class="store__note">Coming soon</span></span></li>
-          </ul>
-        </div>
-      </article>
+      <p class="kicker"><span class="dot" aria-hidden="true"></span>Solo game studio, Australia</p>
+      <h1>Hi, I'm Josh. I make <span>cozy couch games.</span></h1>
+      <p class="intro__lead">I'm a dad in a small Australian town making games in my spare time - relaxing little games you can play on your phone from the sofa. I build everything myself, from the art and code to the servers.</p>
+      <div class="intro__cta">
+        <a class="btn btn--primary" href="#games">See my games</a>
+        <a class="btn btn--ghost" href="#contact">Say hello</a>
+      </div>
     </div>
   </section>
 
   <section id="games" class="section" aria-labelledby="games-title">
     <div class="wrap">
-      <h2 id="games-title">My games</h2>
-      <p class="section__lead">Everything I've made so far, including one game still in early access.</p>
+      <h2 id="games-title" class="section__title">My games</h2>
       <ul class="games">
-        <!-- Component: game card. Copy this <li> for each new game. -->
+        <!-- Component: game card. Copy this <li> for each new game and add a theme class (gc--cozy, gc--hc, gc--doodle, gc--soon). -->
         <li>
-          <article class="game-card">
-            <img class="game-card__cover" src="/assets/img/cozy-acres-feature-1024x500.jpg" alt="" width="1024" height="500" loading="lazy">
+          <article class="game-card gc--cozy">
+            <img class="game-card__cover" src="/assets/img/cozy-acres-feature-1024x500.jpg" alt="Cozy Acres: a little farm island at golden hour with a farmhouse, barn, windmill and animals" width="1024" height="500" loading="lazy">
             <div class="game-card__body">
+              <p class="game-card__tag">Farming and village builder</p>
               <h3>Cozy Acres</h3>
-              <p>A cozy 3D farming and village builder.</p>
+              <p>Grow your own cozy little farm. Plant, harvest, raise animals, go fishing and trade with friends - free to play.</p>
               <ul class="badges" aria-label="Platforms">
-                <li class="badge"><img src="/assets/icons/globe_showing_americas.svg" alt="" width="18" height="18">Browser - out now</li>
-                <li class="badge"><img src="/assets/icons/mobile_phone.svg" alt="" width="18" height="18">Android and iOS - soon</li>
+                <li class="badge">Browser - out now</li>
+                <li class="badge">Android and iOS - soon</li>
               </ul>
               <ul class="stores" aria-label="Get Cozy Acres">
                 <li><a class="store" href="https://cozyacres.joshmakesgames.app/play/"><span class="store__name">Play in browser</span><span class="store__note">Play now</span></a></li>
                 <li><span class="store store--soon"><span class="store__name">App Store</span><span class="store__note">Coming soon</span></span></li>
                 <li><span class="store store--soon"><span class="store__name">Google Play</span><span class="store__note">Coming soon</span></span></li>
               </ul>
-              <a class="game-card__link" href="https://cozyacres.joshmakesgames.app/">Visit the Cozy Acres website &rarr;</a>
+              <a class="game-card__link" href="https://cozyacres.joshmakesgames.app/">Visit the Cozy Acres website <span aria-hidden="true">&rarr;</span></a>
             </div>
           </article>
         </li>
         <li>
-          <article class="game-card game-card--hc">
+          <article class="game-card gc--hc">
             <p class="beta-ribbon">Early access beta</p>
             <img class="game-card__cover" src="/assets/img/hollow-creek-feature-1024x500.jpg" alt="Hollow Creek: a half-built 1950s Victorian country cottage seen from above, with the rooms furnished" width="1024" height="500" loading="lazy">
             <div class="game-card__body">
+              <p class="game-card__tag">Victoria, 1952</p>
               <h3>Hollow Creek</h3>
-              <p>Victoria, 1952. Build a brand-new country town by hand, room by room, and keep it safe as its only Constable. When something goes missing, find out who did it.</p>
+              <p>Build a brand-new country town by hand, room by room, and keep it safe as its only Constable. When something goes missing, find out who did it.</p>
               <p class="beta-note"><strong>Early access beta.</strong> Still being built, so expect rough edges and the odd bug. Saves may not carry over between updates. The Android app asks you to allow installs from your browser.</p>
               <ul class="badges" aria-label="Platforms">
-                <li class="badge"><img src="/assets/icons/globe_showing_americas.svg" alt="" width="18" height="18">Browser - landscape</li>
-                <li class="badge"><img src="/assets/icons/mobile_phone.svg" alt="" width="18" height="18">Android beta app</li>
+                <li class="badge">Browser - landscape</li>
+                <li class="badge">Android beta app</li>
               </ul>
               <ul class="stores" aria-label="Get Hollow Creek">
-                <li><a class="store store--hc" href="https://jla92-bit.github.io/hollow-creek-play/"><span class="store__name">Play the beta</span><span class="store__note">Early access</span></a></li>
-                <li><a class="store store--hc" href="https://jla92-bit.github.io/hollow-creek-play/hollow-creek.apk" download><span class="store__name">Android app</span><span class="store__note">Download APK</span></a></li>
+                <li><a class="store" href="https://jla92-bit.github.io/hollow-creek-play/"><span class="store__name">Play the beta</span><span class="store__note">Early access</span></a></li>
+                <li><a class="store" href="https://jla92-bit.github.io/hollow-creek-play/hollow-creek.apk" download><span class="store__name">Android app</span><span class="store__note">Download APK</span></a></li>
               </ul>
             </div>
           </article>
         </li>
         <li>
-          <article class="game-card">
+          <article class="game-card gc--doodle">
             <img class="game-card__cover" src="/assets/img/doodle-bridge-feature-1024x500.jpg" alt="Doodle Bridge: a red doodle car crossing a sagging crayon bridge drawn between two cliffs on lined notebook paper" width="1024" height="500" loading="lazy">
             <div class="game-card__body">
+              <p class="game-card__tag">Physics puzzler</p>
               <h3>Doodle Bridge</h3>
               <p>Draw bridges with limited ink so a runaway doodle car can cross the gaps. Lines sag, wobble and snap, so every crash is funny and every crossing feels earned.</p>
               <ul class="badges" aria-label="Platforms">
-                <li class="badge"><img src="/assets/icons/globe_showing_americas.svg" alt="" width="18" height="18">Browser - play now</li>
+                <li class="badge">Browser - play now</li>
               </ul>
               <ul class="stores" aria-label="Get Doodle Bridge">
                 <li><a class="store" href="https://doodle-bridge.joshmakesgames.app/"><span class="store__name">Play in browser</span><span class="store__note">Play now</span></a></li>
@@ -124,12 +113,13 @@
           </article>
         </li>
         <li>
-          <article class="game-card game-card--soon">
+          <article class="game-card gc--soon">
             <img class="game-card__cover" src="/assets/img/coming-soon-cover.png" alt="" width="1024" height="500" loading="lazy">
             <div class="game-card__body">
+              <p class="game-card__tag">In the workshop</p>
               <h3>Something new</h3>
               <p>The next little game is growing quietly. More soon.</p>
-              <ul class="badges" aria-label="Status"><li class="badge badge--soon">Coming soon</li></ul>
+              <ul class="badges" aria-label="Status"><li class="badge">Coming soon</li></ul>
             </div>
           </article>
         </li>
@@ -137,24 +127,27 @@
     </div>
   </section>
 
-  <section id="about" class="section section--ink" aria-labelledby="about-title">
-    <div class="wrap about">
+  <section class="section section--tight" aria-labelledby="projects-title">
+    <div class="wrap">
+      <h2 id="projects-title" class="section__title">Made for my town</h2>
+      <a class="project" href="/river-watch/">
+        <img class="project__cover" src="/assets/img/river-watch-cover.svg" alt="" width="1024" height="500" loading="lazy">
+        <div class="project__body">
+          <h3>River Watch</h3>
+          <p>A free flood-awareness page for Rochester. Every hour it records river heights, flows, catchment rain and Bureau of Meteorology warnings along the Campaspe and Murray, and compares today with past floods.</p>
+          <span class="project__link">Open River Watch <span aria-hidden="true">&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" aria-labelledby="contact-title">
+    <div class="wrap contact__inner">
       <div>
-        <h2 id="about-title">About me</h2>
-        <p>Hi, I'm Josh. I'm a 30-something dad living in a small town in Australia, and I make games in my spare time.</p>
-        <p>Josh Makes Games is just me. I design, build, test and release everything myself, from the art and code to the servers and the store listings. I make cozy couch games: the kind you can play on your phone from the sofa, a few relaxing minutes at a time.</p>
-        <p>Cozy Acres is my first game, and Hollow Creek, a 1950s country town mystery, is on its way in early access. Doodle Bridge, a draw-your-own-bridge physics game, is playable in your browser. There will be more, in all sorts of styles, made with the same care.</p>
-        <dl class="facts">
-          <div><dt>Based in</dt><dd>A small town in Australia</dd></div>
-          <div><dt>Team</dt><dd>One dad, solo developer</dd></div>
-          <div><dt>Games</dt><dd>2 out, 1 in early access</dd></div>
-        </dl>
+        <h2 id="contact-title">Say hello</h2>
+        <p>Questions, ideas, bug reports or a nice message about your farm. I read everything.</p>
       </div>
-      <div class="about__card" id="contact">
-        <h3>Say hello</h3>
-        <p>Questions, ideas, bug reports or just a nice message about your farm. I read everything, though replies can take a few evenings.</p>
-        <a class="btn btn--ink" href="mailto:joshmakesgames92@gmail.com"><img src="/assets/icons/envelope.svg" alt="" width="24" height="24">joshmakesgames92@gmail.com</a>
-      </div>
+      <a class="btn btn--light" href="mailto:joshmakesgames92@gmail.com">joshmakesgames92@gmail.com</a>
     </div>
   </section>
 </main>
@@ -162,15 +155,26 @@
 <footer class="footer">
   <div class="wrap">
     <div class="footer__grid">
-      <div><img src="/assets/img/josh-makes-games-logo-full-colour.svg" alt="Josh Makes Games" width="220" height="40"></div>
+      <div class="footer__brand">
+        <img src="/assets/img/josh-makes-games-logo-full-colour.svg" alt="Josh Makes Games" width="220" height="40">
+        <p>Cozy couch games for your phone.</p>
+      </div>
+      <nav aria-labelledby="f-games"><h2 id="f-games">Games</h2><ul>
+        <li><a href="https://cozyacres.joshmakesgames.app/">Cozy Acres</a></li>
+        <li><a href="https://jla92-bit.github.io/hollow-creek-play/">Hollow Creek</a></li>
+        <li><a href="https://doodle-bridge.joshmakesgames.app/">Doodle Bridge</a></li>
+      </ul></nav>
       <nav aria-labelledby="f-ca"><h2 id="f-ca">Cozy Acres</h2><ul>
-        <li><a href="https://cozyacres.joshmakesgames.app/">Website</a></li>
         <li><a href="https://cozyacres.joshmakesgames.app/play/">Play</a></li>
         <li><a href="https://cozyacres.joshmakesgames.app/privacy/">Privacy policy</a></li>
         <li><a href="https://cozyacres.joshmakesgames.app/support/">Support</a></li>
         <li><a href="https://cozyacres.joshmakesgames.app/delete-my-data/">Delete my data</a></li>
       </ul></nav>
-      <div><h2>Josh Makes Games</h2><ul><li><a href="#games">My games</a></li><li><a href="#about">About me</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <nav aria-labelledby="f-studio"><h2 id="f-studio">Studio</h2><ul>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="/river-watch/">River Watch</a></li>
+      </ul></nav>
     </div>
     <small>&copy; 2026 Josh Makes Games. Made in Australia.</small>
   </div>

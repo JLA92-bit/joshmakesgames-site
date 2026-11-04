@@ -1,0 +1,52 @@
+{
+  "_about": "River Watch configuration. Created by Josh Avard. Flood class levels from BoM 'Victorian Flood Class Levels North of Divide' (https://www.bom.gov.au/vic/flood/floodclass_north.shtml) - check each season.",
+  "timezone": "Australia/Melbourne",
+  "hydstraOffsetHours": 10,
+  "historyStartYear": 1970,
+  "nearMinorMarginM": 0.5,
+  "portals": {
+    "vic": { "name": "Victorian Water Measurement Information System (DEECA)", "url": "https://data.water.vic.gov.au/WMIS/cgi/webservice.exe?", "datasources": ["A", "AT", "PUBLISH"] },
+    "nsw": { "name": "WaterNSW real-time data", "url": "https://realtimedata.waternsw.com.au/cgi/webservice.exe?", "datasources": ["CP", "A", "PROV"] }
+  },
+  "vars": { "level": "100.00", "flow": "141.00" },
+  "sites": [
+    { "id": "406213", "bom": "588006", "name": "Redesdale", "river": "Campaspe", "portals": ["vic"], "datum": "gauge", "gaugeZero": 213.053, "minor": 5.3, "moderate": null, "major": null, "note": "Upstream of Lake Eppalock" },
+    { "id": "406207", "bom": "581007", "name": "Lake Eppalock (downstream)", "river": "Campaspe", "portals": ["vic"], "datum": "AHD", "gaugeZero": null, "minor": 158.4, "moderate": 160.4, "major": 162.4, "note": "Below the dam wall" },
+    { "id": "406201", "bom": "581002", "name": "Barnadown", "river": "Campaspe", "portals": ["vic"], "datum": "gauge", "gaugeZero": 132.489, "minor": 3.8, "moderate": 4.4, "major": 5.0, "note": "" },
+    { "id": "406218", "bom": "581008", "name": "Campaspe Weir (head gauge)", "river": "Campaspe", "portals": ["vic"], "datum": "AHD", "gaugeZero": 120.133, "minor": 121.2, "moderate": 121.4, "major": 121.6, "note": "Near Elmore" },
+    { "id": "406283", "bom": "580011", "name": "Rochester Town", "river": "Campaspe", "portals": ["vic"], "datum": "AHD", "gaugeZero": 103.615, "minor": 113.0, "moderate": 114.0, "major": 114.5, "note": "The gauge used in Rochester flood warnings", "key": true },
+    { "id": "406202", "bom": "580010", "name": "Rochester Syphon", "river": "Campaspe", "portals": ["vic"], "datum": "gauge", "gaugeZero": 103.615, "minor": 8.0, "moderate": 8.8, "major": 9.1, "note": "Long record, used for older floods", "key": true },
+    { "id": "406265", "bom": "580014", "name": "Echuca (Campaspe)", "river": "Campaspe", "portals": ["vic"], "datum": "AHD", "gaugeZero": null, "minor": 92.8, "moderate": 94.4, "major": 95.7, "note": "Just above the Murray junction" },
+    { "id": "406214", "bom": "", "name": "Gauge 406214 (GMW Water Status)", "river": "Campaspe", "portals": ["vic"], "datum": "gauge", "gaugeZero": null, "minor": null, "moderate": null, "major": null, "note": "From waterstatus.g-mwater.com.au; name fills in from WMIS", "autoName": true },
+    { "id": "409025", "bom": "74246", "name": "Yarrawonga (downstream)", "river": "Murray", "portals": ["nsw", "vic"], "datum": "gauge", "gaugeZero": null, "minor": 6.4, "moderate": 6.7, "major": 7.8, "note": "" },
+    { "id": "409202", "bom": "574004", "name": "Tocumwal", "river": "Murray", "portals": ["nsw", "vic"], "datum": "gauge", "gaugeZero": 103.83, "minor": 6.4, "moderate": 6.7, "major": 7.3, "note": "" },
+    { "id": "409200", "bom": "574000", "name": "Echuca Wharf / Moama", "river": "Murray", "portals": ["nsw", "vic"], "datum": "AHD", "gaugeZero": null, "minor": 93.5, "moderate": 93.9, "major": 94.4, "note": "At the Campaspe junction", "key": true },
+    { "id": "409207", "bom": "574003", "name": "Torrumbarry Weir", "river": "Murray", "portals": ["nsw", "vic"], "datum": "gauge", "gaugeZero": 78.545, "minor": 7.3, "moderate": 7.6, "major": 7.8, "note": "" },
+    { "id": "409005", "bom": "575000", "name": "Barham", "river": "Murray", "portals": ["nsw", "vic"], "datum": "gauge", "gaugeZero": 71.434, "minor": 5.5, "moderate": 5.8, "major": 6.1, "note": "" },
+    { "id": "409204", "bom": "76112", "name": "Swan Hill", "river": "Murray", "portals": ["nsw", "vic"], "datum": "gauge", "gaugeZero": 62.921, "minor": 4.5, "moderate": 4.6, "major": 4.7, "note": "" }
+  ],
+  "eventGauges": ["406283", "406202", "406265", "409200"],
+  "eventWindowDays": { "before": 10, "after": 7 },
+  "rainPoints": [
+    { "id": "trentham", "name": "Trentham", "catchment": "Upper Campaspe & Coliban", "lat": -37.389, "lon": 144.322 },
+    { "id": "woodend", "name": "Woodend", "catchment": "Upper Campaspe & Coliban", "lat": -37.355, "lon": 144.528 },
+    { "id": "kyneton", "name": "Kyneton", "catchment": "Upper Campaspe & Coliban", "lat": -37.244, "lon": 144.452 },
+    { "id": "malmsbury", "name": "Malmsbury", "catchment": "Upper Campaspe & Coliban", "lat": -37.188, "lon": 144.385 },
+    { "id": "redesdale", "name": "Redesdale", "catchment": "Upper Campaspe & Coliban", "lat": -36.996, "lon": 144.522 },
+    { "id": "heathcote", "name": "Heathcote", "catchment": "Lake Eppalock & mid Campaspe", "lat": -36.921, "lon": 144.708 },
+    { "id": "eppalock", "name": "Lake Eppalock", "catchment": "Lake Eppalock & mid Campaspe", "lat": -36.87, "lon": 144.56 },
+    { "id": "elmore", "name": "Elmore", "catchment": "Lower Campaspe", "lat": -36.497, "lon": 144.61 },
+    { "id": "rochester", "name": "Rochester", "catchment": "Lower Campaspe", "lat": -36.363, "lon": 144.7 },
+    { "id": "eildon", "name": "Lake Eildon", "catchment": "Goulburn (joins Murray above Echuca)", "lat": -37.23, "lon": 145.92 },
+    { "id": "seymour", "name": "Seymour", "catchment": "Goulburn (joins Murray above Echuca)", "lat": -37.026, "lon": 145.139 },
+    { "id": "albury", "name": "Albury", "catchment": "Upper Murray", "lat": -36.081, "lon": 146.916 },
+    { "id": "corryong", "name": "Corryong", "catchment": "Upper Murray", "lat": -36.197, "lon": 147.902 }
+  ],
+  "curatedEvents": [
+    { "date": "2011-01-15", "name": "January 2011 flood", "reported": [ { "site": "406202", "level": 9.17, "source": "Rochester, Victoria (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Rochester,_Victoria" } ], "notes": "Around 80% of Rochester was inundated." },
+    { "date": "2022-10-15", "name": "October 2022 flood", "reported": [ { "site": "406283", "level": 115.65, "source": "Country News, October 2022", "url": "https://www.countrynews.com.au/news/campaspe-river-expected-to-peak-in-echuca-later-today-2/" }, { "site": "406265", "level": 96.25, "source": "Shepparton News, October 2022", "url": "https://www.sheppnews.com.au/?p=99267" } ], "notes": "Major flooding higher than January 2011 at Rochester Town; major flooding followed at Echuca." },
+    { "date": "2024-01-09", "name": "January 2024 near miss", "reported": [ { "site": "406283", "level": 114.5, "atLeast": true, "source": "McIvor Times, January 2024", "url": "https://timesnewsgroup.com.au/mcivortimes/news/rochesters-near-miss-still-has-town-under-the-pump" } ], "notes": "The river passed the major flood level but stayed below October 2022." }
+  ],
+  "warningsRss": "http://www.bom.gov.au/fwo/IDZ00059.warnings_vic.xml",
+  "warningKeywords": ["campaspe", "murray", "coliban", "goulburn", "eppalock", "rochester", "echuca", "elmore", "north central", "flood watch"]
+}
