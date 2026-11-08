@@ -5,7 +5,8 @@
 //   node collector/backfill.mjs --only events   just detect floods and build event files
 //   node collector/backfill.mjs --only storage  just storage history (Lake Eppalock)
 //   node collector/backfill.mjs --only soil     just soil moisture history (ERA5)
-//   add --from 2000 to start later, --force to rebuild event files, --sites 406201,406283 for some gauges only
+//   add --from 2000 to start later, --force to rebuild event files, --sites 406201,406283 for some gauges only,
+//   --gaps to fetch only the stretches missing from the daily files
 // Created by Josh Avard
 import path from 'node:path';
 import fs from 'node:fs';
@@ -19,9 +20,10 @@ const args = process.argv.slice(2);
 const opt = (name, dflt) => { const i = args.indexOf('--' + name); return i > -1 ? args[i + 1] : dflt; };
 const only = opt('only', 'all');
 const force = args.includes('--force');
+const gapsOnly = args.includes('--gaps');
 const fromYear = Number(opt('from', CFG.historyStartYear));
 const thisYear = new Date().getFullYear();
-const polite = MOCK ? 0 : 300; // ms between requests
+const polite = MOCK ? 0 : 1500; // ms between requests, keeps well under the state server's hourly download limit
 
 // ------------------------------------------------------------ 1. daily levels and flows
 if (only === 'all' || only === 'daily') {
@@ -52,14 +54,50 @@ if (only === 'all' || only === 'daily') {
             await piece(start, mid); await sleep(polite); await piece(mid, end);
             return;
           }
+          if (/over your limit|downloaded .* in the last/i.test(msg)) {
+            // the state server allows about 150 MB an hour; wait for the hour's total to fall, then retry
+            for (let w = 1; w <= 6; w++) {
+              console.log(`  ${site.id} ${kind}: hit the server's hourly download limit, waiting ${2 * w} min (try ${w} of 6)`);
+              await sleep(2 * w * 60000);
+              try {
+                const res = await traces(site, kind, start, end, 'day', kind === 'level' ? 'max' : 'mean', { tries: 1, timeoutMs: WAIT, onlyRemembered: worked });
+                upsertDaily(site.id, kind, res.points); n += res.points.length; worked = true;
+                console.log(`  ${site.id} ${kind} ${fmtD(start)} to ${fmtD(end)}: ${res.points.length} days after waiting`);
+                return;
+              } catch (e2) { if (!/over your limit|downloaded .* in the last/i.test(String(e2.message || e2))) break; }
+            }
+            console.log(`  ${site.id} ${kind} ${fmtD(start)} to ${fmtD(end)}: still limited, left for a --gaps run`);
+            return;
+          }
           if (slow) stuck++;
+          else if (!/no data|not found|no records|HTTP 403/i.test(msg) && !piece.retried) {
+            console.log(`  ${site.id} ${kind} ${fmtD(start)} to ${fmtD(end)}: ${msg.slice(0, 70)}; waiting 60s and trying once more`);
+            piece.retried = true; await sleep(60000); await piece(start, end); piece.retried = false;
+            return;
+          }
           console.log(`  ${site.id} ${kind} ${fmtD(start)} to ${fmtD(end)}: none (${msg.slice(0, 70)}, ${((Date.now() - c0) / 1000).toFixed(0)}s)`);
         }
       };
-      for (let y = fromYear; y <= thisYear && stuck < 3; y += 5) {
-        const start = new Date(Date.UTC(y, 0, 1) - CFG.hydstraOffsetHours * HOUR);
-        const end = new Date(Math.min(Date.UTC(y + 5, 0, 1) - CFG.hydstraOffsetHours * HOUR, Date.now()));
-        await piece(start, end);
+      let periods = [];
+      for (let y = fromYear; y <= thisYear; y += 5) periods.push([Date.UTC(y, 0, 1), Math.min(Date.UTC(y + 5, 0, 1), Date.now())]);
+      if (gapsOnly) {
+        // only the stretches of 10 days or more with no value, between the first and last day on record
+        const have = new Set(readDaily(site.id).filter((d) => d[kind] != null).map((d) => d.date));
+        periods = [];
+        let runStart = null;
+        for (let t = Date.UTC(fromYear, 0, 1); t <= Date.now() - 2 * DAY; t += DAY) {
+          const iso = new Date(t).toISOString().slice(0, 10);
+          if (!have.has(iso)) { if (runStart == null) runStart = t; }
+          else if (runStart != null) { if (t - runStart >= 10 * DAY) periods.push([runStart, t]); runStart = null; }
+        }
+        if (runStart != null && Date.now() - runStart >= 10 * DAY) periods.push([runStart, Date.now()]);
+        // split long gaps into 5-year pieces
+        periods = periods.flatMap(([a, b]) => { const out = []; for (let s = a; s < b; s += 5 * 365 * DAY) out.push([s, Math.min(b, s + 5 * 365 * DAY)]); return out; });
+        console.log(`  ${site.id} ${kind}: ${periods.length} gap piece(s) to fetch`);
+      }
+      for (const [a, b] of periods) {
+        if (stuck >= 3) break;
+        await piece(new Date(a - CFG.hydstraOffsetHours * HOUR), new Date(b - CFG.hydstraOffsetHours * HOUR));
         saveState();
         await sleep(polite);
       }
@@ -201,6 +239,9 @@ if (only === 'all' || only === 'events') {
       detail = { id, name, anchor: ev.anchor, anchorT, example: MOCK, sites: {}, rain: {} };
       if (measured) {
         for (const site of CFG.sites) {
+          // skip gauges with no daily record within a month of this flood (saves minutes of retries)
+          const near = readDaily(site.id).some((d) => (d.level != null || d.flow != null) && Math.abs(Date.parse(d.date) - anchorT) <= 30 * DAY);
+          if (!near && !MOCK) continue;
           const entry = {};
           for (const kind of ['level', 'flow']) {
             try {
