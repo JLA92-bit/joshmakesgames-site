@@ -569,7 +569,7 @@ date,level_m,volume_ml,pct_full,volume_source
 1986-07-22,193.183,,,
 1986-07-23,193.257,,,
 1986-07-24,193.459,,,
-1986-07-25,193.578,,96.5,estimated from level
+1986-07-25,193.578,,,
 1986-07-26,193.635,,97.1,estimated from level
 1986-07-27,193.67,,97.5,estimated from level
 1986-07-28,193.71,,97.9,estimated from level
@@ -1049,7 +1049,7 @@ date,level_m,volume_ml,pct_full,volume_source
 1987-11-14,193.669,,97.5,estimated from level
 1987-11-15,193.653,,97.3,estimated from level
 1987-11-16,193.633,,97.1,estimated from level
-1987-11-17,193.62,,96.9,estimated from level
+1987-11-17,193.62,,97,estimated from level
 1987-11-18,193.604,,96.8,estimated from level
 1987-11-19,193.59,,96.6,estimated from level
 1987-11-20,193.581,,96.5,estimated from level
@@ -2499,7 +2499,7 @@ date,level_m,volume_ml,pct_full,volume_source
 1991-11-03,193.616,,96.9,estimated from level
 1991-11-04,193.604,,96.8,estimated from level
 1991-11-05,193.592,,96.7,estimated from level
-1991-11-06,193.579,,96.5,estimated from level
+1991-11-06,193.579,,,
 1991-11-07,193.562,,,
 1991-11-08,193.545,,,
 1991-11-09,193.531,,,
@@ -3284,7 +3284,7 @@ date,level_m,volume_ml,pct_full,volume_source
 1993-12-27,193.604,,96.8,estimated from level
 1993-12-28,193.593,,96.7,estimated from level
 1993-12-29,193.587,,96.6,estimated from level
-1993-12-30,193.579,,96.5,estimated from level
+1993-12-30,193.579,,,
 1993-12-31,193.572,,,
 1994-01-01,193.561,,,
 1994-01-02,193.538,,,
@@ -3995,7 +3995,7 @@ date,level_m,volume_ml,pct_full,volume_source
 1995-12-08,193.635,,97.1,estimated from level
 1995-12-09,193.616,,96.9,estimated from level
 1995-12-10,193.598,,96.7,estimated from level
-1995-12-11,193.579,,96.5,estimated from level
+1995-12-11,193.579,,,
 1995-12-12,193.558,,,
 1995-12-13,193.541,,,
 1995-12-14,193.52,,,
@@ -9659,7 +9659,7 @@ date,level_m,volume_ml,pct_full,volume_source
 2011-06-11,193.622,,97,estimated from level
 2011-06-12,193.617,,96.9,estimated from level
 2011-06-13,193.612,,96.9,estimated from level
-2011-06-14,193.61,,96.8,estimated from level
+2011-06-14,193.61,,96.9,estimated from level
 2011-06-15,193.605,,96.8,estimated from level
 2011-06-16,193.599,,96.7,estimated from level
 2011-06-17,193.595,,96.7,estimated from level
@@ -9803,7 +9803,7 @@ date,level_m,volume_ml,pct_full,volume_source
 2011-11-02,193.699,,97.8,estimated from level
 2011-11-03,193.682,,97.6,estimated from level
 2011-11-04,193.67,,97.5,estimated from level
-2011-11-05,193.658,,97.4,estimated from level
+2011-11-05,193.658,,97.3,estimated from level
 2011-11-06,193.65,,97.3,estimated from level
 2011-11-07,193.643,,97.2,estimated from level
 2011-11-08,193.641,,97.2,estimated from level
@@ -9820,7 +9820,7 @@ date,level_m,volume_ml,pct_full,volume_source
 2011-11-19,193.609,,96.8,estimated from level
 2011-11-20,193.603,,96.8,estimated from level
 2011-11-21,193.59,,96.6,estimated from level
-2011-11-22,193.579,,96.5,estimated from level
+2011-11-22,193.579,,,
 2011-11-23,193.569,,,
 2011-11-24,193.55,,,
 2011-11-25,193.538,,,
@@ -11465,16 +11465,16 @@ date,level_m,volume_ml,pct_full,volume_source
 2026-11-05,193.704,298022.386,97.8,recorded
 2026-11-06,193.7,297895.316,97.8,recorded
 2026-11-07,193.695,297739.868,97.7,recorded
-2026-11-08,193.692,297656.052,97.7,recorded
-2026-11-09,193.681,297303.611,97.6,recorded
-2026-11-10,193.672,297004.822,97.5,recorded
-2026-11-11,193.666,296822.087,97.4,recorded
-2026-11-12,193.659,296610.335,97.4,recorded
-2026-11-13,193.647,296222.81,97.2,recorded
-2026-11-14,193.639,295956.851,97.1,recorded
-2026-11-15,193.633,295776.907,97.1,recorded
-2026-11-16,193.625,295518.557,97,recorded
-2026-11-17,193.609,294998.675,96.8,recorded
-2026-11-18,193.599,294687.818,96.7,recorded
-2026-11-19,193.589,294377.433,96.6,recorded
-2026-11-20,193.578,294015.352,96.5,recorded
+2026-11-08,193.688,297519.076,97.7,recorded
+2026-11-09,193.677,297152.583,97.5,recorded
+2026-11-10,193.669,296917.722,97.5,recorded
+2026-11-11,193.666,296833.803,97.4,recorded
+2026-11-12,193.653,296412.523,97.3,recorded
+2026-11-13,193.643,296082.707,97.2,recorded
+2026-11-14,193.639,295958.42,97.1,recorded
+2026-11-15,193.629,295658.412,97,recorded
+2026-11-16,193.62,295373.281,97,recorded
+2026-11-17,193.603,294833.175,96.8,recorded
+2026-11-18,193.595,294570.775,96.7,recorded
+2026-11-19,193.584,294224.233,96.6,recorded
+2026-11-20,193.58,294086.357,96.5,recorded
