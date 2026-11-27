@@ -1418,7 +1418,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     var pk = eventLevel(e, "406283");
     var stats = [
       ["Rochester Town peak", pk != null ? f(pk) + "<small>m AHD</small>" : "-", town && town.latest && pk != null ? f(pk - town.latest.v) + " m above today" : ""],
-      ["Eppalock a week before", b.eppalockVsFsl != null ? (b.eppalockVsFsl >= 0 ? "+" : "") + f(b.eppalockVsFsl) + "<small>m vs spillway</small>" : b.eppalockPct != null ? f(b.eppalockPct, 0) + "<small>%</small>" : "-", b.eppalockMaxVsFsl != null ? "Peaked " + f(b.eppalockMaxVsFsl) + " m above the spillway" : ""],
+      ["Eppalock a week before", b.eppalockVsFsl != null ? (b.eppalockVsFsl >= 0 ? "+" : "") + f(b.eppalockVsFsl) + "<small>m vs spillway</small>" : b.eppalockPct != null ? f(b.eppalockPct, 0) + "<small>%</small>" : "-", b.eppalockMaxVsFsl != null ? "Peaked " + f(Math.abs(b.eppalockMaxVsFsl)) + " m " + (b.eppalockMaxVsFsl >= 0 ? "above" : "below") + " the spillway" : ""],
       ["Ground wetness before", b.soilPct != null ? ord(b.soilPct) + "<small>pct</small>" : "-", up && up.soil && up.soil.pct != null ? "Now: " + ord(up.soil.pct) + " percentile" : ""],
       ["Rain, 7 days before", r && r.pre7 != null ? f(r.pre7, 0) + "<small>mm</small>" : "-", up && up.rainNext7 != null ? "Next 7 days now: " + f(up.rainNext7, 0) + " mm" : ""],
       ["Rain, 30 days before", r && r.pre30 != null ? f(r.pre30, 0) + "<small>mm</small>" : "-", up && up.rainPast30 != null ? "Past 30 days now: " + f(up.rainPast30, 0) + " mm" : ""],

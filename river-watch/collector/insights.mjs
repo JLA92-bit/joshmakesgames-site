@@ -4,7 +4,7 @@
 // Created by Josh Avard
 import path from 'node:path';
 import fs from 'node:fs';
-import { CFG, DATA, MOCK, HOUR, DAY, readJson, writeJson, readCsv, writeCsv, getText, getJson, localDate, round, sites } from './lib.mjs';
+import { CFG, DATA, MOCK, HOUR, DAY, readJson, writeJson, readCsv, writeCsv, getText, getJson, localDate, round, sites, cleanDaily } from './lib.mjs';
 import { readDaily, readRainDaily } from './store.mjs';
 
 const mean = (a) => (a.length ? a.reduce((x, y) => x + y, 0) / a.length : null);
@@ -150,7 +150,8 @@ export function annualCurve(rows, minDays = 300) {
   };
 }
 export function frequency(siteId, kind) {
-  const c = annualCurve(readDaily(siteId).map((d) => [d.date, d[kind]]));
+  const site = kind === 'level' ? sites().find((x) => x.id === siteId) : null;
+  const c = annualCurve((site ? cleanDaily(site, readDaily(siteId)) : readDaily(siteId)).map((d) => [d.date, d[kind]]));
   return c ? { site: siteId, kind, ...c } : null;
 }
 /** How often a value has been reached: "k of N years", and an approximate 1-in-X years. */
