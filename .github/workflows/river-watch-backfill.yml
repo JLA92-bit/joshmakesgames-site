@@ -8,7 +8,7 @@ on:
       only:
         description: "What to build"
         type: choice
-        options: [all, daily, rain, storage, soil, events]
+        options: [all, daily, storages, rain, soil, climate, stats, events]
         default: all
       from:
         description: "Start year"
@@ -17,10 +17,14 @@ on:
         description: "Rebuild past-flood files that already exist"
         type: boolean
         default: false
+      gaps:
+        description: "Daily history: only fetch 5-year blocks that are still mostly empty (untick to refetch everything)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
-  
+
 concurrency:
   group: river-data
   cancel-in-progress: false
@@ -28,7 +32,7 @@ concurrency:
 jobs:
   backfill:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -40,12 +44,20 @@ jobs:
         if: inputs.only == 'all' || inputs.only == 'daily'
         continue-on-error: true
         timeout-minutes: 150
-        run: node river-watch/collector/backfill.mjs --only daily --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
+        run: node river-watch/collector/backfill.mjs --only daily --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }} ${{ inputs.gaps && '--gaps' || '' }}
       - name: Save daily
         if: always() && (inputs.only == 'all' || inputs.only == 'daily')
-        env:
-          STAGE: daily
-        run: bash river-watch/collector/save.sh "History back-fill - $STAGE (from ${{ inputs.from }})"
+        run: bash river-watch/collector/save.sh "History back-fill - daily (from ${{ inputs.from }})"
+
+      # ---- storages: built and saved on its own, so a stall later never loses it
+      - name: Back-fill storages
+        if: inputs.only == 'all' || inputs.only == 'storages'
+        continue-on-error: true
+        timeout-minutes: 40
+        run: node river-watch/collector/backfill.mjs --only storages --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
+      - name: Save storages
+        if: always() && (inputs.only == 'all' || inputs.only == 'storages')
+        run: bash river-watch/collector/save.sh "History back-fill - storages (from ${{ inputs.from }})"
 
       # ---- rain: built and saved on its own, so a stall later never loses it
       - name: Back-fill rain
@@ -55,33 +67,37 @@ jobs:
         run: node river-watch/collector/backfill.mjs --only rain --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
       - name: Save rain
         if: always() && (inputs.only == 'all' || inputs.only == 'rain')
-        env:
-          STAGE: rain
-        run: bash river-watch/collector/save.sh "History back-fill - $STAGE (from ${{ inputs.from }})"
-
-      # ---- storage: built and saved on its own, so a stall later never loses it
-      - name: Back-fill storage
-        if: inputs.only == 'all' || inputs.only == 'storage'
-        continue-on-error: true
-        timeout-minutes: 20
-        run: node river-watch/collector/backfill.mjs --only storage --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
-      - name: Save storage
-        if: always() && (inputs.only == 'all' || inputs.only == 'storage')
-        env:
-          STAGE: storage
-        run: bash river-watch/collector/save.sh "History back-fill - $STAGE (from ${{ inputs.from }})"
+        run: bash river-watch/collector/save.sh "History back-fill - rain (from ${{ inputs.from }})"
 
       # ---- soil: built and saved on its own, so a stall later never loses it
       - name: Back-fill soil
         if: inputs.only == 'all' || inputs.only == 'soil'
         continue-on-error: true
-        timeout-minutes: 40
+        timeout-minutes: 60
         run: node river-watch/collector/backfill.mjs --only soil --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
       - name: Save soil
         if: always() && (inputs.only == 'all' || inputs.only == 'soil')
-        env:
-          STAGE: soil
-        run: bash river-watch/collector/save.sh "History back-fill - $STAGE (from ${{ inputs.from }})"
+        run: bash river-watch/collector/save.sh "History back-fill - soil (from ${{ inputs.from }})"
+
+      # ---- climate: built and saved on its own, so a stall later never loses it
+      - name: Back-fill climate
+        if: inputs.only == 'all' || inputs.only == 'climate'
+        continue-on-error: true
+        timeout-minutes: 10
+        run: node river-watch/collector/backfill.mjs --only climate --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
+      - name: Save climate
+        if: always() && (inputs.only == 'all' || inputs.only == 'climate')
+        run: bash river-watch/collector/save.sh "History back-fill - climate (from ${{ inputs.from }})"
+
+      # ---- stats: built and saved on its own, so a stall later never loses it
+      - name: Back-fill stats
+        if: inputs.only == 'all' || inputs.only == 'stats'
+        continue-on-error: true
+        timeout-minutes: 20
+        run: node river-watch/collector/backfill.mjs --only stats --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
+      - name: Save stats
+        if: always() && (inputs.only == 'all' || inputs.only == 'stats')
+        run: bash river-watch/collector/save.sh "History back-fill - stats (from ${{ inputs.from }})"
 
       # ---- events: built and saved on its own, so a stall later never loses it
       - name: Back-fill events
@@ -91,16 +107,12 @@ jobs:
         run: node river-watch/collector/backfill.mjs --only events --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
       - name: Save events
         if: always() && (inputs.only == 'all' || inputs.only == 'events')
-        env:
-          STAGE: events
-        run: bash river-watch/collector/save.sh "History back-fill - $STAGE (from ${{ inputs.from }})"
+        run: bash river-watch/collector/save.sh "History back-fill - events (from ${{ inputs.from }})"
 
       - name: Refresh the latest snapshot
         if: always()
-        timeout-minutes: 15
+        timeout-minutes: 20
         run: node river-watch/collector/collect.mjs
       - name: Save the snapshot
         if: always()
-        env:
-          STAGE: latest snapshot
-        run: bash river-watch/collector/save.sh "History back-fill - $STAGE (from ${{ inputs.from }})"
+        run: bash river-watch/collector/save.sh "History back-fill - latest snapshot (from ${{ inputs.from }})"

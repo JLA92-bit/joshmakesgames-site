@@ -1,0 +1,647 @@
+{
+ "_about": "Known floods, what river heights mean on the ground, travel times and links. Created by Josh Avard. Impact descriptions are paraphrased from the Shire of Campaspe Flood Emergency Plan, Issue 7, February 2019 (https://www.campaspe.vic.gov.au/files/assets/public/our-services/flood-emergency-plan.pdf). That plan predates the October 2022 flood and the Rochester Flood Study 2025 update, so check the latest council information.",
+ "curatedEvents": [
+  {
+   "date": "2010-11-15",
+   "approxDate": true,
+   "name": "November 2010 flood",
+   "reported": [
+    {
+     "site": "406283",
+     "level": 114.43,
+     "source": "Campaspe Shire Flood Emergency Plan 2019",
+     "url": "https://www.campaspe.vic.gov.au/files/assets/public/our-services/flood-emergency-plan.pdf"
+    },
+    {
+     "site": "406202",
+     "level": 9.0,
+     "source": "Campaspe Shire Flood Emergency Plan 2019",
+     "url": "https://www.campaspe.vic.gov.au/files/assets/public/our-services/flood-emergency-plan.pdf"
+    }
+   ],
+   "notes": "The floodplain was flooded about 200 m either side of the river, with no homes flooded over floor. It came two months before the January 2011 flood, on wet ground."
+  },
+  {
+   "date": "2011-01-15",
+   "name": "January 2011 flood",
+   "reported": [
+    {
+     "site": "406283",
+     "level": 115.4,
+     "source": "Campaspe Shire Flood Emergency Plan 2019",
+     "url": "https://www.campaspe.vic.gov.au/files/assets/public/our-services/flood-emergency-plan.pdf"
+    },
+    {
+     "site": "406202",
+     "level": 9.17,
+     "source": "Campaspe Shire Flood Emergency Plan 2019",
+     "url": "https://www.campaspe.vic.gov.au/files/assets/public/our-services/flood-emergency-plan.pdf"
+    },
+    {
+     "site": "406265",
+     "level": 95.75,
+     "source": "Campaspe Shire Flood Emergency Plan 2019 (9 pm, 16 January)",
+     "url": "https://www.campaspe.vic.gov.au/files/assets/public/our-services/flood-emergency-plan.pdf"
+    }
+   ],
+   "facts": [
+    "About 80% of Rochester was flooded and more than 250 homes were flooded over floor.",
+    "The Campaspe at Campaspe Weir carried about 75,300 ML/day.",
+    "At Echuca, the Murray peaked about 39 hours after the Campaspe."
+   ],
+   "notes": "The largest flood on record at the Rochester Town gauge until October 2022."
+  },
+  {
+   "date": "2022-10-15",
+   "name": "October 2022 flood",
+   "reported": [
+    {
+     "site": "406283",
+     "level": 115.65,
+     "source": "Country News, October 2022",
+     "url": "https://www.countrynews.com.au/news/campaspe-river-expected-to-peak-in-echuca-later-today-2/"
+    },
+    {
+     "site": "406265",
+     "level": 96.25,
+     "source": "Shepparton News, October 2022",
+     "url": "https://www.sheppnews.com.au/?p=99267"
+    }
+   ],
+   "facts": [
+    "Lake Eppalock went from 50% full on 4 August to full and spilling on 30 September.",
+    "On 13 October inflows to Eppalock jumped to a record 235,000 ML/day.",
+    "The spillway peaked at a record 103,000 ML/day on 14 October, with the lake about 134% full.",
+    "Forest, Mount Pleasant, Axe and other creeks below the dam added about 30,000 ML/day.",
+    "It was the third La Niña year in a row, with a negative Indian Ocean Dipole, and the catchment was already wet."
+   ],
+   "factSource": {
+    "title": "Goulburn-Murray Water: How the October 2022 floods occurred along the Campaspe River",
+    "url": "https://g-mwater.com.au/customer-services-resources/flood-recovery/floods-in-focus-campaspe-river-system"
+   },
+   "notes": "Higher than January 2011 at the Rochester Town gauge. Major flooding followed at Echuca."
+  },
+  {
+   "date": "2024-01-09",
+   "name": "January 2024 near miss",
+   "reported": [
+    {
+     "site": "406283",
+     "level": 114.5,
+     "atLeast": true,
+     "source": "McIvor Times, January 2024",
+     "url": "https://timesnewsgroup.com.au/mcivortimes/news/rochesters-near-miss-still-has-town-under-the-pump"
+    }
+   ],
+   "notes": "The river passed the major flood level but stayed below October 2022."
+  }
+ ],
+ "historicPeaks": {
+  "source": "Campaspe Shire Flood Emergency Plan 2019, except October 2022 (news reports)",
+  "sites": {
+   "406283": [
+    {
+     "when": "Oct 2022",
+     "level": 115.65,
+     "source": "Country News"
+    },
+    {
+     "when": "Jan 2011",
+     "level": 115.4
+    },
+    {
+     "when": "Jul 1956",
+     "level": 115.19
+    },
+    {
+     "when": "Nov 2010",
+     "level": 114.43
+    }
+   ],
+   "406265": [
+    {
+     "when": "Oct 2022",
+     "level": 96.25,
+     "source": "Shepparton News"
+    },
+    {
+     "when": "Jan 2011",
+     "level": 95.75
+    }
+   ],
+   "409200": [
+    {
+     "when": "Nov 1870",
+     "level": 96.2,
+     "note": "Flood of record, about 170,000 ML/day"
+    },
+    {
+     "when": "1867",
+     "level": 95.35
+    },
+    {
+     "when": "Oct 1993",
+     "level": 94.77
+    },
+    {
+     "when": "Oct 1975",
+     "level": 94.75
+    },
+    {
+     "when": "Sep 1916",
+     "level": 94.75
+    },
+    {
+     "when": "Aug 1956",
+     "level": 94.58
+    },
+    {
+     "when": "May 1974",
+     "level": 94.52
+    }
+   ]
+  }
+ },
+ "impacts": {
+  "406283": {
+   "title": "Rochester Town gauge",
+   "unit": "m AHD",
+   "rows": [
+    {
+     "level": 113.0,
+     "label": "Minor flood level",
+     "what": "Early minor flooding. Caravan park alerted, SES patrols begin, Northern Highway pit gates closed."
+    },
+    {
+     "level": 113.3,
+     "what": "Caravan park BBQ area floods. Caravans moved from the lowest level."
+    },
+    {
+     "level": 113.8,
+     "what": "Caravan park amenities block floods."
+    },
+    {
+     "level": 114.0,
+     "label": "Moderate flood level",
+     "what": "Flooding likely in several streets and rural flooding starts. Road closures including Bridge Road, Mackay Street and the Northern Highway."
+    },
+    {
+     "level": 114.1,
+     "what": "Whole caravan park evacuated."
+    },
+    {
+     "level": 114.43,
+     "label": "November 2010",
+     "what": "Floodplain flooded about 200 m either side of the river. No homes flooded over floor."
+    },
+    {
+     "level": 114.5,
+     "label": "Major flood level",
+     "what": "The old anabranch floods and water deepens along the railway."
+    },
+    {
+     "level": 114.64,
+     "label": "1 in 10 year flood",
+     "what": "First 3 houses flooded over floor. Kyabram-Rochester Road and the Northern Highway may close."
+    },
+    {
+     "level": 114.96,
+     "label": "1 in 20 year flood",
+     "what": "Shallow flooding east of the railway, including the hospital area."
+    },
+    {
+     "level": 115.2,
+     "label": "1 in 50 year flood",
+     "what": "Shallow flooding across much of the town. About 157 properties flooded over floor."
+    },
+    {
+     "level": 115.33,
+     "label": "1 in 100 year flood",
+     "what": "Flooding both sides of the railway. About 266 properties flooded over floor."
+    },
+    {
+     "level": 115.4,
+     "label": "January 2011",
+     "what": "About 80% of the town flooded and more than 250 homes over floor."
+    },
+    {
+     "level": 115.65,
+     "label": "October 2022",
+     "what": "Highest flood on record at this gauge."
+    }
+   ]
+  },
+  "409200": {
+   "title": "Echuca Wharf gauge",
+   "unit": "m AHD",
+   "rows": [
+    {
+     "level": 93.1,
+     "what": "Campaspe flooding shows west of the river. Campaspe Esplanade may be sandbagged."
+    },
+    {
+     "level": 93.5,
+     "label": "Minor flood level",
+     "what": "Early street and drain flooding. Warnings issued and some roads closed."
+    },
+    {
+     "level": 93.6,
+     "what": "Flooding established west of the Campaspe and a dry island forms."
+    },
+    {
+     "level": 93.9,
+     "label": "Moderate flood level",
+     "what": "Regular levee patrols. Echuca East residents notified."
+    },
+    {
+     "level": 94.2,
+     "label": "1 in 10 year flood",
+     "what": "Levees patrolled around the clock."
+    },
+    {
+     "level": 94.3,
+     "what": "Deep flooding west of the Campaspe. Evacuation of Crescent and Bynan streets considered."
+    },
+    {
+     "level": 94.4,
+     "label": "Major flood level",
+     "what": "The Campaspe reaches the backs of properties. Temporary levees or sandbagging considered."
+    },
+    {
+     "level": 94.77,
+     "label": "October 1993",
+     "what": "Largest flood since 1975 at this gauge."
+    },
+    {
+     "level": 94.79,
+     "what": "Lowest point in the town levees (Watson Street)."
+    },
+    {
+     "level": 95.1,
+     "what": "General design height of the levees."
+    },
+    {
+     "level": 95.63,
+     "label": "1 in 100 year flood",
+     "what": "Moving shire offices and police considered."
+    },
+    {
+     "level": 96.2,
+     "label": "November 1870",
+     "what": "Flood of record. Extensive flooding and the town water supply at risk."
+    }
+   ]
+  }
+ },
+ "travel": {
+  "_note": "Approximate travel times for flood peaks, in hours. Defaults come from the Campaspe Shire Flood Emergency Plan 2019 (Appendix B, approximate) and are replaced by medians measured from past floods once the history is loaded.",
+  "pairs": [
+   {
+    "from": "406207",
+    "to": "406201",
+    "hours": null,
+    "label": "Eppalock to Barnadown"
+   },
+   {
+    "from": "406201",
+    "to": "406283",
+    "hours": 36,
+    "label": "Barnadown to Rochester",
+    "source": "Flood Emergency Plan, approximate"
+   },
+   {
+    "from": "406207",
+    "to": "406283",
+    "hours": null,
+    "label": "Eppalock to Rochester"
+   },
+   {
+    "from": "406224",
+    "to": "406283",
+    "hours": null,
+    "label": "Mt Pleasant Creek to Rochester"
+   },
+   {
+    "from": "406283",
+    "to": "406265",
+    "hours": 8,
+    "label": "Rochester to Echuca (Campaspe)",
+    "source": "Flood Emergency Plan, approximate"
+   },
+   {
+    "from": "406265",
+    "to": "409200",
+    "hours": 39,
+    "label": "Campaspe at Echuca to Echuca Wharf",
+    "source": "Peaks 39 hours apart in January 2011"
+   },
+   {
+    "from": "405204",
+    "to": "405232",
+    "hours": 36,
+    "label": "Shepparton to McCoys Bridge",
+    "source": "Flood Emergency Plan, approximate"
+   },
+   {
+    "from": "405232",
+    "to": "409200",
+    "hours": 108,
+    "label": "McCoys Bridge to Echuca Wharf",
+    "source": "Flood Emergency Plan: 4 to 5 days"
+   },
+   {
+    "from": "409202",
+    "to": "409200",
+    "hours": 84,
+    "label": "Tocumwal to Echuca Wharf",
+    "source": "Flood Emergency Plan: 3 to 4 days"
+   },
+   {
+    "from": "409215",
+    "to": "409200",
+    "hours": null,
+    "label": "Barmah to Echuca Wharf"
+   },
+   {
+    "from": "409200",
+    "to": "409207",
+    "hours": 24,
+    "label": "Echuca Wharf to Torrumbarry",
+    "source": "Flood Emergency Plan, approximate"
+   }
+  ]
+ },
+ "leadTimes": [
+  {
+   "site": "406201",
+   "hours": 6,
+   "type": "Qualitative"
+  },
+  {
+   "site": "406283",
+   "hours": 9,
+   "type": "Quantitative"
+  },
+  {
+   "site": "405232",
+   "hours": 9,
+   "type": "Quantitative"
+  },
+  {
+   "site": "409200",
+   "hours": 24,
+   "type": "Quantitative"
+  },
+  {
+   "site": "409207",
+   "hours": 24,
+   "type": "Quantitative"
+  }
+ ],
+ "leadTimeSource": {
+  "title": "BoM Service Level Specification for Flood Forecasting and Warning Services, Victoria v4.3",
+  "url": "https://www.bom.gov.au/sites/default/files/2026-06/service-level-specification-flood-forecasting-warning-services-victoria-v4.3.pdf"
+ },
+ "budget": {
+  "target": "406202",
+  "components": [
+   {
+    "key": "eppalock",
+    "label": "Lake Eppalock outflow",
+    "site": "406207",
+    "lagHours": 48,
+    "lagPair": "406207>406283"
+   },
+   {
+    "key": "axe",
+    "label": "Axe Creek",
+    "candidates": [
+     "406214",
+     "406262"
+    ],
+    "nameMatch": "AXE",
+    "lagHours": 36
+   },
+   {
+    "key": "mtpleasant",
+    "label": "Mount Pleasant Creek",
+    "site": "406224",
+    "lagHours": 18,
+    "lagPair": "406224>406283"
+   }
+  ],
+  "remainderLabel": "Ungauged creeks (including Forest Creek) and local runoff",
+  "eppalockInflow": [
+   "406213",
+   "coliban",
+   "mcivor"
+  ]
+ },
+ "thresholds": {
+  "_note": "This site's own markers for the flood factors board. They are not official warnings.",
+  "eppalockWatchPct": 95,
+  "eppalockHighPct": 100,
+  "soilWatchPct": 70,
+  "soilHighPct": 90,
+  "rain7Watch": 25,
+  "rain7High": 50,
+  "rain24Watch": 25,
+  "rain24High": 50,
+  "flowWatchPct": 90,
+  "flowHighPct": 99,
+  "storageWatchPct": 95
+ },
+ "links": [
+  {
+   "group": "Live warnings",
+   "title": "VicEmergency warnings and incidents",
+   "url": "https://emergency.vic.gov.au/"
+  },
+  {
+   "group": "Live warnings",
+   "title": "BoM Victoria current warnings",
+   "url": "https://www.bom.gov.au/vic/warnings/"
+  },
+  {
+   "group": "Live warnings",
+   "title": "BoM Victoria rainfall and river conditions",
+   "url": "https://www.bom.gov.au/vic/flood/rain_river.shtml"
+  },
+  {
+   "group": "On the ground",
+   "title": "VicTraffic road closures",
+   "url": "https://traffic.vicroads.vic.gov.au/"
+  },
+  {
+   "group": "On the ground",
+   "title": "VICSES flood guides for Campaspe Shire",
+   "url": "https://www.ses.vic.gov.au/en/plan-and-stay-safe/flood-guides/campaspe-shire-council"
+  },
+  {
+   "group": "On the ground",
+   "title": "Rochester Flood Study 2025 update and flood maps",
+   "url": "https://www.campaspe.vic.gov.au/rochesterfloodstudy"
+  },
+  {
+   "group": "On the ground",
+   "title": "Resilient Rochester: know your flood risk",
+   "url": "https://www.campaspe.vic.gov.au/Our-council/News-media/Latest-news/Resilient-Rochester-Know-your-flood-risk"
+  },
+  {
+   "group": "On the ground",
+   "title": "Understanding flood information and warnings (Campaspe Shire)",
+   "url": "https://www.campaspe.vic.gov.au/Our-council/News-media/Latest-news/Understanding-flood-information-and-warnings"
+  },
+  {
+   "group": "On the ground",
+   "title": "VicPlan planning maps, including flood overlays",
+   "url": "https://mapshare.vic.gov.au/vicplan/"
+  },
+  {
+   "group": "On the ground",
+   "title": "Echuca Moama Torrumbarry Flood Study",
+   "url": "https://www.campaspe.vic.gov.au/Plan-build/Works-projects/Echuca-Moama-Torrumbarry-Flood-Study-Project"
+  },
+  {
+   "group": "On the ground",
+   "title": "Flood Eye: property flood information for Rochester (North Central CMA)",
+   "url": "https://www.nccma.vic.gov.au/sites/default/files/publications/flood_eye_rochester_final.pdf"
+  },
+  {
+   "group": "On the ground",
+   "title": "Rochester to Echuca potential inundation map, 10% AEP (NCCMA, January 2024)",
+   "url": "https://www.nccma.vic.gov.au/sites/default/files/publications/rochester_to_echuca_revised_potential_inundation_10y_a0p_25k_20240109_0930.pdf"
+  },
+  {
+   "group": "On the ground",
+   "title": "Goulburn Broken flood intelligence portal (GBCMA)",
+   "url": "https://www.gbcma.vic.gov.au/our-region/waterway-floodplain-management/floodplain-planning/gbfloodintelligenceportal"
+  },
+  {
+   "group": "River and dam data",
+   "title": "GMW Water Status",
+   "url": "https://waterstatus.g-mwater.com.au/waterstatus/"
+  },
+  {
+   "group": "River and dam data",
+   "title": "GMW storage levels",
+   "url": "https://www.g-mwater.com.au/water-operations/storage-levels"
+  },
+  {
+   "group": "River and dam data",
+   "title": "Coliban Water storages",
+   "url": "https://coliban.com.au/water-storage-data-and-information"
+  },
+  {
+   "group": "River and dam data",
+   "title": "Victorian Water Measurement Information System",
+   "url": "https://data.water.vic.gov.au/"
+  },
+  {
+   "group": "River and dam data",
+   "title": "BoM Water Data Online",
+   "url": "https://www.bom.gov.au/waterdata/"
+  },
+  {
+   "group": "River and dam data",
+   "title": "MDBA River Data, Rochester",
+   "url": "https://riverdata.mdba.gov.au/rochester"
+  },
+  {
+   "group": "River and dam data",
+   "title": "BoM flood class levels, north of the Divide",
+   "url": "https://www.bom.gov.au/vic/flood/floodclass_north.shtml"
+  },
+  {
+   "group": "River and dam data",
+   "title": "BoM 7-day streamflow forecasts",
+   "url": "https://www.bom.gov.au/water/7daystreamflow/"
+  },
+  {
+   "group": "River and dam data",
+   "title": "GMW: Managing water levels at Lake Eppalock",
+   "url": "https://www.g-mwater.com.au/news-updates/notices/managing-water-levels-at-lake-eppalock.html"
+  },
+  {
+   "group": "River and dam data",
+   "title": "GloFAS global flood model (Copernicus)",
+   "url": "https://global-flood.emergency.copernicus.eu/"
+  },
+  {
+   "group": "Ground and climate",
+   "title": "BoM Climate Driver Update (official El Niño, La Niña and IOD status)",
+   "url": "https://www.bom.gov.au/climate/enso/"
+  },
+  {
+   "group": "Ground and climate",
+   "title": "BoM Australian Water Outlook (soil moisture)",
+   "url": "https://awo.bom.gov.au/"
+  },
+  {
+   "group": "Ground and climate",
+   "title": "BoM forecast rainfall maps",
+   "url": "http://www.bom.gov.au/jsp/watl/rainfall/pme.jsp"
+  },
+  {
+   "group": "Reports",
+   "title": "GMW: How the October 2022 floods occurred along the Campaspe",
+   "url": "https://g-mwater.com.au/customer-services-resources/flood-recovery/floods-in-focus-campaspe-river-system"
+  },
+  {
+   "group": "Reports",
+   "title": "Lake Eppalock operating arrangements assessment",
+   "url": "https://water.vic.gov.au/our-programs/floodplain-management/lake-eppalock-operating-arrangements-assessment"
+  },
+  {
+   "group": "Reports",
+   "title": "Campaspe Shire Flood Emergency Plan (2019)",
+   "url": "https://www.campaspe.vic.gov.au/files/assets/public/our-services/flood-emergency-plan.pdf"
+  },
+  {
+   "group": "Reports",
+   "title": "Parliamentary inquiry into the 2022 flood event, final report",
+   "url": "https://parliament.vic.gov.au/4a19bf/contentassets/a1a3e3c7d84c4a059b7f8ad12089af06/lcepc-60-02_2022-flood-event-in-vic_final-report.pdf"
+  },
+  {
+   "group": "Reports",
+   "title": "Campaspe Shire submission to the 2022 flood inquiry",
+   "url": "https://www.campaspe.vic.gov.au/files/assets/public/v/1/our-services/campaspe-shire-council-submission_vic-2022-flood-inquiry.pdf"
+  },
+  {
+   "group": "Reports",
+   "title": "Rochester Flood Management Plan (NCCMA)",
+   "url": "https://www.nccma.vic.gov.au/sites/default/files/publications/nccma-81011_rochester_flood_management_plan_final_study_report.pdf"
+  },
+  {
+   "group": "Reports",
+   "title": "Lake Eppalock Technical Assessment, summary report (DEECA, 2023)",
+   "url": "https://www.water.vic.gov.au/__data/assets/pdf_file/0039/689727/Lake-Eppalock-Technical-Assessment-Summary-Report.pdf"
+  },
+  {
+   "group": "Reports",
+   "title": "BoM flood warning service levels, Victoria v4.3",
+   "url": "https://www.bom.gov.au/sites/default/files/2026-06/service-level-specification-flood-forecasting-warning-services-victoria-v4.3.pdf"
+  }
+ ],
+ "warningsRss": "http://www.bom.gov.au/fwo/IDZ00059.warnings_vic.xml",
+ "warningKeywords": [
+  "campaspe",
+  "coliban",
+  "mcivor",
+  "axe creek",
+  "murray",
+  "goulburn",
+  "broken",
+  "seven creeks",
+  "ovens",
+  "kiewa",
+  "mitta",
+  "loddon",
+  "eppalock",
+  "rochester",
+  "echuca",
+  "elmore",
+  "north central",
+  "flood watch"
+ ]
+}

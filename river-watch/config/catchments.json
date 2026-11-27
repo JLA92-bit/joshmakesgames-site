@@ -1,0 +1,269 @@
+{
+ "_about": "Catchments, rain points and soil-moisture points. Created by Josh Avard. Rain and soil moisture come from Open-Meteo (CC BY 4.0): forecasts, and ERA5 reanalysis for history.",
+ "catchments": [
+  {
+   "id": "upper-campaspe",
+   "name": "Upper Campaspe & Coliban",
+   "feeds": "Coliban storages and Lake Eppalock",
+   "lat": -37.25,
+   "lon": 144.45,
+   "key": true
+  },
+  {
+   "id": "eppalock",
+   "name": "McIvor Creek & Lake Eppalock",
+   "feeds": "Lake Eppalock",
+   "lat": -36.92,
+   "lon": 144.62
+  },
+  {
+   "id": "below-eppalock",
+   "name": "Axe, Mt Pleasant & Forest creeks",
+   "feeds": "The Campaspe between Eppalock and Rochester",
+   "lat": -36.75,
+   "lon": 144.45
+  },
+  {
+   "id": "lower-campaspe",
+   "name": "Lower Campaspe",
+   "feeds": "Rochester directly",
+   "lat": -36.43,
+   "lon": 144.66
+  },
+  {
+   "id": "goulburn",
+   "name": "Goulburn, Broken & Seven Creeks",
+   "feeds": "The Murray just above Echuca",
+   "lat": -36.85,
+   "lon": 145.6
+  },
+  {
+   "id": "upper-murray",
+   "name": "Upper Murray, Kiewa & Ovens",
+   "feeds": "Lake Hume and the Murray to Tocumwal",
+   "lat": -36.4,
+   "lon": 147.3
+  }
+ ],
+ "rainPoints": [
+  {
+   "id": "trentham",
+   "name": "Trentham",
+   "catchment": "upper-campaspe",
+   "lat": -37.389,
+   "lon": 144.322
+  },
+  {
+   "id": "woodend",
+   "name": "Woodend",
+   "catchment": "upper-campaspe",
+   "lat": -37.355,
+   "lon": 144.528
+  },
+  {
+   "id": "kyneton",
+   "name": "Kyneton",
+   "catchment": "upper-campaspe",
+   "lat": -37.244,
+   "lon": 144.452
+  },
+  {
+   "id": "malmsbury",
+   "name": "Malmsbury",
+   "catchment": "upper-campaspe",
+   "lat": -37.188,
+   "lon": 144.385
+  },
+  {
+   "id": "redesdale",
+   "name": "Redesdale",
+   "catchment": "upper-campaspe",
+   "lat": -36.996,
+   "lon": 144.522
+  },
+  {
+   "id": "heathcote",
+   "name": "Heathcote",
+   "catchment": "eppalock",
+   "lat": -36.921,
+   "lon": 144.708
+  },
+  {
+   "id": "eppalock",
+   "name": "Lake Eppalock",
+   "catchment": "eppalock",
+   "lat": -36.87,
+   "lon": 144.56
+  },
+  {
+   "id": "sedgwick",
+   "name": "Sedgwick",
+   "catchment": "below-eppalock",
+   "lat": -36.88,
+   "lon": 144.33
+  },
+  {
+   "id": "goornong",
+   "name": "Goornong",
+   "catchment": "below-eppalock",
+   "lat": -36.61,
+   "lon": 144.51
+  },
+  {
+   "id": "elmore",
+   "name": "Elmore",
+   "catchment": "lower-campaspe",
+   "lat": -36.497,
+   "lon": 144.61
+  },
+  {
+   "id": "rochester",
+   "name": "Rochester",
+   "catchment": "lower-campaspe",
+   "lat": -36.363,
+   "lon": 144.7
+  },
+  {
+   "id": "eildon",
+   "name": "Lake Eildon",
+   "catchment": "goulburn",
+   "lat": -37.23,
+   "lon": 145.92
+  },
+  {
+   "id": "seymour",
+   "name": "Seymour",
+   "catchment": "goulburn",
+   "lat": -37.026,
+   "lon": 145.139
+  },
+  {
+   "id": "euroa",
+   "name": "Euroa",
+   "catchment": "goulburn",
+   "lat": -36.755,
+   "lon": 145.571
+  },
+  {
+   "id": "benalla",
+   "name": "Benalla",
+   "catchment": "goulburn",
+   "lat": -36.551,
+   "lon": 145.984
+  },
+  {
+   "id": "shepparton",
+   "name": "Shepparton",
+   "catchment": "goulburn",
+   "lat": -36.38,
+   "lon": 145.4
+  },
+  {
+   "id": "dartmouth",
+   "name": "Dartmouth",
+   "catchment": "upper-murray",
+   "lat": -36.532,
+   "lon": 147.498
+  },
+  {
+   "id": "corryong",
+   "name": "Corryong",
+   "catchment": "upper-murray",
+   "lat": -36.197,
+   "lon": 147.902
+  },
+  {
+   "id": "bright",
+   "name": "Bright",
+   "catchment": "upper-murray",
+   "lat": -36.729,
+   "lon": 146.96
+  },
+  {
+   "id": "albury",
+   "name": "Albury",
+   "catchment": "upper-murray",
+   "lat": -36.081,
+   "lon": 146.916
+  }
+ ],
+ "climate": {
+  "oni": {
+   "name": "El Niño / La Niña (ONI)",
+   "url": "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
+   "wetBelow": -0.5,
+   "dryAbove": 0.5,
+   "wetLabel": "La Niña-like",
+   "dryLabel": "El Niño-like"
+  },
+  "dmi": {
+   "name": "Indian Ocean Dipole (DMI)",
+   "url": "https://psl.noaa.gov/gcos_wgsp/Timeseries/Data/dmi.had.long.data",
+   "wetBelow": -0.4,
+   "dryAbove": 0.4,
+   "wetLabel": "Negative IOD-like",
+   "dryLabel": "Positive IOD-like"
+  },
+  "sam": {
+   "name": "Southern Annular Mode (SAM)",
+   "url": "https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/aao/monthly.aao.index.b79.current.ascii",
+   "wetAbove": 0.5,
+   "dryBelow": -0.5,
+   "wetLabel": "Positive SAM",
+   "dryLabel": "Negative SAM"
+  }
+ },
+ "riverModel": [
+  {
+   "id": "campaspe-redesdale",
+   "name": "Campaspe above Lake Eppalock",
+   "river": "Campaspe",
+   "site": "406213",
+   "lat": -37.017,
+   "lon": 144.535,
+   "mockBase": 8,
+   "note": "Inflow from the upper Campaspe and Coliban side"
+  },
+  {
+   "id": "campaspe-rochester",
+   "name": "Campaspe at Rochester",
+   "river": "Campaspe",
+   "site": "406283",
+   "lat": -36.36,
+   "lon": 144.7,
+   "mockBase": 14,
+   "note": "The model reach through Rochester"
+  },
+  {
+   "id": "goulburn-mccoys",
+   "name": "Goulburn at McCoys Bridge",
+   "river": "Goulburn",
+   "site": "405232",
+   "lat": -36.19,
+   "lon": 145.04,
+   "mockBase": 60,
+   "note": "Goulburn water arriving at the Murray above Echuca"
+  },
+  {
+   "id": "murray-echuca",
+   "name": "Murray at Echuca",
+   "river": "Murray",
+   "site": "409200",
+   "lat": -36.12,
+   "lon": 144.75,
+   "mockBase": 150,
+   "note": "The Murray where the Campaspe joins it"
+  },
+  {
+   "id": "murray-swanhill",
+   "name": "Murray at Swan Hill",
+   "river": "Murray",
+   "site": "409204",
+   "lat": -35.335,
+   "lon": 143.56,
+   "mockBase": 170,
+   "note": "Downstream end of the watched reach"
+  }
+ ],
+ "_riverModelAbout": "riverModel: points for the GloFAS global river model (Open-Meteo Flood API, no key). The API takes the largest river within about 5 km of each point. Model flows are compared only with the model's own record since 1984."
+}
