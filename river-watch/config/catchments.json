@@ -215,16 +215,6 @@
  },
  "riverModel": [
   {
-   "id": "campaspe-redesdale",
-   "name": "Campaspe above Lake Eppalock",
-   "river": "Campaspe",
-   "site": "406213",
-   "lat": -37.017,
-   "lon": 144.535,
-   "mockBase": 8,
-   "note": "Inflow from the upper Campaspe and Coliban side"
-  },
-  {
    "id": "campaspe-rochester",
    "name": "Campaspe at Rochester",
    "river": "Campaspe",
@@ -239,8 +229,8 @@
    "name": "Goulburn at McCoys Bridge",
    "river": "Goulburn",
    "site": "405232",
-   "lat": -36.19,
-   "lon": 145.04,
+   "lat": -36.14,
+   "lon": 145.115,
    "mockBase": 60,
    "note": "Goulburn water arriving at the Murray above Echuca"
   },
@@ -259,11 +249,11 @@
    "name": "Murray at Swan Hill",
    "river": "Murray",
    "site": "409204",
-   "lat": -35.335,
-   "lon": 143.56,
+   "lat": -35.385,
+   "lon": 143.66,
    "mockBase": 170,
    "note": "Downstream end of the watched reach"
   }
  ],
- "_riverModelAbout": "riverModel: points for the GloFAS global river model (Open-Meteo Flood API, no key). The API takes the largest river within about 5 km of each point. Model flows are compared only with the model's own record since 1984."
+ "_riverModelAbout": "riverModel: points for the GloFAS global river model (Open-Meteo Flood API, no key). The API takes the largest river within about 5 km of each point. Model flows are compared only with the model's own record since 1984. Points were checked against the model's river cells in November 2026; the upper Campaspe above Lake Eppalock is too small for the model to resolve."
 }

@@ -15,12 +15,13 @@
    bar, then bands that alternate night-navy (Echuca, ground and climate, past floods) and clean paper
    (factors, rivers, Rochester's water, dams, gauges, rain, impacts). One committed look; colours set explicitly. */
 :root {
+  --accent: #0B6F99; --t-warn: #A84F06; --hist: #8A2432;
   --night: #001427; --navy: #00294d; --navy-2: #0a3a66; --maroon: #940E16; --water: #4BC9F5;
   --paper: #ffffff; --mist: #f2f6f9; --ink: #0b1b2b; --ink-2: #48586a; --ink-3: #8593a3; --line: #dbe3ea;
   --on-night: #eaf3fa; --on-night-2: #9fb6cb; --night-line: rgba(159, 182, 203, 0.22);
-  --s-normal: #5CBD6C; --s-near: #4BC9F5; --s-minor: #FBAD45; --s-moderate: #F26839; --s-major: #940E16; --s-nodata: #8593a3;
-  --f-calm: #5CBD6C; --f-watch: #FBAD45; --f-high: #F26839; --f-unknown: #8593a3;
-  --c1: #00294d; --c2: #4BC9F5; --c3: #FBAD45; --c4: #5CBD6C; --c5: #b9c6d2;
+  --s-normal: #2E9E5B; --s-near: #F2C230; --s-minor: #F08A24; --s-moderate: #D93A2B; --s-major: #8E44AD; --s-nodata: #8593a3;
+  --f-calm: #2E9E5B; --f-watch: #F2C230; --f-high: #F08A24; --f-unknown: #8593a3;
+  --c1: #00294d; --c2: #4BC9F5; --c3: #20A39E; --c4: #2E9E5B; --c5: #b9c6d2;
   --f-display: "Big Shoulders Display", "Oswald", "Arial Narrow", Impact, sans-serif;
   --f-body: "Atkinson Hyperlegible", "Segoe UI", Helvetica, Arial, sans-serif;
   --f-data: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
@@ -36,15 +37,15 @@ a { color: inherit; text-underline-offset: 3px; }
 .wrap { max-width: 1280px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 h1, h2, h3 { font-family: var(--f-display); margin: 0; text-wrap: balance; line-height: 0.95; }
 .num { font-family: var(--f-data); font-variant-numeric: tabular-nums; }
-.kicker { font-family: var(--f-data); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; }
+.kicker { font-family: var(--f-data); font-size: 0.74rem; letter-spacing: 0.12em; text-transform: uppercase; }
 .band { padding-block: clamp(48px, 7vw, 84px); }
 .night { background: var(--night); color: var(--on-night); }
 .mist { background: var(--mist); }
 .sec-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px 48px; align-items: end; margin-bottom: 32px; }
-.sec-head h2 { font-size: clamp(2.5rem, 6vw, 4.4rem); font-weight: 800; text-transform: uppercase; }
+.sec-head h2 { font-size: clamp(2.2rem, 4.6vw, 3.5rem); letter-spacing: 0.01em; font-weight: 800; text-transform: uppercase; }
 .sec-head p { margin: 0; max-width: 60ch; color: var(--ink-2); font-size: 1.04rem; }
 .night .sec-head p { color: var(--on-night-2); }
-.sec-head .kicker { display: block; margin-bottom: 12px; color: var(--maroon); }
+.sec-head .kicker { display: block; margin-bottom: 12px; color: var(--accent); }
 .night .sec-head .kicker { color: var(--water); }
 .fine { font-size: 0.86rem; color: var(--ink-2); margin: 16px 0 0; max-width: 95ch; }
 .night .fine { color: var(--on-night-2); }
@@ -58,7 +59,7 @@ h1, h2, h3 { font-family: var(--f-display); margin: 0; text-wrap: balance; line-
 .c-normal { background: var(--s-normal); } .c-near { background: var(--s-near); } .c-minor { background: var(--s-minor); }
 .c-moderate { background: var(--s-moderate); } .c-major { background: var(--s-major); } .c-info, .c-nodata { background: var(--s-nodata); }
 .trend { font-weight: 700; font-size: 0.9rem; white-space: nowrap; }
-.trend.rising { color: var(--maroon); } .trend.falling { color: #2b7d3d; } .trend.steady { color: var(--ink-2); }
+.trend.rising { color: var(--t-warn); } .trend.falling { color: #2b7d3d; } .trend.steady { color: var(--ink-2); }
 .night .trend.rising, .hero .trend.rising { color: #ff8a8f; } .night .trend.falling, .hero .trend.falling { color: #8fd89b; } .night .trend.steady, .hero .trend.steady { color: var(--on-night-2); }
 
 .tools { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -106,6 +107,7 @@ h1, h2, h3 { font-family: var(--f-display); margin: 0; text-wrap: balance; line-
 .mark span { z-index: 3; position: absolute; right: max(16px, env(safe-area-inset-right, 0px)); transform: translateY(-115%); font: 600 0.74rem/1 var(--f-data); letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; padding: 4px 7px; border-radius: 3px; background: var(--night); color: inherit; }
 .mark.hist span { background: currentColor; }
 .mark.hist span i { font-style: normal; color: #fff; }
+.dot.c-near { box-shadow: inset 0 0 0 1px rgba(110, 85, 0, 0.45); }
 .mark.l span { right: auto; left: calc(max(16px, env(safe-area-inset-left, 0px)) + 112px); }
 .mark.now { border-top: 0; }
 .mark.now { z-index: 4; }
@@ -131,7 +133,7 @@ h1, h2, h3 { font-family: var(--f-display); margin: 0; text-wrap: balance; line-
 .factor .val { font-family: var(--f-display); font-weight: 900; font-size: 3rem; line-height: 0.9; color: var(--navy); }
 .factor .val small { font: 500 0.82rem var(--f-data); color: var(--ink-2); margin-left: 6px; }
 .factor .det { font-size: 0.93rem; }
-.factor .cmp { font: 0.8rem var(--f-data); color: var(--maroon); }
+.factor .cmp { font: 0.8rem var(--f-data); color: var(--hist); }
 .factor .why { font-size: 0.84rem; color: var(--ink-2); border-top: 1px solid var(--line); padding-top: 8px; margin-top: 4px; }
 .legend { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 16px; font-size: 0.9rem; color: var(--ink-2); }
 .legend span { display: inline-flex; align-items: center; gap: 7px; }
@@ -204,7 +206,7 @@ h1, h2, h3 { font-family: var(--f-display); margin: 0; text-wrap: balance; line-
 .gauge-bar i.full { background: var(--navy); }
 .dam .meta { font-size: 0.82rem; color: var(--ink-2); }
 .dam svg { display: block; width: 100%; height: 34px; }
-.dam-group { font: 600 0.74rem var(--f-data); letter-spacing: 0.14em; text-transform: uppercase; color: var(--maroon); margin: 22px 0 10px; }
+.dam-group { font: 600 0.74rem var(--f-data); letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin: 22px 0 10px; }
 
 /* gauge cards */
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
@@ -218,7 +220,7 @@ h1, h2, h3 { font-family: var(--f-display); margin: 0; text-wrap: balance; line-
 .card .lvlv small { font: 500 0.82rem var(--f-data); color: var(--ink-2); margin-left: 6px; }
 .card .role { font-size: 0.86rem; color: var(--ink-2); }
 .meter { display: grid; gap: 5px; }
-.meter .track { position: relative; height: 8px; border-radius: 4px; background: linear-gradient(90deg, #e7f6ea 0 60%, #fff1d9 60% 75%, #fde3d6 75% 87%, #f6dcdd 87%); }
+.meter .track { position: relative; height: 8px; border-radius: 4px; background: linear-gradient(90deg, #e3f3e9 0 60%, #fdf1c8 60% 75%, #fde3cc 75% 87%, #f7d9d5 87%); }
 .meter .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; background: var(--navy); }
 .meter .ticks { display: flex; justify-content: space-between; font: 500 0.7rem var(--f-data); color: var(--ink-3); }
 .spark { position: relative; }
@@ -236,7 +238,7 @@ h1, h2, h3 { font-family: var(--f-display); margin: 0; text-wrap: balance; line-
 .soil-row { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) 150px; gap: 16px; align-items: center; border-top: 1px solid var(--night-line); padding: 12px 0; }
 .soil-row .nm { font-family: var(--f-display); font-weight: 800; font-size: 1.15rem; text-transform: uppercase; line-height: 1; }
 .soil-row .fd { font-size: 0.8rem; color: var(--on-night-2); margin-top: 3px; }
-.pctbar { position: relative; height: 12px; border-radius: 6px; background: linear-gradient(90deg, rgba(159,182,203,0.18) 0 70%, rgba(251,173,69,0.35) 70% 90%, rgba(242,104,57,0.45) 90%); }
+.pctbar { position: relative; height: 12px; border-radius: 6px; background: linear-gradient(90deg, rgba(159,182,203,0.18) 0 70%, rgba(242,194,48,0.38) 70% 90%, rgba(240,138,36,0.55) 90%); }
 .pctbar i { position: absolute; top: -4px; width: 4px; height: 20px; border-radius: 2px; background: var(--water); transform: translateX(-2px); }
 .pctlbl { font: 600 0.82rem var(--f-data); margin-top: 6px; display: block; }
 .soil-row svg { width: 150px; height: 36px; display: block; }
@@ -262,7 +264,7 @@ td.n, th.n { text-align: right; font-family: var(--f-data); font-variant-numeric
 .light-table th { color: var(--ink-2); background: var(--mist); border-bottom: 1px solid var(--line); }
 .light-table td { border-bottom: 1px solid var(--line); }
 .light-table tr.grp td { font-family: var(--f-display); font-weight: 800; font-size: 1.05rem; text-transform: uppercase; color: var(--navy); padding-top: 16px; }
-.heavy { color: var(--maroon); font-weight: 700; }
+.heavy { color: var(--t-warn); font-weight: 700; }
 .night .heavy { color: #ff8a8f; }
 
 /* rain */
@@ -318,7 +320,7 @@ td.n, th.n { text-align: right; font-family: var(--f-data); font-variant-numeric
 .ladder ol { list-style: none; margin: 0; padding: 0; }
 .ladder li { display: grid; grid-template-columns: 86px minmax(0, 1fr); gap: 14px; padding: 10px 18px; border-top: 1px solid var(--line); }
 .ladder li .lv { font: 600 0.92rem var(--f-data); }
-.ladder li .lb { font: 700 0.72rem var(--f-data); letter-spacing: 0.08em; text-transform: uppercase; color: var(--maroon); display: block; }
+.ladder li .lb { font: 700 0.72rem var(--f-data); letter-spacing: 0.08em; text-transform: uppercase; color: var(--navy-2); display: block; }
 .ladder li .wt { font-size: 0.93rem; }
 .ladder li.cls { background: #fff8ec; }
 .ladder li.past { color: var(--ink-3); }
@@ -337,9 +339,9 @@ td.n, th.n { text-align: right; font-family: var(--f-data); font-variant-numeric
 .warn { border-left: 4px solid var(--s-moderate); padding: 8px 12px; background: var(--paper); }
 .files li { display: flex; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--line); padding-bottom: 8px; font-size: 0.95rem; }
 .files code { font: 0.78rem var(--f-data); color: var(--ink-2); overflow-wrap: anywhere; text-align: right; }
-.src .g { font: 600 0.7rem var(--f-data); letter-spacing: 0.12em; text-transform: uppercase; color: var(--maroon); margin: 14px 0 4px; }
+.src .g { font: 600 0.7rem var(--f-data); letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin: 14px 0 4px; }
 .src a { font-size: 0.95rem; }
-footer { background: var(--night); color: var(--on-night-2); border-top: 6px solid var(--maroon); }
+footer { background: var(--night); color: var(--on-night-2); border-top: 6px solid var(--water); }
 footer .wrap { padding-block: 36px 44px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 24px 48px; font-size: 0.9rem; }
 footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem; text-transform: uppercase; color: var(--on-night); line-height: 1; }
 
@@ -378,18 +380,18 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 }
 /* ---- what happens next, river model, flood map, how unusual */
 .two > * { min-width: 0; }
-.official { border-left: 6px solid var(--maroon); }
+.official { border-left: 6px solid var(--navy); }
 .pred { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 16px; padding: 12px 0; border-top: 1px solid var(--line); }
 .pred:first-of-type { border-top: 0; }
-.pred .v { font-family: var(--f-display); font-weight: 800; font-size: 2rem; line-height: 1; color: var(--maroon); text-align: right; }
+.pred .v { font-family: var(--f-display); font-weight: 800; font-size: 2rem; line-height: 1; color: var(--navy); text-align: right; }
 .pred .v small { font: 500 0.78rem var(--f-data); color: var(--ink-2); margin-left: 4px; }
 .pred q { grid-column: 1 / -1; color: var(--ink-2); font-size: 0.9rem; quotes: "\201C" "\201D"; }
 .risetab td, .risetab th { padding: 8px 10px; }
 .risetab tbody tr { border-bottom: 1px solid var(--line); }
-.risetab .up { color: var(--maroon); font-weight: 700; }
+.risetab .up { color: var(--t-warn); font-weight: 700; }
 .risetab .down { color: #2b7d3d; }
-.eta { font: 600 0.82rem var(--f-data); padding: 3px 8px; border-radius: 3px; background: var(--mist); white-space: nowrap; }
-.eta.hot { background: #fde3d6; color: #8a2a0b; }
+.risetab .eta { font: 600 0.82rem var(--f-data); padding: 3px 8px; border-radius: 3px; background: var(--mist); white-space: nowrap; }
+.risetab .eta.hot { background: #fde3cc; color: #8a3b06; }
 .morebtn { margin-top: 10px; font: 700 0.86rem var(--f-body); border: 1px solid var(--line); background: var(--paper); color: var(--ink); padding: 6px 14px; border-radius: 999px; cursor: pointer; }
 .model-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 18px; margin-top: 28px; }
 .model-card { border: 1px solid var(--line); border-radius: 4px; padding: 14px 16px; background: var(--paper); min-width: 0; }
@@ -399,7 +401,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 .model-card svg text { font: 10px var(--f-data); fill: var(--ink-2); }
 .model-card p { margin: 8px 0 0; font-size: 0.9rem; color: var(--ink-2); }
 .model-card p b { color: var(--ink); }
-.model-card .rare { color: var(--maroon); font-weight: 700; }
+.model-card .rare { color: var(--t-warn); font-weight: 700; }
 #map { height: 520px; border-radius: 4px; border: 1px solid var(--line); background: var(--mist); }
 .maptools { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 12px 0; align-items: center; }
 .maptools label { display: inline-flex; gap: 6px; align-items: center; font-size: 0.9rem; cursor: pointer; }
@@ -417,9 +419,9 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 .freq select { font: 1rem var(--f-body); padding: 6px 10px; border: 1px solid var(--line); border-radius: 4px; background: var(--paper); color: var(--ink); flex: 1 1 200px; width: 100%; min-width: 0; }
 .freq .pick { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 10px; }
 .verdict { font-family: var(--f-display); font-weight: 800; font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.05; text-transform: uppercase; color: var(--navy); }
-.verdict em { font-style: normal; color: var(--maroon); }
+.verdict em { font-style: normal; color: var(--hist); }
 .mark.pred { z-index: 4; }
-.mark.pred span { background: #ffd34d; color: #001427; font-weight: 700; }
+.mark.pred span { background: #ffffff; color: #001427; font-weight: 700; }
 @media (max-width: 900px) { #map { height: 420px; } }
 @media (max-width: 600px) { .risetab th:nth-child(3), .risetab td:nth-child(3) { display: none; } .risetab td, .risetab th { padding: 8px 6px; } }
 /* ---- phones and small tablets */
@@ -484,6 +486,74 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   .night .stack-m td[data-l]::before { color: var(--on-night-2); }
   .ev-table.stack-m td:nth-child(4), .ev-table.stack-m td:nth-child(7), .ev-table.stack-m td:nth-child(8), .ev-table.stack-m td:nth-child(9) { display: none; }
 }
+/* ---- situation line, hydrograph, up and downstream, gauge search */
+.sit { border-bottom: 1px solid var(--night-line); background: rgba(255,255,255,0.035); }
+.sit .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding-block: 11px; }
+.sit .head { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 0.98rem; color: var(--on-night); }
+.sit .head a { color: inherit; }
+.sit .cnts { display: flex; flex-wrap: wrap; gap: 6px; }
+.sit .cnt { font: 600 0.76rem var(--f-data); letter-spacing: 0.04em; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--night-line); color: var(--on-night-2); white-space: nowrap; }
+.sit .cnt b { color: var(--on-night); }
+.sit .cnt.hot { border-color: #F5A04A; color: #ffd2a8; } .sit .cnt.hot b { color: #fff; }
+.sit .upd { margin-left: auto; font: 0.78rem var(--f-data); color: var(--on-night-2); white-space: nowrap; }
+.sit .upd.stale { color: #F2C230; font-weight: 600; white-space: normal; }
+.sit[data-lv="watch"] { background: rgba(242, 194, 48, 0.12); box-shadow: inset 4px 0 0 #F2C230; }
+.sit[data-lv="warn"] { background: rgba(240, 138, 36, 0.2); box-shadow: inset 4px 0 0 #F08A24; }
+.sit[data-lv="flood"] { background: rgba(217, 58, 43, 0.3); box-shadow: inset 4px 0 0 #D93A2B; }
+.hydro { padding: 26px 0 6px; border-top: 1px solid var(--night-line); }
+.hydro .hh { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 18px; margin-bottom: 10px; }
+.hydro .hh h2 { font-size: 1.5rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.02em; }
+.hydro .hh .lg { display: flex; flex-wrap: wrap; gap: 4px 14px; font: 0.76rem var(--f-data); color: var(--on-night-2); }
+.hydro .hh .lg i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; vertical-align: -2px; margin-right: 6px; }
+.hydro .chart { position: relative; }
+.hydro svg { display: block; width: 100%; height: auto; touch-action: pan-y; }
+.hydro svg text { font: 11px var(--f-data); fill: var(--on-night-2); }
+.hydro .tip { background: var(--water); color: var(--night); font-weight: 600; }
+.hydro .next { margin: 12px 0 0; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 14px; align-items: baseline; font-size: 0.95rem; color: var(--on-night-2); max-width: 90ch; }
+.hydro .next b { font: 600 1.05rem var(--f-data); color: var(--on-night); white-space: nowrap; }
+.hydro .next span b { font: inherit; color: var(--water); }
+.nbr { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
+.nbr button { font: 600 0.8rem var(--f-body); color: var(--on-night-2); background: transparent; border: 1px solid var(--night-line); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+.nbr button:hover, .nbr button:focus-visible { color: var(--night); background: var(--water); border-color: var(--water); }
+.nbr button span { font-family: var(--f-data); color: inherit; opacity: 0.85; margin-left: 4px; }
+.gsearch { display: flex; gap: 10px; align-items: center; margin: -10px 0 20px; }
+.gsearch input { flex: 1 1 260px; max-width: 420px; min-width: 0; font: 1rem var(--f-body); padding: 10px 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); color: var(--ink); }
+.gsearch span { font: 0.8rem var(--f-data); color: var(--ink-3); white-space: nowrap; }
+:focus-visible { outline: 3px solid var(--water); outline-offset: 2px; }
+@media (max-width: 900px) { .nbr { justify-content: flex-start; } }
+@media (max-width: 600px) {
+  .sit .upd { margin-left: 0; width: 100%; }
+  .hydro { padding-top: 20px; }
+  .hero-top { padding-block: 24px 20px; gap: 18px; }
+  .brand { margin-bottom: 14px; }
+  .hero h1 { font-size: clamp(2.6rem, 14vw, 3.4rem); line-height: 0.9; }
+  .hero h1 br { display: none; }
+  .hero h1 em { margin-left: 0.18em; }
+  .hero .lede { font-size: 0.95rem; margin-top: 10px; }
+  .hydro .hh h2 { font-size: 1.25rem; }
+  .gsearch { margin-top: -6px; }
+}
+/* ---- touch screens: comfortable tap targets, no text under 11px */
+@media (pointer: coarse) {
+  .pill-btn, .nbr button, .secnav a, .tools button, .tabs button, .morebtn, .more { min-height: 40px; }
+  .pill-btn, .nbr button, .secnav a { display: inline-flex; align-items: center; }
+  .maptools label { min-height: 40px; }
+  .maptools input { width: 20px; height: 20px; }
+  .emerg a { display: inline-block; padding-block: 6px; }
+}
+@media (max-width: 600px) {
+  .dam .sys { font-size: 0.7rem; }
+  .facts dt, .ev-stats .k, th, .factor .lvl { font-size: 0.72rem; }
+}
+@media (max-width: 400px) {
+  .versus > div { padding: 16px 10px 18px 0; }
+  .versus > div + div { padding-left: 12px; }
+  .versus > div:nth-child(3) { padding-left: 0; }
+  .versus .v { font-size: 1.9rem; white-space: nowrap; }
+  .versus .v small { font-size: 0.75rem; margin-left: 2px; }
+  .versus p { font-size: 0.84rem; }
+  .versus .kicker { letter-spacing: 0.06em; }
+}
 </style>
 </head>
 <body>
@@ -491,6 +561,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 <div class="example" id="exampleBar" hidden><div class="wrap"><b>EXAMPLE DATA</b><span>Readings, dams, rain, ground wetness, climate and the lettered floods are made up to preview the design. The real site fills them in every hour. Flood levels, flood impacts and reported peaks are real.</span></div></div>
 
 <header class="hero" id="now">
+  <div class="sit" id="sit" role="status" aria-live="polite"><div class="wrap"><span class="head">Loading the latest river readings...</span></div></div>
   <div class="wrap hero-top">
     <div>
       <div class="brand">
@@ -507,6 +578,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       <div id="heroChip"></div>
       <div class="gap" id="heroGap"></div>
       <div class="when" id="heroWhen"></div>
+      <div class="nbr" id="heroNbr" role="group" aria-label="Gauges up and down the river"></div>
     </div>
   </div>
   <div class="wall" id="wall" aria-hidden="true">
@@ -514,7 +586,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     <div class="staff" id="staff"></div>
     <div class="marks" id="marks"></div>
   </div>
-  <div class="wrap"><div class="versus" id="versus"></div></div>
+  <div class="wrap"><div class="hydro" id="hydro"></div><div class="versus" id="versus"></div></div>
 </header>
 
 <div class="emerg"><div class="wrap">
@@ -618,6 +690,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       <div><span class="kicker">Last 7 days, every gauge</span><h2>River gauges</h2></div>
       <div class="tools" role="group" aria-label="Filter gauges" id="groupFilter"></div>
     </div>
+    <div class="gsearch"><input type="search" id="gaugeSearch" placeholder="Find a gauge, river or town" aria-label="Find a gauge" autocomplete="off"><span id="gaugeCount"></span></div>
     <div class="cards" id="cards"></div>
     <p class="fine">Flood class levels (minor, moderate, major) are set by the Bureau of Meteorology. "Within 0.5 m of minor" is this site's own marker. Creek cards show flow, and flow percentiles compare today with every day since 1970. Readings are provisional until checked by the data owner.</p>
   </div>
@@ -751,9 +824,10 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   "use strict";
   var TZ = "Australia/Melbourne", HOUR = 3600e3;
   var STATUS = { normal: "Below minor", near: "Within 0.5 m of minor", minor: "Minor flood", moderate: "Moderate flood", major: "Major flood", info: "No flood levels", nodata: "No recent data" };
-  var COLOR = { normal: "#5CBD6C", near: "#4BC9F5", minor: "#FBAD45", moderate: "#F26839", major: "#940E16", info: "#8593a3", nodata: "#8593a3" };
+  var DARKC = { minor: "#F5A04A", moderate: "#F26B5B", major: "#C99AF0" };
+  var COLOR = { normal: "#2E9E5B", near: "#F2C230", minor: "#F08A24", moderate: "#D93A2B", major: "#8E44AD", info: "#8593a3", nodata: "#8593a3" };
   var FLV = { calm: ["Calm", "var(--f-calm)"], watch: ["Watch", "var(--f-watch)"], high: ["High", "var(--f-high)"], unknown: ["No data", "var(--f-unknown)"] };
-  var HERO_GAUGES = ["406283", "406202", "406265", "409200", "405232"];
+  var HERO_GAUGES = ["406283", "406202", "409200", "405232", "406218"];
   var MULT_SETS = {
     campaspe: { name: "Campaspe", ids: ["406219", "406207", "406201", "406218", "406283", "406265"] },
     creeks: { name: "Creeks", ids: ["coliban", "mcivor", "406262", "406214", "406224"] },
@@ -844,14 +918,14 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   function renderAll() {
     [renderPicker, renderHero, renderVersus, renderFactors, renderMap, renderBudget, renderEppalock, renderBudgetHistory, renderRochSignals, renderBackwater,
       renderEchucaSignals, renderDams, renderFilter, renderCards, renderGround, renderRain, renderEvents, renderOlder, renderLadders, renderInfo,
-      renderOutlook, renderModel, renderUnusual, renderFloodMap].forEach(function (fn) {
+      renderOutlook, renderModel, renderUnusual, renderFloodMap, renderSituation].forEach(function (fn) {
       try { fn(); } catch (err) { if (window.console) console.error("render failed", err); }
     });
   }
 
   // ------------------------------------------------------------------ hero
   function renderPicker() {
-    $("gaugePick").innerHTML = HERO_GAUGES.filter(function (id) { return S.byId[id]; }).map(function (id) {
+    $("gaugePick").innerHTML = HERO_GAUGES.concat(HERO_GAUGES.indexOf(S.hero) < 0 ? [S.hero] : []).filter(function (id) { return S.byId[id]; }).map(function (id) {
       return '<button type="button" class="pill-btn" data-id="' + id + '" aria-pressed="' + (id === S.hero) + '">' + esc(shortName(S.byId[id]).replace(" / Moama", "")) + "</button>";
     }).join("");
     Array.prototype.forEach.call($("gaugePick").querySelectorAll("button"), function (b) {
@@ -892,12 +966,12 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     $("heroGap").innerHTML = txt;
     $("heroWhen").textContent = s.latest ? "Reading " + fmtTime(s.latest.t) : "No recent reading";
     var marks = [];
-    if (s.minor != null) marks.push({ v: s.minor, label: "Minor " + f(s.minor, 1), color: COLOR.minor });
-    if (s.moderate != null) marks.push({ v: s.moderate, label: "Moderate " + f(s.moderate, 1), color: COLOR.moderate });
-    if (s.major != null) marks.push({ v: s.major, label: "Major " + f(s.major, 1), color: "#ff6b74" });
+    if (s.minor != null) marks.push({ v: s.minor, label: "Minor " + f(s.minor, 1), color: DARKC.minor });
+    if (s.moderate != null) marks.push({ v: s.moderate, label: "Moderate " + f(s.moderate, 1), color: DARKC.moderate });
+    if (s.major != null) marks.push({ v: s.major, label: "Major " + f(s.major, 1), color: "#C99AF0" });
     var hist = histMarks(s.id);
     var pred = predFor(s.id);
-    if (pred) marks.push({ v: pred.level, label: "BoM peak " + f(pred.level), color: "#ffd34d", pred: true });
+    if (pred) marks.push({ v: pred.level, label: "BoM peak " + f(pred.level), color: "#FFFFFF", pred: true });
     var vals = marks.concat(hist).map(function (m) { return m.v; });
     if (s.latest) vals.push(s.latest.v);
     var top = Math.max.apply(null, vals.length ? vals : [1]);
@@ -911,10 +985,10 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     function mk(v, inner, cls, color) { return '<div class="mark ' + cls + '" style="top:' + yPct(v).toFixed(2) + "%;color:" + color + '">' + inner + "</div>"; }
     var html = "";
     marks.forEach(function (m) { html += mk(m.v, lab(m, esc(m.label)), (m.pred ? "pred " : "") + (narrow ? "" : "l"), m.color); });
-    hist.forEach(function (m) { html += mk(m.v, lab(m, "<i>" + esc(m.label) + "</i>"), "hist", "#940E16"); });
+    hist.forEach(function (m) { html += mk(m.v, lab(m, "<i>" + esc(m.label) + "</i>"), "hist", "#5C6F86"); });
     if (wall.level != null) html += mk(wall.level, "<span>Now " + f(wall.level) + " " + esc(s.unit) + "</span>", "now", "#4BC9F5");
     $("marks").innerHTML = html;
-    renderMini();
+    renderMini(); renderHydro(); renderNbr();
     drawStaff(); startWater();
   }
   function renderMini() {
@@ -1026,8 +1100,8 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     svg += '<text x="520" y="18" class="tname">Edward River</text><text x="318" y="596" class="tname">Coliban</text><text x="560" y="568" class="tname">McIvor Ck</text>';
     svg += '<text x="290" y="482" class="tname">Axe Ck</text><text x="336" y="394" class="tname">Mt Pleasant Ck</text><text x="344" y="310" class="val">Forest Ck (no gauge)</text>';
     svg += '<text x="575" y="108" class="val" text-anchor="middle">Barmah Choke</text>';
-    svg += '<text x="300" y="276" style="font-family:var(--f-display);font-size:20px;font-weight:800;fill:#940E16;letter-spacing:0.05em">ROCHESTER</text><path d="M414 270 H446" stroke="#940E16" stroke-width="1.5" stroke-dasharray="3 4"/>';
-    svg += '<text x="360" y="168" style="font-family:var(--f-display);font-size:18px;font-weight:800;fill:#940E16;letter-spacing:0.05em">ECHUCA</text>';
+    svg += '<text x="300" y="276" style="font-family:var(--f-display);font-size:20px;font-weight:800;fill:#00294d;letter-spacing:0.05em">ROCHESTER</text><path d="M414 270 H446" stroke="#00294d" stroke-width="1.5" stroke-dasharray="3 4"/>';
+    svg += '<text x="360" y="168" style="font-family:var(--f-display);font-size:18px;font-weight:800;fill:#00294d;letter-spacing:0.05em">ECHUCA</text>';
     (S.latest.storages || []).forEach(function (st) {
       var p = TANKS[st.id]; if (!p) return;
       var w = p[2], h = w * 0.62, x = p[0] - w / 2, y = p[1] - h / 2;
@@ -1136,16 +1210,16 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     var svg = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Campaspe at Echuca and Murray at Echuca Wharf, last 7 days">';
     var step = (hi - lo) > 3 ? 1 : (hi - lo) > 1.2 ? 0.5 : 0.2;
     for (var g = Math.ceil(lo / step) * step; g <= hi; g += step) svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(g).toFixed(1) + '" y2="' + y(g).toFixed(1) + '" stroke="rgba(159,182,203,0.18)"/><text x="' + (L - 6) + '" y="' + (y(g) + 3).toFixed(1) + '" text-anchor="end">' + g.toFixed(step < 1 ? 1 : 0) + "</text>";
-    if (ew && ew.minor != null && ew.minor <= hi) svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(ew.minor) + '" y2="' + y(ew.minor) + '" stroke="#FBAD45" stroke-dasharray="2 4"/><text x="' + (W - R) + '" y="' + (y(ew.minor) - 5) + '" text-anchor="end" style="fill:#FBAD45">Echuca Wharf minor ' + ew.minor + "</text>";
+    if (ew && ew.minor != null && ew.minor <= hi) svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(ew.minor) + '" y2="' + y(ew.minor) + '" stroke="#F5A04A" stroke-dasharray="2 4"/><text x="' + (W - R) + '" y="' + (y(ew.minor) - 5) + '" text-anchor="end" style="fill:#F5A04A">Echuca Wharf minor ' + ew.minor + "</text>";
     var area = path(1) + " " + pts.slice().reverse().map(function (r) { return "L" + x(r[0]).toFixed(1) + " " + y(r[2]).toFixed(1); }).join(" ") + " Z";
-    svg += '<path d="' + area + '" fill="rgba(75,201,245,0.16)"/><path d="' + path(2) + '" fill="none" stroke="#FBAD45" stroke-width="2.2"/><path d="' + path(1) + '" fill="none" stroke="#4BC9F5" stroke-width="2.2"/>';
+    svg += '<path d="' + area + '" fill="rgba(75,201,245,0.16)"/><path d="' + path(2) + '" fill="none" stroke="#EAF3FA" stroke-width="2.2"/><path d="' + path(1) + '" fill="none" stroke="#4BC9F5" stroke-width="2.2"/>';
     svg += '<text x="' + L + '" y="' + (H - 6) + '">7 days ago</text><text x="' + (W - R) + '" y="' + (H - 6) + '" text-anchor="end">now</text><text x="' + (L - 6) + '" y="' + (T - 5) + '" text-anchor="end">m AHD</text>';
     svg += '<line class="xh" x1="0" x2="0" y1="' + T + '" y2="' + (H - B) + '" stroke="#9fb6cb" visibility="hidden"/></svg><div class="tip" hidden></div>';
     var minEv = S.events.filter(function (e) { return e.backwaterMin; }).sort(function (p, q) { return p.backwaterMin.head - q.backwaterMin.head; })[0];
     el.innerHTML = '<h3>Campaspe against the Murray</h3><p class="sub">Both gauges in metres above sea level. The shaded gap is how far the Campaspe sits above the Murray.</p>' +
       '<dl class="kv" style="margin-bottom:14px"><dt>Campaspe at Echuca</dt><dd>' + f(b.campaspe) + " m AHD</dd><dt>Murray at Echuca Wharf</dt><dd>" + f(b.murray) + " m AHD</dd><dt><b>Gap now</b></dt><dd><b>" + f(b.head) + " m</b></dd><dt>Smallest gap, last 7 days</dt><dd>" + f(b.headMin7) + " m</dd>" +
       (minEv ? "<dt>Smallest gap in a past flood</dt><dd>" + f(minEv.backwaterMin.head) + " m (" + esc(minEv.name.replace(" flood", "")) + ")</dd>" : "") + "</dl>" +
-      '<div class="chartbox" id="bwChart">' + svg + '</div><div class="legend"><span><span class="swatch" style="border-color:#4BC9F5"></span>Campaspe at Echuca</span><span><span class="swatch" style="border-color:#FBAD45"></span>Murray at Echuca Wharf</span></div>' +
+      '<div class="chartbox" id="bwChart">' + svg + '</div><div class="legend"><span><span class="swatch" style="border-color:#4BC9F5"></span>Campaspe at Echuca</span><span><span class="swatch" style="border-color:#EAF3FA"></span>Murray at Echuca Wharf</span></div>' +
       '<p class="fine">A small gap means the Murray is holding the Campaspe back. In January 2011 the Murray at Echuca peaked about 39 hours after the Campaspe.</p>';
     hover($("bwChart"), pts.map(function (r) { return [r[0], r]; }), function (p) { return "Campaspe " + f(p[1][1]) + " · Murray " + f(p[1][2]) + " · gap " + f(p[1][3]) + " m · " + fmtTime(p[0]); }, function (t) { return x(t) / W; });
   }
@@ -1160,7 +1234,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     if (ep) {
       var pct = ep.pct, fill = pct != null ? Math.min(1, pct / 100) : 0;
       var tank = '<svg viewBox="0 0 96 170" aria-hidden="true"><rect x="8" y="8" width="80" height="154" rx="6" fill="#e9f4fa" stroke="#00294d" stroke-width="2"/>' +
-        '<rect x="11" y="' + (11 + 148 * (1 - fill)).toFixed(1) + '" width="74" height="' + (148 * fill).toFixed(1) + '" rx="4" fill="' + (pct >= 99.5 ? "#00294d" : "#4BC9F5") + '"/><line x1="2" x2="94" y1="11" y2="11" stroke="#940E16" stroke-width="2" stroke-dasharray="4 3"/></svg>';
+        '<rect x="11" y="' + (11 + 148 * (1 - fill)).toFixed(1) + '" width="74" height="' + (148 * fill).toFixed(1) + '" rx="4" fill="' + (pct >= 99.5 ? "#00294d" : "#4BC9F5") + '"/><line x1="2" x2="94" y1="11" y2="11" stroke="#A84F06" stroke-width="2" stroke-dasharray="4 3"/></svg>';
       $("eppTank").innerHTML = '<h3>Lake Eppalock</h3><p class="sub">Campaspe and Coliban water. Capacity 304,651 ML. Full supply level 193.91 m AHD (red line).</p><div class="tank">' + tank +
         '<dl class="kv"><dt>Full</dt><dd>' + f(pct, 1) + "%</dd><dt>Volume</dt><dd>" + n0(ep.volume) + " ML</dd><dt>Room before spilling</dt><dd>" + (ep.capacity && ep.volume != null ? n0(Math.max(0, ep.capacity - ep.volume)) + " ML" : "-") + "</dd><dt>Level</dt><dd>" + (ep.level != null ? f(ep.level) + " m AHD" : "-") +
         "</dd><dt>Below spillway</dt><dd>" + (ep.belowFsl != null ? (ep.belowFsl > 0 ? f(ep.belowFsl) + " m" : "spilling") : "-") + "</dd><dt>A year ago</dt><dd>" + (ep.pctYearAgo != null ? f(ep.pctYearAgo, 1) + "%" : "-") + "</dd><dt>As at</dt><dd>" + esc(ep.date || "-") + "</dd></dl></div>";
@@ -1187,7 +1261,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     var d = hist.map(function (r, i) { return (i ? "L" : "M") + x(i).toFixed(1) + " " + y(r[1]).toFixed(1); }).join(" ");
     var s = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Lake Eppalock percent full, last 12 months">';
     for (var g = lo; g <= hi; g += 10) s += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(g) + '" y2="' + y(g) + '" stroke="#dbe3ea"/><text x="' + (L - 6) + '" y="' + (y(g) + 4) + '" text-anchor="end">' + g + "</text>";
-    s += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(line) + '" y2="' + y(line) + '" stroke="#940E16" stroke-dasharray="4 3"/><text x="' + (W - R) + '" y="' + (y(line) - 5) + '" text-anchor="end" style="fill:#940E16">full</text>';
+    s += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(line) + '" y2="' + y(line) + '" stroke="#A84F06" stroke-dasharray="4 3"/><text x="' + (W - R) + '" y="' + (y(line) - 5) + '" text-anchor="end" style="fill:#A84F06">full</text>';
     s += '<path d="' + d + " L" + x(hist.length - 1) + " " + (H - B) + " L" + L + " " + (H - B) + ' Z" fill="rgba(75,201,245,0.2)"/><path d="' + d + '" fill="none" stroke="#00294d" stroke-width="2"/>';
     s += '<text x="' + L + '" y="' + (H - 6) + '">' + esc(hist[0][0]) + '</text><text x="' + (W - R) + '" y="' + (H - 6) + '" text-anchor="end">' + esc(hist[hist.length - 1][0]) + "</text>";
     return s + "</svg>";
@@ -1201,7 +1275,10 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   }
   function useFlowFor(s) { return s.group === "creeks" && !!s.flowLatest; }
   function renderCards() {
-    var list = S.latest.sites.filter(function (s) { return S.group === "all" || s.group === S.group; });
+    var q = S.q || "";
+    var list = S.latest.sites.filter(function (s) { return (S.group === "all" || s.group === S.group) && (!q || (s.name + " " + (s.short || "") + " " + s.river + " " + s.id + " " + (s.gaugeName || "")).toLowerCase().indexOf(q) > -1); });
+    $("gaugeCount").textContent = list.length + " of " + S.latest.sites.length + " gauges";
+    if (!list.length) { $("cards").innerHTML = '<div class="empty" style="grid-column:1/-1">No gauges match "' + esc(q) + '". Try a town or river name, or clear the filter.</div>'; return; }
     $("cards").innerHTML = list.map(function (s) {
       var worst = worstEvent(s.id), meter = "", useFlow = useFlowFor(s);
       if (s.minor != null && s.latest && !s.storageHead && s.status.code !== "info") {
@@ -1248,7 +1325,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       return '<div class="soil-row"><div><div class="nm">' + esc(c.name) + '</div><div class="fd">Feeds: ' + esc(c.feeds) + "</div></div>" +
         "<div>" + (s && s.pct != null ? '<div class="pctbar"><i style="left:' + s.pct + '%"></i></div><span class="pctlbl">' + ord(s.pct) + " percentile &middot; " + f(s.mm, 0) + " mm in the top metre</span>" : '<span class="pctlbl">' + (s ? f(s.mm, 0) + " mm; percentile after the back-fill" : "Not loaded yet") + "</span>") + "</div>" +
         "<div>" + (s && s.series && s.series.length > 2 ? sparkSvg(s.series, 150, 36, { color: "#4BC9F5", fill: "rgba(75,201,245,0.15)" }) : "") + "</div></div>";
-    }).join("") + '<div class="legend" style="margin-top:8px;font-size:0.84rem"><span><span class="sw" style="background:rgba(251,173,69,0.6)"></span>Wetter than 70% of years</span><span><span class="sw" style="background:rgba(242,104,57,0.75)"></span>Wetter than 90% of years</span><span>Line: last 90 days</span></div>';
+    }).join("") + '<div class="legend" style="margin-top:8px;font-size:0.84rem"><span><span class="sw" style="background:rgba(242,194,48,0.7)"></span>Wetter than 70% of years</span><span><span class="sw" style="background:rgba(240,138,36,0.85)"></span>Wetter than 90% of years</span><span>Line: last 90 days</span></div>';
     var T = S.latest.knowledge.thresholds;
     function cell(v, heavy) { return '<td class="n' + (heavy && v != null && v >= T.rain24Watch ? " heavy" : "") + '">' + (v != null ? f(v, 1) + " mm" : "-") + "</td>"; }
     $("intRows").innerHTML = cats.map(function (c) { return "<tr><td>" + esc(c.name) + "</td>" + cell(c.max1hPast7) + cell(c.max24hPast7, true) + cell(c.max1hNext3) + cell(c.max24hNext3, true) + "</tr>"; }).join("");
@@ -1257,10 +1334,10 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     $("climateGrid").innerHTML = ["oni", "dmi", "sam"].map(function (k) {
       var c = cl[k];
       if (!c) return '<div class="clim"><h4>' + k.toUpperCase() + '</h4><div class="empty">Not loaded yet.</div></div>';
-      var col = c.phase.code === "wet" ? "#4BC9F5" : c.phase.code === "dry" ? "#FBAD45" : "#eaf3fa";
+      var col = c.phase.code === "wet" ? "#4BC9F5" : c.phase.code === "dry" ? "#E0B062" : "#eaf3fa";
       var W = 300, H = 60, vs = c.series.map(function (r) { return r[1]; }), m = Math.max(1, Math.max.apply(null, vs.map(Math.abs))), bw = W / c.series.length;
       var svg = '<svg viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="none" aria-hidden="true"><line x1="0" x2="' + W + '" y1="' + H / 2 + '" y2="' + H / 2 + '" stroke="rgba(159,182,203,0.35)"/>';
-      c.series.forEach(function (r, i) { var v = r[1], h = Math.abs(v) / m * (H / 2 - 2); svg += '<rect x="' + (i * bw + 0.5).toFixed(1) + '" y="' + (v >= 0 ? H / 2 - h : H / 2).toFixed(1) + '" width="' + Math.max(1, bw - 1).toFixed(1) + '" height="' + h.toFixed(1) + '" fill="' + (v >= 0 ? "#FBAD45" : "#4BC9F5") + '" opacity="' + (i === c.series.length - 1 ? 1 : 0.6) + '"/>'; });
+      c.series.forEach(function (r, i) { var v = r[1], h = Math.abs(v) / m * (H / 2 - 2); svg += '<rect x="' + (i * bw + 0.5).toFixed(1) + '" y="' + (v >= 0 ? H / 2 - h : H / 2).toFixed(1) + '" width="' + Math.max(1, bw - 1).toFixed(1) + '" height="' + h.toFixed(1) + '" fill="' + (v >= 0 ? "#E0B062" : "#4BC9F5") + '" opacity="' + (i === c.series.length - 1 ? 1 : 0.6) + '"/>'; });
       return '<div class="clim"><h4>' + esc(c.name) + '</h4><div class="v num">' + (c.value > 0 ? "+" : "") + f(c.value, 2) + '</div><div class="ph" style="color:' + col + '">' + esc(c.phase.label) + '</div><div style="font-size:0.82rem;color:var(--on-night-2)">' + esc(fmtMonth(c.month)) + "</div>" + svg + '</svg><div style="font-size:0.78rem;color:var(--on-night-2);margin-top:4px">Last 36 months. ' + esc(expl[k]) + "</div></div>";
     }).join("");
   }
@@ -1286,7 +1363,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       days.forEach(function (d, i) {
         var x0 = L + i * bw + 1.5, w = bw - 3, h = y(0) - y(d.mm);
         if (h > 0.3) svg += '<rect x="' + x0.toFixed(1) + '" y="' + y(d.mm).toFixed(1) + '" width="' + w.toFixed(1) + '" height="' + h.toFixed(1) + '" rx="2" fill="' + (d.type === "past" ? "#00294d" : "#4BC9F5") + '"><title>' + esc(fmtDay(d.date)) + ": " + f(d.mm, 1) + " mm" + (d.type === "past" ? "" : " forecast") + "</title></rect>";
-        if (d.type === "today") svg += '<line x1="' + (x0 - 1.5) + '" x2="' + (x0 - 1.5) + '" y1="' + T + '" y2="' + (H - B + 6) + '" stroke="#940E16" stroke-dasharray="3 3"/><text x="' + (x0 + 2) + '" y="' + (H - 10) + '" style="fill:#940E16;font-weight:600">today</text>';
+        if (d.type === "today") svg += '<line x1="' + (x0 - 1.5) + '" x2="' + (x0 - 1.5) + '" y1="' + T + '" y2="' + (H - B + 6) + '" stroke="#5C6F86" stroke-dasharray="3 3"/><text x="' + (x0 + 2) + '" y="' + (H - 10) + '" style="fill:#0B6F99;font-weight:600">today</text>';
         else if ((days.length - i) % 7 === 0 && d.type === "past") svg += '<text x="' + (x0 + w / 2) + '" y="' + (H - 10) + '" text-anchor="middle">' + esc(fmtDay(d.date)) + "</text>";
       });
       $("rainChart").innerHTML = svg + "</svg>";
@@ -1353,7 +1430,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     if (!e.measured) { body.innerHTML = head + '<div class="empty">The gauge records for this flood load when the history back-fill runs. Until then, the figures above come from reports at the time.</div>'; return; }
     var setBtns = Object.keys(MULT_SETS).map(function (k) { return '<button type="button" data-m="' + k + '" aria-pressed="' + (S.mult === k) + '">' + MULT_SETS[k].name + "</button>"; }).join("");
     body.innerHTML = head + '<div class="ev-grid"><div><div class="tools" id="multSel" style="margin-bottom:12px">' + setBtns + '</div><div class="multiples" id="mults"></div><div class="axis"><span></span><svg id="axis" viewBox="0 0 600 22" preserveAspectRatio="none"></svg></div>' +
-      '<div class="legend"><span><span class="swatch" style="border-color:#eaf3fa"></span>During the flood</span><span><span class="swatch" style="border-color:#4BC9F5;border-top-style:dashed"></span>Today</span><span><span class="swatch" style="border-color:#FBAD45;border-top-style:dotted"></span>Minor</span><span><span class="swatch" style="border-color:#ff6b74;border-top-style:dotted"></span>Major or spillway</span></div></div>' +
+      '<div class="legend"><span><span class="swatch" style="border-color:#eaf3fa"></span>During the flood</span><span><span class="swatch" style="border-color:#4BC9F5;border-top-style:dashed"></span>Today</span><span><span class="swatch" style="border-color:#F5A04A;border-top-style:dotted"></span>Minor</span><span><span class="swatch" style="border-color:#C99AF0;border-top-style:dotted"></span>Major or spillway</span></div></div>' +
       '<div class="panel">' + evH4("Upper catchment rain, daily") + '<div style="font-size:0.86rem;color:var(--on-night-2);margin-bottom:8px">Average of five places above Lake Eppalock, from 30 days before the Rochester peak</div><div class="rainev" id="rainEv"></div>' +
       (e.budget ? '<div style="margin-top:20px">' + evH4("Rochester peak flow: " + n0(e.budget.target) + " ML/day") + budgetMini(e.budget) + "</div>" : "") +
       (e.backwaterMin ? '<p class="fine">At Echuca the Campaspe sat as little as ' + f(e.backwaterMin.head) + " m above the Murray (" + (e.backwaterMin.h >= 0 ? "+" : "") + e.backwaterMin.h + " h from the Rochester peak).</p>" : "") + "</div></div>";
@@ -1375,9 +1452,9 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       if (!pts || pts.length < 2) return "";
       var vs = pts.map(function (p) { return p[1]; }), lo = Math.min.apply(null, vs), hi = Math.max.apply(null, vs), lines = [];
       if (!useFlow) {
-        if (s.storageHead) lines.push([s.storageHead.fsl, "#ff6b74"]);
-        if (s.minor != null) lines.push([s.minor, "#FBAD45"]);
-        if (s.major != null) lines.push([s.major, "#ff6b74"]);
+        if (s.storageHead) lines.push([s.storageHead.fsl, "#C99AF0"]);
+        if (s.minor != null) lines.push([s.minor, DARKC.minor]);
+        if (s.major != null) lines.push([s.major, "#C99AF0"]);
         if (s.latest && s.latest.v > (s.datum === "AHD" ? 50 : -50)) lines.push([s.latest.v, "#4BC9F5", true]);
       } else if (s.flowLatest) lines.push([s.flowLatest.v, "#4BC9F5", true]);
       lines.forEach(function (l) { lo = Math.min(lo, l[0]); hi = Math.max(hi, l[0]); });
@@ -1523,7 +1600,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
         return d ? '<path d="' + d + '" fill="none" stroke="' + col + '" stroke-width="2"' + (dash ? ' stroke-dasharray="4 3"' : "") + "/>" : "";
       }
       var svg = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Model river flow for ' + esc(p.name) + ', last 2 weeks and next 30 days">' + band;
-      if (p.modelMedianYearPeak != null) svg += '<line x1="0" x2="' + W + '" y1="' + y(p.modelMedianYearPeak).toFixed(1) + '" y2="' + y(p.modelMedianYearPeak).toFixed(1) + '" stroke="#940E16" stroke-dasharray="5 4"/><text x="' + (W - 2) + '" y="' + (y(p.modelMedianYearPeak) - 3).toFixed(1) + '" text-anchor="end" style="fill:#940E16">typical yearly peak</text>';
+      if (p.modelMedianYearPeak != null) svg += '<line x1="0" x2="' + W + '" y1="' + y(p.modelMedianYearPeak).toFixed(1) + '" y2="' + y(p.modelMedianYearPeak).toFixed(1) + '" stroke="#5C6F86" stroke-dasharray="5 4"/><text x="' + (W - 2) + '" y="' + (y(p.modelMedianYearPeak) - 3).toFixed(1) + '" text-anchor="end" style="fill:#5C6F86">typical yearly peak</text>';
       svg += '<line x1="' + x(ti).toFixed(1) + '" x2="' + x(ti).toFixed(1) + '" y1="' + T + '" y2="' + (H - B) + '" stroke="#8593a3" stroke-dasharray="2 3"/>';
       svg += line("c", true, "#00294d") + line("c", false, "#0b6f99", true);
       svg += '<text x="0" y="' + (H - 4) + '">2 weeks ago</text><text x="' + x(ti).toFixed(1) + '" y="' + (H - 4) + '" text-anchor="middle">today</text><text x="' + W + '" y="' + (H - 4) + '" text-anchor="end">+30 days</text></svg>';
@@ -1673,6 +1750,109 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       });
     }).catch(function () { out.innerHTML = '<div class="answer">The address search did not answer. Try again shortly.</div>'; });
   });
+
+  // ------------------------------------------------------------------ situation line (status first, like the best flood services)
+  function ago(ms) { var m = Math.round(ms / 60000); if (m < 1) return "just now"; if (m < 60) return m + " min ago"; var h = Math.floor(m / 60); return h + " h " + (m % 60 ? (m % 60) + " min " : "") + "ago"; }
+  function renderSituation() {
+    var L = S.latest, el = $("sit"); if (!L || !el) return;
+    var gs = L.sites.filter(function (s) { return !s.storageHead && s.latest && !s.stale; });
+    var flood = gs.filter(function (s) { return ["minor", "moderate", "major"].indexOf(s.status.code) > -1; });
+    var near = gs.filter(function (s) { return s.status.code === "near"; });
+    var rising = gs.filter(function (s) { return s.trend === "rising"; });
+    var w = L.warnings || {};
+    var fw = (w.items || []).filter(function (i) { return /flood (warning|watch)/i.test(i.title) && !/cancel|final/i.test(i.title); });
+    var serious = fw.some(function (i) { return /major|moderate/i.test(i.title); }) || flood.some(function (s) { return s.status.code !== "minor"; });
+    var lv = serious ? "flood" : fw.length || flood.length ? "warn" : near.length ? "watch" : "calm";
+    var head;
+    if (S.example) head = '<span class="dot c-info"></span>Example data. Live BoM warnings show here on the real site.';
+    else if (fw.length) head = '<span class="dot c-' + (serious ? "moderate" : "minor") + '"></span><a href="' + esc(fw[0].link) + '" target="_blank" rel="noopener">' + esc(fw[0].title) + "</a>" + (fw.length > 1 ? " and " + (fw.length - 1) + " more" : "");
+    else if (!w.ok) head = '<span class="dot c-nodata"></span>BoM warnings could not be checked this hour. <a href="https://www.bom.gov.au/vic/warnings/" target="_blank" rel="noopener">Check BoM</a>';
+    else head = '<span class="dot c-normal"></span>No BoM flood warnings for these rivers';
+    var cnt = function (n, label, hot) { return '<span class="cnt' + (hot && n ? " hot" : "") + '"><b>' + n + "</b> " + label + "</span>"; };
+    var age = Date.now() - Date.parse(L.generated);
+    var upd = age > 3 * HOUR ? '<span class="upd stale">Readings are ' + ago(age).replace(" ago", "") + ' old. The hourly update may be delayed; check BoM and VicEmergency.</span>' : '<span class="upd">Updated ' + ago(age) + "</span>";
+    el.setAttribute("data-lv", lv);
+    el.innerHTML = '<div class="wrap"><span class="head">' + head + '</span><span class="cnts">' + cnt(flood.length, "at a flood level", true) + cnt(near.length, "near minor", true) + cnt(rising.length, "rising") + cnt(gs.length, "gauges reporting") + "</span>" + upd + "</div>";
+  }
+  setInterval(function () { if (S.latest) renderSituation(); }, 60000);
+
+  // ------------------------------------------------------------------ hydrograph: last 7 days, flood bands, BoM predicted peak
+  function tzOff(t) { var d = new Date(t).toLocaleString("sv-SE", { timeZone: TZ }); return Date.parse(d.replace(" ", "T") + "Z") - t; }
+  function renderHydro() {
+    var s = S.byId[S.hero], box = $("hydro"); if (!s || !box) return;
+    var pts = (s.series || []).filter(function (p) { return p[1] != null; });
+    if (pts.length < 2) { box.innerHTML = '<div class="empty">The 7-day line for ' + esc(s.name) + " appears once a few readings are in.</div>"; return; }
+    var pred = predFor(s.id), DAYMS = 864e5;
+    var W = Math.max(300, box.clientWidth || 1200), H = W < 600 ? 200 : 240, L = 4, R = W < 600 ? 46 : 104, T = 12, B = 24;
+    var t0 = pts[0][0], tNow = pts[pts.length - 1][0], tp = null;
+    if (pred) tp = pred.window ? (pred.window[0] + pred.window[1]) / 2 : tNow + DAYMS;
+    var t1 = Math.max(tNow, tp || 0) + (tNow - t0) * 0.03;
+    var vals = pts.map(function (p) { return p[1]; });
+    if (s.minor != null && !s.storageHead && s.status.code !== "info") vals.push(s.minor);
+    if (s.storageHead) vals.push(s.storageHead.fsl);
+    if (pred) vals.push(pred.level);
+    var lo = Math.min.apply(null, vals), hi = Math.max.apply(null, vals), pad = Math.max(0.08, (hi - lo) * 0.12); lo -= pad; hi += pad;
+    function x(t) { return L + (t - t0) / (t1 - t0) * (W - L - R); }
+    function y(v) { return T + (hi - v) / (hi - lo) * (H - T - B); }
+    var svg = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="' + esc(s.name) + ' level over the last 7 days' + (pred ? ", with the BoM predicted peak" : "") + '">';
+    svg += '<defs><linearGradient id="hyf" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#4BC9F5" stop-opacity="0.45"/><stop offset="1" stop-color="#4BC9F5" stop-opacity="0.02"/></linearGradient></defs>';
+    // flood class bands
+    var cls = [["minor", s.minor, DARKC.minor], ["moderate", s.moderate, DARKC.moderate], ["major", s.major, DARKC.major]].filter(function (c) { return c[1] != null; });
+    if (!s.storageHead && s.status.code !== "info") cls.forEach(function (c, i) {
+      if (c[1] >= hi) return;
+      var top = i + 1 < cls.length ? Math.min(cls[i + 1][1], hi) : hi;
+      svg += '<rect x="' + L + '" width="' + (W - L - R) + '" y="' + y(top).toFixed(1) + '" height="' + Math.max(0, y(Math.max(c[1], lo)) - y(top)).toFixed(1) + '" fill="' + c[2] + '" opacity="0.2"/>';
+      svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(c[1]).toFixed(1) + '" y2="' + y(c[1]).toFixed(1) + '" stroke="' + c[2] + '" stroke-dasharray="5 4"/>';
+      svg += '<text x="' + (W - R + 6) + '" y="' + (y(c[1]) + 4).toFixed(1) + '" style="fill:' + c[2] + '">' + (W < 600 ? f(c[1], 1) : c[0].charAt(0).toUpperCase() + c[0].slice(1) + " " + f(c[1], 1)) + "</text>";
+    });
+    if (s.storageHead) svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(s.storageHead.fsl).toFixed(1) + '" y2="' + y(s.storageHead.fsl).toFixed(1) + '" stroke="#C99AF0" stroke-dasharray="5 4"/><text x="' + (W - R + 6) + '" y="' + (y(s.storageHead.fsl) + 4).toFixed(1) + '" style="fill:#C99AF0">spill</text>';
+    // day ticks at local midnight
+    var off = tzOff(t0), d0 = Math.ceil((t0 + off) / DAYMS) * DAYMS - off;
+    for (var t = d0; t <= t1; t += DAYMS) {
+      svg += '<line x1="' + x(t).toFixed(1) + '" x2="' + x(t).toFixed(1) + '" y1="' + T + '" y2="' + (H - B) + '" stroke="rgba(159,182,203,0.14)"/>';
+      if (x(t) < W - R - 20) svg += '<text x="' + (x(t) + 4).toFixed(1) + '" y="' + (H - 6) + '">' + esc(new Intl.DateTimeFormat("en-AU", { timeZone: TZ, weekday: "short" }).format(new Date(t + 6 * HOUR))) + "</text>";
+    }
+    // observed line and area
+    var d = pts.map(function (p, i) { return (i ? "L" : "M") + x(p[0]).toFixed(1) + " " + y(p[1]).toFixed(1); }).join(" ");
+    svg += '<path d="' + d + " L" + x(tNow).toFixed(1) + " " + (H - B) + " L" + x(t0).toFixed(1) + " " + (H - B) + ' Z" fill="url(#hyf)"/>';
+    svg += '<path d="' + d + '" fill="none" stroke="#4BC9F5" stroke-width="2.5" stroke-linejoin="round"/>';
+    var last = pts[pts.length - 1];
+    // BoM predicted peak
+    if (pred) {
+      var px = x(tp), py = y(pred.level);
+      svg += '<path d="M' + x(last[0]).toFixed(1) + " " + y(last[1]).toFixed(1) + " L" + px.toFixed(1) + " " + py.toFixed(1) + '" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="5 4" fill="none"/>';
+      if (pred.window) svg += '<rect x="' + x(pred.window[0]).toFixed(1) + '" width="' + Math.max(2, x(pred.window[1]) - x(pred.window[0])).toFixed(1) + '" y="' + T + '" height="' + (H - T - B) + '" fill="#FFFFFF" opacity="0.08"/>';
+      svg += '<path d="M' + px.toFixed(1) + " " + (py - 7).toFixed(1) + " l7 7 l-7 7 l-7 -7 Z" + '" fill="#FFFFFF" stroke="#001427" stroke-width="1.5"/>';
+      svg += '<text x="' + Math.min(px, W - R - 4).toFixed(1) + '" y="' + Math.max(T + 10, py - 12).toFixed(1) + '" text-anchor="end" style="fill:#FFFFFF;font-weight:600">BoM ' + f(pred.level) + "</text>";
+    }
+    svg += '<line x1="' + x(tNow).toFixed(1) + '" x2="' + x(tNow).toFixed(1) + '" y1="' + T + '" y2="' + (H - B) + '" stroke="rgba(234,243,250,0.35)" stroke-dasharray="2 3"/>';
+    svg += '<circle cx="' + x(last[0]).toFixed(1) + '" cy="' + y(last[1]).toFixed(1) + '" r="5" fill="#4BC9F5" stroke="#001427" stroke-width="2"/>';
+    svg += '<line class="xh" x1="0" x2="0" y1="' + T + '" y2="' + (H - B) + '" stroke="#eaf3fa" stroke-opacity="0.5" visibility="hidden"/></svg>';
+    var legend = '<span><i style="background:#4BC9F5"></i>Measured</span>' + (cls.length && !s.storageHead ? '<span><i style="background:linear-gradient(90deg,#F5A04A,#F26B5B,#C99AF0)"></i>Minor, moderate, major</span>' : "") + (pred ? '<span><i style="background:#FFFFFF"></i>BoM predicted peak</span>' : "");
+    // what the next level on the list means (impacts like a river forecast page)
+    var next = "", now = last[1], K = S.latest.knowledge || {}, im = K.impacts && K.impacts[s.id];
+    if (im) {
+      var row = im.rows.filter(function (r) { return r.level > now; }).sort(function (a, b) { return a.level - b.level; })[0];
+      if (row) next = '<div class="next"><b>' + f(row.level) + "</b><span>Next on the list, <b>" + f(row.level - now) + " m</b> above now: " + esc(row.label ? row.label + ". " : "") + esc(row.what) + ' <a href="#impacts">All levels</a></span></div>';
+    } else if (!s.storageHead && s.minor != null && now < s.minor && s.status.code !== "info") {
+      next = '<div class="next"><b>' + f(s.minor) + "</b><span>Minor flood level, <b>" + f(s.minor - now) + " m</b> above now.</span></div>";
+    }
+    box.innerHTML = '<div class="hh"><h2>Last 7 days at ' + esc(shortName(s).replace(" / Moama", "")) + '</h2><span class="lg">' + legend + '</span></div><div class="chart">' + svg + '<div class="tip" hidden></div></div>' + next;
+    hover(box.querySelector(".chart"), pts, function (p) { return f(p[1]) + " " + s.unit + " · " + fmtTime(p[0]); }, function (t) { return x(t) / W; });
+  }
+
+  // ------------------------------------------------------------------ up and down the river from the chosen gauge
+  function renderNbr() {
+    var s = S.byId[S.hero], el = $("heroNbr"); if (!s || !el) return;
+    var list = S.latest.sites.filter(function (x) { return x.river === s.river && !x.storageHead; });
+    var i = list.indexOf(s), up = i > 0 ? list[i - 1] : null, dn = i > -1 && i < list.length - 1 ? list[i + 1] : null;
+    function btn(g, dir) { return g ? '<button type="button" data-id="' + g.id + '" aria-label="' + dir + ": " + esc(g.name) + '">' + (dir === "Upstream" ? "&#9650; " : "&#9660; ") + esc(shortName(g).replace(" / Moama", "")) + "<span>" + (g.latest ? f(g.latest.v) : "-") + "</span></button>" : ""; }
+    el.innerHTML = btn(up, "Upstream") + btn(dn, "Downstream");
+    Array.prototype.forEach.call(el.querySelectorAll("button"), function (b) { b.addEventListener("click", function () { S.hero = b.getAttribute("data-id"); renderPicker(); renderHero(); renderVersus(); }); });
+  }
+
+  // ------------------------------------------------------------------ gauge search
+  $("gaugeSearch").addEventListener("input", function () { S.q = this.value.trim().toLowerCase(); renderCards(); });
 
   document.addEventListener("click", function (e) {
     var b = e.target.closest && e.target.closest(".more"); if (!b) return;

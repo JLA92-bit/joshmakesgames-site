@@ -126,12 +126,13 @@ export async function discoverSites(force = false) {
   let changed = false;
   for (const s of CFG.sites.filter((x) => x.discover)) {
     const prev = disc[s.slug];
-    if (!force && prev && (prev.id || Date.now() - (prev.tried || 0) < 7 * DAY)) continue;
+    const inBasin = (id) => !s.discover.basin || String(id || '').startsWith(s.discover.basin);
+    if (!force && prev && ((prev.id && inBasin(prev.id)) || (!prev.id && Date.now() - (prev.tried || 0) < 7 * DAY))) continue;
     try {
       const up = (x) => String(x || '').toUpperCase();
       const word = up(s.discover.search.replace(/\*/g, '').trim());
       const raw = MOCK ? mock.kiwisStations(s.discover.search) : await kiwisStations(s.discover.search, 'Water Course Level');
-      const list = raw.filter((st) => up(st.station_name).includes(word)); // never accept a gauge on another stream
+      const list = raw.filter((st) => up(st.station_name).includes(word) && inBasin(st.station_no)); // never accept a gauge on another stream or in another basin
       let pick = null;
       for (const pref of s.discover.prefer || []) { pick = list.find((st) => up(st.station_name).includes(pref)); if (pick) break; }
       pick = pick || list[0];
@@ -148,6 +149,7 @@ export async function discoverSites(force = false) {
 // ------------------------------------------------------------ hydstra (WMIS / WaterNSW)
 const COMBO_FILE = () => path.join(DATA, 'state', 'combos.json');
 let combos = null;
+const blocked = new Set(); // portals that refused this run (WaterNSW blocks cloud servers)
 export function saveState() { if (combos) writeJson(COMBO_FILE(), combos, true); }
 
 /** Convert gauge height to AHD where flood levels are published in AHD. */
@@ -178,12 +180,13 @@ export async function traces(site, kind, start, end, interval, dataType) {
   }
   let lastErr = 'no data returned';
   for (const c of tries) {
+    if (blocked.has(c.portal)) continue;
     try {
       const payload = {
         function: 'get_ts_traces', version: '2',
         params: {
           site_list: site.id, datasource: c.ds,
-          varfrom: CFG.vars.level, varto: kind === 'level' ? CFG.vars.level : CFG.vars.flow,
+          varfrom: site.levelVar || CFG.vars.level, varto: kind === 'level' ? (site.levelVar || CFG.vars.level) : CFG.vars.flow,
           start_time: hydstraTime(start), end_time: hydstraTime(end),
           interval, multiplier: '1', data_type: dataType
         }
@@ -205,9 +208,34 @@ export async function traces(site, kind, start, end, interval, dataType) {
         if (kind === 'level') combos[site.id] = c;
         return { points, name, portal: `${c.portal}:${c.ds}` };
       }
-    } catch (e) { lastErr = String(e.message || e); }
+    } catch (e) { lastErr = String(e.message || e); if (/HTTP 403/.test(lastErr)) blocked.add(c.portal); }
+  }
+  // WaterNSW blocks cloud servers, so NSW gauges fall back to BoM Water Data Online (a few days behind).
+  if (kind === 'level' && site.portals.includes('nsw')) {
+    try {
+      const points = await bomLevels(site, start, end, interval);
+      if (points.length) return { points, name: '', portal: 'bom', delayed: true };
+      lastErr += '; BoM Water Data Online: no recent values';
+    } catch (e) { lastErr += '; BoM Water Data Online: ' + String(e.message || e); }
   }
   throw new Error(lastErr);
+}
+
+/** Level from BoM Water Data Online: hourly means, or daily highs for 'day'. Station numbers match the state gauge numbers. */
+async function bomLevels(site, start, end, interval) {
+  const tsName = interval === 'day' ? 'DMQaQc.Merged.DailyMax.24HR' : 'DMQaQc.Merged.HourlyMean.HR';
+  const file = path.join(DATA, 'state', 'kiwis-gauges.json');
+  const known = readJson(file, {});
+  const key = site.id + '|' + tsName;
+  if (!known[key]) {
+    const list = kiwisTable(await getJson(kiwisUrl({ request: 'getTimeseriesList', station_no: site.id, parametertype_name: 'Water Course Level', ts_name: tsName, returnfields: 'ts_id,ts_name' }), 2));
+    if (!list.length) throw new Error('no ' + tsName + ' series');
+    known[key] = list[0].ts_id; writeJson(file, known, true);
+  }
+  const iso = (d) => new Date(d.getTime() + OFFSET).toISOString().slice(0, 19) + '+10:00';
+  const v = await getJson(kiwisUrl({ request: 'getTimeseriesValues', ts_id: known[key], from: iso(interval === 'day' ? start : new Date(Math.min(start.getTime(), end.getTime() - 7 * DAY))), to: iso(end), returnfields: 'Timestamp,Value,Quality Code' }), 2);
+  const block = Array.isArray(v) ? v[0] : v;
+  return ((block && block.data) || []).filter((r) => r[1] != null).map((r) => ({ t: Date.parse(r[0]), v: round(toDatum(site, Number(r[1]))), q: r[2] == null ? '' : r[2] }));
 }
 
 export async function variableList(portalKey, ds, siteId) {
