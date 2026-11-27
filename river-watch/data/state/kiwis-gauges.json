@@ -18,5 +18,7 @@
  "409200|DMQaQc.Merged.DailyMax.24HR": "266141010",
  "409207|DMQaQc.Merged.DailyMax.24HR": "266306010",
  "409003|DMQaQc.Merged.DailyMax.24HR": "145735010",
- "409005|DMQaQc.Merged.DailyMax.24HR": "145825010"
+ "409005|DMQaQc.Merged.DailyMax.24HR": "145825010",
+ "402205|DMQaQc.Merged.HourlyMean.HR": "253409010",
+ "403241|DMQaQc.Merged.HourlyMean.HR": "254983010"
 }
