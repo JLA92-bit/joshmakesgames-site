@@ -7,7 +7,8 @@
 //   node collector/backfill.mjs --only climate     El Niño / La Niña, IOD and SAM monthly indices
 //   node collector/backfill.mjs --only stats       percentiles and records from the history
 //   node collector/backfill.mjs --only events      find past floods and build their files
-//   add --from 2000 to start later, --force to rebuild flood files that already exist
+//   add --from 2000 to start later, --force to rebuild flood files that already exist,
+//   --gaps to fetch only the 5-year blocks of daily history that are still mostly empty
 // Created by Josh Avard
 import path from 'node:path';
 import fs from 'node:fs';
@@ -24,9 +25,11 @@ const args = process.argv.slice(2);
 const opt = (name, dflt) => { const i = args.indexOf('--' + name); return i > -1 ? args[i + 1] : dflt; };
 const only = opt('only', 'all');
 const force = args.includes('--force');
+const gapsOnly = args.includes('--gaps');
 const fromYear = Number(opt('from', CFG.historyStartYear));
 const thisYear = new Date().getFullYear();
-const polite = MOCK ? 0 : 300; // ms between requests
+const polite = MOCK ? 0 : 1500; // ms between requests, keeps well under the state server's hourly download limit
+const overLimit = (m) => /over your limit|downloaded .* in the last/i.test(String(m || ''));
 const doIt = (k) => only === 'all' || only === k;
 const EVENT_VERSION = 2;
 
@@ -38,18 +41,38 @@ if (doIt('daily')) {
   for (const site of siteList) {
     for (const kind of ['level', 'flow']) {
       if (kind === 'flow' && site.noFlow) continue;
-      let n = 0;
+      let n = 0, skipped = 0, limited = 0;
+      const have = gapsOnly ? new Set(readDaily(site.id).filter((d) => d[kind] != null).map((d) => d.date)) : null;
       for (let y = fromYear; y <= thisYear; y += 5) {
         const start = new Date(Date.UTC(y, 0, 1) - CFG.hydstraOffsetHours * HOUR);
         const end = new Date(Math.min(Date.UTC(y + 5, 0, 1) - CFG.hydstraOffsetHours * HOUR, Date.now()));
+        if (have) {
+          // skip blocks that are already at least 80% filled
+          let got = 0, all = 0;
+          for (let t = start.getTime() + 12 * HOUR; t < end.getTime(); t += DAY) { all++; if (have.has(localDate(t))) got++; }
+          if (all && got / all >= 0.8) { skipped++; continue; }
+        }
+        const get = () => traces(site, kind, start, end, 'day', kind === 'level' ? 'max' : 'mean');
         try {
-          const res = await traces(site, kind, start, end, 'day', kind === 'level' ? 'max' : 'mean');
+          const res = await get();
           upsertDaily(site.id, kind, res.points);
           n += res.points.length;
-        } catch { /* no record for this period */ }
+        } catch (e) {
+          if (overLimit(e.message)) {
+            // the state server allows about 150 MB an hour; wait for the hour's total to fall, then retry
+            let ok = false;
+            for (let w = 1; w <= 6 && !ok; w++) {
+              console.log(`  ${site.id} ${kind} ${y}: hit the server's hourly download limit, waiting ${2 * w} min (try ${w} of 6)`);
+              await sleep(2 * w * 60000);
+              try { const res = await get(); upsertDaily(site.id, kind, res.points); n += res.points.length; ok = true; }
+              catch (e2) { if (!overLimit(e2.message)) break; }
+            }
+            if (!ok) { limited++; console.log(`  ${site.id} ${kind} ${y}: still limited, left for a gaps-only run`); }
+          } /* otherwise: no record for this period */
+        }
         await sleep(polite);
       }
-      console.log(`daily ${site.id} ${site.name} ${kind}: ${n} days`);
+      console.log(`daily ${site.id} ${site.name} ${kind}: ${n} days` + (skipped ? `, ${skipped} blocks already filled` : '') + (limited ? `, ${limited} blocks left by the download limit` : ''));
     }
   }
   saveState();

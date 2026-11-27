@@ -17,6 +17,10 @@ on:
         description: "Rebuild past-flood files that already exist"
         type: boolean
         default: false
+      gaps:
+        description: "Daily history: only fetch 5-year blocks that are still mostly empty (untick to refetch everything)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -40,7 +44,7 @@ jobs:
         if: inputs.only == 'all' || inputs.only == 'daily'
         continue-on-error: true
         timeout-minutes: 150
-        run: node river-watch/collector/backfill.mjs --only daily --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }}
+        run: node river-watch/collector/backfill.mjs --only daily --from "${{ inputs.from }}" ${{ inputs.force && '--force' || '' }} ${{ inputs.gaps && '--gaps' || '' }}
       - name: Save daily
         if: always() && (inputs.only == 'all' || inputs.only == 'daily')
         run: bash river-watch/collector/save.sh "History back-fill - daily (from ${{ inputs.from }})"
