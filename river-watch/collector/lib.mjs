@@ -162,6 +162,38 @@ export function toDatum(site, v) {
 export function datumProblem(site, v) {
   return site.datum === 'AHD' && !site.gaugeZero && v != null && v < 50;
 }
+/**
+ * True when a daily level could be real. Rejects AHD gauges reporting gauge height,
+ * and single bad readings far above the gauge's flood levels (the state record holds
+ * a few, e.g. 188 m at Rochester Town, which floods at 113 m).
+ */
+export function levelOk(site, v) {
+  if (v == null || !site) return v != null;
+  if (site.datum === 'AHD' && v < 50) return false;
+  const top = [site.major, site.moderate, site.minor].find((x) => x != null);
+  return top == null || v <= top + 5;
+}
+/**
+ * Daily rows with impossible levels set to null: anything levelOk rejects, and straight-line
+ * runs (8+ days in a row rising by exactly the same amount, at least 2 cm a day), which are
+ * gaps the state record filled by drawing a line, e.g. Kerang climbing 0.705 m a day for four months in 2023.
+ */
+export function cleanDaily(site, rows) {
+  const out = rows.map((r) => (r.level == null || levelOk(site, r.level) ? r : { ...r, level: null }));
+  const dayN = (d) => Math.round(Date.parse(d + 'T00:00:00Z') / 86400000);
+  let start = 0;
+  for (let i = 1; i <= out.length; i++) {
+    const a = out[i - 1], b = out[i];
+    const step = b && a.level != null && b.level != null && dayN(b.date) - dayN(a.date) === 1 ? b.level - a.level : null;
+    const prev = i - start >= 2 ? out[start + 1].level - out[start].level : step;
+    const same = step != null && step >= 0.02 && (i - start < 2 || Math.abs(step - prev) <= 0.002);
+    if (!same) {
+      if (i - 1 - start >= 8) for (let k = start; k < i; k++) out[k] = { ...out[k], level: null };
+      start = step != null && step >= 0.02 ? i - 1 : i;
+    }
+  }
+  return out;
+}
 export const unitFor = (site) => (site.datum === 'AHD' ? 'm AHD' : 'm');
 
 /**

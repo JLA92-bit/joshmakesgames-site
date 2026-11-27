@@ -14,7 +14,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 import {
   CFG, KNOW, DATA, MOCK, HOUR, DAY, traces, saveState, rainArchive, rainArchiveHourly, soilArchive, storageHistory, climateIndex,
-  sleep, writeJson, readJson, localDate, floodClass, round, sites, discoverSites, percentileOf
+  sleep, writeJson, readJson, levelOk, cleanDaily, localDate, floodClass, round, sites, discoverSites, percentileOf
 } from './lib.mjs';
 import {
   readDaily, upsertDaily, readRainDaily, upsertRainDaily, upsertSoilDaily, readSoilDaily, upsertStorageDaily, readStorageDaily,
@@ -162,12 +162,12 @@ if (doIt('stats') || doIt('daily') || doIt('soil')) {
   const S = stats.read();
   S.flow = {}; S.record = {};
   for (const s of siteList) {
-    const d = readDaily(s.id);
+    const d = cleanDaily(s, readDaily(s.id));
     const q = quantiles(d.map((r) => r.flow));
     if (q) S.flow[s.id] = q;
     if (!s.storageHead) {
       let rec = null;
-      for (const r of d) if (r.level != null && r.level > (s.datum === 'AHD' ? 50 : -50) && (!rec || r.level > rec.level)) rec = { level: r.level, date: r.date };
+      for (const r of d) if (r.level != null && (!rec || r.level > rec.level)) rec = { level: r.level, date: r.date };
       if (rec) S.record[s.id] = rec;
     }
   }
@@ -192,7 +192,7 @@ if (doIt('events')) {
   for (const gid of CFG.eventGauges) {
     const site = siteById[gid];
     if (!site) continue;
-    const days = readDaily(gid).filter((d) => d.level != null && !(site.datum === 'AHD' && d.level < 50));
+    const days = cleanDaily(site, readDaily(gid)).filter((d) => d.level != null);
     let run = null;
     const close = () => { if (run) candidates.push(run.peak); run = null; };
     for (const d of days) {
@@ -308,8 +308,9 @@ if (doIt('events')) {
     for (const [sid, e] of Object.entries(detail.sites)) {
       const s = siteById[sid];
       if (e.level && e.level.length) {
-        const pk = e.level.reduce((a, b) => (b[1] > a[1] ? b : a));
-        if (s && !(s.datum === 'AHD' && pk[1] < 50)) peaks[sid] = { v: pk[1], h: pk[0], cls: s ? floodClass(s, pk[1]) : null };
+        const ok = e.level.filter((p) => levelOk(s, p[1]));
+        const pk = ok.length ? ok.reduce((a, b) => (b[1] > a[1] ? b : a)) : null;
+        if (s && pk) peaks[sid] = { v: pk[1], h: pk[0], cls: s ? floodClass(s, pk[1]) : null };
       }
       if (e.flow && e.flow.length) { const fp = e.flow.reduce((a, b) => (b[1] > a[1] ? b : a)); flowPeaks[sid] = { v: fp[1], h: fp[0] }; }
     }
