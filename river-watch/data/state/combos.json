@@ -19,6 +19,10 @@
   "portal": "vic",
   "ds": "PUBLISH"
  },
+ "405200": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
  "405202": {
   "portal": "vic",
   "ds": "PUBLISH"
@@ -32,6 +36,14 @@
   "ds": "PUBLISH"
  },
  "405232": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
+ "405237": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
+ "405269": {
   "portal": "vic",
   "ds": "PUBLISH"
  },
@@ -52,6 +64,14 @@
   "ds": "PUBLISH"
  },
  "406214": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
+ "406218": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
+ "406219": {
   "portal": "vic",
   "ds": "PUBLISH"
  },
