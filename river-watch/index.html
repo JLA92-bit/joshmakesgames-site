@@ -422,6 +422,68 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 .mark.pred span { background: #ffd34d; color: #001427; font-weight: 700; }
 @media (max-width: 900px) { #map { height: 420px; } }
 @media (max-width: 600px) { .risetab th:nth-child(3), .risetab td:nth-child(3) { display: none; } .risetab td, .risetab th { padding: 8px 6px; } }
+/* ---- phones and small tablets */
+.more, .mini, .map-hint { display: none; }
+@media (max-width: 900px) {
+  .mini.show { display: flex; gap: 8px; align-items: center; padding: 8px max(16px, env(safe-area-inset-left, 0px)) 0; font: 600 0.8rem var(--f-data); color: var(--on-night); text-decoration: none; white-space: nowrap; overflow: hidden; }
+  .mini .dot { flex: none; }
+  .mini b { color: var(--water); font-weight: 700; }
+  .mini span { overflow: hidden; text-overflow: ellipsis; }
+  .map-hint { display: block; margin: 8px 0 0; font-size: 0.84rem; color: var(--ink-2); }
+}
+@media (max-width: 600px) {
+  .band { padding-block: 36px; }
+  .hero-top, .sec-head, .rain-grid, .two, .dams-feature { grid-template-columns: minmax(0, 1fr); }
+  .sec-head { margin-bottom: 20px; gap: 12px; }
+  .sec-head h2 { font-size: clamp(2.1rem, 11vw, 2.8rem); }
+  .sec-head p { font-size: 0.96rem; }
+  .readout { min-width: 0; max-width: 100%; }
+  .gauge-pick, #groupFilter, .rainbox .tools { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; max-width: 100%; padding-bottom: 2px; }
+  .gauge-pick::-webkit-scrollbar, #groupFilter::-webkit-scrollbar, .rainbox .tools::-webkit-scrollbar { display: none; }
+  .gauge-pick > *, #groupFilter > *, .rainbox .tools > * { flex: none; }
+  .more { display: inline-flex; align-items: center; gap: 6px; justify-self: start; font: 700 0.82rem var(--f-body); color: var(--navy); background: none; border: 0; padding: 6px 0 0; cursor: pointer; min-height: 32px; }
+  .more::after { content: "+"; font: 700 1rem var(--f-data); }
+  .open > .more::after { content: "-"; }
+  /* flood factors: tighter, explanation on demand */
+  .factors { gap: 10px; }
+  .factor { padding: 12px 12px 8px 20px; gap: 4px; }
+  .factor h3 { font-size: 1.15rem; }
+  .factor .val { font-size: 2.3rem; }
+  .factor .det { font-size: 0.9rem; }
+  .factor:not(.open) > .why { display: none; }
+  /* gauge cards: two rows with a small 7-day line, details on demand */
+  .cards { gap: 10px; }
+  .card { grid-template-columns: minmax(0, 1fr) 108px; gap: 6px 12px; padding: 12px 12px 8px 16px; }
+  .card > * { grid-column: 1 / -1; }
+  .card > .row:nth-child(2) { grid-column: 1; grid-row: 2; align-self: end; }
+  .card > .spark { grid-column: 2; grid-row: 2; align-self: end; }
+  .card .spark svg { height: 44px; }
+  .card .spark text { display: none; }
+  .card h3 { font-size: 1.2rem; }
+  .card .lvlv { font-size: 2rem; }
+  .card:not(.open) > .role, .card:not(.open) > .meter, .card:not(.open) > .facts { display: none; }
+  /* dams: two compact columns */
+  .dam-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .dam { padding: 10px 10px 8px; gap: 4px; }
+  .dam h4 { font-size: 0.98rem; }
+  .dam .sys { font-size: 0.6rem; letter-spacing: 0.06em; }
+  .dam .pc { font-size: 1.7rem; }
+  .dam .meta, .dam > svg { display: none; }
+  .dam-group { margin: 18px 0 8px; }
+  .lead { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lead b { font-size: 1.6rem; }
+  /* wide tables become stacked, labelled rows */
+  .stack-m { overflow: visible; }
+  .stack-m table { min-width: 0 !important; }
+  .stack-m thead { display: none; }
+  .stack-m tr { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 14px; padding: 12px 14px; border-bottom: 1px solid var(--line); }
+  .night .stack-m tr { border-color: var(--night-line); }
+  .stack-m td { display: block; padding: 0; border: 0 !important; text-align: left !important; white-space: normal; }
+  .stack-m td:first-child { grid-column: 1 / -1; }
+  .stack-m td[data-l]::before { content: attr(data-l); display: block; font: 500 0.62rem var(--f-data); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 2px; }
+  .night .stack-m td[data-l]::before { color: var(--on-night-2); }
+  .ev-table.stack-m td:nth-child(4), .ev-table.stack-m td:nth-child(7), .ev-table.stack-m td:nth-child(8), .ev-table.stack-m td:nth-child(9) { display: none; }
+}
 </style>
 </head>
 <body>
@@ -462,7 +524,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   <span>This site is for awareness. Follow official warnings.</span>
 </div></div>
 
-<nav class="secnav" aria-label="Sections"><div class="wrap" id="secnav">
+<nav class="secnav" aria-label="Sections"><a class="mini" id="mini" href="#now" aria-label="Back to the river level at the top"></a><div class="wrap" id="secnav">
   <a href="#factors">Factors</a><a href="#next">Next</a><a href="#system">Rivers</a><a href="#rochester-water">Rochester's water</a><a href="#echuca">Echuca</a><a href="#dams">Dams</a><a href="#gauges">Gauges</a><a href="#ground">Ground &amp; climate</a><a href="#rain">Rain</a><a href="#past">Past floods</a><a href="#unusual">How rare</a><a href="#impacts">What levels mean</a><a href="#floodmap">Flood map</a><a href="#info">Data</a>
 </div></nav>
 
@@ -500,6 +562,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       <p>The Coliban and McIvor Creek fill Lake Eppalock. Axe, Mount Pleasant and Forest creeks join below the dam. The Campaspe meets the Murray at Echuca, just downstream of the Goulburn. Tanks show how full each dam is. Select any gauge for its detail.</p>
     </div>
     <div class="map" id="systemMap"></div>
+    <p class="map-hint">Swipe the map sideways to see the whole river system.</p>
     <div class="legend" id="mapLegend"></div>
   </div>
 </section>
@@ -567,7 +630,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       <p>The same rain does very different things on dry and wet ground. Before October 2022 the catchment was saturated after a third La Niña year. Ground wetness is compared with the same month in every year since 1970.</p>
     </div>
     <div class="soil-rows" id="soilRows"></div>
-    <div class="int-table">
+    <div class="int-table stack-m">
       <table>
         <thead><tr><th>Catchment</th><th class="n">Heaviest hour, past 7 days</th><th class="n">Heaviest 24 hours, past 7 days</th><th class="n">Heaviest hour, next 3 days</th><th class="n">Heaviest 24 hours, next 3 days</th></tr></thead>
         <tbody id="intRows"></tbody>
@@ -609,7 +672,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     </div>
     <div class="tabs" id="eventTabs" role="tablist" aria-label="Choose a flood"></div>
     <div id="eventBody"></div>
-    <div class="ev-table">
+    <div class="ev-table stack-m">
       <table>
         <thead><tr><th>Flood</th><th class="n">Rochester Town</th><th class="n">Echuca Wharf</th><th class="n">Eppalock vs spillway, week before</th><th class="n">Ground wetness</th><th class="n">Rain 7 days before</th><th class="n">Heaviest 24 h</th><th class="n">ONI / IOD</th><th class="n">Barnadown to Rochester</th></tr></thead>
         <tbody id="eventRows"></tbody>
@@ -697,7 +760,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     echuca: { name: "Echuca & Murray", ids: ["409202", "409215", "405232", "406265", "409200", "409207"] },
     goulburn: { name: "Goulburn", ids: ["405203", "405202", "405200", "404222", "405269", "405204", "405232"] }
   };
-  var S = { latest: null, events: [], byId: {}, hero: "406283", group: "all", event: null, mult: "campaspe", eventDetail: {}, catchment: null, example: false };
+  var S = { latest: null, events: [], byId: {}, hero: "406283", group: "all", event: null, mult: "campaspe", eventDetail: {}, catchment: null, example: false, opened: {} };
 
   function $(id) { return document.getElementById(id); }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
@@ -851,7 +914,12 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     hist.forEach(function (m) { html += mk(m.v, lab(m, "<i>" + esc(m.label) + "</i>"), "hist", "#940E16"); });
     if (wall.level != null) html += mk(wall.level, "<span>Now " + f(wall.level) + " " + esc(s.unit) + "</span>", "now", "#4BC9F5");
     $("marks").innerHTML = html;
+    renderMini();
     drawStaff(); startWater();
+  }
+  function renderMini() {
+    var s = S.byId[S.hero], el = $("mini"); if (!s || !el) return;
+    el.innerHTML = '<span class="dot c-' + s.status.code + '"></span><span>' + esc(s.name) + " <b>" + (s.latest ? f(s.latest.v) + " " + esc(s.unit) : "no data") + "</b> &middot; " + esc(STATUS[s.status.code] || s.status.label) + (s.trend === "rising" ? " &middot; rising" : s.trend === "falling" ? " &middot; falling" : "") + "</span>";
   }
   function drawStaff() {
     var el = $("staff"), H = $("wall").clientHeight || 400, W = 96, lo = wall.lo, hi = wall.hi, px = H / (hi - lo);
@@ -912,9 +980,9 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   function renderFactors() {
     $("factorGrid").innerHTML = (S.latest.factors || []).map(function (t) {
       var lv = FLV[t.level] || FLV.unknown;
-      return '<article class="factor" style="--lv:' + lv[1] + '"><div class="top"><h3>' + esc(t.title) + '</h3><span class="lvl">' + lv[0] + "</span></div>" +
+      return '<article class="factor' + (S.opened["f-" + t.title] ? " open" : "") + '" data-k="f-' + esc(t.title) + '" style="--lv:' + lv[1] + '"><div class="top"><h3>' + esc(t.title) + '</h3><span class="lvl">' + lv[0] + "</span></div>" +
         '<div class="val">' + esc(t.value) + "<small>" + esc(t.unit) + '</small></div><div class="det">' + esc(t.detail) + "</div>" +
-        (t.compare ? '<div class="cmp">' + esc(t.compare) + "</div>" : "") + '<div class="why">' + esc(t.why) + "</div></article>";
+        (t.compare ? '<div class="cmp">' + esc(t.compare) + "</div>" : "") + '<div class="why">' + esc(t.why) + '</div><button type="button" class="more" aria-expanded="false">Why it matters</button></article>';
     }).join("");
   }
 
@@ -987,6 +1055,8 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       svg += "</g>";
     });
     $("systemMap").innerHTML = svg + "</svg>";
+    var sm = $("systemMap");
+    if (!renderMap.centred && sm.scrollWidth > sm.clientWidth + 20) { sm.scrollLeft = Math.max(0, POS["406283"][0] / W * sm.scrollWidth - sm.clientWidth * 0.55); renderMap.centred = true; }
     Array.prototype.forEach.call(document.querySelectorAll("#systemMap .stn"), function (g) {
       function go() { S.group = "all"; renderFilter(); renderCards(); var el = $("card-" + g.getAttribute("data-id")); if (el) { el.scrollIntoView({ behavior: "smooth", block: "center" }); el.focus({ preventScroll: true }); } }
       g.addEventListener("click", go);
@@ -1145,11 +1215,11 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
         : useFlow
           ? "<div><dt>Level</dt><dd>" + (s.latest ? f(s.latest.v) + " m" : "-") + "</dd></div><div><dt>Flow percentile</dt><dd>" + (s.flowPct != null ? ord(s.flowPct) : "-") + "</dd></div><div><dt>Highest day</dt><dd>" + (s.record ? f(s.record.level) + " m" : "-") + "</dd></div>"
           : "<div><dt>To minor</dt><dd>" + (s.minor != null && s.latest && s.status.code !== "info" ? (s.minor > s.latest.v ? f(s.minor - s.latest.v) + " m" : "above") : "-") + "</dd></div><div><dt>Flow</dt><dd>" + (s.flowLatest ? n0(s.flowLatest.v) + " ML/d" + (s.flowPct != null ? " (" + ord(s.flowPct) + ")" : "") : "-") + "</dd></div><div><dt>Worst flood</dt><dd>" + (worst ? f(worst.v) : s.record ? f(s.record.level) : "-") + "</dd></div>";
-      return '<article class="card" id="card-' + s.id + '" tabindex="-1" style="--st:' + COLOR[s.status.code] + '">' +
+      return '<article class="card' + (S.opened["card-" + s.id] ? " open" : "") + '" data-k="card-' + s.id + '" id="card-' + s.id + '" tabindex="-1" style="--st:' + COLOR[s.status.code] + '">' +
         '<div class="row"><div><h3>' + esc(shortName(s).replace(" / Moama", "")) + '</h3><div class="sub">' + esc(s.river) + " &middot; " + esc(s.id) + "</div></div>" + chip(s.status.code, s.storageHead ? (s.status.code === "minor" ? "Spilling" : "Below full") : STATUS[s.status.code]) + "</div>" +
         '<div class="row" style="align-items:flex-end"><div class="lvlv">' + big + "</div>" + trendHtml(useFlow ? s.flowTrend : s.trend) + "</div>" +
         (s.role ? '<div class="role">' + esc(s.role) + (s.gaugeName && s.gaugeName.toLowerCase() !== s.name.toLowerCase() ? " &middot; gauge: " + esc(nice(s.gaugeName)) : "") + "</div>" : "") + meter +
-        '<div class="spark" id="sp-' + s.id + '"></div><dl class="facts">' + facts + "</dl></article>";
+        '<div class="spark" id="sp-' + s.id + '"></div><dl class="facts">' + facts + '</dl><button type="button" class="more" aria-expanded="false">Details</button></article>';
     }).join("");
     list.forEach(function (s) { cardSpark(s, useFlowFor(s)); });
   }
@@ -1604,10 +1674,30 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     }).catch(function () { out.innerHTML = '<div class="answer">The address search did not answer. Try again shortly.</div>'; });
   });
 
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest(".more"); if (!b) return;
+    var art = b.closest("article"); if (!art) return;
+    var open = art.classList.toggle("open"); b.setAttribute("aria-expanded", open ? "true" : "false");
+    S.opened[art.getAttribute("data-k")] = open;
+  });
+  function labelTables() {
+    Array.prototype.forEach.call(document.querySelectorAll(".stack-m table"), function (t) {
+      var heads = Array.prototype.map.call(t.querySelectorAll("thead th"), function (th) { return th.textContent; });
+      Array.prototype.forEach.call(t.querySelectorAll("tbody tr"), function (tr) { Array.prototype.forEach.call(tr.children, function (td, i) { if (i > 0 && heads[i] && !td.hasAttribute("data-l")) td.setAttribute("data-l", heads[i]); }); });
+    });
+  }
+  if ("MutationObserver" in window) Array.prototype.forEach.call(document.querySelectorAll(".stack-m tbody"), function (tb) { new MutationObserver(labelTables).observe(tb, { childList: true }); });
+  if ("IntersectionObserver" in window) new IntersectionObserver(function (es) { $("mini").classList.toggle("show", !es[0].isIntersecting); }).observe($("now"));
   if ("IntersectionObserver" in window) {
     var links = Array.prototype.slice.call(document.querySelectorAll("#secnav a"));
     var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) { if (en.isIntersecting) links.forEach(function (a) { a.classList.toggle("on", a.getAttribute("href") === "#" + en.target.id); }); });
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        links.forEach(function (a) {
+          var on = a.getAttribute("href") === "#" + en.target.id; a.classList.toggle("on", on);
+          if (on) { var nav = $("secnav"); var left = a.offsetLeft - (nav.clientWidth - a.offsetWidth) / 2; if (nav.scrollTo) nav.scrollTo({ left: left, behavior: "smooth" }); else nav.scrollLeft = left; }
+        });
+      });
     }, { rootMargin: "-40% 0px -55% 0px" });
     links.forEach(function (a) { var t = document.querySelector(a.getAttribute("href")); if (t) io.observe(t); });
   }
