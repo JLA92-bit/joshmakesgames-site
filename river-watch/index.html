@@ -1755,7 +1755,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   function ago(ms) { var m = Math.round(ms / 60000); if (m < 1) return "just now"; if (m < 60) return m + " min ago"; var h = Math.floor(m / 60); return h + " h " + (m % 60 ? (m % 60) + " min " : "") + "ago"; }
   function renderSituation() {
     var L = S.latest, el = $("sit"); if (!L || !el) return;
-    var gs = L.sites.filter(function (s) { return !s.storageHead && s.latest; });
+    var gs = L.sites.filter(function (s) { return !s.storageHead && s.latest && !s.stale; });
     var flood = gs.filter(function (s) { return ["minor", "moderate", "major"].indexOf(s.status.code) > -1; });
     var near = gs.filter(function (s) { return s.status.code === "near"; });
     var rising = gs.filter(function (s) { return s.trend === "rising"; });

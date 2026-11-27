@@ -30,7 +30,7 @@ A public flood-awareness site for Rochester. Every hour it records river heights
 | Rate of rise and time to each flood level at that rate | Calculated from the hourly gauge readings | Hourly |
 | How unusual today is (yearly highest values, "1 in X years") | Calculated from the daily history | Hourly |
 | Rain forecast report card (saved forecasts checked against the rain that fell) | Calculated from the saved forecasts | Hourly |
-| 30-day river model outlook at 5 places, compared with the model's own record since 1984 | GloFAS v4 (Copernicus) via the Open-Meteo Flood API, CC BY 4.0 | Hourly |
+| 30-day river model outlook at 4 places (Rochester, McCoys Bridge, Echuca, Swan Hill), compared with the model's own record since 1984 | GloFAS v4 (Copernicus) via the Open-Meteo Flood API, CC BY 4.0 | Hourly |
 | Flood map (1% AEP extents, mapped past floods, planning overlays) and address check | Victorian Government map services, OpenStreetMap Nominatim, OpenFreeMap | Live in the page |
 
 Nothing needs an API key. The flood factors board uses this site's own markers, not official warning levels.

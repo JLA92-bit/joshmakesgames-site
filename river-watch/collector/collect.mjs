@@ -27,6 +27,7 @@ const siteList = sites().map((s) => ({ ...s, wmisName: st.names[s.id] }));
 const start = new Date(now.getTime() - 72 * HOUR);
 let added = 0, failed = 0;
 for (const site of siteList) {
+  if (site.offline) continue;
   for (const kind of ['level', 'flow']) {
     if (kind === 'flow' && (site.noFlow || (st.noFlow[site.id] || 0) > now.getTime() - DAY)) continue;
     try {
@@ -70,7 +71,7 @@ const sitesOut = siteList.map((s) => {
     short: s.autoName && s.wmisName ? titleCase(s.wmisName).replace(/ @ /, ' at ') : s.short, gaugeName: s.discoveredName || s.wmisName || null,
     river: s.river, group: s.group, role: s.role, note: s.note, key: !!s.key,
     datum: s.datum, unit: unitFor(s), minor: s.minor, moderate: s.moderate, major: s.major, storageHead: s.storageHead || null,
-    latest: l ? { t: l[0], v: l[1] } : null, trend: trend(lv), status: classify(s, l ? l[1] : null),
+    latest: l ? { t: l[0], v: l[1] } : null, trend: trend(lv), status: s.offline && !l ? { code: 'nodata', label: s.offline } : l && now.getTime() - l[0] > 6 * HOUR ? { code: 'nodata', label: 'Last reading ' + new Intl.DateTimeFormat('en-AU', { timeZone: CFG.timezone, day: 'numeric', month: 'short', hour: 'numeric' }).format(new Date(l[0])) } : classify(s, l ? l[1] : null), offline: s.offline || null, stale: !!(l && now.getTime() - l[0] > 6 * HOUR),
     flowLatest: f ? { t: f[0], v: f[1] } : null, flowTrend: trend(fl, 6, Math.max(5, (f ? f[1] : 0) * 0.03)),
     flowPct: f && S.flow && S.flow[s.id] ? percentileOf(S.flow[s.id], f[1]) : null,
     series: thin(lv), flowSeries: thin(fl).map((p) => [p[0], Math.round(p[1])]),

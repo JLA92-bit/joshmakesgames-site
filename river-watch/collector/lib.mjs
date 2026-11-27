@@ -208,7 +208,32 @@ export async function traces(site, kind, start, end, interval, dataType) {
       }
     } catch (e) { lastErr = String(e.message || e); }
   }
+  // WaterNSW blocks cloud servers, so NSW gauges fall back to BoM Water Data Online (a few days behind).
+  if (kind === 'level' && site.portals.includes('nsw')) {
+    try {
+      const points = await bomLevels(site, start, end, interval);
+      if (points.length) return { points, name: '', portal: 'bom', delayed: true };
+      lastErr += '; BoM Water Data Online: no recent values';
+    } catch (e) { lastErr += '; BoM Water Data Online: ' + String(e.message || e); }
+  }
   throw new Error(lastErr);
+}
+
+/** Level from BoM Water Data Online: hourly means, or daily highs for 'day'. Station numbers match the state gauge numbers. */
+async function bomLevels(site, start, end, interval) {
+  const tsName = interval === 'day' ? 'DMQaQc.Merged.DailyMax.24HR' : 'DMQaQc.Merged.HourlyMean.HR';
+  const file = path.join(DATA, 'state', 'kiwis-gauges.json');
+  const known = readJson(file, {});
+  const key = site.id + '|' + tsName;
+  if (!known[key]) {
+    const list = kiwisTable(await getJson(kiwisUrl({ request: 'getTimeseriesList', station_no: site.id, parametertype_name: 'Water Course Level', ts_name: tsName, returnfields: 'ts_id,ts_name' }), 2));
+    if (!list.length) throw new Error('no ' + tsName + ' series');
+    known[key] = list[0].ts_id; writeJson(file, known, true);
+  }
+  const iso = (d) => new Date(d.getTime() + OFFSET).toISOString().slice(0, 19) + '+10:00';
+  const v = await getJson(kiwisUrl({ request: 'getTimeseriesValues', ts_id: known[key], from: iso(interval === 'day' ? start : new Date(Math.min(start.getTime(), end.getTime() - 7 * DAY))), to: iso(end), returnfields: 'Timestamp,Value,Quality Code' }), 2);
+  const block = Array.isArray(v) ? v[0] : v;
+  return ((block && block.data) || []).filter((r) => r[1] != null).map((r) => ({ t: Date.parse(r[0]), v: round(toDatum(site, Number(r[1]))), q: r[2] == null ? '' : r[2] }));
 }
 
 export async function variableList(portalKey, ds, siteId) {

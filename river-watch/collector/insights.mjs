@@ -242,8 +242,8 @@ export async function riverModelOutlook(note) {
   let changed = false;
   for (const p of points) {
     const s = stats[p.id];
-    if (s && s.curve && Date.now() - (s.built || 0) < 180 * DAY) continue;
-    try { const c = await modelHistory(p); if (c) { stats[p.id] = { ...c, built: Date.now() }; changed = true; } }
+    if (s && s.curve && s.lat === p.lat && s.lon === p.lon && Date.now() - (s.built || 0) < 180 * DAY) continue;
+    try { const c = await modelHistory(p); if (c) { stats[p.id] = { ...c, lat: p.lat, lon: p.lon, built: Date.now() }; changed = true; } }
     catch (e) { note('WARN', `River model history ${p.name}: ${e.message}`); }
   }
   if (changed) writeJson(modelStatsFile(), stats, true);
