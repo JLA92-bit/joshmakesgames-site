@@ -10,5 +10,21 @@
  "malmsbury": {
   "station_no": "MALMSBURY",
   "name": "Malmsbury Reservoir"
+ },
+ "eppalock": {
+  "station_no": "sp-o10350",
+  "name": "Lake Eppalock"
+ },
+ "eildon": {
+  "station_no": "sp-o10334",
+  "name": "Lake Eildon"
+ },
+ "waranga": {
+  "station_no": "sp-o11534",
+  "name": "Waranga Basin"
+ },
+ "dartmouth": {
+  "station_no": "sp-o10298",
+  "name": "Dartmouth"
  }
 }
