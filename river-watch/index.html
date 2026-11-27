@@ -484,6 +484,53 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   .night .stack-m td[data-l]::before { color: var(--on-night-2); }
   .ev-table.stack-m td:nth-child(4), .ev-table.stack-m td:nth-child(7), .ev-table.stack-m td:nth-child(8), .ev-table.stack-m td:nth-child(9) { display: none; }
 }
+/* ---- situation line, hydrograph, up and downstream, gauge search */
+.sit { border-bottom: 1px solid var(--night-line); background: rgba(255,255,255,0.035); }
+.sit .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding-block: 11px; }
+.sit .head { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 0.98rem; color: var(--on-night); }
+.sit .head a { color: inherit; }
+.sit .cnts { display: flex; flex-wrap: wrap; gap: 6px; }
+.sit .cnt { font: 600 0.76rem var(--f-data); letter-spacing: 0.04em; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--night-line); color: var(--on-night-2); white-space: nowrap; }
+.sit .cnt b { color: var(--on-night); }
+.sit .cnt.hot { border-color: #F26839; color: #ffb59c; } .sit .cnt.hot b { color: #fff; }
+.sit .upd { margin-left: auto; font: 0.78rem var(--f-data); color: var(--on-night-2); white-space: nowrap; }
+.sit .upd.stale { color: #FBAD45; font-weight: 600; white-space: normal; }
+.sit[data-lv="watch"] { background: rgba(75, 201, 245, 0.12); }
+.sit[data-lv="warn"] { background: rgba(251, 173, 69, 0.18); box-shadow: inset 4px 0 0 #FBAD45; }
+.sit[data-lv="flood"] { background: rgba(242, 104, 57, 0.24); box-shadow: inset 4px 0 0 #F26839; }
+.hydro { padding: 26px 0 6px; border-top: 1px solid var(--night-line); }
+.hydro .hh { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 18px; margin-bottom: 10px; }
+.hydro .hh h2 { font-size: 1.5rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.02em; }
+.hydro .hh .lg { display: flex; flex-wrap: wrap; gap: 4px 14px; font: 0.76rem var(--f-data); color: var(--on-night-2); }
+.hydro .hh .lg i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; vertical-align: -2px; margin-right: 6px; }
+.hydro .chart { position: relative; }
+.hydro svg { display: block; width: 100%; height: auto; touch-action: pan-y; }
+.hydro svg text { font: 11px var(--f-data); fill: var(--on-night-2); }
+.hydro .tip { background: var(--water); color: var(--night); font-weight: 600; }
+.hydro .next { margin: 12px 0 0; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 14px; align-items: baseline; font-size: 0.95rem; color: var(--on-night-2); max-width: 90ch; }
+.hydro .next b { font: 600 1.05rem var(--f-data); color: var(--on-night); white-space: nowrap; }
+.hydro .next span b { font: inherit; color: var(--water); }
+.nbr { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
+.nbr button { font: 600 0.8rem var(--f-body); color: var(--on-night-2); background: transparent; border: 1px solid var(--night-line); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+.nbr button:hover, .nbr button:focus-visible { color: var(--night); background: var(--water); border-color: var(--water); }
+.nbr button span { font-family: var(--f-data); color: inherit; opacity: 0.85; margin-left: 4px; }
+.gsearch { display: flex; gap: 10px; align-items: center; margin: -10px 0 20px; }
+.gsearch input { flex: 1 1 260px; max-width: 420px; min-width: 0; font: 1rem var(--f-body); padding: 10px 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); color: var(--ink); }
+.gsearch span { font: 0.8rem var(--f-data); color: var(--ink-3); white-space: nowrap; }
+:focus-visible { outline: 3px solid var(--water); outline-offset: 2px; }
+@media (max-width: 900px) { .nbr { justify-content: flex-start; } }
+@media (max-width: 600px) {
+  .sit .upd { margin-left: 0; width: 100%; }
+  .hydro { padding-top: 20px; }
+  .hero-top { padding-block: 24px 20px; gap: 18px; }
+  .brand { margin-bottom: 14px; }
+  .hero h1 { font-size: clamp(2.6rem, 14vw, 3.4rem); line-height: 0.9; }
+  .hero h1 br { display: none; }
+  .hero h1 em { margin-left: 0.18em; }
+  .hero .lede { font-size: 0.95rem; margin-top: 10px; }
+  .hydro .hh h2 { font-size: 1.25rem; }
+  .gsearch { margin-top: -6px; }
+}
 </style>
 </head>
 <body>
@@ -491,6 +538,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
 <div class="example" id="exampleBar" hidden><div class="wrap"><b>EXAMPLE DATA</b><span>Readings, dams, rain, ground wetness, climate and the lettered floods are made up to preview the design. The real site fills them in every hour. Flood levels, flood impacts and reported peaks are real.</span></div></div>
 
 <header class="hero" id="now">
+  <div class="sit" id="sit" role="status" aria-live="polite"><div class="wrap"><span class="head">Loading the latest river readings...</span></div></div>
   <div class="wrap hero-top">
     <div>
       <div class="brand">
@@ -507,6 +555,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       <div id="heroChip"></div>
       <div class="gap" id="heroGap"></div>
       <div class="when" id="heroWhen"></div>
+      <div class="nbr" id="heroNbr" role="group" aria-label="Gauges up and down the river"></div>
     </div>
   </div>
   <div class="wall" id="wall" aria-hidden="true">
@@ -514,7 +563,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     <div class="staff" id="staff"></div>
     <div class="marks" id="marks"></div>
   </div>
-  <div class="wrap"><div class="versus" id="versus"></div></div>
+  <div class="wrap"><div class="hydro" id="hydro"></div><div class="versus" id="versus"></div></div>
 </header>
 
 <div class="emerg"><div class="wrap">
@@ -618,6 +667,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       <div><span class="kicker">Last 7 days, every gauge</span><h2>River gauges</h2></div>
       <div class="tools" role="group" aria-label="Filter gauges" id="groupFilter"></div>
     </div>
+    <div class="gsearch"><input type="search" id="gaugeSearch" placeholder="Find a gauge, river or town" aria-label="Find a gauge" autocomplete="off"><span id="gaugeCount"></span></div>
     <div class="cards" id="cards"></div>
     <p class="fine">Flood class levels (minor, moderate, major) are set by the Bureau of Meteorology. "Within 0.5 m of minor" is this site's own marker. Creek cards show flow, and flow percentiles compare today with every day since 1970. Readings are provisional until checked by the data owner.</p>
   </div>
@@ -844,14 +894,14 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   function renderAll() {
     [renderPicker, renderHero, renderVersus, renderFactors, renderMap, renderBudget, renderEppalock, renderBudgetHistory, renderRochSignals, renderBackwater,
       renderEchucaSignals, renderDams, renderFilter, renderCards, renderGround, renderRain, renderEvents, renderOlder, renderLadders, renderInfo,
-      renderOutlook, renderModel, renderUnusual, renderFloodMap].forEach(function (fn) {
+      renderOutlook, renderModel, renderUnusual, renderFloodMap, renderSituation].forEach(function (fn) {
       try { fn(); } catch (err) { if (window.console) console.error("render failed", err); }
     });
   }
 
   // ------------------------------------------------------------------ hero
   function renderPicker() {
-    $("gaugePick").innerHTML = HERO_GAUGES.filter(function (id) { return S.byId[id]; }).map(function (id) {
+    $("gaugePick").innerHTML = HERO_GAUGES.concat(HERO_GAUGES.indexOf(S.hero) < 0 ? [S.hero] : []).filter(function (id) { return S.byId[id]; }).map(function (id) {
       return '<button type="button" class="pill-btn" data-id="' + id + '" aria-pressed="' + (id === S.hero) + '">' + esc(shortName(S.byId[id]).replace(" / Moama", "")) + "</button>";
     }).join("");
     Array.prototype.forEach.call($("gaugePick").querySelectorAll("button"), function (b) {
@@ -914,7 +964,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     hist.forEach(function (m) { html += mk(m.v, lab(m, "<i>" + esc(m.label) + "</i>"), "hist", "#940E16"); });
     if (wall.level != null) html += mk(wall.level, "<span>Now " + f(wall.level) + " " + esc(s.unit) + "</span>", "now", "#4BC9F5");
     $("marks").innerHTML = html;
-    renderMini();
+    renderMini(); renderHydro(); renderNbr();
     drawStaff(); startWater();
   }
   function renderMini() {
@@ -1201,7 +1251,10 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   }
   function useFlowFor(s) { return s.group === "creeks" && !!s.flowLatest; }
   function renderCards() {
-    var list = S.latest.sites.filter(function (s) { return S.group === "all" || s.group === S.group; });
+    var q = S.q || "";
+    var list = S.latest.sites.filter(function (s) { return (S.group === "all" || s.group === S.group) && (!q || (s.name + " " + (s.short || "") + " " + s.river + " " + s.id + " " + (s.gaugeName || "")).toLowerCase().indexOf(q) > -1); });
+    $("gaugeCount").textContent = list.length + " of " + S.latest.sites.length + " gauges";
+    if (!list.length) { $("cards").innerHTML = '<div class="empty" style="grid-column:1/-1">No gauges match "' + esc(q) + '". Try a town or river name, or clear the filter.</div>'; return; }
     $("cards").innerHTML = list.map(function (s) {
       var worst = worstEvent(s.id), meter = "", useFlow = useFlowFor(s);
       if (s.minor != null && s.latest && !s.storageHead && s.status.code !== "info") {
@@ -1673,6 +1726,109 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
       });
     }).catch(function () { out.innerHTML = '<div class="answer">The address search did not answer. Try again shortly.</div>'; });
   });
+
+  // ------------------------------------------------------------------ situation line (status first, like the best flood services)
+  function ago(ms) { var m = Math.round(ms / 60000); if (m < 1) return "just now"; if (m < 60) return m + " min ago"; var h = Math.floor(m / 60); return h + " h " + (m % 60 ? (m % 60) + " min " : "") + "ago"; }
+  function renderSituation() {
+    var L = S.latest, el = $("sit"); if (!L || !el) return;
+    var gs = L.sites.filter(function (s) { return !s.storageHead && s.latest; });
+    var flood = gs.filter(function (s) { return ["minor", "moderate", "major"].indexOf(s.status.code) > -1; });
+    var near = gs.filter(function (s) { return s.status.code === "near"; });
+    var rising = gs.filter(function (s) { return s.trend === "rising"; });
+    var w = L.warnings || {};
+    var fw = (w.items || []).filter(function (i) { return /flood (warning|watch)/i.test(i.title) && !/cancel|final/i.test(i.title); });
+    var serious = fw.some(function (i) { return /major|moderate/i.test(i.title); }) || flood.some(function (s) { return s.status.code !== "minor"; });
+    var lv = serious ? "flood" : fw.length || flood.length ? "warn" : near.length ? "watch" : "calm";
+    var head;
+    if (S.example) head = '<span class="dot c-info"></span>Example data. Live BoM warnings show here on the real site.';
+    else if (fw.length) head = '<span class="dot c-' + (serious ? "moderate" : "minor") + '"></span><a href="' + esc(fw[0].link) + '" target="_blank" rel="noopener">' + esc(fw[0].title) + "</a>" + (fw.length > 1 ? " and " + (fw.length - 1) + " more" : "");
+    else if (!w.ok) head = '<span class="dot c-nodata"></span>BoM warnings could not be checked this hour. <a href="https://www.bom.gov.au/vic/warnings/" target="_blank" rel="noopener">Check BoM</a>';
+    else head = '<span class="dot c-normal"></span>No BoM flood warnings for these rivers';
+    var cnt = function (n, label, hot) { return '<span class="cnt' + (hot && n ? " hot" : "") + '"><b>' + n + "</b> " + label + "</span>"; };
+    var age = Date.now() - Date.parse(L.generated);
+    var upd = age > 3 * HOUR ? '<span class="upd stale">Readings are ' + ago(age).replace(" ago", "") + ' old. The hourly update may be delayed; check BoM and VicEmergency.</span>' : '<span class="upd">Updated ' + ago(age) + "</span>";
+    el.setAttribute("data-lv", lv);
+    el.innerHTML = '<div class="wrap"><span class="head">' + head + '</span><span class="cnts">' + cnt(flood.length, "at a flood level", true) + cnt(near.length, "near minor", true) + cnt(rising.length, "rising") + cnt(gs.length, "gauges reporting") + "</span>" + upd + "</div>";
+  }
+  setInterval(function () { if (S.latest) renderSituation(); }, 60000);
+
+  // ------------------------------------------------------------------ hydrograph: last 7 days, flood bands, BoM predicted peak
+  function tzOff(t) { var d = new Date(t).toLocaleString("sv-SE", { timeZone: TZ }); return Date.parse(d.replace(" ", "T") + "Z") - t; }
+  function renderHydro() {
+    var s = S.byId[S.hero], box = $("hydro"); if (!s || !box) return;
+    var pts = (s.series || []).filter(function (p) { return p[1] != null; });
+    if (pts.length < 2) { box.innerHTML = '<div class="empty">The 7-day line for ' + esc(s.name) + " appears once a few readings are in.</div>"; return; }
+    var pred = predFor(s.id), DAYMS = 864e5;
+    var W = Math.max(300, box.clientWidth || 1200), H = W < 600 ? 200 : 240, L = 4, R = W < 600 ? 46 : 104, T = 12, B = 24;
+    var t0 = pts[0][0], tNow = pts[pts.length - 1][0], tp = null;
+    if (pred) tp = pred.window ? (pred.window[0] + pred.window[1]) / 2 : tNow + DAYMS;
+    var t1 = Math.max(tNow, tp || 0) + (tNow - t0) * 0.03;
+    var vals = pts.map(function (p) { return p[1]; });
+    if (s.minor != null && !s.storageHead && s.status.code !== "info") vals.push(s.minor);
+    if (s.storageHead) vals.push(s.storageHead.fsl);
+    if (pred) vals.push(pred.level);
+    var lo = Math.min.apply(null, vals), hi = Math.max.apply(null, vals), pad = Math.max(0.08, (hi - lo) * 0.12); lo -= pad; hi += pad;
+    function x(t) { return L + (t - t0) / (t1 - t0) * (W - L - R); }
+    function y(v) { return T + (hi - v) / (hi - lo) * (H - T - B); }
+    var svg = '<svg viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="' + esc(s.name) + ' level over the last 7 days' + (pred ? ", with the BoM predicted peak" : "") + '">';
+    svg += '<defs><linearGradient id="hyf" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#4BC9F5" stop-opacity="0.45"/><stop offset="1" stop-color="#4BC9F5" stop-opacity="0.02"/></linearGradient></defs>';
+    // flood class bands
+    var cls = [["minor", s.minor, "#FBAD45"], ["moderate", s.moderate, "#F26839"], ["major", s.major, "#ff6b74"]].filter(function (c) { return c[1] != null; });
+    if (!s.storageHead && s.status.code !== "info") cls.forEach(function (c, i) {
+      if (c[1] >= hi) return;
+      var top = i + 1 < cls.length ? Math.min(cls[i + 1][1], hi) : hi;
+      svg += '<rect x="' + L + '" width="' + (W - L - R) + '" y="' + y(top).toFixed(1) + '" height="' + Math.max(0, y(Math.max(c[1], lo)) - y(top)).toFixed(1) + '" fill="' + c[2] + '" opacity="0.2"/>';
+      svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(c[1]).toFixed(1) + '" y2="' + y(c[1]).toFixed(1) + '" stroke="' + c[2] + '" stroke-dasharray="5 4"/>';
+      svg += '<text x="' + (W - R + 6) + '" y="' + (y(c[1]) + 4).toFixed(1) + '" style="fill:' + c[2] + '">' + (W < 600 ? f(c[1], 1) : c[0].charAt(0).toUpperCase() + c[0].slice(1) + " " + f(c[1], 1)) + "</text>";
+    });
+    if (s.storageHead) svg += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(s.storageHead.fsl).toFixed(1) + '" y2="' + y(s.storageHead.fsl).toFixed(1) + '" stroke="#FBAD45" stroke-dasharray="5 4"/><text x="' + (W - R + 6) + '" y="' + (y(s.storageHead.fsl) + 4).toFixed(1) + '" style="fill:#FBAD45">spill</text>';
+    // day ticks at local midnight
+    var off = tzOff(t0), d0 = Math.ceil((t0 + off) / DAYMS) * DAYMS - off;
+    for (var t = d0; t <= t1; t += DAYMS) {
+      svg += '<line x1="' + x(t).toFixed(1) + '" x2="' + x(t).toFixed(1) + '" y1="' + T + '" y2="' + (H - B) + '" stroke="rgba(159,182,203,0.14)"/>';
+      if (x(t) < W - R - 20) svg += '<text x="' + (x(t) + 4).toFixed(1) + '" y="' + (H - 6) + '">' + esc(new Intl.DateTimeFormat("en-AU", { timeZone: TZ, weekday: "short" }).format(new Date(t + 6 * HOUR))) + "</text>";
+    }
+    // observed line and area
+    var d = pts.map(function (p, i) { return (i ? "L" : "M") + x(p[0]).toFixed(1) + " " + y(p[1]).toFixed(1); }).join(" ");
+    svg += '<path d="' + d + " L" + x(tNow).toFixed(1) + " " + (H - B) + " L" + x(t0).toFixed(1) + " " + (H - B) + ' Z" fill="url(#hyf)"/>';
+    svg += '<path d="' + d + '" fill="none" stroke="#4BC9F5" stroke-width="2.5" stroke-linejoin="round"/>';
+    var last = pts[pts.length - 1];
+    // BoM predicted peak
+    if (pred) {
+      var px = x(tp), py = y(pred.level);
+      svg += '<path d="M' + x(last[0]).toFixed(1) + " " + y(last[1]).toFixed(1) + " L" + px.toFixed(1) + " " + py.toFixed(1) + '" stroke="#ffd34d" stroke-width="2" stroke-dasharray="5 4" fill="none"/>';
+      if (pred.window) svg += '<rect x="' + x(pred.window[0]).toFixed(1) + '" width="' + Math.max(2, x(pred.window[1]) - x(pred.window[0])).toFixed(1) + '" y="' + T + '" height="' + (H - T - B) + '" fill="#ffd34d" opacity="0.08"/>';
+      svg += '<path d="M' + px.toFixed(1) + " " + (py - 7).toFixed(1) + " l7 7 l-7 7 l-7 -7 Z" + '" fill="#ffd34d" stroke="#001427" stroke-width="1.5"/>';
+      svg += '<text x="' + Math.min(px, W - R - 4).toFixed(1) + '" y="' + Math.max(T + 10, py - 12).toFixed(1) + '" text-anchor="end" style="fill:#ffd34d;font-weight:600">BoM ' + f(pred.level) + "</text>";
+    }
+    svg += '<line x1="' + x(tNow).toFixed(1) + '" x2="' + x(tNow).toFixed(1) + '" y1="' + T + '" y2="' + (H - B) + '" stroke="rgba(234,243,250,0.35)" stroke-dasharray="2 3"/>';
+    svg += '<circle cx="' + x(last[0]).toFixed(1) + '" cy="' + y(last[1]).toFixed(1) + '" r="5" fill="#4BC9F5" stroke="#001427" stroke-width="2"/>';
+    svg += '<line class="xh" x1="0" x2="0" y1="' + T + '" y2="' + (H - B) + '" stroke="#eaf3fa" stroke-opacity="0.5" visibility="hidden"/></svg>';
+    var legend = '<span><i style="background:#4BC9F5"></i>Measured</span>' + (cls.length && !s.storageHead ? '<span><i style="background:rgba(251,173,69,0.5)"></i>Flood class bands</span>' : "") + (pred ? '<span><i style="background:#ffd34d"></i>BoM predicted peak</span>' : "");
+    // what the next level on the list means (impacts like a river forecast page)
+    var next = "", now = last[1], K = S.latest.knowledge || {}, im = K.impacts && K.impacts[s.id];
+    if (im) {
+      var row = im.rows.filter(function (r) { return r.level > now; }).sort(function (a, b) { return a.level - b.level; })[0];
+      if (row) next = '<div class="next"><b>' + f(row.level) + "</b><span>Next on the list, <b>" + f(row.level - now) + " m</b> above now: " + esc(row.label ? row.label + ". " : "") + esc(row.what) + ' <a href="#impacts">All levels</a></span></div>';
+    } else if (!s.storageHead && s.minor != null && now < s.minor && s.status.code !== "info") {
+      next = '<div class="next"><b>' + f(s.minor) + "</b><span>Minor flood level, <b>" + f(s.minor - now) + " m</b> above now.</span></div>";
+    }
+    box.innerHTML = '<div class="hh"><h2>Last 7 days at ' + esc(shortName(s).replace(" / Moama", "")) + '</h2><span class="lg">' + legend + '</span></div><div class="chart">' + svg + '<div class="tip" hidden></div></div>' + next;
+    hover(box.querySelector(".chart"), pts, function (p) { return f(p[1]) + " " + s.unit + " · " + fmtTime(p[0]); }, function (t) { return x(t) / W; });
+  }
+
+  // ------------------------------------------------------------------ up and down the river from the chosen gauge
+  function renderNbr() {
+    var s = S.byId[S.hero], el = $("heroNbr"); if (!s || !el) return;
+    var list = S.latest.sites.filter(function (x) { return x.river === s.river && !x.storageHead; });
+    var i = list.indexOf(s), up = i > 0 ? list[i - 1] : null, dn = i > -1 && i < list.length - 1 ? list[i + 1] : null;
+    function btn(g, dir) { return g ? '<button type="button" data-id="' + g.id + '" aria-label="' + dir + ": " + esc(g.name) + '">' + (dir === "Upstream" ? "&#9650; " : "&#9660; ") + esc(shortName(g).replace(" / Moama", "")) + "<span>" + (g.latest ? f(g.latest.v) : "-") + "</span></button>" : ""; }
+    el.innerHTML = btn(up, "Upstream") + btn(dn, "Downstream");
+    Array.prototype.forEach.call(el.querySelectorAll("button"), function (b) { b.addEventListener("click", function () { S.hero = b.getAttribute("data-id"); renderPicker(); renderHero(); renderVersus(); }); });
+  }
+
+  // ------------------------------------------------------------------ gauge search
+  $("gaugeSearch").addEventListener("input", function () { S.q = this.value.trim().toLowerCase(); renderCards(); });
 
   document.addEventListener("click", function (e) {
     var b = e.target.closest && e.target.closest(".more"); if (!b) return;
