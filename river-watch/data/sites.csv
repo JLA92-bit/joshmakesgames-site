@@ -7,6 +7,7 @@ site,bom_number,name,river,group,datum,gauge_zero_m_ahd,minor,moderate,major,not
 406283,580011,Rochester Town,Campaspe,campaspe,AHD,103.615,113,114,114.5,"Bridge Road town gauge, used in Rochester flood warnings"
 406202,580010,Rochester Syphon,Campaspe,campaspe,gauge,103.615,8,8.8,9.1,Long record; flow measured here
 406265,580014,Echuca (Campaspe),Campaspe,campaspe,AHD,,92.8,94.4,95.7,"Above the Murray Valley Highway bridge, just above the Murray junction"
+406215,,COLIBAN RV LYAL (WQ),Coliban,creeks,gauge,,,,,"Largest Campaspe tributary, below the Coliban storages"
 406262,581018,Axe Creek (Strathfieldsaye),Axe Creek,creeks,gauge,,,,,Upper Axe Creek
 406214,,Gauge 406214 (GMW Water Status),Axe Creek,creeks,gauge,,,,,From waterstatus.g-mwater.com.au. Name fills in from the gauge record
 406224,581017,Mount Pleasant Creek (Runnymede),Mount Pleasant Creek,creeks,gauge,,,,,Joins the Campaspe between Barnadown and Elmore
