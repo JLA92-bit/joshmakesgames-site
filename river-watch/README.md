@@ -92,6 +92,10 @@ Past floods are found automatically: any time Rochester Town, Rochester Syphon, 
 - VicEmergency has no public data feed, so road closures and incidents are linked, not shown.
 - The BoM sometimes blocks automated requests; if so the warnings panel says so and links to BoM and VicEmergency.
 - Gauge readings are provisional and can be revised by the data owner.
+- **WaterNSW blocks cloud servers** (every request from GitHub Actions gets HTTP 403), so the NSW Murray gauges (Doctors Point, Albury, Corowa, Yarrawonga, Deniliquin, Barham) fall back to BoM Water Data Online, which runs about 3 to 4 days behind. Any reading more than 6 hours old is shown as "Last reading ..." in grey and gets no flood status.
+- **Echuca (Campaspe), 406265**: the state record stops on 22 February 2024, so the gauge is marked offline (`offline` in `config/sites.json`). Remove that line if it comes back.
+- **Lake Eppalock dam (406219) and Campaspe Weir (406218)** record level as variable 130.00 (storage level), set with `levelVar`.
+- **McIvor Creek** has no public gauge in the state or BoM data; the lookup is limited to Campaspe basin stations (`basin: "406"`), so the card stays hidden rather than showing another river.
 - The GloFAS river model is a global 5 km model that is not tuned to these gauges. Its flows are only compared with its own record (kept in `data/state/model-stats.json`, rebuilt every 6 months), never with gauge flows. Model points are set in `riverModel` in `config/catchments.json`.
 - BoM predicted heights are matched to gauges by river and place name. Add extra place names to `bomNames` in `config/sites.json` if a warning uses a name the site does not know.
 

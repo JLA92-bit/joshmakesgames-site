@@ -149,6 +149,7 @@ export async function discoverSites(force = false) {
 // ------------------------------------------------------------ hydstra (WMIS / WaterNSW)
 const COMBO_FILE = () => path.join(DATA, 'state', 'combos.json');
 let combos = null;
+const blocked = new Set(); // portals that refused this run (WaterNSW blocks cloud servers)
 export function saveState() { if (combos) writeJson(COMBO_FILE(), combos, true); }
 
 /** Convert gauge height to AHD where flood levels are published in AHD. */
@@ -179,6 +180,7 @@ export async function traces(site, kind, start, end, interval, dataType) {
   }
   let lastErr = 'no data returned';
   for (const c of tries) {
+    if (blocked.has(c.portal)) continue;
     try {
       const payload = {
         function: 'get_ts_traces', version: '2',
@@ -206,7 +208,7 @@ export async function traces(site, kind, start, end, interval, dataType) {
         if (kind === 'level') combos[site.id] = c;
         return { points, name, portal: `${c.portal}:${c.ds}` };
       }
-    } catch (e) { lastErr = String(e.message || e); }
+    } catch (e) { lastErr = String(e.message || e); if (/HTTP 403/.test(lastErr)) blocked.add(c.portal); }
   }
   // WaterNSW blocks cloud servers, so NSW gauges fall back to BoM Water Data Online (a few days behind).
   if (kind === 'level' && site.portals.includes('nsw')) {
