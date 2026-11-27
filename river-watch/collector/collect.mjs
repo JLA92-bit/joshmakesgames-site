@@ -40,6 +40,18 @@ for (const site of siteList) {
     }
   }
 }
+// one more try, after a pause, for gauges whose level failed (the state server sometimes times out)
+const retry = siteList.filter((s) => log.some((l) => l.msg.startsWith(`${s.id} ${s.name} level:`)));
+if (retry.length && !MOCK) {
+  await new Promise((r) => setTimeout(r, 20000));
+  for (const site of retry) {
+    try {
+      const res = await traces(site, 'level', start, now, 'hour', 'max');
+      added += upsertHourly(site, 'level', res.points); failed--;
+      const i = log.findIndex((l) => l.msg.startsWith(`${site.id} ${site.name} level:`)); if (i > -1) log.splice(i, 1);
+    } catch { /* still not reporting; the first warning stays in the log */ }
+  }
+}
 note('INFO', `Gauges: ${added} new hourly values from ${siteList.length} gauges (${failed} not reporting)`);
 
 const recent = recentHourlyAll(7, now.getTime());

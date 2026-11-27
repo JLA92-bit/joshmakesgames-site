@@ -126,12 +126,13 @@ export async function discoverSites(force = false) {
   let changed = false;
   for (const s of CFG.sites.filter((x) => x.discover)) {
     const prev = disc[s.slug];
-    if (!force && prev && (prev.id || Date.now() - (prev.tried || 0) < 7 * DAY)) continue;
+    const inBasin = (id) => !s.discover.basin || String(id || '').startsWith(s.discover.basin);
+    if (!force && prev && ((prev.id && inBasin(prev.id)) || (!prev.id && Date.now() - (prev.tried || 0) < 7 * DAY))) continue;
     try {
       const up = (x) => String(x || '').toUpperCase();
       const word = up(s.discover.search.replace(/\*/g, '').trim());
       const raw = MOCK ? mock.kiwisStations(s.discover.search) : await kiwisStations(s.discover.search, 'Water Course Level');
-      const list = raw.filter((st) => up(st.station_name).includes(word)); // never accept a gauge on another stream
+      const list = raw.filter((st) => up(st.station_name).includes(word) && inBasin(st.station_no)); // never accept a gauge on another stream or in another basin
       let pick = null;
       for (const pref of s.discover.prefer || []) { pick = list.find((st) => up(st.station_name).includes(pref)); if (pick) break; }
       pick = pick || list[0];
@@ -183,7 +184,7 @@ export async function traces(site, kind, start, end, interval, dataType) {
         function: 'get_ts_traces', version: '2',
         params: {
           site_list: site.id, datasource: c.ds,
-          varfrom: CFG.vars.level, varto: kind === 'level' ? CFG.vars.level : CFG.vars.flow,
+          varfrom: site.levelVar || CFG.vars.level, varto: kind === 'level' ? (site.levelVar || CFG.vars.level) : CFG.vars.flow,
           start_time: hydstraTime(start), end_time: hydstraTime(end),
           interval, multiplier: '1', data_type: dataType
         }
