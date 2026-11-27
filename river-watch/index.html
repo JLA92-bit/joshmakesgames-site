@@ -1196,7 +1196,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   // ------------------------------------------------------------------ Echuca
   function renderBackwater() {
     var b = S.latest.backwater, el = $("backwaterPanel");
-    if (!b || !b.ok) { el.innerHTML = '<h3>Campaspe against the Murray</h3><div class="empty">' + esc(b && b.reason ? b.reason : "One of the Echuca gauges is not reporting yet.") + "</div>"; return; }
+    if (!b || !b.ok) { el.innerHTML = '<h3>Campaspe against the Murray</h3><div class="empty">' + esc(S.byId["406265"] && S.byId["406265"].offline ? "The Campaspe gauge at Echuca (406265) has been offline since 22 February 2024, so the gap to the Murray cannot be measured. Rochester Syphon and Echuca Wharf are still shown in the gauge list." : b && b.reason ? b.reason : "One of the Echuca gauges is not reporting yet.") + "</div>"; return; }
     var pts = b.series, W = 640, H = 250, L = 46, R = 12, T = 16, B = 26;
     var lo = Infinity, hi = -Infinity;
     pts.forEach(function (r) { lo = Math.min(lo, r[1], r[2]); hi = Math.max(hi, r[1], r[2]); });
@@ -1527,7 +1527,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     if (S.example || !w) $("warnings").innerHTML = '<div class="empty">Bureau of Meteorology warnings that mention the Campaspe, Coliban, Goulburn, Murray, Broken, Ovens, Kiewa, Loddon, Eppalock, Rochester, Echuca or Elmore are listed here as they are issued.</div>';
     else if (!w.ok) $("warnings").innerHTML = '<div class="empty">The BoM warnings feed did not load this hour. Check <a href="https://www.bom.gov.au/vic/warnings/" target="_blank" rel="noopener">BoM warnings</a> and <a href="https://emergency.vic.gov.au/" target="_blank" rel="noopener">VicEmergency</a> directly.</div>';
     else if (!w.items.length) $("warnings").innerHTML = '<div class="empty">No current BoM warnings mention these rivers (checked ' + esc(fmtTime(w.fetched)) + "). VicEmergency has the full picture, including road closures and incidents.</div>";
-    else $("warnings").innerHTML = "<ul>" + w.items.map(function (it) { return '<li class="warn"><a href="' + esc(it.link) + '" target="_blank" rel="noopener"><b>' + esc(it.title) + '</b></a><div style="color:var(--ink-2);font-size:0.84rem">' + esc(it.published) + "</div></li>"; }).join("") + "</ul>";
+    else $("warnings").innerHTML = "<ul>" + w.items.map(function (it) { return '<li class="warn"><a href="' + esc(it.link) + '" target="_blank" rel="noopener"><b>' + esc(wTitle(it.title)) + '</b></a><div style="color:var(--ink-2);font-size:0.84rem">' + esc(it.published) + "</div></li>"; }).join("") + "</ul>";
     var day = new Date().toISOString().slice(0, 10);
     var files = [
       ["Latest readings and factors", "data/latest.json"], ["Hourly readings, today (UTC)", "data/hourly/" + day.slice(0, 7) + "/" + day.slice(8, 10) + ".csv"],
@@ -1562,7 +1562,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
         "<q>" + esc(p.sentence) + '</q><a style="grid-column:1/-1;font-size:0.84rem" href="' + esc(p.link) + '" target="_blank" rel="noopener">' + esc(p.title || "Read the warning") + "</a></div>";
     }).join("");
 
-    var all = S.latest.sites.filter(function (s) { return s.latest && s.rise && !s.storageHead; });
+    var all = S.latest.sites.filter(function (s) { return s.latest && s.rise && !s.storageHead && !s.stale; });
     all.sort(function (a, b) { return (b.rise.mPerHour6 || 0) - (a.rise.mPerHour6 || 0); });
     var rows = S.riseAll ? all : all.filter(function (s) { return s.key || (s.rise.mPerHour6 || 0) > 0.003 || ["near", "minor", "moderate", "major"].indexOf(s.status.code) > -1; });
     var more = $("riseMore"); more.hidden = rows.length === all.length && !S.riseAll; more.textContent = S.riseAll ? "Show fewer" : "Show all " + all.length + " gauges";
@@ -1752,6 +1752,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
   });
 
   // ------------------------------------------------------------------ situation line (status first, like the best flood services)
+  function wTitle(t) { return String(t || "").replace(/\s+/g, " ").trim().replace(/^\d{1,2}\/\d{1,2}:\d{2}\s+[A-Z]{3,4}\s+/, ""); }
   function ago(ms) { var m = Math.round(ms / 60000); if (m < 1) return "just now"; if (m < 60) return m + " min ago"; var h = Math.floor(m / 60); return h + " h " + (m % 60 ? (m % 60) + " min " : "") + "ago"; }
   function renderSituation() {
     var L = S.latest, el = $("sit"); if (!L || !el) return;
@@ -1765,7 +1766,7 @@ footer .sig { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem
     var lv = serious ? "flood" : fw.length || flood.length ? "warn" : near.length ? "watch" : "calm";
     var head;
     if (S.example) head = '<span class="dot c-info"></span>Example data. Live BoM warnings show here on the real site.';
-    else if (fw.length) head = '<span class="dot c-' + (serious ? "moderate" : "minor") + '"></span><a href="' + esc(fw[0].link) + '" target="_blank" rel="noopener">' + esc(fw[0].title) + "</a>" + (fw.length > 1 ? " and " + (fw.length - 1) + " more" : "");
+    else if (fw.length) head = '<span class="dot c-' + (serious ? "moderate" : "minor") + '"></span><a href="' + esc(fw[0].link) + '" target="_blank" rel="noopener">' + esc(wTitle(fw[0].title)) + "</a>" + (fw.length > 1 ? " and " + (fw.length - 1) + " more" : "");
     else if (!w.ok) head = '<span class="dot c-nodata"></span>BoM warnings could not be checked this hour. <a href="https://www.bom.gov.au/vic/warnings/" target="_blank" rel="noopener">Check BoM</a>';
     else head = '<span class="dot c-normal"></span>No BoM flood warnings for these rivers';
     var cnt = function (n, label, hot) { return '<span class="cnt' + (hot && n ? " hot" : "") + '"><b>' + n + "</b> " + label + "</span>"; };
