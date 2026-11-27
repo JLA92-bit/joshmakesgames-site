@@ -59,15 +59,29 @@ if (doIt('daily')) {
           n += res.points.length;
         } catch (e) {
           if (overLimit(e.message)) {
-            // the state server allows about 150 MB an hour; wait for the hour's total to fall, then retry
-            let ok = false;
-            for (let w = 1; w <= 6 && !ok; w++) {
-              console.log(`  ${site.id} ${kind} ${y}: hit the server's hourly download limit, waiting ${2 * w} min (try ${w} of 6)`);
-              await sleep(2 * w * 60000);
-              try { const res = await get(); upsertDaily(site.id, kind, res.points); n += res.points.length; ok = true; }
-              catch (e2) { if (!overLimit(e2.message)) break; }
+            // The state server judges each answer by how fast it arrived (0.07 MB in 1 s counts as
+            // 247 MB/hour against a 150 MB/hour limit), so waiting does not help a big block.
+            // Fetch it again as one-year pieces instead, each with one short retry.
+            console.log(`  ${site.id} ${kind} ${y}: refused by the download limit, fetching it one year at a time`);
+            await sleep(MOCK ? 0 : 60000);
+            let missed = 0;
+            for (let yy = y; yy < y + 5 && yy <= thisYear; yy++) {
+              const s1 = new Date(Date.UTC(yy, 0, 1) - CFG.hydstraOffsetHours * HOUR);
+              const e1 = new Date(Math.min(Date.UTC(yy + 1, 0, 1) - CFG.hydstraOffsetHours * HOUR, Date.now()));
+              let ok = false;
+              for (let t = 0; t < 2 && !ok; t++) {
+                try {
+                  const res = await traces(site, kind, s1, e1, 'day', kind === 'level' ? 'max' : 'mean');
+                  upsertDaily(site.id, kind, res.points); n += res.points.length; ok = true;
+                } catch (e2) {
+                  if (!overLimit(e2.message)) { ok = true; break; } // no record for that year
+                  await sleep(MOCK ? 0 : 90000);
+                }
+              }
+              if (!ok) missed++;
+              await sleep(MOCK ? 0 : 5000);
             }
-            if (!ok) { limited++; console.log(`  ${site.id} ${kind} ${y}: still limited, left for a gaps-only run`); }
+            if (missed) { limited++; console.log(`  ${site.id} ${kind} ${y}: ${missed} year(s) still refused, left for a later gaps run`); }
           } /* otherwise: no record for this period */
         }
         await sleep(polite);
