@@ -81,6 +81,18 @@ Nothing needs an API key. The flood factors board uses this site's own markers, 
 
 Past floods are found automatically: any time Rochester Town, Rochester Syphon, Echuca (Campaspe) or Echuca Wharf went over the minor flood level. Known floods in `config/knowledge.json` (November 2010, January 2011, October 2022, January 2024) add names, facts and the peaks reported at the time.
 
+## Hourly trigger (Cloudflare)
+
+GitHub runs scheduled workflows late or not at all on quiet repositories (in November 2026 the hourly schedule ran only every 6 to 10 hours). A Cloudflare Worker, `river-watch-hourly`, asks GitHub to run **Collect river data** at 35 minutes past every hour. Its code is in `cloudflare/hourly-trigger.js`. The schedule in `river-watch-collect.yml` stays as a backup.
+
+It needs one secret:
+
+1. GitHub > Settings > Developer settings > Fine-grained tokens > Generate new token. Repository access: only `joshmakesgames-site`. Permissions: **Actions: Read and write**. Set an expiry and note it.
+2. Cloudflare dashboard > Workers & Pages > `river-watch-hourly` > Settings > Variables and Secrets > Add > type **Secret**, name `GITHUB_TOKEN`, paste the token, Deploy.
+3. Check https://river-watch-hourly.joshavard.workers.dev/ says "Token set: yes". The page never starts a run itself.
+
+Renew the token before it expires; until then the Worker logs "GitHub answered HTTP 401".
+
 ## Notes and checks
 
 - **Coliban River and McIvor Creek gauges** are found by name through BoM Water Data Online on the first run (`data/state/discovered.json`). Check the result with `node collector/discover.mjs`. If one is wrong or missing, put the right site number in `config/sites.json` instead of `null`.
