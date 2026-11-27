@@ -127,7 +127,8 @@ export async function discoverSites(force = false) {
   for (const s of CFG.sites.filter((x) => x.discover)) {
     const prev = disc[s.slug];
     const inBasin = (id) => !s.discover.basin || String(id || '').startsWith(s.discover.basin);
-    if (!force && prev && ((prev.id && inBasin(prev.id)) || (!prev.id && Date.now() - (prev.tried || 0) < 7 * DAY))) continue;
+    const sameSearch = prev && prev.search === s.discover.search;
+    if (!force && prev && sameSearch && ((prev.id && inBasin(prev.id)) || (!prev.id && Date.now() - (prev.tried || 0) < 7 * DAY))) continue;
     try {
       const up = (x) => String(x || '').toUpperCase();
       const word = up(s.discover.search.replace(/\*/g, '').trim());
@@ -136,7 +137,7 @@ export async function discoverSites(force = false) {
       let pick = null;
       for (const pref of s.discover.prefer || []) { pick = list.find((st) => up(st.station_name).includes(pref)); if (pick) break; }
       pick = pick || list[0];
-      disc[s.slug] = pick ? { id: String(pick.station_no), name: pick.station_name, tried: Date.now() } : { id: null, tried: Date.now() };
+      disc[s.slug] = pick ? { id: String(pick.station_no), name: pick.station_name, search: s.discover.search, tried: Date.now() } : { id: null, search: s.discover.search, tried: Date.now() };
     } catch (e) {
       disc[s.slug] = { id: prev && prev.id ? prev.id : null, name: prev && prev.name, tried: Date.now(), error: String(e.message || e) };
     }
