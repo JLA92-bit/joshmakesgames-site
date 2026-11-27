@@ -1,0 +1,23 @@
+{
+  "_about": "Dams and weirs that shape flows to Rochester and Echuca. Created by Josh Avard. Capacity and full supply levels from Goulburn-Murray Water storage levels (https://www.g-mwater.com.au/water-operations/storage-levels). 'rss' = item title in the GMW storage feed; 'kiwis' = station name search in BoM Water Data Online for daily history.",
+  "gmwRss": "https://www.g-mwater.com.au/rss/levels.asp",
+  "kiwis": { "url": "http://www.bom.gov.au/waterdata/services", "tsName": "DMQaQc.Merged.DailyMean.24HR", "volume": "Storage Volume", "level": "Storage Level" },
+  "storages": [
+    { "id": "eppalock", "name": "Lake Eppalock", "rss": "Lake Eppalock", "kiwis": "*Eppalock*", "system": "Campaspe", "capacity": 304651, "fsl": 193.91, "headGauge": "406219", "key": true, "role": "Holds the Campaspe and Coliban. When full, inflows spill straight down the river to Rochester." },
+    { "id": "upper-coliban", "name": "Upper Coliban Reservoir", "rss": null, "kiwis": "*Upper Coliban*", "system": "Campaspe", "capacity": null, "fsl": null, "owner": "Coliban Water", "role": "Top of the Coliban River" },
+    { "id": "lauriston", "name": "Lauriston Reservoir", "rss": null, "kiwis": "*Lauriston*", "system": "Campaspe", "capacity": null, "fsl": null, "owner": "Coliban Water", "role": "Coliban River" },
+    { "id": "malmsbury", "name": "Malmsbury Reservoir", "rss": null, "kiwis": "*Malmsbury*", "system": "Campaspe", "capacity": null, "fsl": null, "owner": "Coliban Water", "role": "Coliban River, last storage before Eppalock" },
+    { "id": "eildon", "name": "Lake Eildon", "rss": "Lake Eildon", "kiwis": "*Eildon*", "system": "Goulburn", "capacity": 3334158, "fsl": null, "key": true, "role": "Main Goulburn storage" },
+    { "id": "goulburn-weir", "name": "Goulburn Weir", "rss": "Goulburn Weir", "kiwis": null, "system": "Goulburn", "capacity": 25500, "fsl": null, "role": "Diverts Goulburn water to Waranga Basin" },
+    { "id": "waranga", "name": "Waranga Basin", "rss": "Waranga Basin", "kiwis": "*Waranga*", "system": "Goulburn", "capacity": 432360, "fsl": null, "role": "Supplies the Waranga Western Channel, which crosses the Campaspe at Rochester" },
+    { "id": "nillahcootie", "name": "Lake Nillahcootie", "rss": "Lake Nillahcootie", "kiwis": null, "system": "Goulburn", "capacity": 40400, "fsl": null, "role": "Broken River" },
+    { "id": "dartmouth", "name": "Dartmouth Dam", "rss": "Dartmouth Dam", "kiwis": "*Dartmouth*", "system": "Murray", "capacity": 3856232, "fsl": null, "role": "Mitta Mitta River, releases into Lake Hume" },
+    { "id": "hume", "name": "Hume Dam", "rss": "Hume Dam", "kiwis": "*Hume*", "system": "Murray", "capacity": 3005157, "fsl": null, "key": true, "role": "Main Murray storage above Albury" },
+    { "id": "buffalo", "name": "Lake Buffalo", "rss": "Lake Buffalo", "kiwis": null, "system": "Murray", "capacity": 23504, "fsl": null, "role": "Ovens system" },
+    { "id": "william-hovell", "name": "Lake William Hovell", "rss": "Lake William Hovell", "kiwis": null, "system": "Murray", "capacity": 13690, "fsl": null, "role": "King River, Ovens system" },
+    { "id": "yarrawonga", "name": "Yarrawonga Weir (Lake Mulwala)", "rss": "Yarrawonga Weir", "kiwis": null, "system": "Murray", "capacity": 117500, "fsl": null, "role": "Murray and Ovens meet here" },
+    { "id": "torrumbarry", "name": "Torrumbarry Weir", "rss": "Torrumbarry Weir", "kiwis": null, "system": "Murray", "capacity": 36810, "fsl": null, "role": "Below Echuca" },
+    { "id": "cairn-curran", "name": "Cairn Curran Reservoir", "rss": "Cairn Curran Reservoir", "kiwis": null, "system": "Loddon", "capacity": 147130, "fsl": null, "role": "Loddon River" },
+    { "id": "tullaroop", "name": "Tullaroop Reservoir", "rss": "Tullaroop Reservoir", "kiwis": null, "system": "Loddon", "capacity": 72950, "fsl": null, "role": "Loddon system" }
+  ]
+}
