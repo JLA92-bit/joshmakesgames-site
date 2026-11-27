@@ -1,0 +1,14 @@
+{
+ "upper-coliban": {
+  "station_no": "UPPERCOLIBAN",
+  "name": "Upper Coliban Reservoir"
+ },
+ "lauriston": {
+  "station_no": "LAURISTON",
+  "name": "Lauriston Reservoir"
+ },
+ "malmsbury": {
+  "station_no": "MALMSBURY",
+  "name": "Malmsbury Reservoir"
+ }
+}

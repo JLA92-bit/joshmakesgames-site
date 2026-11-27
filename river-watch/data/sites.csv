@@ -1,18 +1,37 @@
-site,bom_number,name,river,datum,gauge_zero_m_ahd,minor,moderate,major,note
-406213,588006,Redesdale,Campaspe,gauge,213.053,5.3,,,Upstream of Lake Eppalock
-406207,581007,Lake Eppalock (downstream),Campaspe,AHD,,158.4,160.4,162.4,Below the dam wall
-406201,581002,Barnadown,Campaspe,gauge,132.489,3.8,4.4,5,
-406218,581008,Campaspe Weir (head gauge),Campaspe,AHD,120.133,121.2,121.4,121.6,Near Elmore
-406283,580011,Rochester Town,Campaspe,AHD,103.615,113,114,114.5,The gauge used in Rochester flood warnings
-406202,580010,Rochester Syphon,Campaspe,gauge,103.615,8,8.8,9.1,"Long record, used for older floods"
-406265,580014,Echuca (Campaspe),Campaspe,AHD,,92.8,94.4,95.7,Just above the Murray junction
-406214,,Gauge 406214 (GMW Water Status),Campaspe,gauge,,,,,From waterstatus.g-mwater.com.au; name fills in from WMIS
-409025,74246,Yarrawonga (downstream),Murray,gauge,,6.4,6.7,7.8,
-409202,574004,Tocumwal,Murray,gauge,103.83,6.4,6.7,7.3,
-409200,574000,Echuca Wharf / Moama,Murray,AHD,,93.5,93.9,94.4,At the Campaspe junction
-409207,574003,Torrumbarry Weir,Murray,gauge,78.545,7.3,7.6,7.8,
-409005,575000,Barham,Murray,gauge,71.434,5.5,5.8,6.1,
-409204,76112,Swan Hill,Murray,gauge,62.921,4.5,4.6,4.7,
-405232,580000,McCoys Bridge,Goulburn,gauge,91.422,9,10,10.2,"Lower Goulburn, joins the Murray upstream of Echuca"
-405204,81044,Shepparton,Goulburn,gauge,100.127,9.5,10.7,11,
-403200,582033,Wangaratta,Ovens,gauge,130.426,11.9,12.4,12.7,"Ovens River, joins the Murray at Lake Mulwala"
+site,bom_number,name,river,group,datum,gauge_zero_m_ahd,minor,moderate,major,note
+406213,588006,Redesdale,Campaspe,campaspe,gauge,213.053,5.3,,,Upstream of Lake Eppalock
+406219,581003,Lake Eppalock (dam level),Campaspe,campaspe,AHD,,,,,Head gauge at the dam. Full supply level 193.91 m AHD
+406207,581007,Lake Eppalock (downstream),Campaspe,campaspe,AHD,,158.4,160.4,162.4,Below the dam wall
+406201,581002,Barnadown,Campaspe,campaspe,gauge,132.489,3.8,4.4,5,Below the Axe Creek junction
+406218,581008,Campaspe Weir (head gauge),Campaspe,campaspe,AHD,120.133,121.2,121.4,121.6,"Near Elmore, 7.5 km above Rochester"
+406283,580011,Rochester Town,Campaspe,campaspe,AHD,103.615,113,114,114.5,"Bridge Road town gauge, used in Rochester flood warnings"
+406202,580010,Rochester Syphon,Campaspe,campaspe,gauge,103.615,8,8.8,9.1,Long record; flow measured here
+406265,580014,Echuca (Campaspe),Campaspe,campaspe,AHD,,92.8,94.4,95.7,"Above the Murray Valley Highway bridge, just above the Murray junction"
+106001A,,McIvor_R Elderslie,McIvor Creek,creeks,gauge,,,,,Downstream of Heathcote
+406262,581018,Axe Creek (Strathfieldsaye),Axe Creek,creeks,gauge,,,,,Upper Axe Creek
+406214,,Gauge 406214 (GMW Water Status),Axe Creek,creeks,gauge,,,,,From waterstatus.g-mwater.com.au. Name fills in from the gauge record
+406224,581017,Mount Pleasant Creek (Runnymede),Mount Pleasant Creek,creeks,gauge,,,,,Joins the Campaspe between Barnadown and Elmore
+405203,588125,Lake Eildon (downstream),Goulburn,goulburn,gauge,205.729,3,4,5,Releases from Lake Eildon
+405202,88126,Seymour,Goulburn,goulburn,gauge,130.244,3.8,5.2,7,
+405200,581001,Murchison,Goulburn,goulburn,gauge,108.679,9,10.2,10.7,Below Goulburn Weir
+405237,582017,Seven Creeks (Euroa),Seven Creeks,goulburn,gauge,172.895,2.5,4,4.6,
+405269,581016,Seven Creeks (Kialla West),Seven Creeks,goulburn,gauge,106.824,4.5,5,6.6,Above Shepparton
+404222,581015,Broken River (Orrvale),Broken,goulburn,gauge,108.339,6.8,7.2,7.9,Joins the Goulburn at Shepparton
+405204,81044,Shepparton,Goulburn,goulburn,gauge,100.127,9.5,10.7,11,
+405232,580000,McCoys Bridge,Goulburn,goulburn,gauge,91.422,9,10,10.2,Last Goulburn gauge before the Murray
+401204,82106,Mitta Mitta River (Tallandoon),Mitta Mitta,upper-murray,gauge,,,,,Below Dartmouth Dam
+409017,572003,Murray River (Doctors Point),Murray,upper-murray,gauge,,,,,Below Hume Dam and the Kiewa
+402205,582013,Kiewa River (Bandiana),Kiewa,upper-murray,gauge,153.229,2.8,3.1,3.3,
+409001,572000,Albury,Murray,upper-murray,gauge,147.435,4.3,4.9,5.5,
+409002,582003,Corowa,Murray,upper-murray,gauge,126.017,4.6,5.9,8.6,
+403200,582033,Ovens River (Wangaratta),Ovens,upper-murray,gauge,130.426,11.9,12.4,12.7,
+403241,582021,Ovens River (Peechelba East),Ovens,upper-murray,gauge,,,,,Last Ovens gauge
+409025,74246,Yarrawonga (downstream),Murray,upper-murray,gauge,,6.4,6.7,7.8,Below Lake Mulwala
+409202,574004,Tocumwal,Murray,upper-murray,gauge,103.83,6.4,6.7,7.3,
+409215,574001,Barmah,Murray,upper-murray,gauge,,,,,Below the Barmah Choke
+409200,574000,Echuca Wharf / Moama,Murray,echuca-down,AHD,,93.5,93.9,94.4,Below the Goulburn and Campaspe junctions
+409207,574003,Torrumbarry Weir,Murray,echuca-down,gauge,78.545,7.3,7.6,7.8,
+409003,574010,Edward River (Deniliquin),Edward,echuca-down,gauge,83.174,4.6,7.2,9.4,Takes Murray water around the Barmah Choke
+409005,575000,Barham,Murray,echuca-down,gauge,71.434,5.5,5.8,6.1,
+407242,580001,Loddon River (Kerang),Loddon,echuca-down,AHD,73.46,77,77.5,77.8,Murray Valley Highway
+409204,76112,Swan Hill,Murray,echuca-down,gauge,62.921,4.5,4.6,4.7,

@@ -1,5 +1,29 @@
 {
+ "401204": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
+ "402205": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
  "403200": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
+ "403241": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
+ "404222": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
+ "405202": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
+ "405203": {
   "portal": "vic",
   "ds": "PUBLISH"
  },
@@ -31,11 +55,23 @@
   "portal": "vic",
   "ds": "PUBLISH"
  },
+ "406224": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
+ "406262": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
  "406265": {
   "portal": "vic",
   "ds": "PUBLISH"
  },
  "406283": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
+ "407242": {
   "portal": "vic",
   "ds": "PUBLISH"
  },
@@ -52,6 +88,10 @@
   "ds": "PUBLISH"
  },
  "409207": {
+  "portal": "vic",
+  "ds": "PUBLISH"
+ },
+ "409215": {
   "portal": "vic",
   "ds": "PUBLISH"
  },

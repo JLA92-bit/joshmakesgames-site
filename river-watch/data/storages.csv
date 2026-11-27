@@ -1,0 +1,17 @@
+storage,name,system,capacity_ml,full_supply_level_m_ahd,role
+eppalock,Lake Eppalock,Campaspe,304651,193.91,"Holds the Campaspe and Coliban. When full, inflows spill straight down the river to Rochester."
+upper-coliban,Upper Coliban Reservoir,Campaspe,,,Top of the Coliban River
+lauriston,Lauriston Reservoir,Campaspe,,,Coliban River
+malmsbury,Malmsbury Reservoir,Campaspe,,,"Coliban River, last storage before Eppalock"
+eildon,Lake Eildon,Goulburn,3334158,,Main Goulburn storage
+goulburn-weir,Goulburn Weir,Goulburn,25500,,Diverts Goulburn water to Waranga Basin
+waranga,Waranga Basin,Goulburn,432360,,"Supplies the Waranga Western Channel, which crosses the Campaspe at Rochester"
+nillahcootie,Lake Nillahcootie,Goulburn,40400,,Broken River
+dartmouth,Dartmouth Dam,Murray,3856232,,"Mitta Mitta River, releases into Lake Hume"
+hume,Hume Dam,Murray,3005157,,Main Murray storage above Albury
+buffalo,Lake Buffalo,Murray,23504,,Ovens system
+william-hovell,Lake William Hovell,Murray,13690,,"King River, Ovens system"
+yarrawonga,Yarrawonga Weir (Lake Mulwala),Murray,117500,,Murray and Ovens meet here
+torrumbarry,Torrumbarry Weir,Murray,36810,,Below Echuca
+cairn-curran,Cairn Curran Reservoir,Loddon,147130,,Loddon River
+tullaroop,Tullaroop Reservoir,Loddon,72950,,Loddon system
