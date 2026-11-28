@@ -3,63 +3,63 @@
  "name": "Narre Warren North",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-north-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:05:59+00:00",
+ "fetched_at": "2026-11-28T15:14:47+00:00",
  "title": "Narre Warren North election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:05:09",
+ "last_updated": "Sunday, 29 November 2026 02:10:08",
  "enrolment": 53493,
- "formal": 32609,
- "informal": 2186,
- "total_votes": 34795,
- "counted_pct": 65.05,
+ "formal": 33634,
+ "informal": 2277,
+ "total_votes": 35911,
+ "counted_pct": 67.13,
  "notes": [],
  "primary": [
   {
    "candidate": "NATHANIELSZ, Shemane",
    "party": "Liberal",
-   "votes": 9656,
-   "pct": 29.61
+   "votes": 9970,
+   "pct": 29.64
   },
   {
    "candidate": "CRUTCHFIELD, Sebastian",
    "party": "One Nation Victoria",
-   "votes": 7810,
-   "pct": 23.95
+   "votes": 8030,
+   "pct": 23.87
   },
   {
    "candidate": "UTOYO, Joshua",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 273,
-   "pct": 0.84
+   "votes": 280,
+   "pct": 0.83
   },
   {
    "candidate": "EMMANUEL, Cristina",
    "party": "Family First",
-   "votes": 756,
-   "pct": 2.32
+   "votes": 793,
+   "pct": 2.36
   },
   {
    "candidate": "LEAHY, Martin",
    "party": "Legalise Cannabis Victoria",
-   "votes": 768,
-   "pct": 2.36
+   "votes": 788,
+   "pct": 2.34
   },
   {
    "candidate": "WILSON, Belinda",
    "party": "Australian Labor Party",
-   "votes": 8509,
-   "pct": 26.09
+   "votes": 8835,
+   "pct": 26.27
   },
   {
    "candidate": "PERRY, Hayley",
    "party": "The Greens",
-   "votes": 4205,
-   "pct": 12.9
+   "votes": 4292,
+   "pct": 12.76
   },
   {
    "candidate": "McCRACKEN, Lachlan",
    "party": "Victorian Socialists",
-   "votes": 632,
-   "pct": 1.94
+   "votes": 646,
+   "pct": 1.92
   }
  ],
  "tcp": [
