@@ -3,92 +3,92 @@
  "name": "South Eastern Metropolitan Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/South-Eastern-Metropolitan-Region-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:59:54+00:00",
+ "fetched_at": "2026-11-28T14:06:10+00:00",
  "title": "South-Eastern Metropolitan Region results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:55:14",
+ "last_updated": "Sunday, 29 November 2026 01:05:14",
  "enrolment": 598816,
- "formal": 116634,
- "informal": 6869,
- "total_votes": 123503,
- "counted_pct": 20.62,
+ "formal": 118459,
+ "informal": 7037,
+ "total_votes": 125496,
+ "counted_pct": 20.96,
  "notes": [],
  "primary": [
   {
    "candidate": "One Nation Victoria",
    "party": "One Nation Victoria",
-   "votes": 24566,
-   "pct": 21.06
+   "votes": 25031,
+   "pct": 21.13
   },
   {
    "candidate": "Christian Alliance Party - Reform AU",
    "party": "Christian Alliance Party - Reform AU",
-   "votes": 1119,
+   "votes": 1132,
    "pct": 0.96
   },
   {
    "candidate": "Citizens Party",
    "party": "Citizens Party",
-   "votes": 604,
-   "pct": 0.52
+   "votes": 610,
+   "pct": 0.51
   },
   {
    "candidate": "Australian Labor Party",
    "party": "Australian Labor Party",
-   "votes": 25656,
-   "pct": 22.0
+   "votes": 26093,
+   "pct": 22.03
   },
   {
    "candidate": "Victorian Socialists",
    "party": "Victorian Socialists",
-   "votes": 2916,
-   "pct": 2.5
+   "votes": 2977,
+   "pct": 2.51
   },
   {
    "candidate": "Legalise Cannabis Victoria",
    "party": "Legalise Cannabis Victoria",
-   "votes": 3877,
-   "pct": 3.32
+   "votes": 3961,
+   "pct": 3.34
   },
   {
    "candidate": "Affordable Housing Now – Sustainable Australia Party",
    "party": "Affordable Housing Now – Sustainable Australia Party",
-   "votes": 1253,
-   "pct": 1.07
+   "votes": 1274,
+   "pct": 1.08
   },
   {
    "candidate": "The Greens",
    "party": "The Greens",
-   "votes": 17832,
-   "pct": 15.29
+   "votes": 18121,
+   "pct": 15.3
   },
   {
    "candidate": "Libertarian (formerly Liberal Democrats)",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 1667,
-   "pct": 1.43
+   "votes": 1684,
+   "pct": 1.42
   },
   {
    "candidate": "Australian Democrats",
    "party": "Australian Democrats",
-   "votes": 595,
+   "votes": 605,
    "pct": 0.51
   },
   {
    "candidate": "Liberal",
    "party": "Liberal",
-   "votes": 35320,
-   "pct": 30.28
+   "votes": 35717,
+   "pct": 30.15
   },
   {
    "candidate": "Labour DLP",
    "party": "Labour DLP",
-   "votes": 1151,
+   "votes": 1175,
    "pct": 0.99
   },
   {
    "candidate": "ABEYSINGHE, Susantha",
    "party": "ABEYSINGHE, Susantha",
-   "votes": 78,
+   "votes": 79,
    "pct": 0.07
   }
  ],

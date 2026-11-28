@@ -3,9 +3,9 @@
  "name": "Laverton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/laverton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:57:08+00:00",
+ "fetched_at": "2026-11-28T14:05:57+00:00",
  "title": "Laverton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:55:06",
+ "last_updated": "Sunday, 29 November 2026 01:05:08",
  "enrolment": 56046,
  "formal": 23477,
  "informal": 2295,
@@ -72,14 +72,14 @@
   {
    "candidate": "CONNOLLY, Sarah",
    "party": "Australian Labor Party",
-   "votes": 8421,
-   "pct": 57.3
+   "votes": 12077,
+   "pct": 57.9
   },
   {
    "candidate": "NOUNE, Ghada",
    "party": "Liberal",
-   "votes": 6275,
-   "pct": 42.7
+   "votes": 8783,
+   "pct": 42.1
   }
  ],
  "links": {

@@ -3,9 +3,9 @@
  "name": "Benambra",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/benambra-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:57:01+00:00",
+ "fetched_at": "2026-11-28T14:05:50+00:00",
  "title": "Benambra election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:55:01",
+ "last_updated": "Sunday, 29 November 2026 01:05:02",
  "enrolment": 51973,
  "formal": 28506,
  "informal": 1860,
@@ -72,14 +72,14 @@
   {
    "candidate": "McKEEMAN, Lachie",
    "party": "",
-   "votes": 14423,
-   "pct": 51.44
+   "votes": 14647,
+   "pct": 51.4
   },
   {
    "candidate": "MARTIN, Steve",
    "party": "Liberal",
-   "votes": 13614,
-   "pct": 48.56
+   "votes": 13851,
+   "pct": 48.6
   }
  ],
  "links": {
