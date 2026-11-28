@@ -3,100 +3,100 @@
  "name": "Northern Victoria Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Northern-Victoria-Region-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:03:07+00:00",
+ "fetched_at": "2026-11-28T12:15:00+00:00",
  "title": "Northern Victoria Region election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:00:12",
+ "last_updated": "Saturday, 28 November 2026 23:10:12",
  "enrolment": 570598,
- "formal": 88686,
- "informal": 3775,
- "total_votes": 92461,
- "counted_pct": 16.2,
+ "formal": 93936,
+ "informal": 3954,
+ "total_votes": 97890,
+ "counted_pct": 17.16,
  "notes": [
-  "Close Back to Results by region Home Results 2026 state election results Region results Results by region Northern Victoria Region results Northern Victoria Region results Listen Provisional results Last updated: Saturday, 28 November 2026 23:00:12 These results are provisional."
+  "Close Back to Results by region Home Results 2026 state election results Region results Results by region Northern Victoria Region results Northern Victoria Region results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:12 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "Citizens Party",
    "party": "Citizens Party",
-   "votes": 602,
-   "pct": 0.68
+   "votes": 626,
+   "pct": 0.67
   },
   {
    "candidate": "Group B",
    "party": "Group B",
-   "votes": 671,
-   "pct": 0.76
+   "votes": 703,
+   "pct": 0.75
   },
   {
    "candidate": "Australian Labor Party",
    "party": "Australian Labor Party",
-   "votes": 9358,
-   "pct": 10.55
+   "votes": 10077,
+   "pct": 10.73
   },
   {
    "candidate": "Family First",
    "party": "Family First",
-   "votes": 1630,
-   "pct": 1.84
+   "votes": 1714,
+   "pct": 1.82
   },
   {
    "candidate": "Shooters, Fishers and Farmers Party Victoria",
    "party": "Shooters, Fishers and Farmers Party Victoria",
-   "votes": 2120,
+   "votes": 2241,
    "pct": 2.39
   },
   {
    "candidate": "Labour DLP",
    "party": "Labour DLP",
-   "votes": 440,
-   "pct": 0.5
+   "votes": 459,
+   "pct": 0.49
   },
   {
    "candidate": "Affordable Housing Now – Sustainable Australia Party",
    "party": "Affordable Housing Now – Sustainable Australia Party",
-   "votes": 989,
-   "pct": 1.12
+   "votes": 1066,
+   "pct": 1.13
   },
   {
    "candidate": "One Nation Victoria",
    "party": "One Nation Victoria",
-   "votes": 31916,
-   "pct": 35.99
+   "votes": 33396,
+   "pct": 35.55
   },
   {
    "candidate": "Animal Justice Party",
    "party": "Animal Justice Party",
-   "votes": 2298,
-   "pct": 2.59
+   "votes": 2672,
+   "pct": 2.84
   },
   {
    "candidate": "Liberal / The Nationals",
    "party": "Liberal / The Nationals",
-   "votes": 26183,
-   "pct": 29.52
+   "votes": 27535,
+   "pct": 29.31
   },
   {
    "candidate": "The Greens",
    "party": "The Greens",
-   "votes": 8944,
-   "pct": 10.09
+   "votes": 9660,
+   "pct": 10.28
   },
   {
    "candidate": "Legalise Cannabis Victoria",
    "party": "Legalise Cannabis Victoria",
-   "votes": 2067,
+   "votes": 2186,
    "pct": 2.33
   },
   {
    "candidate": "Victorian Socialists",
    "party": "Victorian Socialists",
-   "votes": 1412,
-   "pct": 1.59
+   "votes": 1542,
+   "pct": 1.64
   },
   {
    "candidate": "McHUGH, Nick",
    "party": "McHUGH, Nick",
-   "votes": 56,
+   "votes": 59,
    "pct": 0.06
   }
  ],
