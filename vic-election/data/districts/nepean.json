@@ -3,68 +3,68 @@
  "name": "Nepean",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/nepean-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:14:35+00:00",
+ "fetched_at": "2026-11-28T11:24:00+00:00",
  "title": "Nepean election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:10",
+ "last_updated": "Saturday, 28 November 2026 22:20:10",
  "enrolment": 51871,
- "formal": 10174,
- "informal": 563,
- "total_votes": 10737,
- "counted_pct": 20.7,
+ "formal": 10589,
+ "informal": 580,
+ "total_votes": 11169,
+ "counted_pct": 21.53,
  "notes": [],
  "primary": [
   {
    "candidate": "HEALY, Sianan",
    "party": "The Greens",
-   "votes": 1489,
-   "pct": 14.64
+   "votes": 1580,
+   "pct": 14.92
   },
   {
    "candidate": "SNOWBALL, Surbhi",
    "party": "Australian Labor Party",
-   "votes": 1014,
-   "pct": 9.97
+   "votes": 1053,
+   "pct": 9.94
   },
   {
    "candidate": "CHAMPION, Tamara",
    "party": "Animal Justice Party",
-   "votes": 216,
-   "pct": 2.12
+   "votes": 219,
+   "pct": 2.07
   },
   {
    "candidate": "HERCUS, Darren",
    "party": "One Nation Victoria",
-   "votes": 1854,
-   "pct": 18.22
+   "votes": 1961,
+   "pct": 18.52
   },
   {
    "candidate": "ROBBINS, Kim",
    "party": "",
-   "votes": 642,
-   "pct": 6.31
+   "votes": 674,
+   "pct": 6.37
   },
   {
    "candidate": "TOSCANO, Joseph",
    "party": "",
-   "votes": 32,
-   "pct": 0.31
+   "votes": 34,
+   "pct": 0.32
   },
   {
    "candidate": "WILLCOCKS, Seth",
    "party": "Victorian Socialists",
-   "votes": 128,
-   "pct": 1.26
+   "votes": 134,
+   "pct": 1.27
   },
   {
    "candidate": "MARSH, Anthony",
    "party": "Liberal",
-   "votes": 4712,
-   "pct": 46.31
+   "votes": 4843,
+   "pct": 45.74
   },
   {
    "candidate": "BROWN, Mike",
    "party": "Family First",
-   "votes": 87,
+   "votes": 91,
    "pct": 0.86
   }
  ],
@@ -72,14 +72,14 @@
   {
    "candidate": "HERCUS, Darren",
    "party": "One Nation Victoria",
-   "votes": 1346,
-   "pct": 30.67
+   "votes": 2378,
+   "pct": 25.79
   },
   {
    "candidate": "MARSH, Anthony",
    "party": "Liberal",
-   "votes": 3042,
-   "pct": 69.33
+   "votes": 6843,
+   "pct": 74.21
   }
  ],
  "links": {

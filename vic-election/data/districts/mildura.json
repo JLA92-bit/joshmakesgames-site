@@ -3,57 +3,57 @@
  "name": "Mildura",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mildura-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:20:15+00:00",
+ "fetched_at": "2026-11-28T11:23:25+00:00",
  "title": "Mildura election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:15:10",
+ "last_updated": "Saturday, 28 November 2026 22:20:10",
  "enrolment": 48557,
- "formal": 21372,
- "informal": 1216,
- "total_votes": 22588,
- "counted_pct": 46.52,
+ "formal": 22138,
+ "informal": 1304,
+ "total_votes": 23442,
+ "counted_pct": 48.28,
  "notes": [],
  "primary": [
   {
    "candidate": "NTAHOMVUKIYE, Joselyne",
    "party": "Family First",
-   "votes": 428,
-   "pct": 2.0
+   "votes": 463,
+   "pct": 2.09
   },
   {
    "candidate": "COOPER, Guy",
    "party": "One Nation Victoria",
-   "votes": 8214,
-   "pct": 38.43
+   "votes": 8474,
+   "pct": 38.28
   },
   {
    "candidate": "NAYEF, Renee",
    "party": "Victorian Socialists",
-   "votes": 225,
-   "pct": 1.05
+   "votes": 236,
+   "pct": 1.07
   },
   {
    "candidate": "BENHAM, Jade",
    "party": "The Nationals",
-   "votes": 9213,
-   "pct": 43.11
+   "votes": 9585,
+   "pct": 43.3
   },
   {
    "candidate": "FRIES, Vanessa",
    "party": "Animal Justice Party",
-   "votes": 259,
-   "pct": 1.21
+   "votes": 266,
+   "pct": 1.2
   },
   {
    "candidate": "ZIGOURAS, Stella",
    "party": "Australian Labor Party",
-   "votes": 1250,
+   "votes": 1294,
    "pct": 5.85
   },
   {
    "candidate": "CLEMENTS, Katie",
    "party": "The Greens",
-   "votes": 1783,
-   "pct": 8.34
+   "votes": 1820,
+   "pct": 8.22
   }
  ],
  "tcp": [

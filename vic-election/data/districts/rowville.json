@@ -3,71 +3,71 @@
  "name": "Rowville",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/rowville-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:14:38+00:00",
+ "fetched_at": "2026-11-28T11:24:04+00:00",
  "title": "Rowville election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:13",
+ "last_updated": "Saturday, 28 November 2026 22:20:12",
  "enrolment": 50564,
- "formal": 14662,
- "informal": 734,
- "total_votes": 15396,
- "counted_pct": 30.45,
+ "formal": 17400,
+ "informal": 828,
+ "total_votes": 18228,
+ "counted_pct": 36.05,
  "notes": [],
  "primary": [
   {
    "candidate": "MASSEY, David",
    "party": "The Greens",
-   "votes": 1922,
-   "pct": 13.11
+   "votes": 2214,
+   "pct": 12.72
   },
   {
    "candidate": "WILLIAMS, Max",
    "party": "Liberal",
-   "votes": 6882,
-   "pct": 46.94
+   "votes": 8364,
+   "pct": 48.07
   },
   {
    "candidate": "DOBRZYNSKI, Fiona",
    "party": "Family First",
-   "votes": 414,
-   "pct": 2.82
+   "votes": 453,
+   "pct": 2.6
   },
   {
    "candidate": "SHAHBAZ, Muhammad",
    "party": "Australian Labor Party",
-   "votes": 2193,
-   "pct": 14.96
+   "votes": 2545,
+   "pct": 14.63
   },
   {
    "candidate": "WATT, Bradley",
    "party": "One Nation Victoria",
-   "votes": 2752,
-   "pct": 18.77
+   "votes": 3255,
+   "pct": 18.71
   },
   {
    "candidate": "ROBSON, Scott",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 131,
-   "pct": 0.89
+   "votes": 150,
+   "pct": 0.86
   },
   {
    "candidate": "HIEMSTRA, Lars",
    "party": "Victorian Socialists",
-   "votes": 368,
-   "pct": 2.51
+   "votes": 419,
+   "pct": 2.41
   }
  ],
  "tcp": [
   {
    "candidate": "WILLIAMS, Max",
    "party": "Liberal",
-   "votes": 9855,
-   "pct": 71.4
+   "votes": 11947,
+   "pct": 72.23
   },
   {
    "candidate": "SHAHBAZ, Muhammad",
    "party": "Australian Labor Party",
-   "votes": 3947,
-   "pct": 28.6
+   "votes": 4593,
+   "pct": 27.77
   }
  ],
  "links": {

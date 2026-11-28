@@ -3,77 +3,77 @@
  "name": "Lowan",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lowan-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:14:33+00:00",
+ "fetched_at": "2026-11-28T11:23:59+00:00",
  "title": "Lowan election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:07",
+ "last_updated": "Saturday, 28 November 2026 22:20:07",
  "enrolment": 51035,
- "formal": 18203,
- "informal": 1360,
- "total_votes": 19563,
- "counted_pct": 38.33,
+ "formal": 19004,
+ "informal": 1434,
+ "total_votes": 20438,
+ "counted_pct": 40.05,
  "notes": [],
  "primary": [
   {
    "candidate": "BUTLER, Kieran",
    "party": "",
-   "votes": 370,
-   "pct": 2.03
+   "votes": 396,
+   "pct": 2.08
   },
   {
    "candidate": "HYSLOP, Karen",
    "party": "Australian Democrats",
-   "votes": 384,
-   "pct": 2.11
+   "votes": 402,
+   "pct": 2.12
   },
   {
    "candidate": "KEALY, Emma",
    "party": "The Nationals",
-   "votes": 7280,
-   "pct": 39.99
+   "votes": 7678,
+   "pct": 40.4
   },
   {
    "candidate": "PAVLOVICH, Sue",
    "party": "Australian Labor Party",
-   "votes": 1508,
-   "pct": 8.28
+   "votes": 1585,
+   "pct": 8.34
   },
   {
    "candidate": "ELMES, Lee-Ann",
    "party": "Family First",
-   "votes": 413,
-   "pct": 2.27
+   "votes": 421,
+   "pct": 2.22
   },
   {
    "candidate": "PARTRIDGE, Andrew",
    "party": "One Nation Victoria",
-   "votes": 6370,
-   "pct": 34.99
+   "votes": 6599,
+   "pct": 34.72
   },
   {
    "candidate": "DOWNEY, Jos",
    "party": "Victorian Socialists",
-   "votes": 235,
-   "pct": 1.29
+   "votes": 237,
+   "pct": 1.25
   },
   {
    "candidate": "MORAN, Jeff",
    "party": "The Greens",
-   "votes": 1643,
-   "pct": 9.03
+   "votes": 1686,
+   "pct": 8.87
   }
  ],
  "tcp": [
   {
    "candidate": "KEALY, Emma",
    "party": "The Nationals",
-   "votes": 10242,
-   "pct": 59.73
+   "votes": 10774,
+   "pct": 60.03
   },
   {
    "candidate": "PARTRIDGE, Andrew",
    "party": "One Nation Victoria",
-   "votes": 6906,
-   "pct": 40.27
+   "votes": 7175,
+   "pct": 39.97
   }
  ],
  "links": {

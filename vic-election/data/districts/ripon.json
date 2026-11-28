@@ -3,9 +3,9 @@
  "name": "Ripon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ripon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:20:19+00:00",
+ "fetched_at": "2026-11-28T11:23:40+00:00",
  "title": "Ripon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:15:12",
+ "last_updated": "Saturday, 28 November 2026 22:20:12",
  "enrolment": 54525,
  "formal": 19571,
  "informal": 1881,
@@ -90,14 +90,14 @@
   {
    "candidate": "HAYLETT, Martha",
    "party": "Australian Labor Party",
-   "votes": 5716,
-   "pct": 40.72
+   "votes": 5892,
+   "pct": 40.32
   },
   {
    "candidate": "BUXTON, Donna",
    "party": "One Nation Victoria",
-   "votes": 8323,
-   "pct": 59.28
+   "votes": 8720,
+   "pct": 59.68
   }
  ],
  "links": {

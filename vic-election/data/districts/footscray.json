@@ -3,119 +3,119 @@
  "name": "Footscray",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/footscray-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:14:29+00:00",
+ "fetched_at": "2026-11-28T11:23:57+00:00",
  "title": "Footscray election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:05",
+ "last_updated": "Saturday, 28 November 2026 22:20:05",
  "enrolment": 51960,
- "formal": 24813,
- "informal": 2266,
- "total_votes": 27079,
- "counted_pct": 52.12,
+ "formal": 27603,
+ "informal": 2500,
+ "total_votes": 30103,
+ "counted_pct": 57.93,
  "notes": [],
  "primary": [
   {
    "candidate": "DINH, Hai",
    "party": "",
-   "votes": 397,
-   "pct": 1.6
+   "votes": 452,
+   "pct": 1.64
   },
   {
    "candidate": "PEREYRA, Elena",
    "party": "The Greens",
-   "votes": 6257,
-   "pct": 25.22
+   "votes": 6807,
+   "pct": 24.66
   },
   {
    "candidate": "NGUYEN, Minh Quan",
    "party": "The West Party",
-   "votes": 312,
-   "pct": 1.26
+   "votes": 362,
+   "pct": 1.31
   },
   {
    "candidate": "FELATE, Andualem",
    "party": "The Republican",
-   "votes": 60,
+   "votes": 65,
    "pct": 0.24
   },
   {
    "candidate": "HESS, Kristina",
    "party": "I'm Voting to Avoid the Fine",
-   "votes": 71,
-   "pct": 0.29
+   "votes": 87,
+   "pct": 0.32
   },
   {
    "candidate": "LOPEZ, Alexander",
    "party": "One Nation Victoria",
-   "votes": 1943,
-   "pct": 7.83
+   "votes": 2282,
+   "pct": 8.27
   },
   {
    "candidate": "LEWIS, Daniel",
    "party": "Free Palestine",
-   "votes": 58,
+   "votes": 64,
    "pct": 0.23
   },
   {
    "candidate": "IBRAHIM, Marcus",
    "party": "",
-   "votes": 44,
-   "pct": 0.18
+   "votes": 48,
+   "pct": 0.17
   },
   {
    "candidate": "FLORES, Ana",
    "party": "Family First",
-   "votes": 159,
-   "pct": 0.64
+   "votes": 190,
+   "pct": 0.69
   },
   {
    "candidate": "HALL, Katie",
    "party": "Australian Labor Party",
-   "votes": 5403,
-   "pct": 21.77
+   "votes": 6068,
+   "pct": 21.98
   },
   {
    "candidate": "MARSH, Jess",
    "party": "",
-   "votes": 1540,
-   "pct": 6.21
+   "votes": 1640,
+   "pct": 5.94
   },
   {
    "candidate": "CALDER, Daryle",
    "party": "Climate Action Now",
-   "votes": 34,
-   "pct": 0.14
+   "votes": 43,
+   "pct": 0.16
   },
   {
    "candidate": "CUMMING, Catherine",
    "party": "",
-   "votes": 210,
-   "pct": 0.85
+   "votes": 233,
+   "pct": 0.84
   },
   {
    "candidate": "CHANG, Tim",
    "party": "Liberal",
-   "votes": 4425,
-   "pct": 17.83
+   "votes": 5153,
+   "pct": 18.67
   },
   {
    "candidate": "DUFF, Jasmine",
    "party": "Victorian Socialists",
-   "votes": 3900,
-   "pct": 15.72
+   "votes": 4109,
+   "pct": 14.89
   }
  ],
  "tcp": [
   {
    "candidate": "PEREYRA, Elena",
    "party": "The Greens",
-   "votes": 4166,
-   "pct": 64.44
+   "votes": 4942,
+   "pct": 64.21
   },
   {
    "candidate": "HALL, Katie",
    "party": "Australian Labor Party",
-   "votes": 2299,
-   "pct": 35.56
+   "votes": 2755,
+   "pct": 35.79
   }
  ],
  "links": {

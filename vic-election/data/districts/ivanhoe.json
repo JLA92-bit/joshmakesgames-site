@@ -3,9 +3,9 @@
  "name": "Ivanhoe",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ivanhoe-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:14:32+00:00",
+ "fetched_at": "2026-11-28T11:23:58+00:00",
  "title": "Ivanhoe election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:07",
+ "last_updated": "Saturday, 28 November 2026 22:20:07",
  "enrolment": 50245,
  "formal": 15084,
  "informal": 908,
@@ -66,13 +66,13 @@
   {
    "candidate": "CARBINES, Anthony",
    "party": "Australian Labor Party",
-   "votes": 7825,
+   "votes": 7920,
    "pct": 52.52
   },
   {
    "candidate": "LOPEZ RIOS, Oscar",
    "party": "Liberal",
-   "votes": 7075,
+   "votes": 7160,
    "pct": 47.48
   }
  ],
