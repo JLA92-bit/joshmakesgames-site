@@ -3,57 +3,57 @@
  "name": "Gippsland South",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-south-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:23:57+00:00",
+ "fetched_at": "2026-11-28T11:32:59+00:00",
  "title": "Gippsland South election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:07",
+ "last_updated": "Saturday, 28 November 2026 22:30:07",
  "enrolment": 50953,
- "formal": 19409,
- "informal": 1152,
- "total_votes": 20561,
- "counted_pct": 40.35,
+ "formal": 20129,
+ "informal": 1217,
+ "total_votes": 21346,
+ "counted_pct": 41.89,
  "notes": [],
  "primary": [
   {
    "candidate": "BARRY-MACAULAY, Amy",
    "party": "Australian Labor Party",
-   "votes": 2081,
-   "pct": 10.72
+   "votes": 2143,
+   "pct": 10.65
   },
   {
    "candidate": "McAULIFFE, Jessica",
    "party": "Animal Justice Party",
-   "votes": 421,
-   "pct": 2.17
+   "votes": 431,
+   "pct": 2.14
   },
   {
    "candidate": "O'BRIEN, Danny",
    "party": "The Nationals",
-   "votes": 7240,
-   "pct": 37.3
+   "votes": 7538,
+   "pct": 37.45
   },
   {
    "candidate": "SCHUHMANN, Phillip",
    "party": "",
-   "votes": 215,
-   "pct": 1.11
+   "votes": 218,
+   "pct": 1.08
   },
   {
    "candidate": "EVANS, Zave",
    "party": "The Greens",
-   "votes": 2151,
-   "pct": 11.08
+   "votes": 2195,
+   "pct": 10.9
   },
   {
    "candidate": "McGENNISKEN, Lachie",
    "party": "Victorian Socialists",
-   "votes": 332,
-   "pct": 1.71
+   "votes": 339,
+   "pct": 1.68
   },
   {
    "candidate": "WILKIE, Bianca",
    "party": "One Nation Victoria",
-   "votes": 6969,
-   "pct": 35.91
+   "votes": 7265,
+   "pct": 36.09
   }
  ],
  "tcp": [

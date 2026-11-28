@@ -3,9 +3,9 @@
  "name": "Lowan",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lowan-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:23:59+00:00",
+ "fetched_at": "2026-11-28T11:32:59+00:00",
  "title": "Lowan election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:07",
+ "last_updated": "Saturday, 28 November 2026 22:30:07",
  "enrolment": 51035,
  "formal": 19004,
  "informal": 1434,
@@ -66,14 +66,14 @@
   {
    "candidate": "KEALY, Emma",
    "party": "The Nationals",
-   "votes": 10774,
-   "pct": 60.03
+   "votes": 10982,
+   "pct": 59.94
   },
   {
    "candidate": "PARTRIDGE, Andrew",
    "party": "One Nation Victoria",
-   "votes": 7175,
-   "pct": 39.97
+   "votes": 7339,
+   "pct": 40.06
   }
  ],
  "links": {

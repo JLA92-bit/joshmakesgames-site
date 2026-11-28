@@ -3,69 +3,69 @@
  "name": "Benambra",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/benambra-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:23:50+00:00",
+ "fetched_at": "2026-11-28T11:32:53+00:00",
  "title": "Benambra election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:02",
+ "last_updated": "Saturday, 28 November 2026 22:30:02",
  "enrolment": 51973,
- "formal": 16041,
- "informal": 1018,
- "total_votes": 17059,
- "counted_pct": 32.82,
+ "formal": 16934,
+ "informal": 1122,
+ "total_votes": 18056,
+ "counted_pct": 34.74,
  "notes": [],
  "primary": [
   {
    "candidate": "FUERY, Mike",
    "party": "Animal Justice Party",
-   "votes": 329,
-   "pct": 2.05
+   "votes": 361,
+   "pct": 2.13
   },
   {
    "candidate": "PARTON, Graham",
    "party": "The Greens",
-   "votes": 784,
-   "pct": 4.89
+   "votes": 842,
+   "pct": 4.97
   },
   {
    "candidate": "YOUNG, Oliver",
    "party": "Australian Labor Party",
-   "votes": 637,
-   "pct": 3.97
+   "votes": 683,
+   "pct": 4.03
   },
   {
    "candidate": "VANGALEN, Alex",
    "party": "Victorian Socialists",
-   "votes": 177,
+   "votes": 186,
    "pct": 1.1
   },
   {
    "candidate": "McKEEMAN, Lachie",
    "party": "",
-   "votes": 5349,
-   "pct": 33.35
+   "votes": 5603,
+   "pct": 33.09
   },
   {
    "candidate": "MARTIN, Steve",
    "party": "Liberal",
-   "votes": 4040,
-   "pct": 25.19
+   "votes": 4237,
+   "pct": 25.02
   },
   {
    "candidate": "SHEPPARD, Kellie",
    "party": "One Nation Victoria",
-   "votes": 4372,
-   "pct": 27.26
+   "votes": 4630,
+   "pct": 27.34
   },
   {
    "candidate": "PEPPER, Evette",
    "party": "Family First",
-   "votes": 214,
-   "pct": 1.33
+   "votes": 240,
+   "pct": 1.42
   },
   {
    "candidate": "QUILTY, Tim",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 139,
-   "pct": 0.87
+   "votes": 152,
+   "pct": 0.9
   }
  ],
  "tcp": [

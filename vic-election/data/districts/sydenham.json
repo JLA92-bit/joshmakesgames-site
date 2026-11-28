@@ -3,9 +3,9 @@
  "name": "Sydenham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sydenham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:29:24+00:00",
+ "fetched_at": "2026-11-28T11:32:48+00:00",
  "title": "Sydenham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:25:15",
+ "last_updated": "Saturday, 28 November 2026 22:30:14",
  "enrolment": 64794,
  "formal": 12398,
  "informal": 1330,
@@ -90,14 +90,14 @@
   {
    "candidate": "MOUSSI, Nathalie",
    "party": "Liberal",
-   "votes": 3601,
-   "pct": 61.05
+   "votes": 3698,
+   "pct": 61.28
   },
   {
    "candidate": "RASIC, Uros",
    "party": "Australian Labor Party",
-   "votes": 2297,
-   "pct": 38.95
+   "votes": 2337,
+   "pct": 38.72
   }
  ],
  "links": {

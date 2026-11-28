@@ -3,63 +3,63 @@
  "name": "Bulleen",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bulleen-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:23:53+00:00",
+ "fetched_at": "2026-11-28T11:32:56+00:00",
  "title": "Bulleen election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:02",
+ "last_updated": "Saturday, 28 November 2026 22:30:02",
  "enrolment": 51233,
- "formal": 15650,
- "informal": 958,
- "total_votes": 16608,
- "counted_pct": 32.42,
+ "formal": 18969,
+ "informal": 1168,
+ "total_votes": 20137,
+ "counted_pct": 39.3,
  "notes": [],
  "primary": [
   {
    "candidate": "RUBLEE, Greg",
    "party": "",
-   "votes": 346,
-   "pct": 2.21
+   "votes": 410,
+   "pct": 2.16
   },
   {
    "candidate": "LIGHTBODY, Tomas",
    "party": "The Greens",
-   "votes": 1907,
-   "pct": 12.19
+   "votes": 2361,
+   "pct": 12.45
   },
   {
    "candidate": "HARVEY, Bradley",
    "party": "Family First",
-   "votes": 237,
-   "pct": 1.51
+   "votes": 289,
+   "pct": 1.52
   },
   {
    "candidate": "GUY, Matthew",
    "party": "Liberal",
-   "votes": 8300,
-   "pct": 53.04
+   "votes": 10067,
+   "pct": 53.07
   },
   {
    "candidate": "PALIOURAS, Amanda",
    "party": "",
-   "votes": 151,
-   "pct": 0.96
+   "votes": 171,
+   "pct": 0.9
   },
   {
    "candidate": "TAFIDIS, Dimitrios",
    "party": "Victorian Socialists",
-   "votes": 356,
-   "pct": 2.27
+   "votes": 445,
+   "pct": 2.35
   },
   {
    "candidate": "DALE, Tim",
    "party": "Australian Labor Party",
-   "votes": 2443,
-   "pct": 15.61
+   "votes": 2979,
+   "pct": 15.7
   },
   {
    "candidate": "ATHARI, Mahdi",
    "party": "One Nation Victoria",
-   "votes": 1910,
-   "pct": 12.2
+   "votes": 2247,
+   "pct": 11.85
   }
  ],
  "tcp": [

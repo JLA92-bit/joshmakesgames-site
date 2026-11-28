@@ -3,57 +3,57 @@
  "name": "Gippsland East",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-east-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:29:11+00:00",
+ "fetched_at": "2026-11-28T11:32:09+00:00",
  "title": "Gippsland East election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:25:07",
+ "last_updated": "Saturday, 28 November 2026 22:30:07",
  "enrolment": 51687,
- "formal": 19831,
- "informal": 1035,
- "total_votes": 20866,
- "counted_pct": 40.37,
+ "formal": 20100,
+ "informal": 1059,
+ "total_votes": 21159,
+ "counted_pct": 40.94,
  "notes": [],
  "primary": [
   {
    "candidate": "ESPESETH, Amy",
    "party": "Victorian Socialists",
-   "votes": 562,
-   "pct": 2.83
+   "votes": 576,
+   "pct": 2.87
   },
   {
    "candidate": "STEPHENS, Sonny",
    "party": "Australian Labor Party",
-   "votes": 1527,
-   "pct": 7.7
+   "votes": 1560,
+   "pct": 7.76
   },
   {
    "candidate": "MUNRO, Ash",
    "party": "The Greens",
-   "votes": 1925,
-   "pct": 9.71
+   "votes": 1972,
+   "pct": 9.81
   },
   {
    "candidate": "RENDELL, Gemma",
    "party": "The Nationals",
-   "votes": 7018,
-   "pct": 35.39
+   "votes": 7115,
+   "pct": 35.4
   },
   {
    "candidate": "WATERS, Alison",
    "party": "Family First",
-   "votes": 265,
+   "votes": 270,
    "pct": 1.34
   },
   {
    "candidate": "GOODMAN, Steve",
    "party": "One Nation Victoria",
-   "votes": 7957,
-   "pct": 40.12
+   "votes": 8020,
+   "pct": 39.9
   },
   {
    "candidate": "MUIR, Ricky",
    "party": "Shooters, Fishers and Farmers Party Victoria",
-   "votes": 577,
-   "pct": 2.91
+   "votes": 587,
+   "pct": 2.92
   }
  ],
  "tcp": [
@@ -90,27 +90,27 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "ESPESETH, Amy Victorian Socialists": 562.0,
-     "STEPHENS, Sonny Australian Labor Party": 1527.0,
-     "MUNRO, Ash The Greens": 1925.0,
-     "RENDELL, Gemma The Nationals": 7018.0,
-     "WATERS, Alison Family First": 265.0,
-     "GOODMAN, Steve One Nation Victoria": 7957.0,
-     "MUIR, Ricky Shooters, Fishers and Farmers Party Victoria": 577.0,
-     "Informal votes": 1035.0,
-     "Total votes polled": 20866.0
+     "ESPESETH, Amy Victorian Socialists": 576.0,
+     "STEPHENS, Sonny Australian Labor Party": 1560.0,
+     "MUNRO, Ash The Greens": 1972.0,
+     "RENDELL, Gemma The Nationals": 7115.0,
+     "WATERS, Alison Family First": 270.0,
+     "GOODMAN, Steve One Nation Victoria": 8020.0,
+     "MUIR, Ricky Shooters, Fishers and Farmers Party Victoria": 587.0,
+     "Informal votes": 1059.0,
+     "Total votes polled": 21159.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "ESPESETH, Amy Victorian Socialists": 2.83,
-     "STEPHENS, Sonny Australian Labor Party": 7.7,
-     "MUNRO, Ash The Greens": 9.71,
-     "RENDELL, Gemma The Nationals": 35.39,
+     "ESPESETH, Amy Victorian Socialists": 2.87,
+     "STEPHENS, Sonny Australian Labor Party": 7.76,
+     "MUNRO, Ash The Greens": 9.81,
+     "RENDELL, Gemma The Nationals": 35.4,
      "WATERS, Alison Family First": 1.34,
-     "GOODMAN, Steve One Nation Victoria": 40.12,
-     "MUIR, Ricky Shooters, Fishers and Farmers Party Victoria": 2.91
+     "GOODMAN, Steve One Nation Victoria": 39.9,
+     "MUIR, Ricky Shooters, Fishers and Farmers Party Victoria": 2.92
     }
    },
    {
@@ -670,15 +670,15 @@
    {
     "booth": "Gippsland East - MEVC",
     "values": {
-     "ESPESETH, Amy Victorian Socialists": 0.0,
-     "STEPHENS, Sonny Australian Labor Party": 0.0,
-     "MUNRO, Ash The Greens": 0.0,
-     "RENDELL, Gemma The Nationals": 0.0,
-     "WATERS, Alison Family First": 0.0,
-     "GOODMAN, Steve One Nation Victoria": 0.0,
-     "MUIR, Ricky Shooters, Fishers and Farmers Party Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "ESPESETH, Amy Victorian Socialists": 14.0,
+     "STEPHENS, Sonny Australian Labor Party": 33.0,
+     "MUNRO, Ash The Greens": 47.0,
+     "RENDELL, Gemma The Nationals": 97.0,
+     "WATERS, Alison Family First": 5.0,
+     "GOODMAN, Steve One Nation Victoria": 63.0,
+     "MUIR, Ricky Shooters, Fishers and Farmers Party Victoria": 10.0,
+     "Informal votes": 24.0,
+     "Total votes polled": 293.0
     }
    },
    {
@@ -698,15 +698,15 @@
    {
     "booth": "Early votes total",
     "values": {
-     "ESPESETH, Amy Victorian Socialists": 60.0,
-     "STEPHENS, Sonny Australian Labor Party": 288.0,
-     "MUNRO, Ash The Greens": 289.0,
-     "RENDELL, Gemma The Nationals": 1518.0,
-     "WATERS, Alison Family First": 56.0,
-     "GOODMAN, Steve One Nation Victoria": 1907.0,
-     "MUIR, Ricky Shooters, Fishers and Farmers Party Victoria": 142.0,
-     "Informal votes": 192.0,
-     "Total votes polled": 4452.0
+     "ESPESETH, Amy Victorian Socialists": 74.0,
+     "STEPHENS, Sonny Australian Labor Party": 321.0,
+     "MUNRO, Ash The Greens": 336.0,
+     "RENDELL, Gemma The Nationals": 1615.0,
+     "WATERS, Alison Family First": 61.0,
+     "GOODMAN, Steve One Nation Victoria": 1970.0,
+     "MUIR, Ricky Shooters, Fishers and Farmers Party Victoria": 152.0,
+     "Informal votes": 216.0,
+     "Total votes polled": 4745.0
     }
    },
    {

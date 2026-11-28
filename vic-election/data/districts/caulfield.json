@@ -3,71 +3,71 @@
  "name": "Caulfield",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/caulfield-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:23:54+00:00",
+ "fetched_at": "2026-11-28T11:32:55+00:00",
  "title": "Caulfield election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:05",
+ "last_updated": "Saturday, 28 November 2026 22:30:04",
  "enrolment": 51087,
- "formal": 15191,
- "informal": 542,
- "total_votes": 15733,
- "counted_pct": 30.8,
+ "formal": 16078,
+ "informal": 580,
+ "total_votes": 16658,
+ "counted_pct": 32.61,
  "notes": [],
  "primary": [
   {
    "candidate": "DOLEJŠÍ, Angel",
    "party": "The Greens",
-   "votes": 3200,
-   "pct": 21.07
+   "votes": 3500,
+   "pct": 21.77
   },
   {
    "candidate": "SHROOT, Yaakov Ziv",
    "party": "",
-   "votes": 197,
+   "votes": 209,
    "pct": 1.3
   },
   {
    "candidate": "ABABNEH, Malak",
    "party": "Victorian Socialists",
-   "votes": 668,
-   "pct": 4.4
+   "votes": 752,
+   "pct": 4.68
   },
   {
    "candidate": "STAFRACE, Mikaela",
    "party": "Australian Labor Party",
-   "votes": 2294,
-   "pct": 15.1
+   "votes": 2468,
+   "pct": 15.35
   },
   {
    "candidate": "GILBERT, Geneviève",
    "party": "Family First",
-   "votes": 109,
-   "pct": 0.72
+   "votes": 112,
+   "pct": 0.7
   },
   {
    "candidate": "SOUTHWICK, David",
    "party": "Liberal",
-   "votes": 7565,
-   "pct": 49.8
+   "votes": 7832,
+   "pct": 48.71
   },
   {
    "candidate": "ABELMAN, Michael",
    "party": "One Nation Victoria",
-   "votes": 1158,
-   "pct": 7.62
+   "votes": 1205,
+   "pct": 7.49
   }
  ],
  "tcp": [
   {
    "candidate": "STAFRACE, Mikaela",
    "party": "Australian Labor Party",
-   "votes": 3177,
-   "pct": 44.72
+   "votes": 3706,
+   "pct": 46.38
   },
   {
    "candidate": "SOUTHWICK, David",
    "party": "Liberal",
-   "votes": 3927,
-   "pct": 55.28
+   "votes": 4285,
+   "pct": 53.62
   }
  ],
  "links": {

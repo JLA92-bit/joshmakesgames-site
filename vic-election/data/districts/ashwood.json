@@ -3,13 +3,13 @@
  "name": "Ashwood",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ashwood-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:23:50+00:00",
+ "fetched_at": "2026-11-28T11:32:52+00:00",
  "title": "Ashwood election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:02",
+ "last_updated": "Saturday, 28 November 2026 22:30:02",
  "enrolment": 53131,
- "formal": 17334,
+ "formal": 17335,
  "informal": 676,
- "total_votes": 18010,
+ "total_votes": 18011,
  "counted_pct": 33.9,
  "notes": [],
  "primary": [
@@ -52,7 +52,7 @@
   {
    "candidate": "MITCHELL, Steven",
    "party": "One Nation Victoria",
-   "votes": 1480,
+   "votes": 1481,
    "pct": 8.54
   }
  ],
