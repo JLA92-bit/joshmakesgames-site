@@ -3,14 +3,14 @@
  "name": "Frankston",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:14:47+00:00",
+ "fetched_at": "2026-11-28T13:18:19+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:10:05",
+ "last_updated": "Sunday, 29 November 2026 00:15:05",
  "enrolment": 51237,
- "formal": 18389,
+ "formal": 18393,
  "informal": 1301,
- "total_votes": 19690,
- "counted_pct": 38.43,
+ "total_votes": 19694,
+ "counted_pct": 38.44,
  "notes": [],
  "primary": [
   {
@@ -35,31 +35,31 @@
    "candidate": "NICHOLES, Peter",
    "party": "Family First",
    "votes": 297,
-   "pct": 1.62
+   "pct": 1.61
   },
   {
    "candidate": "EDBROOKE, Paul",
    "party": "Australian Labor Party",
-   "votes": 3650,
-   "pct": 19.85
+   "votes": 3653,
+   "pct": 19.86
   },
   {
    "candidate": "ABRAHAM, Chrysten",
    "party": "",
-   "votes": 340,
-   "pct": 1.85
+   "votes": 339,
+   "pct": 1.84
   },
   {
    "candidate": "AMBRY, Bree",
    "party": "Liberal",
-   "votes": 5139,
+   "votes": 5141,
    "pct": 27.95
   },
   {
    "candidate": "STAFFORD, Paul",
    "party": "One Nation Victoria",
    "votes": 3988,
-   "pct": 21.69
+   "pct": 21.68
   },
   {
    "candidate": "HARMAN, Julie",
@@ -70,28 +70,28 @@
   {
    "candidate": "GOULAS, Katie",
    "party": "The Greens",
-   "votes": 2993,
+   "votes": 2994,
    "pct": 16.28
   },
   {
    "candidate": "CHEESEMAN, Andrew",
    "party": "Victorian Socialists",
-   "votes": 584,
-   "pct": 3.18
+   "votes": 583,
+   "pct": 3.17
   }
  ],
  "tcp": [
   {
    "candidate": "EDBROOKE, Paul",
    "party": "Australian Labor Party",
-   "votes": 7736,
-   "pct": 44.08
+   "votes": 8124,
+   "pct": 44.18
   },
   {
    "candidate": "AMBRY, Bree",
    "party": "Liberal",
-   "votes": 9812,
-   "pct": 55.92
+   "votes": 10263,
+   "pct": 55.82
   }
  ],
  "links": {

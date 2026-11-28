@@ -3,9 +3,9 @@
  "name": "Morwell",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/morwell-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:14:32+00:00",
+ "fetched_at": "2026-11-28T13:17:49+00:00",
  "title": "Morwell election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:10:10",
+ "last_updated": "Sunday, 29 November 2026 00:15:10",
  "enrolment": 55328,
  "formal": 26568,
  "informal": 1393,
@@ -60,14 +60,14 @@
   {
    "candidate": "CAMERON, Martin",
    "party": "The Nationals",
-   "votes": 6426,
-   "pct": 53.17
+   "votes": 14580,
+   "pct": 55.48
   },
   {
    "candidate": "MURPHY, Casey",
    "party": "One Nation Victoria",
-   "votes": 5660,
-   "pct": 46.83
+   "votes": 11699,
+   "pct": 44.52
   }
  ],
  "links": {

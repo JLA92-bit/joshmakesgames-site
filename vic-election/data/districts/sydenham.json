@@ -3,9 +3,9 @@
  "name": "Sydenham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sydenham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:14:38+00:00",
+ "fetched_at": "2026-11-28T13:18:05+00:00",
  "title": "Sydenham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:10:15",
+ "last_updated": "Sunday, 29 November 2026 00:15:15",
  "enrolment": 64794,
  "formal": 13775,
  "informal": 1493,
@@ -90,14 +90,14 @@
   {
    "candidate": "MOUSSI, Nathalie",
    "party": "Liberal",
-   "votes": 7558,
-   "pct": 60.67
+   "votes": 7657,
+   "pct": 60.54
   },
   {
    "candidate": "RASIC, Uros",
    "party": "Australian Labor Party",
-   "votes": 4900,
-   "pct": 39.33
+   "votes": 4990,
+   "pct": 39.46
   }
  ],
  "links": {
@@ -735,18 +735,18 @@
    {
     "booth": "Total two candidate preferred votes",
     "values": {
-     "MOUSSI, Nathalie Liberal": 7558.0,
-     "RASIC, Uros Australian Labor Party": 4900.0,
+     "MOUSSI, Nathalie Liberal": 7657.0,
+     "RASIC, Uros Australian Labor Party": 4990.0,
      "Miss-sorts": 3.0,
-     "Informal votes": 1337.0,
-     "Total votes polled": 13798.0
+     "Informal votes": 1360.0,
+     "Total votes polled": 14010.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "MOUSSI, Nathalie Liberal": 60.67,
-     "RASIC, Uros Australian Labor Party": 39.33
+     "MOUSSI, Nathalie Liberal": 60.54,
+     "RASIC, Uros Australian Labor Party": 39.46
     }
    },
    {
@@ -970,11 +970,11 @@
    {
     "booth": "Sydenham - MEVC",
     "values": {
-     "MOUSSI, Nathalie Liberal": 0.0,
-     "RASIC, Uros Australian Labor Party": 0.0,
+     "MOUSSI, Nathalie Liberal": 99.0,
+     "RASIC, Uros Australian Labor Party": 90.0,
      "Miss-sorts": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "Informal votes": 23.0,
+     "Total votes polled": 212.0
     }
    },
    {
@@ -990,11 +990,11 @@
    {
     "booth": "Early votes total",
     "values": {
-     "MOUSSI, Nathalie Liberal": 0.0,
-     "RASIC, Uros Australian Labor Party": 0.0,
+     "MOUSSI, Nathalie Liberal": 99.0,
+     "RASIC, Uros Australian Labor Party": 90.0,
      "Miss-sorts": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "Informal votes": 23.0,
+     "Total votes polled": 212.0
     }
    },
    {

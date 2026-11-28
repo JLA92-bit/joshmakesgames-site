@@ -3,71 +3,71 @@
  "name": "Bendigo West",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:09:04+00:00",
+ "fetched_at": "2026-11-28T13:18:12+00:00",
  "title": "Bendigo West election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:05:03",
+ "last_updated": "Sunday, 29 November 2026 00:15:02",
  "enrolment": 49735,
- "formal": 12030,
- "informal": 563,
- "total_votes": 12593,
- "counted_pct": 25.32,
+ "formal": 13612,
+ "informal": 632,
+ "total_votes": 14244,
+ "counted_pct": 28.64,
  "notes": [],
  "primary": [
   {
    "candidate": "SHALEVSKI, Tayne",
    "party": "Victorian Socialists",
-   "votes": 681,
-   "pct": 5.66
+   "votes": 809,
+   "pct": 5.94
   },
   {
    "candidate": "HUTCHINGS, David",
    "party": "The Nationals",
-   "votes": 3169,
-   "pct": 26.34
+   "votes": 3405,
+   "pct": 25.01
   },
   {
    "candidate": "TRANTER, Debra",
    "party": "Animal Justice Party",
-   "votes": 542,
-   "pct": 4.51
+   "votes": 642,
+   "pct": 4.72
   },
   {
    "candidate": "BALDWIN, Brenton",
    "party": "Australian Labor Party",
-   "votes": 2371,
-   "pct": 19.71
+   "votes": 2710,
+   "pct": 19.91
   },
   {
    "candidate": "SHAW, Liza",
    "party": "The Greens",
-   "votes": 2125,
-   "pct": 17.66
+   "votes": 2607,
+   "pct": 19.15
   },
   {
    "candidate": "HARISOPOULOS, Christos",
    "party": "Family First",
-   "votes": 269,
-   "pct": 2.24
+   "votes": 289,
+   "pct": 2.12
   },
   {
    "candidate": "MORGAN, Ellen",
    "party": "One Nation Victoria",
-   "votes": 2873,
-   "pct": 23.88
+   "votes": 3150,
+   "pct": 23.14
   }
  ],
  "tcp": [
   {
    "candidate": "HUTCHINGS, David",
    "party": "The Nationals",
-   "votes": 5734,
-   "pct": 56.09
+   "votes": 6029,
+   "pct": 53.39
   },
   {
    "candidate": "BALDWIN, Brenton",
    "party": "Australian Labor Party",
-   "votes": 4488,
-   "pct": 43.91
+   "votes": 5264,
+   "pct": 46.61
   }
  ],
  "links": {
