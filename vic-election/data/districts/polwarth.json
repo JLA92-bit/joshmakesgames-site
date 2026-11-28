@@ -3,71 +3,71 @@
  "name": "Polwarth",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/polwarth-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:33:22+00:00",
+ "fetched_at": "2026-11-28T15:42:17+00:00",
  "title": "Polwarth election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:30:10",
+ "last_updated": "Sunday, 29 November 2026 02:40:10",
  "enrolment": 55081,
- "formal": 14106,
- "informal": 719,
- "total_votes": 14825,
- "counted_pct": 26.91,
+ "formal": 23216,
+ "informal": 1146,
+ "total_votes": 24362,
+ "counted_pct": 44.23,
  "notes": [],
  "primary": [
   {
    "candidate": "TOLLEY, Lula",
    "party": "Victorian Socialists",
-   "votes": 423,
-   "pct": 3.0
+   "votes": 592,
+   "pct": 2.55
   },
   {
    "candidate": "RIORDAN, Richard",
    "party": "Liberal",
-   "votes": 5669,
-   "pct": 40.19
+   "votes": 10172,
+   "pct": 43.81
   },
   {
    "candidate": "HUSSEIN, Hutch",
    "party": "Australian Labor Party",
-   "votes": 1831,
-   "pct": 12.98
+   "votes": 2904,
+   "pct": 12.51
   },
   {
    "candidate": "HOLDEN, Jesse",
    "party": "The Greens",
-   "votes": 2870,
-   "pct": 20.35
+   "votes": 3765,
+   "pct": 16.22
   },
   {
    "candidate": "CARBINS, Brenton",
    "party": "Citizens Party",
-   "votes": 83,
-   "pct": 0.59
+   "votes": 158,
+   "pct": 0.68
   },
   {
    "candidate": "MALCOLM, Anna",
    "party": "One Nation Victoria",
-   "votes": 2982,
-   "pct": 21.14
+   "votes": 5239,
+   "pct": 22.57
   },
   {
    "candidate": "COLLA, Vince",
    "party": "Family First",
-   "votes": 248,
-   "pct": 1.76
+   "votes": 386,
+   "pct": 1.66
   }
  ],
  "tcp": [
   {
    "candidate": "RIORDAN, Richard",
    "party": "Liberal",
-   "votes": 9066,
-   "pct": 65.71
+   "votes": 16044,
+   "pct": 70.05
   },
   {
    "candidate": "HUSSEIN, Hutch",
    "party": "Australian Labor Party",
-   "votes": 4732,
-   "pct": 34.29
+   "votes": 6861,
+   "pct": 29.95
   }
  ],
  "links": {
