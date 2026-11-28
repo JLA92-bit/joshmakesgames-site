@@ -3,63 +3,63 @@
  "name": "Eildon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eildon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:38:58+00:00",
+ "fetched_at": "2026-11-28T11:48:07+00:00",
  "title": "Eildon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:05",
+ "last_updated": "Saturday, 28 November 2026 22:45:05",
  "enrolment": 51711,
- "formal": 18431,
- "informal": 995,
- "total_votes": 19426,
- "counted_pct": 37.57,
+ "formal": 19466,
+ "informal": 1075,
+ "total_votes": 20541,
+ "counted_pct": 39.72,
  "notes": [],
  "primary": [
   {
    "candidate": "WARD, Tom",
    "party": "",
-   "votes": 1175,
-   "pct": 6.38
+   "votes": 1220,
+   "pct": 6.27
   },
   {
    "candidate": "MCLEISH, Cindy",
    "party": "Liberal",
-   "votes": 6167,
-   "pct": 33.46
+   "votes": 6439,
+   "pct": 33.08
   },
   {
    "candidate": "BARBER, Tim",
    "party": "One Nation Victoria",
-   "votes": 5764,
-   "pct": 31.27
+   "votes": 6166,
+   "pct": 31.68
   },
   {
    "candidate": "MOSELY, Joshua",
    "party": "Family First",
-   "votes": 244,
-   "pct": 1.32
+   "votes": 270,
+   "pct": 1.39
   },
   {
    "candidate": "GULPILIL, Talia",
    "party": "The Greens",
-   "votes": 2388,
-   "pct": 12.96
+   "votes": 2520,
+   "pct": 12.95
   },
   {
    "candidate": "LITTLE, Dylan",
    "party": "Victorian Socialists",
-   "votes": 342,
-   "pct": 1.86
+   "votes": 358,
+   "pct": 1.84
   },
   {
    "candidate": "GIBSON, Kevin",
    "party": "Australian Labor Party",
-   "votes": 1775,
-   "pct": 9.63
+   "votes": 1876,
+   "pct": 9.64
   },
   {
    "candidate": "BOND, Chloe",
    "party": "Animal Justice Party",
-   "votes": 576,
-   "pct": 3.13
+   "votes": 617,
+   "pct": 3.17
   }
  ],
  "tcp": [

@@ -3,9 +3,9 @@
  "name": "Evelyn",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/evelyn-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:38:59+00:00",
+ "fetched_at": "2026-11-28T11:48:08+00:00",
  "title": "Evelyn election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:05",
+ "last_updated": "Saturday, 28 November 2026 22:45:05",
  "enrolment": 53163,
  "formal": 17060,
  "informal": 780,
@@ -60,14 +60,14 @@
   {
    "candidate": "SHERLOCK, Analise",
    "party": "Australian Labor Party",
-   "votes": 4587,
-   "pct": 29.82
+   "votes": 4823,
+   "pct": 30.08
   },
   {
    "candidate": "VALLENCE, Bridget",
    "party": "Liberal",
-   "votes": 10795,
-   "pct": 70.18
+   "votes": 11212,
+   "pct": 69.92
   }
  ],
  "links": {

@@ -3,9 +3,9 @@
  "name": "Werribee",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/werribee-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:39:12+00:00",
+ "fetched_at": "2026-11-28T11:48:19+00:00",
  "title": "Werribee election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:16",
+ "last_updated": "Saturday, 28 November 2026 22:45:15",
  "enrolment": 62801,
  "formal": 12808,
  "informal": 1013,
@@ -78,14 +78,14 @@
   {
    "candidate": "CLARK, Reece",
    "party": "Liberal",
-   "votes": 4374,
-   "pct": 54.47
+   "votes": 4637,
+   "pct": 54.67
   },
   {
    "candidate": "LISTER, John",
    "party": "Australian Labor Party",
-   "votes": 3656,
-   "pct": 45.53
+   "votes": 3845,
+   "pct": 45.33
   }
  ],
  "links": {

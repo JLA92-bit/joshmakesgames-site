@@ -3,57 +3,57 @@
  "name": "Murray Plains",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/murray-plains-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:44:15+00:00",
+ "fetched_at": "2026-11-28T11:47:38+00:00",
  "title": "Murray Plains election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:10",
+ "last_updated": "Saturday, 28 November 2026 22:45:10",
  "enrolment": 48371,
- "formal": 29304,
- "informal": 1410,
- "total_votes": 30714,
- "counted_pct": 63.5,
+ "formal": 36811,
+ "informal": 1715,
+ "total_votes": 38526,
+ "counted_pct": 79.65,
  "notes": [],
  "primary": [
   {
    "candidate": "COLLARD, Peita",
    "party": "Animal Justice Party",
-   "votes": 658,
-   "pct": 2.25
+   "votes": 822,
+   "pct": 2.23
   },
   {
    "candidate": "HOSKING, Brett",
    "party": "The Nationals",
-   "votes": 11188,
-   "pct": 38.18
+   "votes": 14294,
+   "pct": 38.83
   },
   {
    "candidate": "MCDONALD, Ewan",
    "party": "Family First",
-   "votes": 610,
-   "pct": 2.08
+   "votes": 733,
+   "pct": 1.99
   },
   {
    "candidate": "SMITH, Garner",
    "party": "One Nation Victoria",
-   "votes": 13187,
-   "pct": 45.0
+   "votes": 16438,
+   "pct": 44.66
   },
   {
    "candidate": "GRUNDY, Christine",
    "party": "Australian Labor Party",
-   "votes": 1829,
-   "pct": 6.24
+   "votes": 2249,
+   "pct": 6.11
   },
   {
    "candidate": "SANIF, Asyiqin",
    "party": "Victorian Socialists",
-   "votes": 260,
-   "pct": 0.89
+   "votes": 338,
+   "pct": 0.92
   },
   {
    "candidate": "COOK, Zoe",
    "party": "The Greens",
-   "votes": 1572,
-   "pct": 5.36
+   "votes": 1937,
+   "pct": 5.26
   }
  ],
  "tcp": [
@@ -90,27 +90,27 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "COLLARD, Peita Animal Justice Party": 658.0,
-     "HOSKING, Brett The Nationals": 11188.0,
-     "MCDONALD, Ewan Family First": 610.0,
-     "SMITH, Garner One Nation Victoria": 13187.0,
-     "GRUNDY, Christine Australian Labor Party": 1829.0,
-     "SANIF, Asyiqin Victorian Socialists": 260.0,
-     "COOK, Zoe The Greens": 1572.0,
-     "Informal votes": 1410.0,
-     "Total votes polled": 30714.0
+     "COLLARD, Peita Animal Justice Party": 822.0,
+     "HOSKING, Brett The Nationals": 14294.0,
+     "MCDONALD, Ewan Family First": 733.0,
+     "SMITH, Garner One Nation Victoria": 16438.0,
+     "GRUNDY, Christine Australian Labor Party": 2249.0,
+     "SANIF, Asyiqin Victorian Socialists": 338.0,
+     "COOK, Zoe The Greens": 1937.0,
+     "Informal votes": 1715.0,
+     "Total votes polled": 38526.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "COLLARD, Peita Animal Justice Party": 2.25,
-     "HOSKING, Brett The Nationals": 38.18,
-     "MCDONALD, Ewan Family First": 2.08,
-     "SMITH, Garner One Nation Victoria": 45.0,
-     "GRUNDY, Christine Australian Labor Party": 6.24,
-     "SANIF, Asyiqin Victorian Socialists": 0.89,
-     "COOK, Zoe The Greens": 5.36
+     "COLLARD, Peita Animal Justice Party": 2.23,
+     "HOSKING, Brett The Nationals": 38.83,
+     "MCDONALD, Ewan Family First": 1.99,
+     "SMITH, Garner One Nation Victoria": 44.66,
+     "GRUNDY, Christine Australian Labor Party": 6.11,
+     "SANIF, Asyiqin Victorian Socialists": 0.92,
+     "COOK, Zoe The Greens": 5.26
     }
    },
    {
@@ -656,15 +656,15 @@
    {
     "booth": "Murray Plains - EVC 2",
     "values": {
-     "COLLARD, Peita Animal Justice Party": 0.0,
-     "HOSKING, Brett The Nationals": 0.0,
-     "MCDONALD, Ewan Family First": 0.0,
-     "SMITH, Garner One Nation Victoria": 0.0,
-     "GRUNDY, Christine Australian Labor Party": 0.0,
-     "SANIF, Asyiqin Victorian Socialists": 0.0,
-     "COOK, Zoe The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "COLLARD, Peita Animal Justice Party": 164.0,
+     "HOSKING, Brett The Nationals": 3106.0,
+     "MCDONALD, Ewan Family First": 123.0,
+     "SMITH, Garner One Nation Victoria": 3251.0,
+     "GRUNDY, Christine Australian Labor Party": 420.0,
+     "SANIF, Asyiqin Victorian Socialists": 78.0,
+     "COOK, Zoe The Greens": 365.0,
+     "Informal votes": 305.0,
+     "Total votes polled": 7812.0
     }
    },
    {
@@ -698,15 +698,15 @@
    {
     "booth": "Early votes total",
     "values": {
-     "COLLARD, Peita Animal Justice Party": 281.0,
-     "HOSKING, Brett The Nationals": 4776.0,
-     "MCDONALD, Ewan Family First": 230.0,
-     "SMITH, Garner One Nation Victoria": 5384.0,
-     "GRUNDY, Christine Australian Labor Party": 879.0,
-     "SANIF, Asyiqin Victorian Socialists": 82.0,
-     "COOK, Zoe The Greens": 660.0,
-     "Informal votes": 519.0,
-     "Total votes polled": 12811.0
+     "COLLARD, Peita Animal Justice Party": 445.0,
+     "HOSKING, Brett The Nationals": 7882.0,
+     "MCDONALD, Ewan Family First": 353.0,
+     "SMITH, Garner One Nation Victoria": 8635.0,
+     "GRUNDY, Christine Australian Labor Party": 1299.0,
+     "SANIF, Asyiqin Victorian Socialists": 160.0,
+     "COOK, Zoe The Greens": 1025.0,
+     "Informal votes": 824.0,
+     "Total votes polled": 20623.0
     }
    },
    {

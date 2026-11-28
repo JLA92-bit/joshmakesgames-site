@@ -3,83 +3,83 @@
  "name": "Laverton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/laverton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:39:02+00:00",
+ "fetched_at": "2026-11-28T11:48:10+00:00",
  "title": "Laverton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:08",
+ "last_updated": "Saturday, 28 November 2026 22:45:08",
  "enrolment": 56046,
- "formal": 10602,
- "informal": 894,
- "total_votes": 11496,
- "counted_pct": 20.51,
+ "formal": 11645,
+ "informal": 978,
+ "total_votes": 12623,
+ "counted_pct": 22.52,
  "notes": [],
  "primary": [
   {
    "candidate": "NGUYEN, Lucy",
    "party": "The Greens",
-   "votes": 2095,
-   "pct": 19.76
+   "votes": 2275,
+   "pct": 19.54
   },
   {
    "candidate": "MENDELSOHN, Emma",
    "party": "The West Party",
-   "votes": 200,
-   "pct": 1.89
+   "votes": 212,
+   "pct": 1.82
   },
   {
    "candidate": "PAREDES, Rufo",
    "party": "One Nation Victoria",
-   "votes": 1674,
-   "pct": 15.79
+   "votes": 1865,
+   "pct": 16.02
   },
   {
    "candidate": "GARCIA, Jo",
    "party": "Family First",
-   "votes": 261,
+   "votes": 286,
    "pct": 2.46
   },
   {
    "candidate": "CONNOLLY, Sarah",
    "party": "Australian Labor Party",
-   "votes": 3007,
-   "pct": 28.36
+   "votes": 3259,
+   "pct": 27.99
   },
   {
    "candidate": "MANSOURI JAJAEE, Shohre",
    "party": "Animal Justice Party",
-   "votes": 148,
-   "pct": 1.4
+   "votes": 159,
+   "pct": 1.37
   },
   {
    "candidate": "CHITTEDI, Suchithra",
    "party": "The Republican",
-   "votes": 52,
-   "pct": 0.49
+   "votes": 60,
+   "pct": 0.52
   },
   {
    "candidate": "NOUNE, Ghada",
    "party": "Liberal",
-   "votes": 2338,
-   "pct": 22.05
+   "votes": 2633,
+   "pct": 22.61
   },
   {
    "candidate": "RUDD, Van Thanh",
    "party": "Victorian Socialists",
-   "votes": 827,
-   "pct": 7.8
+   "votes": 896,
+   "pct": 7.69
   }
  ],
  "tcp": [
   {
    "candidate": "CONNOLLY, Sarah",
    "party": "Australian Labor Party",
-   "votes": 4099,
-   "pct": 58.93
+   "votes": 4368,
+   "pct": 58.05
   },
   {
    "candidate": "NOUNE, Ghada",
    "party": "Liberal",
-   "votes": 2857,
-   "pct": 41.07
+   "votes": 3156,
+   "pct": 41.95
   }
  ],
  "links": {

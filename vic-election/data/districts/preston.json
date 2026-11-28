@@ -3,81 +3,81 @@
  "name": "Preston",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/preston-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:39:08+00:00",
+ "fetched_at": "2026-11-28T11:48:16+00:00",
  "title": "Preston election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:13",
+ "last_updated": "Saturday, 28 November 2026 22:45:12",
  "enrolment": 53545,
- "formal": 11587,
- "informal": 1051,
- "total_votes": 12638,
- "counted_pct": 23.6,
+ "formal": 12216,
+ "informal": 1091,
+ "total_votes": 13307,
+ "counted_pct": 24.85,
  "notes": [],
  "primary": [
   {
    "candidate": "DATE, Tim",
    "party": "I'm Voting to Avoid the Fine",
-   "votes": 223,
-   "pct": 1.92
+   "votes": 232,
+   "pct": 1.9
   },
   {
    "candidate": "CHIN, Zheng",
    "party": "",
-   "votes": 656,
-   "pct": 5.66
+   "votes": 690,
+   "pct": 5.65
   },
   {
    "candidate": "AL KATRANJI, Hamza",
    "party": "Liberal",
-   "votes": 2170,
-   "pct": 18.73
+   "votes": 2250,
+   "pct": 18.42
   },
   {
    "candidate": "VALENCIA, Julio",
    "party": "Family First",
-   "votes": 169,
-   "pct": 1.46
+   "votes": 171,
+   "pct": 1.4
   },
   {
    "candidate": "FOWLES, William",
    "party": "",
-   "votes": 33,
+   "votes": 34,
    "pct": 0.28
   },
   {
    "candidate": "SANGARYA, Loki",
    "party": "The Greens",
-   "votes": 2289,
-   "pct": 19.75
+   "votes": 2490,
+   "pct": 20.38
   },
   {
    "candidate": "ASHMORE, Serena",
    "party": "Victorian Socialists",
-   "votes": 1603,
-   "pct": 13.83
+   "votes": 1734,
+   "pct": 14.19
   },
   {
    "candidate": "BRYANT, Mark",
    "party": "Free Palestine",
-   "votes": 81,
-   "pct": 0.7
+   "votes": 83,
+   "pct": 0.68
   },
   {
    "candidate": "GUARDIANI, Franco",
    "party": "One Nation Victoria",
-   "votes": 1454,
-   "pct": 12.55
+   "votes": 1496,
+   "pct": 12.25
   },
   {
    "candidate": "DOWER, Simon",
    "party": "Climate Action Now",
-   "votes": 43,
-   "pct": 0.37
+   "votes": 46,
+   "pct": 0.38
   },
   {
    "candidate": "LAMBERT, Nathan",
    "party": "Australian Labor Party",
-   "votes": 2866,
-   "pct": 24.73
+   "votes": 2990,
+   "pct": 24.48
   }
  ],
  "tcp": [

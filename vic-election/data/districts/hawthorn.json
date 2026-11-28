@@ -3,9 +3,9 @@
  "name": "Hawthorn",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hawthorn-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:39:01+00:00",
+ "fetched_at": "2026-11-28T11:48:10+00:00",
  "title": "Hawthorn District results | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:08",
+ "last_updated": "Saturday, 28 November 2026 22:45:07",
  "enrolment": 51920,
  "formal": 23935,
  "informal": 644,
@@ -60,14 +60,14 @@
   {
    "candidate": "IBUKI, Shima",
    "party": "",
-   "votes": 9312,
-   "pct": 45.63
+   "votes": 10065,
+   "pct": 43.73
   },
   {
    "candidate": "PESUTTO, John",
    "party": "Liberal",
-   "votes": 11094,
-   "pct": 54.37
+   "votes": 12953,
+   "pct": 56.27
   }
  ],
  "links": {

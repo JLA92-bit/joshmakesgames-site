@@ -3,71 +3,71 @@
  "name": "Albert Park",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/albert-park-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:38:54+00:00",
+ "fetched_at": "2026-11-28T11:48:00+00:00",
  "title": "Albert Park election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:02",
+ "last_updated": "Saturday, 28 November 2026 22:45:02",
  "enrolment": 51117,
- "formal": 10302,
- "informal": 507,
- "total_votes": 10809,
- "counted_pct": 21.15,
+ "formal": 11019,
+ "informal": 543,
+ "total_votes": 11562,
+ "counted_pct": 22.62,
  "notes": [],
  "primary": [
   {
    "candidate": "DRAGWIDGE, Georgie",
    "party": "",
-   "votes": 705,
-   "pct": 6.84
+   "votes": 752,
+   "pct": 6.82
   },
   {
    "candidate": "SEMMENS, Sonya",
    "party": "The Greens",
-   "votes": 2667,
-   "pct": 25.89
+   "votes": 2919,
+   "pct": 26.49
   },
   {
    "candidate": "COOK, Andrew",
    "party": "Liberal",
-   "votes": 3449,
-   "pct": 33.48
+   "votes": 3614,
+   "pct": 32.8
   },
   {
    "candidate": "TAYLOR, Nina",
    "party": "Australian Labor Party",
-   "votes": 1843,
-   "pct": 17.89
+   "votes": 1972,
+   "pct": 17.9
   },
   {
    "candidate": "KING, Adrian William",
    "party": "",
-   "votes": 202,
-   "pct": 1.96
+   "votes": 207,
+   "pct": 1.88
   },
   {
    "candidate": "LINDRUM, Tam",
    "party": "One Nation Victoria",
-   "votes": 916,
-   "pct": 8.89
+   "votes": 976,
+   "pct": 8.86
   },
   {
    "candidate": "BOLGER, Colleen",
    "party": "Victorian Socialists",
-   "votes": 520,
-   "pct": 5.05
+   "votes": 579,
+   "pct": 5.25
   }
  ],
  "tcp": [
   {
    "candidate": "COOK, Andrew",
    "party": "Liberal",
-   "votes": 4022,
-   "pct": 53.51
+   "votes": 4370,
+   "pct": 51.39
   },
   {
    "candidate": "TAYLOR, Nina",
    "party": "Australian Labor Party",
-   "votes": 3494,
-   "pct": 46.49
+   "votes": 4133,
+   "pct": 48.61
   }
  ],
  "links": {

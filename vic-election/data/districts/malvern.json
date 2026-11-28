@@ -3,9 +3,9 @@
  "name": "Malvern",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/malvern-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:39:03+00:00",
+ "fetched_at": "2026-11-28T11:48:10+00:00",
  "title": "Malvern election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:08",
+ "last_updated": "Saturday, 28 November 2026 22:45:08",
  "enrolment": 49058,
  "formal": 11880,
  "informal": 354,
@@ -60,14 +60,14 @@
   {
    "candidate": "ZIGOURAS, Christina",
    "party": "",
-   "votes": 3032,
-   "pct": 30.72
+   "votes": 3359,
+   "pct": 30.86
   },
   {
    "candidate": "HAMER, Amelia",
    "party": "Liberal",
-   "votes": 6837,
-   "pct": 69.28
+   "votes": 7526,
+   "pct": 69.14
   }
  ],
  "links": {

@@ -3,69 +3,69 @@
  "name": "Kororoit",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kororoit-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:44:12+00:00",
+ "fetched_at": "2026-11-28T11:47:22+00:00",
  "title": "Kororoit election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:07",
+ "last_updated": "Saturday, 28 November 2026 22:45:08",
  "enrolment": 61816,
- "formal": 7778,
- "informal": 700,
- "total_votes": 8478,
- "counted_pct": 13.71,
+ "formal": 8473,
+ "informal": 741,
+ "total_votes": 9214,
+ "counted_pct": 14.91,
  "notes": [],
  "primary": [
   {
    "candidate": "SOUTHERN, Donna",
    "party": "The West Party",
-   "votes": 188,
+   "votes": 205,
    "pct": 2.42
   },
   {
    "candidate": "PATTERSON, Nick",
    "party": "Family First",
-   "votes": 319,
+   "votes": 347,
    "pct": 4.1
   },
   {
    "candidate": "MCDONALD, Joyce",
    "party": "The Greens",
-   "votes": 808,
-   "pct": 10.39
+   "votes": 906,
+   "pct": 10.69
   },
   {
    "candidate": "PIDI, Divya",
    "party": "The Republican",
-   "votes": 57,
-   "pct": 0.73
+   "votes": 67,
+   "pct": 0.79
   },
   {
    "candidate": "HASSAN, Rayan",
    "party": "Victorian Socialists",
-   "votes": 422,
-   "pct": 5.43
+   "votes": 502,
+   "pct": 5.92
   },
   {
    "candidate": "CHAKOMA, Jack",
    "party": "Liberal",
-   "votes": 1908,
-   "pct": 24.53
+   "votes": 2101,
+   "pct": 24.8
   },
   {
    "candidate": "GRIGOROVITCH, Luba",
    "party": "Australian Labor Party",
-   "votes": 2112,
+   "votes": 2300,
    "pct": 27.15
   },
   {
    "candidate": "MELNIKOV, Seva",
    "party": "One Nation Victoria",
-   "votes": 1772,
-   "pct": 22.78
+   "votes": 1842,
+   "pct": 21.74
   },
   {
    "candidate": "KANDPAL, Vasundhara",
    "party": "Animal Justice Party",
-   "votes": 192,
-   "pct": 2.47
+   "votes": 203,
+   "pct": 2.4
   }
  ],
  "tcp": [
@@ -104,17 +104,17 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "SOUTHERN, Donna The West Party": 188.0,
-     "PATTERSON, Nick Family First": 319.0,
-     "MCDONALD, Joyce The Greens": 808.0,
-     "PIDI, Divya The Republican": 57.0,
-     "HASSAN, Rayan Victorian Socialists": 422.0,
-     "CHAKOMA, Jack Liberal": 1908.0,
-     "GRIGOROVITCH, Luba Australian Labor Party": 2112.0,
-     "MELNIKOV, Seva One Nation Victoria": 1772.0,
-     "KANDPAL, Vasundhara Animal Justice Party": 192.0,
-     "Informal votes": 700.0,
-     "Total votes polled": 8478.0
+     "SOUTHERN, Donna The West Party": 205.0,
+     "PATTERSON, Nick Family First": 347.0,
+     "MCDONALD, Joyce The Greens": 906.0,
+     "PIDI, Divya The Republican": 67.0,
+     "HASSAN, Rayan Victorian Socialists": 502.0,
+     "CHAKOMA, Jack Liberal": 2101.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 2300.0,
+     "MELNIKOV, Seva One Nation Victoria": 1842.0,
+     "KANDPAL, Vasundhara Animal Justice Party": 203.0,
+     "Informal votes": 741.0,
+     "Total votes polled": 9214.0
     }
    },
    {
@@ -122,13 +122,13 @@
     "values": {
      "SOUTHERN, Donna The West Party": 2.42,
      "PATTERSON, Nick Family First": 4.1,
-     "MCDONALD, Joyce The Greens": 10.39,
-     "PIDI, Divya The Republican": 0.73,
-     "HASSAN, Rayan Victorian Socialists": 5.43,
-     "CHAKOMA, Jack Liberal": 24.53,
+     "MCDONALD, Joyce The Greens": 10.69,
+     "PIDI, Divya The Republican": 0.79,
+     "HASSAN, Rayan Victorian Socialists": 5.92,
+     "CHAKOMA, Jack Liberal": 24.8,
      "GRIGOROVITCH, Luba Australian Labor Party": 27.15,
-     "MELNIKOV, Seva One Nation Victoria": 22.78,
-     "KANDPAL, Vasundhara Animal Justice Party": 2.47
+     "MELNIKOV, Seva One Nation Victoria": 21.74,
+     "KANDPAL, Vasundhara Animal Justice Party": 2.4
     }
    },
    {
@@ -378,33 +378,33 @@
    {
     "booth": "Truganina West",
     "values": {
-     "SOUTHERN, Donna The West Party": 0.0,
-     "PATTERSON, Nick Family First": 0.0,
-     "MCDONALD, Joyce The Greens": 0.0,
-     "PIDI, Divya The Republican": 0.0,
-     "HASSAN, Rayan Victorian Socialists": 0.0,
-     "CHAKOMA, Jack Liberal": 0.0,
-     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
-     "MELNIKOV, Seva One Nation Victoria": 0.0,
-     "KANDPAL, Vasundhara Animal Justice Party": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "SOUTHERN, Donna The West Party": 17.0,
+     "PATTERSON, Nick Family First": 28.0,
+     "MCDONALD, Joyce The Greens": 98.0,
+     "PIDI, Divya The Republican": 10.0,
+     "HASSAN, Rayan Victorian Socialists": 80.0,
+     "CHAKOMA, Jack Liberal": 193.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 188.0,
+     "MELNIKOV, Seva One Nation Victoria": 70.0,
+     "KANDPAL, Vasundhara Animal Justice Party": 11.0,
+     "Informal votes": 41.0,
+     "Total votes polled": 736.0
     }
    },
    {
     "booth": "Ordinary votes total",
     "values": {
-     "SOUTHERN, Donna The West Party": 145.0,
-     "PATTERSON, Nick Family First": 250.0,
-     "MCDONALD, Joyce The Greens": 691.0,
-     "PIDI, Divya The Republican": 48.0,
-     "HASSAN, Rayan Victorian Socialists": 391.0,
-     "CHAKOMA, Jack Liberal": 1450.0,
-     "GRIGOROVITCH, Luba Australian Labor Party": 1648.0,
-     "MELNIKOV, Seva One Nation Victoria": 1266.0,
-     "KANDPAL, Vasundhara Animal Justice Party": 149.0,
-     "Informal votes": 583.0,
-     "Total votes polled": 6621.0
+     "SOUTHERN, Donna The West Party": 162.0,
+     "PATTERSON, Nick Family First": 278.0,
+     "MCDONALD, Joyce The Greens": 789.0,
+     "PIDI, Divya The Republican": 58.0,
+     "HASSAN, Rayan Victorian Socialists": 471.0,
+     "CHAKOMA, Jack Liberal": 1643.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 1836.0,
+     "MELNIKOV, Seva One Nation Victoria": 1336.0,
+     "KANDPAL, Vasundhara Animal Justice Party": 160.0,
+     "Informal votes": 624.0,
+     "Total votes polled": 7357.0
     }
    },
    {

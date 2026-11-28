@@ -3,63 +3,63 @@
  "name": "Mill Park",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mill-park-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:44:14+00:00",
+ "fetched_at": "2026-11-28T11:47:34+00:00",
  "title": "Mill Park election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:09",
+ "last_updated": "Saturday, 28 November 2026 22:45:09",
  "enrolment": 48297,
- "formal": 15683,
- "informal": 1489,
- "total_votes": 17172,
- "counted_pct": 35.56,
+ "formal": 23832,
+ "informal": 2043,
+ "total_votes": 25875,
+ "counted_pct": 53.57,
  "notes": [],
  "primary": [
   {
    "candidate": "NEALY, Elizabeth",
    "party": "Australian Labor Party",
-   "votes": 3896,
-   "pct": 24.84
+   "votes": 5634,
+   "pct": 23.64
   },
   {
    "candidate": "DRYSDALE, Joel",
    "party": "Liberal",
-   "votes": 4390,
-   "pct": 27.99
+   "votes": 7022,
+   "pct": 29.46
   },
   {
    "candidate": "VAN DER END, Kath",
    "party": "Family First",
-   "votes": 406,
-   "pct": 2.59
+   "votes": 587,
+   "pct": 2.46
   },
   {
    "candidate": "ZACHARIAS, Binoy",
    "party": "The Greens",
-   "votes": 1770,
-   "pct": 11.29
+   "votes": 2637,
+   "pct": 11.06
   },
   {
    "candidate": "McLINDON, Aidan",
    "party": "",
-   "votes": 114,
-   "pct": 0.73
+   "votes": 166,
+   "pct": 0.7
   },
   {
    "candidate": "LAMBOURN, Jesse",
    "party": "Victorian Socialists",
-   "votes": 737,
-   "pct": 4.7
+   "votes": 1012,
+   "pct": 4.25
   },
   {
    "candidate": "TSOUTSOULIS, Arthur",
    "party": "One Nation Victoria",
-   "votes": 4091,
-   "pct": 26.09
+   "votes": 6356,
+   "pct": 26.67
   },
   {
    "candidate": "LEVENS, Eve",
    "party": "Animal Justice Party",
-   "votes": 279,
-   "pct": 1.78
+   "votes": 418,
+   "pct": 1.75
   }
  ],
  "tcp": [
@@ -97,29 +97,29 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "NEALY, Elizabeth Australian Labor Party": 3896.0,
-     "DRYSDALE, Joel Liberal": 4390.0,
-     "VAN DER END, Kath Family First": 406.0,
-     "ZACHARIAS, Binoy The Greens": 1770.0,
-     "McLINDON, Aidan": 114.0,
-     "LAMBOURN, Jesse Victorian Socialists": 737.0,
-     "TSOUTSOULIS, Arthur One Nation Victoria": 4091.0,
-     "LEVENS, Eve Animal Justice Party": 279.0,
-     "Informal votes": 1489.0,
-     "Total votes polled": 17172.0
+     "NEALY, Elizabeth Australian Labor Party": 5634.0,
+     "DRYSDALE, Joel Liberal": 7022.0,
+     "VAN DER END, Kath Family First": 587.0,
+     "ZACHARIAS, Binoy The Greens": 2637.0,
+     "McLINDON, Aidan": 166.0,
+     "LAMBOURN, Jesse Victorian Socialists": 1012.0,
+     "TSOUTSOULIS, Arthur One Nation Victoria": 6356.0,
+     "LEVENS, Eve Animal Justice Party": 418.0,
+     "Informal votes": 2043.0,
+     "Total votes polled": 25875.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "NEALY, Elizabeth Australian Labor Party": 24.84,
-     "DRYSDALE, Joel Liberal": 27.99,
-     "VAN DER END, Kath Family First": 2.59,
-     "ZACHARIAS, Binoy The Greens": 11.29,
-     "McLINDON, Aidan": 0.73,
-     "LAMBOURN, Jesse Victorian Socialists": 4.7,
-     "TSOUTSOULIS, Arthur One Nation Victoria": 26.09,
-     "LEVENS, Eve Animal Justice Party": 1.78
+     "NEALY, Elizabeth Australian Labor Party": 23.64,
+     "DRYSDALE, Joel Liberal": 29.46,
+     "VAN DER END, Kath Family First": 2.46,
+     "ZACHARIAS, Binoy The Greens": 11.06,
+     "McLINDON, Aidan": 0.7,
+     "LAMBOURN, Jesse Victorian Socialists": 4.25,
+     "TSOUTSOULIS, Arthur One Nation Victoria": 26.67,
+     "LEVENS, Eve Animal Justice Party": 1.75
     }
    },
    {
@@ -373,16 +373,16 @@
    {
     "booth": "Mill Park - EVC 1",
     "values": {
-     "NEALY, Elizabeth Australian Labor Party": 0.0,
-     "DRYSDALE, Joel Liberal": 0.0,
-     "VAN DER END, Kath Family First": 0.0,
-     "ZACHARIAS, Binoy The Greens": 0.0,
-     "McLINDON, Aidan": 0.0,
-     "LAMBOURN, Jesse Victorian Socialists": 0.0,
-     "TSOUTSOULIS, Arthur One Nation Victoria": 0.0,
-     "LEVENS, Eve Animal Justice Party": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "NEALY, Elizabeth Australian Labor Party": 1738.0,
+     "DRYSDALE, Joel Liberal": 2632.0,
+     "VAN DER END, Kath Family First": 181.0,
+     "ZACHARIAS, Binoy The Greens": 867.0,
+     "McLINDON, Aidan": 52.0,
+     "LAMBOURN, Jesse Victorian Socialists": 275.0,
+     "TSOUTSOULIS, Arthur One Nation Victoria": 2265.0,
+     "LEVENS, Eve Animal Justice Party": 139.0,
+     "Informal votes": 554.0,
+     "Total votes polled": 8703.0
     }
    },
    {
@@ -433,16 +433,16 @@
    {
     "booth": "Early votes total",
     "values": {
-     "NEALY, Elizabeth Australian Labor Party": 806.0,
-     "DRYSDALE, Joel Liberal": 793.0,
-     "VAN DER END, Kath Family First": 91.0,
-     "ZACHARIAS, Binoy The Greens": 321.0,
-     "McLINDON, Aidan": 24.0,
-     "LAMBOURN, Jesse Victorian Socialists": 182.0,
-     "TSOUTSOULIS, Arthur One Nation Victoria": 673.0,
-     "LEVENS, Eve Animal Justice Party": 44.0,
-     "Informal votes": 462.0,
-     "Total votes polled": 3396.0
+     "NEALY, Elizabeth Australian Labor Party": 2544.0,
+     "DRYSDALE, Joel Liberal": 3425.0,
+     "VAN DER END, Kath Family First": 272.0,
+     "ZACHARIAS, Binoy The Greens": 1188.0,
+     "McLINDON, Aidan": 76.0,
+     "LAMBOURN, Jesse Victorian Socialists": 457.0,
+     "TSOUTSOULIS, Arthur One Nation Victoria": 2938.0,
+     "LEVENS, Eve Animal Justice Party": 183.0,
+     "Informal votes": 1016.0,
+     "Total votes polled": 12099.0
     }
    },
    {

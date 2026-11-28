@@ -3,9 +3,9 @@
  "name": "Narracan",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narracan-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:44:16+00:00",
+ "fetched_at": "2026-11-28T11:47:42+00:00",
  "title": "Narracan election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:10",
+ "last_updated": "Saturday, 28 November 2026 22:45:10",
  "enrolment": 55254,
  "formal": 18412,
  "informal": 493,
@@ -54,14 +54,14 @@
   {
    "candidate": "FARNHAM, Wayne",
    "party": "Liberal",
-   "votes": 8347,
-   "pct": 53.98
+   "votes": 8886,
+   "pct": 53.2
   },
   {
    "candidate": "LUCAS, Ben",
    "party": "One Nation Victoria",
-   "votes": 7116,
-   "pct": 46.02
+   "votes": 7818,
+   "pct": 46.8
   }
  ],
  "links": {
