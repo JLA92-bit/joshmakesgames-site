@@ -3,77 +3,77 @@
  "name": "South Barwon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-barwon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:40:31+00:00",
+ "fetched_at": "2026-11-28T11:05:49+00:00",
  "title": "South Barwon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:15",
+ "last_updated": "Saturday, 28 November 2026 22:05:15",
  "enrolment": 61036,
- "formal": 11831,
- "informal": 689,
- "total_votes": 12520,
- "counted_pct": 20.51,
+ "formal": 13871,
+ "informal": 788,
+ "total_votes": 14659,
+ "counted_pct": 24.02,
  "notes": [],
  "primary": [
   {
    "candidate": "THISTLETON, Rebecca",
    "party": "Australian Labor Party",
-   "votes": 2052,
-   "pct": 17.34
+   "votes": 2363,
+   "pct": 17.04
   },
   {
    "candidate": "NELSON, Ron",
    "party": "",
-   "votes": 625,
-   "pct": 5.28
+   "votes": 808,
+   "pct": 5.83
   },
   {
    "candidate": "BARRON, Alan",
    "party": "Family First",
-   "votes": 262,
-   "pct": 2.21
+   "votes": 296,
+   "pct": 2.13
   },
   {
    "candidate": "HEDLEY, Freya",
    "party": "Socialist Alliance",
-   "votes": 112,
-   "pct": 0.95
+   "votes": 128,
+   "pct": 0.92
   },
   {
    "candidate": "GORMAN, Madilyn",
    "party": "Victorian Socialists",
-   "votes": 348,
-   "pct": 2.94
+   "votes": 406,
+   "pct": 2.93
   },
   {
    "candidate": "GEARD, Josh",
    "party": "One Nation Victoria",
-   "votes": 2384,
-   "pct": 20.15
+   "votes": 2653,
+   "pct": 19.13
   },
   {
    "candidate": "SCHERRER, Izzy",
    "party": "The Greens",
-   "votes": 2577,
-   "pct": 21.78
+   "votes": 3091,
+   "pct": 22.28
   },
   {
    "candidate": "PETTIT, Libby",
    "party": "Liberal",
-   "votes": 3471,
-   "pct": 29.34
+   "votes": 4126,
+   "pct": 29.75
   }
  ],
  "tcp": [
   {
    "candidate": "THISTLETON, Rebecca",
    "party": "Australian Labor Party",
-   "votes": 4582,
-   "pct": 41.57
+   "votes": 4953,
+   "pct": 41.87
   },
   {
    "candidate": "PETTIT, Libby",
    "party": "Liberal",
-   "votes": 6441,
-   "pct": 58.43
+   "votes": 6877,
+   "pct": 58.13
   }
  ],
  "links": {

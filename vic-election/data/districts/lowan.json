@@ -3,77 +3,77 @@
  "name": "Lowan",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lowan-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:57:05+00:00",
+ "fetched_at": "2026-11-28T11:05:42+00:00",
  "title": "Lowan election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:07",
+ "last_updated": "Saturday, 28 November 2026 22:05:08",
  "enrolment": 51035,
- "formal": 17657,
- "informal": 1312,
- "total_votes": 18969,
- "counted_pct": 37.17,
+ "formal": 18203,
+ "informal": 1360,
+ "total_votes": 19563,
+ "counted_pct": 38.33,
  "notes": [],
  "primary": [
   {
    "candidate": "BUTLER, Kieran",
    "party": "",
-   "votes": 356,
-   "pct": 2.02
+   "votes": 370,
+   "pct": 2.03
   },
   {
    "candidate": "HYSLOP, Karen",
    "party": "Australian Democrats",
-   "votes": 370,
-   "pct": 2.1
+   "votes": 384,
+   "pct": 2.11
   },
   {
    "candidate": "KEALY, Emma",
    "party": "The Nationals",
-   "votes": 7084,
-   "pct": 40.12
+   "votes": 7280,
+   "pct": 39.99
   },
   {
    "candidate": "PAVLOVICH, Sue",
    "party": "Australian Labor Party",
-   "votes": 1440,
-   "pct": 8.16
+   "votes": 1508,
+   "pct": 8.28
   },
   {
    "candidate": "ELMES, Lee-Ann",
    "party": "Family First",
-   "votes": 396,
-   "pct": 2.24
+   "votes": 413,
+   "pct": 2.27
   },
   {
    "candidate": "PARTRIDGE, Andrew",
    "party": "One Nation Victoria",
-   "votes": 6218,
-   "pct": 35.22
+   "votes": 6370,
+   "pct": 34.99
   },
   {
    "candidate": "DOWNEY, Jos",
    "party": "Victorian Socialists",
-   "votes": 227,
+   "votes": 235,
    "pct": 1.29
   },
   {
    "candidate": "MORAN, Jeff",
    "party": "The Greens",
-   "votes": 1566,
-   "pct": 8.87
+   "votes": 1643,
+   "pct": 9.03
   }
  ],
  "tcp": [
   {
    "candidate": "KEALY, Emma",
    "party": "The Nationals",
-   "votes": 9984,
-   "pct": 59.62
+   "votes": 10242,
+   "pct": 59.73
   },
   {
    "candidate": "PARTRIDGE, Andrew",
    "party": "One Nation Victoria",
-   "votes": 6763,
-   "pct": 40.38
+   "votes": 6906,
+   "pct": 40.27
   }
  ],
  "links": {

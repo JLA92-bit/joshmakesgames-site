@@ -3,77 +3,77 @@
  "name": "Mordialloc",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mordialloc-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:50:41+00:00",
+ "fetched_at": "2026-11-28T11:05:44+00:00",
  "title": "Mordialloc election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:50:10",
+ "last_updated": "Saturday, 28 November 2026 22:05:10",
  "enrolment": 54102,
- "formal": 12859,
- "informal": 677,
- "total_votes": 13536,
- "counted_pct": 25.02,
+ "formal": 15799,
+ "informal": 757,
+ "total_votes": 16556,
+ "counted_pct": 30.6,
  "notes": [],
  "primary": [
   {
    "candidate": "O'HALLORAN, Paul",
    "party": "Liberal",
-   "votes": 4875,
-   "pct": 37.91
+   "votes": 6343,
+   "pct": 40.15
   },
   {
    "candidate": "HOSSAIN, Mahee",
    "party": "Victorian Socialists",
-   "votes": 531,
-   "pct": 4.13
+   "votes": 575,
+   "pct": 3.64
   },
   {
    "candidate": "POTUCEK, Lily",
    "party": "Family First",
-   "votes": 173,
+   "votes": 214,
    "pct": 1.35
   },
   {
    "candidate": "VERSTEEGEN, Rachel",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 113,
-   "pct": 0.88
+   "votes": 130,
+   "pct": 0.82
   },
   {
    "candidate": "TICEHURST, Nadia",
    "party": "One Nation Victoria",
-   "votes": 1744,
+   "votes": 2143,
    "pct": 13.56
   },
   {
    "candidate": "BRESKIN, Alex",
    "party": "The Greens",
-   "votes": 2219,
-   "pct": 17.26
+   "votes": 2535,
+   "pct": 16.05
   },
   {
    "candidate": "RICHARDSON, Tim",
    "party": "Australian Labor Party",
-   "votes": 2871,
-   "pct": 22.33
+   "votes": 3483,
+   "pct": 22.05
   },
   {
    "candidate": "THOMPSON, Renee",
    "party": "Legalise Cannabis Victoria",
-   "votes": 333,
-   "pct": 2.59
+   "votes": 376,
+   "pct": 2.38
   }
  ],
  "tcp": [
   {
    "candidate": "O'HALLORAN, Paul",
    "party": "Liberal",
-   "votes": 6740,
-   "pct": 58.13
+   "votes": 7044,
+   "pct": 58.16
   },
   {
    "candidate": "RICHARDSON, Tim",
    "party": "Australian Labor Party",
-   "votes": 4854,
-   "pct": 41.87
+   "votes": 5067,
+   "pct": 41.84
   }
  ],
  "links": {

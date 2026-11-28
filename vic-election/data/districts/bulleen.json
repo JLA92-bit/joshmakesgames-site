@@ -3,9 +3,9 @@
  "name": "Bulleen",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bulleen-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:56:59+00:00",
+ "fetched_at": "2026-11-28T11:05:35+00:00",
  "title": "Bulleen election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:02",
+ "last_updated": "Saturday, 28 November 2026 22:05:02",
  "enrolment": 51233,
  "formal": 15650,
  "informal": 958,
@@ -28,14 +28,14 @@
   {
    "candidate": "HARVEY, Bradley",
    "party": "Family First",
-   "votes": 239,
-   "pct": 1.53
+   "votes": 237,
+   "pct": 1.51
   },
   {
    "candidate": "GUY, Matthew",
    "party": "Liberal",
-   "votes": 8298,
-   "pct": 53.02
+   "votes": 8300,
+   "pct": 53.04
   },
   {
    "candidate": "PALIOURAS, Amanda",
@@ -66,14 +66,14 @@
   {
    "candidate": "GUY, Matthew",
    "party": "Liberal",
-   "votes": 5062,
-   "pct": 68.59
+   "votes": 6476,
+   "pct": 67.97
   },
   {
    "candidate": "DALE, Tim",
    "party": "Australian Labor Party",
-   "votes": 2318,
-   "pct": 31.41
+   "votes": 3052,
+   "pct": 32.03
   }
  ],
  "links": {

@@ -3,71 +3,71 @@
  "name": "Eltham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eltham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:57:02+00:00",
+ "fetched_at": "2026-11-28T11:05:38+00:00",
  "title": "Eltham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:05",
+ "last_updated": "Saturday, 28 November 2026 22:05:05",
  "enrolment": 50567,
- "formal": 10937,
- "informal": 376,
- "total_votes": 11313,
- "counted_pct": 22.37,
+ "formal": 11771,
+ "informal": 397,
+ "total_votes": 12168,
+ "counted_pct": 24.06,
  "notes": [],
  "primary": [
   {
    "candidate": "RICHES, Maeve",
    "party": "Victorian Socialists",
-   "votes": 425,
-   "pct": 3.89
+   "votes": 461,
+   "pct": 3.92
   },
   {
    "candidate": "BYRNES, Paul",
    "party": "Liberal",
-   "votes": 4184,
-   "pct": 38.26
+   "votes": 4440,
+   "pct": 37.72
   },
   {
    "candidate": "BROOKSBY, Louise",
    "party": "Animal Justice Party",
-   "votes": 193,
+   "votes": 207,
    "pct": 1.76
   },
   {
    "candidate": "MARASEA, Steven",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 72,
+   "votes": 78,
    "pct": 0.66
   },
   {
    "candidate": "WARD, Vicki",
    "party": "Australian Labor Party",
-   "votes": 2392,
-   "pct": 21.87
+   "votes": 2591,
+   "pct": 22.01
   },
   {
    "candidate": "WEATHERLEY, Jessie",
    "party": "One Nation Victoria",
-   "votes": 1726,
-   "pct": 15.78
+   "votes": 1851,
+   "pct": 15.73
   },
   {
    "candidate": "BUSBRIDGE, Rachel",
    "party": "The Greens",
-   "votes": 1945,
-   "pct": 17.78
+   "votes": 2143,
+   "pct": 18.21
   }
  ],
  "tcp": [
   {
    "candidate": "BYRNES, Paul",
    "party": "Liberal",
-   "votes": 4430,
-   "pct": 56.8
+   "votes": 4520,
+   "pct": 56.75
   },
   {
    "candidate": "WARD, Vicki",
    "party": "Australian Labor Party",
-   "votes": 3369,
-   "pct": 43.2
+   "votes": 3445,
+   "pct": 43.25
   }
  ],
  "links": {

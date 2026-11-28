@@ -3,77 +3,77 @@
  "name": "Brighton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brighton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:56:59+00:00",
+ "fetched_at": "2026-11-28T11:05:35+00:00",
  "title": "Brighton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:02",
+ "last_updated": "Saturday, 28 November 2026 22:05:02",
  "enrolment": 50950,
- "formal": 8742,
- "informal": 359,
- "total_votes": 9101,
- "counted_pct": 17.86,
+ "formal": 9619,
+ "informal": 388,
+ "total_votes": 10007,
+ "counted_pct": 19.64,
  "notes": [],
  "primary": [
   {
    "candidate": "FAGAN, Alexander",
    "party": "One Nation Victoria",
-   "votes": 695,
-   "pct": 7.95
+   "votes": 758,
+   "pct": 7.88
   },
   {
    "candidate": "CASLEY, John",
    "party": "",
-   "votes": 48,
-   "pct": 0.55
+   "votes": 55,
+   "pct": 0.57
   },
   {
    "candidate": "HAIN, Anthony",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 67,
-   "pct": 0.77
+   "votes": 76,
+   "pct": 0.79
   },
   {
    "candidate": "MULLAHY, Bridget",
    "party": "Australian Labor Party",
-   "votes": 1124,
-   "pct": 12.86
+   "votes": 1204,
+   "pct": 12.52
   },
   {
    "candidate": "SMITH, Jessica",
    "party": "Victorian Socialists",
-   "votes": 266,
-   "pct": 3.04
+   "votes": 281,
+   "pct": 2.92
   },
   {
    "candidate": "NEWBURY, James",
    "party": "Liberal",
-   "votes": 4781,
-   "pct": 54.69
+   "votes": 5351,
+   "pct": 55.63
   },
   {
    "candidate": "VINCENT, Barry",
    "party": "Family First",
-   "votes": 65,
-   "pct": 0.74
+   "votes": 73,
+   "pct": 0.76
   },
   {
    "candidate": "BAIN, Ebony",
    "party": "The Greens",
-   "votes": 1696,
-   "pct": 19.4
+   "votes": 1821,
+   "pct": 18.93
   }
  ],
  "tcp": [
   {
    "candidate": "MULLAHY, Bridget",
    "party": "Australian Labor Party",
-   "votes": 2216,
-   "pct": 35.67
+   "votes": 2813,
+   "pct": 32.19
   },
   {
    "candidate": "NEWBURY, James",
    "party": "Liberal",
-   "votes": 3996,
-   "pct": 64.33
+   "votes": 5925,
+   "pct": 67.81
   }
  ],
  "links": {

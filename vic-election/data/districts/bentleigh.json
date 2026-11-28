@@ -3,9 +3,9 @@
  "name": "Bentleigh",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bentleigh-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:56:58+00:00",
+ "fetched_at": "2026-11-28T11:05:32+00:00",
  "title": "Bentleigh election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:02",
+ "last_updated": "Saturday, 28 November 2026 22:05:02",
  "enrolment": 54956,
  "formal": 13681,
  "informal": 389,
@@ -54,14 +54,14 @@
   {
    "candidate": "PUTT, Tynan",
    "party": "Liberal",
-   "votes": 6495,
-   "pct": 58.0
+   "votes": 6757,
+   "pct": 57.71
   },
   {
    "candidate": "STAIKOS, Nick",
    "party": "Australian Labor Party",
-   "votes": 4703,
-   "pct": 42.0
+   "votes": 4951,
+   "pct": 42.29
   }
  ],
  "links": {

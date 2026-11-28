@@ -3,77 +3,77 @@
  "name": "Narre Warren North",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-north-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:50:41+00:00",
+ "fetched_at": "2026-11-28T11:05:45+00:00",
  "title": "Narre Warren North election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:50:10",
+ "last_updated": "Saturday, 28 November 2026 22:05:10",
  "enrolment": 53493,
- "formal": 13914,
- "informal": 947,
- "total_votes": 14861,
- "counted_pct": 27.78,
+ "formal": 15782,
+ "informal": 1120,
+ "total_votes": 16902,
+ "counted_pct": 31.6,
  "notes": [],
  "primary": [
   {
    "candidate": "NATHANIELSZ, Shemane",
    "party": "Liberal",
-   "votes": 4013,
-   "pct": 28.84
+   "votes": 4433,
+   "pct": 28.09
   },
   {
    "candidate": "CRUTCHFIELD, Sebastian",
    "party": "One Nation Victoria",
-   "votes": 3396,
-   "pct": 24.41
+   "votes": 3846,
+   "pct": 24.37
   },
   {
    "candidate": "UTOYO, Joshua",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 115,
-   "pct": 0.83
+   "votes": 129,
+   "pct": 0.82
   },
   {
    "candidate": "EMMANUEL, Cristina",
    "party": "Family First",
-   "votes": 288,
-   "pct": 2.07
+   "votes": 339,
+   "pct": 2.15
   },
   {
    "candidate": "LEAHY, Martin",
    "party": "Legalise Cannabis Victoria",
-   "votes": 360,
-   "pct": 2.59
+   "votes": 390,
+   "pct": 2.47
   },
   {
    "candidate": "WILSON, Belinda",
    "party": "Australian Labor Party",
-   "votes": 3562,
-   "pct": 25.6
+   "votes": 4181,
+   "pct": 26.49
   },
   {
    "candidate": "PERRY, Hayley",
    "party": "The Greens",
-   "votes": 1898,
-   "pct": 13.64
+   "votes": 2155,
+   "pct": 13.65
   },
   {
    "candidate": "McCRACKEN, Lachlan",
    "party": "Victorian Socialists",
-   "votes": 282,
-   "pct": 2.03
+   "votes": 309,
+   "pct": 1.96
   }
  ],
  "tcp": [
   {
    "candidate": "CRUTCHFIELD, Sebastian",
    "party": "One Nation Victoria",
-   "votes": 2690,
-   "pct": 49.48
+   "votes": 3753,
+   "pct": 47.88
   },
   {
    "candidate": "WILSON, Belinda",
    "party": "Australian Labor Party",
-   "votes": 2746,
-   "pct": 50.52
+   "votes": 4085,
+   "pct": 52.12
   }
  ],
  "links": {

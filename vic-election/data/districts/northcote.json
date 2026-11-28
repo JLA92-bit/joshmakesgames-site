@@ -3,13 +3,13 @@
  "name": "Northcote",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/northcote-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:50:42+00:00",
+ "fetched_at": "2026-11-28T11:05:46+00:00",
  "title": "Northcote election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:50:11",
+ "last_updated": "Saturday, 28 November 2026 22:05:12",
  "enrolment": 53893,
- "formal": 14344,
+ "formal": 14343,
  "informal": 624,
- "total_votes": 14968,
+ "total_votes": 14967,
  "counted_pct": 27.77,
  "notes": [],
  "primary": [
@@ -28,7 +28,7 @@
   {
    "candidate": "LARKIN, Kath",
    "party": "Victorian Socialists",
-   "votes": 2175,
+   "votes": 2174,
    "pct": 15.16
   },
   {
@@ -59,7 +59,7 @@
    "candidate": "THEOPHANOUS, Kat",
    "party": "Australian Labor Party",
    "votes": 3423,
-   "pct": 23.86
+   "pct": 23.87
   },
   {
    "candidate": "KAFEL, Hannah",
@@ -78,14 +78,14 @@
   {
    "candidate": "THEOPHANOUS, Kat",
    "party": "Australian Labor Party",
-   "votes": 3206,
-   "pct": 39.4
+   "votes": 4259,
+   "pct": 38.05
   },
   {
    "candidate": "GOME, Campbell",
    "party": "The Greens",
-   "votes": 4932,
-   "pct": 60.6
+   "votes": 6935,
+   "pct": 61.95
   }
  ],
  "links": {

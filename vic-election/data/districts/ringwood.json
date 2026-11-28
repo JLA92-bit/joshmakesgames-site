@@ -3,83 +3,83 @@
  "name": "Ringwood",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ringwood-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:40:30+00:00",
+ "fetched_at": "2026-11-28T11:05:49+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:12",
+ "last_updated": "Saturday, 28 November 2026 22:05:13",
  "enrolment": 54911,
- "formal": 19851,
- "informal": 851,
- "total_votes": 20702,
- "counted_pct": 37.7,
+ "formal": 24054,
+ "informal": 1060,
+ "total_votes": 25114,
+ "counted_pct": 45.74,
  "notes": [],
  "primary": [
   {
    "candidate": "HALSE, Rachel",
    "party": "Australian Labor Party",
-   "votes": 3721,
-   "pct": 18.74
+   "votes": 4441,
+   "pct": 18.46
   },
   {
    "candidate": "McGOWAN, Nick",
    "party": "Liberal",
-   "votes": 7838,
-   "pct": 39.48
+   "votes": 9617,
+   "pct": 39.98
   },
   {
    "candidate": "NORTON, Christopher William",
    "party": "Labour DLP",
-   "votes": 97,
+   "votes": 118,
    "pct": 0.49
   },
   {
    "candidate": "HUANG, Elaine",
    "party": "Family First",
-   "votes": 387,
-   "pct": 1.95
+   "votes": 471,
+   "pct": 1.96
   },
   {
    "candidate": "CUTTS, Prue",
    "party": "",
-   "votes": 1398,
-   "pct": 7.04
+   "votes": 1723,
+   "pct": 7.16
   },
   {
    "candidate": "MILLS, Amy",
    "party": "The Greens",
-   "votes": 3395,
-   "pct": 17.1
+   "votes": 4038,
+   "pct": 16.79
   },
   {
    "candidate": "O'CONNOR, John",
    "party": "One Nation Victoria",
-   "votes": 2017,
-   "pct": 10.16
+   "votes": 2459,
+   "pct": 10.22
   },
   {
    "candidate": "WALKER, Lyndon",
    "party": "Animal Justice Party",
-   "votes": 277,
-   "pct": 1.4
+   "votes": 332,
+   "pct": 1.38
   },
   {
    "candidate": "GARDNER, Jack",
    "party": "Victorian Socialists",
-   "votes": 721,
-   "pct": 3.63
+   "votes": 855,
+   "pct": 3.55
   }
  ],
  "tcp": [
   {
    "candidate": "HALSE, Rachel",
    "party": "Australian Labor Party",
-   "votes": 6300,
-   "pct": 44.49
+   "votes": 6811,
+   "pct": 44.17
   },
   {
    "candidate": "McGOWAN, Nick",
    "party": "Liberal",
-   "votes": 7862,
-   "pct": 55.51
+   "votes": 8608,
+   "pct": 55.83
   }
  ],
  "links": {
