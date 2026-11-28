@@ -3,9 +3,9 @@
  "name": "Narre Warren South",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-south-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:32:49+00:00",
+ "fetched_at": "2026-11-28T15:35:33+00:00",
  "title": "Narre Warren South election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:30:08",
+ "last_updated": "Sunday, 29 November 2026 02:35:10",
  "enrolment": 57195,
  "formal": 16952,
  "informal": 1357,
@@ -66,14 +66,14 @@
   {
    "candidate": "HAMMOND, Trevor",
    "party": "One Nation Victoria",
-   "votes": 4754,
-   "pct": 45.94
+   "votes": 4969,
+   "pct": 45.47
   },
   {
    "candidate": "KOOMEN, Stefan",
    "party": "Australian Labor Party",
-   "votes": 5595,
-   "pct": 54.06
+   "votes": 5959,
+   "pct": 54.53
   }
  ],
  "links": {
@@ -613,18 +613,18 @@
    {
     "booth": "Total two candidate preferred votes",
     "values": {
-     "HAMMOND, Trevor One Nation Victoria": 4754.0,
-     "KOOMEN, Stefan Australian Labor Party": 5595.0,
+     "HAMMOND, Trevor One Nation Victoria": 4969.0,
+     "KOOMEN, Stefan Australian Labor Party": 5959.0,
      "Miss-sorts": 5.0,
-     "Informal votes": 833.0,
-     "Total votes polled": 11187.0
+     "Informal votes": 867.0,
+     "Total votes polled": 11800.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "HAMMOND, Trevor One Nation Victoria": 45.94,
-     "KOOMEN, Stefan Australian Labor Party": 54.06
+     "HAMMOND, Trevor One Nation Victoria": 45.47,
+     "KOOMEN, Stefan Australian Labor Party": 54.53
     }
    },
    {
@@ -644,11 +644,11 @@
    {
     "booth": "Casey Central",
     "values": {
-     "HAMMOND, Trevor One Nation Victoria": 0.0,
-     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "HAMMOND, Trevor One Nation Victoria": 215.0,
+     "KOOMEN, Stefan Australian Labor Party": 364.0,
      "Miss-sorts": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "Informal votes": 34.0,
+     "Total votes polled": 613.0
     }
    },
    {
@@ -814,11 +814,11 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "HAMMOND, Trevor One Nation Victoria": 3863.0,
-     "KOOMEN, Stefan Australian Labor Party": 4986.0,
+     "HAMMOND, Trevor One Nation Victoria": 4078.0,
+     "KOOMEN, Stefan Australian Labor Party": 5350.0,
      "Miss-sorts": 5.0,
-     "Informal votes": 778.0,
-     "Total votes polled": 9632.0
+     "Informal votes": 812.0,
+     "Total votes polled": 10245.0
     }
    },
    {

@@ -3,9 +3,9 @@
  "name": "Narre Warren North",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-north-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:27:12+00:00",
+ "fetched_at": "2026-11-28T15:36:07+00:00",
  "title": "Narre Warren North election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:25:08",
+ "last_updated": "Sunday, 29 November 2026 02:35:10",
  "enrolment": 53493,
  "formal": 34945,
  "informal": 2396,
@@ -66,14 +66,14 @@
   {
    "candidate": "CRUTCHFIELD, Sebastian",
    "party": "One Nation Victoria",
-   "votes": 10208,
-   "pct": 51.19
+   "votes": 10679,
+   "pct": 50.94
   },
   {
    "candidate": "WILSON, Belinda",
    "party": "Australian Labor Party",
-   "votes": 9735,
-   "pct": 48.81
+   "votes": 10286,
+   "pct": 49.06
   }
  ],
  "links": {
