@@ -3,69 +3,69 @@
  "name": "Point Cook",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/point-cook-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:39:00+00:00",
+ "fetched_at": "2026-11-28T15:44:44+00:00",
  "title": "Point Cook election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:35:12",
+ "last_updated": "Sunday, 29 November 2026 02:40:10",
  "enrolment": 55756,
- "formal": 27570,
- "informal": 1518,
- "total_votes": 29088,
- "counted_pct": 52.17,
+ "formal": 37959,
+ "informal": 2200,
+ "total_votes": 40159,
+ "counted_pct": 72.03,
  "notes": [],
  "primary": [
   {
    "candidate": "LAINE, Taylor",
    "party": "Victorian Socialists",
-   "votes": 1309,
-   "pct": 4.75
+   "votes": 1798,
+   "pct": 4.74
   },
   {
    "candidate": "GRECH, Mark",
    "party": "The West Party",
-   "votes": 787,
-   "pct": 2.85
+   "votes": 1055,
+   "pct": 2.78
   },
   {
    "candidate": "KELLY, Paul",
    "party": "Labour DLP",
-   "votes": 288,
-   "pct": 1.04
+   "votes": 438,
+   "pct": 1.15
   },
   {
    "candidate": "HILAKARI, Mathew",
    "party": "Australian Labor Party",
-   "votes": 7266,
-   "pct": 26.35
+   "votes": 9982,
+   "pct": 26.3
   },
   {
    "candidate": "ALLE, Kirti",
    "party": "The Republican",
-   "votes": 66,
-   "pct": 0.24
+   "votes": 99,
+   "pct": 0.26
   },
   {
    "candidate": "KRISHNA PANDI, Ponraj",
    "party": "The Greens",
-   "votes": 3033,
-   "pct": 11.0
+   "votes": 4040,
+   "pct": 10.64
   },
   {
    "candidate": "MEURE, Keith",
    "party": "Family First",
-   "votes": 457,
-   "pct": 1.66
+   "votes": 655,
+   "pct": 1.73
   },
   {
    "candidate": "REDDY, Raja",
    "party": "Liberal",
-   "votes": 9195,
-   "pct": 33.35
+   "votes": 12269,
+   "pct": 32.32
   },
   {
    "candidate": "REID, Cameron",
    "party": "One Nation Victoria",
-   "votes": 5169,
-   "pct": 18.75
+   "votes": 7623,
+   "pct": 20.08
   }
  ],
  "tcp": [
