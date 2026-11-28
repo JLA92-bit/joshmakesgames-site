@@ -3,13 +3,13 @@
  "name": "Eildon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eildon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:31:46+00:00",
+ "fetched_at": "2026-11-28T10:36:37+00:00",
  "title": "Eildon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:30:04",
+ "last_updated": "Saturday, 28 November 2026 21:35:05",
  "enrolment": 51711,
  "formal": 14841,
- "informal": 875,
- "total_votes": 15716,
+ "informal": 876,
+ "total_votes": 15717,
  "counted_pct": 30.39,
  "notes": [],
  "primary": [
@@ -34,14 +34,14 @@
   {
    "candidate": "MOSELY, Joshua",
    "party": "Family First",
-   "votes": 200,
-   "pct": 1.35
+   "votes": 199,
+   "pct": 1.34
   },
   {
    "candidate": "GULPILIL, Talia",
    "party": "The Greens",
-   "votes": 2094,
-   "pct": 14.11
+   "votes": 2095,
+   "pct": 14.12
   },
   {
    "candidate": "LITTLE, Dylan",
@@ -66,14 +66,14 @@
   {
    "candidate": "MCLEISH, Cindy",
    "party": "Liberal",
-   "votes": 5519,
-   "pct": 59.46
+   "votes": 5930,
+   "pct": 60.11
   },
   {
    "candidate": "BARBER, Tim",
    "party": "One Nation Victoria",
-   "votes": 3763,
-   "pct": 40.54
+   "votes": 3935,
+   "pct": 39.89
   }
  ],
  "links": {

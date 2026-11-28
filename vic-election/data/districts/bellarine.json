@@ -3,13 +3,13 @@
  "name": "Bellarine",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bellarine-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:21:09+00:00",
+ "fetched_at": "2026-11-28T10:37:36+00:00",
  "title": "Bellarine election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:20:02",
+ "last_updated": "Saturday, 28 November 2026 21:35:02",
  "enrolment": 59824,
- "formal": 15333,
- "informal": 819,
- "total_votes": 16152,
+ "formal": 15331,
+ "informal": 820,
+ "total_votes": 16151,
  "counted_pct": 27.0,
  "notes": [],
  "primary": [
@@ -17,19 +17,19 @@
    "candidate": "WHITEHEAD, Callum",
    "party": "Liberal",
    "votes": 5102,
-   "pct": 33.27
+   "pct": 33.28
   },
   {
    "candidate": "MARCHANT, Alison",
    "party": "Australian Labor Party",
    "votes": 3492,
-   "pct": 22.77
+   "pct": 22.78
   },
   {
    "candidate": "MCRAE, Ross",
    "party": "One Nation Victoria",
-   "votes": 2957,
-   "pct": 19.29
+   "votes": 2956,
+   "pct": 19.28
   },
   {
    "candidate": "KEOGH, Ronan",
@@ -58,7 +58,7 @@
   {
    "candidate": "POPE, Mitch",
    "party": "The Greens",
-   "votes": 2860,
+   "votes": 2859,
    "pct": 18.65
   }
  ],
@@ -66,494 +66,18 @@
   {
    "candidate": "WHITEHEAD, Callum",
    "party": "Liberal",
-   "votes": 4133,
-   "pct": 53.86
+   "votes": 6188,
+   "pct": 54.22
   },
   {
    "candidate": "MARCHANT, Alison",
    "party": "Australian Labor Party",
-   "votes": 3540,
-   "pct": 46.14
+   "votes": 5225,
+   "pct": 45.78
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bellarine-district-results/Bellarine-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bellarine-district-results/Bellarine-2CP-results-by-voting-centre"
- },
- "booths_primary": {
-  "columns": [
-   "WHITEHEAD, Callum Liberal",
-   "MARCHANT, Alison Australian Labor Party",
-   "MCRAE, Ross One Nation Victoria",
-   "KEOGH, Ronan Victorian Socialists",
-   "LOCKHART, Kate",
-   "MANUELL, Guy Family First",
-   "WILLIAMS, Dom Socialist Alliance",
-   "POPE, Mitch The Greens",
-   "Informal votes",
-   "Total votes polled"
-  ],
-  "rows": [
-   {
-    "booth": "Total first preference votes",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 5102.0,
-     "MARCHANT, Alison Australian Labor Party": 3492.0,
-     "MCRAE, Ross One Nation Victoria": 2957.0,
-     "KEOGH, Ronan Victorian Socialists": 219.0,
-     "LOCKHART, Kate": 423.0,
-     "MANUELL, Guy Family First": 207.0,
-     "WILLIAMS, Dom Socialist Alliance": 73.0,
-     "POPE, Mitch The Greens": 2860.0,
-     "Informal votes": 819.0,
-     "Total votes polled": 16152.0
-    }
-   },
-   {
-    "booth": "Percentage of formal vote polled by candidate",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 33.27,
-     "MARCHANT, Alison Australian Labor Party": 22.77,
-     "MCRAE, Ross One Nation Victoria": 19.29,
-     "KEOGH, Ronan Victorian Socialists": 1.43,
-     "LOCKHART, Kate": 2.76,
-     "MANUELL, Guy Family First": 1.35,
-     "WILLIAMS, Dom Socialist Alliance": 0.48,
-     "POPE, Mitch The Greens": 18.65
-    }
-   },
-   {
-    "booth": "Ordinary votes",
-    "values": {}
-   },
-   {
-    "booth": "Barwon Heads",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 604.0,
-     "MARCHANT, Alison Australian Labor Party": 224.0,
-     "MCRAE, Ross One Nation Victoria": 118.0,
-     "KEOGH, Ronan Victorian Socialists": 12.0,
-     "LOCKHART, Kate": 43.0,
-     "MANUELL, Guy Family First": 4.0,
-     "WILLIAMS, Dom Socialist Alliance": 6.0,
-     "POPE, Mitch The Greens": 333.0,
-     "Informal votes": 56.0,
-     "Total votes polled": 1400.0
-    }
-   },
-   {
-    "booth": "Clifton Springs",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 366.0,
-     "MARCHANT, Alison Australian Labor Party": 395.0,
-     "MCRAE, Ross One Nation Victoria": 445.0,
-     "KEOGH, Ronan Victorian Socialists": 35.0,
-     "LOCKHART, Kate": 56.0,
-     "MANUELL, Guy Family First": 26.0,
-     "WILLIAMS, Dom Socialist Alliance": 11.0,
-     "POPE, Mitch The Greens": 276.0,
-     "Informal votes": 72.0,
-     "Total votes polled": 1682.0
-    }
-   },
-   {
-    "booth": "Collendina",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 180.0,
-     "MARCHANT, Alison Australian Labor Party": 155.0,
-     "MCRAE, Ross One Nation Victoria": 114.0,
-     "KEOGH, Ronan Victorian Socialists": 12.0,
-     "LOCKHART, Kate": 15.0,
-     "MANUELL, Guy Family First": 10.0,
-     "WILLIAMS, Dom Socialist Alliance": 5.0,
-     "POPE, Mitch The Greens": 196.0,
-     "Informal votes": 32.0,
-     "Total votes polled": 719.0
-    }
-   },
-   {
-    "booth": "Drysdale",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 383.0,
-     "MARCHANT, Alison Australian Labor Party": 322.0,
-     "MCRAE, Ross One Nation Victoria": 309.0,
-     "KEOGH, Ronan Victorian Socialists": 23.0,
-     "LOCKHART, Kate": 55.0,
-     "MANUELL, Guy Family First": 30.0,
-     "WILLIAMS, Dom Socialist Alliance": 3.0,
-     "POPE, Mitch The Greens": 218.0,
-     "Informal votes": 105.0,
-     "Total votes polled": 1448.0
-    }
-   },
-   {
-    "booth": "Drysdale Central",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 209.0,
-     "MARCHANT, Alison Australian Labor Party": 195.0,
-     "MCRAE, Ross One Nation Victoria": 180.0,
-     "KEOGH, Ronan Victorian Socialists": 19.0,
-     "LOCKHART, Kate": 36.0,
-     "MANUELL, Guy Family First": 18.0,
-     "WILLIAMS, Dom Socialist Alliance": 3.0,
-     "POPE, Mitch The Greens": 169.0,
-     "Informal votes": 58.0,
-     "Total votes polled": 887.0
-    }
-   },
-   {
-    "booth": "Gateway",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 22.0,
-     "MARCHANT, Alison Australian Labor Party": 7.0,
-     "MCRAE, Ross One Nation Victoria": 22.0,
-     "KEOGH, Ronan Victorian Socialists": 2.0,
-     "LOCKHART, Kate": 2.0,
-     "MANUELL, Guy Family First": 7.0,
-     "WILLIAMS, Dom Socialist Alliance": 1.0,
-     "POPE, Mitch The Greens": 17.0,
-     "Informal votes": 11.0,
-     "Total votes polled": 91.0
-    }
-   },
-   {
-    "booth": "Indented Head",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 193.0,
-     "MARCHANT, Alison Australian Labor Party": 180.0,
-     "MCRAE, Ross One Nation Victoria": 118.0,
-     "KEOGH, Ronan Victorian Socialists": 2.0,
-     "LOCKHART, Kate": 14.0,
-     "MANUELL, Guy Family First": 5.0,
-     "WILLIAMS, Dom Socialist Alliance": 4.0,
-     "POPE, Mitch The Greens": 108.0,
-     "Informal votes": 27.0,
-     "Total votes polled": 651.0
-    }
-   },
-   {
-    "booth": "Leopold",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 458.0,
-     "MARCHANT, Alison Australian Labor Party": 362.0,
-     "MCRAE, Ross One Nation Victoria": 409.0,
-     "KEOGH, Ronan Victorian Socialists": 19.0,
-     "LOCKHART, Kate": 30.0,
-     "MANUELL, Guy Family First": 22.0,
-     "WILLIAMS, Dom Socialist Alliance": 11.0,
-     "POPE, Mitch The Greens": 255.0,
-     "Informal votes": 110.0,
-     "Total votes polled": 1676.0
-    }
-   },
-   {
-    "booth": "Leopold East",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 316.0,
-     "MARCHANT, Alison Australian Labor Party": 227.0,
-     "MCRAE, Ross One Nation Victoria": 255.0,
-     "KEOGH, Ronan Victorian Socialists": 11.0,
-     "LOCKHART, Kate": 32.0,
-     "MANUELL, Guy Family First": 10.0,
-     "WILLIAMS, Dom Socialist Alliance": 7.0,
-     "POPE, Mitch The Greens": 196.0,
-     "Informal votes": 63.0,
-     "Total votes polled": 1117.0
-    }
-   },
-   {
-    "booth": "Ocean Grove",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 349.0,
-     "MARCHANT, Alison Australian Labor Party": 224.0,
-     "MCRAE, Ross One Nation Victoria": 132.0,
-     "KEOGH, Ronan Victorian Socialists": 22.0,
-     "LOCKHART, Kate": 35.0,
-     "MANUELL, Guy Family First": 24.0,
-     "WILLIAMS, Dom Socialist Alliance": 5.0,
-     "POPE, Mitch The Greens": 445.0,
-     "Informal votes": 55.0,
-     "Total votes polled": 1291.0
-    }
-   },
-   {
-    "booth": "Point Lonsdale",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 417.0,
-     "MARCHANT, Alison Australian Labor Party": 282.0,
-     "MCRAE, Ross One Nation Victoria": 76.0,
-     "KEOGH, Ronan Victorian Socialists": 19.0,
-     "LOCKHART, Kate": 25.0,
-     "MANUELL, Guy Family First": 6.0,
-     "WILLIAMS, Dom Socialist Alliance": 2.0,
-     "POPE, Mitch The Greens": 241.0,
-     "Informal votes": 47.0,
-     "Total votes polled": 1115.0
-    }
-   },
-   {
-    "booth": "Queenscliff",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 166.0,
-     "MARCHANT, Alison Australian Labor Party": 148.0,
-     "MCRAE, Ross One Nation Victoria": 46.0,
-     "KEOGH, Ronan Victorian Socialists": 4.0,
-     "LOCKHART, Kate": 12.0,
-     "MANUELL, Guy Family First": 2.0,
-     "WILLIAMS, Dom Socialist Alliance": 2.0,
-     "POPE, Mitch The Greens": 100.0,
-     "Informal votes": 21.0,
-     "Total votes polled": 501.0
-    }
-   },
-   {
-    "booth": "St Leonards",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 329.0,
-     "MARCHANT, Alison Australian Labor Party": 320.0,
-     "MCRAE, Ross One Nation Victoria": 255.0,
-     "KEOGH, Ronan Victorian Socialists": 16.0,
-     "LOCKHART, Kate": 23.0,
-     "MANUELL, Guy Family First": 11.0,
-     "WILLIAMS, Dom Socialist Alliance": 7.0,
-     "POPE, Mitch The Greens": 147.0,
-     "Informal votes": 93.0,
-     "Total votes polled": 1201.0
-    }
-   },
-   {
-    "booth": "Surfside",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 0.0,
-     "MARCHANT, Alison Australian Labor Party": 0.0,
-     "MCRAE, Ross One Nation Victoria": 0.0,
-     "KEOGH, Ronan Victorian Socialists": 0.0,
-     "LOCKHART, Kate": 0.0,
-     "MANUELL, Guy Family First": 0.0,
-     "WILLIAMS, Dom Socialist Alliance": 0.0,
-     "POPE, Mitch The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Wallington",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 0.0,
-     "MARCHANT, Alison Australian Labor Party": 0.0,
-     "MCRAE, Ross One Nation Victoria": 0.0,
-     "KEOGH, Ronan Victorian Socialists": 0.0,
-     "LOCKHART, Kate": 0.0,
-     "MANUELL, Guy Family First": 0.0,
-     "WILLIAMS, Dom Socialist Alliance": 0.0,
-     "POPE, Mitch The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Ordinary votes total",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 3992.0,
-     "MARCHANT, Alison Australian Labor Party": 3041.0,
-     "MCRAE, Ross One Nation Victoria": 2479.0,
-     "KEOGH, Ronan Victorian Socialists": 196.0,
-     "LOCKHART, Kate": 378.0,
-     "MANUELL, Guy Family First": 175.0,
-     "WILLIAMS, Dom Socialist Alliance": 67.0,
-     "POPE, Mitch The Greens": 2701.0,
-     "Informal votes": 750.0,
-     "Total votes polled": 13779.0
-    }
-   },
-   {
-    "booth": "Early voting centres",
-    "values": {}
-   },
-   {
-    "booth": "Bellarine - EVC 1",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 0.0,
-     "MARCHANT, Alison Australian Labor Party": 0.0,
-     "MCRAE, Ross One Nation Victoria": 0.0,
-     "KEOGH, Ronan Victorian Socialists": 0.0,
-     "LOCKHART, Kate": 0.0,
-     "MANUELL, Guy Family First": 0.0,
-     "WILLIAMS, Dom Socialist Alliance": 0.0,
-     "POPE, Mitch The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Bellarine - EVC 2",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 0.0,
-     "MARCHANT, Alison Australian Labor Party": 0.0,
-     "MCRAE, Ross One Nation Victoria": 0.0,
-     "KEOGH, Ronan Victorian Socialists": 0.0,
-     "LOCKHART, Kate": 0.0,
-     "MANUELL, Guy Family First": 0.0,
-     "WILLIAMS, Dom Socialist Alliance": 0.0,
-     "POPE, Mitch The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Geelong - EVC 1",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 0.0,
-     "MARCHANT, Alison Australian Labor Party": 0.0,
-     "MCRAE, Ross One Nation Victoria": 0.0,
-     "KEOGH, Ronan Victorian Socialists": 0.0,
-     "LOCKHART, Kate": 0.0,
-     "MANUELL, Guy Family First": 0.0,
-     "WILLIAMS, Dom Socialist Alliance": 0.0,
-     "POPE, Mitch The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Geelong - EVC 3",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 0.0,
-     "MARCHANT, Alison Australian Labor Party": 0.0,
-     "MCRAE, Ross One Nation Victoria": 0.0,
-     "KEOGH, Ronan Victorian Socialists": 0.0,
-     "LOCKHART, Kate": 0.0,
-     "MANUELL, Guy Family First": 0.0,
-     "WILLIAMS, Dom Socialist Alliance": 0.0,
-     "POPE, Mitch The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Bellarine - MEVC",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 0.0,
-     "MARCHANT, Alison Australian Labor Party": 0.0,
-     "MCRAE, Ross One Nation Victoria": 0.0,
-     "KEOGH, Ronan Victorian Socialists": 0.0,
-     "LOCKHART, Kate": 0.0,
-     "MANUELL, Guy Family First": 0.0,
-     "WILLIAMS, Dom Socialist Alliance": 0.0,
-     "POPE, Mitch The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Other early votes",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 0.0,
-     "MARCHANT, Alison Australian Labor Party": 0.0,
-     "MCRAE, Ross One Nation Victoria": 0.0,
-     "KEOGH, Ronan Victorian Socialists": 0.0,
-     "LOCKHART, Kate": 0.0,
-     "MANUELL, Guy Family First": 0.0,
-     "WILLIAMS, Dom Socialist Alliance": 0.0,
-     "POPE, Mitch The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Early votes total",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 0.0,
-     "MARCHANT, Alison Australian Labor Party": 0.0,
-     "MCRAE, Ross One Nation Victoria": 0.0,
-     "KEOGH, Ronan Victorian Socialists": 0.0,
-     "LOCKHART, Kate": 0.0,
-     "MANUELL, Guy Family First": 0.0,
-     "WILLIAMS, Dom Socialist Alliance": 0.0,
-     "POPE, Mitch The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes",
-    "values": {}
-   },
-   {
-    "booth": "Absent votes",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 0.0,
-     "MARCHANT, Alison Australian Labor Party": 0.0,
-     "MCRAE, Ross One Nation Victoria": 0.0,
-     "KEOGH, Ronan Victorian Socialists": 0.0,
-     "LOCKHART, Kate": 0.0,
-     "MANUELL, Guy Family First": 0.0,
-     "WILLIAMS, Dom Socialist Alliance": 0.0,
-     "POPE, Mitch The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Marked as voted votes",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 0.0,
-     "MARCHANT, Alison Australian Labor Party": 0.0,
-     "MCRAE, Ross One Nation Victoria": 0.0,
-     "KEOGH, Ronan Victorian Socialists": 0.0,
-     "LOCKHART, Kate": 0.0,
-     "MANUELL, Guy Family First": 0.0,
-     "WILLIAMS, Dom Socialist Alliance": 0.0,
-     "POPE, Mitch The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Postal votes",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 1110.0,
-     "MARCHANT, Alison Australian Labor Party": 451.0,
-     "MCRAE, Ross One Nation Victoria": 478.0,
-     "KEOGH, Ronan Victorian Socialists": 23.0,
-     "LOCKHART, Kate": 45.0,
-     "MANUELL, Guy Family First": 32.0,
-     "WILLIAMS, Dom Socialist Alliance": 6.0,
-     "POPE, Mitch The Greens": 159.0,
-     "Informal votes": 69.0,
-     "Total votes polled": 2373.0
-    }
-   },
-   {
-    "booth": "Provisional votes",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 0.0,
-     "MARCHANT, Alison Australian Labor Party": 0.0,
-     "MCRAE, Ross One Nation Victoria": 0.0,
-     "KEOGH, Ronan Victorian Socialists": 0.0,
-     "LOCKHART, Kate": 0.0,
-     "MANUELL, Guy Family First": 0.0,
-     "WILLIAMS, Dom Socialist Alliance": 0.0,
-     "POPE, Mitch The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes total",
-    "values": {
-     "WHITEHEAD, Callum Liberal": 1110.0,
-     "MARCHANT, Alison Australian Labor Party": 451.0,
-     "MCRAE, Ross One Nation Victoria": 478.0,
-     "KEOGH, Ronan Victorian Socialists": 23.0,
-     "LOCKHART, Kate": 45.0,
-     "MANUELL, Guy Family First": 32.0,
-     "WILLIAMS, Dom Socialist Alliance": 6.0,
-     "POPE, Mitch The Greens": 159.0,
-     "Informal votes": 69.0,
-     "Total votes polled": 2373.0
-    }
-   }
-  ]
  }
 }

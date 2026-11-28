@@ -3,80 +3,83 @@
  "name": "Point Cook",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/point-cook-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:43:15+00:00",
+ "fetched_at": "2026-11-28T10:37:58+00:00",
  "title": "Point Cook election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:13",
+ "last_updated": "Saturday, 28 November 2026 21:35:13",
  "enrolment": 55756,
- "counted_pct": 6.11,
+ "formal": 7607,
+ "informal": 489,
+ "total_votes": 8096,
+ "counted_pct": 14.52,
  "notes": [],
  "primary": [
   {
    "candidate": "LAINE, Taylor",
    "party": "Victorian Socialists",
-   "votes": 340,
-   "pct": 4.82
+   "votes": 377,
+   "pct": 4.96
   },
   {
    "candidate": "GRECH, Mark",
    "party": "The West Party",
-   "votes": 199,
-   "pct": 2.82
+   "votes": 209,
+   "pct": 2.75
   },
   {
    "candidate": "KELLY, Paul",
    "party": "Labour DLP",
-   "votes": 81,
-   "pct": 1.15
+   "votes": 86,
+   "pct": 1.13
   },
   {
    "candidate": "HILAKARI, Mathew",
    "party": "Australian Labor Party",
-   "votes": 1890,
-   "pct": 26.77
+   "votes": 2023,
+   "pct": 26.59
   },
   {
    "candidate": "ALLE, Kirti",
    "party": "The Republican",
-   "votes": 14,
+   "votes": 15,
    "pct": 0.2
   },
   {
    "candidate": "KRISHNA PANDI, Ponraj",
    "party": "The Greens",
-   "votes": 922,
-   "pct": 13.06
+   "votes": 1011,
+   "pct": 13.29
   },
   {
    "candidate": "MEURE, Keith",
    "party": "Family First",
-   "votes": 130,
-   "pct": 1.84
+   "votes": 142,
+   "pct": 1.87
   },
   {
    "candidate": "REDDY, Raja",
    "party": "Liberal",
-   "votes": 2279,
-   "pct": 32.29
+   "votes": 2460,
+   "pct": 32.34
   },
   {
    "candidate": "REID, Cameron",
    "party": "One Nation Victoria",
-   "votes": 1204,
-   "pct": 17.06
+   "votes": 1284,
+   "pct": 16.88
   }
  ],
  "tcp": [
   {
    "candidate": "HILAKARI, Mathew",
    "party": "Australian Labor Party",
-   "votes": 47,
-   "pct": 27.81
+   "votes": 1474,
+   "pct": 42.52
   },
   {
    "candidate": "REDDY, Raja",
    "party": "Liberal",
-   "votes": 122,
-   "pct": 72.19
+   "votes": 1993,
+   "pct": 57.48
   }
  ],
  "links": {

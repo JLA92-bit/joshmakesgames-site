@@ -3,74 +3,77 @@
  "name": "Kalkallo",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kalkallo-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:42:30+00:00",
+ "fetched_at": "2026-11-28T10:37:59+00:00",
  "title": "Kalkallo election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "last_updated": "Saturday, 28 November 2026 21:35:08",
  "enrolment": 70361,
- "counted_pct": 10.65,
+ "formal": 8553,
+ "informal": 668,
+ "total_votes": 9221,
+ "counted_pct": 13.11,
  "notes": [],
  "primary": [
   {
    "candidate": "SPENCE, Ros",
    "party": "Australian Labor Party",
-   "votes": 819,
-   "pct": 24.58
+   "votes": 1846,
+   "pct": 21.58
   },
   {
    "candidate": "DADISHO, Eddie",
    "party": "Liberal",
-   "votes": 1010,
-   "pct": 30.31
+   "votes": 2601,
+   "pct": 30.41
   },
   {
    "candidate": "DOBSON, Jeanette",
    "party": "Family First",
-   "votes": 99,
-   "pct": 2.97
+   "votes": 278,
+   "pct": 3.25
   },
   {
    "candidate": "LYNCH, Matthew",
    "party": "Animal Justice Party",
-   "votes": 36,
-   "pct": 1.08
+   "votes": 133,
+   "pct": 1.56
   },
   {
    "candidate": "STEANS, Troy",
    "party": "One Nation Victoria",
-   "votes": 641,
-   "pct": 19.24
+   "votes": 2308,
+   "pct": 26.98
   },
   {
    "candidate": "TIWARI, Payal",
    "party": "The Greens",
-   "votes": 415,
-   "pct": 12.45
+   "votes": 822,
+   "pct": 9.61
   },
   {
    "candidate": "ISLAM, Rebeca",
    "party": "",
-   "votes": 140,
-   "pct": 4.2
+   "votes": 237,
+   "pct": 2.77
   },
   {
    "candidate": "MILLETT, Courtney",
    "party": "Victorian Socialists",
-   "votes": 172,
-   "pct": 5.16
+   "votes": 328,
+   "pct": 3.83
   }
  ],
  "tcp": [
   {
    "candidate": "SPENCE, Ros",
    "party": "Australian Labor Party",
-   "votes": 323,
-   "pct": 55.31
+   "votes": 1371,
+   "pct": 57.65
   },
   {
    "candidate": "STEANS, Troy",
    "party": "One Nation Victoria",
-   "votes": 261,
-   "pct": 44.69
+   "votes": 1007,
+   "pct": 42.35
   }
  ],
  "links": {

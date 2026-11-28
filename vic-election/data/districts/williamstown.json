@@ -3,80 +3,83 @@
  "name": "Williamstown",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:43:48+00:00",
+ "fetched_at": "2026-11-28T10:38:03+00:00",
  "title": "Williamstown election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:17",
+ "last_updated": "Saturday, 28 November 2026 21:35:17",
  "enrolment": 50405,
- "counted_pct": 5.69,
+ "formal": 6809,
+ "informal": 431,
+ "total_votes": 7240,
+ "counted_pct": 14.36,
  "notes": [],
  "primary": [
   {
    "candidate": "MARTIN, Oskar",
    "party": "Victorian Socialists",
-   "votes": 325,
-   "pct": 8.0
+   "votes": 591,
+   "pct": 8.68
   },
   {
    "candidate": "HOCKING, Ben",
    "party": "The Greens",
-   "votes": 785,
-   "pct": 19.33
+   "votes": 1394,
+   "pct": 20.47
   },
   {
    "candidate": "O'REGAN, Bruce",
    "party": "Family First",
-   "votes": 63,
-   "pct": 1.55
+   "votes": 95,
+   "pct": 1.4
   },
   {
    "candidate": "LOUGHNAN, Catherine",
    "party": "One Nation Victoria",
-   "votes": 544,
-   "pct": 13.39
+   "votes": 860,
+   "pct": 12.63
   },
   {
    "candidate": "YARRA, Sagar Reddy",
    "party": "The Republican",
-   "votes": 6,
-   "pct": 0.15
+   "votes": 8,
+   "pct": 0.12
   },
   {
    "candidate": "GANNON, Gill",
    "party": "The West Party",
-   "votes": 342,
-   "pct": 8.42
+   "votes": 606,
+   "pct": 8.9
   },
   {
    "candidate": "HORNE, Melissa",
    "party": "Australian Labor Party",
-   "votes": 928,
-   "pct": 22.85
+   "votes": 1517,
+   "pct": 22.28
   },
   {
    "candidate": "BRIFFA, Tony",
    "party": "",
-   "votes": 353,
-   "pct": 8.69
+   "votes": 534,
+   "pct": 7.84
   },
   {
    "candidate": "LINDEMANN, Paul",
    "party": "Liberal",
-   "votes": 716,
-   "pct": 17.63
+   "votes": 1204,
+   "pct": 17.68
   }
  ],
  "tcp": [
   {
    "candidate": "HORNE, Melissa",
    "party": "Australian Labor Party",
-   "votes": 405,
-   "pct": 61.09
+   "votes": 1787,
+   "pct": 62.9
   },
   {
    "candidate": "LINDEMANN, Paul",
    "party": "Liberal",
-   "votes": 258,
-   "pct": 38.91
+   "votes": 1054,
+   "pct": 37.1
   }
  ],
  "links": {

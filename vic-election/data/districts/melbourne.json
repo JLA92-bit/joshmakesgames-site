@@ -3,80 +3,83 @@
  "name": "Melbourne",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melbourne-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:42:44+00:00",
+ "fetched_at": "2026-11-28T10:37:54+00:00",
  "title": "Melbourne election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:08",
+ "last_updated": "Saturday, 28 November 2026 21:35:10",
  "enrolment": 57336,
- "counted_pct": 3.8,
+ "formal": 10380,
+ "informal": 431,
+ "total_votes": 10811,
+ "counted_pct": 18.86,
  "notes": [],
  "primary": [
   {
    "candidate": "TUCKFIELD, Rowan",
    "party": "",
-   "votes": 47,
-   "pct": 1.4
+   "votes": 137,
+   "pct": 1.32
   },
   {
    "candidate": "SANDELL, Ellen",
    "party": "The Greens",
-   "votes": 1396,
-   "pct": 41.47
+   "votes": 3886,
+   "pct": 37.44
   },
   {
    "candidate": "MCCATHIE, Rob",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 24,
-   "pct": 0.71
+   "votes": 77,
+   "pct": 0.74
   },
   {
    "candidate": "GRIFFITHS, Davydd",
    "party": "Australian Labor Party",
-   "votes": 496,
-   "pct": 14.74
+   "votes": 1735,
+   "pct": 16.71
   },
   {
    "candidate": "YUSUF, Mohamed",
    "party": "",
-   "votes": 26,
-   "pct": 0.77
+   "votes": 141,
+   "pct": 1.36
   },
   {
    "candidate": "JONES, Naomi",
    "party": "Animal Justice Party",
-   "votes": 72,
-   "pct": 2.14
+   "votes": 195,
+   "pct": 1.88
   },
   {
    "candidate": "CAMILLO, Rafael",
    "party": "Liberal",
-   "votes": 622,
-   "pct": 18.48
+   "votes": 2259,
+   "pct": 21.76
   },
   {
    "candidate": "VAN DEN LAMB, Jordan",
    "party": "Victorian Socialists",
-   "votes": 476,
-   "pct": 14.14
+   "votes": 1220,
+   "pct": 11.75
   },
   {
    "candidate": "COURTIS, Phillip",
    "party": "One Nation Victoria",
-   "votes": 207,
-   "pct": 6.15
+   "votes": 730,
+   "pct": 7.03
   }
  ],
  "tcp": [
   {
    "candidate": "SANDELL, Ellen",
    "party": "The Greens",
-   "votes": 758,
-   "pct": 70.77
+   "votes": 1414,
+   "pct": 71.09
   },
   {
    "candidate": "GRIFFITHS, Davydd",
    "party": "Australian Labor Party",
-   "votes": 313,
-   "pct": 29.23
+   "votes": 575,
+   "pct": 28.91
   }
  ],
  "links": {

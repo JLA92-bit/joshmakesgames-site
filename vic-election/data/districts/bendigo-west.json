@@ -3,618 +3,75 @@
  "name": "Bendigo West",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:21:14+00:00",
+ "fetched_at": "2026-11-28T10:37:37+00:00",
  "title": "Bendigo West election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:20:02",
+ "last_updated": "Saturday, 28 November 2026 21:35:02",
  "enrolment": 49735,
- "formal": 8941,
- "informal": 403,
- "total_votes": 9344,
- "counted_pct": 18.79,
+ "formal": 9933,
+ "informal": 457,
+ "total_votes": 10390,
+ "counted_pct": 20.89,
  "notes": [],
  "primary": [
   {
    "candidate": "SHALEVSKI, Tayne",
    "party": "Victorian Socialists",
-   "votes": 471,
-   "pct": 5.27
+   "votes": 539,
+   "pct": 5.43
   },
   {
    "candidate": "HUTCHINGS, David",
    "party": "The Nationals",
-   "votes": 2475,
-   "pct": 27.68
+   "votes": 2738,
+   "pct": 27.56
   },
   {
    "candidate": "TRANTER, Debra",
    "party": "Animal Justice Party",
-   "votes": 395,
-   "pct": 4.42
+   "votes": 435,
+   "pct": 4.38
   },
   {
    "candidate": "BALDWIN, Brenton",
    "party": "Australian Labor Party",
-   "votes": 1749,
+   "votes": 1943,
    "pct": 19.56
   },
   {
    "candidate": "SHAW, Liza",
    "party": "The Greens",
-   "votes": 1353,
-   "pct": 15.13
+   "votes": 1540,
+   "pct": 15.5
   },
   {
    "candidate": "HARISOPOULOS, Christos",
    "party": "Family First",
-   "votes": 185,
-   "pct": 2.07
+   "votes": 223,
+   "pct": 2.25
   },
   {
    "candidate": "MORGAN, Ellen",
    "party": "One Nation Victoria",
-   "votes": 2313,
-   "pct": 25.87
+   "votes": 2515,
+   "pct": 25.32
   }
  ],
  "tcp": [
   {
    "candidate": "HUTCHINGS, David",
    "party": "The Nationals",
-   "votes": 2862,
-   "pct": 60.55
+   "votes": 3689,
+   "pct": 58.07
   },
   {
    "candidate": "BALDWIN, Brenton",
    "party": "Australian Labor Party",
-   "votes": 1865,
-   "pct": 39.45
+   "votes": 2664,
+   "pct": 41.93
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results/Bendigo-West-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results/Bendigo-West-2CP-results-by-voting-centre"
- },
- "booths_primary": {
-  "columns": [
-   "SHALEVSKI, Tayne Victorian Socialists",
-   "HUTCHINGS, David The Nationals",
-   "TRANTER, Debra Animal Justice Party",
-   "BALDWIN, Brenton Australian Labor Party",
-   "SHAW, Liza The Greens",
-   "HARISOPOULOS, Christos Family First",
-   "MORGAN, Ellen One Nation Victoria",
-   "Informal votes",
-   "Total votes polled"
-  ],
-  "rows": [
-   {
-    "booth": "Total first preference votes",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 471.0,
-     "HUTCHINGS, David The Nationals": 2475.0,
-     "TRANTER, Debra Animal Justice Party": 395.0,
-     "BALDWIN, Brenton Australian Labor Party": 1749.0,
-     "SHAW, Liza The Greens": 1353.0,
-     "HARISOPOULOS, Christos Family First": 185.0,
-     "MORGAN, Ellen One Nation Victoria": 2313.0,
-     "Informal votes": 403.0,
-     "Total votes polled": 9344.0
-    }
-   },
-   {
-    "booth": "Percentage of formal vote polled by candidate",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 5.27,
-     "HUTCHINGS, David The Nationals": 27.68,
-     "TRANTER, Debra Animal Justice Party": 4.42,
-     "BALDWIN, Brenton Australian Labor Party": 19.56,
-     "SHAW, Liza The Greens": 15.13,
-     "HARISOPOULOS, Christos Family First": 2.07,
-     "MORGAN, Ellen One Nation Victoria": 25.87
-    }
-   },
-   {
-    "booth": "Ordinary votes",
-    "values": {}
-   },
-   {
-    "booth": "Bendigo Central",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Bendigo North",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 25.0,
-     "HUTCHINGS, David The Nationals": 77.0,
-     "TRANTER, Debra Animal Justice Party": 17.0,
-     "BALDWIN, Brenton Australian Labor Party": 86.0,
-     "SHAW, Liza The Greens": 64.0,
-     "HARISOPOULOS, Christos Family First": 13.0,
-     "MORGAN, Ellen One Nation Victoria": 79.0,
-     "Informal votes": 24.0,
-     "Total votes polled": 385.0
-    }
-   },
-   {
-    "booth": "Campbells Creek",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Castlemaine",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Chewton",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 23.0,
-     "HUTCHINGS, David The Nationals": 25.0,
-     "TRANTER, Debra Animal Justice Party": 34.0,
-     "BALDWIN, Brenton Australian Labor Party": 62.0,
-     "SHAW, Liza The Greens": 127.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 28.0,
-     "Informal votes": 13.0,
-     "Total votes polled": 312.0
-    }
-   },
-   {
-    "booth": "Comet Hill",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Eaglehawk",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 31.0,
-     "HUTCHINGS, David The Nationals": 67.0,
-     "TRANTER, Debra Animal Justice Party": 8.0,
-     "BALDWIN, Brenton Australian Labor Party": 58.0,
-     "SHAW, Liza The Greens": 39.0,
-     "HARISOPOULOS, Christos Family First": 14.0,
-     "MORGAN, Ellen One Nation Victoria": 110.0,
-     "Informal votes": 38.0,
-     "Total votes polled": 365.0
-    }
-   },
-   {
-    "booth": "Eaglehawk West",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Golden Square",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Golden Square South",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 13.0,
-     "HUTCHINGS, David The Nationals": 85.0,
-     "TRANTER, Debra Animal Justice Party": 8.0,
-     "BALDWIN, Brenton Australian Labor Party": 51.0,
-     "SHAW, Liza The Greens": 39.0,
-     "HARISOPOULOS, Christos Family First": 6.0,
-     "MORGAN, Ellen One Nation Victoria": 75.0,
-     "Informal votes": 16.0,
-     "Total votes polled": 293.0
-    }
-   },
-   {
-    "booth": "Guildford",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 19.0,
-     "HUTCHINGS, David The Nationals": 21.0,
-     "TRANTER, Debra Animal Justice Party": 14.0,
-     "BALDWIN, Brenton Australian Labor Party": 39.0,
-     "SHAW, Liza The Greens": 69.0,
-     "HARISOPOULOS, Christos Family First": 4.0,
-     "MORGAN, Ellen One Nation Victoria": 37.0,
-     "Informal votes": 8.0,
-     "Total votes polled": 211.0
-    }
-   },
-   {
-    "booth": "Harcourt",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 17.0,
-     "HUTCHINGS, David The Nationals": 124.0,
-     "TRANTER, Debra Animal Justice Party": 16.0,
-     "BALDWIN, Brenton Australian Labor Party": 95.0,
-     "SHAW, Liza The Greens": 81.0,
-     "HARISOPOULOS, Christos Family First": 8.0,
-     "MORGAN, Ellen One Nation Victoria": 90.0,
-     "Informal votes": 21.0,
-     "Total votes polled": 452.0
-    }
-   },
-   {
-    "booth": "Ironbark",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Kangaroo Flat",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 64.0,
-     "HUTCHINGS, David The Nationals": 325.0,
-     "TRANTER, Debra Animal Justice Party": 48.0,
-     "BALDWIN, Brenton Australian Labor Party": 221.0,
-     "SHAW, Liza The Greens": 129.0,
-     "HARISOPOULOS, Christos Family First": 26.0,
-     "MORGAN, Ellen One Nation Victoria": 375.0,
-     "Informal votes": 74.0,
-     "Total votes polled": 1262.0
-    }
-   },
-   {
-    "booth": "Kangaroo Flat South",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Kangaroo Flat South West",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 18.0,
-     "HUTCHINGS, David The Nationals": 53.0,
-     "TRANTER, Debra Animal Justice Party": 9.0,
-     "BALDWIN, Brenton Australian Labor Party": 49.0,
-     "SHAW, Liza The Greens": 36.0,
-     "HARISOPOULOS, Christos Family First": 9.0,
-     "MORGAN, Ellen One Nation Victoria": 71.0,
-     "Informal votes": 14.0,
-     "Total votes polled": 259.0
-    }
-   },
-   {
-    "booth": "Lockwood",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 18.0,
-     "HUTCHINGS, David The Nationals": 233.0,
-     "TRANTER, Debra Animal Justice Party": 20.0,
-     "BALDWIN, Brenton Australian Labor Party": 77.0,
-     "SHAW, Liza The Greens": 71.0,
-     "HARISOPOULOS, Christos Family First": 14.0,
-     "MORGAN, Ellen One Nation Victoria": 255.0,
-     "Informal votes": 29.0,
-     "Total votes polled": 717.0
-    }
-   },
-   {
-    "booth": "Maiden Gully",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 51.0,
-     "HUTCHINGS, David The Nationals": 601.0,
-     "TRANTER, Debra Animal Justice Party": 42.0,
-     "BALDWIN, Brenton Australian Labor Party": 203.0,
-     "SHAW, Liza The Greens": 137.0,
-     "HARISOPOULOS, Christos Family First": 35.0,
-     "MORGAN, Ellen One Nation Victoria": 455.0,
-     "Informal votes": 44.0,
-     "Total votes polled": 1568.0
-    }
-   },
-   {
-    "booth": "Maldon",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 22.0,
-     "HUTCHINGS, David The Nationals": 142.0,
-     "TRANTER, Debra Animal Justice Party": 50.0,
-     "BALDWIN, Brenton Australian Labor Party": 173.0,
-     "SHAW, Liza The Greens": 144.0,
-     "HARISOPOULOS, Christos Family First": 11.0,
-     "MORGAN, Ellen One Nation Victoria": 158.0,
-     "Informal votes": 41.0,
-     "Total votes polled": 741.0
-    }
-   },
-   {
-    "booth": "Newstead",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Specimen Hill",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 22.0,
-     "HUTCHINGS, David The Nationals": 74.0,
-     "TRANTER, Debra Animal Justice Party": 11.0,
-     "BALDWIN, Brenton Australian Labor Party": 84.0,
-     "SHAW, Liza The Greens": 58.0,
-     "HARISOPOULOS, Christos Family First": 6.0,
-     "MORGAN, Ellen One Nation Victoria": 76.0,
-     "Informal votes": 16.0,
-     "Total votes polled": 347.0
-    }
-   },
-   {
-    "booth": "Winters Flat",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 102.0,
-     "HUTCHINGS, David The Nationals": 61.0,
-     "TRANTER, Debra Animal Justice Party": 45.0,
-     "BALDWIN, Brenton Australian Labor Party": 121.0,
-     "SHAW, Liza The Greens": 219.0,
-     "HARISOPOULOS, Christos Family First": 5.0,
-     "MORGAN, Ellen One Nation Victoria": 42.0,
-     "Informal votes": 21.0,
-     "Total votes polled": 616.0
-    }
-   },
-   {
-    "booth": "Ordinary votes total",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 425.0,
-     "HUTCHINGS, David The Nationals": 1888.0,
-     "TRANTER, Debra Animal Justice Party": 322.0,
-     "BALDWIN, Brenton Australian Labor Party": 1319.0,
-     "SHAW, Liza The Greens": 1213.0,
-     "HARISOPOULOS, Christos Family First": 151.0,
-     "MORGAN, Ellen One Nation Victoria": 1851.0,
-     "Informal votes": 359.0,
-     "Total votes polled": 7528.0
-    }
-   },
-   {
-    "booth": "Early voting centres",
-    "values": {}
-   },
-   {
-    "booth": "Bendigo East - EVC 1",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Bendigo East - EVC 2",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Bendigo West - EVC 1",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Bendigo West - EVC 2",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Bendigo West - MEVC",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Other early votes",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Early votes total",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes",
-    "values": {}
-   },
-   {
-    "booth": "Absent votes",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Marked as voted votes",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Postal votes",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 46.0,
-     "HUTCHINGS, David The Nationals": 587.0,
-     "TRANTER, Debra Animal Justice Party": 73.0,
-     "BALDWIN, Brenton Australian Labor Party": 430.0,
-     "SHAW, Liza The Greens": 140.0,
-     "HARISOPOULOS, Christos Family First": 34.0,
-     "MORGAN, Ellen One Nation Victoria": 462.0,
-     "Informal votes": 44.0,
-     "Total votes polled": 1816.0
-    }
-   },
-   {
-    "booth": "Provisional votes",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 0.0,
-     "HUTCHINGS, David The Nationals": 0.0,
-     "TRANTER, Debra Animal Justice Party": 0.0,
-     "BALDWIN, Brenton Australian Labor Party": 0.0,
-     "SHAW, Liza The Greens": 0.0,
-     "HARISOPOULOS, Christos Family First": 0.0,
-     "MORGAN, Ellen One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes total",
-    "values": {
-     "SHALEVSKI, Tayne Victorian Socialists": 46.0,
-     "HUTCHINGS, David The Nationals": 587.0,
-     "TRANTER, Debra Animal Justice Party": 73.0,
-     "BALDWIN, Brenton Australian Labor Party": 430.0,
-     "SHAW, Liza The Greens": 140.0,
-     "HARISOPOULOS, Christos Family First": 34.0,
-     "MORGAN, Ellen One Nation Victoria": 462.0,
-     "Informal votes": 44.0,
-     "Total votes polled": 1816.0
-    }
-   }
-  ]
  }
 }

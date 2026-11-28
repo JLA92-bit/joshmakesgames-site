@@ -3,9 +3,9 @@
  "name": "Murray Plains",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/murray-plains-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:32:08+00:00",
+ "fetched_at": "2026-11-28T10:37:02+00:00",
  "title": "Murray Plains election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:30:10",
+ "last_updated": "Saturday, 28 November 2026 21:35:11",
  "enrolment": 48371,
  "formal": 16657,
  "informal": 806,
@@ -60,14 +60,14 @@
   {
    "candidate": "HOSKING, Brett",
    "party": "The Nationals",
-   "votes": 5441,
-   "pct": 51.72
+   "votes": 5501,
+   "pct": 51.79
   },
   {
    "candidate": "SMITH, Garner",
    "party": "One Nation Victoria",
-   "votes": 5080,
-   "pct": 48.28
+   "votes": 5121,
+   "pct": 48.21
   }
  ],
  "links": {

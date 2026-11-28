@@ -3,686 +3,99 @@
  "name": "Frankston",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:21:55+00:00",
+ "fetched_at": "2026-11-28T10:37:46+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:20:05",
+ "last_updated": "Saturday, 28 November 2026 21:35:05",
  "enrolment": 51237,
- "formal": 10452,
- "informal": 787,
- "total_votes": 11239,
- "counted_pct": 21.94,
+ "formal": 12260,
+ "informal": 894,
+ "total_votes": 13154,
+ "counted_pct": 25.67,
  "notes": [],
  "primary": [
   {
    "candidate": "KNIPE, Jeff",
    "party": "Legalise Cannabis Victoria",
-   "votes": 546,
-   "pct": 5.22
+   "votes": 631,
+   "pct": 5.15
   },
   {
    "candidate": "KELSALL, Henry",
    "party": "",
-   "votes": 82,
-   "pct": 0.78
+   "votes": 101,
+   "pct": 0.82
   },
   {
    "candidate": "BARRY, Nicola",
    "party": "",
-   "votes": 50,
-   "pct": 0.48
+   "votes": 54,
+   "pct": 0.44
   },
   {
    "candidate": "NICHOLES, Peter",
    "party": "Family First",
-   "votes": 163,
-   "pct": 1.56
+   "votes": 189,
+   "pct": 1.54
   },
   {
    "candidate": "EDBROOKE, Paul",
    "party": "Australian Labor Party",
-   "votes": 2056,
-   "pct": 19.67
+   "votes": 2417,
+   "pct": 19.71
   },
   {
    "candidate": "ABRAHAM, Chrysten",
    "party": "",
-   "votes": 166,
-   "pct": 1.59
+   "votes": 208,
+   "pct": 1.7
   },
   {
    "candidate": "AMBRY, Bree",
    "party": "Liberal",
-   "votes": 2816,
-   "pct": 26.94
+   "votes": 3322,
+   "pct": 27.1
   },
   {
    "candidate": "STAFFORD, Paul",
    "party": "One Nation Victoria",
-   "votes": 2296,
-   "pct": 21.97
+   "votes": 2592,
+   "pct": 21.14
   },
   {
    "candidate": "HARMAN, Julie",
    "party": "Animal Justice Party",
-   "votes": 200,
+   "votes": 234,
    "pct": 1.91
   },
   {
    "candidate": "GOULAS, Katie",
    "party": "The Greens",
-   "votes": 1727,
-   "pct": 16.52
+   "votes": 2086,
+   "pct": 17.01
   },
   {
    "candidate": "CHEESEMAN, Andrew",
    "party": "Victorian Socialists",
-   "votes": 350,
-   "pct": 3.35
+   "votes": 426,
+   "pct": 3.47
   }
  ],
  "tcp": [
   {
    "candidate": "EDBROOKE, Paul",
    "party": "Australian Labor Party",
-   "votes": 1654,
-   "pct": 48.75
+   "votes": 2021,
+   "pct": 48.51
   },
   {
    "candidate": "AMBRY, Bree",
    "party": "Liberal",
-   "votes": 1739,
-   "pct": 51.25
+   "votes": 2145,
+   "pct": 51.49
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results/Frankston-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results/Frankston-2CP-results-by-voting-centre"
- },
- "booths_primary": {
-  "columns": [
-   "KNIPE, Jeff Legalise Cannabis Victoria",
-   "KELSALL, Henry",
-   "BARRY, Nicola",
-   "NICHOLES, Peter Family First",
-   "EDBROOKE, Paul Australian Labor Party",
-   "ABRAHAM, Chrysten",
-   "AMBRY, Bree Liberal",
-   "STAFFORD, Paul One Nation Victoria",
-   "HARMAN, Julie Animal Justice Party",
-   "GOULAS, Katie The Greens",
-   "CHEESEMAN, Andrew Victorian Socialists",
-   "Informal votes",
-   "Total votes polled"
-  ],
-  "rows": [
-   {
-    "booth": "Total first preference votes",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 546.0,
-     "KELSALL, Henry": 82.0,
-     "BARRY, Nicola": 50.0,
-     "NICHOLES, Peter Family First": 163.0,
-     "EDBROOKE, Paul Australian Labor Party": 2056.0,
-     "ABRAHAM, Chrysten": 166.0,
-     "AMBRY, Bree Liberal": 2816.0,
-     "STAFFORD, Paul One Nation Victoria": 2296.0,
-     "HARMAN, Julie Animal Justice Party": 200.0,
-     "GOULAS, Katie The Greens": 1727.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 350.0,
-     "Informal votes": 787.0,
-     "Total votes polled": 11239.0
-    }
-   },
-   {
-    "booth": "Percentage of formal vote polled by candidate",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 5.22,
-     "KELSALL, Henry": 0.78,
-     "BARRY, Nicola": 0.48,
-     "NICHOLES, Peter Family First": 1.56,
-     "EDBROOKE, Paul Australian Labor Party": 19.67,
-     "ABRAHAM, Chrysten": 1.59,
-     "AMBRY, Bree Liberal": 26.94,
-     "STAFFORD, Paul One Nation Victoria": 21.97,
-     "HARMAN, Julie Animal Justice Party": 1.91,
-     "GOULAS, Katie The Greens": 16.52,
-     "CHEESEMAN, Andrew Victorian Socialists": 3.35
-    }
-   },
-   {
-    "booth": "Ordinary votes",
-    "values": {}
-   },
-   {
-    "booth": "Aldercourt",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 71.0,
-     "KELSALL, Henry": 5.0,
-     "BARRY, Nicola": 9.0,
-     "NICHOLES, Peter Family First": 20.0,
-     "EDBROOKE, Paul Australian Labor Party": 131.0,
-     "ABRAHAM, Chrysten": 14.0,
-     "AMBRY, Bree Liberal": 134.0,
-     "STAFFORD, Paul One Nation Victoria": 198.0,
-     "HARMAN, Julie Animal Justice Party": 12.0,
-     "GOULAS, Katie The Greens": 117.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 30.0,
-     "Informal votes": 72.0,
-     "Total votes polled": 813.0
-    }
-   },
-   {
-    "booth": "Ballam Park",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 10.0,
-     "KELSALL, Henry": 4.0,
-     "BARRY, Nicola": 1.0,
-     "NICHOLES, Peter Family First": 1.0,
-     "EDBROOKE, Paul Australian Labor Party": 52.0,
-     "ABRAHAM, Chrysten": 4.0,
-     "AMBRY, Bree Liberal": 62.0,
-     "STAFFORD, Paul One Nation Victoria": 71.0,
-     "HARMAN, Julie Animal Justice Party": 4.0,
-     "GOULAS, Katie The Greens": 46.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 12.0,
-     "Informal votes": 24.0,
-     "Total votes polled": 291.0
-    }
-   },
-   {
-    "booth": "Derinya",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Frankston",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 35.0,
-     "KELSALL, Henry": 5.0,
-     "BARRY, Nicola": 6.0,
-     "NICHOLES, Peter Family First": 9.0,
-     "EDBROOKE, Paul Australian Labor Party": 120.0,
-     "ABRAHAM, Chrysten": 13.0,
-     "AMBRY, Bree Liberal": 122.0,
-     "STAFFORD, Paul One Nation Victoria": 109.0,
-     "HARMAN, Julie Animal Justice Party": 11.0,
-     "GOULAS, Katie The Greens": 134.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 18.0,
-     "Informal votes": 20.0,
-     "Total votes polled": 602.0
-    }
-   },
-   {
-    "booth": "Frankston Beach",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 16.0,
-     "KELSALL, Henry": 12.0,
-     "BARRY, Nicola": 2.0,
-     "NICHOLES, Peter Family First": 11.0,
-     "EDBROOKE, Paul Australian Labor Party": 90.0,
-     "ABRAHAM, Chrysten": 11.0,
-     "AMBRY, Bree Liberal": 101.0,
-     "STAFFORD, Paul One Nation Victoria": 84.0,
-     "HARMAN, Julie Animal Justice Party": 9.0,
-     "GOULAS, Katie The Greens": 82.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 15.0,
-     "Informal votes": 41.0,
-     "Total votes polled": 474.0
-    }
-   },
-   {
-    "booth": "Frankston East",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 44.0,
-     "KELSALL, Henry": 10.0,
-     "BARRY, Nicola": 6.0,
-     "NICHOLES, Peter Family First": 16.0,
-     "EDBROOKE, Paul Australian Labor Party": 148.0,
-     "ABRAHAM, Chrysten": 15.0,
-     "AMBRY, Bree Liberal": 186.0,
-     "STAFFORD, Paul One Nation Victoria": 197.0,
-     "HARMAN, Julie Animal Justice Party": 19.0,
-     "GOULAS, Katie The Greens": 154.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 40.0,
-     "Informal votes": 98.0,
-     "Total votes polled": 933.0
-    }
-   },
-   {
-    "booth": "Frankston Heights",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 51.0,
-     "KELSALL, Henry": 3.0,
-     "BARRY, Nicola": 4.0,
-     "NICHOLES, Peter Family First": 13.0,
-     "EDBROOKE, Paul Australian Labor Party": 192.0,
-     "ABRAHAM, Chrysten": 18.0,
-     "AMBRY, Bree Liberal": 272.0,
-     "STAFFORD, Paul One Nation Victoria": 203.0,
-     "HARMAN, Julie Animal Justice Party": 10.0,
-     "GOULAS, Katie The Greens": 164.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 31.0,
-     "Informal votes": 70.0,
-     "Total votes polled": 1031.0
-    }
-   },
-   {
-    "booth": "Frankston Rail",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 49.0,
-     "KELSALL, Henry": 4.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 11.0,
-     "EDBROOKE, Paul Australian Labor Party": 170.0,
-     "ABRAHAM, Chrysten": 14.0,
-     "AMBRY, Bree Liberal": 168.0,
-     "STAFFORD, Paul One Nation Victoria": 173.0,
-     "HARMAN, Julie Animal Justice Party": 14.0,
-     "GOULAS, Katie The Greens": 197.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 33.0,
-     "Informal votes": 65.0,
-     "Total votes polled": 898.0
-    }
-   },
-   {
-    "booth": "Frankston South",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "John Paul College",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Kananook",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 86.0,
-     "KELSALL, Henry": 9.0,
-     "BARRY, Nicola": 1.0,
-     "NICHOLES, Peter Family First": 11.0,
-     "EDBROOKE, Paul Australian Labor Party": 220.0,
-     "ABRAHAM, Chrysten": 17.0,
-     "AMBRY, Bree Liberal": 210.0,
-     "STAFFORD, Paul One Nation Victoria": 214.0,
-     "HARMAN, Julie Animal Justice Party": 24.0,
-     "GOULAS, Katie The Greens": 225.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 35.0,
-     "Informal votes": 70.0,
-     "Total votes polled": 1122.0
-    }
-   },
-   {
-    "booth": "Karingal",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 5.0,
-     "KELSALL, Henry": 2.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 7.0,
-     "EDBROOKE, Paul Australian Labor Party": 46.0,
-     "ABRAHAM, Chrysten": 8.0,
-     "AMBRY, Bree Liberal": 40.0,
-     "STAFFORD, Paul One Nation Victoria": 61.0,
-     "HARMAN, Julie Animal Justice Party": 4.0,
-     "GOULAS, Katie The Greens": 44.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 14.0,
-     "Informal votes": 22.0,
-     "Total votes polled": 253.0
-    }
-   },
-   {
-    "booth": "Karingal Heights",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 52.0,
-     "KELSALL, Henry": 9.0,
-     "BARRY, Nicola": 2.0,
-     "NICHOLES, Peter Family First": 8.0,
-     "EDBROOKE, Paul Australian Labor Party": 149.0,
-     "ABRAHAM, Chrysten": 16.0,
-     "AMBRY, Bree Liberal": 171.0,
-     "STAFFORD, Paul One Nation Victoria": 179.0,
-     "HARMAN, Julie Animal Justice Party": 12.0,
-     "GOULAS, Katie The Greens": 132.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 43.0,
-     "Informal votes": 72.0,
-     "Total votes polled": 845.0
-    }
-   },
-   {
-    "booth": "Kingsley Park",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 45.0,
-     "KELSALL, Henry": 5.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 23.0,
-     "EDBROOKE, Paul Australian Labor Party": 166.0,
-     "ABRAHAM, Chrysten": 9.0,
-     "AMBRY, Bree Liberal": 316.0,
-     "STAFFORD, Paul One Nation Victoria": 248.0,
-     "HARMAN, Julie Animal Justice Party": 20.0,
-     "GOULAS, Katie The Greens": 187.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 36.0,
-     "Informal votes": 95.0,
-     "Total votes polled": 1150.0
-    }
-   },
-   {
-    "booth": "Mt Eliza Central",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 7.0,
-     "KELSALL, Henry": 1.0,
-     "BARRY, Nicola": 2.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 17.0,
-     "ABRAHAM, Chrysten": 2.0,
-     "AMBRY, Bree Liberal": 44.0,
-     "STAFFORD, Paul One Nation Victoria": 4.0,
-     "HARMAN, Julie Animal Justice Party": 5.0,
-     "GOULAS, Katie The Greens": 27.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 7.0,
-     "Informal votes": 10.0,
-     "Total votes polled": 126.0
-    }
-   },
-   {
-    "booth": "Mt Erin",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Seaford",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 10.0,
-     "KELSALL, Henry": 1.0,
-     "BARRY, Nicola": 2.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 31.0,
-     "ABRAHAM, Chrysten": 1.0,
-     "AMBRY, Bree Liberal": 46.0,
-     "STAFFORD, Paul One Nation Victoria": 45.0,
-     "HARMAN, Julie Animal Justice Party": 4.0,
-     "GOULAS, Katie The Greens": 35.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 9.0,
-     "Informal votes": 26.0,
-     "Total votes polled": 210.0
-    }
-   },
-   {
-    "booth": "Ordinary votes total",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 481.0,
-     "KELSALL, Henry": 70.0,
-     "BARRY, Nicola": 35.0,
-     "NICHOLES, Peter Family First": 130.0,
-     "EDBROOKE, Paul Australian Labor Party": 1532.0,
-     "ABRAHAM, Chrysten": 142.0,
-     "AMBRY, Bree Liberal": 1872.0,
-     "STAFFORD, Paul One Nation Victoria": 1786.0,
-     "HARMAN, Julie Animal Justice Party": 148.0,
-     "GOULAS, Katie The Greens": 1544.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 323.0,
-     "Informal votes": 685.0,
-     "Total votes polled": 8748.0
-    }
-   },
-   {
-    "booth": "Early voting centres",
-    "values": {}
-   },
-   {
-    "booth": "Frankston - EVC 1",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Frankston - EVC 2",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Frankston - EVC 3",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Frankston - MEVC",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Other early votes",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Early votes total",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes",
-    "values": {}
-   },
-   {
-    "booth": "Absent votes",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Marked as voted votes",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Postal votes",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 65.0,
-     "KELSALL, Henry": 12.0,
-     "BARRY, Nicola": 15.0,
-     "NICHOLES, Peter Family First": 33.0,
-     "EDBROOKE, Paul Australian Labor Party": 524.0,
-     "ABRAHAM, Chrysten": 24.0,
-     "AMBRY, Bree Liberal": 944.0,
-     "STAFFORD, Paul One Nation Victoria": 510.0,
-     "HARMAN, Julie Animal Justice Party": 52.0,
-     "GOULAS, Katie The Greens": 183.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 27.0,
-     "Informal votes": 102.0,
-     "Total votes polled": 2491.0
-    }
-   },
-   {
-    "booth": "Provisional votes",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 0.0,
-     "KELSALL, Henry": 0.0,
-     "BARRY, Nicola": 0.0,
-     "NICHOLES, Peter Family First": 0.0,
-     "EDBROOKE, Paul Australian Labor Party": 0.0,
-     "ABRAHAM, Chrysten": 0.0,
-     "AMBRY, Bree Liberal": 0.0,
-     "STAFFORD, Paul One Nation Victoria": 0.0,
-     "HARMAN, Julie Animal Justice Party": 0.0,
-     "GOULAS, Katie The Greens": 0.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes total",
-    "values": {
-     "KNIPE, Jeff Legalise Cannabis Victoria": 65.0,
-     "KELSALL, Henry": 12.0,
-     "BARRY, Nicola": 15.0,
-     "NICHOLES, Peter Family First": 33.0,
-     "EDBROOKE, Paul Australian Labor Party": 524.0,
-     "ABRAHAM, Chrysten": 24.0,
-     "AMBRY, Bree Liberal": 944.0,
-     "STAFFORD, Paul One Nation Victoria": 510.0,
-     "HARMAN, Julie Animal Justice Party": 52.0,
-     "GOULAS, Katie The Greens": 183.0,
-     "CHEESEMAN, Andrew Victorian Socialists": 27.0,
-     "Informal votes": 102.0,
-     "Total votes polled": 2491.0
-    }
-   }
-  ]
  }
 }

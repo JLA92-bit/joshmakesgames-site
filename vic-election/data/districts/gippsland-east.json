@@ -3,9 +3,9 @@
  "name": "Gippsland East",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-east-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:31:52+00:00",
+ "fetched_at": "2026-11-28T10:36:44+00:00",
  "title": "Gippsland East election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:30:07",
+ "last_updated": "Saturday, 28 November 2026 21:35:08",
  "enrolment": 51687,
  "formal": 15571,
  "informal": 843,
@@ -22,13 +22,13 @@
   {
    "candidate": "STEPHENS, Sonny",
    "party": "Australian Labor Party",
-   "votes": 1238,
-   "pct": 7.95
+   "votes": 1239,
+   "pct": 7.96
   },
   {
    "candidate": "MUNRO, Ash",
    "party": "The Greens",
-   "votes": 1637,
+   "votes": 1636,
    "pct": 10.51
   },
   {
@@ -60,14 +60,14 @@
   {
    "candidate": "RENDELL, Gemma",
    "party": "The Nationals",
-   "votes": 8749,
-   "pct": 56.62
+   "votes": 8805,
+   "pct": 56.57
   },
   {
    "candidate": "GOODMAN, Steve",
    "party": "One Nation Victoria",
-   "votes": 6703,
-   "pct": 43.38
+   "votes": 6759,
+   "pct": 43.43
   }
  ],
  "links": {
@@ -91,8 +91,8 @@
     "booth": "Total first preference votes",
     "values": {
      "ESPESETH, Amy Victorian Socialists": 502.0,
-     "STEPHENS, Sonny Australian Labor Party": 1238.0,
-     "MUNRO, Ash The Greens": 1637.0,
+     "STEPHENS, Sonny Australian Labor Party": 1239.0,
+     "MUNRO, Ash The Greens": 1636.0,
      "RENDELL, Gemma The Nationals": 5500.0,
      "WATERS, Alison Family First": 209.0,
      "GOODMAN, Steve One Nation Victoria": 6050.0,
@@ -105,7 +105,7 @@
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
      "ESPESETH, Amy Victorian Socialists": 3.22,
-     "STEPHENS, Sonny Australian Labor Party": 7.95,
+     "STEPHENS, Sonny Australian Labor Party": 7.96,
      "MUNRO, Ash The Greens": 10.51,
      "RENDELL, Gemma The Nationals": 35.32,
      "WATERS, Alison Family First": 1.34,
@@ -233,8 +233,8 @@
     "booth": "Cobains",
     "values": {
      "ESPESETH, Amy Victorian Socialists": 6.0,
-     "STEPHENS, Sonny Australian Labor Party": 2.0,
-     "MUNRO, Ash The Greens": 5.0,
+     "STEPHENS, Sonny Australian Labor Party": 3.0,
+     "MUNRO, Ash The Greens": 4.0,
      "RENDELL, Gemma The Nationals": 42.0,
      "WATERS, Alison Family First": 1.0,
      "GOODMAN, Steve One Nation Victoria": 50.0,
@@ -611,8 +611,8 @@
     "booth": "Ordinary votes total",
     "values": {
      "ESPESETH, Amy Victorian Socialists": 475.0,
-     "STEPHENS, Sonny Australian Labor Party": 1147.0,
-     "MUNRO, Ash The Greens": 1568.0,
+     "STEPHENS, Sonny Australian Labor Party": 1148.0,
+     "MUNRO, Ash The Greens": 1567.0,
      "RENDELL, Gemma The Nationals": 5144.0,
      "WATERS, Alison Family First": 204.0,
      "GOODMAN, Steve One Nation Victoria": 5744.0,

@@ -3,80 +3,83 @@
  "name": "Nepean",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/nepean-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:43:05+00:00",
+ "fetched_at": "2026-11-28T10:37:56+00:00",
  "title": "Nepean election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "last_updated": "Saturday, 28 November 2026 21:35:11",
  "enrolment": 51871,
- "counted_pct": 5.03,
+ "formal": 4749,
+ "informal": 307,
+ "total_votes": 5056,
+ "counted_pct": 9.75,
  "notes": [],
  "primary": [
   {
    "candidate": "HEALY, Sianan",
    "party": "The Greens",
-   "votes": 645,
-   "pct": 21.62
+   "votes": 995,
+   "pct": 20.95
   },
   {
    "candidate": "SNOWBALL, Surbhi",
    "party": "Australian Labor Party",
-   "votes": 297,
-   "pct": 9.95
+   "votes": 443,
+   "pct": 9.33
   },
   {
    "candidate": "CHAMPION, Tamara",
    "party": "Animal Justice Party",
-   "votes": 48,
-   "pct": 1.61
+   "votes": 88,
+   "pct": 1.85
   },
   {
    "candidate": "HERCUS, Darren",
    "party": "One Nation Victoria",
-   "votes": 489,
-   "pct": 16.39
+   "votes": 902,
+   "pct": 18.99
   },
   {
    "candidate": "ROBBINS, Kim",
    "party": "",
-   "votes": 224,
-   "pct": 7.51
+   "votes": 369,
+   "pct": 7.77
   },
   {
    "candidate": "TOSCANO, Joseph",
    "party": "",
-   "votes": 15,
-   "pct": 0.5
+   "votes": 18,
+   "pct": 0.38
   },
   {
    "candidate": "WILLCOCKS, Seth",
    "party": "Victorian Socialists",
-   "votes": 49,
-   "pct": 1.64
+   "votes": 86,
+   "pct": 1.81
   },
   {
    "candidate": "MARSH, Anthony",
    "party": "Liberal",
-   "votes": 1201,
-   "pct": 40.25
+   "votes": 1809,
+   "pct": 38.09
   },
   {
    "candidate": "BROWN, Mike",
    "party": "Family First",
-   "votes": 16,
-   "pct": 0.54
+   "votes": 39,
+   "pct": 0.82
   }
  ],
  "tcp": [
   {
    "candidate": "HERCUS, Darren",
    "party": "One Nation Victoria",
-   "votes": 527,
-   "pct": 27.45
+   "votes": 816,
+   "pct": 29.84
   },
   {
    "candidate": "MARSH, Anthony",
    "party": "Liberal",
-   "votes": 1393,
-   "pct": 72.55
+   "votes": 1919,
+   "pct": 70.16
   }
  ],
  "links": {

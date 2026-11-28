@@ -3,65 +3,65 @@
  "name": "South West Coast",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-west-coast-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:26:55+00:00",
+ "fetched_at": "2026-11-28T10:38:02+00:00",
  "title": "South-West Coast election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:25:15",
+ "last_updated": "Saturday, 28 November 2026 21:35:16",
  "enrolment": 54428,
- "formal": 15404,
- "informal": 507,
- "total_votes": 15911,
- "counted_pct": 29.23,
+ "formal": 15860,
+ "informal": 518,
+ "total_votes": 16378,
+ "counted_pct": 30.09,
  "notes": [],
  "primary": [
   {
    "candidate": "BUCHAN, Tamhas",
    "party": "Family First",
-   "votes": 384,
-   "pct": 2.49
+   "votes": 406,
+   "pct": 2.56
   },
   {
    "candidate": "HUGHES, Richard",
    "party": "One Nation Victoria",
-   "votes": 4348,
-   "pct": 28.23
+   "votes": 4491,
+   "pct": 28.32
   },
   {
    "candidate": "GOVANSTONE, Andrew",
    "party": "Australian Labor Party",
-   "votes": 1758,
-   "pct": 11.41
+   "votes": 1798,
+   "pct": 11.34
   },
   {
    "candidate": "WATTS, Silver Rose",
    "party": "The Greens",
-   "votes": 2026,
-   "pct": 13.15
+   "votes": 2077,
+   "pct": 13.1
   },
   {
    "candidate": "BRITNELL, Roma",
    "party": "Liberal",
-   "votes": 6475,
-   "pct": 42.03
+   "votes": 6668,
+   "pct": 42.04
   },
   {
    "candidate": "SHEPPARD, Hera",
    "party": "Victorian Socialists",
-   "votes": 413,
-   "pct": 2.68
+   "votes": 420,
+   "pct": 2.65
   }
  ],
  "tcp": [
   {
    "candidate": "HUGHES, Richard",
    "party": "One Nation Victoria",
-   "votes": 4192,
-   "pct": 34.14
+   "votes": 4372,
+   "pct": 34.33
   },
   {
    "candidate": "BRITNELL, Roma",
    "party": "Liberal",
-   "votes": 8086,
-   "pct": 65.86
+   "votes": 8362,
+   "pct": 65.67
   }
  ],
  "links": {

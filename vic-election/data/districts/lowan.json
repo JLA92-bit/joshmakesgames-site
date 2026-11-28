@@ -3,74 +3,77 @@
  "name": "Lowan",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lowan-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:42:37+00:00",
+ "fetched_at": "2026-11-28T10:37:51+00:00",
  "title": "Lowan election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "last_updated": "Saturday, 28 November 2026 21:35:08",
  "enrolment": 51035,
- "counted_pct": 7.18,
+ "formal": 17657,
+ "informal": 1312,
+ "total_votes": 18969,
+ "counted_pct": 37.17,
  "notes": [],
  "primary": [
   {
    "candidate": "BUTLER, Kieran",
    "party": "",
-   "votes": 222,
-   "pct": 1.97
+   "votes": 356,
+   "pct": 2.02
   },
   {
    "candidate": "HYSLOP, Karen",
    "party": "Australian Democrats",
-   "votes": 295,
-   "pct": 2.62
+   "votes": 370,
+   "pct": 2.1
   },
   {
    "candidate": "KEALY, Emma",
    "party": "The Nationals",
-   "votes": 4183,
-   "pct": 37.18
+   "votes": 7084,
+   "pct": 40.12
   },
   {
    "candidate": "PAVLOVICH, Sue",
    "party": "Australian Labor Party",
-   "votes": 958,
-   "pct": 8.51
+   "votes": 1440,
+   "pct": 8.16
   },
   {
    "candidate": "ELMES, Lee-Ann",
    "party": "Family First",
-   "votes": 255,
-   "pct": 2.27
+   "votes": 396,
+   "pct": 2.24
   },
   {
    "candidate": "PARTRIDGE, Andrew",
    "party": "One Nation Victoria",
-   "votes": 4095,
-   "pct": 36.39
+   "votes": 6218,
+   "pct": 35.22
   },
   {
    "candidate": "DOWNEY, Jos",
    "party": "Victorian Socialists",
-   "votes": 160,
-   "pct": 1.42
+   "votes": 227,
+   "pct": 1.29
   },
   {
    "candidate": "MORAN, Jeff",
    "party": "The Greens",
-   "votes": 1084,
-   "pct": 9.63
+   "votes": 1566,
+   "pct": 8.87
   }
  ],
  "tcp": [
   {
    "candidate": "KEALY, Emma",
    "party": "The Nationals",
-   "votes": 3277,
-   "pct": 57.65
+   "votes": 8610,
+   "pct": 59.65
   },
   {
    "candidate": "PARTRIDGE, Andrew",
    "party": "One Nation Victoria",
-   "votes": 2407,
-   "pct": 42.35
+   "votes": 5824,
+   "pct": 40.35
   }
  ],
  "links": {
