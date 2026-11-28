@@ -3,65 +3,65 @@
  "name": "Croydon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T16:49:12+00:00",
+ "fetched_at": "2026-11-28T16:59:13+00:00",
  "title": "Croydon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 03:45:04",
+ "last_updated": "Sunday, 29 November 2026 03:55:04",
  "enrolment": 55612,
- "formal": 35309,
- "informal": 1852,
- "total_votes": 37161,
- "counted_pct": 66.82,
+ "formal": 35025,
+ "informal": 1835,
+ "total_votes": 36860,
+ "counted_pct": 66.28,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Croydon District results Croydon District results Listen Provisional results Last updated: Sunday, 29 November 2026 03:45:04 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Croydon District results Croydon District results Listen Provisional results Last updated: Sunday, 29 November 2026 03:55:04 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "FARR, Richard",
    "party": "Australian Labor Party",
-   "votes": 5708,
-   "pct": 16.17
+   "votes": 5676,
+   "pct": 16.21
   },
   {
    "candidate": "VANDERWOLF, David",
    "party": "",
-   "votes": 1538,
-   "pct": 4.36
+   "votes": 1523,
+   "pct": 4.35
   },
   {
    "candidate": "SCHWAB, Nathan",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 313,
-   "pct": 0.89
+   "votes": 308,
+   "pct": 0.88
   },
   {
    "candidate": "THOMAS, Nofoao",
    "party": "Family First",
-   "votes": 825,
-   "pct": 2.34
+   "votes": 812,
+   "pct": 2.32
   },
   {
    "candidate": "WOOLDRIDGE, Toby",
    "party": "Liberal",
-   "votes": 14129,
-   "pct": 40.02
+   "votes": 14036,
+   "pct": 40.07
   },
   {
    "candidate": "GRIMSHAW, Beth",
    "party": "Victorian Socialists",
-   "votes": 1066,
-   "pct": 3.02
+   "votes": 1050,
+   "pct": 3.0
   },
   {
    "candidate": "BRINDLEY, Glenn",
    "party": "One Nation Victoria",
-   "votes": 6367,
-   "pct": 18.03
+   "votes": 6309,
+   "pct": 18.01
   },
   {
    "candidate": "FERNANDO, Lini",
    "party": "The Greens",
-   "votes": 5363,
-   "pct": 15.19
+   "votes": 5311,
+   "pct": 15.16
   }
  ],
  "tcp": [
