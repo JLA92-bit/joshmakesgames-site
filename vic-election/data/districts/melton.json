@@ -3,16 +3,16 @@
  "name": "Melton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:14:14+00:00",
+ "fetched_at": "2026-11-28T12:17:26+00:00",
  "title": "Melton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:09",
+ "last_updated": "Saturday, 28 November 2026 23:15:09",
  "enrolment": 60210,
  "formal": 23566,
  "informal": 2483,
  "total_votes": 26049,
  "counted_pct": 43.26,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Melton district results Melton District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:09 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Melton district results Melton District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:09 These results are provisional."
  ],
  "primary": [
   {
@@ -86,14 +86,14 @@
   {
    "candidate": "BINGHAM, Jarrod",
    "party": "Liberal",
-   "votes": 5286,
-   "pct": 61.24
+   "votes": 5703,
+   "pct": 60.83
   },
   {
    "candidate": "BORG, Broden",
    "party": "Australian Labor Party",
-   "votes": 3345,
-   "pct": 38.76
+   "votes": 3672,
+   "pct": 39.17
   }
  ],
  "links": {

@@ -3,65 +3,65 @@
  "name": "Brighton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brighton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:09:05+00:00",
+ "fetched_at": "2026-11-28T12:17:56+00:00",
  "title": "Brighton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:05:02",
+ "last_updated": "Saturday, 28 November 2026 23:15:02",
  "enrolment": 50950,
- "formal": 9764,
- "informal": 391,
- "total_votes": 10155,
- "counted_pct": 19.93,
+ "formal": 13257,
+ "informal": 531,
+ "total_votes": 13788,
+ "counted_pct": 27.06,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Brighton District results Brighton District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:02 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Brighton District results Brighton District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:02 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "FAGAN, Alexander",
    "party": "One Nation Victoria",
-   "votes": 768,
-   "pct": 7.87
+   "votes": 1057,
+   "pct": 7.97
   },
   {
    "candidate": "CASLEY, John",
    "party": "",
-   "votes": 58,
-   "pct": 0.59
+   "votes": 84,
+   "pct": 0.63
   },
   {
    "candidate": "HAIN, Anthony",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 78,
-   "pct": 0.8
+   "votes": 103,
+   "pct": 0.78
   },
   {
    "candidate": "MULLAHY, Bridget",
    "party": "Australian Labor Party",
-   "votes": 1240,
-   "pct": 12.7
+   "votes": 1719,
+   "pct": 12.97
   },
   {
    "candidate": "SMITH, Jessica",
    "party": "Victorian Socialists",
-   "votes": 284,
-   "pct": 2.91
+   "votes": 394,
+   "pct": 2.97
   },
   {
    "candidate": "NEWBURY, James",
    "party": "Liberal",
-   "votes": 5426,
-   "pct": 55.57
+   "votes": 7232,
+   "pct": 54.55
   },
   {
    "candidate": "VINCENT, Barry",
    "party": "Family First",
-   "votes": 75,
-   "pct": 0.77
+   "votes": 92,
+   "pct": 0.69
   },
   {
    "candidate": "BAIN, Ebony",
    "party": "The Greens",
-   "votes": 1835,
-   "pct": 18.79
+   "votes": 2576,
+   "pct": 19.43
   }
  ],
  "tcp": [

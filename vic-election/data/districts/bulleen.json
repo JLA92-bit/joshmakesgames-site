@@ -3,16 +3,16 @@
  "name": "Bulleen",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bulleen-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:09:06+00:00",
+ "fetched_at": "2026-11-28T12:17:57+00:00",
  "title": "Bulleen election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:05:02",
+ "last_updated": "Saturday, 28 November 2026 23:15:02",
  "enrolment": 51233,
- "formal": 19098,
+ "formal": 19100,
  "informal": 1182,
- "total_votes": 20280,
- "counted_pct": 39.58,
+ "total_votes": 20282,
+ "counted_pct": 39.59,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bulleen District results Bulleen District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:02 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bulleen District results Bulleen District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:02 These results are provisional."
  ],
  "primary": [
   {
@@ -25,7 +25,7 @@
    "candidate": "LIGHTBODY, Tomas",
    "party": "The Greens",
    "votes": 2373,
-   "pct": 12.43
+   "pct": 12.42
   },
   {
    "candidate": "HARVEY, Bradley",
@@ -36,8 +36,8 @@
   {
    "candidate": "GUY, Matthew",
    "party": "Liberal",
-   "votes": 10134,
-   "pct": 53.06
+   "votes": 10136,
+   "pct": 53.07
   },
   {
    "candidate": "PALIOURAS, Amanda",
@@ -68,14 +68,14 @@
   {
    "candidate": "GUY, Matthew",
    "party": "Liberal",
-   "votes": 6924,
-   "pct": 68.09
+   "votes": 10420,
+   "pct": 70.71
   },
   {
    "candidate": "DALE, Tim",
    "party": "Australian Labor Party",
-   "votes": 3245,
-   "pct": 31.91
+   "votes": 4317,
+   "pct": 29.29
   }
  ],
  "links": {

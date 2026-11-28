@@ -3,23 +3,23 @@
  "name": "Caulfield",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/caulfield-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:09:08+00:00",
+ "fetched_at": "2026-11-28T12:17:58+00:00",
  "title": "Caulfield election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:05:04",
+ "last_updated": "Saturday, 28 November 2026 23:15:05",
  "enrolment": 51087,
- "formal": 16346,
+ "formal": 16349,
  "informal": 595,
- "total_votes": 16941,
- "counted_pct": 33.16,
+ "total_votes": 16944,
+ "counted_pct": 33.17,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Caulfield District results Caulfield District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:04 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Caulfield District results Caulfield District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:05 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "DOLEJŠÍ, Angel",
    "party": "The Greens",
-   "votes": 3531,
-   "pct": 21.6
+   "votes": 3533,
+   "pct": 21.61
   },
   {
    "candidate": "SHROOT, Yaakov Ziv",
@@ -36,7 +36,7 @@
   {
    "candidate": "STAFRACE, Mikaela",
    "party": "Australian Labor Party",
-   "votes": 2499,
+   "votes": 2500,
    "pct": 15.29
   },
   {
@@ -49,7 +49,7 @@
    "candidate": "SOUTHWICK, David",
    "party": "Liberal",
    "votes": 8023,
-   "pct": 49.08
+   "pct": 49.07
   },
   {
    "candidate": "ABELMAN, Michael",
@@ -62,14 +62,14 @@
   {
    "candidate": "STAFRACE, Mikaela",
    "party": "Australian Labor Party",
-   "votes": 4318,
-   "pct": 47.23
+   "votes": 4969,
+   "pct": 46.86
   },
   {
    "candidate": "SOUTHWICK, David",
    "party": "Liberal",
-   "votes": 4824,
-   "pct": 52.77
+   "votes": 5635,
+   "pct": 53.14
   }
  ],
  "links": {
