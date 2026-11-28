@@ -3,21 +3,21 @@
  "name": "Frankston",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:59:58+00:00",
+ "fetched_at": "2026-11-28T11:09:17+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:05",
+ "last_updated": "Saturday, 28 November 2026 22:05:05",
  "enrolment": 51237,
- "formal": 12260,
- "informal": 894,
- "total_votes": 13154,
- "counted_pct": 25.67,
+ "formal": 12265,
+ "informal": 895,
+ "total_votes": 13160,
+ "counted_pct": 25.68,
  "notes": [],
  "primary": [
   {
    "candidate": "KNIPE, Jeff",
    "party": "Legalise Cannabis Victoria",
    "votes": 631,
-   "pct": 5.15
+   "pct": 5.14
   },
   {
    "candidate": "KELSALL, Henry",
@@ -34,31 +34,31 @@
   {
    "candidate": "NICHOLES, Peter",
    "party": "Family First",
-   "votes": 189,
-   "pct": 1.54
+   "votes": 190,
+   "pct": 1.55
   },
   {
    "candidate": "EDBROOKE, Paul",
    "party": "Australian Labor Party",
-   "votes": 2417,
-   "pct": 19.71
+   "votes": 2419,
+   "pct": 19.72
   },
   {
    "candidate": "ABRAHAM, Chrysten",
    "party": "",
-   "votes": 208,
-   "pct": 1.7
+   "votes": 207,
+   "pct": 1.69
   },
   {
    "candidate": "AMBRY, Bree",
    "party": "Liberal",
-   "votes": 3322,
-   "pct": 27.1
+   "votes": 3326,
+   "pct": 27.12
   },
   {
    "candidate": "STAFFORD, Paul",
    "party": "One Nation Victoria",
-   "votes": 2592,
+   "votes": 2593,
    "pct": 21.14
   },
   {
@@ -70,13 +70,13 @@
   {
    "candidate": "GOULAS, Katie",
    "party": "The Greens",
-   "votes": 2086,
-   "pct": 17.01
+   "votes": 2085,
+   "pct": 17.0
   },
   {
    "candidate": "CHEESEMAN, Andrew",
    "party": "Victorian Socialists",
-   "votes": 426,
+   "votes": 425,
    "pct": 3.47
   }
  ],
@@ -84,14 +84,14 @@
   {
    "candidate": "EDBROOKE, Paul",
    "party": "Australian Labor Party",
-   "votes": 2646,
-   "pct": 48.72
+   "votes": 3081,
+   "pct": 47.47
   },
   {
    "candidate": "AMBRY, Bree",
    "party": "Liberal",
-   "votes": 2785,
-   "pct": 51.28
+   "votes": 3410,
+   "pct": 52.53
   }
  ],
  "links": {

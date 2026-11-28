@@ -3,50 +3,50 @@
  "name": "Berwick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:59:53+00:00",
+ "fetched_at": "2026-11-28T11:09:09+00:00",
  "title": "Berwick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:02",
+ "last_updated": "Saturday, 28 November 2026 22:05:02",
  "enrolment": 67010,
- "formal": 14247,
- "informal": 986,
- "total_votes": 15233,
- "counted_pct": 22.73,
+ "formal": 14362,
+ "informal": 995,
+ "total_votes": 15357,
+ "counted_pct": 22.92,
  "notes": [],
  "primary": [
   {
    "candidate": "KHAN, Rana",
    "party": "Australian Labor Party",
-   "votes": 2377,
+   "votes": 2395,
    "pct": 16.68
   },
   {
    "candidate": "DE SILVA, Roshan",
    "party": "The Greens",
-   "votes": 2236,
-   "pct": 15.69
+   "votes": 2256,
+   "pct": 15.71
   },
   {
    "candidate": "DE PAOLIS, Vincenzo",
    "party": "Family First",
-   "votes": 292,
+   "votes": 295,
    "pct": 2.05
   },
   {
    "candidate": "PIASTRINO, Michael",
    "party": "One Nation Victoria",
-   "votes": 2691,
-   "pct": 18.89
+   "votes": 2710,
+   "pct": 18.87
   },
   {
    "candidate": "BATTIN, Brad",
    "party": "Liberal",
-   "votes": 6152,
-   "pct": 43.18
+   "votes": 6203,
+   "pct": 43.19
   },
   {
    "candidate": "DOWLING, Scott",
    "party": "Citizens Party",
-   "votes": 71,
+   "votes": 72,
    "pct": 0.5
   },
   {
@@ -58,28 +58,28 @@
   {
    "candidate": "AMARASIRI GUNAWARDANA, Nalinda",
    "party": "Victorian Socialists",
-   "votes": 228,
-   "pct": 1.6
+   "votes": 231,
+   "pct": 1.61
   },
   {
    "candidate": "KING, Ethelyn",
    "party": "Libertarian (formerly Liberal Democrats)",
    "votes": 131,
-   "pct": 0.92
+   "pct": 0.91
   }
  ],
  "tcp": [
   {
    "candidate": "KHAN, Rana",
    "party": "Australian Labor Party",
-   "votes": 3630,
-   "pct": 31.67
+   "votes": 3691,
+   "pct": 31.7
   },
   {
    "candidate": "BATTIN, Brad",
    "party": "Liberal",
-   "votes": 7833,
-   "pct": 68.33
+   "votes": 7951,
+   "pct": 68.3
   }
  ],
  "links": {

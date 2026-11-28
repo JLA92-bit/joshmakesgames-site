@@ -3,9 +3,9 @@
  "name": "Bundoora",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:59:53+00:00",
+ "fetched_at": "2026-11-28T11:09:12+00:00",
  "title": "Bundoora election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:02",
+ "last_updated": "Saturday, 28 November 2026 22:05:02",
  "enrolment": 48975,
  "formal": 12831,
  "informal": 727,
@@ -66,14 +66,14 @@
   {
    "candidate": "PARR, Chris",
    "party": "Liberal",
-   "votes": 5487,
-   "pct": 53.0
+   "votes": 6310,
+   "pct": 52.8
   },
   {
    "candidate": "BROOKS, Colin",
    "party": "Australian Labor Party",
-   "votes": 4865,
-   "pct": 47.0
+   "votes": 5641,
+   "pct": 47.2
   }
  ],
  "links": {

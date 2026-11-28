@@ -3,75 +3,75 @@
  "name": "Pakenham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:05:21+00:00",
+ "fetched_at": "2026-11-28T11:08:43+00:00",
  "title": "Pakenham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:00:12",
+ "last_updated": "Saturday, 28 November 2026 22:05:13",
  "enrolment": 55910,
- "formal": 10185,
- "informal": 808,
- "total_votes": 10993,
- "counted_pct": 19.66,
+ "formal": 10973,
+ "informal": 884,
+ "total_votes": 11857,
+ "counted_pct": 21.21,
  "notes": [],
  "primary": [
   {
    "candidate": "HAMALAINEN, Jesse",
    "party": "Labour DLP",
-   "votes": 197,
-   "pct": 1.93
+   "votes": 218,
+   "pct": 1.99
   },
   {
    "candidate": "FRENCH, Raymond",
    "party": "",
-   "votes": 93,
-   "pct": 0.91
+   "votes": 105,
+   "pct": 0.96
   },
   {
    "candidate": "HANDS, Kate",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 152,
+   "votes": 163,
    "pct": 1.49
   },
   {
    "candidate": "OGDEN, Lucas",
    "party": "",
-   "votes": 153,
-   "pct": 1.5
+   "votes": 166,
+   "pct": 1.51
   },
   {
    "candidate": "GRIGG, Stephanie",
    "party": "Victorian Socialists",
-   "votes": 255,
-   "pct": 2.5
+   "votes": 285,
+   "pct": 2.6
   },
   {
    "candidate": "SOLIVEN, Alessandra",
    "party": "Australian Labor Party",
-   "votes": 1435,
-   "pct": 14.09
+   "votes": 1574,
+   "pct": 14.34
   },
   {
    "candidate": "DYSON, Radmila",
    "party": "Liberal",
-   "votes": 3072,
-   "pct": 30.16
+   "votes": 3254,
+   "pct": 29.65
   },
   {
    "candidate": "YAWARI, Nasser",
    "party": "The Greens",
-   "votes": 1318,
-   "pct": 12.94
+   "votes": 1421,
+   "pct": 12.95
   },
   {
    "candidate": "PICKERING, Warren",
    "party": "One Nation Victoria",
-   "votes": 3376,
-   "pct": 33.15
+   "votes": 3640,
+   "pct": 33.17
   },
   {
    "candidate": "DAVIES, Stephanie",
    "party": "",
-   "votes": 134,
-   "pct": 1.32
+   "votes": 147,
+   "pct": 1.34
   }
  ],
  "tcp": [
@@ -111,33 +111,33 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "HAMALAINEN, Jesse Labour DLP": 197.0,
-     "FRENCH, Raymond": 93.0,
-     "HANDS, Kate Libertarian (formerly Liberal Democrats)": 152.0,
-     "OGDEN, Lucas": 153.0,
-     "GRIGG, Stephanie Victorian Socialists": 255.0,
-     "SOLIVEN, Alessandra Australian Labor Party": 1435.0,
-     "DYSON, Radmila Liberal": 3072.0,
-     "YAWARI, Nasser The Greens": 1318.0,
-     "PICKERING, Warren One Nation Victoria": 3376.0,
-     "DAVIES, Stephanie": 134.0,
-     "Informal votes": 808.0,
-     "Total votes polled": 10993.0
+     "HAMALAINEN, Jesse Labour DLP": 218.0,
+     "FRENCH, Raymond": 105.0,
+     "HANDS, Kate Libertarian (formerly Liberal Democrats)": 163.0,
+     "OGDEN, Lucas": 166.0,
+     "GRIGG, Stephanie Victorian Socialists": 285.0,
+     "SOLIVEN, Alessandra Australian Labor Party": 1574.0,
+     "DYSON, Radmila Liberal": 3254.0,
+     "YAWARI, Nasser The Greens": 1421.0,
+     "PICKERING, Warren One Nation Victoria": 3640.0,
+     "DAVIES, Stephanie": 147.0,
+     "Informal votes": 884.0,
+     "Total votes polled": 11857.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "HAMALAINEN, Jesse Labour DLP": 1.93,
-     "FRENCH, Raymond": 0.91,
+     "HAMALAINEN, Jesse Labour DLP": 1.99,
+     "FRENCH, Raymond": 0.96,
      "HANDS, Kate Libertarian (formerly Liberal Democrats)": 1.49,
-     "OGDEN, Lucas": 1.5,
-     "GRIGG, Stephanie Victorian Socialists": 2.5,
-     "SOLIVEN, Alessandra Australian Labor Party": 14.09,
-     "DYSON, Radmila Liberal": 30.16,
-     "YAWARI, Nasser The Greens": 12.94,
-     "PICKERING, Warren One Nation Victoria": 33.15,
-     "DAVIES, Stephanie": 1.32
+     "OGDEN, Lucas": 1.51,
+     "GRIGG, Stephanie Victorian Socialists": 2.6,
+     "SOLIVEN, Alessandra Australian Labor Party": 14.34,
+     "DYSON, Radmila Liberal": 29.65,
+     "YAWARI, Nasser The Greens": 12.95,
+     "PICKERING, Warren One Nation Victoria": 33.17,
+     "DAVIES, Stephanie": 1.34
     }
    },
    {
@@ -266,18 +266,18 @@
    {
     "booth": "Pakenham",
     "values": {
-     "HAMALAINEN, Jesse Labour DLP": 0.0,
-     "FRENCH, Raymond": 0.0,
-     "HANDS, Kate Libertarian (formerly Liberal Democrats)": 0.0,
-     "OGDEN, Lucas": 0.0,
-     "GRIGG, Stephanie Victorian Socialists": 0.0,
-     "SOLIVEN, Alessandra Australian Labor Party": 0.0,
-     "DYSON, Radmila Liberal": 0.0,
-     "YAWARI, Nasser The Greens": 0.0,
-     "PICKERING, Warren One Nation Victoria": 0.0,
-     "DAVIES, Stephanie": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "HAMALAINEN, Jesse Labour DLP": 21.0,
+     "FRENCH, Raymond": 12.0,
+     "HANDS, Kate Libertarian (formerly Liberal Democrats)": 11.0,
+     "OGDEN, Lucas": 13.0,
+     "GRIGG, Stephanie Victorian Socialists": 30.0,
+     "SOLIVEN, Alessandra Australian Labor Party": 139.0,
+     "DYSON, Radmila Liberal": 182.0,
+     "YAWARI, Nasser The Greens": 103.0,
+     "PICKERING, Warren One Nation Victoria": 264.0,
+     "DAVIES, Stephanie": 13.0,
+     "Informal votes": 76.0,
+     "Total votes polled": 864.0
     }
    },
    {
@@ -402,18 +402,18 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "HAMALAINEN, Jesse Labour DLP": 169.0,
-     "FRENCH, Raymond": 65.0,
-     "HANDS, Kate Libertarian (formerly Liberal Democrats)": 130.0,
-     "OGDEN, Lucas": 131.0,
-     "GRIGG, Stephanie Victorian Socialists": 220.0,
-     "SOLIVEN, Alessandra Australian Labor Party": 1112.0,
-     "DYSON, Radmila Liberal": 2180.0,
-     "YAWARI, Nasser The Greens": 1110.0,
-     "PICKERING, Warren One Nation Victoria": 2609.0,
-     "DAVIES, Stephanie": 91.0,
-     "Informal votes": 699.0,
-     "Total votes polled": 8516.0
+     "HAMALAINEN, Jesse Labour DLP": 190.0,
+     "FRENCH, Raymond": 77.0,
+     "HANDS, Kate Libertarian (formerly Liberal Democrats)": 141.0,
+     "OGDEN, Lucas": 144.0,
+     "GRIGG, Stephanie Victorian Socialists": 250.0,
+     "SOLIVEN, Alessandra Australian Labor Party": 1251.0,
+     "DYSON, Radmila Liberal": 2362.0,
+     "YAWARI, Nasser The Greens": 1213.0,
+     "PICKERING, Warren One Nation Victoria": 2873.0,
+     "DAVIES, Stephanie": 104.0,
+     "Informal votes": 775.0,
+     "Total votes polled": 9380.0
     }
    },
    {

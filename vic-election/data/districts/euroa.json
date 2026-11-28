@@ -3,9 +3,9 @@
  "name": "Euroa",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/euroa-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:05:09+00:00",
+ "fetched_at": "2026-11-28T11:08:09+00:00",
  "title": "Euroa election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:00:05",
+ "last_updated": "Saturday, 28 November 2026 22:05:05",
  "enrolment": 53147,
  "formal": 10539,
  "informal": 552,
@@ -60,14 +60,14 @@
   {
    "candidate": "CLEELAND, Annabelle",
    "party": "The Nationals",
-   "votes": 5241,
-   "pct": 57.6
+   "votes": 5656,
+   "pct": 57.67
   },
   {
    "candidate": "CAMPBELL, Steve",
    "party": "One Nation Victoria",
-   "votes": 3858,
-   "pct": 42.4
+   "votes": 4151,
+   "pct": 42.33
   }
  ],
  "links": {

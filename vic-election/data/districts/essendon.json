@@ -3,77 +3,77 @@
  "name": "Essendon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/essendon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:59:55+00:00",
+ "fetched_at": "2026-11-28T11:09:15+00:00",
  "title": "Essendon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:05",
+ "last_updated": "Saturday, 28 November 2026 22:05:05",
  "enrolment": 53729,
- "formal": 12362,
- "informal": 630,
- "total_votes": 12992,
- "counted_pct": 24.18,
+ "formal": 14054,
+ "informal": 741,
+ "total_votes": 14795,
+ "counted_pct": 27.54,
  "notes": [],
  "primary": [
   {
    "candidate": "BARNES, John",
    "party": "One Nation Victoria",
-   "votes": 1312,
-   "pct": 10.61
+   "votes": 1450,
+   "pct": 10.32
   },
   {
    "candidate": "ADAMS, Ava",
    "party": "",
-   "votes": 658,
-   "pct": 5.32
+   "votes": 729,
+   "pct": 5.19
   },
   {
    "candidate": "LE DEUX, Tommy",
    "party": "Liberal",
-   "votes": 3601,
-   "pct": 29.13
+   "votes": 3991,
+   "pct": 28.4
   },
   {
    "candidate": "MOHAMUD, Anab",
    "party": "",
-   "votes": 56,
-   "pct": 0.45
+   "votes": 73,
+   "pct": 0.52
   },
   {
    "candidate": "THEODOSIS, Kat",
    "party": "Australian Labor Party",
-   "votes": 2430,
-   "pct": 19.66
+   "votes": 2852,
+   "pct": 20.29
   },
   {
    "candidate": "WILLIAMS, James",
    "party": "The Greens",
-   "votes": 2106,
-   "pct": 17.04
+   "votes": 2455,
+   "pct": 17.47
   },
   {
    "candidate": "YILDIZ, Oscar",
    "party": "",
-   "votes": 1174,
-   "pct": 9.5
+   "votes": 1306,
+   "pct": 9.29
   },
   {
    "candidate": "KEDEM, Michal",
    "party": "Victorian Socialists",
-   "votes": 1025,
-   "pct": 8.29
+   "votes": 1198,
+   "pct": 8.52
   }
  ],
  "tcp": [
   {
    "candidate": "LE DEUX, Tommy",
    "party": "Liberal",
-   "votes": 6078,
-   "pct": 50.07
+   "votes": 6632,
+   "pct": 49.82
   },
   {
    "candidate": "THEODOSIS, Kat",
    "party": "Australian Labor Party",
-   "votes": 6061,
-   "pct": 49.93
+   "votes": 6680,
+   "pct": 50.18
   }
  ],
  "links": {

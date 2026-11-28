@@ -3,69 +3,69 @@
  "name": "Eureka",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eureka-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:05:09+00:00",
+ "fetched_at": "2026-11-28T11:08:08+00:00",
  "title": "Eureka election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:00:05",
+ "last_updated": "Saturday, 28 November 2026 22:05:05",
  "enrolment": 58117,
- "formal": 19411,
- "informal": 1202,
- "total_votes": 20613,
- "counted_pct": 35.47,
+ "formal": 26034,
+ "informal": 1674,
+ "total_votes": 27708,
+ "counted_pct": 47.68,
  "notes": [],
  "primary": [
   {
    "candidate": "ZIVKOVIC, Belinda",
    "party": "",
-   "votes": 498,
-   "pct": 2.57
+   "votes": 686,
+   "pct": 2.64
   },
   {
    "candidate": "McCOLL, Sam",
    "party": "The Greens",
-   "votes": 2971,
-   "pct": 15.31
+   "votes": 4234,
+   "pct": 16.26
   },
   {
    "candidate": "SETTLE, Michaela",
    "party": "Australian Labor Party",
-   "votes": 3313,
-   "pct": 17.07
+   "votes": 4585,
+   "pct": 17.61
   },
   {
    "candidate": "RAVEN, Andy",
    "party": "Victorian Socialists",
-   "votes": 466,
-   "pct": 2.4
+   "votes": 664,
+   "pct": 2.55
   },
   {
    "candidate": "HARKNESS, Ian Maxwell",
    "party": "Family First",
-   "votes": 400,
-   "pct": 2.06
+   "votes": 518,
+   "pct": 1.99
   },
   {
    "candidate": "MORRISON, Wendy",
    "party": "Animal Justice Party",
-   "votes": 359,
-   "pct": 1.85
+   "votes": 477,
+   "pct": 1.83
   },
   {
    "candidate": "BALLINGER, Paul",
    "party": "One Nation Victoria",
-   "votes": 5948,
-   "pct": 30.64
+   "votes": 7479,
+   "pct": 28.73
   },
   {
    "candidate": "MUIR, Emma",
    "party": "Liberal",
-   "votes": 5091,
-   "pct": 26.23
+   "votes": 7000,
+   "pct": 26.89
   },
   {
    "candidate": "VENDITTI-TAYLOR, Steven",
    "party": "",
-   "votes": 365,
-   "pct": 1.88
+   "votes": 391,
+   "pct": 1.5
   }
  ],
  "tcp": [
@@ -104,31 +104,31 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "ZIVKOVIC, Belinda": 498.0,
-     "McCOLL, Sam The Greens": 2971.0,
-     "SETTLE, Michaela Australian Labor Party": 3313.0,
-     "RAVEN, Andy Victorian Socialists": 466.0,
-     "HARKNESS, Ian Maxwell Family First": 400.0,
-     "MORRISON, Wendy Animal Justice Party": 359.0,
-     "BALLINGER, Paul One Nation Victoria": 5948.0,
-     "MUIR, Emma Liberal": 5091.0,
-     "VENDITTI TAYLOR, Steven": 365.0,
-     "Informal votes": 1202.0,
-     "Total votes polled": 20613.0
+     "ZIVKOVIC, Belinda": 686.0,
+     "McCOLL, Sam The Greens": 4234.0,
+     "SETTLE, Michaela Australian Labor Party": 4585.0,
+     "RAVEN, Andy Victorian Socialists": 664.0,
+     "HARKNESS, Ian Maxwell Family First": 518.0,
+     "MORRISON, Wendy Animal Justice Party": 477.0,
+     "BALLINGER, Paul One Nation Victoria": 7479.0,
+     "MUIR, Emma Liberal": 7000.0,
+     "VENDITTI TAYLOR, Steven": 391.0,
+     "Informal votes": 1674.0,
+     "Total votes polled": 27708.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "ZIVKOVIC, Belinda": 2.57,
-     "McCOLL, Sam The Greens": 15.31,
-     "SETTLE, Michaela Australian Labor Party": 17.07,
-     "RAVEN, Andy Victorian Socialists": 2.4,
-     "HARKNESS, Ian Maxwell Family First": 2.06,
-     "MORRISON, Wendy Animal Justice Party": 1.85,
-     "BALLINGER, Paul One Nation Victoria": 30.64,
-     "MUIR, Emma Liberal": 26.23,
-     "VENDITTI TAYLOR, Steven": 1.88
+     "ZIVKOVIC, Belinda": 2.64,
+     "McCOLL, Sam The Greens": 16.26,
+     "SETTLE, Michaela Australian Labor Party": 17.61,
+     "RAVEN, Andy Victorian Socialists": 2.55,
+     "HARKNESS, Ian Maxwell Family First": 1.99,
+     "MORRISON, Wendy Animal Justice Party": 1.83,
+     "BALLINGER, Paul One Nation Victoria": 28.73,
+     "MUIR, Emma Liberal": 26.89,
+     "VENDITTI TAYLOR, Steven": 1.5
     }
    },
    {
@@ -622,17 +622,17 @@
    {
     "booth": "Eureka - EVC 2",
     "values": {
-     "ZIVKOVIC, Belinda": 0.0,
-     "McCOLL, Sam The Greens": 0.0,
-     "SETTLE, Michaela Australian Labor Party": 0.0,
-     "RAVEN, Andy Victorian Socialists": 0.0,
-     "HARKNESS, Ian Maxwell Family First": 0.0,
-     "MORRISON, Wendy Animal Justice Party": 0.0,
-     "BALLINGER, Paul One Nation Victoria": 0.0,
-     "MUIR, Emma Liberal": 0.0,
-     "VENDITTI TAYLOR, Steven": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "ZIVKOVIC, Belinda": 188.0,
+     "McCOLL, Sam The Greens": 1263.0,
+     "SETTLE, Michaela Australian Labor Party": 1272.0,
+     "RAVEN, Andy Victorian Socialists": 198.0,
+     "HARKNESS, Ian Maxwell Family First": 118.0,
+     "MORRISON, Wendy Animal Justice Party": 118.0,
+     "BALLINGER, Paul One Nation Victoria": 1531.0,
+     "MUIR, Emma Liberal": 1909.0,
+     "VENDITTI TAYLOR, Steven": 26.0,
+     "Informal votes": 472.0,
+     "Total votes polled": 7095.0
     }
    },
    {
@@ -702,17 +702,17 @@
    {
     "booth": "Early votes total",
     "values": {
-     "ZIVKOVIC, Belinda": 5.0,
-     "McCOLL, Sam The Greens": 25.0,
-     "SETTLE, Michaela Australian Labor Party": 53.0,
-     "RAVEN, Andy Victorian Socialists": 3.0,
-     "HARKNESS, Ian Maxwell Family First": 4.0,
-     "MORRISON, Wendy Animal Justice Party": 5.0,
-     "BALLINGER, Paul One Nation Victoria": 39.0,
-     "MUIR, Emma Liberal": 88.0,
-     "VENDITTI TAYLOR, Steven": 5.0,
-     "Informal votes": 27.0,
-     "Total votes polled": 254.0
+     "ZIVKOVIC, Belinda": 193.0,
+     "McCOLL, Sam The Greens": 1288.0,
+     "SETTLE, Michaela Australian Labor Party": 1325.0,
+     "RAVEN, Andy Victorian Socialists": 201.0,
+     "HARKNESS, Ian Maxwell Family First": 122.0,
+     "MORRISON, Wendy Animal Justice Party": 123.0,
+     "BALLINGER, Paul One Nation Victoria": 1570.0,
+     "MUIR, Emma Liberal": 1997.0,
+     "VENDITTI TAYLOR, Steven": 31.0,
+     "Informal votes": 499.0,
+     "Total votes polled": 7349.0
     }
    },
    {

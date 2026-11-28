@@ -3,71 +3,71 @@
  "name": "Wendouree",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/wendouree-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:03:13+00:00",
+ "fetched_at": "2026-11-28T11:09:29+00:00",
  "title": "Wendouree election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:00:17",
+ "last_updated": "Saturday, 28 November 2026 22:05:16",
  "enrolment": 53581,
- "formal": 19692,
- "informal": 827,
- "total_votes": 20519,
- "counted_pct": 38.3,
+ "formal": 20519,
+ "informal": 868,
+ "total_votes": 21387,
+ "counted_pct": 39.92,
  "notes": [],
  "primary": [
   {
    "candidate": "ADDISON, Juliana",
    "party": "Australian Labor Party",
-   "votes": 4832,
-   "pct": 24.54
+   "votes": 5043,
+   "pct": 24.58
   },
   {
    "candidate": "ROBINSON, Stuart",
    "party": "One Nation Victoria",
-   "votes": 4415,
-   "pct": 22.42
+   "votes": 4658,
+   "pct": 22.7
   },
   {
    "candidate": "BYRNE, Ruth",
    "party": "Family First",
-   "votes": 490,
-   "pct": 2.49
+   "votes": 527,
+   "pct": 2.57
   },
   {
    "candidate": "MEAGHER, Chris",
    "party": "Victorian Socialists",
-   "votes": 622,
-   "pct": 3.16
+   "votes": 657,
+   "pct": 3.2
   },
   {
    "candidate": "RONAN, Gav",
    "party": "Liberal",
-   "votes": 5626,
-   "pct": 28.57
+   "votes": 5747,
+   "pct": 28.01
   },
   {
    "candidate": "COLLINS, Melissa",
    "party": "Animal Justice Party",
-   "votes": 420,
-   "pct": 2.13
+   "votes": 452,
+   "pct": 2.2
   },
   {
    "candidate": "BURNS, Ellen",
    "party": "The Greens",
-   "votes": 3287,
-   "pct": 16.69
+   "votes": 3435,
+   "pct": 16.74
   }
  ],
  "tcp": [
   {
    "candidate": "ADDISON, Juliana",
    "party": "Australian Labor Party",
-   "votes": 3688,
-   "pct": 48.33
+   "votes": 4227,
+   "pct": 49.99
   },
   {
    "candidate": "RONAN, Gav",
    "party": "Liberal",
-   "votes": 3943,
-   "pct": 51.67
+   "votes": 4229,
+   "pct": 50.01
   }
  ],
  "links": {
