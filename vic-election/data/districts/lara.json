@@ -3,65 +3,65 @@
  "name": "Lara",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lara-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:20:14+00:00",
+ "fetched_at": "2026-11-28T12:28:46+00:00",
  "title": "Lara election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:07",
+ "last_updated": "Saturday, 28 November 2026 23:25:07",
  "enrolment": 51659,
- "formal": 30042,
- "informal": 2154,
- "total_votes": 32196,
- "counted_pct": 62.32,
+ "formal": 33118,
+ "informal": 2332,
+ "total_votes": 35450,
+ "counted_pct": 68.62,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Lara District results Lara District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:07 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Lara District results Lara District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:25:07 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "HATHWAY, Sarah",
    "party": "Socialist Alliance",
-   "votes": 933,
-   "pct": 3.11
+   "votes": 992,
+   "pct": 3.0
   },
   {
    "candidate": "LONG, Samantha",
    "party": "Animal Justice Party",
-   "votes": 612,
-   "pct": 2.04
+   "votes": 666,
+   "pct": 2.01
   },
   {
    "candidate": "UWIZEYIMANA, Tina",
    "party": "Family First",
-   "votes": 643,
-   "pct": 2.14
+   "votes": 711,
+   "pct": 2.15
   },
   {
    "candidate": "SLATER, Theresa",
    "party": "The Greens",
-   "votes": 3426,
-   "pct": 11.4
+   "votes": 3877,
+   "pct": 11.71
   },
   {
    "candidate": "SPYROS, Steven",
    "party": "One Nation Victoria",
-   "votes": 9823,
-   "pct": 32.7
+   "votes": 10614,
+   "pct": 32.05
   },
   {
    "candidate": "RANDALL, Oliver",
    "party": "Victorian Socialists",
-   "votes": 454,
-   "pct": 1.51
+   "votes": 527,
+   "pct": 1.59
   },
   {
    "candidate": "GEORGE, Ella",
    "party": "Australian Labor Party",
-   "votes": 8349,
-   "pct": 27.79
+   "votes": 9096,
+   "pct": 27.47
   },
   {
    "candidate": "BEDDOE, Tim",
    "party": "Liberal",
-   "votes": 5802,
-   "pct": 19.31
+   "votes": 6635,
+   "pct": 20.03
   }
  ],
  "tcp": [
@@ -99,29 +99,29 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "HATHWAY, Sarah Socialist Alliance": 933.0,
-     "LONG, Samantha Animal Justice Party": 612.0,
-     "UWIZEYIMANA, Tina Family First": 643.0,
-     "SLATER, Theresa The Greens": 3426.0,
-     "SPYROS, Steven One Nation Victoria": 9823.0,
-     "RANDALL, Oliver Victorian Socialists": 454.0,
-     "GEORGE, Ella Australian Labor Party": 8349.0,
-     "BEDDOE, Tim Liberal": 5802.0,
-     "Informal votes": 2154.0,
-     "Total votes polled": 32196.0
+     "HATHWAY, Sarah Socialist Alliance": 992.0,
+     "LONG, Samantha Animal Justice Party": 666.0,
+     "UWIZEYIMANA, Tina Family First": 711.0,
+     "SLATER, Theresa The Greens": 3877.0,
+     "SPYROS, Steven One Nation Victoria": 10614.0,
+     "RANDALL, Oliver Victorian Socialists": 527.0,
+     "GEORGE, Ella Australian Labor Party": 9096.0,
+     "BEDDOE, Tim Liberal": 6635.0,
+     "Informal votes": 2332.0,
+     "Total votes polled": 35450.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "HATHWAY, Sarah Socialist Alliance": 3.11,
-     "LONG, Samantha Animal Justice Party": 2.04,
-     "UWIZEYIMANA, Tina Family First": 2.14,
-     "SLATER, Theresa The Greens": 11.4,
-     "SPYROS, Steven One Nation Victoria": 32.7,
-     "RANDALL, Oliver Victorian Socialists": 1.51,
-     "GEORGE, Ella Australian Labor Party": 27.79,
-     "BEDDOE, Tim Liberal": 19.31
+     "HATHWAY, Sarah Socialist Alliance": 3.0,
+     "LONG, Samantha Animal Justice Party": 2.01,
+     "UWIZEYIMANA, Tina Family First": 2.15,
+     "SLATER, Theresa The Greens": 11.71,
+     "SPYROS, Steven One Nation Victoria": 32.05,
+     "RANDALL, Oliver Victorian Socialists": 1.59,
+     "GEORGE, Ella Australian Labor Party": 27.47,
+     "BEDDOE, Tim Liberal": 20.03
     }
    },
    {
@@ -495,16 +495,16 @@
    {
     "booth": "Lara - EVC 3",
     "values": {
-     "HATHWAY, Sarah Socialist Alliance": 0.0,
-     "LONG, Samantha Animal Justice Party": 0.0,
-     "UWIZEYIMANA, Tina Family First": 0.0,
-     "SLATER, Theresa The Greens": 0.0,
-     "SPYROS, Steven One Nation Victoria": 0.0,
-     "RANDALL, Oliver Victorian Socialists": 0.0,
-     "GEORGE, Ella Australian Labor Party": 0.0,
-     "BEDDOE, Tim Liberal": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "HATHWAY, Sarah Socialist Alliance": 59.0,
+     "LONG, Samantha Animal Justice Party": 54.0,
+     "UWIZEYIMANA, Tina Family First": 68.0,
+     "SLATER, Theresa The Greens": 451.0,
+     "SPYROS, Steven One Nation Victoria": 791.0,
+     "RANDALL, Oliver Victorian Socialists": 73.0,
+     "GEORGE, Ella Australian Labor Party": 747.0,
+     "BEDDOE, Tim Liberal": 833.0,
+     "Informal votes": 178.0,
+     "Total votes polled": 3254.0
     }
    },
    {
@@ -540,16 +540,16 @@
    {
     "booth": "Early votes total",
     "values": {
-     "HATHWAY, Sarah Socialist Alliance": 491.0,
-     "LONG, Samantha Animal Justice Party": 291.0,
-     "UWIZEYIMANA, Tina Family First": 257.0,
-     "SLATER, Theresa The Greens": 1607.0,
-     "SPYROS, Steven One Nation Victoria": 5666.0,
-     "RANDALL, Oliver Victorian Socialists": 181.0,
-     "GEORGE, Ella Australian Labor Party": 4763.0,
-     "BEDDOE, Tim Liberal": 3388.0,
-     "Informal votes": 1180.0,
-     "Total votes polled": 17824.0
+     "HATHWAY, Sarah Socialist Alliance": 550.0,
+     "LONG, Samantha Animal Justice Party": 345.0,
+     "UWIZEYIMANA, Tina Family First": 325.0,
+     "SLATER, Theresa The Greens": 2058.0,
+     "SPYROS, Steven One Nation Victoria": 6457.0,
+     "RANDALL, Oliver Victorian Socialists": 254.0,
+     "GEORGE, Ella Australian Labor Party": 5510.0,
+     "BEDDOE, Tim Liberal": 4221.0,
+     "Informal votes": 1358.0,
+     "Total votes polled": 21078.0
     }
    },
    {

@@ -1,9 +1,145 @@
 {
- "scraped_at": "2026-11-28T12:20:06+00:00",
+ "scraped_at": "2026-11-28T12:23:06+00:00",
  "base": "/results/2026-results/district-election-page",
  "discovery_log": [],
- "errors": [],
- "iteration": 38,
+ "errors": [
+  {
+   "slug": "eureka",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eureka-district-results"
+  },
+  {
+   "slug": "bass",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bass-district-results"
+  },
+  {
+   "slug": "euroa",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/euroa-district-results"
+  },
+  {
+   "slug": "greenvale",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/greenvale-district-results"
+  },
+  {
+   "slug": "kororoit",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kororoit-district-results"
+  },
+  {
+   "slug": "bellarine",
+   "error": "HTTP 500",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bellarine-district-results"
+  },
+  {
+   "slug": "bendigo-west",
+   "error": "HTTP 500",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results"
+  },
+  {
+   "slug": "box-hill",
+   "error": "HTTP 500",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/box-hill-district-results"
+  },
+  {
+   "slug": "brunswick",
+   "error": "HTTP 500",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brunswick-district-results"
+  },
+  {
+   "slug": "carrum",
+   "error": "HTTP 500",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/carrum-district-results"
+  },
+  {
+   "slug": "cranbourne",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/cranbourne-district-results"
+  },
+  {
+   "slug": "eildon",
+   "error": "HTTP 502",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eildon-district-results"
+  },
+  {
+   "slug": "evelyn",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/evelyn-district-results"
+  },
+  {
+   "slug": "hawthorn",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hawthorn-district-results"
+  },
+  {
+   "slug": "geelong",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/geelong-district-results"
+  },
+  {
+   "slug": "laverton",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/laverton-district-results"
+  },
+  {
+   "slug": "malvern",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/malvern-district-results"
+  },
+  {
+   "slug": "mill-park",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mill-park-district-results"
+  },
+  {
+   "slug": "mornington",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mornington-district-results"
+  },
+  {
+   "slug": "niddrie",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/niddrie-district-results"
+  },
+  {
+   "slug": "ovens-valley",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ovens-valley-district-results"
+  },
+  {
+   "slug": "polwarth",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/polwarth-district-results"
+  },
+  {
+   "slug": "richmond",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/richmond-district-results"
+  },
+  {
+   "slug": "sandringham",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sandringham-district-results"
+  },
+  {
+   "slug": "south-west-coast",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-west-coast-district-results"
+  },
+  {
+   "slug": "warrandyte",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/warrandyte-district-results"
+  },
+  {
+   "slug": "williamstown",
+   "error": "HTTP 0",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results"
+  }
+ ],
+ "iteration": 39,
  "region_urls": {
   "eastern-victoria": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
   "north-eastern-metropolitan": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
@@ -16,11 +152,11 @@
  },
  "fetched": {
   "hot": 21,
-  "cold": 22,
-  "regions": 8
+  "cold": 23,
+  "regions": 0
  },
  "blocked_responses": 0,
  "status": "ok",
- "requests": 57,
- "seconds": 46.9
+ "requests": 160,
+ "seconds": 1057.6
 }
