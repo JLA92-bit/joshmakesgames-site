@@ -3,79 +3,79 @@
  "name": "Narre Warren South",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-south-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T16:33:58+00:00",
+ "fetched_at": "2026-11-28T16:37:36+00:00",
  "title": "Narre Warren South election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 03:30:09",
+ "last_updated": "Sunday, 29 November 2026 03:35:09",
  "enrolment": 57195,
- "formal": 16952,
- "informal": 1357,
- "total_votes": 18309,
- "counted_pct": 32.01,
+ "formal": 19226,
+ "informal": 1590,
+ "total_votes": 20816,
+ "counted_pct": 36.39,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Narre Warren South election results Narre Warren South District results Listen Provisional results Last updated: Sunday, 29 November 2026 03:30:09 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Narre Warren South election results Narre Warren South District results Listen Provisional results Last updated: Sunday, 29 November 2026 03:35:09 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "McCRACKEN, Bailey",
    "party": "Victorian Socialists",
-   "votes": 415,
-   "pct": 2.45
+   "votes": 489,
+   "pct": 2.54
   },
   {
    "candidate": "CURRIE, Alan",
    "party": "Family First",
-   "votes": 463,
-   "pct": 2.73
+   "votes": 521,
+   "pct": 2.71
   },
   {
    "candidate": "HAMMOND, Trevor",
    "party": "One Nation Victoria",
-   "votes": 3737,
-   "pct": 22.04
+   "votes": 4289,
+   "pct": 22.31
   },
   {
    "candidate": "DENKER, Lydia",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 167,
-   "pct": 0.99
+   "votes": 231,
+   "pct": 1.2
   },
   {
    "candidate": "WATSON, Scott",
    "party": "",
-   "votes": 615,
-   "pct": 3.63
+   "votes": 663,
+   "pct": 3.45
   },
   {
    "candidate": "NAMBU, Jill",
    "party": "The Greens",
-   "votes": 2476,
-   "pct": 14.61
+   "votes": 2734,
+   "pct": 14.22
   },
   {
    "candidate": "KOOMEN, Stefan",
    "party": "Australian Labor Party",
-   "votes": 4707,
-   "pct": 27.77
+   "votes": 5374,
+   "pct": 27.95
   },
   {
    "candidate": "PETERSON, Norliah",
    "party": "Liberal",
-   "votes": 4372,
-   "pct": 25.79
+   "votes": 4925,
+   "pct": 25.62
   }
  ],
  "tcp": [
   {
    "candidate": "HAMMOND, Trevor",
    "party": "One Nation Victoria",
-   "votes": 4969,
-   "pct": 45.47
+   "votes": 6037,
+   "pct": 45.73
   },
   {
    "candidate": "KOOMEN, Stefan",
    "party": "Australian Labor Party",
-   "votes": 5959,
-   "pct": 54.53
+   "votes": 7165,
+   "pct": 54.27
   }
  ],
  "links": {
@@ -99,29 +99,29 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "McCRACKEN, Bailey Victorian Socialists": 415.0,
-     "CURRIE, Alan Family First": 463.0,
-     "HAMMOND, Trevor One Nation Victoria": 3737.0,
-     "DENKER, Lydia Libertarian (formerly Liberal Democrats)": 167.0,
-     "WATSON, Scott": 615.0,
-     "NAMBU, Jill The Greens": 2476.0,
-     "KOOMEN, Stefan Australian Labor Party": 4707.0,
-     "PETERSON, Norliah Liberal": 4372.0,
-     "Informal votes": 1357.0,
-     "Total votes polled": 18309.0
+     "McCRACKEN, Bailey Victorian Socialists": 489.0,
+     "CURRIE, Alan Family First": 521.0,
+     "HAMMOND, Trevor One Nation Victoria": 4289.0,
+     "DENKER, Lydia Libertarian (formerly Liberal Democrats)": 231.0,
+     "WATSON, Scott": 663.0,
+     "NAMBU, Jill The Greens": 2734.0,
+     "KOOMEN, Stefan Australian Labor Party": 5374.0,
+     "PETERSON, Norliah Liberal": 4925.0,
+     "Informal votes": 1590.0,
+     "Total votes polled": 20816.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "McCRACKEN, Bailey Victorian Socialists": 2.45,
-     "CURRIE, Alan Family First": 2.73,
-     "HAMMOND, Trevor One Nation Victoria": 22.04,
-     "DENKER, Lydia Libertarian (formerly Liberal Democrats)": 0.99,
-     "WATSON, Scott": 3.63,
-     "NAMBU, Jill The Greens": 14.61,
-     "KOOMEN, Stefan Australian Labor Party": 27.77,
-     "PETERSON, Norliah Liberal": 25.79
+     "McCRACKEN, Bailey Victorian Socialists": 2.54,
+     "CURRIE, Alan Family First": 2.71,
+     "HAMMOND, Trevor One Nation Victoria": 22.31,
+     "DENKER, Lydia Libertarian (formerly Liberal Democrats)": 1.2,
+     "WATSON, Scott": 3.45,
+     "NAMBU, Jill The Greens": 14.22,
+     "KOOMEN, Stefan Australian Labor Party": 27.95,
+     "PETERSON, Norliah Liberal": 25.62
     }
    },
    {
@@ -435,16 +435,16 @@
    {
     "booth": "Cranbourne - EVC 2",
     "values": {
-     "McCRACKEN, Bailey Victorian Socialists": 0.0,
-     "CURRIE, Alan Family First": 0.0,
-     "HAMMOND, Trevor One Nation Victoria": 0.0,
-     "DENKER, Lydia Libertarian (formerly Liberal Democrats)": 0.0,
-     "WATSON, Scott": 0.0,
-     "NAMBU, Jill The Greens": 0.0,
-     "KOOMEN, Stefan Australian Labor Party": 0.0,
-     "PETERSON, Norliah Liberal": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "McCRACKEN, Bailey Victorian Socialists": 74.0,
+     "CURRIE, Alan Family First": 58.0,
+     "HAMMOND, Trevor One Nation Victoria": 552.0,
+     "DENKER, Lydia Libertarian (formerly Liberal Democrats)": 64.0,
+     "WATSON, Scott": 48.0,
+     "NAMBU, Jill The Greens": 258.0,
+     "KOOMEN, Stefan Australian Labor Party": 667.0,
+     "PETERSON, Norliah Liberal": 553.0,
+     "Informal votes": 233.0,
+     "Total votes polled": 2507.0
     }
    },
    {
@@ -510,16 +510,16 @@
    {
     "booth": "Early votes total",
     "values": {
-     "McCRACKEN, Bailey Victorian Socialists": 52.0,
-     "CURRIE, Alan Family First": 76.0,
-     "HAMMOND, Trevor One Nation Victoria": 541.0,
-     "DENKER, Lydia Libertarian (formerly Liberal Democrats)": 24.0,
-     "WATSON, Scott": 93.0,
-     "NAMBU, Jill The Greens": 426.0,
-     "KOOMEN, Stefan Australian Labor Party": 639.0,
-     "PETERSON, Norliah Liberal": 1036.0,
-     "Informal votes": 142.0,
-     "Total votes polled": 3029.0
+     "McCRACKEN, Bailey Victorian Socialists": 126.0,
+     "CURRIE, Alan Family First": 134.0,
+     "HAMMOND, Trevor One Nation Victoria": 1093.0,
+     "DENKER, Lydia Libertarian (formerly Liberal Democrats)": 88.0,
+     "WATSON, Scott": 141.0,
+     "NAMBU, Jill The Greens": 684.0,
+     "KOOMEN, Stefan Australian Labor Party": 1306.0,
+     "PETERSON, Norliah Liberal": 1589.0,
+     "Informal votes": 375.0,
+     "Total votes polled": 5536.0
     }
    },
    {
@@ -615,18 +615,18 @@
    {
     "booth": "Total two candidate preferred votes",
     "values": {
-     "HAMMOND, Trevor One Nation Victoria": 4969.0,
-     "KOOMEN, Stefan Australian Labor Party": 5959.0,
+     "HAMMOND, Trevor One Nation Victoria": 6037.0,
+     "KOOMEN, Stefan Australian Labor Party": 7165.0,
      "Miss-sorts": 5.0,
-     "Informal votes": 867.0,
-     "Total votes polled": 11800.0
+     "Informal votes": 1100.0,
+     "Total votes polled": 14307.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "HAMMOND, Trevor One Nation Victoria": 45.47,
-     "KOOMEN, Stefan Australian Labor Party": 54.53
+     "HAMMOND, Trevor One Nation Victoria": 45.73,
+     "KOOMEN, Stefan Australian Labor Party": 54.27
     }
    },
    {
@@ -840,11 +840,11 @@
    {
     "booth": "Cranbourne - EVC 2",
     "values": {
-     "HAMMOND, Trevor One Nation Victoria": 0.0,
-     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "HAMMOND, Trevor One Nation Victoria": 1068.0,
+     "KOOMEN, Stefan Australian Labor Party": 1206.0,
      "Miss-sorts": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "Informal votes": 233.0,
+     "Total votes polled": 2507.0
     }
    },
    {
@@ -890,11 +890,11 @@
    {
     "booth": "Early votes total",
     "values": {
-     "HAMMOND, Trevor One Nation Victoria": 90.0,
-     "KOOMEN, Stefan Australian Labor Party": 75.0,
+     "HAMMOND, Trevor One Nation Victoria": 1158.0,
+     "KOOMEN, Stefan Australian Labor Party": 1281.0,
      "Miss-sorts": 0.0,
-     "Informal votes": 14.0,
-     "Total votes polled": 179.0
+     "Informal votes": 247.0,
+     "Total votes polled": 2686.0
     }
    },
    {
