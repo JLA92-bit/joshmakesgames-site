@@ -3,9 +3,9 @@
  "name": "Narre Warren South",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-south-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:17:55+00:00",
+ "fetched_at": "2026-11-28T13:20:47+00:00",
  "title": "Narre Warren South election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:15:10",
+ "last_updated": "Sunday, 29 November 2026 00:20:11",
  "enrolment": 57195,
  "formal": 16373,
  "informal": 1323,
@@ -595,6 +595,356 @@
      "NAMBU, Jill The Greens": 110.0,
      "KOOMEN, Stefan Australian Labor Party": 307.0,
      "PETERSON, Norliah Liberal": 438.0,
+     "Informal votes": 41.0,
+     "Total votes polled": 1376.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "HAMMOND, Trevor One Nation Victoria",
+   "KOOMEN, Stefan Australian Labor Party",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 4754.0,
+     "KOOMEN, Stefan Australian Labor Party": 5595.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 833.0,
+     "Total votes polled": 11187.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 45.94,
+     "KOOMEN, Stefan Australian Labor Party": 54.06
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Casey",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Casey Central",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Centre Road",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 111.0,
+     "KOOMEN, Stefan Australian Labor Party": 101.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 17.0,
+     "Total votes polled": 229.0
+    }
+   },
+   {
+    "booth": "Coral Park",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Courtenay Gardens",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Cranbourne North East",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 28.0,
+     "KOOMEN, Stefan Australian Labor Party": 24.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 3.0,
+     "Total votes polled": 55.0
+    }
+   },
+   {
+    "booth": "Hampton Park",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 433.0,
+     "KOOMEN, Stefan Australian Labor Party": 552.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 112.0,
+     "Total votes polled": 1097.0
+    }
+   },
+   {
+    "booth": "Hampton Park East",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 53.0,
+     "KOOMEN, Stefan Australian Labor Party": 81.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 148.0
+    }
+   },
+   {
+    "booth": "Hillsmeade",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 761.0,
+     "KOOMEN, Stefan Australian Labor Party": 706.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 88.0,
+     "Total votes polled": 1555.0
+    }
+   },
+   {
+    "booth": "Hilltop",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 41.0,
+     "KOOMEN, Stefan Australian Labor Party": 93.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 12.0,
+     "Total votes polled": 146.0
+    }
+   },
+   {
+    "booth": "Kilberry Valley",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 451.0,
+     "KOOMEN, Stefan Australian Labor Party": 569.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 94.0,
+     "Total votes polled": 1114.0
+    }
+   },
+   {
+    "booth": "Lynbrook",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 444.0,
+     "KOOMEN, Stefan Australian Labor Party": 712.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 94.0,
+     "Total votes polled": 1250.0
+    }
+   },
+   {
+    "booth": "Lyndhurst",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 234.0,
+     "KOOMEN, Stefan Australian Labor Party": 259.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 40.0,
+     "Total votes polled": 535.0
+    }
+   },
+   {
+    "booth": "Narre Warren South",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 413.0,
+     "KOOMEN, Stefan Australian Labor Party": 564.0,
+     "Miss-sorts": 3.0,
+     "Informal votes": 121.0,
+     "Total votes polled": 1101.0
+    }
+   },
+   {
+    "booth": "Oakgrove",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 329.0,
+     "KOOMEN, Stefan Australian Labor Party": 466.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 69.0,
+     "Total votes polled": 864.0
+    }
+   },
+   {
+    "booth": "River Gum",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Strathaird",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 201.0,
+     "KOOMEN, Stefan Australian Labor Party": 273.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 38.0,
+     "Total votes polled": 512.0
+    }
+   },
+   {
+    "booth": "Tulliallan",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 364.0,
+     "KOOMEN, Stefan Australian Labor Party": 586.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 76.0,
+     "Total votes polled": 1026.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 3863.0,
+     "KOOMEN, Stefan Australian Labor Party": 4986.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 778.0,
+     "Total votes polled": 9632.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Carrum - EVC 2",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Cranbourne - EVC 2",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Narre Warren South - EVC 1",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Narre Warren South - EVC 2",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Narre Warren South - MEVC",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 90.0,
+     "KOOMEN, Stefan Australian Labor Party": 75.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 179.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 90.0,
+     "KOOMEN, Stefan Australian Labor Party": 75.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 179.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 801.0,
+     "KOOMEN, Stefan Australian Labor Party": 534.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 41.0,
+     "Total votes polled": 1376.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 0.0,
+     "KOOMEN, Stefan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "HAMMOND, Trevor One Nation Victoria": 801.0,
+     "KOOMEN, Stefan Australian Labor Party": 534.0,
+     "Miss-sorts": 0.0,
      "Informal votes": 41.0,
      "Total votes polled": 1376.0
     }

@@ -3,56 +3,56 @@
  "name": "Monbulk",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/monbulk-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:12:16+00:00",
+ "fetched_at": "2026-11-28T13:21:11+00:00",
  "title": "Monbulk election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:10:10",
+ "last_updated": "Sunday, 29 November 2026 00:20:10",
  "enrolment": 50003,
- "formal": 19651,
- "informal": 751,
- "total_votes": 20402,
- "counted_pct": 40.8,
+ "formal": 20057,
+ "informal": 766,
+ "total_votes": 20823,
+ "counted_pct": 41.64,
  "notes": [],
  "primary": [
   {
    "candidate": "FITZMAURICE, Clare",
    "party": "Liberal",
-   "votes": 5459,
-   "pct": 27.78
+   "votes": 5553,
+   "pct": 27.69
   },
   {
    "candidate": "MANNERS, Craig",
    "party": "Family First",
-   "votes": 380,
-   "pct": 1.93
+   "votes": 386,
+   "pct": 1.92
   },
   {
    "candidate": "DE MARTINO, Daniela",
    "party": "Australian Labor Party",
-   "votes": 4165,
-   "pct": 21.19
+   "votes": 4277,
+   "pct": 21.32
   },
   {
    "candidate": "DOWELL, Adrian",
    "party": "One Nation Victoria",
-   "votes": 4200,
-   "pct": 21.37
+   "votes": 4265,
+   "pct": 21.26
   },
   {
    "candidate": "BLAIR, Merran",
    "party": "The Greens",
-   "votes": 4027,
-   "pct": 20.49
+   "votes": 4122,
+   "pct": 20.55
   },
   {
    "candidate": "WORMALD, Alyssa",
    "party": "Animal Justice Party",
-   "votes": 525,
-   "pct": 2.67
+   "votes": 541,
+   "pct": 2.7
   },
   {
    "candidate": "BRIGGS, Noah",
    "party": "Victorian Socialists",
-   "votes": 895,
+   "votes": 913,
    "pct": 4.55
   }
  ],
@@ -60,14 +60,14 @@
   {
    "candidate": "FITZMAURICE, Clare",
    "party": "Liberal",
-   "votes": 10158,
-   "pct": 53.05
+   "votes": 10337,
+   "pct": 52.87
   },
   {
    "candidate": "DE MARTINO, Daniela",
    "party": "Australian Labor Party",
-   "votes": 8989,
-   "pct": 46.95
+   "votes": 9216,
+   "pct": 47.13
   }
  ],
  "links": {

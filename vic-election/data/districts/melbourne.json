@@ -3,9 +3,9 @@
  "name": "Melbourne",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melbourne-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:12:16+00:00",
+ "fetched_at": "2026-11-28T13:21:09+00:00",
  "title": "Melbourne election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:10:10",
+ "last_updated": "Sunday, 29 November 2026 00:20:10",
  "enrolment": 57336,
  "formal": 29112,
  "informal": 1231,
@@ -72,14 +72,14 @@
   {
    "candidate": "SANDELL, Ellen",
    "party": "The Greens",
-   "votes": 17819,
-   "pct": 64.64
+   "votes": 18569,
+   "pct": 64.96
   },
   {
    "candidate": "GRIFFITHS, Davydd",
    "party": "Australian Labor Party",
-   "votes": 9747,
-   "pct": 35.36
+   "votes": 10015,
+   "pct": 35.04
   }
  ],
  "links": {

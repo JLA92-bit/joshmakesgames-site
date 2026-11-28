@@ -3,9 +3,9 @@
  "name": "Morwell",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/morwell-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:17:49+00:00",
+ "fetched_at": "2026-11-28T13:20:41+00:00",
  "title": "Morwell election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:15:10",
+ "last_updated": "Sunday, 29 November 2026 00:20:10",
  "enrolment": 55328,
  "formal": 26568,
  "informal": 1393,
@@ -569,6 +569,366 @@
      "CAMERON, Martin The Nationals": 278.0,
      "ACREMAN, Natalie Victorian Socialists": 7.0,
      "MURPHY, Casey One Nation Victoria": 299.0,
+     "Informal votes": 33.0,
+     "Total votes polled": 866.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "CAMERON, Martin The Nationals",
+   "MURPHY, Casey One Nation Victoria",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "CAMERON, Martin The Nationals": 14580.0,
+     "MURPHY, Casey One Nation Victoria": 11699.0,
+     "Miss-sorts": 22.0,
+     "Informal votes": 1378.0,
+     "Total votes polled": 27679.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "CAMERON, Martin The Nationals": 55.48,
+     "MURPHY, Casey One Nation Victoria": 44.52
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Churchill",
+    "values": {
+     "CAMERON, Martin The Nationals": 460.0,
+     "MURPHY, Casey One Nation Victoria": 483.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 83.0,
+     "Total votes polled": 1026.0
+    }
+   },
+   {
+    "booth": "Glengarry",
+    "values": {
+     "CAMERON, Martin The Nationals": 222.0,
+     "MURPHY, Casey One Nation Victoria": 219.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 18.0,
+     "Total votes polled": 459.0
+    }
+   },
+   {
+    "booth": "Hazelwood North",
+    "values": {
+     "CAMERON, Martin The Nationals": 220.0,
+     "MURPHY, Casey One Nation Victoria": 156.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 390.0
+    }
+   },
+   {
+    "booth": "Moe",
+    "values": {
+     "CAMERON, Martin The Nationals": 362.0,
+     "MURPHY, Casey One Nation Victoria": 323.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 52.0,
+     "Total votes polled": 737.0
+    }
+   },
+   {
+    "booth": "Moe Central",
+    "values": {
+     "CAMERON, Martin The Nationals": 94.0,
+     "MURPHY, Casey One Nation Victoria": 127.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 22.0,
+     "Total votes polled": 243.0
+    }
+   },
+   {
+    "booth": "Moe East",
+    "values": {
+     "CAMERON, Martin The Nationals": 197.0,
+     "MURPHY, Casey One Nation Victoria": 259.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 28.0,
+     "Total votes polled": 485.0
+    }
+   },
+   {
+    "booth": "Moe West",
+    "values": {
+     "CAMERON, Martin The Nationals": 152.0,
+     "MURPHY, Casey One Nation Victoria": 174.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 18.0,
+     "Total votes polled": 344.0
+    }
+   },
+   {
+    "booth": "Morwell",
+    "values": {
+     "CAMERON, Martin The Nationals": 276.0,
+     "MURPHY, Casey One Nation Victoria": 252.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 50.0,
+     "Total votes polled": 578.0
+    }
+   },
+   {
+    "booth": "Morwell Central",
+    "values": {
+     "CAMERON, Martin The Nationals": 160.0,
+     "MURPHY, Casey One Nation Victoria": 161.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 41.0,
+     "Total votes polled": 362.0
+    }
+   },
+   {
+    "booth": "Morwell East",
+    "values": {
+     "CAMERON, Martin The Nationals": 55.0,
+     "MURPHY, Casey One Nation Victoria": 47.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 6.0,
+     "Total votes polled": 108.0
+    }
+   },
+   {
+    "booth": "Morwell Estate",
+    "values": {
+     "CAMERON, Martin The Nationals": 391.0,
+     "MURPHY, Casey One Nation Victoria": 420.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 75.0,
+     "Total votes polled": 886.0
+    }
+   },
+   {
+    "booth": "Newborough",
+    "values": {
+     "CAMERON, Martin The Nationals": 206.0,
+     "MURPHY, Casey One Nation Victoria": 196.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 24.0,
+     "Total votes polled": 426.0
+    }
+   },
+   {
+    "booth": "Newborough East",
+    "values": {
+     "CAMERON, Martin The Nationals": 217.0,
+     "MURPHY, Casey One Nation Victoria": 245.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 25.0,
+     "Total votes polled": 489.0
+    }
+   },
+   {
+    "booth": "Traralgon",
+    "values": {
+     "CAMERON, Martin The Nationals": 1321.0,
+     "MURPHY, Casey One Nation Victoria": 767.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 91.0,
+     "Total votes polled": 2180.0
+    }
+   },
+   {
+    "booth": "Traralgon Central",
+    "values": {
+     "CAMERON, Martin The Nationals": 536.0,
+     "MURPHY, Casey One Nation Victoria": 568.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 77.0,
+     "Total votes polled": 1181.0
+    }
+   },
+   {
+    "booth": "Traralgon North East",
+    "values": {
+     "CAMERON, Martin The Nationals": 323.0,
+     "MURPHY, Casey One Nation Victoria": 221.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 24.0,
+     "Total votes polled": 568.0
+    }
+   },
+   {
+    "booth": "Traralgon South",
+    "values": {
+     "CAMERON, Martin The Nationals": 0.0,
+     "MURPHY, Casey One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Traralgon West",
+    "values": {
+     "CAMERON, Martin The Nationals": 127.0,
+     "MURPHY, Casey One Nation Victoria": 130.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 12.0,
+     "Total votes polled": 269.0
+    }
+   },
+   {
+    "booth": "Tyers",
+    "values": {
+     "CAMERON, Martin The Nationals": 161.0,
+     "MURPHY, Casey One Nation Victoria": 159.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 13.0,
+     "Total votes polled": 333.0
+    }
+   },
+   {
+    "booth": "Yallourn North",
+    "values": {
+     "CAMERON, Martin The Nationals": 154.0,
+     "MURPHY, Casey One Nation Victoria": 246.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 27.0,
+     "Total votes polled": 428.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "CAMERON, Martin The Nationals": 5634.0,
+     "MURPHY, Casey One Nation Victoria": 5153.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 700.0,
+     "Total votes polled": 11492.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Morwell - EVC 1",
+    "values": {
+     "CAMERON, Martin The Nationals": 0.0,
+     "MURPHY, Casey One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Morwell - EVC 2",
+    "values": {
+     "CAMERON, Martin The Nationals": 8154.0,
+     "MURPHY, Casey One Nation Victoria": 6039.0,
+     "Miss-sorts": 13.0,
+     "Informal votes": 587.0,
+     "Total votes polled": 14793.0
+    }
+   },
+   {
+    "booth": "Morwell - EVC 3",
+    "values": {
+     "CAMERON, Martin The Nationals": 0.0,
+     "MURPHY, Casey One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Morwell - MEVC",
+    "values": {
+     "CAMERON, Martin The Nationals": 311.0,
+     "MURPHY, Casey One Nation Victoria": 155.0,
+     "Miss-sorts": 4.0,
+     "Informal votes": 58.0,
+     "Total votes polled": 528.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "CAMERON, Martin The Nationals": 0.0,
+     "MURPHY, Casey One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "CAMERON, Martin The Nationals": 8465.0,
+     "MURPHY, Casey One Nation Victoria": 6194.0,
+     "Miss-sorts": 17.0,
+     "Informal votes": 645.0,
+     "Total votes polled": 15321.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "CAMERON, Martin The Nationals": 0.0,
+     "MURPHY, Casey One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "CAMERON, Martin The Nationals": 0.0,
+     "MURPHY, Casey One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "CAMERON, Martin The Nationals": 481.0,
+     "MURPHY, Casey One Nation Victoria": 352.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 33.0,
+     "Total votes polled": 866.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "CAMERON, Martin The Nationals": 0.0,
+     "MURPHY, Casey One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "CAMERON, Martin The Nationals": 481.0,
+     "MURPHY, Casey One Nation Victoria": 352.0,
+     "Miss-sorts": 0.0,
      "Informal votes": 33.0,
      "Total votes polled": 866.0
     }
