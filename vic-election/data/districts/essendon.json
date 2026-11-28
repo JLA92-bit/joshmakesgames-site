@@ -3,63 +3,63 @@
  "name": "Essendon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/essendon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:36:03+00:00",
+ "fetched_at": "2026-11-28T14:44:49+00:00",
  "title": "Essendon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:35:04",
+ "last_updated": "Sunday, 29 November 2026 01:40:04",
  "enrolment": 53729,
- "formal": 16360,
- "informal": 882,
- "total_votes": 17242,
- "counted_pct": 32.09,
+ "formal": 26410,
+ "informal": 1415,
+ "total_votes": 27825,
+ "counted_pct": 51.79,
  "notes": [],
  "primary": [
   {
    "candidate": "BARNES, John",
    "party": "One Nation Victoria",
-   "votes": 1745,
-   "pct": 10.67
+   "votes": 2595,
+   "pct": 9.83
   },
   {
    "candidate": "ADAMS, Ava",
    "party": "",
-   "votes": 952,
-   "pct": 5.82
+   "votes": 1407,
+   "pct": 5.33
   },
   {
    "candidate": "LE DEUX, Tommy",
    "party": "Liberal",
-   "votes": 4636,
-   "pct": 28.34
+   "votes": 7160,
+   "pct": 27.11
   },
   {
    "candidate": "MOHAMUD, Anab",
    "party": "",
-   "votes": 77,
-   "pct": 0.47
+   "votes": 149,
+   "pct": 0.56
   },
   {
    "candidate": "THEODOSIS, Kat",
    "party": "Australian Labor Party",
-   "votes": 3243,
-   "pct": 19.82
+   "votes": 5337,
+   "pct": 20.21
   },
   {
    "candidate": "WILLIAMS, James",
    "party": "The Greens",
-   "votes": 2805,
-   "pct": 17.15
+   "votes": 4844,
+   "pct": 18.34
   },
   {
    "candidate": "YILDIZ, Oscar",
    "party": "",
-   "votes": 1546,
-   "pct": 9.45
+   "votes": 2397,
+   "pct": 9.08
   },
   {
    "candidate": "KEDEM, Michal",
    "party": "Victorian Socialists",
-   "votes": 1356,
-   "pct": 8.29
+   "votes": 2521,
+   "pct": 9.55
   }
  ],
  "tcp": [

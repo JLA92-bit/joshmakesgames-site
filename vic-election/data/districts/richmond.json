@@ -3,9 +3,9 @@
  "name": "Richmond",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/richmond-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:36:10+00:00",
+ "fetched_at": "2026-11-28T14:45:06+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:35:11",
+ "last_updated": "Sunday, 29 November 2026 01:40:11",
  "enrolment": 49900,
  "formal": 25645,
  "informal": 1185,
@@ -72,14 +72,14 @@
   {
    "candidate": "MCKENZIE, Sarah",
    "party": "Australian Labor Party",
-   "votes": 3831,
-   "pct": 37.4
+   "votes": 4124,
+   "pct": 36.5
   },
   {
    "candidate": "de VIETRI, Gabrielle",
    "party": "The Greens",
-   "votes": 6411,
-   "pct": 62.6
+   "votes": 7175,
+   "pct": 63.5
   }
  ],
  "links": {
