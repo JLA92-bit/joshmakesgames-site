@@ -3,87 +3,87 @@
  "name": "Ripon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ripon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:44:32+00:00",
+ "fetched_at": "2026-11-28T13:47:50+00:00",
  "title": "Ripon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:40:13",
+ "last_updated": "Sunday, 29 November 2026 00:45:12",
  "enrolment": 54525,
- "formal": 27447,
- "informal": 2499,
- "total_votes": 29946,
- "counted_pct": 54.92,
+ "formal": 25421,
+ "informal": 2321,
+ "total_votes": 27742,
+ "counted_pct": 50.88,
  "notes": [],
  "primary": [
   {
    "candidate": "WOJTKOWSKI, Krzysztof",
    "party": "Shooters, Fishers and Farmers Party Victoria",
-   "votes": 658,
-   "pct": 2.4
+   "votes": 616,
+   "pct": 2.42
   },
   {
    "candidate": "QUINCE, Bernard",
    "party": "",
-   "votes": 118,
-   "pct": 0.43
+   "votes": 116,
+   "pct": 0.46
   },
   {
    "candidate": "MCGRATH, Mark",
    "party": "Family First",
-   "votes": 394,
-   "pct": 1.44
+   "votes": 380,
+   "pct": 1.49
   },
   {
    "candidate": "SKRUZNY, Ronald",
    "party": "Labour DLP",
-   "votes": 135,
-   "pct": 0.49
+   "votes": 127,
+   "pct": 0.5
   },
   {
    "candidate": "BRENNAN-JONES, Taylah",
    "party": "Victorian Socialists",
-   "votes": 500,
-   "pct": 1.82
+   "votes": 452,
+   "pct": 1.78
   },
   {
    "candidate": "BARRY, Jeff",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 105,
-   "pct": 0.38
+   "votes": 101,
+   "pct": 0.4
   },
   {
    "candidate": "ANDREI, Trevor Scott",
    "party": "",
-   "votes": 104,
-   "pct": 0.38
+   "votes": 94,
+   "pct": 0.37
   },
   {
    "candidate": "HAYLETT, Martha",
    "party": "Australian Labor Party",
-   "votes": 4622,
-   "pct": 16.84
+   "votes": 4306,
+   "pct": 16.94
   },
   {
    "candidate": "DRYLIE, Tim",
    "party": "The Greens",
-   "votes": 2690,
-   "pct": 9.8
+   "votes": 2432,
+   "pct": 9.57
   },
   {
    "candidate": "BUXTON, Donna",
    "party": "One Nation Victoria",
-   "votes": 9202,
-   "pct": 33.53
+   "votes": 8454,
+   "pct": 33.26
   },
   {
    "candidate": "READ, Megan",
    "party": "Liberal",
-   "votes": 6401,
-   "pct": 23.32
+   "votes": 5917,
+   "pct": 23.28
   },
   {
    "candidate": "ARMSTRONG, Jo",
    "party": "The Nationals",
-   "votes": 2518,
-   "pct": 9.17
+   "votes": 2426,
+   "pct": 9.54
   }
  ],
  "tcp": [
@@ -125,37 +125,37 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "WOJTKOWSKI, Krzysztof Shooters, Fishers and Farmers Party Victoria": 658.0,
-     "QUINCE, Bernard": 118.0,
-     "MCGRATH, Mark Family First": 394.0,
-     "SKRUZNY, Ronald Labour DLP": 135.0,
-     "BRENNAN JONES, Taylah": 500.0,
-     "BARRY, Jeff Libertarian (formerly Liberal Democrats)": 105.0,
-     "ANDREI, Trevor Scott": 104.0,
-     "HAYLETT, Martha Australian Labor Party": 4622.0,
-     "DRYLIE, Tim The Greens": 2690.0,
-     "BUXTON, Donna One Nation Victoria": 9202.0,
-     "READ, Megan Liberal": 6401.0,
-     "ARMSTRONG, Jo The Nationals": 2518.0,
-     "Informal votes": 2499.0,
-     "Total votes polled": 29946.0
+     "WOJTKOWSKI, Krzysztof Shooters, Fishers and Farmers Party Victoria": 616.0,
+     "QUINCE, Bernard": 116.0,
+     "MCGRATH, Mark Family First": 380.0,
+     "SKRUZNY, Ronald Labour DLP": 127.0,
+     "BRENNAN JONES, Taylah": 452.0,
+     "BARRY, Jeff Libertarian (formerly Liberal Democrats)": 101.0,
+     "ANDREI, Trevor Scott": 94.0,
+     "HAYLETT, Martha Australian Labor Party": 4306.0,
+     "DRYLIE, Tim The Greens": 2432.0,
+     "BUXTON, Donna One Nation Victoria": 8454.0,
+     "READ, Megan Liberal": 5917.0,
+     "ARMSTRONG, Jo The Nationals": 2426.0,
+     "Informal votes": 2321.0,
+     "Total votes polled": 27742.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "WOJTKOWSKI, Krzysztof Shooters, Fishers and Farmers Party Victoria": 2.4,
-     "QUINCE, Bernard": 0.43,
-     "MCGRATH, Mark Family First": 1.44,
-     "SKRUZNY, Ronald Labour DLP": 0.49,
-     "BRENNAN JONES, Taylah": 1.82,
-     "BARRY, Jeff Libertarian (formerly Liberal Democrats)": 0.38,
-     "ANDREI, Trevor Scott": 0.38,
-     "HAYLETT, Martha Australian Labor Party": 16.84,
-     "DRYLIE, Tim The Greens": 9.8,
-     "BUXTON, Donna One Nation Victoria": 33.53,
-     "READ, Megan Liberal": 23.32,
-     "ARMSTRONG, Jo The Nationals": 9.17
+     "WOJTKOWSKI, Krzysztof Shooters, Fishers and Farmers Party Victoria": 2.42,
+     "QUINCE, Bernard": 0.46,
+     "MCGRATH, Mark Family First": 1.49,
+     "SKRUZNY, Ronald Labour DLP": 0.5,
+     "BRENNAN JONES, Taylah": 1.78,
+     "BARRY, Jeff Libertarian (formerly Liberal Democrats)": 0.4,
+     "ANDREI, Trevor Scott": 0.37,
+     "HAYLETT, Martha Australian Labor Party": 16.94,
+     "DRYLIE, Tim The Greens": 9.57,
+     "BUXTON, Donna One Nation Victoria": 33.26,
+     "READ, Megan Liberal": 23.28,
+     "ARMSTRONG, Jo The Nationals": 9.54
     }
    },
    {
@@ -602,20 +602,20 @@
    {
     "booth": "Miners Rest",
     "values": {
-     "WOJTKOWSKI, Krzysztof Shooters, Fishers and Farmers Party Victoria": 63.0,
-     "QUINCE, Bernard": 3.0,
-     "MCGRATH, Mark Family First": 21.0,
-     "SKRUZNY, Ronald Labour DLP": 12.0,
-     "BRENNAN JONES, Taylah": 72.0,
-     "BARRY, Jeff Libertarian (formerly Liberal Democrats)": 6.0,
-     "ANDREI, Trevor Scott": 15.0,
-     "HAYLETT, Martha Australian Labor Party": 474.0,
-     "DRYLIE, Tim The Greens": 387.0,
-     "BUXTON, Donna One Nation Victoria": 1122.0,
-     "READ, Megan Liberal": 726.0,
-     "ARMSTRONG, Jo The Nationals": 138.0,
-     "Informal votes": 267.0,
-     "Total votes polled": 3306.0
+     "WOJTKOWSKI, Krzysztof Shooters, Fishers and Farmers Party Victoria": 21.0,
+     "QUINCE, Bernard": 1.0,
+     "MCGRATH, Mark Family First": 7.0,
+     "SKRUZNY, Ronald Labour DLP": 4.0,
+     "BRENNAN JONES, Taylah": 24.0,
+     "BARRY, Jeff Libertarian (formerly Liberal Democrats)": 2.0,
+     "ANDREI, Trevor Scott": 5.0,
+     "HAYLETT, Martha Australian Labor Party": 158.0,
+     "DRYLIE, Tim The Greens": 129.0,
+     "BUXTON, Donna One Nation Victoria": 374.0,
+     "READ, Megan Liberal": 242.0,
+     "ARMSTRONG, Jo The Nationals": 46.0,
+     "Informal votes": 89.0,
+     "Total votes polled": 1102.0
     }
    },
    {
@@ -887,20 +887,20 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "WOJTKOWSKI, Krzysztof Shooters, Fishers and Farmers Party Victoria": 483.0,
-     "QUINCE, Bernard": 79.0,
-     "MCGRATH, Mark Family First": 273.0,
-     "SKRUZNY, Ronald Labour DLP": 98.0,
-     "BRENNAN JONES, Taylah": 402.0,
-     "BARRY, Jeff Libertarian (formerly Liberal Democrats)": 72.0,
-     "ANDREI, Trevor Scott": 77.0,
-     "HAYLETT, Martha Australian Labor Party": 3071.0,
-     "DRYLIE, Tim The Greens": 2033.0,
-     "BUXTON, Donna One Nation Victoria": 6931.0,
-     "READ, Megan Liberal": 4205.0,
-     "ARMSTRONG, Jo The Nationals": 1453.0,
-     "Informal votes": 1979.0,
-     "Total votes polled": 21156.0
+     "WOJTKOWSKI, Krzysztof Shooters, Fishers and Farmers Party Victoria": 441.0,
+     "QUINCE, Bernard": 77.0,
+     "MCGRATH, Mark Family First": 259.0,
+     "SKRUZNY, Ronald Labour DLP": 90.0,
+     "BRENNAN JONES, Taylah": 354.0,
+     "BARRY, Jeff Libertarian (formerly Liberal Democrats)": 68.0,
+     "ANDREI, Trevor Scott": 67.0,
+     "HAYLETT, Martha Australian Labor Party": 2755.0,
+     "DRYLIE, Tim The Greens": 1775.0,
+     "BUXTON, Donna One Nation Victoria": 6183.0,
+     "READ, Megan Liberal": 3721.0,
+     "ARMSTRONG, Jo The Nationals": 1361.0,
+     "Informal votes": 1801.0,
+     "Total votes polled": 18952.0
     }
    },
    {

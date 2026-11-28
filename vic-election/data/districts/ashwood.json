@@ -3,57 +3,57 @@
  "name": "Ashwood",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ashwood-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:38:36+00:00",
+ "fetched_at": "2026-11-28T13:47:59+00:00",
  "title": "Ashwood election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:35:02",
+ "last_updated": "Sunday, 29 November 2026 00:45:02",
  "enrolment": 53131,
- "formal": 18915,
- "informal": 739,
- "total_votes": 19654,
- "counted_pct": 36.99,
+ "formal": 34520,
+ "informal": 1248,
+ "total_votes": 35768,
+ "counted_pct": 67.32,
  "notes": [],
  "primary": [
   {
    "candidate": "UWIMANA, Enid",
    "party": "Family First",
-   "votes": 346,
-   "pct": 1.83
+   "votes": 550,
+   "pct": 1.59
   },
   {
    "candidate": "RANDALL, Tim",
    "party": "The Greens",
-   "votes": 3358,
-   "pct": 17.75
+   "votes": 6225,
+   "pct": 18.03
   },
   {
    "candidate": "FREGON, Matt",
    "party": "Australian Labor Party",
-   "votes": 3436,
-   "pct": 18.17
+   "votes": 5972,
+   "pct": 17.3
   },
   {
    "candidate": "VAN DER EYNDEN, Jacob",
    "party": "Victorian Socialists",
-   "votes": 493,
-   "pct": 2.61
+   "votes": 882,
+   "pct": 2.56
   },
   {
    "candidate": "ZOGRAPHOS, Theo",
    "party": "Liberal",
-   "votes": 8744,
-   "pct": 46.23
+   "votes": 16395,
+   "pct": 47.49
   },
   {
    "candidate": "JOSHI, Hitendra K.",
    "party": "",
-   "votes": 938,
-   "pct": 4.96
+   "votes": 1604,
+   "pct": 4.65
   },
   {
    "candidate": "MITCHELL, Steven",
    "party": "One Nation Victoria",
-   "votes": 1600,
-   "pct": 8.46
+   "votes": 2892,
+   "pct": 8.38
   }
  ],
  "tcp": [

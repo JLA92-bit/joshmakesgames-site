@@ -3,9 +3,9 @@
  "name": "Oakleigh",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/oakleigh-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:38:48+00:00",
+ "fetched_at": "2026-11-28T13:48:12+00:00",
  "title": "Oakleigh election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:35:12",
+ "last_updated": "Sunday, 29 November 2026 00:45:12",
  "enrolment": 54228,
  "formal": 34286,
  "informal": 908,
@@ -54,14 +54,14 @@
   {
    "candidate": "DIMOPOULOS, Steve",
    "party": "Australian Labor Party",
-   "votes": 14918,
-   "pct": 48.82
+   "votes": 16735,
+   "pct": 48.85
   },
   {
    "candidate": "JUNG, Martin",
    "party": "Liberal",
-   "votes": 15639,
-   "pct": 51.18
+   "votes": 17526,
+   "pct": 51.15
   }
  ],
  "links": {

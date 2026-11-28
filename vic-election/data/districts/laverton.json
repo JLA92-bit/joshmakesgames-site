@@ -3,69 +3,69 @@
  "name": "Laverton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/laverton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:38:45+00:00",
+ "fetched_at": "2026-11-28T13:48:08+00:00",
  "title": "Laverton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:35:07",
+ "last_updated": "Sunday, 29 November 2026 00:45:07",
  "enrolment": 56046,
- "formal": 11645,
- "informal": 978,
- "total_votes": 12623,
- "counted_pct": 22.52,
+ "formal": 17311,
+ "informal": 1510,
+ "total_votes": 18821,
+ "counted_pct": 33.58,
  "notes": [],
  "primary": [
   {
    "candidate": "NGUYEN, Lucy",
    "party": "The Greens",
-   "votes": 2275,
-   "pct": 19.54
+   "votes": 3405,
+   "pct": 19.67
   },
   {
    "candidate": "MENDELSOHN, Emma",
    "party": "The West Party",
-   "votes": 212,
-   "pct": 1.82
+   "votes": 335,
+   "pct": 1.94
   },
   {
    "candidate": "PAREDES, Rufo",
    "party": "One Nation Victoria",
-   "votes": 1865,
-   "pct": 16.02
+   "votes": 2738,
+   "pct": 15.82
   },
   {
    "candidate": "GARCIA, Jo",
    "party": "Family First",
-   "votes": 286,
-   "pct": 2.46
+   "votes": 383,
+   "pct": 2.21
   },
   {
    "candidate": "CONNOLLY, Sarah",
    "party": "Australian Labor Party",
-   "votes": 3259,
-   "pct": 27.99
+   "votes": 4806,
+   "pct": 27.76
   },
   {
    "candidate": "MANSOURI JAJAEE, Shohre",
    "party": "Animal Justice Party",
-   "votes": 159,
-   "pct": 1.37
+   "votes": 230,
+   "pct": 1.33
   },
   {
    "candidate": "CHITTEDI, Suchithra",
    "party": "The Republican",
-   "votes": 60,
-   "pct": 0.52
+   "votes": 71,
+   "pct": 0.41
   },
   {
    "candidate": "NOUNE, Ghada",
    "party": "Liberal",
-   "votes": 2633,
-   "pct": 22.61
+   "votes": 3909,
+   "pct": 22.58
   },
   {
    "candidate": "RUDD, Van Thanh",
    "party": "Victorian Socialists",
-   "votes": 896,
-   "pct": 7.69
+   "votes": 1434,
+   "pct": 8.28
   }
  ],
  "tcp": [

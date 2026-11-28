@@ -3,12 +3,12 @@
  "name": "St Albans",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/st-albans-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:44:32+00:00",
+ "fetched_at": "2026-11-28T13:47:53+00:00",
  "title": "St Albans election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:40:15",
+ "last_updated": "Sunday, 29 November 2026 00:45:14",
  "enrolment": 47825,
- "formal": 23194,
- "informal": 2362,
+ "formal": 23193,
+ "informal": 2363,
  "total_votes": 25556,
  "counted_pct": 53.44,
  "notes": [],
@@ -58,8 +58,8 @@
   {
    "candidate": "COWELL, John",
    "party": "One Nation Victoria",
-   "votes": 4019,
-   "pct": 17.33
+   "votes": 4018,
+   "pct": 17.32
   },
   {
    "candidate": "DAVINDER KAUR",
@@ -111,9 +111,9 @@
      "DUNSTAN, Rob Liberal": 5765.0,
      "JANTEN, Kerry": 154.0,
      "HAKIZIMANA, Alex Family First": 380.0,
-     "COWELL, John One Nation Victoria": 4019.0,
+     "COWELL, John One Nation Victoria": 4018.0,
      "DAVINDER KAUR The Republican": 99.0,
-     "Informal votes": 2362.0,
+     "Informal votes": 2363.0,
      "Total votes polled": 25556.0
     }
    },
@@ -127,7 +127,7 @@
      "DUNSTAN, Rob Liberal": 24.86,
      "JANTEN, Kerry": 0.66,
      "HAKIZIMANA, Alex Family First": 1.64,
-     "COWELL, John One Nation Victoria": 17.33,
+     "COWELL, John One Nation Victoria": 17.32,
      "DAVINDER KAUR The Republican": 0.43
     }
    },
@@ -389,9 +389,9 @@
      "DUNSTAN, Rob Liberal": 2275.0,
      "JANTEN, Kerry": 64.0,
      "HAKIZIMANA, Alex Family First": 103.0,
-     "COWELL, John One Nation Victoria": 1497.0,
+     "COWELL, John One Nation Victoria": 1496.0,
      "DAVINDER KAUR The Republican": 37.0,
-     "Informal votes": 947.0,
+     "Informal votes": 948.0,
      "Total votes polled": 10177.0
     }
    },
@@ -453,9 +453,9 @@
      "DUNSTAN, Rob Liberal": 3794.0,
      "JANTEN, Kerry": 99.0,
      "HAKIZIMANA, Alex Family First": 206.0,
-     "COWELL, John One Nation Victoria": 2394.0,
+     "COWELL, John One Nation Victoria": 2393.0,
      "DAVINDER KAUR The Republican": 63.0,
-     "Informal votes": 1498.0,
+     "Informal votes": 1499.0,
      "Total votes polled": 16737.0
     }
    },

@@ -3,77 +3,77 @@
  "name": "Croydon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:38:41+00:00",
+ "fetched_at": "2026-11-28T13:48:05+00:00",
  "title": "Croydon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:35:05",
+ "last_updated": "Sunday, 29 November 2026 00:45:05",
  "enrolment": 55612,
- "formal": 33336,
- "informal": 1740,
- "total_votes": 35076,
- "counted_pct": 63.07,
+ "formal": 35309,
+ "informal": 1852,
+ "total_votes": 37161,
+ "counted_pct": 66.82,
  "notes": [],
  "primary": [
   {
    "candidate": "FARR, Richard",
    "party": "Australian Labor Party",
-   "votes": 5361,
-   "pct": 16.08
+   "votes": 5708,
+   "pct": 16.17
   },
   {
    "candidate": "VANDERWOLF, David",
    "party": "",
-   "votes": 1489,
-   "pct": 4.47
+   "votes": 1538,
+   "pct": 4.36
   },
   {
    "candidate": "SCHWAB, Nathan",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 287,
-   "pct": 0.86
+   "votes": 313,
+   "pct": 0.89
   },
   {
    "candidate": "THOMAS, Nofoao",
    "party": "Family First",
-   "votes": 760,
-   "pct": 2.28
+   "votes": 825,
+   "pct": 2.34
   },
   {
    "candidate": "WOOLDRIDGE, Toby",
    "party": "Liberal",
-   "votes": 13355,
-   "pct": 40.06
+   "votes": 14129,
+   "pct": 40.02
   },
   {
    "candidate": "GRIMSHAW, Beth",
    "party": "Victorian Socialists",
-   "votes": 1006,
+   "votes": 1066,
    "pct": 3.02
   },
   {
    "candidate": "BRINDLEY, Glenn",
    "party": "One Nation Victoria",
-   "votes": 5976,
-   "pct": 17.93
+   "votes": 6367,
+   "pct": 18.03
   },
   {
    "candidate": "FERNANDO, Lini",
    "party": "The Greens",
-   "votes": 5102,
-   "pct": 15.3
+   "votes": 5363,
+   "pct": 15.19
   }
  ],
  "tcp": [
   {
    "candidate": "FARR, Richard",
    "party": "Australian Labor Party",
-   "votes": 10786,
-   "pct": 37.72
+   "votes": 10868,
+   "pct": 37.74
   },
   {
    "candidate": "WOOLDRIDGE, Toby",
    "party": "Liberal",
-   "votes": 17806,
-   "pct": 62.28
+   "votes": 17931,
+   "pct": 62.26
   }
  ],
  "links": {

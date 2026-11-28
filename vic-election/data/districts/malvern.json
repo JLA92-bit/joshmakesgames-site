@@ -3,12 +3,12 @@
  "name": "Malvern",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/malvern-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:38:45+00:00",
+ "fetched_at": "2026-11-28T13:48:08+00:00",
  "title": "Malvern election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:35:07",
+ "last_updated": "Sunday, 29 November 2026 00:45:08",
  "enrolment": 49058,
- "formal": 17032,
- "informal": 508,
+ "formal": 17031,
+ "informal": 509,
  "total_votes": 17540,
  "counted_pct": 35.75,
  "notes": [],
@@ -28,7 +28,7 @@
   {
    "candidate": "BODE, Edward",
    "party": "One Nation Victoria",
-   "votes": 1135,
+   "votes": 1134,
    "pct": 6.66
   },
   {
@@ -60,14 +60,14 @@
   {
    "candidate": "ZIGOURAS, Christina",
    "party": "",
-   "votes": 3597,
-   "pct": 31.26
+   "votes": 5127,
+   "pct": 31.97
   },
   {
    "candidate": "HAMER, Amelia",
    "party": "Liberal",
-   "votes": 7910,
-   "pct": 68.74
+   "votes": 10909,
+   "pct": 68.03
   }
  ],
  "links": {
