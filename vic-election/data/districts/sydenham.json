@@ -3,17 +3,15 @@
  "name": "Sydenham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sydenham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:32:10+00:00",
+ "fetched_at": "2026-11-28T12:57:14+00:00",
  "title": "Sydenham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:30:14",
+ "last_updated": "Saturday, 28 November 2026 23:55:14",
  "enrolment": 64794,
  "formal": 13586,
  "informal": 1470,
  "total_votes": 15056,
  "counted_pct": 23.24,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Sydenham District results Sydenham District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:30:14 These results are provisional."
- ],
+ "notes": [],
  "primary": [
   {
    "candidate": "VANDENBERG, Ashleigh",
@@ -92,14 +90,14 @@
   {
    "candidate": "MOUSSI, Nathalie",
    "party": "Liberal",
-   "votes": 7189,
-   "pct": 61.02
+   "votes": 7558,
+   "pct": 60.67
   },
   {
    "candidate": "RASIC, Uros",
    "party": "Australian Labor Party",
-   "votes": 4592,
-   "pct": 38.98
+   "votes": 4900,
+   "pct": 39.33
   }
  ],
  "links": {

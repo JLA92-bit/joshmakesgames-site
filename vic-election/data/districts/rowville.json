@@ -3,17 +3,15 @@
  "name": "Rowville",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/rowville-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:20:44+00:00",
+ "fetched_at": "2026-11-28T12:57:45+00:00",
  "title": "Rowville election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:20:12",
+ "last_updated": "Saturday, 28 November 2026 23:55:12",
  "enrolment": 50564,
  "formal": 27059,
  "informal": 1237,
  "total_votes": 28296,
  "counted_pct": 55.96,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Rowville District results Rowville District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:12 These results are provisional."
- ],
+ "notes": [],
  "primary": [
   {
    "candidate": "MASSEY, David",
@@ -62,14 +60,14 @@
   {
    "candidate": "WILLIAMS, Max",
    "party": "Liberal",
-   "votes": 18854,
-   "pct": 71.96
+   "votes": 19444,
+   "pct": 71.87
   },
   {
    "candidate": "SHAHBAZ, Muhammad",
    "party": "Australian Labor Party",
-   "votes": 7345,
-   "pct": 28.04
+   "votes": 7611,
+   "pct": 28.13
   }
  ],
  "links": {

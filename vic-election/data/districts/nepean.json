@@ -3,17 +3,15 @@
  "name": "Nepean",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/nepean-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:20:41+00:00",
+ "fetched_at": "2026-11-28T12:57:41+00:00",
  "title": "Nepean election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:20:09",
+ "last_updated": "Saturday, 28 November 2026 23:55:09",
  "enrolment": 51871,
  "formal": 11857,
  "informal": 668,
  "total_votes": 12525,
  "counted_pct": 24.15,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Nepean District results Nepean District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:09 These results are provisional."
- ],
+ "notes": [],
  "primary": [
   {
    "candidate": "HEALY, Sianan",

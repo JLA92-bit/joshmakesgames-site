@@ -3,73 +3,71 @@
  "name": "Clarinda",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/clarinda-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:20:34+00:00",
+ "fetched_at": "2026-11-28T12:57:35+00:00",
  "title": "Clarinda election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:20:05",
+ "last_updated": "Saturday, 28 November 2026 23:55:04",
  "enrolment": 49578,
- "formal": 13096,
- "informal": 801,
- "total_votes": 13897,
- "counted_pct": 28.03,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Clarinda District results Clarinda District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:05 These results are provisional."
- ],
+ "formal": 15640,
+ "informal": 945,
+ "total_votes": 16585,
+ "counted_pct": 33.45,
+ "notes": [],
  "primary": [
   {
    "candidate": "ROCHE, Liam",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 233,
-   "pct": 1.78
+   "votes": 270,
+   "pct": 1.73
   },
   {
    "candidate": "BOYD-EEDLE, Conor",
    "party": "The Greens",
-   "votes": 1586,
-   "pct": 12.11
+   "votes": 1835,
+   "pct": 11.73
   },
   {
    "candidate": "TAK, Meng Heang",
    "party": "Australian Labor Party",
-   "votes": 3906,
-   "pct": 29.83
+   "votes": 4749,
+   "pct": 30.36
   },
   {
    "candidate": "MESSAGE, Kit",
    "party": "Victorian Socialists",
-   "votes": 352,
-   "pct": 2.69
+   "votes": 395,
+   "pct": 2.53
   },
   {
    "candidate": "WHITE, Caroline",
    "party": "",
-   "votes": 892,
-   "pct": 6.81
+   "votes": 1097,
+   "pct": 7.01
   },
   {
    "candidate": "BAIN, Gavin",
    "party": "One Nation Victoria",
-   "votes": 1941,
-   "pct": 14.82
+   "votes": 2283,
+   "pct": 14.6
   },
   {
    "candidate": "PAGANIS, John",
    "party": "Liberal",
-   "votes": 4186,
-   "pct": 31.96
+   "votes": 5011,
+   "pct": 32.04
   }
  ],
  "tcp": [
   {
    "candidate": "TAK, Meng Heang",
    "party": "Australian Labor Party",
-   "votes": 6138,
-   "pct": 46.9
+   "votes": 7353,
+   "pct": 47.06
   },
   {
    "candidate": "PAGANIS, John",
    "party": "Liberal",
-   "votes": 6950,
-   "pct": 53.1
+   "votes": 8271,
+   "pct": 52.94
   }
  ],
  "links": {

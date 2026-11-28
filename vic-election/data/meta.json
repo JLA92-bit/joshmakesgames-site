@@ -1,125 +1,9 @@
 {
- "scraped_at": "2026-11-28T12:40:46+00:00",
+ "scraped_at": "2026-11-28T12:56:22+00:00",
  "base": "/results/2026-results/district-election-page",
  "discovery_log": [],
- "errors": [
-  {
-   "slug": "euroa",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/euroa-district-results"
-  },
-  {
-   "slug": "bass",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bass-district-results"
-  },
-  {
-   "slug": "eureka",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eureka-district-results"
-  },
-  {
-   "slug": "gippsland-east",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-east-district-results"
-  },
-  {
-   "slug": "greenvale",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/greenvale-district-results"
-  },
-  {
-   "slug": "kororoit",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kororoit-district-results"
-  },
-  {
-   "slug": "kalkallo",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kalkallo-district-results"
-  },
-  {
-   "slug": "melton",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melton-district-results"
-  },
-  {
-   "slug": "lara",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lara-district-results"
-  },
-  {
-   "slug": "narracan",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narracan-district-results"
-  },
-  {
-   "slug": "narre-warren-north",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-north-district-results"
-  },
-  {
-   "slug": "pakenham",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results"
-  },
-  {
-   "slug": "ripon",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ripon-district-results"
-  },
-  {
-   "slug": "st-albans",
-   "error": "HTTP 503",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/st-albans-district-results"
-  },
-  {
-   "slug": "yan-yean",
-   "error": "HTTP 503",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/yan-yean-district-results"
-  },
-  {
-   "slug": "sydenham",
-   "error": "HTTP 503",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sydenham-district-results"
-  },
-  {
-   "slug": "ashwood",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ashwood-district-results"
-  },
-  {
-   "slug": "benambra",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/benambra-district-results"
-  },
-  {
-   "slug": "bentleigh",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bentleigh-district-results"
-  },
-  {
-   "slug": "brighton",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brighton-district-results"
-  },
-  {
-   "slug": "croydon",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results"
-  },
-  {
-   "slug": "eltham",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eltham-district-results"
-  },
-  {
-   "slug": "footscray",
-   "error": "HTTP 0",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/footscray-district-results"
-  }
- ],
- "iteration": 40,
+ "errors": [],
+ "iteration": 41,
  "region_urls": {
   "eastern-victoria": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
   "north-eastern-metropolitan": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
@@ -133,10 +17,10 @@
  "fetched": {
   "hot": 21,
   "cold": 22,
-  "regions": 8
+  "regions": 0
  },
  "blocked_responses": 0,
  "status": "ok",
- "requests": 133,
- "seconds": 933.1
+ "requests": 82,
+ "seconds": 85.5
 }

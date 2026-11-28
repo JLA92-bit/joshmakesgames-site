@@ -3,73 +3,71 @@
  "name": "Euroa",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/euroa-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:20:09+00:00",
+ "fetched_at": "2026-11-28T12:56:24+00:00",
  "title": "Euroa election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:05",
+ "last_updated": "Saturday, 28 November 2026 23:55:05",
  "enrolment": 53147,
- "formal": 12819,
- "informal": 661,
- "total_votes": 13480,
- "counted_pct": 25.36,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Euroa District results Euroa District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:05 These results are provisional."
- ],
+ "formal": 13743,
+ "informal": 688,
+ "total_votes": 14431,
+ "counted_pct": 27.15,
+ "notes": [],
  "primary": [
   {
    "candidate": "CLEELAND, Annabelle",
    "party": "The Nationals",
-   "votes": 5068,
-   "pct": 39.54
+   "votes": 5470,
+   "pct": 39.8
   },
   {
    "candidate": "TAOUK, Moussa",
    "party": "Family First",
-   "votes": 248,
-   "pct": 1.93
+   "votes": 267,
+   "pct": 1.94
   },
   {
    "candidate": "REGAN, Alysia",
    "party": "The Greens",
-   "votes": 1061,
-   "pct": 8.28
+   "votes": 1097,
+   "pct": 7.98
   },
   {
    "candidate": "KELLY, Karina",
    "party": "Animal Justice Party",
-   "votes": 315,
-   "pct": 2.46
+   "votes": 330,
+   "pct": 2.4
   },
   {
    "candidate": "KELLY, Julian",
    "party": "Australian Labor Party",
-   "votes": 1169,
-   "pct": 9.12
+   "votes": 1286,
+   "pct": 9.36
   },
   {
    "candidate": "CAMPBELL, Steve",
    "party": "One Nation Victoria",
-   "votes": 4676,
-   "pct": 36.48
+   "votes": 5004,
+   "pct": 36.41
   },
   {
    "candidate": "LYLE, Zoe",
    "party": "Victorian Socialists",
-   "votes": 282,
-   "pct": 2.2
+   "votes": 289,
+   "pct": 2.1
   }
  ],
  "tcp": [
   {
    "candidate": "CLEELAND, Annabelle",
    "party": "The Nationals",
-   "votes": 7050,
-   "pct": 58.33
+   "votes": 7606,
+   "pct": 58.46
   },
   {
    "candidate": "CAMPBELL, Steve",
    "party": "One Nation Victoria",
-   "votes": 5037,
-   "pct": 41.67
+   "votes": 5404,
+   "pct": 41.54
   }
  ],
  "links": {

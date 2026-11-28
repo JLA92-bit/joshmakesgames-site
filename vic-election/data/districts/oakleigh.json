@@ -3,67 +3,65 @@
  "name": "Oakleigh",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/oakleigh-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:20:42+00:00",
+ "fetched_at": "2026-11-28T12:57:43+00:00",
  "title": "Oakleigh election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:20:12",
+ "last_updated": "Saturday, 28 November 2026 23:55:12",
  "enrolment": 54228,
- "formal": 29054,
- "informal": 804,
- "total_votes": 29858,
- "counted_pct": 55.06,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Oakleigh District results Oakleigh District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:12 These results are provisional."
- ],
+ "formal": 34286,
+ "informal": 908,
+ "total_votes": 35194,
+ "counted_pct": 64.9,
+ "notes": [],
  "primary": [
   {
    "candidate": "HSIEH, Hsiang-Han",
    "party": "The Greens",
-   "votes": 5847,
-   "pct": 20.12
+   "votes": 7023,
+   "pct": 20.48
   },
   {
    "candidate": "DIMOPOULOS, Steve",
    "party": "Australian Labor Party",
-   "votes": 7666,
-   "pct": 26.39
+   "votes": 9032,
+   "pct": 26.34
   },
   {
    "candidate": "JUNG, Martin",
    "party": "Liberal",
-   "votes": 10215,
-   "pct": 35.16
+   "votes": 11916,
+   "pct": 34.75
   },
   {
    "candidate": "CARTER, Brooke",
    "party": "One Nation Victoria",
-   "votes": 3723,
-   "pct": 12.81
+   "votes": 4357,
+   "pct": 12.71
   },
   {
    "candidate": "GRINTER, Matthew",
    "party": "Family First",
-   "votes": 442,
-   "pct": 1.52
+   "votes": 548,
+   "pct": 1.6
   },
   {
    "candidate": "BUGTER, Rowdy",
    "party": "Victorian Socialists",
-   "votes": 1161,
-   "pct": 4.0
+   "votes": 1410,
+   "pct": 4.11
   }
  ],
  "tcp": [
   {
    "candidate": "DIMOPOULOS, Steve",
    "party": "Australian Labor Party",
-   "votes": 8151,
-   "pct": 49.51
+   "votes": 14918,
+   "pct": 48.82
   },
   {
    "candidate": "JUNG, Martin",
    "party": "Liberal",
-   "votes": 8314,
-   "pct": 50.49
+   "votes": 15639,
+   "pct": 51.18
   }
  ],
  "links": {

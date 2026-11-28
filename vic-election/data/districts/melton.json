@@ -3,97 +3,95 @@
  "name": "Melton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:29:02+00:00",
+ "fetched_at": "2026-11-28T12:56:47+00:00",
  "title": "Melton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:25:09",
+ "last_updated": "Saturday, 28 November 2026 23:55:09",
  "enrolment": 60210,
- "formal": 23566,
- "informal": 2483,
- "total_votes": 26049,
- "counted_pct": 43.26,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Melton district results Melton District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:25:09 These results are provisional."
- ],
+ "formal": 25620,
+ "informal": 2846,
+ "total_votes": 28466,
+ "counted_pct": 47.28,
+ "notes": [],
  "primary": [
   {
    "candidate": "LEGRO, Hayden",
    "party": "The West Party",
-   "votes": 817,
-   "pct": 3.47
+   "votes": 879,
+   "pct": 3.43
   },
   {
    "candidate": "KELLY, Daire",
    "party": "Victorian Socialists",
-   "votes": 534,
-   "pct": 2.27
+   "votes": 568,
+   "pct": 2.22
   },
   {
    "candidate": "FARUQ, M.D. Omor",
    "party": "",
-   "votes": 232,
-   "pct": 0.98
+   "votes": 286,
+   "pct": 1.12
   },
   {
    "candidate": "LEVCHENKOVA, Veronika",
    "party": "The Greens",
-   "votes": 2643,
-   "pct": 11.22
+   "votes": 2926,
+   "pct": 11.42
   },
   {
    "candidate": "ADIN-JAMES, Fiona",
    "party": "Animal Justice Party",
-   "votes": 274,
-   "pct": 1.16
+   "votes": 307,
+   "pct": 1.2
   },
   {
    "candidate": "BINGHAM, Jarrod",
    "party": "Liberal",
-   "votes": 6312,
-   "pct": 26.78
+   "votes": 6708,
+   "pct": 26.18
   },
   {
    "candidate": "WEST, Marlene",
    "party": "Family First",
-   "votes": 496,
-   "pct": 2.1
+   "votes": 552,
+   "pct": 2.15
   },
   {
    "candidate": "BORG, Broden",
    "party": "Australian Labor Party",
-   "votes": 4856,
-   "pct": 20.61
+   "votes": 5284,
+   "pct": 20.62
   },
   {
    "candidate": "PERERA, Jason Spencer",
    "party": "",
-   "votes": 83,
-   "pct": 0.35
+   "votes": 93,
+   "pct": 0.36
   },
   {
    "candidate": "FRASER, Jason",
    "party": "",
-   "votes": 265,
-   "pct": 1.12
+   "votes": 302,
+   "pct": 1.18
   },
   {
    "candidate": "KATSELIS, Matthew",
    "party": "One Nation Victoria",
-   "votes": 7054,
-   "pct": 29.93
+   "votes": 7715,
+   "pct": 30.11
   }
  ],
  "tcp": [
   {
    "candidate": "BINGHAM, Jarrod",
    "party": "Liberal",
-   "votes": 5703,
-   "pct": 60.83
+   "votes": 7114,
+   "pct": 60.24
   },
   {
    "candidate": "BORG, Broden",
    "party": "Australian Labor Party",
-   "votes": 3672,
-   "pct": 39.17
+   "votes": 4696,
+   "pct": 39.76
   }
  ],
  "links": {
@@ -120,35 +118,35 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "LEGRO, Hayden The West Party": 817.0,
-     "KELLY, Daire Victorian Socialists": 534.0,
-     "FARUQ, M.D. Omor": 232.0,
-     "LEVCHENKOVA, Veronika The Greens": 2643.0,
-     "ADIN JAMES, Fiona": 274.0,
-     "BINGHAM, Jarrod Liberal": 6312.0,
-     "WEST, Marlene Family First": 496.0,
-     "BORG, Broden Australian Labor Party": 4856.0,
-     "PERERA, Jason Spencer": 83.0,
-     "FRASER, Jason": 265.0,
-     "KATSELIS, Matthew One Nation Victoria": 7054.0,
-     "Informal votes": 2483.0,
-     "Total votes polled": 26049.0
+     "LEGRO, Hayden The West Party": 879.0,
+     "KELLY, Daire Victorian Socialists": 568.0,
+     "FARUQ, M.D. Omor": 286.0,
+     "LEVCHENKOVA, Veronika The Greens": 2926.0,
+     "ADIN JAMES, Fiona": 307.0,
+     "BINGHAM, Jarrod Liberal": 6708.0,
+     "WEST, Marlene Family First": 552.0,
+     "BORG, Broden Australian Labor Party": 5284.0,
+     "PERERA, Jason Spencer": 93.0,
+     "FRASER, Jason": 302.0,
+     "KATSELIS, Matthew One Nation Victoria": 7715.0,
+     "Informal votes": 2846.0,
+     "Total votes polled": 28466.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "LEGRO, Hayden The West Party": 3.47,
-     "KELLY, Daire Victorian Socialists": 2.27,
-     "FARUQ, M.D. Omor": 0.98,
-     "LEVCHENKOVA, Veronika The Greens": 11.22,
-     "ADIN JAMES, Fiona": 1.16,
-     "BINGHAM, Jarrod Liberal": 26.78,
-     "WEST, Marlene Family First": 2.1,
-     "BORG, Broden Australian Labor Party": 20.61,
-     "PERERA, Jason Spencer": 0.35,
-     "FRASER, Jason": 1.12,
-     "KATSELIS, Matthew One Nation Victoria": 29.93
+     "LEGRO, Hayden The West Party": 3.43,
+     "KELLY, Daire Victorian Socialists": 2.22,
+     "FARUQ, M.D. Omor": 1.12,
+     "LEVCHENKOVA, Veronika The Greens": 11.42,
+     "ADIN JAMES, Fiona": 1.2,
+     "BINGHAM, Jarrod Liberal": 26.18,
+     "WEST, Marlene Family First": 2.15,
+     "BORG, Broden Australian Labor Party": 20.62,
+     "PERERA, Jason Spencer": 0.36,
+     "FRASER, Jason": 1.18,
+     "KATSELIS, Matthew One Nation Victoria": 30.11
     }
    },
    {
@@ -302,37 +300,37 @@
    {
     "booth": "Melton Central",
     "values": {
-     "LEGRO, Hayden The West Party": 0.0,
-     "KELLY, Daire Victorian Socialists": 0.0,
-     "FARUQ, M.D. Omor": 0.0,
-     "LEVCHENKOVA, Veronika The Greens": 0.0,
-     "ADIN JAMES, Fiona": 0.0,
-     "BINGHAM, Jarrod Liberal": 0.0,
-     "WEST, Marlene Family First": 0.0,
-     "BORG, Broden Australian Labor Party": 0.0,
-     "PERERA, Jason Spencer": 0.0,
-     "FRASER, Jason": 0.0,
-     "KATSELIS, Matthew One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "LEGRO, Hayden The West Party": 28.0,
+     "KELLY, Daire Victorian Socialists": 16.0,
+     "FARUQ, M.D. Omor": 5.0,
+     "LEVCHENKOVA, Veronika The Greens": 162.0,
+     "ADIN JAMES, Fiona": 15.0,
+     "BINGHAM, Jarrod Liberal": 214.0,
+     "WEST, Marlene Family First": 33.0,
+     "BORG, Broden Australian Labor Party": 238.0,
+     "PERERA, Jason Spencer": 3.0,
+     "FRASER, Jason": 10.0,
+     "KATSELIS, Matthew One Nation Victoria": 406.0,
+     "Informal votes": 213.0,
+     "Total votes polled": 1343.0
     }
    },
    {
     "booth": "Melton South",
     "values": {
-     "LEGRO, Hayden The West Party": 0.0,
-     "KELLY, Daire Victorian Socialists": 0.0,
-     "FARUQ, M.D. Omor": 0.0,
-     "LEVCHENKOVA, Veronika The Greens": 0.0,
-     "ADIN JAMES, Fiona": 0.0,
-     "BINGHAM, Jarrod Liberal": 0.0,
-     "WEST, Marlene Family First": 0.0,
-     "BORG, Broden Australian Labor Party": 0.0,
-     "PERERA, Jason Spencer": 0.0,
-     "FRASER, Jason": 0.0,
-     "KATSELIS, Matthew One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "LEGRO, Hayden The West Party": 34.0,
+     "KELLY, Daire Victorian Socialists": 18.0,
+     "FARUQ, M.D. Omor": 49.0,
+     "LEVCHENKOVA, Veronika The Greens": 121.0,
+     "ADIN JAMES, Fiona": 18.0,
+     "BINGHAM, Jarrod Liberal": 182.0,
+     "WEST, Marlene Family First": 23.0,
+     "BORG, Broden Australian Labor Party": 190.0,
+     "PERERA, Jason Spencer": 7.0,
+     "FRASER, Jason": 27.0,
+     "KATSELIS, Matthew One Nation Victoria": 255.0,
+     "Informal votes": 150.0,
+     "Total votes polled": 1074.0
     }
    },
    {
@@ -410,19 +408,19 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "LEGRO, Hayden The West Party": 276.0,
-     "KELLY, Daire Victorian Socialists": 250.0,
-     "FARUQ, M.D. Omor": 86.0,
-     "LEVCHENKOVA, Veronika The Greens": 1281.0,
-     "ADIN JAMES, Fiona": 130.0,
-     "BINGHAM, Jarrod Liberal": 2245.0,
-     "WEST, Marlene Family First": 204.0,
-     "BORG, Broden Australian Labor Party": 1756.0,
-     "PERERA, Jason Spencer": 36.0,
-     "FRASER, Jason": 137.0,
-     "KATSELIS, Matthew One Nation Victoria": 2736.0,
-     "Informal votes": 1053.0,
-     "Total votes polled": 10190.0
+     "LEGRO, Hayden The West Party": 338.0,
+     "KELLY, Daire Victorian Socialists": 284.0,
+     "FARUQ, M.D. Omor": 140.0,
+     "LEVCHENKOVA, Veronika The Greens": 1564.0,
+     "ADIN JAMES, Fiona": 163.0,
+     "BINGHAM, Jarrod Liberal": 2641.0,
+     "WEST, Marlene Family First": 260.0,
+     "BORG, Broden Australian Labor Party": 2184.0,
+     "PERERA, Jason Spencer": 46.0,
+     "FRASER, Jason": 174.0,
+     "KATSELIS, Matthew One Nation Victoria": 3397.0,
+     "Informal votes": 1416.0,
+     "Total votes polled": 12607.0
     }
    },
    {

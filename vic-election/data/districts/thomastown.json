@@ -3,67 +3,65 @@
  "name": "Thomastown",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/thomastown-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:20:46+00:00",
+ "fetched_at": "2026-11-28T12:57:46+00:00",
  "title": "Thomastown election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:20:14",
+ "last_updated": "Saturday, 28 November 2026 23:55:14",
  "enrolment": 56190,
- "formal": 12355,
- "informal": 729,
- "total_votes": 13084,
- "counted_pct": 23.29,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Thomastown District results Thomastown District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:14 These results are provisional."
- ],
+ "formal": 13263,
+ "informal": 792,
+ "total_votes": 14055,
+ "counted_pct": 25.01,
+ "notes": [],
  "primary": [
   {
    "candidate": "RANCIE, Rob",
    "party": "Family First",
-   "votes": 491,
-   "pct": 3.97
+   "votes": 525,
+   "pct": 3.96
   },
   {
    "candidate": "STOJCEVSKI, Belinda",
    "party": "Liberal",
-   "votes": 3261,
-   "pct": 26.39
+   "votes": 3477,
+   "pct": 26.22
   },
   {
    "candidate": "ANTHONY, Nadia",
    "party": "One Nation Victoria",
-   "votes": 2477,
-   "pct": 20.05
+   "votes": 2622,
+   "pct": 19.77
   },
   {
    "candidate": "REDDY, Priya",
    "party": "Victorian Socialists",
-   "votes": 1309,
-   "pct": 10.59
+   "votes": 1462,
+   "pct": 11.02
   },
   {
    "candidate": "HALFPENNY, Bronwyn",
    "party": "Australian Labor Party",
-   "votes": 3527,
+   "votes": 3786,
    "pct": 28.55
   },
   {
    "candidate": "TREWELLA, Gavin",
    "party": "The Greens",
-   "votes": 1290,
-   "pct": 10.44
+   "votes": 1391,
+   "pct": 10.49
   }
  ],
  "tcp": [
   {
    "candidate": "ANTHONY, Nadia",
    "party": "One Nation Victoria",
-   "votes": 4984,
-   "pct": 43.27
+   "votes": 5706,
+   "pct": 43.06
   },
   {
    "candidate": "HALFPENNY, Bronwyn",
    "party": "Australian Labor Party",
-   "votes": 6535,
-   "pct": 56.73
+   "votes": 7545,
+   "pct": 56.94
   }
  ],
  "links": {

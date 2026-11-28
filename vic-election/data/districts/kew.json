@@ -3,91 +3,89 @@
  "name": "Kew",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kew-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:20:37+00:00",
+ "fetched_at": "2026-11-28T12:57:40+00:00",
  "title": "Kew election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:20:07",
+ "last_updated": "Saturday, 28 November 2026 23:55:07",
  "enrolment": 51115,
- "formal": 30695,
- "informal": 1275,
- "total_votes": 31970,
- "counted_pct": 62.55,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Kew District results Kew District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:07 These results are provisional."
- ],
+ "formal": 31796,
+ "informal": 1337,
+ "total_votes": 33133,
+ "counted_pct": 64.82,
+ "notes": [],
  "primary": [
   {
    "candidate": "LIANG, Man",
    "party": "",
-   "votes": 144,
-   "pct": 0.47
+   "votes": 166,
+   "pct": 0.52
   },
   {
    "candidate": "TORNEY, Sophie",
    "party": "",
-   "votes": 7370,
-   "pct": 24.01
+   "votes": 7522,
+   "pct": 23.66
   },
   {
    "candidate": "CARTER, Jackie",
    "party": "The Greens",
-   "votes": 2118,
-   "pct": 6.9
+   "votes": 2218,
+   "pct": 6.98
   },
   {
    "candidate": "SUN, David",
    "party": "Australian Labor Party",
-   "votes": 1777,
-   "pct": 5.79
+   "votes": 1871,
+   "pct": 5.88
   },
   {
    "candidate": "LAIRD, David",
    "party": "One Nation Victoria",
-   "votes": 1693,
-   "pct": 5.52
+   "votes": 1751,
+   "pct": 5.51
   },
   {
    "candidate": "LINCOLNE, Samantha",
    "party": "Victorian Socialists",
-   "votes": 636,
+   "votes": 657,
    "pct": 2.07
   },
   {
    "candidate": "WILSON, Jess",
    "party": "Liberal",
-   "votes": 16517,
-   "pct": 53.81
+   "votes": 17153,
+   "pct": 53.95
   },
   {
    "candidate": "SEELEY, Ann",
    "party": "Family First",
-   "votes": 204,
-   "pct": 0.66
+   "votes": 214,
+   "pct": 0.67
   },
   {
    "candidate": "HALES, Juliet",
    "party": "Animal Justice Party",
-   "votes": 188,
+   "votes": 195,
    "pct": 0.61
   },
   {
    "candidate": "DAVIS, Finlay",
    "party": "",
-   "votes": 48,
-   "pct": 0.16
+   "votes": 49,
+   "pct": 0.15
   }
  ],
  "tcp": [
   {
    "candidate": "TORNEY, Sophie",
    "party": "",
-   "votes": 7212,
-   "pct": 38.53
+   "votes": 11603,
+   "pct": 37.45
   },
   {
    "candidate": "WILSON, Jess",
    "party": "Liberal",
-   "votes": 11505,
-   "pct": 61.47
+   "votes": 19382,
+   "pct": 62.55
   }
  ],
  "links": {

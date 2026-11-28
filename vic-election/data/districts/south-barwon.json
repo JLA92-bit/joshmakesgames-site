@@ -3,65 +3,63 @@
  "name": "South Barwon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-barwon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:20:44+00:00",
+ "fetched_at": "2026-11-28T12:57:47+00:00",
  "title": "South Barwon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:20:14",
+ "last_updated": "Saturday, 28 November 2026 23:55:14",
  "enrolment": 61036,
- "formal": 16167,
- "informal": 831,
- "total_votes": 16998,
- "counted_pct": 27.85,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district South Barwon District results South Barwon District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:14 These results are provisional."
- ],
+ "formal": 17733,
+ "informal": 944,
+ "total_votes": 18677,
+ "counted_pct": 30.6,
+ "notes": [],
  "primary": [
   {
    "candidate": "THISTLETON, Rebecca",
    "party": "Australian Labor Party",
-   "votes": 2712,
-   "pct": 16.77
+   "votes": 3046,
+   "pct": 17.18
   },
   {
    "candidate": "NELSON, Ron",
    "party": "",
-   "votes": 958,
-   "pct": 5.93
+   "votes": 998,
+   "pct": 5.63
   },
   {
    "candidate": "BARRON, Alan",
    "party": "Family First",
-   "votes": 341,
-   "pct": 2.11
+   "votes": 384,
+   "pct": 2.17
   },
   {
    "candidate": "HEDLEY, Freya",
    "party": "Socialist Alliance",
-   "votes": 137,
-   "pct": 0.85
+   "votes": 153,
+   "pct": 0.86
   },
   {
    "candidate": "GORMAN, Madilyn",
    "party": "Victorian Socialists",
-   "votes": 437,
-   "pct": 2.7
+   "votes": 508,
+   "pct": 2.86
   },
   {
    "candidate": "GEARD, Josh",
    "party": "One Nation Victoria",
-   "votes": 3131,
-   "pct": 19.37
+   "votes": 3468,
+   "pct": 19.56
   },
   {
    "candidate": "SCHERRER, Izzy",
    "party": "The Greens",
-   "votes": 3288,
-   "pct": 20.34
+   "votes": 3648,
+   "pct": 20.57
   },
   {
    "candidate": "PETTIT, Libby",
    "party": "Liberal",
-   "votes": 5163,
-   "pct": 31.94
+   "votes": 5528,
+   "pct": 31.17
   }
  ],
  "tcp": [

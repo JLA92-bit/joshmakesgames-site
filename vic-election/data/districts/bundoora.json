@@ -3,17 +3,15 @@
  "name": "Bundoora",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:20:33+00:00",
+ "fetched_at": "2026-11-28T12:57:35+00:00",
  "title": "Bundoora election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:20:02",
+ "last_updated": "Saturday, 28 November 2026 23:55:02",
  "enrolment": 48975,
  "formal": 16796,
  "informal": 1016,
  "total_votes": 17812,
  "counted_pct": 36.37,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bundoora District results Bundoora District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:02 These results are provisional."
- ],
+ "notes": [],
  "primary": [
   {
    "candidate": "MURPHY-WEBSTER, Melissa",
@@ -68,14 +66,14 @@
   {
    "candidate": "PARR, Chris",
    "party": "Liberal",
-   "votes": 7193,
-   "pct": 52.04
+   "votes": 8903,
+   "pct": 53.02
   },
   {
    "candidate": "BROOKS, Colin",
    "party": "Australian Labor Party",
-   "votes": 6628,
-   "pct": 47.96
+   "votes": 7888,
+   "pct": 46.98
   }
  ],
  "links": {

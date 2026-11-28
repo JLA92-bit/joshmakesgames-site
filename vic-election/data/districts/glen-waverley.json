@@ -3,73 +3,71 @@
  "name": "Glen Waverley",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/glen-waverley-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:20:37+00:00",
+ "fetched_at": "2026-11-28T12:57:40+00:00",
  "title": "Glen Waverley election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:20:07",
+ "last_updated": "Saturday, 28 November 2026 23:55:07",
  "enrolment": 50821,
- "formal": 13642,
- "informal": 533,
- "total_votes": 14175,
- "counted_pct": 27.89,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Glen Waverley District results Glen Waverley District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:07 These results are provisional."
- ],
+ "formal": 19282,
+ "informal": 755,
+ "total_votes": 20037,
+ "counted_pct": 39.43,
+ "notes": [],
  "primary": [
   {
    "candidate": "SUN, Jacky",
    "party": "Liberal",
-   "votes": 6328,
-   "pct": 46.39
+   "votes": 9275,
+   "pct": 48.1
   },
   {
    "candidate": "WHITE, Toyo",
    "party": "The Greens",
-   "votes": 1793,
-   "pct": 13.14
+   "votes": 2427,
+   "pct": 12.59
   },
   {
    "candidate": "NADARAJAH, Segar",
    "party": "Labour DLP",
-   "votes": 150,
-   "pct": 1.1
+   "votes": 197,
+   "pct": 1.02
   },
   {
    "candidate": "COX, Brad",
    "party": "One Nation Victoria",
-   "votes": 1404,
-   "pct": 10.29
+   "votes": 1874,
+   "pct": 9.72
   },
   {
    "candidate": "DOBIE, Anna",
    "party": "Family First",
-   "votes": 274,
-   "pct": 2.01
+   "votes": 369,
+   "pct": 1.91
   },
   {
    "candidate": "SIOW, Nicholas",
    "party": "Victorian Socialists",
-   "votes": 355,
-   "pct": 2.6
+   "votes": 467,
+   "pct": 2.42
   },
   {
    "candidate": "MULLAHY, John",
    "party": "Australian Labor Party",
-   "votes": 3338,
-   "pct": 24.47
+   "votes": 4673,
+   "pct": 24.24
   }
  ],
  "tcp": [
   {
    "candidate": "SUN, Jacky",
    "party": "Liberal",
-   "votes": 7851,
-   "pct": 60.95
+   "votes": 11980,
+   "pct": 62.14
   },
   {
    "candidate": "MULLAHY, John",
    "party": "Australian Labor Party",
-   "votes": 5029,
-   "pct": 39.05
+   "votes": 7298,
+   "pct": 37.86
   }
  ],
  "links": {

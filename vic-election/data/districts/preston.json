@@ -3,97 +3,95 @@
  "name": "Preston",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/preston-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:20:43+00:00",
+ "fetched_at": "2026-11-28T12:57:44+00:00",
  "title": "Preston election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:20:12",
+ "last_updated": "Saturday, 28 November 2026 23:55:12",
  "enrolment": 53545,
- "formal": 13843,
- "informal": 1322,
- "total_votes": 15165,
- "counted_pct": 28.32,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Preston District results Preston District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:12 These results are provisional."
- ],
+ "formal": 14878,
+ "informal": 1417,
+ "total_votes": 16295,
+ "counted_pct": 30.43,
+ "notes": [],
  "primary": [
   {
    "candidate": "DATE, Tim",
    "party": "I'm Voting to Avoid the Fine",
-   "votes": 249,
-   "pct": 1.8
+   "votes": 281,
+   "pct": 1.89
   },
   {
    "candidate": "CHIN, Zheng",
    "party": "",
-   "votes": 780,
-   "pct": 5.63
+   "votes": 861,
+   "pct": 5.79
   },
   {
    "candidate": "AL KATRANJI, Hamza",
    "party": "Liberal",
-   "votes": 2525,
-   "pct": 18.24
+   "votes": 2707,
+   "pct": 18.19
   },
   {
    "candidate": "VALENCIA, Julio",
    "party": "Family First",
-   "votes": 202,
-   "pct": 1.46
+   "votes": 218,
+   "pct": 1.47
   },
   {
    "candidate": "FOWLES, William",
    "party": "",
    "votes": 37,
-   "pct": 0.27
+   "pct": 0.25
   },
   {
    "candidate": "SANGARYA, Loki",
    "party": "The Greens",
-   "votes": 2800,
-   "pct": 20.23
+   "votes": 3046,
+   "pct": 20.47
   },
   {
    "candidate": "ASHMORE, Serena",
    "party": "Victorian Socialists",
-   "votes": 1965,
-   "pct": 14.19
+   "votes": 2103,
+   "pct": 14.13
   },
   {
    "candidate": "BRYANT, Mark",
    "party": "Free Palestine",
-   "votes": 96,
-   "pct": 0.69
+   "votes": 99,
+   "pct": 0.67
   },
   {
    "candidate": "GUARDIANI, Franco",
    "party": "One Nation Victoria",
-   "votes": 1709,
-   "pct": 12.35
+   "votes": 1804,
+   "pct": 12.13
   },
   {
    "candidate": "DOWER, Simon",
    "party": "Climate Action Now",
-   "votes": 48,
-   "pct": 0.35
+   "votes": 51,
+   "pct": 0.34
   },
   {
    "candidate": "LAMBERT, Nathan",
    "party": "Australian Labor Party",
-   "votes": 3432,
-   "pct": 24.79
+   "votes": 3671,
+   "pct": 24.67
   }
  ],
  "tcp": [
   {
    "candidate": "SANGARYA, Loki",
    "party": "The Greens",
-   "votes": 6161,
-   "pct": 56.38
+   "votes": 6778,
+   "pct": 56.66
   },
   {
    "candidate": "LAMBERT, Nathan",
    "party": "Australian Labor Party",
-   "votes": 4766,
-   "pct": 43.62
+   "votes": 5184,
+   "pct": 43.34
   }
  ],
  "links": {
