@@ -3,78 +3,542 @@
  "name": "Essendon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/essendon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:42:06+00:00",
+ "fetched_at": "2026-11-28T10:21:44+00:00",
  "title": "Essendon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:05",
+ "last_updated": "Saturday, 28 November 2026 21:20:05",
  "enrolment": 53729,
- "counted_pct": 4.58,
+ "formal": 12361,
+ "informal": 630,
+ "total_votes": 12991,
+ "counted_pct": 24.18,
  "notes": [],
  "primary": [
   {
    "candidate": "BARNES, John",
    "party": "One Nation Victoria",
-   "votes": 1108,
-   "pct": 11.16
+   "votes": 1312,
+   "pct": 10.61
   },
   {
    "candidate": "ADAMS, Ava",
    "party": "",
-   "votes": 508,
-   "pct": 5.12
+   "votes": 658,
+   "pct": 5.32
   },
   {
    "candidate": "LE DEUX, Tommy",
    "party": "Liberal",
-   "votes": 2954,
-   "pct": 29.77
+   "votes": 3601,
+   "pct": 29.13
   },
   {
    "candidate": "MOHAMUD, Anab",
    "party": "",
-   "votes": 48,
-   "pct": 0.48
+   "votes": 56,
+   "pct": 0.45
   },
   {
    "candidate": "THEODOSIS, Kat",
    "party": "Australian Labor Party",
-   "votes": 1844,
-   "pct": 18.58
+   "votes": 2380,
+   "pct": 19.25
   },
   {
    "candidate": "WILLIAMS, James",
    "party": "The Greens",
-   "votes": 1661,
-   "pct": 16.74
+   "votes": 2155,
+   "pct": 17.43
   },
   {
    "candidate": "YILDIZ, Oscar",
    "party": "",
-   "votes": 990,
-   "pct": 9.98
+   "votes": 1174,
+   "pct": 9.5
   },
   {
    "candidate": "KEDEM, Michal",
    "party": "Victorian Socialists",
-   "votes": 811,
-   "pct": 8.17
+   "votes": 1025,
+   "pct": 8.29
   }
  ],
  "tcp": [
   {
    "candidate": "LE DEUX, Tommy",
    "party": "Liberal",
-   "votes": 1811,
-   "pct": 47.96
+   "votes": 3818,
+   "pct": 49.98
   },
   {
    "candidate": "THEODOSIS, Kat",
    "party": "Australian Labor Party",
-   "votes": 1965,
-   "pct": 52.04
+   "votes": 3821,
+   "pct": 50.02
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/essendon-district-results/Essendon-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/essendon-district-results/Essendon-2CP-results-by-voting-centre"
+ },
+ "booths_primary": {
+  "columns": [
+   "BARNES, John One Nation Victoria",
+   "ADAMS, Ava",
+   "LE DEUX, Tommy Liberal",
+   "MOHAMUD, Anab",
+   "THEODOSIS, Kat Australian Labor Party",
+   "WILLIAMS, James The Greens",
+   "YILDIZ, Oscar",
+   "KEDEM, Michal Victorian Socialists",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total first preference votes",
+    "values": {
+     "BARNES, John One Nation Victoria": 1312.0,
+     "ADAMS, Ava": 658.0,
+     "LE DEUX, Tommy Liberal": 3601.0,
+     "MOHAMUD, Anab": 56.0,
+     "THEODOSIS, Kat Australian Labor Party": 2380.0,
+     "WILLIAMS, James The Greens": 2155.0,
+     "YILDIZ, Oscar": 1174.0,
+     "KEDEM, Michal Victorian Socialists": 1025.0,
+     "Informal votes": 630.0,
+     "Total votes polled": 12991.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "BARNES, John One Nation Victoria": 10.61,
+     "ADAMS, Ava": 5.32,
+     "LE DEUX, Tommy Liberal": 29.13,
+     "MOHAMUD, Anab": 0.45,
+     "THEODOSIS, Kat Australian Labor Party": 19.25,
+     "WILLIAMS, James The Greens": 17.43,
+     "YILDIZ, Oscar": 9.5,
+     "KEDEM, Michal Victorian Socialists": 8.29
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Ascot Vale Central",
+    "values": {
+     "BARNES, John One Nation Victoria": 0.0,
+     "ADAMS, Ava": 0.0,
+     "LE DEUX, Tommy Liberal": 0.0,
+     "MOHAMUD, Anab": 0.0,
+     "THEODOSIS, Kat Australian Labor Party": 0.0,
+     "WILLIAMS, James The Greens": 0.0,
+     "YILDIZ, Oscar": 0.0,
+     "KEDEM, Michal Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Ascot Vale East",
+    "values": {
+     "BARNES, John One Nation Victoria": 93.0,
+     "ADAMS, Ava": 55.0,
+     "LE DEUX, Tommy Liberal": 201.0,
+     "MOHAMUD, Anab": 5.0,
+     "THEODOSIS, Kat Australian Labor Party": 298.0,
+     "WILLIAMS, James The Greens": 210.0,
+     "YILDIZ, Oscar": 103.0,
+     "KEDEM, Michal Victorian Socialists": 157.0,
+     "Informal votes": 48.0,
+     "Total votes polled": 1170.0
+    }
+   },
+   {
+    "booth": "Ascot Vale West",
+    "values": {
+     "BARNES, John One Nation Victoria": 69.0,
+     "ADAMS, Ava": 24.0,
+     "LE DEUX, Tommy Liberal": 111.0,
+     "MOHAMUD, Anab": 5.0,
+     "THEODOSIS, Kat Australian Labor Party": 104.0,
+     "WILLIAMS, James The Greens": 156.0,
+     "YILDIZ, Oscar": 68.0,
+     "KEDEM, Michal Victorian Socialists": 76.0,
+     "Informal votes": 35.0,
+     "Total votes polled": 648.0
+    }
+   },
+   {
+    "booth": "Buckley Park",
+    "values": {
+     "BARNES, John One Nation Victoria": 0.0,
+     "ADAMS, Ava": 0.0,
+     "LE DEUX, Tommy Liberal": 0.0,
+     "MOHAMUD, Anab": 0.0,
+     "THEODOSIS, Kat Australian Labor Party": 0.0,
+     "WILLIAMS, James The Greens": 0.0,
+     "YILDIZ, Oscar": 0.0,
+     "KEDEM, Michal Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Essendon North",
+    "values": {
+     "BARNES, John One Nation Victoria": 163.0,
+     "ADAMS, Ava": 59.0,
+     "LE DEUX, Tommy Liberal": 346.0,
+     "MOHAMUD, Anab": 2.0,
+     "THEODOSIS, Kat Australian Labor Party": 221.0,
+     "WILLIAMS, James The Greens": 185.0,
+     "YILDIZ, Oscar": 133.0,
+     "KEDEM, Michal Victorian Socialists": 50.0,
+     "Informal votes": 81.0,
+     "Total votes polled": 1240.0
+    }
+   },
+   {
+    "booth": "Essendon West",
+    "values": {
+     "BARNES, John One Nation Victoria": 89.0,
+     "ADAMS, Ava": 47.0,
+     "LE DEUX, Tommy Liberal": 261.0,
+     "MOHAMUD, Anab": 1.0,
+     "THEODOSIS, Kat Australian Labor Party": 128.0,
+     "WILLIAMS, James The Greens": 71.0,
+     "YILDIZ, Oscar": 79.0,
+     "KEDEM, Michal Victorian Socialists": 29.0,
+     "Informal votes": 32.0,
+     "Total votes polled": 737.0
+    }
+   },
+   {
+    "booth": "Flemington",
+    "values": {
+     "BARNES, John One Nation Victoria": 56.0,
+     "ADAMS, Ava": 50.0,
+     "LE DEUX, Tommy Liberal": 157.0,
+     "MOHAMUD, Anab": 18.0,
+     "THEODOSIS, Kat Australian Labor Party": 186.0,
+     "WILLIAMS, James The Greens": 382.0,
+     "YILDIZ, Oscar": 53.0,
+     "KEDEM, Michal Victorian Socialists": 214.0,
+     "Informal votes": 60.0,
+     "Total votes polled": 1176.0
+    }
+   },
+   {
+    "booth": "Glenbervie",
+    "values": {
+     "BARNES, John One Nation Victoria": 0.0,
+     "ADAMS, Ava": 0.0,
+     "LE DEUX, Tommy Liberal": 0.0,
+     "MOHAMUD, Anab": 0.0,
+     "THEODOSIS, Kat Australian Labor Party": 0.0,
+     "WILLIAMS, James The Greens": 0.0,
+     "YILDIZ, Oscar": 0.0,
+     "KEDEM, Michal Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Kensington",
+    "values": {
+     "BARNES, John One Nation Victoria": 5.0,
+     "ADAMS, Ava": 3.0,
+     "LE DEUX, Tommy Liberal": 15.0,
+     "MOHAMUD, Anab": 1.0,
+     "THEODOSIS, Kat Australian Labor Party": 25.0,
+     "WILLIAMS, James The Greens": 62.0,
+     "YILDIZ, Oscar": 3.0,
+     "KEDEM, Michal Victorian Socialists": 36.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 164.0
+    }
+   },
+   {
+    "booth": "Moonee Ponds",
+    "values": {
+     "BARNES, John One Nation Victoria": 117.0,
+     "ADAMS, Ava": 108.0,
+     "LE DEUX, Tommy Liberal": 500.0,
+     "MOHAMUD, Anab": 1.0,
+     "THEODOSIS, Kat Australian Labor Party": 209.0,
+     "WILLIAMS, James The Greens": 194.0,
+     "YILDIZ, Oscar": 142.0,
+     "KEDEM, Michal Victorian Socialists": 98.0,
+     "Informal votes": 48.0,
+     "Total votes polled": 1417.0
+    }
+   },
+   {
+    "booth": "Moonee Ponds Central",
+    "values": {
+     "BARNES, John One Nation Victoria": 68.0,
+     "ADAMS, Ava": 76.0,
+     "LE DEUX, Tommy Liberal": 236.0,
+     "MOHAMUD, Anab": 3.0,
+     "THEODOSIS, Kat Australian Labor Party": 176.0,
+     "WILLIAMS, James The Greens": 182.0,
+     "YILDIZ, Oscar": 69.0,
+     "KEDEM, Michal Victorian Socialists": 75.0,
+     "Informal votes": 50.0,
+     "Total votes polled": 935.0
+    }
+   },
+   {
+    "booth": "Moonee Ponds West",
+    "values": {
+     "BARNES, John One Nation Victoria": 107.0,
+     "ADAMS, Ava": 64.0,
+     "LE DEUX, Tommy Liberal": 348.0,
+     "MOHAMUD, Anab": 1.0,
+     "THEODOSIS, Kat Australian Labor Party": 312.0,
+     "WILLIAMS, James The Greens": 277.0,
+     "YILDIZ, Oscar": 98.0,
+     "KEDEM, Michal Victorian Socialists": 128.0,
+     "Informal votes": 69.0,
+     "Total votes polled": 1404.0
+    }
+   },
+   {
+    "booth": "Newmarket",
+    "values": {
+     "BARNES, John One Nation Victoria": 0.0,
+     "ADAMS, Ava": 0.0,
+     "LE DEUX, Tommy Liberal": 0.0,
+     "MOHAMUD, Anab": 0.0,
+     "THEODOSIS, Kat Australian Labor Party": 0.0,
+     "WILLIAMS, James The Greens": 0.0,
+     "YILDIZ, Oscar": 0.0,
+     "KEDEM, Michal Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Strathmore",
+    "values": {
+     "BARNES, John One Nation Victoria": 85.0,
+     "ADAMS, Ava": 40.0,
+     "LE DEUX, Tommy Liberal": 227.0,
+     "MOHAMUD, Anab": 3.0,
+     "THEODOSIS, Kat Australian Labor Party": 99.0,
+     "WILLIAMS, James The Greens": 91.0,
+     "YILDIZ, Oscar": 90.0,
+     "KEDEM, Michal Victorian Socialists": 43.0,
+     "Informal votes": 33.0,
+     "Total votes polled": 711.0
+    }
+   },
+   {
+    "booth": "Strathmore North",
+    "values": {
+     "BARNES, John One Nation Victoria": 88.0,
+     "ADAMS, Ava": 29.0,
+     "LE DEUX, Tommy Liberal": 143.0,
+     "MOHAMUD, Anab": 1.0,
+     "THEODOSIS, Kat Australian Labor Party": 74.0,
+     "WILLIAMS, James The Greens": 64.0,
+     "YILDIZ, Oscar": 86.0,
+     "KEDEM, Michal Victorian Socialists": 23.0,
+     "Informal votes": 40.0,
+     "Total votes polled": 548.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "BARNES, John One Nation Victoria": 940.0,
+     "ADAMS, Ava": 555.0,
+     "LE DEUX, Tommy Liberal": 2545.0,
+     "MOHAMUD, Anab": 41.0,
+     "THEODOSIS, Kat Australian Labor Party": 1832.0,
+     "WILLIAMS, James The Greens": 1874.0,
+     "YILDIZ, Oscar": 924.0,
+     "KEDEM, Michal Victorian Socialists": 929.0,
+     "Informal votes": 510.0,
+     "Total votes polled": 10150.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Essendon - EVC 1",
+    "values": {
+     "BARNES, John One Nation Victoria": 0.0,
+     "ADAMS, Ava": 0.0,
+     "LE DEUX, Tommy Liberal": 0.0,
+     "MOHAMUD, Anab": 0.0,
+     "THEODOSIS, Kat Australian Labor Party": 0.0,
+     "WILLIAMS, James The Greens": 0.0,
+     "YILDIZ, Oscar": 0.0,
+     "KEDEM, Michal Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Essendon - EVC 2",
+    "values": {
+     "BARNES, John One Nation Victoria": 0.0,
+     "ADAMS, Ava": 0.0,
+     "LE DEUX, Tommy Liberal": 0.0,
+     "MOHAMUD, Anab": 0.0,
+     "THEODOSIS, Kat Australian Labor Party": 0.0,
+     "WILLIAMS, James The Greens": 0.0,
+     "YILDIZ, Oscar": 0.0,
+     "KEDEM, Michal Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Niddrie - EVC 2",
+    "values": {
+     "BARNES, John One Nation Victoria": 0.0,
+     "ADAMS, Ava": 0.0,
+     "LE DEUX, Tommy Liberal": 0.0,
+     "MOHAMUD, Anab": 0.0,
+     "THEODOSIS, Kat Australian Labor Party": 0.0,
+     "WILLIAMS, James The Greens": 0.0,
+     "YILDIZ, Oscar": 0.0,
+     "KEDEM, Michal Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Essendon - MEVC",
+    "values": {
+     "BARNES, John One Nation Victoria": 29.0,
+     "ADAMS, Ava": 10.0,
+     "LE DEUX, Tommy Liberal": 63.0,
+     "MOHAMUD, Anab": 4.0,
+     "THEODOSIS, Kat Australian Labor Party": 48.0,
+     "WILLIAMS, James The Greens": 35.0,
+     "YILDIZ, Oscar": 17.0,
+     "KEDEM, Michal Victorian Socialists": 11.0,
+     "Informal votes": 35.0,
+     "Total votes polled": 252.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "BARNES, John One Nation Victoria": 0.0,
+     "ADAMS, Ava": 0.0,
+     "LE DEUX, Tommy Liberal": 0.0,
+     "MOHAMUD, Anab": 0.0,
+     "THEODOSIS, Kat Australian Labor Party": 0.0,
+     "WILLIAMS, James The Greens": 0.0,
+     "YILDIZ, Oscar": 0.0,
+     "KEDEM, Michal Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "BARNES, John One Nation Victoria": 29.0,
+     "ADAMS, Ava": 10.0,
+     "LE DEUX, Tommy Liberal": 63.0,
+     "MOHAMUD, Anab": 4.0,
+     "THEODOSIS, Kat Australian Labor Party": 48.0,
+     "WILLIAMS, James The Greens": 35.0,
+     "YILDIZ, Oscar": 17.0,
+     "KEDEM, Michal Victorian Socialists": 11.0,
+     "Informal votes": 35.0,
+     "Total votes polled": 252.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "BARNES, John One Nation Victoria": 0.0,
+     "ADAMS, Ava": 0.0,
+     "LE DEUX, Tommy Liberal": 0.0,
+     "MOHAMUD, Anab": 0.0,
+     "THEODOSIS, Kat Australian Labor Party": 0.0,
+     "WILLIAMS, James The Greens": 0.0,
+     "YILDIZ, Oscar": 0.0,
+     "KEDEM, Michal Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "BARNES, John One Nation Victoria": 0.0,
+     "ADAMS, Ava": 0.0,
+     "LE DEUX, Tommy Liberal": 0.0,
+     "MOHAMUD, Anab": 0.0,
+     "THEODOSIS, Kat Australian Labor Party": 0.0,
+     "WILLIAMS, James The Greens": 0.0,
+     "YILDIZ, Oscar": 0.0,
+     "KEDEM, Michal Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "BARNES, John One Nation Victoria": 343.0,
+     "ADAMS, Ava": 93.0,
+     "LE DEUX, Tommy Liberal": 993.0,
+     "MOHAMUD, Anab": 11.0,
+     "THEODOSIS, Kat Australian Labor Party": 500.0,
+     "WILLIAMS, James The Greens": 246.0,
+     "YILDIZ, Oscar": 233.0,
+     "KEDEM, Michal Victorian Socialists": 85.0,
+     "Informal votes": 85.0,
+     "Total votes polled": 2589.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "BARNES, John One Nation Victoria": 0.0,
+     "ADAMS, Ava": 0.0,
+     "LE DEUX, Tommy Liberal": 0.0,
+     "MOHAMUD, Anab": 0.0,
+     "THEODOSIS, Kat Australian Labor Party": 0.0,
+     "WILLIAMS, James The Greens": 0.0,
+     "YILDIZ, Oscar": 0.0,
+     "KEDEM, Michal Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "BARNES, John One Nation Victoria": 343.0,
+     "ADAMS, Ava": 93.0,
+     "LE DEUX, Tommy Liberal": 993.0,
+     "MOHAMUD, Anab": 11.0,
+     "THEODOSIS, Kat Australian Labor Party": 500.0,
+     "WILLIAMS, James The Greens": 246.0,
+     "YILDIZ, Oscar": 233.0,
+     "KEDEM, Michal Victorian Socialists": 85.0,
+     "Informal votes": 85.0,
+     "Total votes polled": 2589.0
+    }
+   }
+  ]
  }
 }

@@ -3,63 +3,63 @@
  "name": "Brunswick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brunswick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:17:18+00:00",
+ "fetched_at": "2026-11-28T10:21:23+00:00",
  "title": "Brunswick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:15:02",
+ "last_updated": "Saturday, 28 November 2026 21:20:02",
  "enrolment": 56194,
- "formal": 10953,
- "informal": 484,
- "total_votes": 11437,
- "counted_pct": 20.35,
+ "formal": 11944,
+ "informal": 550,
+ "total_votes": 12494,
+ "counted_pct": 22.23,
  "notes": [],
  "primary": [
   {
    "candidate": "FARMER, Naomi",
    "party": "Victorian Socialists",
-   "votes": 1990,
-   "pct": 18.17
+   "votes": 2234,
+   "pct": 18.7
   },
   {
    "candidate": "MARGELIS, John",
    "party": "Liberal",
-   "votes": 1254,
-   "pct": 11.45
+   "votes": 1341,
+   "pct": 11.23
   },
   {
    "candidate": "PULFORD, Adam",
    "party": "The Greens",
-   "votes": 5048,
-   "pct": 46.09
+   "votes": 5450,
+   "pct": 45.63
   },
   {
    "candidate": "HELMAN, Adam",
    "party": "One Nation Victoria",
-   "votes": 490,
-   "pct": 4.47
+   "votes": 548,
+   "pct": 4.59
   },
   {
    "candidate": "ROSE, India",
    "party": "Animal Justice Party",
-   "votes": 200,
+   "votes": 219,
    "pct": 1.83
   },
   {
    "candidate": "STEGER, Gabe",
    "party": "Australian Labor Party",
-   "votes": 1731,
-   "pct": 15.8
+   "votes": 1884,
+   "pct": 15.77
   },
   {
    "candidate": "AMANATIDIS, Jack",
    "party": "",
-   "votes": 50,
-   "pct": 0.46
+   "votes": 65,
+   "pct": 0.54
   },
   {
    "candidate": "YUAN, Melissa",
    "party": "",
-   "votes": 190,
-   "pct": 1.73
+   "votes": 203,
+   "pct": 1.7
   }
  ],
  "tcp": [
@@ -97,29 +97,29 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "FARMER, Naomi Victorian Socialists": 1990.0,
-     "MARGELIS, John Liberal": 1254.0,
-     "PULFORD, Adam The Greens": 5048.0,
-     "HELMAN, Adam One Nation Victoria": 490.0,
-     "ROSE, India Animal Justice Party": 200.0,
-     "STEGER, Gabe Australian Labor Party": 1731.0,
-     "AMANATIDIS, Jack": 50.0,
-     "YUAN, Melissa": 190.0,
-     "Informal votes": 484.0,
-     "Total votes polled": 11437.0
+     "FARMER, Naomi Victorian Socialists": 2234.0,
+     "MARGELIS, John Liberal": 1341.0,
+     "PULFORD, Adam The Greens": 5450.0,
+     "HELMAN, Adam One Nation Victoria": 548.0,
+     "ROSE, India Animal Justice Party": 219.0,
+     "STEGER, Gabe Australian Labor Party": 1884.0,
+     "AMANATIDIS, Jack": 65.0,
+     "YUAN, Melissa": 203.0,
+     "Informal votes": 550.0,
+     "Total votes polled": 12494.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "FARMER, Naomi Victorian Socialists": 18.17,
-     "MARGELIS, John Liberal": 11.45,
-     "PULFORD, Adam The Greens": 46.09,
-     "HELMAN, Adam One Nation Victoria": 4.47,
+     "FARMER, Naomi Victorian Socialists": 18.7,
+     "MARGELIS, John Liberal": 11.23,
+     "PULFORD, Adam The Greens": 45.63,
+     "HELMAN, Adam One Nation Victoria": 4.59,
      "ROSE, India Animal Justice Party": 1.83,
-     "STEGER, Gabe Australian Labor Party": 15.8,
-     "AMANATIDIS, Jack": 0.46,
-     "YUAN, Melissa": 1.73
+     "STEGER, Gabe Australian Labor Party": 15.77,
+     "AMANATIDIS, Jack": 0.54,
+     "YUAN, Melissa": 1.7
     }
    },
    {
@@ -414,31 +414,31 @@
    {
     "booth": "Mitchell Street",
     "values": {
-     "FARMER, Naomi Victorian Socialists": 0.0,
-     "MARGELIS, John Liberal": 0.0,
-     "PULFORD, Adam The Greens": 0.0,
-     "HELMAN, Adam One Nation Victoria": 0.0,
-     "ROSE, India Animal Justice Party": 0.0,
-     "STEGER, Gabe Australian Labor Party": 0.0,
-     "AMANATIDIS, Jack": 0.0,
-     "YUAN, Melissa": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "FARMER, Naomi Victorian Socialists": 244.0,
+     "MARGELIS, John Liberal": 87.0,
+     "PULFORD, Adam The Greens": 402.0,
+     "HELMAN, Adam One Nation Victoria": 58.0,
+     "ROSE, India Animal Justice Party": 19.0,
+     "STEGER, Gabe Australian Labor Party": 153.0,
+     "AMANATIDIS, Jack": 15.0,
+     "YUAN, Melissa": 13.0,
+     "Informal votes": 66.0,
+     "Total votes polled": 1057.0
     }
    },
    {
     "booth": "Ordinary votes total",
     "values": {
-     "FARMER, Naomi Victorian Socialists": 1887.0,
-     "MARGELIS, John Liberal": 917.0,
-     "PULFORD, Adam The Greens": 4634.0,
-     "HELMAN, Adam One Nation Victoria": 346.0,
-     "ROSE, India Animal Justice Party": 159.0,
-     "STEGER, Gabe Australian Labor Party": 1472.0,
-     "AMANATIDIS, Jack": 40.0,
-     "YUAN, Melissa": 164.0,
-     "Informal votes": 440.0,
-     "Total votes polled": 10059.0
+     "FARMER, Naomi Victorian Socialists": 2131.0,
+     "MARGELIS, John Liberal": 1004.0,
+     "PULFORD, Adam The Greens": 5036.0,
+     "HELMAN, Adam One Nation Victoria": 404.0,
+     "ROSE, India Animal Justice Party": 178.0,
+     "STEGER, Gabe Australian Labor Party": 1625.0,
+     "AMANATIDIS, Jack": 55.0,
+     "YUAN, Melissa": 177.0,
+     "Informal votes": 506.0,
+     "Total votes polled": 11116.0
     }
    },
    {

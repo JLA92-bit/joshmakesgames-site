@@ -1,5 +1,5 @@
 {
- "scraped_at": "2026-11-28T10:16:52+00:00",
+ "scraped_at": "2026-11-28T10:20:59+00:00",
  "base": "/results/2026-results/district-election-page",
  "discovery_log": [
   {
@@ -13,116 +13,6 @@
   }
  ],
  "errors": [
-  {
-   "slug": "bundoora",
-   "error": "HTTP 999",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results"
-  },
-  {
-   "slug": "clarinda",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/clarinda-district-results"
-  },
-  {
-   "slug": "cranbourne",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/cranbourne-district-results"
-  },
-  {
-   "slug": "croydon",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results"
-  },
-  {
-   "slug": "dandenong",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/dandenong-district-results"
-  },
-  {
-   "slug": "eildon",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eildon-district-results"
-  },
-  {
-   "slug": "eltham",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eltham-district-results"
-  },
-  {
-   "slug": "essendon",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/essendon-district-results"
-  },
-  {
-   "slug": "eureka",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eureka-district-results"
-  },
-  {
-   "slug": "euroa",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/euroa-district-results"
-  },
-  {
-   "slug": "evelyn",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/evelyn-district-results"
-  },
-  {
-   "slug": "footscray",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/footscray-district-results"
-  },
-  {
-   "slug": "frankston",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results"
-  },
-  {
-   "slug": "geelong",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/geelong-district-results"
-  },
-  {
-   "slug": "gippsland-east",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-east-district-results"
-  },
-  {
-   "slug": "gippsland-south",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-south-district-results"
-  },
-  {
-   "slug": "glen-waverley",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/glen-waverley-district-results"
-  },
-  {
-   "slug": "greenvale",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/greenvale-district-results"
-  },
-  {
-   "slug": "hastings",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hastings-district-results"
-  },
-  {
-   "slug": "hawthorn",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hawthorn-district-results"
-  },
-  {
-   "slug": "ivanhoe",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ivanhoe-district-results"
-  },
-  {
-   "slug": "kalkallo",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kalkallo-district-results"
-  },
   {
    "slug": "kew",
    "error": "HTTP 998",
@@ -409,14 +299,9 @@
    "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Victoria-Region-results"
   },
   {
-   "slug": "carrum",
+   "slug": "kalkallo",
    "error": "HTTP 999",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/carrum-district-results"
-  },
-  {
-   "slug": "caulfield",
-   "error": "HTTP 999",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/caulfield-district-results"
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kalkallo-district-results"
   }
  ],
  "region_urls": {
@@ -431,6 +316,6 @@
  },
  "blocked_responses": 6,
  "status": "ok",
- "requests": 53,
- "seconds": 59.4
+ "requests": 120,
+ "seconds": 100.7
 }

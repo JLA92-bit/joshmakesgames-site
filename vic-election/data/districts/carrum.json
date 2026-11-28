@@ -3,78 +3,587 @@
  "name": "Carrum",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/carrum-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:41:53+00:00",
+ "fetched_at": "2026-11-28T10:21:29+00:00",
  "title": "Carrum election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:04",
+ "last_updated": "Saturday, 28 November 2026 21:20:05",
  "enrolment": 54535,
- "counted_pct": 5.42,
+ "formal": 8366,
+ "informal": 427,
+ "total_votes": 8793,
+ "counted_pct": 16.12,
  "notes": [],
  "primary": [
   {
    "candidate": "MATHEWS, Joshua",
    "party": "One Nation Victoria",
-   "votes": 738,
-   "pct": 21.35
+   "votes": 1943,
+   "pct": 23.22
   },
   {
    "candidate": "ABABNEH, Reema",
    "party": "Victorian Socialists",
-   "votes": 131,
-   "pct": 3.79
+   "votes": 218,
+   "pct": 2.61
   },
   {
    "candidate": "MOORE, Carolyn",
    "party": "Animal Justice Party",
-   "votes": 72,
-   "pct": 2.08
+   "votes": 182,
+   "pct": 2.18
   },
   {
    "candidate": "MACKENZIE, Harley",
    "party": "Legalise Cannabis Victoria",
-   "votes": 125,
-   "pct": 3.62
+   "votes": 230,
+   "pct": 2.75
   },
   {
    "candidate": "SMITH, Trevor",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 34,
-   "pct": 0.98
+   "votes": 86,
+   "pct": 1.03
   },
   {
    "candidate": "KILKENNY, Sonya",
    "party": "Australian Labor Party",
-   "votes": 808,
-   "pct": 23.37
+   "votes": 1801,
+   "pct": 21.53
   },
   {
    "candidate": "PEGRUM, Zoe",
    "party": "The Greens",
-   "votes": 544,
-   "pct": 15.74
+   "votes": 1028,
+   "pct": 12.29
   },
   {
    "candidate": "SHELLEY, Jeff",
    "party": "Liberal",
-   "votes": 1005,
-   "pct": 29.07
+   "votes": 2878,
+   "pct": 34.4
   }
  ],
  "tcp": [
   {
    "candidate": "KILKENNY, Sonya",
    "party": "Australian Labor Party",
-   "votes": 11,
-   "pct": 39.29
+   "votes": 1245,
+   "pct": 45.62
   },
   {
    "candidate": "SHELLEY, Jeff",
    "party": "Liberal",
-   "votes": 17,
-   "pct": 60.71
+   "votes": 1484,
+   "pct": 54.38
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/carrum-district-results/Carrum-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/carrum-district-results/Carrum-2CP-results-by-voting-centre"
+ },
+ "booths_primary": {
+  "columns": [
+   "MATHEWS, Joshua One Nation Victoria",
+   "ABABNEH, Reema Victorian Socialists",
+   "MOORE, Carolyn Animal Justice Party",
+   "MACKENZIE, Harley Legalise Cannabis Victoria",
+   "SMITH, Trevor Libertarian (formerly Liberal Democrats)",
+   "KILKENNY, Sonya Australian Labor Party",
+   "PEGRUM, Zoe The Greens",
+   "SHELLEY, Jeff Liberal",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total first preference votes",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 1943.0,
+     "ABABNEH, Reema Victorian Socialists": 218.0,
+     "MOORE, Carolyn Animal Justice Party": 182.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 230.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 86.0,
+     "KILKENNY, Sonya Australian Labor Party": 1801.0,
+     "PEGRUM, Zoe The Greens": 1028.0,
+     "SHELLEY, Jeff Liberal": 2878.0,
+     "Informal votes": 427.0,
+     "Total votes polled": 8793.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 23.22,
+     "ABABNEH, Reema Victorian Socialists": 2.61,
+     "MOORE, Carolyn Animal Justice Party": 2.18,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 2.75,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 1.03,
+     "KILKENNY, Sonya Australian Labor Party": 21.53,
+     "PEGRUM, Zoe The Greens": 12.29,
+     "SHELLEY, Jeff Liberal": 34.4
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Aldercourt",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 20.0,
+     "ABABNEH, Reema Victorian Socialists": 1.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 2.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 8.0,
+     "PEGRUM, Zoe The Greens": 8.0,
+     "SHELLEY, Jeff Liberal": 13.0,
+     "Informal votes": 6.0,
+     "Total votes polled": 58.0
+    }
+   },
+   {
+    "booth": "Banyan Fields",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Belvedere Park",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 168.0,
+     "ABABNEH, Reema Victorian Socialists": 29.0,
+     "MOORE, Carolyn Animal Justice Party": 17.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 26.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 3.0,
+     "KILKENNY, Sonya Australian Labor Party": 178.0,
+     "PEGRUM, Zoe The Greens": 116.0,
+     "SHELLEY, Jeff Liberal": 188.0,
+     "Informal votes": 49.0,
+     "Total votes polled": 774.0
+    }
+   },
+   {
+    "booth": "Bonbeach",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 191.0,
+     "ABABNEH, Reema Victorian Socialists": 50.0,
+     "MOORE, Carolyn Animal Justice Party": 20.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 24.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 12.0,
+     "KILKENNY, Sonya Australian Labor Party": 259.0,
+     "PEGRUM, Zoe The Greens": 188.0,
+     "SHELLEY, Jeff Liberal": 402.0,
+     "Informal votes": 47.0,
+     "Total votes polled": 1193.0
+    }
+   },
+   {
+    "booth": "Carrum",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Carrum Downs",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Carrum Downs Central",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 86.0,
+     "ABABNEH, Reema Victorian Socialists": 10.0,
+     "MOORE, Carolyn Animal Justice Party": 10.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 12.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 1.0,
+     "KILKENNY, Sonya Australian Labor Party": 77.0,
+     "PEGRUM, Zoe The Greens": 31.0,
+     "SHELLEY, Jeff Liberal": 78.0,
+     "Informal votes": 18.0,
+     "Total votes polled": 323.0
+    }
+   },
+   {
+    "booth": "Chelsea Central",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Chelsea Heights",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 44.0,
+     "ABABNEH, Reema Victorian Socialists": 8.0,
+     "MOORE, Carolyn Animal Justice Party": 3.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 7.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 5.0,
+     "KILKENNY, Sonya Australian Labor Party": 54.0,
+     "PEGRUM, Zoe The Greens": 45.0,
+     "SHELLEY, Jeff Liberal": 71.0,
+     "Informal votes": 10.0,
+     "Total votes polled": 247.0
+    }
+   },
+   {
+    "booth": "Lynbrook",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 8.0,
+     "ABABNEH, Reema Victorian Socialists": 2.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 2.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 4.0,
+     "PEGRUM, Zoe The Greens": 4.0,
+     "SHELLEY, Jeff Liberal": 8.0,
+     "Informal votes": 6.0,
+     "Total votes polled": 34.0
+    }
+   },
+   {
+    "booth": "Lyndhurst West",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Lyrebird",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Patterson Lakes",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 424.0,
+     "ABABNEH, Reema Victorian Socialists": 32.0,
+     "MOORE, Carolyn Animal Justice Party": 34.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 32.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 26.0,
+     "KILKENNY, Sonya Australian Labor Party": 299.0,
+     "PEGRUM, Zoe The Greens": 193.0,
+     "SHELLEY, Jeff Liberal": 702.0,
+     "Informal votes": 109.0,
+     "Total votes polled": 1851.0
+    }
+   },
+   {
+    "booth": "Rowellyn Park",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 229.0,
+     "ABABNEH, Reema Victorian Socialists": 17.0,
+     "MOORE, Carolyn Animal Justice Party": 14.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 30.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 7.0,
+     "KILKENNY, Sonya Australian Labor Party": 190.0,
+     "PEGRUM, Zoe The Greens": 102.0,
+     "SHELLEY, Jeff Liberal": 182.0,
+     "Informal votes": 57.0,
+     "Total votes polled": 828.0
+    }
+   },
+   {
+    "booth": "Seaford",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 149.0,
+     "ABABNEH, Reema Victorian Socialists": 22.0,
+     "MOORE, Carolyn Animal Justice Party": 10.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 42.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 8.0,
+     "KILKENNY, Sonya Australian Labor Party": 179.0,
+     "PEGRUM, Zoe The Greens": 121.0,
+     "SHELLEY, Jeff Liberal": 194.0,
+     "Informal votes": 56.0,
+     "Total votes polled": 781.0
+    }
+   },
+   {
+    "booth": "Seaford Beach",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 116.0,
+     "ABABNEH, Reema Victorian Socialists": 17.0,
+     "MOORE, Carolyn Animal Justice Party": 15.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 17.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 10.0,
+     "KILKENNY, Sonya Australian Labor Party": 105.0,
+     "PEGRUM, Zoe The Greens": 72.0,
+     "SHELLEY, Jeff Liberal": 125.0,
+     "Informal votes": 16.0,
+     "Total votes polled": 493.0
+    }
+   },
+   {
+    "booth": "Skye",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 1435.0,
+     "ABABNEH, Reema Victorian Socialists": 188.0,
+     "MOORE, Carolyn Animal Justice Party": 123.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 194.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 72.0,
+     "KILKENNY, Sonya Australian Labor Party": 1353.0,
+     "PEGRUM, Zoe The Greens": 880.0,
+     "SHELLEY, Jeff Liberal": 1963.0,
+     "Informal votes": 374.0,
+     "Total votes polled": 6582.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Carrum - EVC 1",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Carrum - EVC 2",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Carrum - EVC 3",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Frankston - EVC 3",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Carrum - MEVC",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 508.0,
+     "ABABNEH, Reema Victorian Socialists": 30.0,
+     "MOORE, Carolyn Animal Justice Party": 59.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 36.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 14.0,
+     "KILKENNY, Sonya Australian Labor Party": 448.0,
+     "PEGRUM, Zoe The Greens": 148.0,
+     "SHELLEY, Jeff Liberal": 915.0,
+     "Informal votes": 53.0,
+     "Total votes polled": 2211.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 0.0,
+     "ABABNEH, Reema Victorian Socialists": 0.0,
+     "MOORE, Carolyn Animal Justice Party": 0.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 0.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 0.0,
+     "KILKENNY, Sonya Australian Labor Party": 0.0,
+     "PEGRUM, Zoe The Greens": 0.0,
+     "SHELLEY, Jeff Liberal": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "MATHEWS, Joshua One Nation Victoria": 508.0,
+     "ABABNEH, Reema Victorian Socialists": 30.0,
+     "MOORE, Carolyn Animal Justice Party": 59.0,
+     "MACKENZIE, Harley Legalise Cannabis Victoria": 36.0,
+     "SMITH, Trevor Libertarian (formerly Liberal Democrats)": 14.0,
+     "KILKENNY, Sonya Australian Labor Party": 448.0,
+     "PEGRUM, Zoe The Greens": 148.0,
+     "SHELLEY, Jeff Liberal": 915.0,
+     "Informal votes": 53.0,
+     "Total votes polled": 2211.0
+    }
+   }
+  ]
  }
 }

@@ -3,69 +3,69 @@
  "name": "Benambra",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/benambra-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:17:01+00:00",
+ "fetched_at": "2026-11-28T10:21:09+00:00",
  "title": "Benambra election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:15:02",
+ "last_updated": "Saturday, 28 November 2026 21:20:02",
  "enrolment": 51973,
- "formal": 14165,
- "informal": 896,
- "total_votes": 15061,
- "counted_pct": 28.98,
+ "formal": 14626,
+ "informal": 932,
+ "total_votes": 15558,
+ "counted_pct": 29.93,
  "notes": [],
  "primary": [
   {
    "candidate": "FUERY, Mike",
    "party": "Animal Justice Party",
-   "votes": 290,
-   "pct": 2.05
+   "votes": 311,
+   "pct": 2.13
   },
   {
    "candidate": "PARTON, Graham",
    "party": "The Greens",
-   "votes": 731,
-   "pct": 5.16
+   "votes": 752,
+   "pct": 5.14
   },
   {
    "candidate": "YOUNG, Oliver",
    "party": "Australian Labor Party",
-   "votes": 535,
-   "pct": 3.78
+   "votes": 573,
+   "pct": 3.92
   },
   {
    "candidate": "VANGALEN, Alex",
    "party": "Victorian Socialists",
-   "votes": 155,
-   "pct": 1.09
+   "votes": 164,
+   "pct": 1.12
   },
   {
    "candidate": "McKEEMAN, Lachie",
    "party": "",
-   "votes": 4911,
-   "pct": 34.67
+   "votes": 5036,
+   "pct": 34.43
   },
   {
    "candidate": "MARTIN, Steve",
    "party": "Liberal",
-   "votes": 3440,
-   "pct": 24.29
+   "votes": 3611,
+   "pct": 24.69
   },
   {
    "candidate": "SHEPPARD, Kellie",
    "party": "One Nation Victoria",
-   "votes": 3805,
-   "pct": 26.86
+   "votes": 3866,
+   "pct": 26.43
   },
   {
    "candidate": "PEPPER, Evette",
    "party": "Family First",
-   "votes": 184,
-   "pct": 1.3
+   "votes": 192,
+   "pct": 1.31
   },
   {
    "candidate": "QUILTY, Tim",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 114,
-   "pct": 0.8
+   "votes": 121,
+   "pct": 0.83
   }
  ],
  "tcp": [
@@ -104,31 +104,31 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "FUERY, Mike Animal Justice Party": 290.0,
-     "PARTON, Graham The Greens": 731.0,
-     "YOUNG, Oliver Australian Labor Party": 535.0,
-     "VANGALEN, Alex Victorian Socialists": 155.0,
-     "McKEEMAN, Lachie": 4911.0,
-     "MARTIN, Steve Liberal": 3440.0,
-     "SHEPPARD, Kellie One Nation Victoria": 3805.0,
-     "PEPPER, Evette Family First": 184.0,
-     "QUILTY, Tim Libertarian (formerly Liberal Democrats)": 114.0,
-     "Informal votes": 896.0,
-     "Total votes polled": 15061.0
+     "FUERY, Mike Animal Justice Party": 311.0,
+     "PARTON, Graham The Greens": 752.0,
+     "YOUNG, Oliver Australian Labor Party": 573.0,
+     "VANGALEN, Alex Victorian Socialists": 164.0,
+     "McKEEMAN, Lachie": 5036.0,
+     "MARTIN, Steve Liberal": 3611.0,
+     "SHEPPARD, Kellie One Nation Victoria": 3866.0,
+     "PEPPER, Evette Family First": 192.0,
+     "QUILTY, Tim Libertarian (formerly Liberal Democrats)": 121.0,
+     "Informal votes": 932.0,
+     "Total votes polled": 15558.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "FUERY, Mike Animal Justice Party": 2.05,
-     "PARTON, Graham The Greens": 5.16,
-     "YOUNG, Oliver Australian Labor Party": 3.78,
-     "VANGALEN, Alex Victorian Socialists": 1.09,
-     "McKEEMAN, Lachie": 34.67,
-     "MARTIN, Steve Liberal": 24.29,
-     "SHEPPARD, Kellie One Nation Victoria": 26.86,
-     "PEPPER, Evette Family First": 1.3,
-     "QUILTY, Tim Libertarian (formerly Liberal Democrats)": 0.8
+     "FUERY, Mike Animal Justice Party": 2.13,
+     "PARTON, Graham The Greens": 5.14,
+     "YOUNG, Oliver Australian Labor Party": 3.92,
+     "VANGALEN, Alex Victorian Socialists": 1.12,
+     "McKEEMAN, Lachie": 34.43,
+     "MARTIN, Steve Liberal": 24.69,
+     "SHEPPARD, Kellie One Nation Victoria": 26.43,
+     "PEPPER, Evette Family First": 1.31,
+     "QUILTY, Tim Libertarian (formerly Liberal Democrats)": 0.83
     }
    },
    {
@@ -574,17 +574,17 @@
    {
     "booth": "Benambra - MEVC",
     "values": {
-     "FUERY, Mike Animal Justice Party": 0.0,
-     "PARTON, Graham The Greens": 0.0,
-     "YOUNG, Oliver Australian Labor Party": 0.0,
-     "VANGALEN, Alex Victorian Socialists": 0.0,
-     "McKEEMAN, Lachie": 0.0,
-     "MARTIN, Steve Liberal": 0.0,
-     "SHEPPARD, Kellie One Nation Victoria": 0.0,
-     "PEPPER, Evette Family First": 0.0,
-     "QUILTY, Tim Libertarian (formerly Liberal Democrats)": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "FUERY, Mike Animal Justice Party": 21.0,
+     "PARTON, Graham The Greens": 21.0,
+     "YOUNG, Oliver Australian Labor Party": 38.0,
+     "VANGALEN, Alex Victorian Socialists": 9.0,
+     "McKEEMAN, Lachie": 125.0,
+     "MARTIN, Steve Liberal": 171.0,
+     "SHEPPARD, Kellie One Nation Victoria": 61.0,
+     "PEPPER, Evette Family First": 8.0,
+     "QUILTY, Tim Libertarian (formerly Liberal Democrats)": 7.0,
+     "Informal votes": 36.0,
+     "Total votes polled": 497.0
     }
    },
    {
@@ -606,17 +606,17 @@
    {
     "booth": "Early votes total",
     "values": {
-     "FUERY, Mike Animal Justice Party": 0.0,
-     "PARTON, Graham The Greens": 0.0,
-     "YOUNG, Oliver Australian Labor Party": 0.0,
-     "VANGALEN, Alex Victorian Socialists": 0.0,
-     "McKEEMAN, Lachie": 0.0,
-     "MARTIN, Steve Liberal": 0.0,
-     "SHEPPARD, Kellie One Nation Victoria": 0.0,
-     "PEPPER, Evette Family First": 0.0,
-     "QUILTY, Tim Libertarian (formerly Liberal Democrats)": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "FUERY, Mike Animal Justice Party": 21.0,
+     "PARTON, Graham The Greens": 21.0,
+     "YOUNG, Oliver Australian Labor Party": 38.0,
+     "VANGALEN, Alex Victorian Socialists": 9.0,
+     "McKEEMAN, Lachie": 125.0,
+     "MARTIN, Steve Liberal": 171.0,
+     "SHEPPARD, Kellie One Nation Victoria": 61.0,
+     "PEPPER, Evette Family First": 8.0,
+     "QUILTY, Tim Libertarian (formerly Liberal Democrats)": 7.0,
+     "Informal votes": 36.0,
+     "Total votes polled": 497.0
     }
    },
    {

@@ -3,68 +3,68 @@
  "name": "Bendigo East",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-east-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:17:05+00:00",
+ "fetched_at": "2026-11-28T10:21:10+00:00",
  "title": "Bendigo East election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:15:02",
+ "last_updated": "Saturday, 28 November 2026 21:20:02",
  "enrolment": 56152,
- "formal": 4746,
- "informal": 247,
- "total_votes": 4993,
- "counted_pct": 8.89,
+ "formal": 5308,
+ "informal": 274,
+ "total_votes": 5582,
+ "counted_pct": 9.94,
  "notes": [],
  "primary": [
   {
    "candidate": "JOHN, Des",
    "party": "Family First",
-   "votes": 152,
-   "pct": 3.2
+   "votes": 171,
+   "pct": 3.22
   },
   {
    "candidate": "DUNN, Bonnie",
    "party": "Animal Justice Party",
-   "votes": 132,
-   "pct": 2.78
+   "votes": 141,
+   "pct": 2.66
   },
   {
    "candidate": "NORSEN, Denali",
    "party": "Victorian Socialists",
-   "votes": 103,
-   "pct": 2.17
+   "votes": 114,
+   "pct": 2.15
   },
   {
    "candidate": "HAWKEN, Cheryl",
    "party": "One Nation Victoria",
-   "votes": 1098,
-   "pct": 23.14
+   "votes": 1213,
+   "pct": 22.85
   },
   {
    "candidate": "LETHLEAN, Andrew",
    "party": "The Nationals",
-   "votes": 1800,
-   "pct": 37.93
+   "votes": 2028,
+   "pct": 38.21
   },
   {
    "candidate": "WRIGHT, Liz",
    "party": "",
-   "votes": 69,
-   "pct": 1.45
+   "votes": 81,
+   "pct": 1.53
   },
   {
    "candidate": "HOSKINS, Kristie",
    "party": "",
-   "votes": 19,
-   "pct": 0.4
+   "votes": 20,
+   "pct": 0.38
   },
   {
    "candidate": "RICKWOOD, Tim",
    "party": "Australian Labor Party",
-   "votes": 780,
-   "pct": 16.43
+   "votes": 877,
+   "pct": 16.52
   },
   {
    "candidate": "TOLHURST, Michael",
    "party": "The Greens",
-   "votes": 593,
+   "votes": 663,
    "pct": 12.49
   }
  ],
@@ -104,30 +104,30 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "JOHN, Des Family First": 152.0,
-     "DUNN, Bonnie Animal Justice Party": 132.0,
-     "NORSEN, Denali Victorian Socialists": 103.0,
-     "HAWKEN, Cheryl One Nation Victoria": 1098.0,
-     "LETHLEAN, Andrew The Nationals": 1800.0,
-     "WRIGHT, Liz": 69.0,
-     "HOSKINS, Kristie": 19.0,
-     "RICKWOOD, Tim Australian Labor Party": 780.0,
-     "TOLHURST, Michael The Greens": 593.0,
-     "Informal votes": 247.0,
-     "Total votes polled": 4993.0
+     "JOHN, Des Family First": 171.0,
+     "DUNN, Bonnie Animal Justice Party": 141.0,
+     "NORSEN, Denali Victorian Socialists": 114.0,
+     "HAWKEN, Cheryl One Nation Victoria": 1213.0,
+     "LETHLEAN, Andrew The Nationals": 2028.0,
+     "WRIGHT, Liz": 81.0,
+     "HOSKINS, Kristie": 20.0,
+     "RICKWOOD, Tim Australian Labor Party": 877.0,
+     "TOLHURST, Michael The Greens": 663.0,
+     "Informal votes": 274.0,
+     "Total votes polled": 5582.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "JOHN, Des Family First": 3.2,
-     "DUNN, Bonnie Animal Justice Party": 2.78,
-     "NORSEN, Denali Victorian Socialists": 2.17,
-     "HAWKEN, Cheryl One Nation Victoria": 23.14,
-     "LETHLEAN, Andrew The Nationals": 37.93,
-     "WRIGHT, Liz": 1.45,
-     "HOSKINS, Kristie": 0.4,
-     "RICKWOOD, Tim Australian Labor Party": 16.43,
+     "JOHN, Des Family First": 3.22,
+     "DUNN, Bonnie Animal Justice Party": 2.66,
+     "NORSEN, Denali Victorian Socialists": 2.15,
+     "HAWKEN, Cheryl One Nation Victoria": 22.85,
+     "LETHLEAN, Andrew The Nationals": 38.21,
+     "WRIGHT, Liz": 1.53,
+     "HOSKINS, Kristie": 0.38,
+     "RICKWOOD, Tim Australian Labor Party": 16.52,
      "TOLHURST, Michael The Greens": 12.49
     }
    },
@@ -250,17 +250,17 @@
    {
     "booth": "Eppalock",
     "values": {
-     "JOHN, Des Family First": 0.0,
-     "DUNN, Bonnie Animal Justice Party": 0.0,
-     "NORSEN, Denali Victorian Socialists": 0.0,
-     "HAWKEN, Cheryl One Nation Victoria": 0.0,
-     "LETHLEAN, Andrew The Nationals": 0.0,
-     "WRIGHT, Liz": 0.0,
-     "HOSKINS, Kristie": 0.0,
-     "RICKWOOD, Tim Australian Labor Party": 0.0,
-     "TOLHURST, Michael The Greens": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "JOHN, Des Family First": 19.0,
+     "DUNN, Bonnie Animal Justice Party": 9.0,
+     "NORSEN, Denali Victorian Socialists": 11.0,
+     "HAWKEN, Cheryl One Nation Victoria": 116.0,
+     "LETHLEAN, Andrew The Nationals": 227.0,
+     "WRIGHT, Liz": 12.0,
+     "HOSKINS, Kristie": 1.0,
+     "RICKWOOD, Tim Australian Labor Party": 97.0,
+     "TOLHURST, Michael The Greens": 70.0,
+     "Informal votes": 27.0,
+     "Total votes polled": 589.0
     }
    },
    {
@@ -333,8 +333,8 @@
      "JOHN, Des Family First": 35.0,
      "DUNN, Bonnie Animal Justice Party": 18.0,
      "NORSEN, Denali Victorian Socialists": 16.0,
-     "HAWKEN, Cheryl One Nation Victoria": 148.0,
-     "LETHLEAN, Andrew The Nationals": 145.0,
+     "HAWKEN, Cheryl One Nation Victoria": 147.0,
+     "LETHLEAN, Andrew The Nationals": 146.0,
      "WRIGHT, Liz": 10.0,
      "HOSKINS, Kristie": 5.0,
      "RICKWOOD, Tim Australian Labor Party": 83.0,
@@ -586,17 +586,17 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "JOHN, Des Family First": 131.0,
-     "DUNN, Bonnie Animal Justice Party": 95.0,
-     "NORSEN, Denali Victorian Socialists": 89.0,
-     "HAWKEN, Cheryl One Nation Victoria": 848.0,
-     "LETHLEAN, Andrew The Nationals": 1261.0,
-     "WRIGHT, Liz": 54.0,
-     "HOSKINS, Kristie": 15.0,
-     "RICKWOOD, Tim Australian Labor Party": 549.0,
-     "TOLHURST, Michael The Greens": 516.0,
-     "Informal votes": 212.0,
-     "Total votes polled": 3770.0
+     "JOHN, Des Family First": 150.0,
+     "DUNN, Bonnie Animal Justice Party": 104.0,
+     "NORSEN, Denali Victorian Socialists": 100.0,
+     "HAWKEN, Cheryl One Nation Victoria": 963.0,
+     "LETHLEAN, Andrew The Nationals": 1489.0,
+     "WRIGHT, Liz": 66.0,
+     "HOSKINS, Kristie": 16.0,
+     "RICKWOOD, Tim Australian Labor Party": 646.0,
+     "TOLHURST, Michael The Greens": 586.0,
+     "Informal votes": 239.0,
+     "Total votes polled": 4359.0
     }
    },
    {

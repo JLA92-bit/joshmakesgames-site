@@ -3,72 +3,604 @@
  "name": "Glen Waverley",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/glen-waverley-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:42:22+00:00",
+ "fetched_at": "2026-11-28T10:22:00+00:00",
  "title": "Glen Waverley election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "last_updated": "Saturday, 28 November 2026 21:20:08",
  "enrolment": 50821,
- "counted_pct": 3.53,
+ "formal": 11721,
+ "informal": 441,
+ "total_votes": 12162,
+ "counted_pct": 23.93,
  "notes": [],
  "primary": [
   {
    "candidate": "SUN, Jacky",
    "party": "Liberal",
-   "votes": 4101,
-   "pct": 46.4
+   "votes": 5458,
+   "pct": 46.57
   },
   {
    "candidate": "WHITE, Toyo",
    "party": "The Greens",
-   "votes": 1100,
-   "pct": 12.45
+   "votes": 1528,
+   "pct": 13.04
   },
   {
    "candidate": "NADARAJAH, Segar",
    "party": "Labour DLP",
-   "votes": 105,
-   "pct": 1.19
+   "votes": 131,
+   "pct": 1.12
   },
   {
    "candidate": "COX, Brad",
    "party": "One Nation Victoria",
-   "votes": 920,
-   "pct": 10.41
+   "votes": 1196,
+   "pct": 10.2
   },
   {
    "candidate": "DOBIE, Anna",
    "party": "Family First",
-   "votes": 172,
-   "pct": 1.95
+   "votes": 227,
+   "pct": 1.94
   },
   {
    "candidate": "SIOW, Nicholas",
    "party": "Victorian Socialists",
-   "votes": 223,
-   "pct": 2.52
+   "votes": 307,
+   "pct": 2.62
   },
   {
    "candidate": "MULLAHY, John",
    "party": "Australian Labor Party",
-   "votes": 2217,
-   "pct": 25.08
+   "votes": 2874,
+   "pct": 24.52
   }
  ],
  "tcp": [
   {
    "candidate": "SUN, Jacky",
    "party": "Liberal",
-   "votes": 2217,
-   "pct": 60.11
+   "votes": 3699,
+   "pct": 59.77
   },
   {
    "candidate": "MULLAHY, John",
    "party": "Australian Labor Party",
-   "votes": 1471,
-   "pct": 39.89
+   "votes": 2490,
+   "pct": 40.23
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/glen-waverley-district-results/Glen-Waverley-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/glen-waverley-district-results/Glen-Waverley-2CP-results-by-voting-centre"
+ },
+ "booths_primary": {
+  "columns": [
+   "SUN, Jacky Liberal",
+   "WHITE, Toyo The Greens",
+   "NADARAJAH, Segar Labour DLP",
+   "COX, Brad One Nation Victoria",
+   "DOBIE, Anna Family First",
+   "SIOW, Nicholas Victorian Socialists",
+   "MULLAHY, John Australian Labor Party",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total first preference votes",
+    "values": {
+     "SUN, Jacky Liberal": 5458.0,
+     "WHITE, Toyo The Greens": 1528.0,
+     "NADARAJAH, Segar Labour DLP": 131.0,
+     "COX, Brad One Nation Victoria": 1196.0,
+     "DOBIE, Anna Family First": 227.0,
+     "SIOW, Nicholas Victorian Socialists": 307.0,
+     "MULLAHY, John Australian Labor Party": 2874.0,
+     "Informal votes": 441.0,
+     "Total votes polled": 12162.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "SUN, Jacky Liberal": 46.57,
+     "WHITE, Toyo The Greens": 13.04,
+     "NADARAJAH, Segar Labour DLP": 1.12,
+     "COX, Brad One Nation Victoria": 10.2,
+     "DOBIE, Anna Family First": 1.94,
+     "SIOW, Nicholas Victorian Socialists": 2.62,
+     "MULLAHY, John Australian Labor Party": 24.52
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Burwood East",
+    "values": {
+     "SUN, Jacky Liberal": 173.0,
+     "WHITE, Toyo The Greens": 50.0,
+     "NADARAJAH, Segar Labour DLP": 10.0,
+     "COX, Brad One Nation Victoria": 42.0,
+     "DOBIE, Anna Family First": 2.0,
+     "SIOW, Nicholas Victorian Socialists": 7.0,
+     "MULLAHY, John Australian Labor Party": 89.0,
+     "Informal votes": 18.0,
+     "Total votes polled": 391.0
+    }
+   },
+   {
+    "booth": "Burwood Heights",
+    "values": {
+     "SUN, Jacky Liberal": 325.0,
+     "WHITE, Toyo The Greens": 121.0,
+     "NADARAJAH, Segar Labour DLP": 4.0,
+     "COX, Brad One Nation Victoria": 102.0,
+     "DOBIE, Anna Family First": 23.0,
+     "SIOW, Nicholas Victorian Socialists": 24.0,
+     "MULLAHY, John Australian Labor Party": 179.0,
+     "Informal votes": 34.0,
+     "Total votes polled": 812.0
+    }
+   },
+   {
+    "booth": "Camelot",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Charlesworth Park",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Eastmont",
+    "values": {
+     "SUN, Jacky Liberal": 304.0,
+     "WHITE, Toyo The Greens": 79.0,
+     "NADARAJAH, Segar Labour DLP": 1.0,
+     "COX, Brad One Nation Victoria": 79.0,
+     "DOBIE, Anna Family First": 11.0,
+     "SIOW, Nicholas Victorian Socialists": 17.0,
+     "MULLAHY, John Australian Labor Party": 136.0,
+     "Informal votes": 30.0,
+     "Total votes polled": 657.0
+    }
+   },
+   {
+    "booth": "Glen Waverley",
+    "values": {
+     "SUN, Jacky Liberal": 207.0,
+     "WHITE, Toyo The Greens": 47.0,
+     "NADARAJAH, Segar Labour DLP": 9.0,
+     "COX, Brad One Nation Victoria": 27.0,
+     "DOBIE, Anna Family First": 5.0,
+     "SIOW, Nicholas Victorian Socialists": 7.0,
+     "MULLAHY, John Australian Labor Party": 107.0,
+     "Informal votes": 25.0,
+     "Total votes polled": 434.0
+    }
+   },
+   {
+    "booth": "Glen Waverley Central",
+    "values": {
+     "SUN, Jacky Liberal": 234.0,
+     "WHITE, Toyo The Greens": 54.0,
+     "NADARAJAH, Segar Labour DLP": 3.0,
+     "COX, Brad One Nation Victoria": 38.0,
+     "DOBIE, Anna Family First": 11.0,
+     "SIOW, Nicholas Victorian Socialists": 16.0,
+     "MULLAHY, John Australian Labor Party": 128.0,
+     "Informal votes": 20.0,
+     "Total votes polled": 504.0
+    }
+   },
+   {
+    "booth": "Glen Waverley Lower",
+    "values": {
+     "SUN, Jacky Liberal": 62.0,
+     "WHITE, Toyo The Greens": 23.0,
+     "NADARAJAH, Segar Labour DLP": 3.0,
+     "COX, Brad One Nation Victoria": 7.0,
+     "DOBIE, Anna Family First": 3.0,
+     "SIOW, Nicholas Victorian Socialists": 7.0,
+     "MULLAHY, John Australian Labor Party": 35.0,
+     "Informal votes": 12.0,
+     "Total votes polled": 152.0
+    }
+   },
+   {
+    "booth": "Glen Waverley South",
+    "values": {
+     "SUN, Jacky Liberal": 246.0,
+     "WHITE, Toyo The Greens": 87.0,
+     "NADARAJAH, Segar Labour DLP": 8.0,
+     "COX, Brad One Nation Victoria": 78.0,
+     "DOBIE, Anna Family First": 12.0,
+     "SIOW, Nicholas Victorian Socialists": 19.0,
+     "MULLAHY, John Australian Labor Party": 105.0,
+     "Informal votes": 21.0,
+     "Total votes polled": 576.0
+    }
+   },
+   {
+    "booth": "Glendal",
+    "values": {
+     "SUN, Jacky Liberal": 381.0,
+     "WHITE, Toyo The Greens": 139.0,
+     "NADARAJAH, Segar Labour DLP": 6.0,
+     "COX, Brad One Nation Victoria": 79.0,
+     "DOBIE, Anna Family First": 14.0,
+     "SIOW, Nicholas Victorian Socialists": 20.0,
+     "MULLAHY, John Australian Labor Party": 195.0,
+     "Informal votes": 28.0,
+     "Total votes polled": 862.0
+    }
+   },
+   {
+    "booth": "Highvale",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Jells Park",
+    "values": {
+     "SUN, Jacky Liberal": 315.0,
+     "WHITE, Toyo The Greens": 61.0,
+     "NADARAJAH, Segar Labour DLP": 2.0,
+     "COX, Brad One Nation Victoria": 60.0,
+     "DOBIE, Anna Family First": 12.0,
+     "SIOW, Nicholas Victorian Socialists": 9.0,
+     "MULLAHY, John Australian Labor Party": 114.0,
+     "Informal votes": 21.0,
+     "Total votes polled": 594.0
+    }
+   },
+   {
+    "booth": "Morack",
+    "values": {
+     "SUN, Jacky Liberal": 326.0,
+     "WHITE, Toyo The Greens": 147.0,
+     "NADARAJAH, Segar Labour DLP": 3.0,
+     "COX, Brad One Nation Victoria": 94.0,
+     "DOBIE, Anna Family First": 8.0,
+     "SIOW, Nicholas Victorian Socialists": 35.0,
+     "MULLAHY, John Australian Labor Party": 236.0,
+     "Informal votes": 25.0,
+     "Total votes polled": 874.0
+    }
+   },
+   {
+    "booth": "Mount View",
+    "values": {
+     "SUN, Jacky Liberal": 499.0,
+     "WHITE, Toyo The Greens": 146.0,
+     "NADARAJAH, Segar Labour DLP": 9.0,
+     "COX, Brad One Nation Victoria": 83.0,
+     "DOBIE, Anna Family First": 18.0,
+     "SIOW, Nicholas Victorian Socialists": 29.0,
+     "MULLAHY, John Australian Labor Party": 230.0,
+     "Informal votes": 47.0,
+     "Total votes polled": 1061.0
+    }
+   },
+   {
+    "booth": "Parkmore",
+    "values": {
+     "SUN, Jacky Liberal": 366.0,
+     "WHITE, Toyo The Greens": 164.0,
+     "NADARAJAH, Segar Labour DLP": 15.0,
+     "COX, Brad One Nation Victoria": 113.0,
+     "DOBIE, Anna Family First": 20.0,
+     "SIOW, Nicholas Victorian Socialists": 48.0,
+     "MULLAHY, John Australian Labor Party": 255.0,
+     "Informal votes": 33.0,
+     "Total votes polled": 1014.0
+    }
+   },
+   {
+    "booth": "Pinewood",
+    "values": {
+     "SUN, Jacky Liberal": 178.0,
+     "WHITE, Toyo The Greens": 50.0,
+     "NADARAJAH, Segar Labour DLP": 11.0,
+     "COX, Brad One Nation Victoria": 40.0,
+     "DOBIE, Anna Family First": 4.0,
+     "SIOW, Nicholas Victorian Socialists": 7.0,
+     "MULLAHY, John Australian Labor Party": 87.0,
+     "Informal votes": 24.0,
+     "Total votes polled": 401.0
+    }
+   },
+   {
+    "booth": "Syndal South",
+    "values": {
+     "SUN, Jacky Liberal": 69.0,
+     "WHITE, Toyo The Greens": 41.0,
+     "NADARAJAH, Segar Labour DLP": 4.0,
+     "COX, Brad One Nation Victoria": 12.0,
+     "DOBIE, Anna Family First": 4.0,
+     "SIOW, Nicholas Victorian Socialists": 3.0,
+     "MULLAHY, John Australian Labor Party": 51.0,
+     "Informal votes": 6.0,
+     "Total votes polled": 190.0
+    }
+   },
+   {
+    "booth": "The Glen",
+    "values": {
+     "SUN, Jacky Liberal": 328.0,
+     "WHITE, Toyo The Greens": 110.0,
+     "NADARAJAH, Segar Labour DLP": 10.0,
+     "COX, Brad One Nation Victoria": 47.0,
+     "DOBIE, Anna Family First": 16.0,
+     "SIOW, Nicholas Victorian Socialists": 30.0,
+     "MULLAHY, John Australian Labor Party": 210.0,
+     "Informal votes": 27.0,
+     "Total votes polled": 778.0
+    }
+   },
+   {
+    "booth": "Vermont North",
+    "values": {
+     "SUN, Jacky Liberal": 82.0,
+     "WHITE, Toyo The Greens": 46.0,
+     "NADARAJAH, Segar Labour DLP": 3.0,
+     "COX, Brad One Nation Victoria": 25.0,
+     "DOBIE, Anna Family First": 7.0,
+     "SIOW, Nicholas Victorian Socialists": 5.0,
+     "MULLAHY, John Australian Labor Party": 49.0,
+     "Informal votes": 10.0,
+     "Total votes polled": 227.0
+    }
+   },
+   {
+    "booth": "Waverley Temple",
+    "values": {
+     "SUN, Jacky Liberal": 96.0,
+     "WHITE, Toyo The Greens": 25.0,
+     "NADARAJAH, Segar Labour DLP": 1.0,
+     "COX, Brad One Nation Victoria": 16.0,
+     "DOBIE, Anna Family First": 6.0,
+     "SIOW, Nicholas Victorian Socialists": 7.0,
+     "MULLAHY, John Australian Labor Party": 46.0,
+     "Informal votes": 8.0,
+     "Total votes polled": 205.0
+    }
+   },
+   {
+    "booth": "Wheelers Hill",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "SUN, Jacky Liberal": 4191.0,
+     "WHITE, Toyo The Greens": 1390.0,
+     "NADARAJAH, Segar Labour DLP": 102.0,
+     "COX, Brad One Nation Victoria": 942.0,
+     "DOBIE, Anna Family First": 176.0,
+     "SIOW, Nicholas Victorian Socialists": 290.0,
+     "MULLAHY, John Australian Labor Party": 2252.0,
+     "Informal votes": 389.0,
+     "Total votes polled": 9732.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Glen Waverley - EVC 1",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Glen Waverley - EVC 2",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Glen Waverley - EVC 3",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Ringwood - EVC 3",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Glen Waverley - MEVC",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "SUN, Jacky Liberal": 1267.0,
+     "WHITE, Toyo The Greens": 138.0,
+     "NADARAJAH, Segar Labour DLP": 29.0,
+     "COX, Brad One Nation Victoria": 254.0,
+     "DOBIE, Anna Family First": 51.0,
+     "SIOW, Nicholas Victorian Socialists": 17.0,
+     "MULLAHY, John Australian Labor Party": 622.0,
+     "Informal votes": 52.0,
+     "Total votes polled": 2430.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "SUN, Jacky Liberal": 0.0,
+     "WHITE, Toyo The Greens": 0.0,
+     "NADARAJAH, Segar Labour DLP": 0.0,
+     "COX, Brad One Nation Victoria": 0.0,
+     "DOBIE, Anna Family First": 0.0,
+     "SIOW, Nicholas Victorian Socialists": 0.0,
+     "MULLAHY, John Australian Labor Party": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "SUN, Jacky Liberal": 1267.0,
+     "WHITE, Toyo The Greens": 138.0,
+     "NADARAJAH, Segar Labour DLP": 29.0,
+     "COX, Brad One Nation Victoria": 254.0,
+     "DOBIE, Anna Family First": 51.0,
+     "SIOW, Nicholas Victorian Socialists": 17.0,
+     "MULLAHY, John Australian Labor Party": 622.0,
+     "Informal votes": 52.0,
+     "Total votes polled": 2430.0
+    }
+   }
+  ]
  }
 }

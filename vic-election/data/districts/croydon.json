@@ -3,78 +3,647 @@
  "name": "Croydon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:42:01+00:00",
+ "fetched_at": "2026-11-28T10:21:38+00:00",
  "title": "Croydon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:05",
+ "last_updated": "Saturday, 28 November 2026 21:20:05",
  "enrolment": 55612,
- "counted_pct": 5.9,
+ "formal": 13182,
+ "informal": 777,
+ "total_votes": 13959,
+ "counted_pct": 25.1,
  "notes": [],
  "primary": [
   {
    "candidate": "FARR, Richard",
    "party": "Australian Labor Party",
-   "votes": 1760,
-   "pct": 16.51
+   "votes": 2147,
+   "pct": 16.29
   },
   {
    "candidate": "VANDERWOLF, David",
    "party": "",
-   "votes": 481,
-   "pct": 4.51
+   "votes": 624,
+   "pct": 4.73
   },
   {
    "candidate": "SCHWAB, Nathan",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 89,
-   "pct": 0.84
+   "votes": 124,
+   "pct": 0.94
   },
   {
    "candidate": "THOMAS, Nofoao",
    "party": "Family First",
-   "votes": 273,
-   "pct": 2.56
+   "votes": 330,
+   "pct": 2.5
   },
   {
    "candidate": "WOOLDRIDGE, Toby",
    "party": "Liberal",
-   "votes": 3506,
-   "pct": 32.9
+   "votes": 4520,
+   "pct": 34.29
   },
   {
    "candidate": "GRIMSHAW, Beth",
    "party": "Victorian Socialists",
-   "votes": 423,
-   "pct": 3.97
+   "votes": 508,
+   "pct": 3.85
   },
   {
    "candidate": "BRINDLEY, Glenn",
    "party": "One Nation Victoria",
-   "votes": 2056,
-   "pct": 19.29
+   "votes": 2459,
+   "pct": 18.65
   },
   {
    "candidate": "FERNANDO, Lini",
    "party": "The Greens",
-   "votes": 2070,
-   "pct": 19.42
+   "votes": 2470,
+   "pct": 18.74
   }
  ],
  "tcp": [
   {
    "candidate": "FARR, Richard",
    "party": "Australian Labor Party",
-   "votes": 1149,
-   "pct": 41.45
+   "votes": 4660,
+   "pct": 40.65
   },
   {
    "candidate": "WOOLDRIDGE, Toby",
    "party": "Liberal",
-   "votes": 1623,
-   "pct": 58.55
+   "votes": 6805,
+   "pct": 59.35
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results/Croydon-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results/Croydon-2CP-results-by-voting-centre"
+ },
+ "booths_primary": {
+  "columns": [
+   "FARR, Richard Australian Labor Party",
+   "VANDERWOLF, David",
+   "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)",
+   "THOMAS, Nofoao Family First",
+   "WOOLDRIDGE, Toby Liberal",
+   "GRIMSHAW, Beth Victorian Socialists",
+   "BRINDLEY, Glenn One Nation Victoria",
+   "FERNANDO, Lini The Greens",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total first preference votes",
+    "values": {
+     "FARR, Richard Australian Labor Party": 2147.0,
+     "VANDERWOLF, David": 624.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 124.0,
+     "THOMAS, Nofoao Family First": 330.0,
+     "WOOLDRIDGE, Toby Liberal": 4520.0,
+     "GRIMSHAW, Beth Victorian Socialists": 508.0,
+     "BRINDLEY, Glenn One Nation Victoria": 2459.0,
+     "FERNANDO, Lini The Greens": 2470.0,
+     "Informal votes": 777.0,
+     "Total votes polled": 13959.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "FARR, Richard Australian Labor Party": 16.29,
+     "VANDERWOLF, David": 4.73,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.94,
+     "THOMAS, Nofoao Family First": 2.5,
+     "WOOLDRIDGE, Toby Liberal": 34.29,
+     "GRIMSHAW, Beth Victorian Socialists": 3.85,
+     "BRINDLEY, Glenn One Nation Victoria": 18.65,
+     "FERNANDO, Lini The Greens": 18.74
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Bayswater North",
+    "values": {
+     "FARR, Richard Australian Labor Party": 250.0,
+     "VANDERWOLF, David": 45.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 14.0,
+     "THOMAS, Nofoao Family First": 26.0,
+     "WOOLDRIDGE, Toby Liberal": 505.0,
+     "GRIMSHAW, Beth Victorian Socialists": 39.0,
+     "BRINDLEY, Glenn One Nation Victoria": 320.0,
+     "FERNANDO, Lini The Greens": 230.0,
+     "Informal votes": 65.0,
+     "Total votes polled": 1494.0
+    }
+   },
+   {
+    "booth": "Boronia North",
+    "values": {
+     "FARR, Richard Australian Labor Party": 6.0,
+     "VANDERWOLF, David": 3.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 13.0,
+     "GRIMSHAW, Beth Victorian Socialists": 4.0,
+     "BRINDLEY, Glenn One Nation Victoria": 14.0,
+     "FERNANDO, Lini The Greens": 8.0,
+     "Informal votes": 3.0,
+     "Total votes polled": 51.0
+    }
+   },
+   {
+    "booth": "Croydon",
+    "values": {
+     "FARR, Richard Australian Labor Party": 40.0,
+     "VANDERWOLF, David": 16.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 3.0,
+     "THOMAS, Nofoao Family First": 14.0,
+     "WOOLDRIDGE, Toby Liberal": 80.0,
+     "GRIMSHAW, Beth Victorian Socialists": 10.0,
+     "BRINDLEY, Glenn One Nation Victoria": 36.0,
+     "FERNANDO, Lini The Greens": 58.0,
+     "Informal votes": 24.0,
+     "Total votes polled": 281.0
+    }
+   },
+   {
+    "booth": "Croydon Central",
+    "values": {
+     "FARR, Richard Australian Labor Party": 182.0,
+     "VANDERWOLF, David": 69.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 4.0,
+     "THOMAS, Nofoao Family First": 25.0,
+     "WOOLDRIDGE, Toby Liberal": 396.0,
+     "GRIMSHAW, Beth Victorian Socialists": 57.0,
+     "BRINDLEY, Glenn One Nation Victoria": 191.0,
+     "FERNANDO, Lini The Greens": 294.0,
+     "Informal votes": 65.0,
+     "Total votes polled": 1283.0
+    }
+   },
+   {
+    "booth": "Croydon East",
+    "values": {
+     "FARR, Richard Australian Labor Party": 176.0,
+     "VANDERWOLF, David": 74.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 11.0,
+     "THOMAS, Nofoao Family First": 26.0,
+     "WOOLDRIDGE, Toby Liberal": 358.0,
+     "GRIMSHAW, Beth Victorian Socialists": 37.0,
+     "BRINDLEY, Glenn One Nation Victoria": 174.0,
+     "FERNANDO, Lini The Greens": 203.0,
+     "Informal votes": 44.0,
+     "Total votes polled": 1103.0
+    }
+   },
+   {
+    "booth": "Croydon Hills",
+    "values": {
+     "FARR, Richard Australian Labor Party": 210.0,
+     "VANDERWOLF, David": 69.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 24.0,
+     "THOMAS, Nofoao Family First": 30.0,
+     "WOOLDRIDGE, Toby Liberal": 654.0,
+     "GRIMSHAW, Beth Victorian Socialists": 48.0,
+     "BRINDLEY, Glenn One Nation Victoria": 229.0,
+     "FERNANDO, Lini The Greens": 199.0,
+     "Informal votes": 62.0,
+     "Total votes polled": 1525.0
+    }
+   },
+   {
+    "booth": "Croydon North",
+    "values": {
+     "FARR, Richard Australian Labor Party": 98.0,
+     "VANDERWOLF, David": 27.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 4.0,
+     "THOMAS, Nofoao Family First": 28.0,
+     "WOOLDRIDGE, Toby Liberal": 179.0,
+     "GRIMSHAW, Beth Victorian Socialists": 12.0,
+     "BRINDLEY, Glenn One Nation Victoria": 121.0,
+     "FERNANDO, Lini The Greens": 120.0,
+     "Informal votes": 38.0,
+     "Total votes polled": 627.0
+    }
+   },
+   {
+    "booth": "Croydon West",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Dorset",
+    "values": {
+     "FARR, Richard Australian Labor Party": 104.0,
+     "VANDERWOLF, David": 44.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 4.0,
+     "THOMAS, Nofoao Family First": 13.0,
+     "WOOLDRIDGE, Toby Liberal": 243.0,
+     "GRIMSHAW, Beth Victorian Socialists": 31.0,
+     "BRINDLEY, Glenn One Nation Victoria": 130.0,
+     "FERNANDO, Lini The Greens": 155.0,
+     "Informal votes": 36.0,
+     "Total votes polled": 760.0
+    }
+   },
+   {
+    "booth": "Glen Park Oaks",
+    "values": {
+     "FARR, Richard Australian Labor Party": 105.0,
+     "VANDERWOLF, David": 13.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 9.0,
+     "THOMAS, Nofoao Family First": 12.0,
+     "WOOLDRIDGE, Toby Liberal": 147.0,
+     "GRIMSHAW, Beth Victorian Socialists": 21.0,
+     "BRINDLEY, Glenn One Nation Victoria": 76.0,
+     "FERNANDO, Lini The Greens": 109.0,
+     "Informal votes": 33.0,
+     "Total votes polled": 525.0
+    }
+   },
+   {
+    "booth": "Kalinda",
+    "values": {
+     "FARR, Richard Australian Labor Party": 84.0,
+     "VANDERWOLF, David": 10.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 5.0,
+     "THOMAS, Nofoao Family First": 13.0,
+     "WOOLDRIDGE, Toby Liberal": 203.0,
+     "GRIMSHAW, Beth Victorian Socialists": 13.0,
+     "BRINDLEY, Glenn One Nation Victoria": 92.0,
+     "FERNANDO, Lini The Greens": 105.0,
+     "Informal votes": 30.0,
+     "Total votes polled": 555.0
+    }
+   },
+   {
+    "booth": "Kiloran",
+    "values": {
+     "FARR, Richard Australian Labor Party": 64.0,
+     "VANDERWOLF, David": 30.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 10.0,
+     "THOMAS, Nofoao Family First": 26.0,
+     "WOOLDRIDGE, Toby Liberal": 186.0,
+     "GRIMSHAW, Beth Victorian Socialists": 32.0,
+     "BRINDLEY, Glenn One Nation Victoria": 116.0,
+     "FERNANDO, Lini The Greens": 104.0,
+     "Informal votes": 34.0,
+     "Total votes polled": 602.0
+    }
+   },
+   {
+    "booth": "Kilsyth",
+    "values": {
+     "FARR, Richard Australian Labor Party": 203.0,
+     "VANDERWOLF, David": 60.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 13.0,
+     "THOMAS, Nofoao Family First": 30.0,
+     "WOOLDRIDGE, Toby Liberal": 347.0,
+     "GRIMSHAW, Beth Victorian Socialists": 48.0,
+     "BRINDLEY, Glenn One Nation Victoria": 311.0,
+     "FERNANDO, Lini The Greens": 157.0,
+     "Informal votes": 93.0,
+     "Total votes polled": 1262.0
+    }
+   },
+   {
+    "booth": "Kilsyth South",
+    "values": {
+     "FARR, Richard Australian Labor Party": 133.0,
+     "VANDERWOLF, David": 21.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 3.0,
+     "THOMAS, Nofoao Family First": 16.0,
+     "WOOLDRIDGE, Toby Liberal": 242.0,
+     "GRIMSHAW, Beth Victorian Socialists": 36.0,
+     "BRINDLEY, Glenn One Nation Victoria": 169.0,
+     "FERNANDO, Lini The Greens": 134.0,
+     "Informal votes": 50.0,
+     "Total votes polled": 804.0
+    }
+   },
+   {
+    "booth": "Lincoln",
+    "values": {
+     "FARR, Richard Australian Labor Party": 62.0,
+     "VANDERWOLF, David": 24.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 3.0,
+     "THOMAS, Nofoao Family First": 3.0,
+     "WOOLDRIDGE, Toby Liberal": 120.0,
+     "GRIMSHAW, Beth Victorian Socialists": 14.0,
+     "BRINDLEY, Glenn One Nation Victoria": 34.0,
+     "FERNANDO, Lini The Greens": 92.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 366.0
+    }
+   },
+   {
+    "booth": "Manchester",
+    "values": {
+     "FARR, Richard Australian Labor Party": 20.0,
+     "VANDERWOLF, David": 3.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 1.0,
+     "THOMAS, Nofoao Family First": 4.0,
+     "WOOLDRIDGE, Toby Liberal": 39.0,
+     "GRIMSHAW, Beth Victorian Socialists": 8.0,
+     "BRINDLEY, Glenn One Nation Victoria": 26.0,
+     "FERNANDO, Lini The Greens": 30.0,
+     "Informal votes": 10.0,
+     "Total votes polled": 141.0
+    }
+   },
+   {
+    "booth": "Middle Croydon",
+    "values": {
+     "FARR, Richard Australian Labor Party": 134.0,
+     "VANDERWOLF, David": 40.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 6.0,
+     "THOMAS, Nofoao Family First": 28.0,
+     "WOOLDRIDGE, Toby Liberal": 221.0,
+     "GRIMSHAW, Beth Victorian Socialists": 27.0,
+     "BRINDLEY, Glenn One Nation Victoria": 145.0,
+     "FERNANDO, Lini The Greens": 161.0,
+     "Informal votes": 54.0,
+     "Total votes polled": 816.0
+    }
+   },
+   {
+    "booth": "Mooroolbark",
+    "values": {
+     "FARR, Richard Australian Labor Party": 44.0,
+     "VANDERWOLF, David": 4.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 1.0,
+     "THOMAS, Nofoao Family First": 9.0,
+     "WOOLDRIDGE, Toby Liberal": 121.0,
+     "GRIMSHAW, Beth Victorian Socialists": 11.0,
+     "BRINDLEY, Glenn One Nation Victoria": 52.0,
+     "FERNANDO, Lini The Greens": 57.0,
+     "Informal votes": 21.0,
+     "Total votes polled": 320.0
+    }
+   },
+   {
+    "booth": "Mooroolbark South",
+    "values": {
+     "FARR, Richard Australian Labor Party": 91.0,
+     "VANDERWOLF, David": 24.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 4.0,
+     "THOMAS, Nofoao Family First": 11.0,
+     "WOOLDRIDGE, Toby Liberal": 187.0,
+     "GRIMSHAW, Beth Victorian Socialists": 19.0,
+     "BRINDLEY, Glenn One Nation Victoria": 112.0,
+     "FERNANDO, Lini The Greens": 94.0,
+     "Informal votes": 46.0,
+     "Total votes polled": 588.0
+    }
+   },
+   {
+    "booth": "Tinternvale",
+    "values": {
+     "FARR, Richard Australian Labor Party": 141.0,
+     "VANDERWOLF, David": 48.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 5.0,
+     "THOMAS, Nofoao Family First": 16.0,
+     "WOOLDRIDGE, Toby Liberal": 279.0,
+     "GRIMSHAW, Beth Victorian Socialists": 41.0,
+     "BRINDLEY, Glenn One Nation Victoria": 111.0,
+     "FERNANDO, Lini The Greens": 160.0,
+     "Informal votes": 55.0,
+     "Total votes polled": 856.0
+    }
+   },
+   {
+    "booth": "Yarra Road",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "FARR, Richard Australian Labor Party": 2147.0,
+     "VANDERWOLF, David": 624.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 124.0,
+     "THOMAS, Nofoao Family First": 330.0,
+     "WOOLDRIDGE, Toby Liberal": 4520.0,
+     "GRIMSHAW, Beth Victorian Socialists": 508.0,
+     "BRINDLEY, Glenn One Nation Victoria": 2459.0,
+     "FERNANDO, Lini The Greens": 2470.0,
+     "Informal votes": 777.0,
+     "Total votes polled": 13959.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Bayswater - EVC 1",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Croydon - EVC 1",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Croydon - EVC 2",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Croydon - EVC 3",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Croydon - MEVC",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "FARR, Richard Australian Labor Party": 0.0,
+     "VANDERWOLF, David": 0.0,
+     "SCHWAB, Nathan Libertarian (formerly Liberal Democrats)": 0.0,
+     "THOMAS, Nofoao Family First": 0.0,
+     "WOOLDRIDGE, Toby Liberal": 0.0,
+     "GRIMSHAW, Beth Victorian Socialists": 0.0,
+     "BRINDLEY, Glenn One Nation Victoria": 0.0,
+     "FERNANDO, Lini The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   }
+  ]
  }
 }

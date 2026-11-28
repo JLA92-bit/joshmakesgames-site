@@ -3,9 +3,9 @@
  "name": "Bulleen",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bulleen-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:17:20+00:00",
+ "fetched_at": "2026-11-28T10:21:25+00:00",
  "title": "Bulleen election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:15:02",
+ "last_updated": "Saturday, 28 November 2026 21:20:02",
  "enrolment": 51233,
  "formal": 15138,
  "informal": 928,
@@ -66,14 +66,14 @@
   {
    "candidate": "GUY, Matthew",
    "party": "Liberal",
-   "votes": 4051,
-   "pct": 68.36
+   "votes": 4617,
+   "pct": 68.65
   },
   {
    "candidate": "DALE, Tim",
    "party": "Australian Labor Party",
-   "votes": 1875,
-   "pct": 31.64
+   "votes": 2108,
+   "pct": 31.35
   }
  ],
  "links": {
