@@ -3,63 +3,63 @@
  "name": "Kalkallo",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kalkallo-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:50:14+00:00",
+ "fetched_at": "2026-11-28T10:53:17+00:00",
  "title": "Kalkallo election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:45:07",
+ "last_updated": "Saturday, 28 November 2026 21:50:07",
  "enrolment": 70361,
- "formal": 8553,
- "informal": 668,
- "total_votes": 9221,
- "counted_pct": 13.11,
+ "formal": 9808,
+ "informal": 789,
+ "total_votes": 10597,
+ "counted_pct": 15.06,
  "notes": [],
  "primary": [
   {
    "candidate": "SPENCE, Ros",
    "party": "Australian Labor Party",
-   "votes": 1846,
-   "pct": 21.58
+   "votes": 2082,
+   "pct": 21.23
   },
   {
    "candidate": "DADISHO, Eddie",
    "party": "Liberal",
-   "votes": 2601,
-   "pct": 30.41
+   "votes": 2902,
+   "pct": 29.59
   },
   {
    "candidate": "DOBSON, Jeanette",
    "party": "Family First",
-   "votes": 278,
-   "pct": 3.25
+   "votes": 317,
+   "pct": 3.23
   },
   {
    "candidate": "LYNCH, Matthew",
    "party": "Animal Justice Party",
-   "votes": 133,
+   "votes": 153,
    "pct": 1.56
   },
   {
    "candidate": "STEANS, Troy",
    "party": "One Nation Victoria",
-   "votes": 2308,
-   "pct": 26.98
+   "votes": 2709,
+   "pct": 27.62
   },
   {
    "candidate": "TIWARI, Payal",
    "party": "The Greens",
-   "votes": 822,
-   "pct": 9.61
+   "votes": 989,
+   "pct": 10.08
   },
   {
    "candidate": "ISLAM, Rebeca",
    "party": "",
-   "votes": 237,
-   "pct": 2.77
+   "votes": 254,
+   "pct": 2.59
   },
   {
    "candidate": "MILLETT, Courtney",
    "party": "Victorian Socialists",
-   "votes": 328,
-   "pct": 3.83
+   "votes": 402,
+   "pct": 4.1
   }
  ],
  "tcp": [

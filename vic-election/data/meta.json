@@ -1,9 +1,135 @@
 {
- "scraped_at": "2026-11-28T10:50:06+00:00",
+ "scraped_at": "2026-11-28T10:53:06+00:00",
  "base": "/results/2026-results/district-election-page",
  "discovery_log": [],
- "errors": [],
- "iteration": 8,
+ "errors": [
+  {
+   "slug": "sydenham",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sydenham-district-results"
+  },
+  {
+   "slug": "yan-yean",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/yan-yean-district-results"
+  },
+  {
+   "slug": "albert-park",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/albert-park-district-results"
+  },
+  {
+   "slug": "bellarine",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bellarine-district-results"
+  },
+  {
+   "slug": "bendigo-west",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results"
+  },
+  {
+   "slug": "box-hill",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/box-hill-district-results"
+  },
+  {
+   "slug": "brunswick",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brunswick-district-results"
+  },
+  {
+   "slug": "carrum",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/carrum-district-results"
+  },
+  {
+   "slug": "cranbourne",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/cranbourne-district-results"
+  },
+  {
+   "slug": "eltham",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eltham-district-results"
+  },
+  {
+   "slug": "footscray",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/footscray-district-results"
+  },
+  {
+   "slug": "gippsland-south",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-south-district-results"
+  },
+  {
+   "slug": "ivanhoe",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ivanhoe-district-results"
+  },
+  {
+   "slug": "lowan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lowan-district-results"
+  },
+  {
+   "slug": "melbourne",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melbourne-district-results"
+  },
+  {
+   "slug": "mornington",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mornington-district-results"
+  },
+  {
+   "slug": "nepean",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/nepean-district-results"
+  },
+  {
+   "slug": "oakleigh",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/oakleigh-district-results"
+  },
+  {
+   "slug": "polwarth",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/polwarth-district-results"
+  },
+  {
+   "slug": "richmond",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/richmond-district-results"
+  },
+  {
+   "slug": "sandringham",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sandringham-district-results"
+  },
+  {
+   "slug": "tarneit",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/tarneit-district-results"
+  },
+  {
+   "slug": "wendouree",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/wendouree-district-results"
+  },
+  {
+   "slug": "st-albans",
+   "error": "HTTP 999",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/st-albans-district-results"
+  },
+  {
+   "slug": "sunbury",
+   "error": "HTTP 999",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sunbury-district-results"
+  }
+ ],
+ "iteration": 9,
  "region_urls": {
   "eastern-victoria": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
   "north-eastern-metropolitan": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
@@ -17,10 +143,10 @@
  "fetched": {
   "hot": 25,
   "cold": 21,
-  "regions": 8
+  "regions": 0
  },
- "blocked_responses": 0,
+ "blocked_responses": 6,
  "status": "ok",
- "requests": 60,
- "seconds": 48.2
+ "requests": 56,
+ "seconds": 57.0
 }
