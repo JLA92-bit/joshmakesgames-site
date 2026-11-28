@@ -3,9 +3,9 @@
  "name": "Eltham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eltham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:05:38+00:00",
+ "fetched_at": "2026-11-28T11:14:30+00:00",
  "title": "Eltham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:05",
+ "last_updated": "Saturday, 28 November 2026 22:10:05",
  "enrolment": 50567,
  "formal": 11771,
  "informal": 397,
@@ -60,14 +60,14 @@
   {
    "candidate": "BYRNES, Paul",
    "party": "Liberal",
-   "votes": 4520,
-   "pct": 56.75
+   "votes": 4921,
+   "pct": 55.93
   },
   {
    "candidate": "WARD, Vicki",
    "party": "Australian Labor Party",
-   "votes": 3445,
-   "pct": 43.25
+   "votes": 3878,
+   "pct": 44.07
   }
  ],
  "links": {

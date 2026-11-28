@@ -3,9 +3,9 @@
  "name": "Footscray",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/footscray-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:05:39+00:00",
+ "fetched_at": "2026-11-28T11:14:29+00:00",
  "title": "Footscray election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:05",
+ "last_updated": "Saturday, 28 November 2026 22:10:05",
  "enrolment": 51960,
  "formal": 24813,
  "informal": 2266,
@@ -108,14 +108,14 @@
   {
    "candidate": "PEREYRA, Elena",
    "party": "The Greens",
-   "votes": 3855,
-   "pct": 64.31
+   "votes": 4166,
+   "pct": 64.44
   },
   {
    "candidate": "HALL, Katie",
    "party": "Australian Labor Party",
-   "votes": 2139,
-   "pct": 35.69
+   "votes": 2299,
+   "pct": 35.56
   }
  ],
  "links": {

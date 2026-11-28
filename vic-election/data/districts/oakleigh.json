@@ -3,14 +3,14 @@
  "name": "Oakleigh",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/oakleigh-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:57:09+00:00",
+ "fetched_at": "2026-11-28T11:14:35+00:00",
  "title": "Oakleigh election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:12",
+ "last_updated": "Saturday, 28 November 2026 22:10:12",
  "enrolment": 54228,
- "formal": 13997,
+ "formal": 13998,
  "informal": 386,
- "total_votes": 14383,
- "counted_pct": 26.52,
+ "total_votes": 14384,
+ "counted_pct": 26.53,
  "notes": [],
  "primary": [
   {
@@ -23,19 +23,19 @@
    "candidate": "DIMOPOULOS, Steve",
    "party": "Australian Labor Party",
    "votes": 3647,
-   "pct": 26.06
+   "pct": 26.05
   },
   {
    "candidate": "JUNG, Martin",
    "party": "Liberal",
-   "votes": 4915,
-   "pct": 35.11
+   "votes": 4917,
+   "pct": 35.13
   },
   {
    "candidate": "CARTER, Brooke",
    "party": "One Nation Victoria",
-   "votes": 1703,
-   "pct": 12.17
+   "votes": 1702,
+   "pct": 12.16
   },
   {
    "candidate": "GRINTER, Matthew",
@@ -54,14 +54,14 @@
   {
    "candidate": "DIMOPOULOS, Steve",
    "party": "Australian Labor Party",
-   "votes": 4429,
-   "pct": 49.34
+   "votes": 4934,
+   "pct": 49.83
   },
   {
    "candidate": "JUNG, Martin",
    "party": "Liberal",
-   "votes": 4547,
-   "pct": 50.66
+   "votes": 4967,
+   "pct": 50.17
   }
  ],
  "links": {
