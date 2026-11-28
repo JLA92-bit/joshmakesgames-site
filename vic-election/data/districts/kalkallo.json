@@ -3,77 +3,77 @@
  "name": "Kalkallo",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kalkallo-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:53:05+00:00",
+ "fetched_at": "2026-11-28T16:02:10+00:00",
  "title": "Kalkallo election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:50:06",
+ "last_updated": "Sunday, 29 November 2026 03:00:07",
  "enrolment": 70361,
- "formal": 21624,
- "informal": 2031,
- "total_votes": 23655,
- "counted_pct": 33.62,
+ "formal": 22532,
+ "informal": 2139,
+ "total_votes": 24671,
+ "counted_pct": 35.06,
  "notes": [],
  "primary": [
   {
    "candidate": "SPENCE, Ros",
    "party": "Australian Labor Party",
-   "votes": 4659,
-   "pct": 21.55
+   "votes": 4888,
+   "pct": 21.69
   },
   {
    "candidate": "DADISHO, Eddie",
    "party": "Liberal",
-   "votes": 6628,
-   "pct": 30.65
+   "votes": 6871,
+   "pct": 30.49
   },
   {
    "candidate": "DOBSON, Jeanette",
    "party": "Family First",
-   "votes": 606,
+   "votes": 632,
    "pct": 2.8
   },
   {
    "candidate": "LYNCH, Matthew",
    "party": "Animal Justice Party",
-   "votes": 301,
-   "pct": 1.39
+   "votes": 311,
+   "pct": 1.38
   },
   {
    "candidate": "STEANS, Troy",
    "party": "One Nation Victoria",
-   "votes": 5703,
-   "pct": 26.37
+   "votes": 5889,
+   "pct": 26.14
   },
   {
    "candidate": "TIWARI, Payal",
    "party": "The Greens",
-   "votes": 2286,
-   "pct": 10.57
+   "votes": 2431,
+   "pct": 10.79
   },
   {
    "candidate": "ISLAM, Rebeca",
    "party": "",
-   "votes": 527,
-   "pct": 2.44
+   "votes": 559,
+   "pct": 2.48
   },
   {
    "candidate": "MILLETT, Courtney",
    "party": "Victorian Socialists",
-   "votes": 914,
-   "pct": 4.23
+   "votes": 951,
+   "pct": 4.22
   }
  ],
  "tcp": [
   {
    "candidate": "SPENCE, Ros",
    "party": "Australian Labor Party",
-   "votes": 6764,
-   "pct": 47.7
+   "votes": 7303,
+   "pct": 48.41
   },
   {
    "candidate": "STEANS, Troy",
    "party": "One Nation Victoria",
-   "votes": 7415,
-   "pct": 52.3
+   "votes": 7784,
+   "pct": 51.59
   }
  ],
  "links": {
