@@ -1,9 +1,140 @@
 {
- "scraped_at": "2026-11-28T11:41:06+00:00",
+ "scraped_at": "2026-11-28T11:44:07+00:00",
  "base": "/results/2026-results/district-election-page",
  "discovery_log": [],
- "errors": [],
- "iteration": 25,
+ "errors": [
+  {
+   "slug": "clarinda",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/clarinda-district-results"
+  },
+  {
+   "slug": "dandenong",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/dandenong-district-results"
+  },
+  {
+   "slug": "essendon",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/essendon-district-results"
+  },
+  {
+   "slug": "frankston",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results"
+  },
+  {
+   "slug": "glen-waverley",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/glen-waverley-district-results"
+  },
+  {
+   "slug": "kew",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kew-district-results"
+  },
+  {
+   "slug": "macedon",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/macedon-district-results"
+  },
+  {
+   "slug": "monbulk",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/monbulk-district-results"
+  },
+  {
+   "slug": "mulgrave",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mulgrave-district-results"
+  },
+  {
+   "slug": "northcote",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/northcote-district-results"
+  },
+  {
+   "slug": "pascoe-vale",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pascoe-vale-district-results"
+  },
+  {
+   "slug": "prahran",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/prahran-district-results"
+  },
+  {
+   "slug": "ringwood",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ringwood-district-results"
+  },
+  {
+   "slug": "shepparton",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/shepparton-district-results"
+  },
+  {
+   "slug": "tarneit",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/tarneit-district-results"
+  },
+  {
+   "slug": "wendouree",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/wendouree-district-results"
+  },
+  {
+   "slug": "eastern-victoria",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results"
+  },
+  {
+   "slug": "north-eastern-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results"
+  },
+  {
+   "slug": "northern-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Northern-Metropolitan-Region-results"
+  },
+  {
+   "slug": "northern-victoria",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Northern-Victoria-Region-results"
+  },
+  {
+   "slug": "south-eastern-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/South-Eastern-Metropolitan-Region-results"
+  },
+  {
+   "slug": "southern-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Southern-Metropolitan-Region-results"
+  },
+  {
+   "slug": "western-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Metropolitan-Region-results"
+  },
+  {
+   "slug": "western-victoria",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Victoria-Region-results"
+  },
+  {
+   "slug": "bundoora",
+   "error": "HTTP 999",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results"
+  },
+  {
+   "slug": "pakenham",
+   "error": "HTTP 999",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results"
+  }
+ ],
+ "iteration": 26,
  "region_urls": {
   "eastern-victoria": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
   "north-eastern-metropolitan": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
@@ -16,11 +147,11 @@
  },
  "fetched": {
   "hot": 23,
-  "cold": 22,
-  "regions": 0
+  "cold": 21,
+  "regions": 8
  },
- "blocked_responses": 0,
+ "blocked_responses": 7,
  "status": "ok",
- "requests": 85,
- "seconds": 60.1
+ "requests": 33,
+ "seconds": 65.1
 }
