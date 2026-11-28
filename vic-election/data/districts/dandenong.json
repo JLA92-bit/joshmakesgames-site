@@ -3,63 +3,63 @@
  "name": "Dandenong",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/dandenong-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:14:46+00:00",
+ "fetched_at": "2026-11-28T13:33:09+00:00",
  "title": "Dandenong election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:10:05",
+ "last_updated": "Sunday, 29 November 2026 00:30:05",
  "enrolment": 54251,
- "formal": 30142,
- "informal": 3139,
- "total_votes": 33281,
- "counted_pct": 61.35,
+ "formal": 30106,
+ "informal": 3155,
+ "total_votes": 33261,
+ "counted_pct": 61.31,
  "notes": [],
  "primary": [
   {
    "candidate": "BILLINGS, William",
    "party": "Liberal",
-   "votes": 7927,
-   "pct": 26.3
+   "votes": 7744,
+   "pct": 25.72
   },
   {
    "candidate": "McMAHON, Jack",
    "party": "Victorian Socialists",
-   "votes": 868,
-   "pct": 2.88
+   "votes": 873,
+   "pct": 2.9
   },
   {
    "candidate": "KHAN, Arshad Ali",
    "party": "",
-   "votes": 477,
-   "pct": 1.58
+   "votes": 481,
+   "pct": 1.6
   },
   {
    "candidate": "HARVEY, Jacqueline",
    "party": "Family First",
-   "votes": 841,
-   "pct": 2.79
+   "votes": 846,
+   "pct": 2.81
   },
   {
    "candidate": "WILLIAMS, Gabrielle",
    "party": "Australian Labor Party",
-   "votes": 10695,
-   "pct": 35.48
+   "votes": 10811,
+   "pct": 35.91
   },
   {
    "candidate": "FORTE, Jordan",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 309,
-   "pct": 1.03
+   "votes": 312,
+   "pct": 1.04
   },
   {
    "candidate": "D'ARCY, Catherine",
    "party": "The Greens",
-   "votes": 4167,
-   "pct": 13.82
+   "votes": 4148,
+   "pct": 13.78
   },
   {
    "candidate": "WRIGHT, Glenda",
    "party": "One Nation Victoria",
-   "votes": 4858,
-   "pct": 16.12
+   "votes": 4891,
+   "pct": 16.25
   }
  ],
  "tcp": [

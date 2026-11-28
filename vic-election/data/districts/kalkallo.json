@@ -3,9 +3,9 @@
  "name": "Kalkallo",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kalkallo-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:29:29+00:00",
+ "fetched_at": "2026-11-28T13:32:30+00:00",
  "title": "Kalkallo election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:25:07",
+ "last_updated": "Sunday, 29 November 2026 00:30:07",
  "enrolment": 70361,
  "formal": 14368,
  "informal": 1257,
@@ -66,14 +66,14 @@
   {
    "candidate": "SPENCE, Ros",
    "party": "Australian Labor Party",
-   "votes": 5761,
-   "pct": 45.73
+   "votes": 6212,
+   "pct": 46.57
   },
   {
    "candidate": "STEANS, Troy",
    "party": "One Nation Victoria",
-   "votes": 6838,
-   "pct": 54.27
+   "votes": 7126,
+   "pct": 53.43
   }
  ],
  "links": {
@@ -628,18 +628,18 @@
    {
     "booth": "Total two candidate preferred votes",
     "values": {
-     "SPENCE, Ros Australian Labor Party": 5761.0,
-     "STEANS, Troy One Nation Victoria": 6838.0,
+     "SPENCE, Ros Australian Labor Party": 6212.0,
+     "STEANS, Troy One Nation Victoria": 7126.0,
      "Miss-sorts": 1.0,
-     "Informal votes": 1064.0,
-     "Total votes polled": 13664.0
+     "Informal votes": 1139.0,
+     "Total votes polled": 14478.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "SPENCE, Ros Australian Labor Party": 45.73,
-     "STEANS, Troy One Nation Victoria": 54.27
+     "SPENCE, Ros Australian Labor Party": 46.57,
+     "STEANS, Troy One Nation Victoria": 53.43
     }
    },
    {
@@ -749,11 +749,11 @@
    {
     "booth": "Mickleham",
     "values": {
-     "SPENCE, Ros Australian Labor Party": 0.0,
-     "STEANS, Troy One Nation Victoria": 0.0,
+     "SPENCE, Ros Australian Labor Party": 451.0,
+     "STEANS, Troy One Nation Victoria": 288.0,
      "Miss-sorts": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "Informal votes": 75.0,
+     "Total votes polled": 814.0
     }
    },
    {
@@ -829,11 +829,11 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "SPENCE, Ros Australian Labor Party": 4053.0,
-     "STEANS, Troy One Nation Victoria": 4281.0,
+     "SPENCE, Ros Australian Labor Party": 4504.0,
+     "STEANS, Troy One Nation Victoria": 4569.0,
      "Miss-sorts": 1.0,
-     "Informal votes": 890.0,
-     "Total votes polled": 9225.0
+     "Informal votes": 965.0,
+     "Total votes polled": 10039.0
     }
    },
    {

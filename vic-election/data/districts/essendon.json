@@ -3,77 +3,77 @@
  "name": "Essendon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/essendon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:14:45+00:00",
+ "fetched_at": "2026-11-28T13:33:10+00:00",
  "title": "Essendon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:10:05",
+ "last_updated": "Sunday, 29 November 2026 00:30:05",
  "enrolment": 53729,
- "formal": 16124,
- "informal": 857,
- "total_votes": 16981,
- "counted_pct": 31.6,
+ "formal": 16360,
+ "informal": 882,
+ "total_votes": 17242,
+ "counted_pct": 32.09,
  "notes": [],
  "primary": [
   {
    "candidate": "BARNES, John",
    "party": "One Nation Victoria",
-   "votes": 1695,
-   "pct": 10.51
+   "votes": 1745,
+   "pct": 10.67
   },
   {
    "candidate": "ADAMS, Ava",
    "party": "",
-   "votes": 938,
+   "votes": 952,
    "pct": 5.82
   },
   {
    "candidate": "LE DEUX, Tommy",
    "party": "Liberal",
-   "votes": 4553,
-   "pct": 28.24
+   "votes": 4636,
+   "pct": 28.34
   },
   {
    "candidate": "MOHAMUD, Anab",
    "party": "",
-   "votes": 75,
+   "votes": 77,
    "pct": 0.47
   },
   {
    "candidate": "THEODOSIS, Kat",
    "party": "Australian Labor Party",
-   "votes": 3208,
-   "pct": 19.9
+   "votes": 3243,
+   "pct": 19.82
   },
   {
    "candidate": "WILLIAMS, James",
    "party": "The Greens",
-   "votes": 2786,
-   "pct": 17.28
+   "votes": 2805,
+   "pct": 17.15
   },
   {
    "candidate": "YILDIZ, Oscar",
    "party": "",
-   "votes": 1522,
-   "pct": 9.44
+   "votes": 1546,
+   "pct": 9.45
   },
   {
    "candidate": "KEDEM, Michal",
    "party": "Victorian Socialists",
-   "votes": 1347,
-   "pct": 8.35
+   "votes": 1356,
+   "pct": 8.29
   }
  ],
  "tcp": [
   {
    "candidate": "LE DEUX, Tommy",
    "party": "Liberal",
-   "votes": 7809,
-   "pct": 49.11
+   "votes": 8078,
+   "pct": 49.4
   },
   {
    "candidate": "THEODOSIS, Kat",
    "party": "Australian Labor Party",
-   "votes": 8091,
-   "pct": 50.89
+   "votes": 8275,
+   "pct": 50.6
   }
  ],
  "links": {

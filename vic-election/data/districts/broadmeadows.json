@@ -3,75 +3,75 @@
  "name": "Broadmeadows",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:14:44+00:00",
+ "fetched_at": "2026-11-28T13:33:08+00:00",
  "title": "Broadmeadows election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:10:02",
+ "last_updated": "Sunday, 29 November 2026 00:30:02",
  "enrolment": 51575,
- "formal": 13757,
- "informal": 1795,
- "total_votes": 15552,
- "counted_pct": 30.15,
+ "formal": 24465,
+ "informal": 2620,
+ "total_votes": 27085,
+ "counted_pct": 52.52,
  "notes": [],
  "primary": [
   {
    "candidate": "YOLBULAN, Mutullah Can",
    "party": "Victorian Socialists",
-   "votes": 1212,
-   "pct": 8.81
+   "votes": 1951,
+   "pct": 7.97
   },
   {
    "candidate": "EL YOUSSEF, Mohamad",
    "party": "",
-   "votes": 291,
-   "pct": 2.12
+   "votes": 366,
+   "pct": 1.5
   },
   {
    "candidate": "DUZOVA, Baris",
    "party": "Liberal",
-   "votes": 2322,
-   "pct": 16.88
+   "votes": 4626,
+   "pct": 18.91
   },
   {
    "candidate": "NASIM, Maryam",
    "party": "The Greens",
-   "votes": 2550,
-   "pct": 18.54
+   "votes": 4157,
+   "pct": 16.99
   },
   {
    "candidate": "ELMUSTAPHA, Mohamad",
    "party": "",
-   "votes": 391,
-   "pct": 2.84
+   "votes": 581,
+   "pct": 2.37
   },
   {
    "candidate": "MATTHEWS-WARD, Kathleen",
    "party": "Australian Labor Party",
-   "votes": 3458,
-   "pct": 25.14
+   "votes": 6669,
+   "pct": 27.26
   },
   {
    "candidate": "WILSON, Russell",
    "party": "Family First",
-   "votes": 258,
-   "pct": 1.88
+   "votes": 441,
+   "pct": 1.8
   },
   {
    "candidate": "KEIRS, Ethan",
    "party": "One Nation Victoria",
-   "votes": 2318,
-   "pct": 16.85
+   "votes": 4201,
+   "pct": 17.17
   },
   {
    "candidate": "UNICOMB, Rachel",
    "party": "Animal Justice Party",
-   "votes": 237,
-   "pct": 1.72
+   "votes": 364,
+   "pct": 1.49
   },
   {
    "candidate": "BOLTON, Sue",
    "party": "Socialist Alliance",
-   "votes": 720,
-   "pct": 5.23
+   "votes": 1109,
+   "pct": 4.53
   }
  ],
  "tcp": [
