@@ -15,6 +15,7 @@ import concurrent.futures as cf
 import datetime as dt
 import json
 import os
+import random
 import re
 import sys
 import time
@@ -40,12 +41,18 @@ class Fetcher:
         self.s.headers.update({"User-Agent": UA, "Accept": "text/html,application/xhtml+xml"})
         self.count = 0
 
+    blocked = 0          # responses that look like rate limiting (999/429/403)
+    BLOCK_LIMIT = 6
+
     def get(self, url: str) -> tuple[int, str]:
         if self.fixtures:
             p = self.fixtures / (re.sub(r"[^a-z0-9]+", "_", urlparse(url).path.lower()).strip("_") + ".html")
             return (200, p.read_text()) if p.exists() else (404, "")
+        if Fetcher.blocked >= Fetcher.BLOCK_LIMIT:
+            return 998, ""   # stop hammering a site that is rate limiting us; keep last good data
         last = (0, "")
         for attempt in range(3):
+            time.sleep(0.25 + random.random() * 0.35)  # be polite: a few requests a second at most
             try:
                 self.count += 1
                 r = self.s.get(url, timeout=25)
@@ -54,6 +61,11 @@ class Fetcher:
                 last = (r.status_code, "")
                 if r.status_code in (404, 410):
                     return last
+                if r.status_code in (999, 429, 403):
+                    Fetcher.blocked += 1
+                    time.sleep(8 * (attempt + 1))
+                    if Fetcher.blocked >= Fetcher.BLOCK_LIMIT:
+                        return last
             except requests.RequestException as e:  # network blip: retry
                 last = (0, str(e))
             time.sleep(1.5 * (attempt + 1))
@@ -300,15 +312,23 @@ def discover(f: Fetcher, hint: str | None, log: list) -> str | None:
     return None
 
 
-REGION_LINK = re.compile(r"/results-by-region/([a-z\-]+)-region-results/?$", re.I)
+REGION_LINK = re.compile(r"region", re.I)
+
+
+def region_slug_for(href: str) -> str | None:
+    h = href.lower().replace("_", "-")
+    for slug in sorted(REGION_SLUGS, key=len, reverse=True):  # longest first: north-eastern before eastern
+        if slug in h and "result" in h:
+            return slug
+    return None
 
 
 def discover_regions(f: Fetcher, base: str, log: list) -> dict:
     """Upper house pages live under a separate index (e.g. .../region-election-page)."""
     parent = base.rstrip("/").rsplit("/", 1)[0]
-    found, pages = {}, [urljoin(VEC, parent), urljoin(VEC, base)]
+    found, pages = {}, [urljoin(VEC, parent + "/region-election-page"), urljoin(VEC, parent), urljoin(VEC, base)]
     for i, url in enumerate(pages):
-        if i > 6 or len(found) >= 8:
+        if i > 8 or len(found) >= 8:
             break
         code, html = f.get(url)
         log.append({"region_crawl": url, "status": code})
@@ -317,13 +337,13 @@ def discover_regions(f: Fetcher, base: str, log: list) -> dict:
         soup = BeautifulSoup(html, "lxml")
         for a in soup.find_all("a", href=True):
             href = urljoin(url, a["href"]).split("#")[0].split("?")[0]
-            m = REGION_LINK.search(href)
-            if m:
-                found[m.group(1).lower()] = href
-            elif "region" in href.lower() and "2026" in href and href not in pages and "readspeaker" not in href:
+            if "readspeaker" in href or not urlparse(href).netloc.endswith("vec.vic.gov.au"):
+                continue
+            rs = region_slug_for(href)
+            if rs and rs not in found and "voting-centre" not in href.lower():
+                found[rs] = href
+            elif REGION_LINK.search(href) and "2026" in href and href not in pages:
                 pages.append(href)
-    if found:
-        save_raw("index_regions", "\n".join(found.values()))
     return found
 
 
@@ -360,7 +380,14 @@ def scrape_district(f: Fetcher, base: str, slug: str, booths: bool) -> dict:
         save_raw(f"district_{slug}", html)
     rec.update(parse_results_page(html, url))
     rec.pop("booths", None)
-    if booths:
+    prev_p = DATA / "districts" / f"{slug}.json"
+    prev = json.loads(prev_p.read_text()) if prev_p.exists() else {}
+    unchanged = prev.get("last_updated") and prev.get("last_updated") == rec.get("last_updated")
+    if unchanged:  # count hasn't moved: reuse booth tables instead of refetching
+        for key in ("booths_primary", "booths_tcp"):
+            if prev.get(key):
+                rec[key] = prev[key]
+    if booths and not (unchanged and prev.get("booths_primary")):
         for key in ("booths_primary", "booths_tcp"):
             link = rec.get("links", {}).get(key)
             if not link:
@@ -396,7 +423,7 @@ def main(argv=None):
     ap.add_argument("--only", default="")
     ap.add_argument("--no-booths", action="store_true")
     ap.add_argument("--fixtures", default=None)
-    ap.add_argument("--workers", type=int, default=6)
+    ap.add_argument("--workers", type=int, default=3)
     a = ap.parse_args(argv)
 
     f = Fetcher(Path(a.fixtures) if a.fixtures else None)
@@ -435,6 +462,8 @@ def main(argv=None):
                 if prev.exists():  # keep last good data rather than blanking a seat
                     continue
             write_json(DATA / folder / f"{rec['slug']}.json", rec)
+    meta["discovery_log"] = log[-60:]
+    meta["blocked_responses"] = Fetcher.blocked
     meta["status"] = "ok"
     meta["requests"] = f.count
     meta["seconds"] = round(time.time() - t0, 1)

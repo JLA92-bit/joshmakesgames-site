@@ -3,28 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Victoria 2026: One Nation Results Tracker</title>
-<meta name="description" content="Live seat-by-seat tracker of One Nation at the 2026 Victorian state election: results, preferences, paths to power and the upper house, explained in plain English.">
+<title>Victoria 2026: One Nation results and projections</title>
+<meta name="description" content="Live projections for One Nation at the 2026 Victorian state election: every seat, its chance of winning, and its paths to power, updated from the VEC count.">
+<meta name="theme-color" content="#f6f7f9">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="top">
-  <div class="wrap">
-    <a href="#/" class="brand"><span class="dot"></span>Vic 2026 <b>One Nation Tracker</b></a>
-    <div id="live" class="live">Loading…</div>
+<header class="bar">
+  <div class="bar__in">
+    <a href="#/" class="mark" aria-label="Victoria 2026 tracker home"><span class="mark__dot"></span>Vic&nbsp;2026</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#/">Overview</a>
+      <a href="#/seats">Seats</a>
+      <a href="#/council">Upper house</a>
+      <a href="#/method">Method</a>
+    </nav>
+    <span id="live" class="live" aria-live="polite"></span>
   </div>
-  <nav class="wrap tabs">
-    <a href="#/">Overview</a>
-    <a href="#/seats">Seats</a>
-    <a href="#/preferences">Preferences</a>
-    <a href="#/council">Upper house</a>
-    <a href="#/guide">Guide</a>
-  </nav>
 </header>
-<main id="app" class="wrap"></main>
-<footer class="wrap foot">
-  Unofficial tracker. Results data from the <a href="https://www.vec.vic.gov.au" rel="noopener">Victorian Electoral Commission</a>,
-  refreshed about every 5 minutes. Counts are provisional until the VEC declares each seat. Projections are estimates, not results.
+<main id="app" class="page"></main>
+<footer class="foot">
+  <p>Unofficial tracker. Live counts from the <a href="https://www.vec.vic.gov.au" rel="noopener">Victorian Electoral Commission</a>, refreshed about every five minutes and provisional until each seat is declared. Projections and chances are this site's estimates. <a href="/">Josh Makes Games</a></p>
 </footer>
 <script src="app.js"></script>
 </body>

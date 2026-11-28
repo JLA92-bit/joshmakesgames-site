@@ -32,7 +32,10 @@ jobs:
       - name: Scrape VEC results
         env:
           VEC_BASE: ${{ vars.VEC_BASE }}
-        run: python -m collector.vec --workers 8 || echo "::warning::Scrape failed; keeping last good data"
+        run: python -m collector.vec --workers 3 || echo "::warning::Scrape failed; keeping last good data"
+
+      - name: Pre-count baseline (2022 results, fetched once)
+        run: python -m collector.baseline || echo "::warning::Baseline fetch failed; will retry next run"
 
       - name: Analyse
         run: python -m collector.analyse

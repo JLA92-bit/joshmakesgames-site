@@ -12,6 +12,7 @@ import os
 import re
 from pathlib import Path
 
+from . import model
 from .config import COUNCIL_MAJORITY, DISTRICT_SLUGS, MAJORITY, REGION_QUOTA, REGION_SLUGS, WATCH_SEATS
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -198,7 +199,7 @@ def analyse_seat(slug: str, rec: dict | None) -> dict:
     third = prim[2] if len(prim) > 2 else None
 
     seat.update(
-        status="ok", enrolment=enrol, formal=formal, informal=informal, counted_pct=r1(counted),
+        status="ok", enrolment=enrol, total_votes=rec.get("total_votes") or (formal + informal), formal=formal, informal=informal, counted_pct=r1(counted),
         last_updated=rec.get("last_updated"), elected=elected, notes=rec.get("notes", []),
         primary=[{"candidate": r["candidate"], "party": r["party"], "code": r["code"],
                   "votes": r["votes"], "pct": r1(r["pct"])} for r in prim],
@@ -429,12 +430,96 @@ def council(regions: list) -> dict:
                         + "Preferences decide the last seat in each region, so this can still shift.")}
 
 
+# ---------------------------------------------------------------- projection summaries
+
+def proj_tally(seats: list) -> dict:
+    t = {}
+    for s in seats:
+        p = s.get("projection")
+        if p:
+            t[p["winner"]] = t.get(p["winner"], 0) + 1
+    return t
+
+
+def headline(sim: dict) -> dict:
+    p = sim["probs"]
+    on = sim["seats"].get("ON", {"p50": 0, "p10": 0, "p90": 0})
+    king = p["on_kingmaker"] + p["on_majority"]
+    if p["on_majority"] >= 0.5:
+        t = "One Nation on track to govern in its own right"
+    elif king >= 0.5:
+        t = "One Nation on track to hold the balance of power"
+    elif p["coalition_majority"] >= 0.75:
+        t = "Coalition on track to govern alone"
+    elif p["coalition_majority"] >= 0.5:
+        t = "Coalition favoured to win a majority, One Nation still in the frame"
+    elif p["labor_majority"] + p["labor_with_greens"] >= 0.5:
+        t = "Labor favoured to hold on"
+    else:
+        t = "Too close to call"
+    sub = (f"One Nation projected to win {on['p50']} seats (likely range {on['p10']} to {on['p90']}). "
+           f"Chance it decides who governs: {round(100 * king)}%.")
+    return {"title": t, "sub": sub}
+
+
 # ---------------------------------------------------------------- main
 
 def main():
     meta = json.loads((DATA / "meta.json").read_text()) if (DATA / "meta.json").exists() else {}
     drecs, rrecs = load("districts"), load("regions")
     seats = [analyse_seat(s, drecs.get(s)) for s in DISTRICT_SLUGS]
+    base_p = DATA / "baseline.json"
+    baseline = json.loads(base_p.read_text()) if base_p.exists() else {}
+    priors = model.prior_tables(baseline)
+    for s in seats:
+        b = baseline.get("seats", {}).get(s["slug"])
+        if b:
+            s["baseline"] = {"winner": b["winner"], "holder": b["holder"], "final": b.get("final"),
+                             "margin": b.get("margin"), "primary": b["primary"]}
+            s["held_by"] = b["holder"]["code"]
+            if s["status"] == "ok":
+                live = {}
+                for r in s["primary"]:
+                    live[r["code"]] = live.get(r["code"], 0) + r["pct"]
+                s["swing"] = {k: r1(live.get(k, 0) - b["primary"].get(k, 0))
+                              for k in set(live) | set(b["primary"]) if live.get(k, 0) or b["primary"].get(k, 0) > 1}
+        prior = model.project_prior(priors.get(s["slug"]))
+        mf = None
+        if s["status"] == "ok" and s["on"].get("flow") is not None and s.get("tcp"):
+            mf = s["on"]["flow"] / 100
+        live = model.project_seat(s, None)
+        if live and mf is not None:
+            a = live["final"][0]["code"]
+            live = model.project_seat(s, mf if a == "ON" else 1 - mf) if "ON" in [f["code"] for f in live["final"]] else live
+        proj = model.blend(live, prior, s.get("counted_pct"))
+        s["prior"] = {k: prior[k] for k in ("winner", "win_prob", "final", "primary")} if prior else None
+        if proj and s.get("tcp") and len(s["tcp"]) == 2 and proj.get("basis") != "pre-count estimate":
+            vec_pair = {t["candidate"] for t in s["tcp"]}
+            pr_pair = {f["candidate"] for f in proj["final"]}
+            if vec_pair != pr_pair:
+                new = next(f for f in proj["final"] if f["candidate"] not in vec_pair)
+                dropped = next((t for t in s["tcp"] if t["candidate"] not in pr_pair), None)
+                if dropped:
+                    s["meaning"].insert(0, f"The VEC is counting preferences between {pn(s['tcp'][0]['code'])} and "
+                                           f"{pn(s['tcp'][1]['code'])}, but {pn(new['code'])} is ahead of "
+                                           f"{pn(dropped['code'])} on first preferences. The real contest is likely "
+                                           f"{pn(proj['final'][0]['code'])} against {pn(proj['final'][1]['code'])}, "
+                                           "and the projection uses that.")
+        if proj:
+            fin = proj["final"]
+            on_p = proj["win_prob"] if proj["winner"] == "ON" else (1 - proj["win_prob"] if any(f["code"] == "ON" for f in fin) else 0.0)
+            s["projection"] = {"winner": proj["winner"], "win_prob": round(proj["win_prob"], 3),
+                               "final": [{"candidate": f["candidate"], "code": f["code"], "pct": r1(f["pct"])} for f in fin],
+                               "basis": proj["basis"], "sd": round(proj["sd"], 2), "on_win_prob": round(on_p, 3),
+                               "live_weight": proj.get("live_weight", 1.0 if proj["basis"] != "pre-count estimate" else 0.0)}
+    enrol_known = [s["enrolment"] for s in seats if s.get("enrolment")]
+    avg_enrol = sum(enrol_known) / len(enrol_known) if enrol_known else 50000
+    counted = sum(s.get("total_votes") or 0 for s in seats)
+    progress = counted / (avg_enrol * 88 * 0.88)  # ~88% turnout expected
+    progress = max(0.0, min(1.0, progress))
+    sim = model.simulate(seats, progress)
+    for s in seats:  # simulate() reads the full projection; keep sd for transparency but not the heavy fields
+        pass
     regions = [analyse_region(s, rrecs.get(s)) for s in REGION_SLUGS]
     sw = statewide(seats)
     ptp = paths_to_power(seats)
@@ -446,6 +531,10 @@ def main():
     site = {"generated_at": now, "scraped_at": meta.get("scraped_at"), "source_status": meta.get("status", "waiting"),
             "source_message": meta.get("message"), "source_base": meta.get("base"),
             "statewide": sw, "paths": ptp, "on_status_counts": on_status_counts,
+            "projection": dict(sim, progress=round(progress, 3), counted_votes=counted,
+                               headline=headline(sim), projected_tally=proj_tally(seats)),
+            "polls": baseline.get("polls"), "poll_average": baseline.get("poll_average"),
+            "baseline_seats": len(baseline.get("seats", {})),
             "seats": [{k: v for k, v in s.items() if k not in ("booths_primary", "booths_tcp")} for s in seats],
             "regions": regions, "council": council(regions)}
     hist_p = DATA / "history.json"

@@ -1,277 +1,288 @@
-/* Vic 2026 One Nation tracker: renders data/site.json. No build step, no dependencies. */
-const COLORS = {ON:'var(--on)',LIB:'var(--lib)',NAT:'var(--nat)',ALP:'var(--alp)',GRN:'var(--grn)',IND:'var(--ind)',OTH:'var(--oth)'};
-const NAMES = {ON:'One Nation',LIB:'Liberal',NAT:'Nationals',ALP:'Labor',GRN:'Greens',IND:'Independent',OTH:'Other'};
-const STATUS = {
-  won:'Won', lost:'Lost', leading:'Leading', 'ahead-close':'Narrowly ahead', 'trailing-close':'Narrowly behind',
-  trailing:'Behind', contender:'In contention', kingmaker:'Third: kingmaker', outside:'Out of contention',
-  'no-candidate':'No candidate', 'no-data':'No count yet'
-};
-const STATUS_ORDER = ['won','leading','ahead-close','trailing-close','contender','kingmaker','trailing','outside','lost','no-candidate','no-data'];
-let D = null, seatCache = {}, ui = {filter:'contending', q:'', sort:'status'};
+/* Vic 2026 tracker: renders data/site.json. No build step, no dependencies. */
+const C = {ON:'#e8590c',LIB:'#1d5fbf',NAT:'#147a4e',ALP:'#d22630',GRN:'#2f9e44',IND:'#8a93a3',OTH:'#9b7fc9'};
+const NAME = {ON:'One Nation',LIB:'Liberal',NAT:'Nationals',ALP:'Labor',GRN:'Greens',IND:'Independent',OTH:'Other'};
+const ORDER = ['GRN','ALP','IND','OTH','LIB','NAT','ON'];   // seating, left to right
+let D = null, ui = {f:'chance', q:''}, seatCache = {};
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const pct = v => v == null ? '–' : `${Number(v).toFixed(1)}%`;
-const n = v => v == null ? '–' : Number(v).toLocaleString('en-AU');
-const pill = c => `<span class="pill" style="background:${COLORS[c]||COLORS.OTH}">${esc(c)}</span>`;
-const badge = s => `<span class="badge b-${esc(s)}">${esc(STATUS[s]||s)}</span>`;
-const nm = c => NAMES[c] || c;
-const title = c => (c||'').split(',').map(x=>x.trim()).reverse().join(' ').toLowerCase().replace(/\b\w/g,m=>m.toUpperCase());
-const explain = (head, items, cls='') => `<div class="card explain ${cls}"><h3>${head}</h3>${
-  Array.isArray(items) ? `<ul>${items.map(i=>`<li>${i}</li>`).join('')}</ul>` : `<p style="margin:0">${items}</p>`}</div>`;
-const under = items => explain('Understanding this', items, 'under');
-const means = items => explain('What this means', items);
+const pct = (v,d=1) => v == null ? '–' : `${Number(v).toFixed(d)}%`;
+const chanceTxt = p => p == null ? '–' : p >= .995 ? '>99%' : p > 0 && p < .01 ? '<1%' : `${Math.round(p*100)}%`;
+const fmt = v => v == null ? '–' : Number(v).toLocaleString('en-AU');
+const nm = c => NAME[c] || c;
+const person = c => { if(!c) return ''; if(NAME[c] || /^(One Nation|Liberal|Labor|Greens|Nationals|Independent|Other)$/.test(c)) return c;
+  const [l,f] = c.split(','); return `${(f||'').trim()} ${l.charAt(0)}${l.slice(1).toLowerCase()}`.trim(); };
+const chip = c => `<span class="chip" style="background:${C[c]||C.OTH}">${esc(nm(c))}</span>`;
+const means = ps => `<div class="means">${ps.filter(Boolean).map(p=>`<p>${p}</p>`).join('')}</div>`;
+const under = ps => `<details class="under"><summary>Understanding this</summary><div>${ps.map(p=>`<p>${p}</p>`).join('')}</div></details>`;
+const chanceCell = p => `<div class="chance"><b>${chanceTxt(p)}</b><span><i style="width:${Math.round((p||0)*100)}%"></i></span></div>`;
 
 async function load(){
   try{
     const r = await fetch(`data/site.json?t=${Date.now()}`, {cache:'no-store'});
     if(!r.ok) throw new Error(r.status);
-    D = await r.json();
-    seatCache = {};
+    const first = !D; D = await r.json(); seatCache = {};
     const t = D.scraped_at ? new Date(D.scraped_at) : null;
-    const live = $('#live');
-    live.className = 'live ' + (D.source_status==='ok' ? 'ok' : '');
-    live.textContent = D.source_status==='ok'
-      ? `Updated ${t.toLocaleTimeString('en-AU',{hour:'numeric',minute:'2-digit'})}`
-      : 'Waiting for VEC results';
-    render();
+    $('#live').innerHTML = t ? `Updated <b>${t.toLocaleTimeString('en-AU',{hour:'numeric',minute:'2-digit'})}</b>` : '';
+    render(first);
   }catch(e){
-    $('#live').textContent = 'Data not available yet';
-    if(!D) $('#app').innerHTML = `<div class="banner">No data has been published yet. The first update runs a few minutes after the site goes live.</div>`;
+    if(!D) $('#app').innerHTML = `<p class="notice">Results haven't been published yet. This page checks again every minute.</p>`;
   }
 }
 
-function render(){
-  const h = location.hash.replace(/^#\/?/, '');
-  const [page, arg] = h.split('/');
-  document.querySelectorAll('.tabs a').forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#/' + (page==='seat'?'seats':page)));
+function render(animate){
+  const [page, arg] = location.hash.replace(/^#\/?/, '').split('/');
+  document.querySelectorAll('.nav a').forEach(a => a.toggleAttribute('aria-current', a.getAttribute('href') === '#/' + (page === 'seat' ? 'seats' : (page||''))));
+  document.querySelectorAll('.nav a[aria-current]').forEach(a=>a.setAttribute('aria-current','page'));
   if(!D) return;
-  const v = {'':overview, seats, seat:seatPage, preferences, council, guide}[page] || overview;
-  $('#app').innerHTML = waitingBanner() + v(arg);
-  if(page==='seats') bindSeats();
-  if(page==='seat') loadSeatDetail(arg);
-  window.scrollTo({top:0});
+  const view = {'':overview, seats, seat:seatPage, council, method}[page||''] || overview;
+  const keep = page === 'seats' ? document.activeElement?.className : null;
+  $('#app').innerHTML = waiting() + view(arg, animate);
+  if(page === 'seats') bindSeats(keep);
+  if(page === 'seat') loadBooths(arg);
+  document.querySelectorAll('tr[data-href]').forEach(tr => tr.onclick = () => location.hash = tr.dataset.href);
 }
-window.addEventListener('hashchange', render);
+window.addEventListener('hashchange', () => { render(false); window.scrollTo(0,0); });
 
-function waitingBanner(){
+function waiting(){
   if(D.source_status === 'ok') return '';
-  return `<div class="banner"><b>Waiting for the VEC.</b> ${esc(D.source_message || 'Results pages have not been found yet.')} The site checks again every few minutes.</div>`;
+  return `<p class="notice">Waiting for the VEC to publish counts. Until then, projections use the pre-election baseline.</p>`;
+}
+
+/* ---------------- chamber (88-seat hemicycle) ---------------- */
+function chamber(seats, animate){
+  const rows = 7, R0 = 120, R1 = 250, total = 88, pts = [];
+  const radii = [...Array(rows)].map((_,i)=>R0 + (R1-R0)*i/(rows-1));
+  const sumR = radii.reduce((a,b)=>a+b,0);
+  let left = total;
+  radii.forEach((r,i)=>{
+    const n = i === rows-1 ? left : Math.round(total*r/sumR); left -= n;
+    for(let k=0;k<n;k++){ const a = Math.PI - Math.PI*(k/(n-1)); pts.push({x:270+r*Math.cos(a), y:270-r*Math.sin(a), a}); }
+  });
+  pts.sort((p,q)=>q.a-p.a);
+  const list = seats.slice().sort((a,b)=>{
+    const pa=a.projection, pb=b.projection;
+    const oa = pa?ORDER.indexOf(pa.winner):99, ob = pb?ORDER.indexOf(pb.winner):99;
+    if(oa!==ob) return oa-ob;
+    const sa=pa?.win_prob??0, sb=pb?.win_prob??0;
+    return ORDER.indexOf(pa?.winner) < 4 ? sb-sa : sa-sb;  // firmest seats on the outer edges
+  });
+  const dots = list.map((s,i)=>{
+    const p = s.projection, c = p ? (C[p.winner]||C.OTH) : '#c9ced6', o = !p ? 1 : p.win_prob >= .8 ? 1 : p.win_prob >= .6 ? .62 : .35;
+    const t = `${s.name}: ${p ? `${nm(p.winner)} ${chanceTxt(p.win_prob)}` : 'no projection'}`;
+    return `<a href="#/seat/${s.slug}"><circle cx="${pts[i].x.toFixed(1)}" cy="${pts[i].y.toFixed(1)}" r="9.6" fill="${c}" style="--o:${o};opacity:${o};animation-delay:${i*9}ms"><title>${esc(t)}</title></circle></a>`;
+  }).join('');
+  return `<svg class="chamber ${animate?'anim':''}" viewBox="0 0 540 285" role="img" aria-label="Projected seats in the 88-seat lower house">
+    ${dots}<line x1="270" y1="6" x2="270" y2="150" stroke="#10182b" stroke-width="2" stroke-dasharray="3 4"/>
+    <text x="270" y="200" text-anchor="middle" font-size="40" font-weight="800" font-stretch="120%" fill="#10182b">45</text>
+    <text x="270" y="224" text-anchor="middle" font-size="14" fill="#6b7487">seats to govern</text></svg>`;
 }
 
 /* ---------------- overview ---------------- */
-function overview(){
-  const p = D.paths, sw = D.statewide, c = D.on_status_counts || {};
-  const onPct = sw.pct?.ON;
-  const inTcp = D.seats.filter(s=>s.on?.in_tcp).length;
-  const close = (c['ahead-close']||0) + (c['trailing-close']||0) + (c.contender||0);
-  const order = ['ON','LIB','NAT','ALP','GRN','IND','OTH'];
-  const bar = order.map(k => p.tally[k] ? `<div title="${nm(k)} ${p.tally[k]}" style="width:${p.tally[k]/88*100}%;background:${COLORS[k]}"></div>` : '').join('');
-  const lg = order.filter(k=>p.tally[k]).map(k=>`<span><i class="sw" style="background:${COLORS[k]}"></i>${nm(k)} ${p.tally[k]}</span>`).join('')
-    + `<span><i class="sw" style="background:var(--panel2)"></i>No count ${p.pending}</span>`;
-  const meaning = [esc(p.summary)];
-  if(onPct != null) meaning.push(`Across all counted votes One Nation has ${pct(onPct)} of first preferences statewide${onPct>=20?', in line with its pre-election polling above 20%':''}.`);
-  if(inTcp) meaning.push(`One Nation is in the final two in ${inTcp} seat${inTcp>1?'s':''}. Those are the only seats it can realistically win.`);
-  if(close) meaning.push(`${close} seat${close>1?'s are':' is'} close enough that late counting or preferences could swing them.`);
-  return `
-  <h1>Can One Nation take power in Victoria?</h1>
-  <p class="sub">Live count of the 2026 Victorian state election, seat by seat, through One Nation's eyes.</p>
-  <div class="grid g4">
-    ${stat('One Nation primary vote', pct(onPct), `${n(sw.formal)} formal votes counted`, true)}
-    ${stat('Seats One Nation leads', p.on, `of ${p.reported} with a count`, true)}
-    ${stat('In the final two', inTcp, 'seats where it can still win')}
-    ${stat('Coalition leads', p.coalition, `${p.majority} needed for majority`)}
-  </div>
-  <h2>Paths to power</h2>
-  <div class="card">
-    <div class="small muted">Who is ahead in each of the 88 seats. The white line is the 45 seats needed to govern.</div>
-    <div class="seatbar">${bar}<span class="maj"></span></div>
-    <div class="legend">${lg}</div>
-    <div style="margin-top:12px">${p.scenarios.map(s=>`<div class="scen"><span class="tick ${s.met?'yes':''}">${s.met?'✓':'·'}</span><div><b>${esc(s.title)}</b><small>${esc(s.detail)}</small></div></div>`).join('')}</div>
-  </div>
-  <div class="grid g2" style="margin-top:12px">
-    ${means(meaning)}
-    ${under([
-      'Government is formed by whoever can win confidence votes in the 88-seat lower house. That takes 45 votes.',
-      'One Nation can govern alone with 45 seats, or share power if the Coalition falls short of 45 and needs One Nation\'s seats to get there (a "kingmaker" deal).',
-      '"Leads" means ahead on the current count. Seats are only won when the VEC declares them, often days later.',
-      'Early counts come from small booths first. Pre-poll and postal votes are counted later and can change results.'
-    ])}
-  </div>
-  ${historyChart()}
-  <h2>One Nation's closest races</h2>
-  ${p.close_races.length ? `<div class="card tablewrap"><table><tr><th>Seat</th><th>Status</th><th class="num">1st pref</th><th class="num">After prefs</th><th class="num hide-sm">Needs</th></tr>
-    ${p.close_races.map(r=>`<tr class="click" onclick="location.hash='#/seat/${r.slug}'"><td>${esc(r.name)}</td><td>${badge(r.status)}</td><td class="num">${pct(r.on_pct)}</td><td class="num">${pct(r.on_tcp)}</td><td class="num hide-sm">${pct(r.needs)}</td></tr>`).join('')}
-  </table></div>
-  <p class="small muted">"Needs" is the share of other candidates' votes that must flow to One Nation for it to win.</p>` : '<p class="muted">No close One Nation races yet.</p>'}
-  <h2>Statewide first preferences</h2>
-  <div class="card bars">${Object.entries(sw.pct||{}).map(([k,v])=>barRow(nm(k),'',v,k)).join('') || '<span class="muted">No votes counted yet.</span>'}</div>`;
-}
-const stat = (k,v,nn,on) => `<div class="card stat"><div class="k">${k}</div><div class="v ${on?'on':''}">${v}</div><div class="n">${nn}</div></div>`;
-function barRow(name, sub, v, code, max=100){
-  return `<div class="row"><div class="name">${esc(name)} ${sub?`<small>${esc(sub)}</small>`:''}</div><div class="track"><div class="fill" style="width:${Math.min(100,(v||0)/max*100)}%;background:${COLORS[code]||COLORS.OTH}"></div></div><div class="val">${pct(v)}</div></div>`;
-}
+function overview(_, animate){
+  const P = D.projection, pr = P.probs, sd = P.seats, sw = D.statewide.pct || {}, pa = D.poll_average || {};
+  const onS = sd.ON || {p50:0,p10:0,p90:0};
+  const coal = (sd.LIB?.p50||0) + (sd.NAT?.p50||0);
+  const king = pr.on_kingmaker + pr.on_majority;
+  const tallyKeys = ['ON','LIB','NAT','ALP','GRN'].filter(k=>sd[k]);
+  const odds = [
+    ['on', 'One Nation decides who governs', king, `Coalition short of 45 on its own but One Nation's seats get it there${pr.on_majority?', or One Nation wins outright':''}.`],
+    ['', 'Coalition governs alone', pr.coalition_majority, 'Liberal and Nationals reach 45 without One Nation.'],
+    ['', 'Labor holds on', pr.labor_majority + pr.labor_with_greens, 'Labor reaches 45 alone or with the Greens.'],
+    ['', 'Other hung parliament', pr.hung, 'No combination above reaches 45.'],
+  ];
+  const close = D.seats.filter(s=>s.projection && s.projection.on_win_prob >= .05).sort((a,b)=>b.projection.on_win_prob-a.projection.on_win_prob);
+  const expected = close.reduce((a,s)=>a+s.projection.on_win_prob,0);
+  const prog = Math.round((P.progress||0)*100);
+  const hist = P.on_hist || [], hmax = Math.max(...hist.map(h=>h.p), .01);
+  const onLive = sw.ON, onPoll = pa.ON;
+  const wrong = D.seats.filter(s=>s.on?.in_tcp && s.projection && !s.projection.final.some(f=>f.code==='ON'));
 
-function historyChart(){
-  const H = D.history || [];
-  if(H.length < 3) return '';
-  const xs = H.map((_,i)=>i), ys = H.map(h=>h.on_pct||0);
-  const mn = Math.max(0, Math.min(...ys)-2), mx = Math.max(...ys)+2;
-  const pts = ys.map((y,i)=>`${(i/(ys.length-1)*100).toFixed(2)},${(90-(y-mn)/(mx-mn)*80-5).toFixed(2)}`).join(' ');
-  return `<h2>One Nation's vote through the night</h2><div class="card"><svg class="spark" viewBox="0 0 100 90" preserveAspectRatio="none"><polyline points="${pts}" fill="none" stroke="var(--on)" stroke-width="1.5" vector-effect="non-scaling-stroke"/></svg>
-  <div class="small muted">Statewide One Nation first-preference share at each update, from ${pct(ys[0])} to ${pct(ys[ys.length-1])}.</div></div>`;
+  return `
+  <section class="block">
+    <h1 class="hero__title">${esc(P.headline.title)}</h1>
+    <p class="hero__sub">${esc(P.headline.sub)}</p>
+  </section>
+
+  <section class="block split">
+    <div>
+      ${chamber(D.seats, animate)}
+      <div class="tally">${tallyKeys.map(k=>`<div style="--c:${C[k]}"><div class="n">${sd[k].p50}</div><div class="l">${nm(k)}</div><div class="r">${sd[k].p10}–${sd[k].p90} likely</div></div>`).join('')}</div>
+    </div>
+    <div>
+      <h2>Paths to power</h2>
+      <p class="lede small">Chance of each outcome across ${fmt(P.runs)} simulations of the remaining count.</p>
+      <div class="odds">${odds.map(([cls,t,p,d])=>`<div class="odd ${cls?'is-on':''}"><div class="odd__t">${t}</div><div class="odd__p">${chanceTxt(p)}</div><div class="odd__bar"><i style="width:${Math.round(p*100)}%"></i></div><div class="odd__d">${d}</div></div>`).join('')}</div>
+      ${means([
+        king >= .5 ? `<strong>One Nation is more likely than not to hold the balance of power.</strong> The Coalition's projected ${coal} seats fall short of 45, and One Nation's seats would get it there.`
+        : pr.coalition_majority >= .5 ? `<strong>The Coalition is projected to win ${coal} seats, enough to govern without One Nation.</strong> For One Nation to become kingmaker, the Coalition has to fall below 45 while One Nation picks up its marginal seats.`
+        : `<strong>No side is clearly ahead.</strong> One Nation's leverage depends on the Coalition finishing just short of 45.`,
+        `Faded dots are seats where the projected winner has less than an 80% chance. Tap a dot to open the seat.`
+      ])}
+      ${under([
+        'Government goes to whoever can win confidence votes in the 88-seat lower house, which takes 45 seats.',
+        'Each simulation redraws every undecided seat using its projected margin and uncertainty. Seats move together, as they do on a real night: if One Nation is doing better than projected in one seat, it is probably doing better in others too.',
+        'Early in the count, projections lean on the pre-election baseline (2022 results and final polls). As more votes are counted, the live count takes over.'
+      ])}
+    </div>
+  </section>
+
+  <section class="block split">
+    <div>
+      <h2>Seats One Nation could win</h2>
+      <p class="lede small">Expected total: ${expected.toFixed(1)} seats. Ranked by chance of winning.</p>
+      <table class="list"><thead><tr><th>Seat</th><th class="hide-s">Projected final two</th><th class="r">Chance</th></tr></thead><tbody>
+      ${close.slice(0,14).map(s=>{const p=s.projection;return `<tr data-href="#/seat/${s.slug}"><td class="seat">${esc(s.name)}<small>${s.held_by?`Held by ${nm(s.held_by)}`:''}${s.counted_pct!=null?`, ${pct(s.counted_pct,0)} counted`:''}</small></td>
+        <td class="hide-s small">${p.final.map(f=>`<span class="dot" style="background:${C[f.code]}"></span>${nm(f.code)} ${pct(f.pct)}`).join('<br>')}</td><td class="r">${chanceCell(p.on_win_prob)}</td></tr>`}).join('') || '<tr><td colspan="3" class="muted">No seats with a realistic One Nation chance yet.</td></tr>'}
+      </tbody></table>
+      <p class="small" style="margin-top:12px"><a href="#/seats">All 88 seats</a></p>
+    </div>
+    <div>
+      <h2>How many seats for One Nation</h2>
+      <div class="hist">${hist.map(h=>`<div class="${h.seats===onS.p50?'mid':''}" style="height:${Math.max(2,h.p/hmax*100)}%" title="${h.seats} seats: ${chanceTxt(h.p)}"></div>`).join('')}</div>
+      <div class="hist__ax"><span>${hist[0]?.seats??0}</span><span>seats</span><span>${hist[hist.length-1]?.seats??0}</span></div>
+      ${means([`Most likely ${onS.p50} seats. In 8 of 10 simulations One Nation wins between ${onS.p10} and ${onS.p90}.`,
+        wrong.length ? `<strong>Watch ${wrong.slice(0,4).map(s=>esc(s.name)).join(', ')}.</strong> The VEC's preference count there is One Nation against Labor, but Labor has dropped to third. The real contest is likely One Nation against the Coalition, which is much harder for One Nation, because Labor and Greens preferences favour the Liberal or National.` : ''])}
+
+      <h2 style="margin-top:40px">The vote so far</h2>
+      <div class="bars">${['ON','LIB','NAT','ALP','GRN'].filter(k=>sw[k]!=null).map(k=>barRow(nm(k), sw[k], k, 45, k==='ON'?onPoll:k==='ALP'?pa.ALP:k==='GRN'?pa.GRN:null)).join('')}</div>
+      <p class="small muted">Statewide first preferences counted so far. Tick marks show the final poll average${pa.COAL?` (Coalition ${pa.COAL}%)`:''}.</p>
+      ${onLive!=null && onPoll!=null ? means([`One Nation is on <strong>${pct(onLive)}</strong> of counted votes, ${onLive>=onPoll?`${(onLive-onPoll).toFixed(1)} points above`:`${(onPoll-onLive).toFixed(1)} points below`} its final poll average of ${onPoll}%.`]) : ''}
+      <div style="margin-top:22px" class="small"><span class="muted">Roll counted</span> <b>${prog}%</b>, ${fmt(P.counted_votes)} votes</div>
+      <div class="progress"><i style="width:${prog}%"></i></div>
+    </div>
+  </section>`;
+}
+function barRow(name, v, code, max, tick, swing){
+  return `<div class="brow"><div class="brow__n">${esc(name)}</div><div class="brow__t"><i style="width:${Math.min(100,(v||0)/max*100)}%;background:${C[code]||C.OTH}"></i>${tick!=null?`<u style="left:${Math.min(100,tick/max*100)}%"></u>`:''}</div><div class="brow__v">${pct(v)}</div><div class="brow__s ${swing>0?'up':swing<0?'down':''}">${swing!=null?(swing>0?'+':'')+swing.toFixed(1):''}</div></div>`;
 }
 
 /* ---------------- seats ---------------- */
 const FILTERS = {
-  contending:['One Nation can win', s=>['won','leading','ahead-close','trailing-close','contender'].includes(s.on_status)],
-  watch:['Target seats', s=>!!s.watch],
-  tcp:['In final two', s=>s.on?.in_tcp],
-  kingmaker:['Kingmaker', s=>s.on_status==='kingmaker'],
-  all:['All 88', s=>true],
+  chance:['One Nation chance', s=>s.projection && s.projection.on_win_prob >= .02],
+  close:['Close seats', s=>s.projection && s.projection.win_prob < .75],
+  gains:['Changing hands', s=>s.projection && s.held_by && s.projection.winner !== s.held_by],
+  all:['All 88', ()=>true],
 };
 function seats(){
-  return `<h1>Every seat</h1><p class="sub">Tap a seat for the full breakdown. Sorted by how well One Nation is placed.</p>
-  <div class="chips">${Object.entries(FILTERS).map(([k,[l]])=>`<button class="chip ${ui.filter===k?'on':''}" data-f="${k}">${l}</button>`).join('')}</div>
-  <input class="search" placeholder="Search seats" value="${esc(ui.q)}">
-  <div class="card tablewrap" style="margin-top:12px"><table id="seattable"></table></div>
-  <div class="grid g2" style="margin-top:12px">
-  ${under(['<b>1st pref</b>: the share of voters who put One Nation number 1.',
-           '<b>Rank</b>: where One Nation sits on first preferences. It usually needs to finish first or second to win.',
-           '<b>After prefs</b>: One Nation\'s share once everyone else\'s preferences are counted, if the VEC picked it for the final two.',
-           '<b>Counted</b>: rough share of enrolled voters counted so far.'])}
-  ${means(['Seats marked "In contention" or better are where One Nation can still win.',
-           '"Third: kingmaker" seats are ones One Nation can\'t win, but its voters\' preferences decide whether Labor or the Coalition does.'])}
-  </div>`;
+  return `<section class="block"><h1 class="hero__title" style="font-size:clamp(28px,4vw,40px)">Every seat</h1>
+  <p class="lede">Projected winner and One Nation's chance in all 88 lower house seats.</p>
+  <div class="filters"><div class="seg" role="group" aria-label="Filter seats">${Object.entries(FILTERS).map(([k,[l]])=>`<button data-f="${k}" aria-pressed="${ui.f===k}">${l}</button>`).join('')}</div>
+  <input class="search" type="search" placeholder="Find a seat" aria-label="Find a seat" value="${esc(ui.q)}"></div>
+  <table class="list"><thead><tr><th>Seat</th><th>Projected</th><th class="r hide-s">One Nation 1st pref</th><th class="r">One Nation chance</th></tr></thead><tbody id="rows"></tbody></table>
+  ${means(['<strong>"Changing hands"</strong> lists seats projected to go to a different party from the one holding them now.', 'Percentages under each projected winner are their chance of winning the seat.'])}
+  ${under(['First preferences are each voter\'s number 1. Most seats are decided on preferences, so a candidate can top the first count and still lose.', 'A seat\'s chance blends the live count with the pre-election baseline. It firms up as more of the roll is counted.'])}
+  </section>`;
 }
 function bindSeats(){
-  document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{ui.filter=b.dataset.f;render();});
-  const s = $('input.search'); s.oninput = ()=>{ui.q=s.value;drawSeatTable();};
-  drawSeatTable();
+  document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{ui.f=b.dataset.f;render(false);});
+  const s = $('.search'); s.oninput = ()=>{ui.q=s.value;rows();};
+  rows();
 }
-function drawSeatTable(){
+function rows(){
   const q = ui.q.toLowerCase();
-  let rows = D.seats.filter(FILTERS[ui.filter][1]).filter(s=>!q || s.name.toLowerCase().includes(q));
-  rows.sort((a,b)=> STATUS_ORDER.indexOf(a.on_status||a.status)-STATUS_ORDER.indexOf(b.on_status||b.status) || (b.on?.pct||0)-(a.on?.pct||0));
-  $('#seattable').innerHTML = `<tr><th>Seat</th><th>One Nation</th><th class="num">1st pref</th><th class="num hide-sm">Rank</th><th class="num">After prefs</th><th class="hide-sm">Leader</th><th class="num hide-sm">Counted</th></tr>` +
-    (rows.map(s=>`<tr class="click" onclick="location.hash='#/seat/${s.slug}'"><td>${esc(s.name)}${s.watch?' <span title="Pre-election target">★</span>':''}</td><td>${badge(s.on_status||s.status)}</td><td class="num">${pct(s.on?.pct)}</td><td class="num hide-sm">${s.on?.rank??'–'}</td><td class="num">${pct(s.on?.tcp_pct)}</td><td class="hide-sm">${s.leader?pill(s.leader):''}</td><td class="num hide-sm">${pct(s.counted_pct)}</td></tr>`).join('')
-     || `<tr><td colspan="7" class="muted">No seats match yet.</td></tr>`);
+  const list = D.seats.filter(FILTERS[ui.f][1]).filter(s=>!q||s.name.toLowerCase().includes(q))
+    .sort((a,b)=>(b.projection?.on_win_prob||0)-(a.projection?.on_win_prob||0) || (b.on?.pct||0)-(a.on?.pct||0) || a.name.localeCompare(b.name));
+  $('#rows').innerHTML = list.map(s=>{const p=s.projection;return `<tr data-href="#/seat/${s.slug}"><td class="seat">${esc(s.name)}<small>${s.held_by?`Held by ${nm(s.held_by)}`:'&nbsp;'}</small></td>
+    <td>${p?`${chip(p.winner)} <span class="small muted">${chanceTxt(p.win_prob)}</span>`:'<span class="muted">–</span>'}</td>
+    <td class="r hide-s">${pct(s.on?.pct)}</td><td class="r">${chanceCell(p?.on_win_prob)}</td></tr>`}).join('') || `<tr><td colspan="4" class="muted">No seats match.</td></tr>`;
+  document.querySelectorAll('tr[data-href]').forEach(tr => tr.onclick = () => location.hash = tr.dataset.href);
 }
 
 /* ---------------- seat ---------------- */
 function seatPage(slug){
   const s = D.seats.find(x=>x.slug===slug);
-  if(!s) return `<p>Seat not found. <a href="#/seats">Back to seats</a></p>`;
-  const on = s.on || {};
-  let h = `<a class="back" href="#/seats">← All seats</a><h1>${esc(s.name)}</h1>
-    <p class="sub">${badge(s.on_status||s.status)} ${esc(s.headline||'')}${s.watch?` · <span class="muted">${esc(s.watch)}</span>`:''}</p>`;
-  if(s.status!=='ok') return h + means(s.meaning.map(esc));
-  h += `<div class="grid g4">
-    ${stat('One Nation 1st pref', pct(on.pct), on.candidate?title(on.candidate):'', true)}
-    ${stat('After preferences', on.in_tcp?pct(on.tcp_pct):'Not in final two', s.tcp_share_counted!=null?`${pct(s.tcp_share_counted)} of votes have a preference count`:'', on.in_tcp)}
-    ${stat('Votes counted', n(s.formal), s.counted_pct!=null?`about ${pct(s.counted_pct)} of enrolled voters`:'')}
-    ${stat('Currently ahead', nm(s.leader), s.confidence==='called'?'Declared':s.confidence)}
-  </div>
-  <div class="grid g2" style="margin-top:12px">${means(s.meaning.map(esc))}${needsCard(s)}</div>
-  <h2>First preferences</h2><div class="card bars">${s.primary.map(r=>barRow(title(r.candidate), nm(r.code), r.pct, r.code, Math.max(...s.primary.map(x=>x.pct)))).join('')}</div>`;
-  if(s.tcp?.length===2){
-    h += `<h2>Two-candidate preferred</h2><div class="card bars">${s.tcp.map(r=>`<div class="row"><div class="name">${esc(title(r.candidate))} <small>${nm(r.code)}</small></div><div class="track"><div class="fill" style="width:${r.pct}%;background:${COLORS[r.code]}"></div><span class="half"></span></div><div class="val">${pct(r.pct)}</div></div>`).join('')}
-      <div class="small muted">${n(s.tcp_total)} votes in the preference count so far. 50% wins.</div></div>`;
+  if(!s) return `<p><a href="#/seats">Seat not found. Back to all seats.</a></p>`;
+  const p = s.projection, on = s.on || {}, b = s.baseline;
+  const fin = p?.final || [];
+  let h = `<a class="crumb" href="#/seats">All seats</a>
+  <div class="seat-h"><h1>${esc(s.name)}</h1>${s.held_by?`<span class="muted">Held by ${nm(s.held_by)}${b?.margin!=null?`, ${b.margin.toFixed(1)}% margin in 2022`:''}</span>`:''}</div>
+  <dl class="facts">
+    <div><dt>Projected winner</dt><dd>${p?`${nm(p.winner)} <small>${chanceTxt(p.win_prob)} chance</small>`:'–'}</dd></div>
+    <div><dt>One Nation chance</dt><dd style="color:var(--on)">${chanceTxt(p?.on_win_prob)}<small>${on.pct!=null?`${pct(on.pct)} first preferences`:'no live count yet'}</small></dd></div>
+    <div><dt>Counted</dt><dd>${pct(s.counted_pct,0)}<small>${s.formal?`${fmt(s.formal)} formal votes`:'of enrolled voters'}</small></dd></div>
+  </dl>`;
+  if(fin.length===2){
+    h += `<section class="block" style="margin-top:36px"><h2>Projected result after preferences</h2>
+    <div class="duel"><div class="duel__bar"><div style="width:${fin[0].pct}%;background:${C[fin[0].code]}">${pct(fin[0].pct)}</div><div style="width:${fin[1].pct}%;background:${C[fin[1].code]}">${pct(fin[1].pct)}</div></div>
+    <div class="duel__names"><span>${esc(person(fin[0].candidate))}, ${nm(fin[0].code)}</span><span>${esc(person(fin[1].candidate))}, ${nm(fin[1].code)}</span></div></div>
+    <p class="small muted" style="margin-top:8px">Based on: ${esc(p.basis)}.</p>
+    ${means((s.meaning||[]).map(esc))}
+    ${needBlock(s)}
+    </section>`;
+  } else if(s.meaning) h += means(s.meaning.map(esc));
+  if(s.primary?.length){
+    const max = Math.max(...s.primary.map(r=>r.pct), 10);
+    h += `<section class="block"><h2>First preferences</h2><p class="lede small">Change since 2022 on the right.</p>
+    <div class="bars">${(()=>{const seen=new Set();return s.primary.map(r=>{const sw=seen.has(r.code)?null:s.swing?.[r.code];seen.add(r.code);return barRow(`${person(r.candidate)}, ${nm(r.code)}`, r.pct, r.code, max, null, sw);}).join('')})()}</div></section>`;
+  } else if(s.prior?.primary){
+    const pp = Object.entries(s.prior.primary).sort((a,b)=>b[1]-a[1]);
+    h += `<section class="block"><h2>Pre-count estimate</h2><p class="lede small">No votes counted yet. Estimated first preferences from 2022 results and the final polls.</p>
+    <div class="bars">${pp.map(([k,v])=>barRow(nm(k), v, k, Math.max(...pp.map(x=>x[1])))).join('')}</div></section>`;
   }
-  h += `<div id="booths"></div>
-  <div class="grid g2" style="margin-top:12px">${under([
-    '<b>First preferences</b> are the number 1 votes. Nobody usually gets 50%, so the lowest candidates are knocked out and their votes move to the next number on each ballot.',
-    '<b>Two-candidate preferred (2CP)</b> is the VEC\'s early count of those preferences between the two candidates it expects to finish top. It is indicative only; the official result comes from the full distribution of preferences.',
-    '<b>What One Nation needs</b> assumes every ballot ends with one of the final two, which is how Victorian lower-house voting works.',
-    s.url?`Source: <a href="${esc(s.url)}" rel="noopener">VEC results page for ${esc(s.name)}</a>.`:''
-  ])}</div>`;
+  if(s.tcp?.length===2){
+    h += `<section class="block"><h2>VEC preference count</h2><p class="lede small">${fmt(s.tcp_total)} votes so far between the two candidates the VEC expects to finish top.</p>
+    <div class="bars">${s.tcp.map(r=>barRow(`${person(r.candidate)}, ${nm(r.code)}`, r.pct, r.code, 100, 50)).join('')}</div></section>`;
+  }
+  h += `<div id="booths"></div>${under([
+    '<strong>Projected result</strong> simulates the full preference count: the lowest candidate is excluded and their votes passed on, until two remain. Where the VEC has counted preferences, that real data is blended in.',
+    '<strong>VEC preference count</strong> is an early sort of ballots between the two candidates the VEC expects to finish top. If it picked the wrong two, it recounts later.',
+    s.url ? `Source: <a href="${esc(s.url)}" rel="noopener">VEC results for ${esc(s.name)}</a>.` : ''])}`;
   return h;
 }
-function needsCard(s){
-  const nd = s.on?.needs; if(!nd) return '';
-  const flow = s.on.flow;
-  return `<div class="card"><h3>What One Nation needs to win</h3>
-    <div class="small muted">Share of the ${pct(nd.others_pct)} of votes held by other candidates that must flow to One Nation over ${esc(nm(nd.rival))}.</div>
-    <div class="gauge"><div class="have" style="width:${flow??0}%"></div><span class="need" style="left:${Math.min(100,nd.share_needed)}%"></span></div>
-    <div class="small">Needs <b>${pct(nd.share_needed)}</b>${flow!=null?` · currently getting <b style="color:var(--on)">${pct(flow)}</b>`:' · no preference flow measured yet'}</div>
-    ${s.on.projected_2cp!=null?`<div class="small muted" style="margin-top:6px">Projected after preferences: <b>${pct(s.on.projected_2cp)}</b> (${esc(s.on.projection_basis)})</div>`:''}
-    ${nd.share_needed>100?'<div class="small" style="color:var(--bad)">Mathematically out of reach on current numbers.</div>':''}
-  </div>`;
+function needBlock(s){
+  const n = s.on?.needs; if(!n || s.on.rank > 3) return '';
+  const f = s.on.flow;
+  return `<div class="need" style="margin-top:24px"><h3>What One Nation needs</h3>
+    <p class="small muted" style="margin:4px 0 10px">Share of other candidates' votes (${pct(n.others_pct)} of the total) that must flow to One Nation ahead of ${nm(n.rival)}.</p>
+    <div class="need__t"><i style="width:${Math.min(100,f??0)}%"></i><u style="left:${Math.min(100,n.share_needed)}%"></u></div>
+    <p class="small" style="margin:8px 0 0">Needs <b>${pct(n.share_needed)}</b>${f!=null?`, getting <b style="color:var(--on)">${pct(f)}</b> where it can be measured`:''}.</p></div>`;
 }
-async function loadSeatDetail(slug){
+async function loadBooths(slug){
   try{
     const s = seatCache[slug] || (seatCache[slug] = await (await fetch(`data/seat/${slug}.json?t=${Date.now()}`)).json());
-    const bp = s.booths_primary; if(!bp?.rows?.length) return;
-    const onCol = bp.columns.find(c => s.on?.candidate && c.toLowerCase().includes(s.on.candidate.split(',')[0].toLowerCase()));
-    const candCols = bp.columns.filter(c => s.primary.some(p=>c.toLowerCase().includes(p.candidate.split(',')[0].toLowerCase())));
-    const rows = bp.rows.filter(r=>!/total/i.test(r.booth)).map(r=>{
-      const formal = candCols.reduce((a,c)=>a+(r.values[c]||0),0);
-      return {booth:r.booth, formal, on: onCol&&formal ? 100*(r.values[onCol]||0)/formal : null};
-    }).filter(r=>r.formal>0).sort((a,b)=>(b.on??0)-(a.on??0));
-    if(!rows.length) return;
-    const el = document.getElementById('booths'); if(!el) return;
-    el.innerHTML = `<h2>Booth by booth</h2><div class="card tablewrap"><table><tr><th>Voting centre</th><th class="num">Formal votes</th><th class="num">One Nation</th></tr>
-      ${rows.map(r=>`<tr><td>${esc(r.booth)}</td><td class="num">${n(r.formal)}</td><td class="num">${pct(r.on)}</td></tr>`).join('')}</table></div>
-      <p class="small muted">One Nation's strongest booths first. Big differences between booths show where its support is concentrated.</p>`;
+    const bp = s.booths_primary; if(!bp?.rows?.length || !s.on?.candidate) return;
+    const key = s.on.candidate.split(',')[0].toLowerCase();
+    const onCol = bp.columns.find(c=>c.toLowerCase().includes(key));
+    const cand = bp.columns.filter(c=>s.primary.some(p=>c.toLowerCase().includes(p.candidate.split(',')[0].toLowerCase())));
+    const rows = bp.rows.filter(r=>!/total/i.test(r.booth)).map(r=>{const f=cand.reduce((a,c)=>a+(r.values[c]||0),0);return {b:r.booth,f,on:onCol&&f?100*(r.values[onCol]||0)/f:null};})
+      .filter(r=>r.f>0).sort((a,b)=>(b.on??0)-(a.on??0));
+    const el = $('#booths'); if(!el || !rows.length) return;
+    el.innerHTML = `<section class="block"><h2>Booth by booth</h2><p class="lede small">One Nation's first-preference share at each voting centre counted so far.</p>
+      <table class="list"><thead><tr><th>Voting centre</th><th class="r">Votes</th><th class="r">One Nation</th></tr></thead><tbody>
+      ${rows.map(r=>`<tr><td>${esc(r.b)}</td><td class="r">${fmt(r.f)}</td><td class="r"><b>${pct(r.on)}</b></td></tr>`).join('')}</tbody></table></section>`;
   }catch(e){}
-}
-
-/* ---------------- preferences ---------------- */
-function preferences(){
-  const tcp = D.seats.filter(s=>s.on?.in_tcp).sort((a,b)=>(b.on.tcp_pct||0)-(a.on.tcp_pct||0));
-  const third = D.seats.filter(s=>s.status==='ok' && s.on?.rank && s.on.rank>=3 && s.on.pct>=10).sort((a,b)=>b.on.pct-a.on.pct);
-  const wrong = D.seats.filter(s=>s.status==='ok' && s.on?.rank<=2 && s.tcp?.length===2 && !s.on.in_tcp);
-  const flows = tcp.filter(s=>s.on.flow!=null).map(s=>s.on.flow);
-  const avg = flows.length ? flows.reduce((a,b)=>a+b,0)/flows.length : null;
-  const m = [];
-  if(avg!=null) m.push(`Across ${flows.length} seat${flows.length>1?'s':''} where it can be measured, about ${pct(avg)} of other candidates' votes are flowing to One Nation.`);
-  if(avg!=null) m.push(avg<45 ? 'That\'s a below-even flow, so One Nation needs a big first-preference lead to win.' : 'That\'s a strong flow. One Nation can win from second place in some seats.');
-  if(wrong.length) m.push(`In ${wrong.length} seat${wrong.length>1?'s':''} One Nation is top two on first preferences but the VEC is counting preferences between two other candidates. Watch for the VEC to switch those counts.`);
-  if(!m.length) m.push('Not enough preference counts with One Nation in them yet.');
-  return `<h1>Preferences</h1><p class="sub">Where One Nation gains or loses once everyone else's votes are passed on.</p>
-  <div class="grid g2">${means(m)}${under([
-    'Victoria uses full preferential voting in the lower house: you must number every box. When your candidate is knocked out your vote moves to your next choice.',
-    'Who finishes <b>third</b> matters most. Liberal and Nationals voters tend to preference One Nation above Labor and the Greens. Labor and Greens voters tend to put One Nation last.',
-    'So One Nation does best when it faces Labor in the final two and the Liberals finish third. It struggles when it faces the Liberals or Nationals.',
-    '"Flow" is the share of other candidates\' votes that ended up with One Nation, measured at booths where both counts exist.'])}</div>
-  <h2>One Nation in the final two</h2>
-  ${tcp.length?`<div class="card tablewrap"><table><tr><th>Seat</th><th>Against</th><th class="num">1st pref</th><th class="num">Flow to ON</th><th class="num">Needs</th><th class="num">After prefs</th></tr>
-  ${tcp.map(s=>{const opp=s.tcp.find(r=>r.code!=='ON');return `<tr class="click" onclick="location.hash='#/seat/${s.slug}'"><td>${esc(s.name)}</td><td>${opp?pill(opp.code):''}</td><td class="num">${pct(s.on.pct)}</td><td class="num">${pct(s.on.flow)}</td><td class="num">${pct(s.on.needs?.share_needed)}</td><td class="num"><b style="color:${s.on.tcp_pct>50?'var(--good)':'var(--bad)'}">${pct(s.on.tcp_pct)}</b></td></tr>`}).join('')}</table></div>`:'<p class="muted">No preference counts include One Nation yet.</p>'}
-  ${wrong.length?`<h2>Preference count may be between the wrong two</h2><div class="card">${wrong.map(s=>`<div><a href="#/seat/${s.slug}">${esc(s.name)}</a>: One Nation ${pct(s.on.pct)} (rank ${s.on.rank}); VEC counting ${s.tcp.map(r=>pill(r.code)).join(' v ')}</div>`).join('')}</div>`:''}
-  <h2>Where One Nation's preferences decide the winner</h2>
-  ${third.length?`<div class="card tablewrap"><table><tr><th>Seat</th><th class="num">One Nation</th><th>Leading</th><th class="num">Margin</th></tr>${third.slice(0,30).map(s=>`<tr class="click" onclick="location.hash='#/seat/${s.slug}'"><td>${esc(s.name)}</td><td class="num">${pct(s.on.pct)}</td><td>${pill(s.leader)}</td><td class="num">${s.margin!=null?'+'+s.margin.toFixed(1):'–'}</td></tr>`).join('')}</table></div>
-  <p class="small muted">One Nation can't win these, but with 10%+ of the vote its how-to-vote card can tip close Labor v Coalition contests.</p>`:'<p class="muted">None yet.</p>'}`;
 }
 
 /* ---------------- council ---------------- */
 function council(){
   const c = D.council, rs = D.regions.filter(r=>r.status==='ok');
-  return `<h1>Upper house</h1><p class="sub">The Legislative Council: 40 members, 5 from each of 8 regions. 21 needed to pass laws.</p>
-  <div class="grid g4">${stat('One Nation est. seats', c.on, 'from first preferences', true)}${stat('Coalition est.', c.coalition, 'Liberal + Nationals')}${stat('Labor + Greens est.', c.left, '')}${stat('Regions reporting', rs.length, 'of 8')}</div>
-  <div class="grid g2" style="margin-top:12px">${means([esc(c.summary), c.on_pivotal?'<b>One Nation would hold the balance of power</b>: the Coalition could not pass legislation without it.':'On these estimates One Nation does not hold the balance of power on its own, but every seat matters in a close chamber.'])}
-  ${under(['Each region elects 5 members. A <b>quota</b> is one-sixth of the vote (16.7%) plus one vote: reaching it guarantees a seat.',
-           '1 quota = 1 seat. Parties with part-quotas compete for the last seats using preferences from knocked-out parties.',
-           '<b>New for 2026:</b> group voting tickets have been abolished. Voters now number parties above the line themselves (like the Senate), so preferences follow voters, not backroom deals. That favours parties with a big primary vote, like One Nation.',
-           'These seat estimates use first preferences only (full quotas, then largest leftovers), so treat them as a guide.',
-           'Final upper house results usually take one to two weeks.'])}</div>
-  ${rs.map(r=>`<h2>${esc(r.name)}</h2><div class="card bars">${r.groups.slice(0,8).map(g=>`<div class="row"><div class="name">${esc(g.name)} <small>${g.quotas} quotas</small></div><div class="track"><div class="fill" style="width:${Math.min(100,g.pct/50*100)}%;background:${COLORS[g.code]||COLORS.OTH}"></div><span class="half" style="left:${16.67/50*100}%" title="1 quota"></span></div><div class="val">${pct(g.pct)}</div></div>`).join('')}
-    <div class="small muted">White line = 1 quota (16.7%). ${r.meaning?esc(r.meaning):''}</div></div>`).join('') || '<p class="muted">No upper house figures yet. These usually come in later on election night.</p>'}`;
+  return `<section class="block"><h1 class="hero__title" style="font-size:clamp(28px,4vw,40px)">Upper house</h1>
+  <p class="lede">40 members, five from each of eight regions. 21 votes pass a law.</p>
+  ${rs.length ? `<dl class="facts"><div><dt>One Nation</dt><dd style="color:var(--on)">${c.on}<small>estimated seats</small></dd></div><div><dt>Coalition</dt><dd>${c.coalition}</dd></div><div><dt>Labor and Greens</dt><dd>${c.left}</dd></div><div><dt>Regions reporting</dt><dd>${rs.length} of 8</dd></div></dl>${means([esc(c.summary)])}` :
+  `${means(['<strong>No upper house figures yet.</strong> These are usually published later on election night.', 'Before the count, the final DemosAU poll projected One Nation to win 7 to 10 of the 40 upper house seats, with the Coalition on 15 to 17. Either way, the Coalition would likely need One Nation, or Labor and the Greens, to pass laws.'])}`}
+  ${under(['Each region elects five members. A quota is one-sixth of the vote (16.7%). Reaching it guarantees a seat.', 'Group voting tickets were abolished for 2026, so above-the-line voters now number parties themselves instead of following party deals. That favours parties with a big first-preference vote, like One Nation.', 'Seat estimates here use full quotas and then the largest leftovers, which ignores preferences, so treat them as a guide. Final results take one to two weeks.'])}
+  ${rs.map(r=>`<section class="block"><h2>${esc(r.name)}</h2><div class="bars">${r.groups.slice(0,8).map(g=>barRow(`${g.name} (${g.quotas} quotas)`, g.pct, g.code, 50, 16.67)).join('')}</div>${r.meaning?means([esc(r.meaning)]):''}</section>`).join('')}
+  </section>`;
 }
 
-/* ---------------- guide ---------------- */
-function guide(){
-  return `<h1>Guide</h1><p class="sub">How Victorian elections work, and how to read this site.</p>
-  <div class="card"><dl class="gloss">
-  <dt>How a party takes power</dt><dd>The party or group that can win votes of confidence in the 88-seat Legislative Assembly forms government. That needs 45 seats. If no one has 45, it's a hung parliament and parties negotiate.</dd>
-  <dt>Kingmaker / balance of power</dt><dd>When the biggest group is just short of 45, a smaller party can decide who governs, usually through a confidence-and-supply agreement (backing the budget and opposing no-confidence motions) in exchange for policy wins, or a formal coalition with ministries.</dd>
-  <dt>First preferences (primary vote)</dt><dd>The candidate each voter numbered 1.</dd>
-  <dt>Preferences</dt><dd>Victoria uses full preferential voting in the lower house. If no one has over 50%, the last-placed candidate is excluded and their ballots move to each voter's next choice, until someone passes 50%.</dd>
-  <dt>Two-candidate preferred (2CP)</dt><dd>On election night the VEC sorts every ballot into a pile for one of the two candidates it expects to finish top. It's a fast estimate. The official result is the full distribution of preferences, done days later. If the VEC picks the wrong two, it redoes the count.</dd>
-  <dt>Why the leader on first preferences can lose</dt><dd>A candidate on 36% loses to one on 30% if most of the remaining 34% preference the second candidate. That's One Nation's biggest risk against Liberal or Nationals opponents.</dd>
-  <dt>Booths, pre-poll and postal votes</dt><dd>Election-day booths are counted first, smallest first. Early votes (pre-poll) and postal votes are counted later and can lean differently. Postal votes keep arriving for about two weeks.</dd>
-  <dt>Upper house quotas</dt><dd>Each of 8 regions elects 5 members. A quota is 16.7% of the vote. Group voting tickets were abolished for 2026, so above-the-line voters now choose their own preferences instead of following party deals.</dd>
-  <dt>Where this data comes from</dt><dd>The site reads the Victorian Electoral Commission's published results every ~5 minutes and recalculates everything. "Needs", "flow" and "projected" figures are this site's own estimates.</dd>
-  </dl></div>`;
+/* ---------------- method ---------------- */
+function method(){
+  const polls = D.polls || [];
+  return `<section class="block"><h1 class="hero__title" style="font-size:clamp(28px,4vw,40px)">How this works</h1>
+  <dl class="gloss">
+  <dt>Where the numbers come from</dt><dd>Live counts are read from the Victorian Electoral Commission's results pages about every five minutes. The pre-election baseline uses the 2022 results for each seat (boundaries are unchanged), holders after by-elections, and the average of the final polls.</dd>
+  <dt>Pre-count estimate</dt><dd>One Nation barely ran in 2022, so its vote is estimated by drawing from each party's 2022 voters at different rates (most from Nationals, Liberal and minor-right voters, least from Greens voters), scaled to its poll average${D.poll_average?` of ${D.poll_average.ON}%`:''}. Other parties are then scaled to their poll averages.</dd>
+  <dt>Preference model</dt><dd>Each seat is counted out the way the VEC does it: the lowest candidate is excluded and their votes passed on, until two remain. Votes move according to typical patterns: Greens and Labor voters put One Nation near last, while Coalition and minor-right voters prefer One Nation to Labor.</dd>
+  <dt>Live count</dt><dd>As votes come in, the model runs on real first preferences. Where the VEC has a preference count, it's blended in, and where booth data lets us measure the actual flow of preferences to One Nation, that measured flow is used. The baseline fades out as about a quarter of the roll is counted.</dd>
+  <dt>Chances and paths to power</dt><dd>Each seat gets a margin and an uncertainty that shrinks as counting goes on. The whole parliament is then simulated ${fmt(D.projection?.runs)} times, with shared statewide errors so seats move together as they do on a real night.</dd>
+  <dt>Balance of power</dt><dd>If the largest group is short of 45 seats, a smaller party can decide who governs, usually through a confidence-and-supply agreement or a formal coalition.</dd>
+  <dt>Limits</dt><dd>Early booths are small and unrepresentative, and pre-poll and postal votes come later. Independents and local factors aren't captured well. Treat chances as estimates, not results.</dd>
+  </dl>
+  ${polls.length?`<section class="block"><h2>Final polls used</h2><table class="list"><thead><tr><th>Poll</th><th class="r">Coalition</th><th class="r">Labor</th><th class="r">One Nation</th><th class="r">Greens</th></tr></thead><tbody>
+  ${polls.map(p=>`<tr><td>${esc(p.name)}</td><td class="r">${p.COAL??'–'}</td><td class="r">${p.ALP??'–'}</td><td class="r"><b>${p.ON??'–'}</b></td><td class="r">${p.GRN??'–'}</td></tr>`).join('')}
+  <tr><td><b>Average</b></td><td class="r"><b>${D.poll_average.COAL}</b></td><td class="r"><b>${D.poll_average.ALP}</b></td><td class="r"><b>${D.poll_average.ON}</b></td><td class="r"><b>${D.poll_average.GRN}</b></td></tr></tbody></table></section>`:''}
+  </section>`;
 }
 
 load();
