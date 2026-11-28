@@ -3,12 +3,12 @@
  "name": "Footscray",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/footscray-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:21:07+00:00",
+ "fetched_at": "2026-11-28T13:29:42+00:00",
  "title": "Footscray election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:20:06",
+ "last_updated": "Sunday, 29 November 2026 00:25:05",
  "enrolment": 51960,
- "formal": 30364,
- "informal": 2834,
+ "formal": 30357,
+ "informal": 2841,
  "total_votes": 33198,
  "counted_pct": 63.89,
  "notes": [],
@@ -16,26 +16,26 @@
   {
    "candidate": "DINH, Hai",
    "party": "",
-   "votes": 501,
-   "pct": 1.65
+   "votes": 494,
+   "pct": 1.63
   },
   {
    "candidate": "PEREYRA, Elena",
    "party": "The Greens",
-   "votes": 7512,
-   "pct": 24.74
+   "votes": 7526,
+   "pct": 24.79
   },
   {
    "candidate": "NGUYEN, Minh Quan",
    "party": "The West Party",
-   "votes": 412,
-   "pct": 1.36
+   "votes": 410,
+   "pct": 1.35
   },
   {
    "candidate": "FELATE, Andualem",
    "party": "The Republican",
-   "votes": 72,
-   "pct": 0.24
+   "votes": 71,
+   "pct": 0.23
   },
   {
    "candidate": "HESS, Kristina",
@@ -46,7 +46,7 @@
   {
    "candidate": "LOPEZ, Alexander",
    "party": "One Nation Victoria",
-   "votes": 2515,
+   "votes": 2513,
    "pct": 8.28
   },
   {
@@ -64,20 +64,20 @@
   {
    "candidate": "FLORES, Ana",
    "party": "Family First",
-   "votes": 218,
-   "pct": 0.72
+   "votes": 217,
+   "pct": 0.71
   },
   {
    "candidate": "HALL, Katie",
    "party": "Australian Labor Party",
-   "votes": 6653,
-   "pct": 21.91
+   "votes": 6656,
+   "pct": 21.93
   },
   {
    "candidate": "MARSH, Jess",
    "party": "",
-   "votes": 1798,
-   "pct": 5.92
+   "votes": 1801,
+   "pct": 5.93
   },
   {
    "candidate": "CALDER, Daryle",
@@ -94,14 +94,14 @@
   {
    "candidate": "CHANG, Tim",
    "party": "Liberal",
-   "votes": 5550,
-   "pct": 18.28
+   "votes": 5543,
+   "pct": 18.26
   },
   {
    "candidate": "DUFF, Jasmine",
    "party": "Victorian Socialists",
-   "votes": 4583,
-   "pct": 15.09
+   "votes": 4576,
+   "pct": 15.07
   }
  ],
  "tcp": [

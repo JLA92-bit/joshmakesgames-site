@@ -3,65 +3,65 @@
  "name": "Bentleigh",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bentleigh-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:21:02+00:00",
+ "fetched_at": "2026-11-28T13:29:39+00:00",
  "title": "Bentleigh election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:20:03",
+ "last_updated": "Sunday, 29 November 2026 00:25:02",
  "enrolment": 54956,
- "formal": 24637,
- "informal": 626,
- "total_votes": 25263,
- "counted_pct": 45.97,
+ "formal": 24848,
+ "informal": 638,
+ "total_votes": 25486,
+ "counted_pct": 46.38,
  "notes": [],
  "primary": [
   {
    "candidate": "PUTT, Tynan",
    "party": "Liberal",
-   "votes": 11350,
-   "pct": 46.07
+   "votes": 11471,
+   "pct": 46.16
   },
   {
    "candidate": "VAINORAS, Tony",
    "party": "Citizens Party",
-   "votes": 199,
+   "votes": 201,
    "pct": 0.81
   },
   {
    "candidate": "LONSING, Herbert",
    "party": "One Nation Victoria",
-   "votes": 3301,
-   "pct": 13.4
+   "votes": 3308,
+   "pct": 13.31
   },
   {
    "candidate": "PROCTOR, Claire",
    "party": "The Greens",
-   "votes": 3113,
-   "pct": 12.64
+   "votes": 3128,
+   "pct": 12.59
   },
   {
    "candidate": "STAIKOS, Nick",
    "party": "Australian Labor Party",
-   "votes": 6004,
-   "pct": 24.37
+   "votes": 6066,
+   "pct": 24.41
   },
   {
    "candidate": "KRUGER, Liam",
    "party": "Victorian Socialists",
-   "votes": 670,
-   "pct": 2.72
+   "votes": 674,
+   "pct": 2.71
   }
  ],
  "tcp": [
   {
    "candidate": "PUTT, Tynan",
    "party": "Liberal",
-   "votes": 15243,
-   "pct": 61.87
+   "votes": 15376,
+   "pct": 61.88
   },
   {
    "candidate": "STAIKOS, Nick",
    "party": "Australian Labor Party",
-   "votes": 9393,
-   "pct": 38.13
+   "votes": 9471,
+   "pct": 38.12
   }
  ],
  "links": {
