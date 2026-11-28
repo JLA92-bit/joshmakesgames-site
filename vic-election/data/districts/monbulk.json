@@ -3,9 +3,9 @@
  "name": "Monbulk",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/monbulk-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:54:17+00:00",
+ "fetched_at": "2026-11-28T15:03:14+00:00",
  "title": "Monbulk election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:50:09",
+ "last_updated": "Sunday, 29 November 2026 02:00:09",
  "enrolment": 50003,
  "formal": 20057,
  "informal": 766,
@@ -60,14 +60,14 @@
   {
    "candidate": "FITZMAURICE, Clare",
    "party": "Liberal",
-   "votes": 10337,
-   "pct": 52.87
+   "votes": 10612,
+   "pct": 52.92
   },
   {
    "candidate": "DE MARTINO, Daniela",
    "party": "Australian Labor Party",
-   "votes": 9216,
-   "pct": 47.13
+   "votes": 9441,
+   "pct": 47.08
   }
  ],
  "links": {
