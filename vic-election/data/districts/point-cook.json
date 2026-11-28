@@ -3,15 +3,17 @@
  "name": "Point Cook",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/point-cook-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:59:27+00:00",
+ "fetched_at": "2026-11-28T16:08:23+00:00",
  "title": "Point Cook election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:55:11",
+ "last_updated": "Sunday, 29 November 2026 03:05:10",
  "enrolment": 55756,
  "formal": 40121,
  "informal": 2387,
  "total_votes": 42508,
  "counted_pct": 76.24,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Point Cook District results Point Cook District results Listen Provisional results Last updated: Sunday, 29 November 2026 03:05:10 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "LAINE, Taylor",

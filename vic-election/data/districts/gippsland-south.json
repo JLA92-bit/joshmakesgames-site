@@ -3,15 +3,17 @@
  "name": "Gippsland South",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-south-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:59:18+00:00",
+ "fetched_at": "2026-11-28T16:08:11+00:00",
  "title": "Gippsland South election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:55:06",
+ "last_updated": "Sunday, 29 November 2026 03:05:06",
  "enrolment": 50953,
  "formal": 29456,
  "informal": 1697,
  "total_votes": 31153,
  "counted_pct": 61.14,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Gippsland South District results Gippsland South District results Listen Provisional results Last updated: Sunday, 29 November 2026 03:05:06 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "BARRY-MACAULAY, Amy",

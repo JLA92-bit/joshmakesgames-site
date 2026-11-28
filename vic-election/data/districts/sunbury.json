@@ -3,15 +3,17 @@
  "name": "Sunbury",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sunbury-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T16:04:03+00:00",
+ "fetched_at": "2026-11-28T16:07:46+00:00",
  "title": "Sunbury election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 03:00:14",
+ "last_updated": "Sunday, 29 November 2026 03:05:12",
  "enrolment": 51664,
  "formal": 12968,
  "informal": 1102,
  "total_votes": 14070,
  "counted_pct": 27.23,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Sunbury District results Sunbury District results Listen Provisional results Last updated: Sunday, 29 November 2026 03:05:12 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "BREMNER, Adam",
