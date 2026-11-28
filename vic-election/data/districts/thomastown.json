@@ -3,67 +3,67 @@
  "name": "Thomastown",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/thomastown-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:09:23+00:00",
+ "fetched_at": "2026-11-28T12:20:46+00:00",
  "title": "Thomastown election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:05:15",
+ "last_updated": "Saturday, 28 November 2026 23:20:14",
  "enrolment": 56190,
- "formal": 11530,
- "informal": 681,
- "total_votes": 12211,
- "counted_pct": 21.73,
+ "formal": 12355,
+ "informal": 729,
+ "total_votes": 13084,
+ "counted_pct": 23.29,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Thomastown District results Thomastown District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:15 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Thomastown District results Thomastown District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:14 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "RANCIE, Rob",
    "party": "Family First",
-   "votes": 466,
-   "pct": 4.04
+   "votes": 491,
+   "pct": 3.97
   },
   {
    "candidate": "STOJCEVSKI, Belinda",
    "party": "Liberal",
-   "votes": 3003,
-   "pct": 26.05
+   "votes": 3261,
+   "pct": 26.39
   },
   {
    "candidate": "ANTHONY, Nadia",
    "party": "One Nation Victoria",
-   "votes": 2325,
-   "pct": 20.16
+   "votes": 2477,
+   "pct": 20.05
   },
   {
    "candidate": "REDDY, Priya",
    "party": "Victorian Socialists",
-   "votes": 1201,
-   "pct": 10.42
+   "votes": 1309,
+   "pct": 10.59
   },
   {
    "candidate": "HALFPENNY, Bronwyn",
    "party": "Australian Labor Party",
-   "votes": 3355,
-   "pct": 29.1
+   "votes": 3527,
+   "pct": 28.55
   },
   {
    "candidate": "TREWELLA, Gavin",
    "party": "The Greens",
-   "votes": 1180,
-   "pct": 10.23
+   "votes": 1290,
+   "pct": 10.44
   }
  ],
  "tcp": [
   {
    "candidate": "ANTHONY, Nadia",
    "party": "One Nation Victoria",
-   "votes": 4666,
-   "pct": 43.85
+   "votes": 4984,
+   "pct": 43.27
   },
   {
    "candidate": "HALFPENNY, Bronwyn",
    "party": "Australian Labor Party",
-   "votes": 5974,
-   "pct": 56.15
+   "votes": 6535,
+   "pct": 56.73
   }
  ],
  "links": {

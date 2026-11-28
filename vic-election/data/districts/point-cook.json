@@ -3,16 +3,16 @@
  "name": "Point Cook",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/point-cook-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:09:16+00:00",
+ "fetched_at": "2026-11-28T12:20:42+00:00",
  "title": "Point Cook election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:05:12",
+ "last_updated": "Saturday, 28 November 2026 23:20:12",
  "enrolment": 55756,
  "formal": 13643,
- "informal": 897,
- "total_votes": 14540,
+ "informal": 898,
+ "total_votes": 14541,
  "counted_pct": 26.08,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Point Cook District results Point Cook District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:12 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Point Cook District results Point Cook District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:12 These results are provisional."
  ],
  "primary": [
   {
@@ -74,14 +74,14 @@
   {
    "candidate": "HILAKARI, Mathew",
    "party": "Australian Labor Party",
-   "votes": 4938,
-   "pct": 44.37
+   "votes": 5202,
+   "pct": 44.76
   },
   {
    "candidate": "REDDY, Raja",
    "party": "Liberal",
-   "votes": 6190,
-   "pct": 55.63
+   "votes": 6421,
+   "pct": 55.24
   }
  ],
  "links": {

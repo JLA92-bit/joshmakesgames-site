@@ -3,101 +3,101 @@
  "name": "Northern Metropolitan Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Northern-Metropolitan-Region-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:14:59+00:00",
+ "fetched_at": "2026-11-28T12:20:48+00:00",
  "title": "Northern Metropolitan Region election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:12",
+ "last_updated": "Saturday, 28 November 2026 23:20:12",
  "enrolment": 610433,
- "formal": 53251,
- "informal": 2708,
- "total_votes": 55959,
- "counted_pct": 9.17,
+ "formal": 61090,
+ "informal": 3078,
+ "total_votes": 64168,
+ "counted_pct": 10.51,
  "notes": [
-  "Close Back to Results by region Home Results 2026 state election results Region results Results by region Northern Metropolitan Region results Northern Metropolitan Region results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:12 These results are provisional."
+  "Close Back to Results by region Home Results 2026 state election results Region results Results by region Northern Metropolitan Region results Northern Metropolitan Region results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:12 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "Legalise Cannabis Victoria",
    "party": "Legalise Cannabis Victoria",
-   "votes": 1756,
-   "pct": 3.3
+   "votes": 2022,
+   "pct": 3.31
   },
   {
    "candidate": "Group B",
    "party": "Group B",
-   "votes": 113,
-   "pct": 0.21
+   "votes": 146,
+   "pct": 0.24
   },
   {
    "candidate": "Liberal",
    "party": "Liberal",
-   "votes": 10787,
-   "pct": 20.26
+   "votes": 12324,
+   "pct": 20.17
   },
   {
    "candidate": "The Greens",
    "party": "The Greens",
-   "votes": 15489,
-   "pct": 29.09
+   "votes": 17802,
+   "pct": 29.14
   },
   {
    "candidate": "One Nation Victoria",
    "party": "One Nation Victoria",
-   "votes": 5680,
-   "pct": 10.67
+   "votes": 6412,
+   "pct": 10.5
   },
   {
    "candidate": "Affordable Housing Now – Sustainable Australia Party",
    "party": "Affordable Housing Now – Sustainable Australia Party",
-   "votes": 458,
+   "votes": 526,
    "pct": 0.86
   },
   {
    "candidate": "Socialist Alliance",
    "party": "Socialist Alliance",
-   "votes": 427,
-   "pct": 0.8
+   "votes": 503,
+   "pct": 0.82
   },
   {
    "candidate": "Labour DLP",
    "party": "Labour DLP",
-   "votes": 809,
-   "pct": 1.52
+   "votes": 971,
+   "pct": 1.59
   },
   {
    "candidate": "Australian Democrats",
    "party": "Australian Democrats",
-   "votes": 403,
-   "pct": 0.76
+   "votes": 508,
+   "pct": 0.83
   },
   {
    "candidate": "Group J",
    "party": "Group J",
-   "votes": 668,
-   "pct": 1.25
+   "votes": 758,
+   "pct": 1.24
   },
   {
    "candidate": "Australian Labor Party",
    "party": "Australian Labor Party",
-   "votes": 10015,
-   "pct": 18.81
+   "votes": 11552,
+   "pct": 18.91
   },
   {
    "candidate": "Victorian Socialists",
    "party": "Victorian Socialists",
-   "votes": 6097,
-   "pct": 11.45
+   "votes": 6949,
+   "pct": 11.38
   },
   {
    "candidate": "Family First",
    "party": "Family First",
-   "votes": 530,
-   "pct": 1.0
+   "votes": 597,
+   "pct": 0.98
   },
   {
    "candidate": "RAZOS, Peter",
    "party": "RAZOS, Peter",
-   "votes": 19,
-   "pct": 0.04
+   "votes": 20,
+   "pct": 0.03
   }
  ],
  "links": {

@@ -3,65 +3,65 @@
  "name": "Dandenong",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/dandenong-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:11:54+00:00",
+ "fetched_at": "2026-11-28T12:20:34+00:00",
  "title": "Dandenong election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:04",
+ "last_updated": "Saturday, 28 November 2026 23:20:05",
  "enrolment": 54251,
- "formal": 13560,
- "informal": 1532,
- "total_votes": 15092,
- "counted_pct": 27.82,
+ "formal": 19029,
+ "informal": 1969,
+ "total_votes": 20998,
+ "counted_pct": 38.71,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Dandenong District results Dandenong District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:04 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Dandenong District results Dandenong District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:05 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "BILLINGS, William",
    "party": "Liberal",
-   "votes": 3569,
-   "pct": 26.32
+   "votes": 5179,
+   "pct": 27.22
   },
   {
    "candidate": "McMAHON, Jack",
    "party": "Victorian Socialists",
-   "votes": 413,
-   "pct": 3.05
+   "votes": 520,
+   "pct": 2.73
   },
   {
    "candidate": "KHAN, Arshad Ali",
    "party": "",
-   "votes": 218,
-   "pct": 1.61
+   "votes": 304,
+   "pct": 1.6
   },
   {
    "candidate": "HARVEY, Jacqueline",
    "party": "Family First",
-   "votes": 394,
-   "pct": 2.91
+   "votes": 566,
+   "pct": 2.97
   },
   {
    "candidate": "WILLIAMS, Gabrielle",
    "party": "Australian Labor Party",
-   "votes": 4544,
-   "pct": 33.51
+   "votes": 6289,
+   "pct": 33.05
   },
   {
    "candidate": "FORTE, Jordan",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 132,
-   "pct": 0.97
+   "votes": 176,
+   "pct": 0.92
   },
   {
    "candidate": "D'ARCY, Catherine",
    "party": "The Greens",
-   "votes": 1952,
-   "pct": 14.4
+   "votes": 2637,
+   "pct": 13.86
   },
   {
    "candidate": "WRIGHT, Glenda",
    "party": "One Nation Victoria",
-   "votes": 2338,
-   "pct": 17.24
+   "votes": 3358,
+   "pct": 17.65
   }
  ],
  "tcp": [

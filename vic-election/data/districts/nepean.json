@@ -3,85 +3,85 @@
  "name": "Nepean",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/nepean-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:09:25+00:00",
+ "fetched_at": "2026-11-28T12:20:41+00:00",
  "title": "Nepean election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:05:10",
+ "last_updated": "Saturday, 28 November 2026 23:20:09",
  "enrolment": 51871,
- "formal": 11013,
- "informal": 596,
- "total_votes": 11609,
- "counted_pct": 22.38,
+ "formal": 11857,
+ "informal": 668,
+ "total_votes": 12525,
+ "counted_pct": 24.15,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Nepean District results Nepean District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:10 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Nepean District results Nepean District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:20:09 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "HEALY, Sianan",
    "party": "The Greens",
-   "votes": 1704,
-   "pct": 15.47
+   "votes": 1890,
+   "pct": 15.94
   },
   {
    "candidate": "SNOWBALL, Surbhi",
    "party": "Australian Labor Party",
-   "votes": 1084,
-   "pct": 9.84
+   "votes": 1172,
+   "pct": 9.88
   },
   {
    "candidate": "CHAMPION, Tamara",
    "party": "Animal Justice Party",
-   "votes": 228,
-   "pct": 2.07
+   "votes": 252,
+   "pct": 2.13
   },
   {
    "candidate": "HERCUS, Darren",
    "party": "One Nation Victoria",
-   "votes": 2025,
-   "pct": 18.39
+   "votes": 2216,
+   "pct": 18.69
   },
   {
    "candidate": "ROBBINS, Kim",
    "party": "",
-   "votes": 699,
-   "pct": 6.35
+   "votes": 763,
+   "pct": 6.44
   },
   {
    "candidate": "TOSCANO, Joseph",
    "party": "",
-   "votes": 37,
-   "pct": 0.34
+   "votes": 43,
+   "pct": 0.36
   },
   {
    "candidate": "WILLCOCKS, Seth",
    "party": "Victorian Socialists",
-   "votes": 141,
-   "pct": 1.28
+   "votes": 158,
+   "pct": 1.33
   },
   {
    "candidate": "MARSH, Anthony",
    "party": "Liberal",
-   "votes": 5002,
-   "pct": 45.42
+   "votes": 5261,
+   "pct": 44.37
   },
   {
    "candidate": "BROWN, Mike",
    "party": "Family First",
-   "votes": 93,
-   "pct": 0.84
+   "votes": 102,
+   "pct": 0.86
   }
  ],
  "tcp": [
   {
    "candidate": "HERCUS, Darren",
    "party": "One Nation Victoria",
-   "votes": 2628,
-   "pct": 25.84
+   "votes": 2760,
+   "pct": 26.1
   },
   {
    "candidate": "MARSH, Anthony",
    "party": "Liberal",
-   "votes": 7541,
-   "pct": 74.16
+   "votes": 7816,
+   "pct": 73.9
   }
  ],
  "links": {
