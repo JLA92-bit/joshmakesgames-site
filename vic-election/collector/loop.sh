@@ -10,7 +10,7 @@ END=$(( $(date +%s) + MINUTES * 60 ))
 while :; do
   START=$(date +%s)
   python -m collector.baseline || echo "::warning::Baseline fetch failed; will retry"
-  python -m collector.vec --workers 3 || echo "::warning::Scrape failed; keeping last good data"
+  python -m collector.vec --workers 2 || echo "::warning::Scrape failed; keeping last good data"
   python -m collector.analyse || echo "::warning::Analysis failed"
   bash collector/save.sh "Vic election data $(date -u +%Y-%m-%dT%H:%MZ)" || true
   NOW=$(date +%s)

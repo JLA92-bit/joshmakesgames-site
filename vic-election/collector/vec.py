@@ -52,7 +52,7 @@ class Fetcher:
             return 998, ""   # stop hammering a site that is rate limiting us; keep last good data
         last = (0, "")
         for attempt in range(3):
-            time.sleep(0.25 + random.random() * 0.35)  # be polite: a few requests a second at most
+            time.sleep(0.6 + random.random() * 0.6)  # be polite: about one request a second per worker
             try:
                 self.count += 1
                 r = self.s.get(url, timeout=25)
@@ -423,7 +423,7 @@ def main(argv=None):
     ap.add_argument("--only", default="")
     ap.add_argument("--no-booths", action="store_true")
     ap.add_argument("--fixtures", default=None)
-    ap.add_argument("--workers", type=int, default=3)
+    ap.add_argument("--workers", type=int, default=2)
     a = ap.parse_args(argv)
 
     f = Fetcher(Path(a.fixtures) if a.fixtures else None)
@@ -431,7 +431,8 @@ def main(argv=None):
     old = json.loads(meta_path.read_text()) if meta_path.exists() else {}
     t0 = time.time()
     log: list = []
-    base = discover(f, a.base or old.get("base"), log)
+    base = (a.base or old.get("base")) if old.get("status") == "ok" and old.get("base") and not old.get("blocked_responses") \
+        else discover(f, a.base or old.get("base"), log)
     meta = {"scraped_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
             "base": base, "discovery_log": log[-40:], "errors": []}
     if not base:
@@ -442,12 +443,35 @@ def main(argv=None):
         print(meta["message"], file=sys.stderr)
         return 0
 
-    region_urls = discover_regions(f, base, log)
+    iteration = int(old.get("iteration", 0)) + 1
+    meta["iteration"] = iteration
+    region_urls = old.get("region_urls") or {}
+    if len(region_urls) < 8:
+        region_urls = discover_regions(f, base, log)
     meta["region_urls"] = region_urls
-    slugs = [s for s in a.only.split(",") if s] or DISTRICT_SLUGS
+    # Spread the load: seats that matter for One Nation every pass, the rest every third pass.
+    prev_site = DATA / "site.json"
+    hot, ranked = set(WATCH_SEATS), []
+    if prev_site.exists():
+        try:
+            for st in json.loads(prev_site.read_text()).get("seats", []):
+                pj = st.get("projection") or {}
+                ranked.append((pj.get("on_win_prob", 0), st["slug"]))
+                if st.get("status") != "ok" or pj.get("on_win_prob", 0) >= 0.05:
+                    hot.add(st["slug"])
+        except (json.JSONDecodeError, KeyError):
+            pass
+    # booth pages (2 extra requests each) only for One Nation's best prospects
+    booth_ok = set(WATCH_SEATS) | {sl for _, sl in sorted(ranked, reverse=True)[:12]}
+    cold = [s for s in DISTRICT_SLUGS if s not in hot]
+    slugs = [s for s in a.only.split(",") if s] or \
+        [s for s in DISTRICT_SLUGS if s in hot] + [s for i, s in enumerate(cold) if i % 3 == iteration % 3]
+    regions_now = [] if a.only or iteration % 2 else REGION_SLUGS
+    meta["fetched"] = {"hot": len([s for s in slugs if s in hot]), "cold": len([s for s in slugs if s not in hot]),
+                       "regions": len(regions_now)}
     with cf.ThreadPoolExecutor(a.workers) as ex:
-        dfuts = {ex.submit(scrape_district, f, base, s, not a.no_booths): s for s in slugs}
-        rfuts = {ex.submit(scrape_region, f, base, s, region_urls.get(s)): s for s in ([] if a.only else REGION_SLUGS)}
+        dfuts = {ex.submit(scrape_district, f, base, s, not a.no_booths and s in booth_ok): s for s in slugs}
+        rfuts = {ex.submit(scrape_region, f, base, s, region_urls.get(s)): s for s in regions_now}
         for fut in cf.as_completed(list(dfuts) + list(rfuts)):
             try:
                 rec = fut.result()
