@@ -1,0 +1,80 @@
+{
+ "slug": "lara",
+ "name": "Lara",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lara-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:33+00:00",
+ "title": "Lara election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "enrolment": 51659,
+ "counted_pct": 7.79,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "HATHWAY, Sarah",
+   "party": "Socialist Alliance",
+   "votes": 196,
+   "pct": 3.4
+  },
+  {
+   "candidate": "LONG, Samantha",
+   "party": "Animal Justice Party",
+   "votes": 135,
+   "pct": 2.34
+  },
+  {
+   "candidate": "UWIZEYIMANA, Tina",
+   "party": "Family First",
+   "votes": 171,
+   "pct": 2.96
+  },
+  {
+   "candidate": "SLATER, Theresa",
+   "party": "The Greens",
+   "votes": 889,
+   "pct": 15.4
+  },
+  {
+   "candidate": "SPYROS, Steven",
+   "party": "One Nation Victoria",
+   "votes": 1740,
+   "pct": 30.14
+  },
+  {
+   "candidate": "RANDALL, Oliver",
+   "party": "Victorian Socialists",
+   "votes": 117,
+   "pct": 2.03
+  },
+  {
+   "candidate": "GEORGE, Ella",
+   "party": "Australian Labor Party",
+   "votes": 1575,
+   "pct": 27.28
+  },
+  {
+   "candidate": "BEDDOE, Tim",
+   "party": "Liberal",
+   "votes": 950,
+   "pct": 16.46
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "SPYROS, Steven",
+   "party": "One Nation Victoria",
+   "votes": 190,
+   "pct": 46.34
+  },
+  {
+   "candidate": "GEORGE, Ella",
+   "party": "Australian Labor Party",
+   "votes": 220,
+   "pct": 53.66
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lara-district-results/Lara-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lara-district-results/Lara-2CP-results-by-voting-centre"
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "slug": "laverton",
+ "name": "Laverton",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/laverton-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:36+00:00",
+ "title": "Laverton election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "enrolment": 56046,
+ "counted_pct": 10.72,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "NGUYEN, Lucy",
+   "party": "The Greens",
+   "votes": 543,
+   "pct": 22.81
+  },
+  {
+   "candidate": "MENDELSOHN, Emma",
+   "party": "The West Party",
+   "votes": 36,
+   "pct": 1.51
+  },
+  {
+   "candidate": "PAREDES, Rufo",
+   "party": "One Nation Victoria",
+   "votes": 395,
+   "pct": 16.59
+  },
+  {
+   "candidate": "GARCIA, Jo",
+   "party": "Family First",
+   "votes": 52,
+   "pct": 2.18
+  },
+  {
+   "candidate": "CONNOLLY, Sarah",
+   "party": "Australian Labor Party",
+   "votes": 636,
+   "pct": 26.71
+  },
+  {
+   "candidate": "MANSOURI JAJAEE, Shohre",
+   "party": "Animal Justice Party",
+   "votes": 36,
+   "pct": 1.51
+  },
+  {
+   "candidate": "CHITTEDI, Suchithra",
+   "party": "The Republican",
+   "votes": 3,
+   "pct": 0.13
+  },
+  {
+   "candidate": "NOUNE, Ghada",
+   "party": "Liberal",
+   "votes": 388,
+   "pct": 16.3
+  },
+  {
+   "candidate": "RUDD, Van Thanh",
+   "party": "Victorian Socialists",
+   "votes": 292,
+   "pct": 12.26
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "CONNOLLY, Sarah",
+   "party": "Australian Labor Party",
+   "votes": 479,
+   "pct": 52.99
+  },
+  {
+   "candidate": "NOUNE, Ghada",
+   "party": "Liberal",
+   "votes": 425,
+   "pct": 47.01
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/laverton-district-results/Laverton-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/laverton-district-results/Laverton-2CP-results-by-voting-centre"
+ }
+}

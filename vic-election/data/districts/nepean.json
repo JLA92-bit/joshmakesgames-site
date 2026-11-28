@@ -1,0 +1,86 @@
+{
+ "slug": "nepean",
+ "name": "Nepean",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/nepean-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:05+00:00",
+ "title": "Nepean election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "enrolment": 51871,
+ "counted_pct": 5.03,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "HEALY, Sianan",
+   "party": "The Greens",
+   "votes": 645,
+   "pct": 21.62
+  },
+  {
+   "candidate": "SNOWBALL, Surbhi",
+   "party": "Australian Labor Party",
+   "votes": 297,
+   "pct": 9.95
+  },
+  {
+   "candidate": "CHAMPION, Tamara",
+   "party": "Animal Justice Party",
+   "votes": 48,
+   "pct": 1.61
+  },
+  {
+   "candidate": "HERCUS, Darren",
+   "party": "One Nation Victoria",
+   "votes": 489,
+   "pct": 16.39
+  },
+  {
+   "candidate": "ROBBINS, Kim",
+   "party": "",
+   "votes": 224,
+   "pct": 7.51
+  },
+  {
+   "candidate": "TOSCANO, Joseph",
+   "party": "",
+   "votes": 15,
+   "pct": 0.5
+  },
+  {
+   "candidate": "WILLCOCKS, Seth",
+   "party": "Victorian Socialists",
+   "votes": 49,
+   "pct": 1.64
+  },
+  {
+   "candidate": "MARSH, Anthony",
+   "party": "Liberal",
+   "votes": 1201,
+   "pct": 40.25
+  },
+  {
+   "candidate": "BROWN, Mike",
+   "party": "Family First",
+   "votes": 16,
+   "pct": 0.54
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "HERCUS, Darren",
+   "party": "One Nation Victoria",
+   "votes": 527,
+   "pct": 27.45
+  },
+  {
+   "candidate": "MARSH, Anthony",
+   "party": "Liberal",
+   "votes": 1393,
+   "pct": 72.55
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/nepean-district-results/Nepean-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/nepean-district-results/Nepean-2CP-results-by-voting-centre"
+ }
+}

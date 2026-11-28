@@ -1,0 +1,74 @@
+{
+ "slug": "rowville",
+ "name": "Rowville",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/rowville-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:27+00:00",
+ "title": "Rowville election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:14",
+ "enrolment": 50564,
+ "counted_pct": 4.93,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "MASSEY, David",
+   "party": "The Greens",
+   "votes": 1360,
+   "pct": 14.23
+  },
+  {
+   "candidate": "WILLIAMS, Max",
+   "party": "Liberal",
+   "votes": 4307,
+   "pct": 45.07
+  },
+  {
+   "candidate": "DOBRZYNSKI, Fiona",
+   "party": "Family First",
+   "votes": 287,
+   "pct": 3.0
+  },
+  {
+   "candidate": "SHAHBAZ, Muhammad",
+   "party": "Australian Labor Party",
+   "votes": 1444,
+   "pct": 15.11
+  },
+  {
+   "candidate": "WATT, Bradley",
+   "party": "One Nation Victoria",
+   "votes": 1806,
+   "pct": 18.9
+  },
+  {
+   "candidate": "ROBSON, Scott",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 100,
+   "pct": 1.05
+  },
+  {
+   "candidate": "HIEMSTRA, Lars",
+   "party": "Victorian Socialists",
+   "votes": 253,
+   "pct": 2.65
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "WILLIAMS, Max",
+   "party": "Liberal",
+   "votes": 2626,
+   "pct": 72.62
+  },
+  {
+   "candidate": "SHAHBAZ, Muhammad",
+   "party": "Australian Labor Party",
+   "votes": 990,
+   "pct": 27.38
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/rowville-district-results/Rowville-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/rowville-district-results/Rowville-2CP-results-by-voting-centre"
+ }
+}

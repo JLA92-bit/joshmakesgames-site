@@ -1,0 +1,74 @@
+{
+ "slug": "mornington",
+ "name": "Mornington",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mornington-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:54+00:00",
+ "title": "Mornington election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "enrolment": 50151,
+ "counted_pct": 6.64,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "BROWNLIE, Gene",
+   "party": "Victorian Socialists",
+   "votes": 263,
+   "pct": 2.22
+  },
+  {
+   "candidate": "MACDONALD, Kerry",
+   "party": "Australian Labor Party",
+   "votes": 1315,
+   "pct": 11.1
+  },
+  {
+   "candidate": "CREWTHER, Chris",
+   "party": "Liberal",
+   "votes": 5336,
+   "pct": 45.04
+  },
+  {
+   "candidate": "BEARDS, Ashli",
+   "party": "One Nation Victoria",
+   "votes": 2036,
+   "pct": 17.19
+  },
+  {
+   "candidate": "TITCHER, Kai",
+   "party": "The Greens",
+   "votes": 1592,
+   "pct": 13.44
+  },
+  {
+   "candidate": "GOFFIN, Melissa",
+   "party": "",
+   "votes": 1052,
+   "pct": 8.88
+  },
+  {
+   "candidate": "MAHER, Adrian",
+   "party": "",
+   "votes": 253,
+   "pct": 2.14
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "CREWTHER, Chris",
+   "party": "Liberal",
+   "votes": 2058,
+   "pct": 67.56
+  },
+  {
+   "candidate": "GOFFIN, Melissa",
+   "party": "",
+   "votes": 988,
+   "pct": 32.44
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mornington-district-results/Mornington-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mornington-district-results/Mornington-2CP-results-by-voting-centre"
+ }
+}

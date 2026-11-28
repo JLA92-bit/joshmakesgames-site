@@ -1,0 +1,74 @@
+{
+ "slug": "glen-waverley",
+ "name": "Glen Waverley",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/glen-waverley-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:22+00:00",
+ "title": "Glen Waverley election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "enrolment": 50821,
+ "counted_pct": 3.53,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "SUN, Jacky",
+   "party": "Liberal",
+   "votes": 4101,
+   "pct": 46.4
+  },
+  {
+   "candidate": "WHITE, Toyo",
+   "party": "The Greens",
+   "votes": 1100,
+   "pct": 12.45
+  },
+  {
+   "candidate": "NADARAJAH, Segar",
+   "party": "Labour DLP",
+   "votes": 105,
+   "pct": 1.19
+  },
+  {
+   "candidate": "COX, Brad",
+   "party": "One Nation Victoria",
+   "votes": 920,
+   "pct": 10.41
+  },
+  {
+   "candidate": "DOBIE, Anna",
+   "party": "Family First",
+   "votes": 172,
+   "pct": 1.95
+  },
+  {
+   "candidate": "SIOW, Nicholas",
+   "party": "Victorian Socialists",
+   "votes": 223,
+   "pct": 2.52
+  },
+  {
+   "candidate": "MULLAHY, John",
+   "party": "Australian Labor Party",
+   "votes": 2217,
+   "pct": 25.08
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "SUN, Jacky",
+   "party": "Liberal",
+   "votes": 2217,
+   "pct": 60.11
+  },
+  {
+   "candidate": "MULLAHY, John",
+   "party": "Australian Labor Party",
+   "votes": 1471,
+   "pct": 39.89
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/glen-waverley-district-results/Glen-Waverley-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/glen-waverley-district-results/Glen-Waverley-2CP-results-by-voting-centre"
+ }
+}

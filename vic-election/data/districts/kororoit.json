@@ -1,0 +1,86 @@
+{
+ "slug": "kororoit",
+ "name": "Kororoit",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kororoit-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:32+00:00",
+ "title": "Kororoit election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "enrolment": 61816,
+ "counted_pct": 12.98,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "SOUTHERN, Donna",
+   "party": "The West Party",
+   "votes": 5,
+   "pct": 1.59
+  },
+  {
+   "candidate": "PATTERSON, Nick",
+   "party": "Family First",
+   "votes": 18,
+   "pct": 5.71
+  },
+  {
+   "candidate": "MCDONALD, Joyce",
+   "party": "The Greens",
+   "votes": 43,
+   "pct": 13.65
+  },
+  {
+   "candidate": "PIDI, Divya",
+   "party": "The Republican",
+   "votes": 2,
+   "pct": 0.63
+  },
+  {
+   "candidate": "HASSAN, Rayan",
+   "party": "Victorian Socialists",
+   "votes": 25,
+   "pct": 7.94
+  },
+  {
+   "candidate": "CHAKOMA, Jack",
+   "party": "Liberal",
+   "votes": 73,
+   "pct": 23.17
+  },
+  {
+   "candidate": "GRIGOROVITCH, Luba",
+   "party": "Australian Labor Party",
+   "votes": 88,
+   "pct": 27.94
+  },
+  {
+   "candidate": "MELNIKOV, Seva",
+   "party": "One Nation Victoria",
+   "votes": 55,
+   "pct": 17.46
+  },
+  {
+   "candidate": "KANDPAL, Vasundhara",
+   "party": "Animal Justice Party",
+   "votes": 6,
+   "pct": 1.9
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "CHAKOMA, Jack",
+   "party": "Liberal",
+   "votes": 0,
+   "pct": 0.0
+  },
+  {
+   "candidate": "GRIGOROVITCH, Luba",
+   "party": "Australian Labor Party",
+   "votes": 0,
+   "pct": 0.0
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kororoit-district-results/Kororoit-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kororoit-district-results/Kororoit-2CP-results-by-voting-centre"
+ }
+}

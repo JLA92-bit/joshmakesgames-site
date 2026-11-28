@@ -1,0 +1,104 @@
+{
+ "slug": "tarneit",
+ "name": "Tarneit",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/tarneit-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:39+00:00",
+ "title": "Tarneit election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:16",
+ "enrolment": 60755,
+ "counted_pct": 10.14,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "MOINUDDIN, Aijaz",
+   "party": "",
+   "votes": 87,
+   "pct": 1.56
+  },
+  {
+   "candidate": "WIGHT, Dylan",
+   "party": "Australian Labor Party",
+   "votes": 1201,
+   "pct": 21.48
+  },
+  {
+   "candidate": "ISLAM, SM Zaberul",
+   "party": "",
+   "votes": 40,
+   "pct": 0.72
+  },
+  {
+   "candidate": "ELSBURY, Andrew",
+   "party": "The West Party",
+   "votes": 212,
+   "pct": 3.79
+  },
+  {
+   "candidate": "VAN KEULEN, Leah",
+   "party": "Victorian Socialists",
+   "votes": 228,
+   "pct": 4.08
+  },
+  {
+   "candidate": "NIYONGABIRE, Horizana",
+   "party": "Family First",
+   "votes": 134,
+   "pct": 2.4
+  },
+  {
+   "candidate": "AHMED, Rahima Ibrahim",
+   "party": "",
+   "votes": 40,
+   "pct": 0.72
+  },
+  {
+   "candidate": "RAHN, Maurita",
+   "party": "Animal Justice Party",
+   "votes": 63,
+   "pct": 1.13
+  },
+  {
+   "candidate": "VILLAGONZALO, Walter",
+   "party": "One Nation Victoria",
+   "votes": 1057,
+   "pct": 18.9
+  },
+  {
+   "candidate": "RIFAI, A. Raheem",
+   "party": "The Greens",
+   "votes": 1200,
+   "pct": 21.46
+  },
+  {
+   "candidate": "UPPARLAPALLE, Venkat Ram",
+   "party": "Liberal",
+   "votes": 1304,
+   "pct": 23.32
+  },
+  {
+   "candidate": "SUDHAGANI, Sindhu",
+   "party": "The Republican",
+   "votes": 26,
+   "pct": 0.46
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "WIGHT, Dylan",
+   "party": "Australian Labor Party",
+   "votes": 811,
+   "pct": 51.13
+  },
+  {
+   "candidate": "UPPARLAPALLE, Venkat Ram",
+   "party": "Liberal",
+   "votes": 775,
+   "pct": 48.87
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/tarneit-district-results/Tarneit-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/tarneit-district-results/Tarneit-2CP-results-by-voting-centre"
+ }
+}

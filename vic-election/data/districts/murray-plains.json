@@ -1,0 +1,74 @@
+{
+ "slug": "murray-plains",
+ "name": "Murray Plains",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/murray-plains-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:57+00:00",
+ "title": "Murray Plains election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "enrolment": 48371,
+ "counted_pct": 4.6,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "COLLARD, Peita",
+   "party": "Animal Justice Party",
+   "votes": 275,
+   "pct": 2.09
+  },
+  {
+   "candidate": "HOSKING, Brett",
+   "party": "The Nationals",
+   "votes": 4965,
+   "pct": 37.65
+  },
+  {
+   "candidate": "MCDONALD, Ewan",
+   "party": "Family First",
+   "votes": 279,
+   "pct": 2.12
+  },
+  {
+   "candidate": "SMITH, Garner",
+   "party": "One Nation Victoria",
+   "votes": 6234,
+   "pct": 47.28
+  },
+  {
+   "candidate": "GRUNDY, Christine",
+   "party": "Australian Labor Party",
+   "votes": 722,
+   "pct": 5.48
+  },
+  {
+   "candidate": "SANIF, Asyiqin",
+   "party": "Victorian Socialists",
+   "votes": 124,
+   "pct": 0.94
+  },
+  {
+   "candidate": "COOK, Zoe",
+   "party": "The Greens",
+   "votes": 587,
+   "pct": 4.45
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "HOSKING, Brett",
+   "party": "The Nationals",
+   "votes": 2565,
+   "pct": 50.48
+  },
+  {
+   "candidate": "SMITH, Garner",
+   "party": "One Nation Victoria",
+   "votes": 2516,
+   "pct": 49.52
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/murray-plains-district-results/Murray-Plains-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/murray-plains-district-results/Murray-Plains-2CP-results-by-voting-centre"
+ }
+}

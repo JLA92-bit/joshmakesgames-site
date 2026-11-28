@@ -1,0 +1,98 @@
+{
+ "slug": "niddrie",
+ "name": "Niddrie",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/niddrie-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:06+00:00",
+ "title": "Niddrie election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:11",
+ "enrolment": 52610,
+ "counted_pct": 8.9,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "SFAMENI, Sam",
+   "party": "",
+   "votes": 44,
+   "pct": 1.16
+  },
+  {
+   "candidate": "CARROLL, Ben",
+   "party": "Australian Labor Party",
+   "votes": 838,
+   "pct": 22.12
+  },
+  {
+   "candidate": "THEODOROU, George",
+   "party": "Family First",
+   "votes": 52,
+   "pct": 1.37
+  },
+  {
+   "candidate": "BYRNE, Samantha",
+   "party": "Liberal",
+   "votes": 1431,
+   "pct": 37.78
+  },
+  {
+   "candidate": "METE, Domenic",
+   "party": "Labour DLP",
+   "votes": 15,
+   "pct": 0.4
+  },
+  {
+   "candidate": "LAWS, Brendan",
+   "party": "Victorian Socialists",
+   "votes": 170,
+   "pct": 4.49
+  },
+  {
+   "candidate": "HASELGROVE, Salomae",
+   "party": "Animal Justice Party",
+   "votes": 60,
+   "pct": 1.58
+  },
+  {
+   "candidate": "TAVERNA, Jason",
+   "party": "One Nation Victoria",
+   "votes": 726,
+   "pct": 19.17
+  },
+  {
+   "candidate": "NGUYEN, Lana",
+   "party": "The Greens",
+   "votes": 421,
+   "pct": 11.11
+  },
+  {
+   "candidate": "CHITTEDI, Karthik Reddy",
+   "party": "The Republican",
+   "votes": 4,
+   "pct": 0.11
+  },
+  {
+   "candidate": "PATRIKEOS, Brett",
+   "party": "The West Party",
+   "votes": 27,
+   "pct": 0.71
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "CARROLL, Ben",
+   "party": "Australian Labor Party",
+   "votes": 900,
+   "pct": 40.2
+  },
+  {
+   "candidate": "BYRNE, Samantha",
+   "party": "Liberal",
+   "votes": 1339,
+   "pct": 59.8
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/niddrie-district-results/Niddrie-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/niddrie-district-results/Niddrie-2CP-results-by-voting-centre"
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "slug": "yan-yean",
+ "name": "Yan Yean",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/yan-yean-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:50+00:00",
+ "title": "Yan Yean election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:17",
+ "enrolment": 57294,
+ "counted_pct": 5.21,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "KATHAGE, Lauren",
+   "party": "Australian Labor Party",
+   "votes": 1224,
+   "pct": 18.19
+  },
+  {
+   "candidate": "JOHNSON, Jeremy",
+   "party": "One Nation Victoria",
+   "votes": 2114,
+   "pct": 31.42
+  },
+  {
+   "candidate": "BELL, Andrew",
+   "party": "Victorian Socialists",
+   "votes": 136,
+   "pct": 2.02
+  },
+  {
+   "candidate": "HALL, James",
+   "party": "Family First",
+   "votes": 173,
+   "pct": 2.57
+  },
+  {
+   "candidate": "OKATAN, Sinan",
+   "party": "Animal Justice Party",
+   "votes": 129,
+   "pct": 1.92
+  },
+  {
+   "candidate": "DOW, Amanda",
+   "party": "Liberal",
+   "votes": 2266,
+   "pct": 33.68
+  },
+  {
+   "candidate": "MOHAMMED, Gufran",
+   "party": "The Greens",
+   "votes": 650,
+   "pct": 9.66
+  },
+  {
+   "candidate": "CHEERS, Troy",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 37,
+   "pct": 0.55
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "KATHAGE, Lauren",
+   "party": "Australian Labor Party",
+   "votes": 0,
+   "pct": 0.0
+  },
+  {
+   "candidate": "JOHNSON, Jeremy",
+   "party": "One Nation Victoria",
+   "votes": 0,
+   "pct": 0.0
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/yan-yean-district-results/Yan-Yean-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/yan-yean-district-results/Yan-Yean-2CP-results-by-voting-centre"
+ }
+}

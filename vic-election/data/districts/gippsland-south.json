@@ -1,0 +1,74 @@
+{
+ "slug": "gippsland-south",
+ "name": "Gippsland South",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-south-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:19+00:00",
+ "title": "Gippsland South election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "enrolment": 50953,
+ "counted_pct": 5.52,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "BARRY-MACAULAY, Amy",
+   "party": "Australian Labor Party",
+   "votes": 1707,
+   "pct": 10.73
+  },
+  {
+   "candidate": "McAULIFFE, Jessica",
+   "party": "Animal Justice Party",
+   "votes": 327,
+   "pct": 2.06
+  },
+  {
+   "candidate": "O'BRIEN, Danny",
+   "party": "The Nationals",
+   "votes": 5955,
+   "pct": 37.43
+  },
+  {
+   "candidate": "SCHUHMANN, Phillip",
+   "party": "",
+   "votes": 185,
+   "pct": 1.16
+  },
+  {
+   "candidate": "EVANS, Zave",
+   "party": "The Greens",
+   "votes": 1801,
+   "pct": 11.32
+  },
+  {
+   "candidate": "McGENNISKEN, Lachie",
+   "party": "Victorian Socialists",
+   "votes": 273,
+   "pct": 1.72
+  },
+  {
+   "candidate": "WILKIE, Bianca",
+   "party": "One Nation Victoria",
+   "votes": 5661,
+   "pct": 35.58
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "O'BRIEN, Danny",
+   "party": "The Nationals",
+   "votes": 5999,
+   "pct": 58.47
+  },
+  {
+   "candidate": "WILKIE, Bianca",
+   "party": "One Nation Victoria",
+   "votes": 4261,
+   "pct": 41.53
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-south-district-results/Gippsland-South-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-south-district-results/Gippsland-South-2CP-results-by-voting-centre"
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "slug": "bass",
+ "name": "Bass",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bass-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:41:33+00:00",
+ "title": "Bass District results | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:02",
+ "enrolment": 57998,
+ "counted_pct": 3.07,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "JOBE, Chris",
+   "party": "Victorian Socialists",
+   "votes": 393,
+   "pct": 3.57
+  },
+  {
+   "candidate": "THORN, Sophie",
+   "party": "The Greens",
+   "votes": 1582,
+   "pct": 14.36
+  },
+  {
+   "candidate": "SCHELLEKENS, Nikole",
+   "party": "One Nation Victoria",
+   "votes": 3736,
+   "pct": 33.91
+  },
+  {
+   "candidate": "HALSTEAD, Rochelle",
+   "party": "Liberal",
+   "votes": 3665,
+   "pct": 33.27
+  },
+  {
+   "candidate": "CAUNEAC, Ben",
+   "party": "Family First",
+   "votes": 216,
+   "pct": 1.96
+  },
+  {
+   "candidate": "BUCKINGHAM, Chris",
+   "party": "Australian Labor Party",
+   "votes": 1424,
+   "pct": 12.93
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "SCHELLEKENS, Nikole",
+   "party": "One Nation Victoria",
+   "votes": 1670,
+   "pct": 45.52
+  },
+  {
+   "candidate": "HALSTEAD, Rochelle",
+   "party": "Liberal",
+   "votes": 1999,
+   "pct": 54.48
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bass-district-results/Bass-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bass-district-results/Bass-2CP-results-by-voting-centre"
+ }
+}

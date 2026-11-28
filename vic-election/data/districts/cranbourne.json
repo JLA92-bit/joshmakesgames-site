@@ -1,0 +1,80 @@
+{
+ "slug": "cranbourne",
+ "name": "Cranbourne",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/cranbourne-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:01+00:00",
+ "title": "Cranbourne election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:05",
+ "enrolment": 58761,
+ "counted_pct": 7.33,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "URQUIOLA, Liam",
+   "party": "Legalise Cannabis Victoria",
+   "votes": 299,
+   "pct": 4.78
+  },
+  {
+   "candidate": "BAIRD, Craig",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 72,
+   "pct": 1.15
+  },
+  {
+   "candidate": "MERCER, Annalise",
+   "party": "The Greens",
+   "votes": 882,
+   "pct": 14.09
+  },
+  {
+   "candidate": "TRIPODI, Gino",
+   "party": "Liberal",
+   "votes": 1604,
+   "pct": 25.62
+  },
+  {
+   "candidate": "RICHARDS, Pauline",
+   "party": "Australian Labor Party",
+   "votes": 1490,
+   "pct": 23.8
+  },
+  {
+   "candidate": "YUNIS, Reem",
+   "party": "Victorian Socialists",
+   "votes": 154,
+   "pct": 2.46
+  },
+  {
+   "candidate": "HIRST, Andrew",
+   "party": "One Nation Victoria",
+   "votes": 1578,
+   "pct": 25.21
+  },
+  {
+   "candidate": "FOREMAN, Shane",
+   "party": "Family First",
+   "votes": 181,
+   "pct": 2.89
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "RICHARDS, Pauline",
+   "party": "Australian Labor Party",
+   "votes": 928,
+   "pct": 50.49
+  },
+  {
+   "candidate": "HIRST, Andrew",
+   "party": "One Nation Victoria",
+   "votes": 910,
+   "pct": 49.51
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/cranbourne-district-results/Cranbourne-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/cranbourne-district-results/Cranbourne-2CP-results-by-voting-centre"
+ }
+}

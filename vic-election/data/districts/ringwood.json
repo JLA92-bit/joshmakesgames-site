@@ -1,0 +1,86 @@
+{
+ "slug": "ringwood",
+ "name": "Ringwood",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ringwood-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:24+00:00",
+ "title": "| Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:13",
+ "enrolment": 54911,
+ "counted_pct": 4.14,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "HALSE, Rachel",
+   "party": "Australian Labor Party",
+   "votes": 2211,
+   "pct": 18.81
+  },
+  {
+   "candidate": "McGOWAN, Nick",
+   "party": "Liberal",
+   "votes": 4271,
+   "pct": 36.33
+  },
+  {
+   "candidate": "NORTON, Christopher William",
+   "party": "Labour DLP",
+   "votes": 52,
+   "pct": 0.44
+  },
+  {
+   "candidate": "HUANG, Elaine",
+   "party": "Family First",
+   "votes": 233,
+   "pct": 1.98
+  },
+  {
+   "candidate": "CUTTS, Prue",
+   "party": "",
+   "votes": 891,
+   "pct": 7.58
+  },
+  {
+   "candidate": "MILLS, Amy",
+   "party": "The Greens",
+   "votes": 2265,
+   "pct": 19.27
+  },
+  {
+   "candidate": "O'CONNOR, John",
+   "party": "One Nation Victoria",
+   "votes": 1188,
+   "pct": 10.11
+  },
+  {
+   "candidate": "WALKER, Lyndon",
+   "party": "Animal Justice Party",
+   "votes": 168,
+   "pct": 1.43
+  },
+  {
+   "candidate": "GARDNER, Jack",
+   "party": "Victorian Socialists",
+   "votes": 476,
+   "pct": 4.05
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "HALSE, Rachel",
+   "party": "Australian Labor Party",
+   "votes": 3697,
+   "pct": 44.14
+  },
+  {
+   "candidate": "McGOWAN, Nick",
+   "party": "Liberal",
+   "votes": 4679,
+   "pct": 55.86
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ringwood-district-results/Ringwood-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ringwood-district-results/Ringwood-2CP-results-by-voting-centre"
+ }
+}

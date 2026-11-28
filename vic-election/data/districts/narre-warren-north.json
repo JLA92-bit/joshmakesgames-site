@@ -1,0 +1,80 @@
+{
+ "slug": "narre-warren-north",
+ "name": "Narre Warren North",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-north-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:57+00:00",
+ "title": "Narre Warren North election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "enrolment": 53493,
+ "counted_pct": 7.65,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "NATHANIELSZ, Shemane",
+   "party": "Liberal",
+   "votes": 2194,
+   "pct": 27.06
+  },
+  {
+   "candidate": "CRUTCHFIELD, Sebastian",
+   "party": "One Nation Victoria",
+   "votes": 1923,
+   "pct": 23.72
+  },
+  {
+   "candidate": "UTOYO, Joshua",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 70,
+   "pct": 0.86
+  },
+  {
+   "candidate": "EMMANUEL, Cristina",
+   "party": "Family First",
+   "votes": 188,
+   "pct": 2.32
+  },
+  {
+   "candidate": "LEAHY, Martin",
+   "party": "Legalise Cannabis Victoria",
+   "votes": 217,
+   "pct": 2.68
+  },
+  {
+   "candidate": "WILSON, Belinda",
+   "party": "Australian Labor Party",
+   "votes": 2083,
+   "pct": 25.69
+  },
+  {
+   "candidate": "PERRY, Hayley",
+   "party": "The Greens",
+   "votes": 1256,
+   "pct": 15.49
+  },
+  {
+   "candidate": "McCRACKEN, Lachlan",
+   "party": "Victorian Socialists",
+   "votes": 176,
+   "pct": 2.17
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "CRUTCHFIELD, Sebastian",
+   "party": "One Nation Victoria",
+   "votes": 472,
+   "pct": 48.86
+  },
+  {
+   "candidate": "WILSON, Belinda",
+   "party": "Australian Labor Party",
+   "votes": 494,
+   "pct": 51.14
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-north-district-results/Narre-Warren-North-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-north-district-results/Narre-Warren-North-2CP-results-by-voting-centre"
+ }
+}

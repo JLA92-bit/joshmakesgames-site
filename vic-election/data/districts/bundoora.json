@@ -1,0 +1,80 @@
+{
+ "slug": "bundoora",
+ "name": "Bundoora",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:41:54+00:00",
+ "title": "Bundoora election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:02",
+ "enrolment": 48975,
+ "counted_pct": 5.94,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "MURPHY-WEBSTER, Melissa",
+   "party": "",
+   "votes": 178,
+   "pct": 2.73
+  },
+  {
+   "candidate": "LAITALA, Nina",
+   "party": "The Greens",
+   "votes": 1257,
+   "pct": 19.26
+  },
+  {
+   "candidate": "PARR, Chris",
+   "party": "Liberal",
+   "votes": 1800,
+   "pct": 27.58
+  },
+  {
+   "candidate": "WHALLEY, Bruce",
+   "party": "One Nation Victoria",
+   "votes": 1177,
+   "pct": 18.03
+  },
+  {
+   "candidate": "RANCIE, Rae",
+   "party": "Family First",
+   "votes": 102,
+   "pct": 1.56
+  },
+  {
+   "candidate": "NICOLOSI, Chloe",
+   "party": "Animal Justice Party",
+   "votes": 97,
+   "pct": 1.49
+  },
+  {
+   "candidate": "BROOKS, Colin",
+   "party": "Australian Labor Party",
+   "votes": 1579,
+   "pct": 24.19
+  },
+  {
+   "candidate": "SANYAL, Sagar",
+   "party": "Victorian Socialists",
+   "votes": 337,
+   "pct": 5.16
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "PARR, Chris",
+   "party": "Liberal",
+   "votes": 732,
+   "pct": 48.77
+  },
+  {
+   "candidate": "BROOKS, Colin",
+   "party": "Australian Labor Party",
+   "votes": 769,
+   "pct": 51.23
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results/Bundoora-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results/Bundoora-2CP-results-by-voting-centre"
+ }
+}

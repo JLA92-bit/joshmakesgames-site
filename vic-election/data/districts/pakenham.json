@@ -1,0 +1,92 @@
+{
+ "slug": "pakenham",
+ "name": "Pakenham",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:16+00:00",
+ "title": "Pakenham election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:13",
+ "enrolment": 55910,
+ "counted_pct": 8.57,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "HAMALAINEN, Jesse",
+   "party": "Labour DLP",
+   "votes": 68,
+   "pct": 1.9
+  },
+  {
+   "candidate": "FRENCH, Raymond",
+   "party": "",
+   "votes": 33,
+   "pct": 0.92
+  },
+  {
+   "candidate": "HANDS, Kate",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 50,
+   "pct": 1.39
+  },
+  {
+   "candidate": "OGDEN, Lucas",
+   "party": "",
+   "votes": 53,
+   "pct": 1.48
+  },
+  {
+   "candidate": "GRIGG, Stephanie",
+   "party": "Victorian Socialists",
+   "votes": 111,
+   "pct": 3.1
+  },
+  {
+   "candidate": "SOLIVEN, Alessandra",
+   "party": "Australian Labor Party",
+   "votes": 520,
+   "pct": 14.5
+  },
+  {
+   "candidate": "DYSON, Radmila",
+   "party": "Liberal",
+   "votes": 927,
+   "pct": 25.85
+  },
+  {
+   "candidate": "YAWARI, Nasser",
+   "party": "The Greens",
+   "votes": 542,
+   "pct": 15.11
+  },
+  {
+   "candidate": "PICKERING, Warren",
+   "party": "One Nation Victoria",
+   "votes": 1234,
+   "pct": 34.41
+  },
+  {
+   "candidate": "DAVIES, Stephanie",
+   "party": "",
+   "votes": 48,
+   "pct": 1.34
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "DYSON, Radmila",
+   "party": "Liberal",
+   "votes": 458,
+   "pct": 59.56
+  },
+  {
+   "candidate": "PICKERING, Warren",
+   "party": "One Nation Victoria",
+   "votes": 311,
+   "pct": 40.44
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results/Pakenham-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results/Pakenham-2CP-results-by-voting-centre"
+ }
+}

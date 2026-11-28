@@ -1,0 +1,74 @@
+{
+ "slug": "eltham",
+ "name": "Eltham",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eltham-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:03+00:00",
+ "title": "Eltham election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:05",
+ "enrolment": 50567,
+ "counted_pct": 3.25,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "RICHES, Maeve",
+   "party": "Victorian Socialists",
+   "votes": 159,
+   "pct": 5.35
+  },
+  {
+   "candidate": "BYRNES, Paul",
+   "party": "Liberal",
+   "votes": 979,
+   "pct": 32.93
+  },
+  {
+   "candidate": "BROOKSBY, Louise",
+   "party": "Animal Justice Party",
+   "votes": 57,
+   "pct": 1.92
+  },
+  {
+   "candidate": "MARASEA, Steven",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 15,
+   "pct": 0.5
+  },
+  {
+   "candidate": "WARD, Vicki",
+   "party": "Australian Labor Party",
+   "votes": 660,
+   "pct": 22.2
+  },
+  {
+   "candidate": "WEATHERLEY, Jessie",
+   "party": "One Nation Victoria",
+   "votes": 431,
+   "pct": 14.5
+  },
+  {
+   "candidate": "BUSBRIDGE, Rachel",
+   "party": "The Greens",
+   "votes": 672,
+   "pct": 22.6
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "BYRNES, Paul",
+   "party": "Liberal",
+   "votes": 611,
+   "pct": 52.36
+  },
+  {
+   "candidate": "WARD, Vicki",
+   "party": "Australian Labor Party",
+   "votes": 556,
+   "pct": 47.64
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eltham-district-results/Eltham-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eltham-district-results/Eltham-2CP-results-by-voting-centre"
+ }
+}

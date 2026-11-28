@@ -1,0 +1,86 @@
+{
+ "slug": "bendigo-east",
+ "name": "Bendigo East",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-east-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:41:41+00:00",
+ "title": "Bendigo East election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:02",
+ "enrolment": 56152,
+ "counted_pct": 5.1,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "JOHN, Des",
+   "party": "Family First",
+   "votes": 120,
+   "pct": 3.16
+  },
+  {
+   "candidate": "DUNN, Bonnie",
+   "party": "Animal Justice Party",
+   "votes": 115,
+   "pct": 3.03
+  },
+  {
+   "candidate": "NORSEN, Denali",
+   "party": "Victorian Socialists",
+   "votes": 91,
+   "pct": 2.4
+  },
+  {
+   "candidate": "HAWKEN, Cheryl",
+   "party": "One Nation Victoria",
+   "votes": 905,
+   "pct": 23.83
+  },
+  {
+   "candidate": "LETHLEAN, Andrew",
+   "party": "The Nationals",
+   "votes": 1366,
+   "pct": 35.97
+  },
+  {
+   "candidate": "WRIGHT, Liz",
+   "party": "",
+   "votes": 59,
+   "pct": 1.55
+  },
+  {
+   "candidate": "HOSKINS, Kristie",
+   "party": "",
+   "votes": 18,
+   "pct": 0.47
+  },
+  {
+   "candidate": "RICKWOOD, Tim",
+   "party": "Australian Labor Party",
+   "votes": 651,
+   "pct": 17.14
+  },
+  {
+   "candidate": "TOLHURST, Michael",
+   "party": "The Greens",
+   "votes": 473,
+   "pct": 12.45
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "LETHLEAN, Andrew",
+   "party": "The Nationals",
+   "votes": 111,
+   "pct": 80.43
+  },
+  {
+   "candidate": "RICKWOOD, Tim",
+   "party": "Australian Labor Party",
+   "votes": 27,
+   "pct": 19.57
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-east-district-results/Bendigo-East-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-east-district-results/Bendigo-East-2CP-results-by-voting-centre"
+ }
+}

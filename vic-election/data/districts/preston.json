@@ -1,0 +1,98 @@
+{
+ "slug": "preston",
+ "name": "Preston",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/preston-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:18+00:00",
+ "title": "Preston election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:13",
+ "enrolment": 53545,
+ "counted_pct": 8.52,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "DATE, Tim",
+   "party": "I'm Voting to Avoid the Fine",
+   "votes": 151,
+   "pct": 2.4
+  },
+  {
+   "candidate": "CHIN, Zheng",
+   "party": "",
+   "votes": 273,
+   "pct": 4.33
+  },
+  {
+   "candidate": "AL KATRANJI, Hamza",
+   "party": "Liberal",
+   "votes": 1259,
+   "pct": 19.99
+  },
+  {
+   "candidate": "VALENCIA, Julio",
+   "party": "Family First",
+   "votes": 116,
+   "pct": 1.84
+  },
+  {
+   "candidate": "FOWLES, William",
+   "party": "",
+   "votes": 25,
+   "pct": 0.4
+  },
+  {
+   "candidate": "SANGARYA, Loki",
+   "party": "The Greens",
+   "votes": 1088,
+   "pct": 17.27
+  },
+  {
+   "candidate": "ASHMORE, Serena",
+   "party": "Victorian Socialists",
+   "votes": 718,
+   "pct": 11.4
+  },
+  {
+   "candidate": "BRYANT, Mark",
+   "party": "Free Palestine",
+   "votes": 51,
+   "pct": 0.81
+  },
+  {
+   "candidate": "GUARDIANI, Franco",
+   "party": "One Nation Victoria",
+   "votes": 916,
+   "pct": 14.54
+  },
+  {
+   "candidate": "DOWER, Simon",
+   "party": "Climate Action Now",
+   "votes": 33,
+   "pct": 0.52
+  },
+  {
+   "candidate": "LAMBERT, Nathan",
+   "party": "Australian Labor Party",
+   "votes": 1669,
+   "pct": 26.5
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "SANGARYA, Loki",
+   "party": "The Greens",
+   "votes": 992,
+   "pct": 55.89
+  },
+  {
+   "candidate": "LAMBERT, Nathan",
+   "party": "Australian Labor Party",
+   "votes": 783,
+   "pct": 44.11
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/preston-district-results/Preston-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/preston-district-results/Preston-2CP-results-by-voting-centre"
+ }
+}

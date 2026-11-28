@@ -1,0 +1,41 @@
+# Vic Election 2026 - One Nation tracker: scrape VEC results every 5 minutes and save to the site
+# Created by Josh Avard
+name: Collect Vic election results
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # GitHub's minimum; runs can start a few minutes late when GitHub is busy
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vic-election
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: vic-election
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -q -r collector/requirements.txt
+
+      - name: Scrape VEC results
+        env:
+          VEC_BASE: ${{ vars.VEC_BASE }}
+        run: python -m collector.vec --workers 8 || echo "::warning::Scrape failed; keeping last good data"
+
+      - name: Analyse
+        run: python -m collector.analyse
+
+      - name: Save the new data to the repository
+        run: bash collector/save.sh "Vic election data $(date -u +%Y-%m-%dT%H:%MZ)"

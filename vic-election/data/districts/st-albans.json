@@ -1,0 +1,86 @@
+{
+ "slug": "st-albans",
+ "name": "St Albans",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/st-albans-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:33+00:00",
+ "title": "St Albans election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:16",
+ "enrolment": 47825,
+ "counted_pct": 8.8,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "WALKER, Luân",
+   "party": "The West Party",
+   "votes": 140,
+   "pct": 3.29
+  },
+  {
+   "candidate": "HUYNH, Thuc Bao",
+   "party": "The Greens",
+   "votes": 449,
+   "pct": 10.56
+  },
+  {
+   "candidate": "NGUYEN, Leanna",
+   "party": "Victorian Socialists",
+   "votes": 308,
+   "pct": 7.25
+  },
+  {
+   "candidate": "SULEYMAN, Natalie",
+   "party": "Australian Labor Party",
+   "votes": 1228,
+   "pct": 28.89
+  },
+  {
+   "candidate": "DUNSTAN, Rob",
+   "party": "Liberal",
+   "votes": 1091,
+   "pct": 25.67
+  },
+  {
+   "candidate": "JANTEN, Kerry",
+   "party": "",
+   "votes": 34,
+   "pct": 0.8
+  },
+  {
+   "candidate": "HAKIZIMANA, Alex",
+   "party": "Family First",
+   "votes": 97,
+   "pct": 2.28
+  },
+  {
+   "candidate": "COWELL, John",
+   "party": "One Nation Victoria",
+   "votes": 884,
+   "pct": 20.8
+  },
+  {
+   "candidate": "DAVINDER KAUR",
+   "party": "The Republican",
+   "votes": 19,
+   "pct": 0.45
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "SULEYMAN, Natalie",
+   "party": "Australian Labor Party",
+   "votes": 250,
+   "pct": 54.82
+  },
+  {
+   "candidate": "DUNSTAN, Rob",
+   "party": "Liberal",
+   "votes": 206,
+   "pct": 45.18
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/st-albans-district-results/St-Albans-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/st-albans-district-results/St-Albans-2CP-results-by-voting-centre"
+ }
+}

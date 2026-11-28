@@ -1,0 +1,80 @@
+{
+ "slug": "croydon",
+ "name": "Croydon",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:01+00:00",
+ "title": "Croydon election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:05",
+ "enrolment": 55612,
+ "counted_pct": 5.9,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "FARR, Richard",
+   "party": "Australian Labor Party",
+   "votes": 1760,
+   "pct": 16.51
+  },
+  {
+   "candidate": "VANDERWOLF, David",
+   "party": "",
+   "votes": 481,
+   "pct": 4.51
+  },
+  {
+   "candidate": "SCHWAB, Nathan",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 89,
+   "pct": 0.84
+  },
+  {
+   "candidate": "THOMAS, Nofoao",
+   "party": "Family First",
+   "votes": 273,
+   "pct": 2.56
+  },
+  {
+   "candidate": "WOOLDRIDGE, Toby",
+   "party": "Liberal",
+   "votes": 3506,
+   "pct": 32.9
+  },
+  {
+   "candidate": "GRIMSHAW, Beth",
+   "party": "Victorian Socialists",
+   "votes": 423,
+   "pct": 3.97
+  },
+  {
+   "candidate": "BRINDLEY, Glenn",
+   "party": "One Nation Victoria",
+   "votes": 2056,
+   "pct": 19.29
+  },
+  {
+   "candidate": "FERNANDO, Lini",
+   "party": "The Greens",
+   "votes": 2070,
+   "pct": 19.42
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "FARR, Richard",
+   "party": "Australian Labor Party",
+   "votes": 1149,
+   "pct": 41.45
+  },
+  {
+   "candidate": "WOOLDRIDGE, Toby",
+   "party": "Liberal",
+   "votes": 1623,
+   "pct": 58.55
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results/Croydon-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results/Croydon-2CP-results-by-voting-centre"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "slug": "morwell",
+ "name": "Morwell",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/morwell-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:55+00:00",
+ "title": "Morwell election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "enrolment": 55328,
+ "counted_pct": 5.99,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "CLARKE, Brendan",
+   "party": "Family First",
+   "votes": 328,
+   "pct": 4.34
+  },
+  {
+   "candidate": "LUND, Tracie",
+   "party": "Australian Labor Party",
+   "votes": 1064,
+   "pct": 14.09
+  },
+  {
+   "candidate": "HINE, Rochelle",
+   "party": "The Greens",
+   "votes": 783,
+   "pct": 10.37
+  },
+  {
+   "candidate": "McPHEE, Ross",
+   "party": "Labour DLP",
+   "votes": 63,
+   "pct": 0.83
+  },
+  {
+   "candidate": "CAMERON, Martin",
+   "party": "The Nationals",
+   "votes": 1895,
+   "pct": 25.1
+  },
+  {
+   "candidate": "ACREMAN, Natalie",
+   "party": "Victorian Socialists",
+   "votes": 203,
+   "pct": 2.69
+  },
+  {
+   "candidate": "MURPHY, Casey",
+   "party": "One Nation Victoria",
+   "votes": 3213,
+   "pct": 42.56
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "CAMERON, Martin",
+   "party": "The Nationals",
+   "votes": 2014,
+   "pct": 50.53
+  },
+  {
+   "candidate": "MURPHY, Casey",
+   "party": "One Nation Victoria",
+   "votes": 1972,
+   "pct": 49.47
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/morwell-district-results/Morwell-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/morwell-district-results/Morwell-2CP-results-by-voting-centre"
+ }
+}

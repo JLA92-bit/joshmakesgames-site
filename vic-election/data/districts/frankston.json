@@ -1,0 +1,98 @@
+{
+ "slug": "frankston",
+ "name": "Frankston",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:14+00:00",
+ "title": "| Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:05",
+ "enrolment": 51237,
+ "counted_pct": 7.39,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "KNIPE, Jeff",
+   "party": "Legalise Cannabis Victoria",
+   "votes": 385,
+   "pct": 5.97
+  },
+  {
+   "candidate": "KELSALL, Henry",
+   "party": "",
+   "votes": 51,
+   "pct": 0.79
+  },
+  {
+   "candidate": "BARRY, Nicola",
+   "party": "",
+   "votes": 27,
+   "pct": 0.42
+  },
+  {
+   "candidate": "NICHOLES, Peter",
+   "party": "Family First",
+   "votes": 106,
+   "pct": 1.64
+  },
+  {
+   "candidate": "EDBROOKE, Paul",
+   "party": "Australian Labor Party",
+   "votes": 1234,
+   "pct": 19.12
+  },
+  {
+   "candidate": "ABRAHAM, Chrysten",
+   "party": "",
+   "votes": 111,
+   "pct": 1.72
+  },
+  {
+   "candidate": "AMBRY, Bree",
+   "party": "Liberal",
+   "votes": 1515,
+   "pct": 23.47
+  },
+  {
+   "candidate": "STAFFORD, Paul",
+   "party": "One Nation Victoria",
+   "votes": 1410,
+   "pct": 21.85
+  },
+  {
+   "candidate": "HARMAN, Julie",
+   "party": "Animal Justice Party",
+   "votes": 116,
+   "pct": 1.8
+  },
+  {
+   "candidate": "GOULAS, Katie",
+   "party": "The Greens",
+   "votes": 1259,
+   "pct": 19.51
+  },
+  {
+   "candidate": "CHEESEMAN, Andrew",
+   "party": "Victorian Socialists",
+   "votes": 240,
+   "pct": 3.72
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "EDBROOKE, Paul",
+   "party": "Australian Labor Party",
+   "votes": 794,
+   "pct": 45.14
+  },
+  {
+   "candidate": "AMBRY, Bree",
+   "party": "Liberal",
+   "votes": 965,
+   "pct": 54.86
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results/Frankston-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results/Frankston-2CP-results-by-voting-centre"
+ }
+}

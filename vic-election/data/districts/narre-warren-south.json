@@ -1,0 +1,80 @@
+{
+ "slug": "narre-warren-south",
+ "name": "Narre Warren South",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-south-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:04+00:00",
+ "title": "Narre Warren South election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "enrolment": 57195,
+ "counted_pct": 8.59,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "McCRACKEN, Bailey",
+   "party": "Victorian Socialists",
+   "votes": 222,
+   "pct": 2.44
+  },
+  {
+   "candidate": "CURRIE, Alan",
+   "party": "Family First",
+   "votes": 255,
+   "pct": 2.8
+  },
+  {
+   "candidate": "HAMMOND, Trevor",
+   "party": "One Nation Victoria",
+   "votes": 2121,
+   "pct": 23.29
+  },
+  {
+   "candidate": "DENKER, Lydia",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 89,
+   "pct": 0.98
+  },
+  {
+   "candidate": "WATSON, Scott",
+   "party": "",
+   "votes": 281,
+   "pct": 3.09
+  },
+  {
+   "candidate": "NAMBU, Jill",
+   "party": "The Greens",
+   "votes": 1259,
+   "pct": 13.82
+  },
+  {
+   "candidate": "KOOMEN, Stefan",
+   "party": "Australian Labor Party",
+   "votes": 2810,
+   "pct": 30.85
+  },
+  {
+   "candidate": "PETERSON, Norliah",
+   "party": "Liberal",
+   "votes": 2071,
+   "pct": 22.74
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "HAMMOND, Trevor",
+   "party": "One Nation Victoria",
+   "votes": 0,
+   "pct": 0.0
+  },
+  {
+   "candidate": "KOOMEN, Stefan",
+   "party": "Australian Labor Party",
+   "votes": 0,
+   "pct": 0.0
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-south-district-results/Narre-Warren-South-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-south-district-results/Narre-Warren-South-2CP-results-by-voting-centre"
+ }
+}

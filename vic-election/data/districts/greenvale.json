@@ -1,0 +1,92 @@
+{
+ "slug": "greenvale",
+ "name": "Greenvale",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/greenvale-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:23+00:00",
+ "title": "Greenvale election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "enrolment": 55541,
+ "counted_pct": 7.54,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "SAID, Hassan",
+   "party": "",
+   "votes": 248,
+   "pct": 5.71
+  },
+  {
+   "candidate": "SMELOV, Kirill",
+   "party": "Victorian Socialists",
+   "votes": 185,
+   "pct": 4.26
+  },
+  {
+   "candidate": "MCGINNESS, Declan",
+   "party": "The Greens",
+   "votes": 440,
+   "pct": 10.14
+  },
+  {
+   "candidate": "MOORE, Chris",
+   "party": "One Nation Victoria",
+   "votes": 1024,
+   "pct": 23.59
+  },
+  {
+   "candidate": "ZOUGHAIB, Yehya",
+   "party": "",
+   "votes": 65,
+   "pct": 1.5
+  },
+  {
+   "candidate": "YOHANNA, Mazen",
+   "party": "Citizens Party",
+   "votes": 85,
+   "pct": 1.96
+  },
+  {
+   "candidate": "TITHERIDGE, Michael",
+   "party": "Family First",
+   "votes": 86,
+   "pct": 1.98
+  },
+  {
+   "candidate": "FURINA, Rosanna",
+   "party": "Animal Justice Party",
+   "votes": 53,
+   "pct": 1.22
+  },
+  {
+   "candidate": "OVEREND, Jim",
+   "party": "Liberal",
+   "votes": 1101,
+   "pct": 25.37
+  },
+  {
+   "candidate": "WALTERS, Iwan",
+   "party": "Australian Labor Party",
+   "votes": 1053,
+   "pct": 24.26
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "MOORE, Chris",
+   "party": "One Nation Victoria",
+   "votes": 0,
+   "pct": 0.0
+  },
+  {
+   "candidate": "WALTERS, Iwan",
+   "party": "Australian Labor Party",
+   "votes": 0,
+   "pct": 0.0
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/greenvale-district-results/Greenvale-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/greenvale-district-results/Greenvale-2CP-results-by-voting-centre"
+ }
+}

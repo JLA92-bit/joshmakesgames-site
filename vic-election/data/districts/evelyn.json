@@ -1,0 +1,74 @@
+{
+ "slug": "evelyn",
+ "name": "Evelyn",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/evelyn-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:11+00:00",
+ "title": "Evelyn election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:05",
+ "enrolment": 53163,
+ "counted_pct": 4.12,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "SHERLOCK, Analise",
+   "party": "Australian Labor Party",
+   "votes": 1224,
+   "pct": 12.5
+  },
+  {
+   "candidate": "O'BRIEN, Michelle",
+   "party": "Family First",
+   "votes": 296,
+   "pct": 3.02
+  },
+  {
+   "candidate": "HENLEY, Andrew",
+   "party": "The Greens",
+   "votes": 1257,
+   "pct": 12.83
+  },
+  {
+   "candidate": "VALLENCE, Bridget",
+   "party": "Liberal",
+   "votes": 4085,
+   "pct": 41.71
+  },
+  {
+   "candidate": "HEALD, Jan",
+   "party": "Animal Justice Party",
+   "votes": 167,
+   "pct": 1.71
+  },
+  {
+   "candidate": "KILLEY, Daniel",
+   "party": "One Nation Victoria",
+   "votes": 2481,
+   "pct": 25.33
+  },
+  {
+   "candidate": "SCANLON, James",
+   "party": "Victorian Socialists",
+   "votes": 284,
+   "pct": 2.9
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "SHERLOCK, Analise",
+   "party": "Australian Labor Party",
+   "votes": 762,
+   "pct": 33.36
+  },
+  {
+   "candidate": "VALLENCE, Bridget",
+   "party": "Liberal",
+   "votes": 1522,
+   "pct": 66.64
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/evelyn-district-results/Evelyn-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/evelyn-district-results/Evelyn-2CP-results-by-voting-centre"
+ }
+}

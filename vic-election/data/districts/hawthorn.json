@@ -1,0 +1,74 @@
+{
+ "slug": "hawthorn",
+ "name": "Hawthorn",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hawthorn-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:26+00:00",
+ "title": "| Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "enrolment": 51920,
+ "counted_pct": 3.06,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "CROSBY, Clive",
+   "party": "Australian Labor Party",
+   "votes": 667,
+   "pct": 7.9
+  },
+  {
+   "candidate": "ROCHA, Kylie",
+   "party": "The Greens",
+   "votes": 920,
+   "pct": 10.9
+  },
+  {
+   "candidate": "IBUKI, Shima",
+   "party": "",
+   "votes": 2385,
+   "pct": 28.26
+  },
+  {
+   "candidate": "PRIBILOVICS, Paul",
+   "party": "One Nation Victoria",
+   "votes": 406,
+   "pct": 4.81
+  },
+  {
+   "candidate": "NICOLL, Adam",
+   "party": "Family First",
+   "votes": 56,
+   "pct": 0.66
+  },
+  {
+   "candidate": "McENEARNEY, Tess",
+   "party": "Victorian Socialists",
+   "votes": 223,
+   "pct": 2.64
+  },
+  {
+   "candidate": "PESUTTO, John",
+   "party": "Liberal",
+   "votes": 3783,
+   "pct": 44.82
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "IBUKI, Shima",
+   "party": "",
+   "votes": 1606,
+   "pct": 48.73
+  },
+  {
+   "candidate": "PESUTTO, John",
+   "party": "Liberal",
+   "votes": 1690,
+   "pct": 51.27
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hawthorn-district-results/Hawthorn-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hawthorn-district-results/Hawthorn-2CP-results-by-voting-centre"
+ }
+}

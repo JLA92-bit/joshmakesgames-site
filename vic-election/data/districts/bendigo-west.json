@@ -1,0 +1,74 @@
+{
+ "slug": "bendigo-west",
+ "name": "Bendigo West",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:41:41+00:00",
+ "title": "Bendigo West election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:02",
+ "enrolment": 49735,
+ "counted_pct": 4.93,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "SHALEVSKI, Tayne",
+   "party": "Victorian Socialists",
+   "votes": 343,
+   "pct": 6.45
+  },
+  {
+   "candidate": "HUTCHINGS, David",
+   "party": "The Nationals",
+   "votes": 1220,
+   "pct": 22.94
+  },
+  {
+   "candidate": "TRANTER, Debra",
+   "party": "Animal Justice Party",
+   "votes": 274,
+   "pct": 5.15
+  },
+  {
+   "candidate": "BALDWIN, Brenton",
+   "party": "Australian Labor Party",
+   "votes": 1057,
+   "pct": 19.87
+  },
+  {
+   "candidate": "SHAW, Liza",
+   "party": "The Greens",
+   "votes": 1037,
+   "pct": 19.5
+  },
+  {
+   "candidate": "HARISOPOULOS, Christos",
+   "party": "Family First",
+   "votes": 102,
+   "pct": 1.92
+  },
+  {
+   "candidate": "MORGAN, Ellen",
+   "party": "One Nation Victoria",
+   "votes": 1286,
+   "pct": 24.18
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "HUTCHINGS, David",
+   "party": "The Nationals",
+   "votes": 568,
+   "pct": 42.71
+  },
+  {
+   "candidate": "BALDWIN, Brenton",
+   "party": "Australian Labor Party",
+   "votes": 762,
+   "pct": 57.29
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results/Bendigo-West-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results/Bendigo-West-2CP-results-by-voting-centre"
+ }
+}

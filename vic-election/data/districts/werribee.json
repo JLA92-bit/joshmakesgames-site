@@ -1,0 +1,92 @@
+{
+ "slug": "werribee",
+ "name": "Werribee",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/werribee-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:49+00:00",
+ "title": "Werribee election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:16",
+ "enrolment": 62801,
+ "counted_pct": 7.96,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "HOPPER, Paul",
+   "party": "The West Party",
+   "votes": 369,
+   "pct": 8.67
+  },
+  {
+   "candidate": "KUMAR, Tushar",
+   "party": "The Greens",
+   "votes": 524,
+   "pct": 12.31
+  },
+  {
+   "candidate": "PATERAS, Paul",
+   "party": "One Nation Victoria",
+   "votes": 992,
+   "pct": 23.3
+  },
+  {
+   "candidate": "CLARK, Reece",
+   "party": "Liberal",
+   "votes": 971,
+   "pct": 22.8
+  },
+  {
+   "candidate": "EMERSON, Matt",
+   "party": "Family First",
+   "votes": 111,
+   "pct": 2.61
+  },
+  {
+   "candidate": "LISTER, John",
+   "party": "Australian Labor Party",
+   "votes": 933,
+   "pct": 21.91
+  },
+  {
+   "candidate": "ORCHARD, Jeremy",
+   "party": "Labour DLP",
+   "votes": 34,
+   "pct": 0.8
+  },
+  {
+   "candidate": "MUNRO, Sue",
+   "party": "Victorian Socialists",
+   "votes": 276,
+   "pct": 6.48
+  },
+  {
+   "candidate": "RAIZADA, Monica Sharma",
+   "party": "",
+   "votes": 33,
+   "pct": 0.78
+  },
+  {
+   "candidate": "KAYAGURLA, Sandhya",
+   "party": "The Republican",
+   "votes": 15,
+   "pct": 0.35
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "CLARK, Reece",
+   "party": "Liberal",
+   "votes": 0,
+   "pct": 0.0
+  },
+  {
+   "candidate": "LISTER, John",
+   "party": "Australian Labor Party",
+   "votes": 0,
+   "pct": 0.0
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/werribee-district-results/Werribee-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/werribee-district-results/Werribee-2CP-results-by-voting-centre"
+ }
+}

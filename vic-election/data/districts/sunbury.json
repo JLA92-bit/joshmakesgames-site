@@ -1,0 +1,98 @@
+{
+ "slug": "sunbury",
+ "name": "Sunbury",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sunbury-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:36+00:00",
+ "title": "Sunbury election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:16",
+ "enrolment": 51664,
+ "counted_pct": 6.28,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "BREMNER, Adam",
+   "party": "Victorian Socialists",
+   "votes": 423,
+   "pct": 6.79
+  },
+  {
+   "candidate": "DABROWSKI, Elita",
+   "party": "One Nation Victoria",
+   "votes": 1757,
+   "pct": 28.22
+  },
+  {
+   "candidate": "VINE, Geoff",
+   "party": "The West Party",
+   "votes": 41,
+   "pct": 0.66
+  },
+  {
+   "candidate": "COTTOM, Simmone",
+   "party": "Liberal",
+   "votes": 1755,
+   "pct": 28.19
+  },
+  {
+   "candidate": "BULL, Josh",
+   "party": "Australian Labor Party",
+   "votes": 1187,
+   "pct": 19.07
+  },
+  {
+   "candidate": "MOHR, Rohanna",
+   "party": "Animal Justice Party",
+   "votes": 122,
+   "pct": 1.96
+  },
+  {
+   "candidate": "BETHI, Bhasker Reddy",
+   "party": "The Republican",
+   "votes": 9,
+   "pct": 0.14
+  },
+  {
+   "candidate": "STAFFORD, John",
+   "party": "Labour DLP",
+   "votes": 45,
+   "pct": 0.72
+  },
+  {
+   "candidate": "MEDCRAFT, Steve Jack",
+   "party": "",
+   "votes": 72,
+   "pct": 1.16
+  },
+  {
+   "candidate": "GRANGER-BROWN, Lauren",
+   "party": "The Greens",
+   "votes": 686,
+   "pct": 11.02
+  },
+  {
+   "candidate": "BATRES, Elmer",
+   "party": "Family First",
+   "votes": 129,
+   "pct": 2.07
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "DABROWSKI, Elita",
+   "party": "One Nation Victoria",
+   "votes": 1794,
+   "pct": 54.6
+  },
+  {
+   "candidate": "BULL, Josh",
+   "party": "Australian Labor Party",
+   "votes": 1492,
+   "pct": 45.4
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sunbury-district-results/Sunbury-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sunbury-district-results/Sunbury-2CP-results-by-voting-centre"
+ }
+}

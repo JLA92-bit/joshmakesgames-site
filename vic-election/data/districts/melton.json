@@ -1,0 +1,98 @@
+{
+ "slug": "melton",
+ "name": "Melton",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melton-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:46+00:00",
+ "title": "Melton election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "enrolment": 60210,
+ "counted_pct": 10.86,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "LEGRO, Hayden",
+   "party": "The West Party",
+   "votes": 112,
+   "pct": 2.73
+  },
+  {
+   "candidate": "KELLY, Daire",
+   "party": "Victorian Socialists",
+   "votes": 132,
+   "pct": 3.22
+  },
+  {
+   "candidate": "FARUQ, M.D. Omor",
+   "party": "",
+   "votes": 34,
+   "pct": 0.83
+  },
+  {
+   "candidate": "LEVCHENKOVA, Veronika",
+   "party": "The Greens",
+   "votes": 558,
+   "pct": 13.59
+  },
+  {
+   "candidate": "ADIN-JAMES, Fiona",
+   "party": "Animal Justice Party",
+   "votes": 59,
+   "pct": 1.44
+  },
+  {
+   "candidate": "BINGHAM, Jarrod",
+   "party": "Liberal",
+   "votes": 929,
+   "pct": 22.63
+  },
+  {
+   "candidate": "WEST, Marlene",
+   "party": "Family First",
+   "votes": 85,
+   "pct": 2.07
+  },
+  {
+   "candidate": "BORG, Broden",
+   "party": "Australian Labor Party",
+   "votes": 790,
+   "pct": 19.24
+  },
+  {
+   "candidate": "PERERA, Jason Spencer",
+   "party": "",
+   "votes": 31,
+   "pct": 0.76
+  },
+  {
+   "candidate": "FRASER, Jason",
+   "party": "",
+   "votes": 56,
+   "pct": 1.36
+  },
+  {
+   "candidate": "KATSELIS, Matthew",
+   "party": "One Nation Victoria",
+   "votes": 1319,
+   "pct": 32.13
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "BINGHAM, Jarrod",
+   "party": "Liberal",
+   "votes": 0,
+   "pct": 0.0
+  },
+  {
+   "candidate": "BORG, Broden",
+   "party": "Australian Labor Party",
+   "votes": 0,
+   "pct": 0.0
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melton-district-results/Melton-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melton-district-results/Melton-2CP-results-by-voting-centre"
+ }
+}

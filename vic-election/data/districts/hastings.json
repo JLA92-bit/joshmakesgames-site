@@ -1,0 +1,74 @@
+{
+ "slug": "hastings",
+ "name": "Hastings",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hastings-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:23+00:00",
+ "title": "Hastings District results | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "enrolment": 50849,
+ "counted_pct": 4.76,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "COULSON, Chloe",
+   "party": "Animal Justice Party",
+   "votes": 429,
+   "pct": 3.77
+  },
+  {
+   "candidate": "DENMAN, Michael",
+   "party": "Victorian Socialists",
+   "votes": 259,
+   "pct": 2.28
+  },
+  {
+   "candidate": "WILLOUGHBY, Isaac",
+   "party": "The Greens",
+   "votes": 1410,
+   "pct": 12.4
+  },
+  {
+   "candidate": "MERCURIO, Paul",
+   "party": "Australian Labor Party",
+   "votes": 1995,
+   "pct": 17.55
+  },
+  {
+   "candidate": "SCHIEFLER, Frank",
+   "party": "Liberal",
+   "votes": 3768,
+   "pct": 33.15
+  },
+  {
+   "candidate": "SMART, Jason",
+   "party": "",
+   "votes": 114,
+   "pct": 1.0
+  },
+  {
+   "candidate": "ANGELICO, Peter",
+   "party": "One Nation Victoria",
+   "votes": 3392,
+   "pct": 29.84
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "MERCURIO, Paul",
+   "party": "Australian Labor Party",
+   "votes": 1395,
+   "pct": 43.14
+  },
+  {
+   "candidate": "ANGELICO, Peter",
+   "party": "One Nation Victoria",
+   "votes": 1839,
+   "pct": 56.86
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hastings-district-results/Hastings-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hastings-district-results/Hastings-2CP-results-by-voting-centre"
+ }
+}

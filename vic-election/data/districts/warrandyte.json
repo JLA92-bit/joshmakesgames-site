@@ -1,0 +1,68 @@
+{
+ "slug": "warrandyte",
+ "name": "Warrandyte",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/warrandyte-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:42+00:00",
+ "title": "Warrandyte election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:16",
+ "enrolment": 52068,
+ "counted_pct": 2.39,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "STANLEY, John",
+   "party": "Victorian Socialists",
+   "votes": 271,
+   "pct": 3.07
+  },
+  {
+   "candidate": "WERNER, Nicole",
+   "party": "Liberal",
+   "votes": 4781,
+   "pct": 54.23
+  },
+  {
+   "candidate": "PATERSON, Rebecca",
+   "party": "Australian Labor Party",
+   "votes": 1281,
+   "pct": 14.53
+  },
+  {
+   "candidate": "SCHWAB, Caleb",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 71,
+   "pct": 0.81
+  },
+  {
+   "candidate": "MURADIAN, Vanessa",
+   "party": "The Greens",
+   "votes": 1285,
+   "pct": 14.58
+  },
+  {
+   "candidate": "BURNSIDE, Mark",
+   "party": "One Nation Victoria",
+   "votes": 1127,
+   "pct": 12.78
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "WERNER, Nicole",
+   "party": "Liberal",
+   "votes": 3047,
+   "pct": 66.94
+  },
+  {
+   "candidate": "PATERSON, Rebecca",
+   "party": "Australian Labor Party",
+   "votes": 1505,
+   "pct": 33.06
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/warrandyte-district-results/Warrandyte-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/warrandyte-district-results/Warrandyte-2CP-results-by-voting-centre"
+ }
+}

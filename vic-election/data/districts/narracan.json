@@ -1,0 +1,68 @@
+{
+ "slug": "narracan",
+ "name": "Narracan",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narracan-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:57+00:00",
+ "title": "Narracan election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "enrolment": 55254,
+ "counted_pct": 2.6,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "DETHLEFS, Geoff",
+   "party": "Family First",
+   "votes": 518,
+   "pct": 3.64
+  },
+  {
+   "candidate": "FARNHAM, Wayne",
+   "party": "Liberal",
+   "votes": 4519,
+   "pct": 31.75
+  },
+  {
+   "candidate": "WEAVER, Alyssa",
+   "party": "The Greens",
+   "votes": 1548,
+   "pct": 10.88
+  },
+  {
+   "candidate": "PAGE, Moss",
+   "party": "Victorian Socialists",
+   "votes": 394,
+   "pct": 2.77
+  },
+  {
+   "candidate": "LUCAS, Ben",
+   "party": "One Nation Victoria",
+   "votes": 5838,
+   "pct": 41.02
+  },
+  {
+   "candidate": "LANGLEY, Jannette",
+   "party": "Australian Labor Party",
+   "votes": 1415,
+   "pct": 9.94
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "FARNHAM, Wayne",
+   "party": "Liberal",
+   "votes": 5092,
+   "pct": 53.63
+  },
+  {
+   "candidate": "LUCAS, Ben",
+   "party": "One Nation Victoria",
+   "votes": 4403,
+   "pct": 46.37
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narracan-district-results/Narracan-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narracan-district-results/Narracan-2CP-results-by-voting-centre"
+ }
+}

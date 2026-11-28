@@ -1,0 +1,92 @@
+{
+ "slug": "pascoe-vale",
+ "name": "Pascoe Vale",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pascoe-vale-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:14+00:00",
+ "title": "Pascoe Vale election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:13",
+ "enrolment": 52169,
+ "counted_pct": 4.58,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "HICKEY, Amanda",
+   "party": "Free Palestine",
+   "votes": 74,
+   "pct": 1.12
+  },
+  {
+   "candidate": "LAWRENCE, Stuart",
+   "party": "Climate Action Now",
+   "votes": 33,
+   "pct": 0.5
+  },
+  {
+   "candidate": "CIANFLONE, Anthony",
+   "party": "Australian Labor Party",
+   "votes": 1519,
+   "pct": 22.91
+  },
+  {
+   "candidate": "GANCI, Rosemarie Pauline",
+   "party": "One Nation Victoria",
+   "votes": 802,
+   "pct": 12.09
+  },
+  {
+   "candidate": "PANOPOULOS, Angelica",
+   "party": "The Greens",
+   "votes": 1992,
+   "pct": 30.04
+  },
+  {
+   "candidate": "ASHTON, Kathrine",
+   "party": "Family First",
+   "votes": 57,
+   "pct": 0.86
+  },
+  {
+   "candidate": "ANDREWARTHA, Jacob",
+   "party": "Socialist Alliance",
+   "votes": 105,
+   "pct": 1.58
+  },
+  {
+   "candidate": "HAUPT, Kerry",
+   "party": "I'm Voting to Avoid the Fine",
+   "votes": 47,
+   "pct": 0.71
+  },
+  {
+   "candidate": "SHAMSILI, Yasemin",
+   "party": "Victorian Socialists",
+   "votes": 738,
+   "pct": 11.13
+  },
+  {
+   "candidate": "TAGGAR, Rohit",
+   "party": "Liberal",
+   "votes": 1264,
+   "pct": 19.06
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "CIANFLONE, Anthony",
+   "party": "Australian Labor Party",
+   "votes": 1004,
+   "pct": 40.93
+  },
+  {
+   "candidate": "PANOPOULOS, Angelica",
+   "party": "The Greens",
+   "votes": 1449,
+   "pct": 59.07
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pascoe-vale-district-results/Pascoe-Vale-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pascoe-vale-district-results/Pascoe-Vale-2CP-results-by-voting-centre"
+ }
+}

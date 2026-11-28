@@ -1,0 +1,80 @@
+{
+ "slug": "bayswater",
+ "name": "Bayswater",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bayswater-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:41:33+00:00",
+ "title": "Bayswater election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:02",
+ "enrolment": 51511,
+ "counted_pct": 6.36,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "BLEAKNEY, Kayte",
+   "party": "One Nation Victoria",
+   "votes": 2001,
+   "pct": 20.86
+  },
+  {
+   "candidate": "KENNEDY, Jess",
+   "party": "The Greens",
+   "votes": 1671,
+   "pct": 17.42
+  },
+  {
+   "candidate": "BUXTON, Julie",
+   "party": "Australian Labor Party",
+   "votes": 1815,
+   "pct": 18.92
+  },
+  {
+   "candidate": "KITCHEN, David",
+   "party": "Liberal",
+   "votes": 3222,
+   "pct": 33.58
+  },
+  {
+   "candidate": "CLARKE, Mathew",
+   "party": "",
+   "votes": 157,
+   "pct": 1.64
+  },
+  {
+   "candidate": "HUBBARD, Naomi",
+   "party": "Labour DLP",
+   "votes": 62,
+   "pct": 0.65
+  },
+  {
+   "candidate": "FERGUSON, Alec",
+   "party": "Victorian Socialists",
+   "votes": 386,
+   "pct": 4.02
+  },
+  {
+   "candidate": "COOMBES, Gary",
+   "party": "Family First",
+   "votes": 280,
+   "pct": 2.92
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "BUXTON, Julie",
+   "party": "Australian Labor Party",
+   "votes": 2558,
+   "pct": 39.52
+  },
+  {
+   "candidate": "KITCHEN, David",
+   "party": "Liberal",
+   "votes": 3915,
+   "pct": 60.48
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bayswater-district-results/Bayswater-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bayswater-district-results/Bayswater-2CP-results-by-voting-centre"
+ }
+}

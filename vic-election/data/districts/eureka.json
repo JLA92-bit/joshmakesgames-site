@@ -1,0 +1,86 @@
+{
+ "slug": "eureka",
+ "name": "Eureka",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eureka-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:09+00:00",
+ "title": "Eureka election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:05",
+ "enrolment": 58117,
+ "counted_pct": 5.63,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "ZIVKOVIC, Belinda",
+   "party": "",
+   "votes": 413,
+   "pct": 2.44
+  },
+  {
+   "candidate": "McCOLL, Sam",
+   "party": "The Greens",
+   "votes": 2585,
+   "pct": 15.24
+  },
+  {
+   "candidate": "SETTLE, Michaela",
+   "party": "Australian Labor Party",
+   "votes": 2869,
+   "pct": 16.92
+  },
+  {
+   "candidate": "RAVEN, Andy",
+   "party": "Victorian Socialists",
+   "votes": 401,
+   "pct": 2.36
+  },
+  {
+   "candidate": "HARKNESS, Ian Maxwell",
+   "party": "Family First",
+   "votes": 355,
+   "pct": 2.09
+  },
+  {
+   "candidate": "MORRISON, Wendy",
+   "party": "Animal Justice Party",
+   "votes": 306,
+   "pct": 1.8
+  },
+  {
+   "candidate": "BALLINGER, Paul",
+   "party": "One Nation Victoria",
+   "votes": 5206,
+   "pct": 30.7
+  },
+  {
+   "candidate": "MUIR, Emma",
+   "party": "Liberal",
+   "votes": 4493,
+   "pct": 26.49
+  },
+  {
+   "candidate": "VENDITTI-TAYLOR, Steven",
+   "party": "",
+   "votes": 330,
+   "pct": 1.95
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "SETTLE, Michaela",
+   "party": "Australian Labor Party",
+   "votes": 2906,
+   "pct": 42.34
+  },
+  {
+   "candidate": "MUIR, Emma",
+   "party": "Liberal",
+   "votes": 3957,
+   "pct": 57.66
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eureka-district-results/Eureka-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eureka-district-results/Eureka-2CP-results-by-voting-centre"
+ }
+}

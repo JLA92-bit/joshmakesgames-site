@@ -1,0 +1,86 @@
+{
+ "slug": "macedon",
+ "name": "Macedon",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/macedon-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:39+00:00",
+ "title": "Macedon election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:08",
+ "enrolment": 51446,
+ "counted_pct": 5.87,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "BONANNO, Dom",
+   "party": "",
+   "votes": 159,
+   "pct": 2.17
+  },
+  {
+   "candidate": "DEATH, Annette",
+   "party": "Australian Labor Party",
+   "votes": 1186,
+   "pct": 16.16
+  },
+  {
+   "candidate": "WILSON, Catherine",
+   "party": "Victorian Socialists",
+   "votes": 248,
+   "pct": 3.38
+  },
+  {
+   "candidate": "MCRAE MCLEOD, Marley",
+   "party": "The Greens",
+   "votes": 1274,
+   "pct": 17.35
+  },
+  {
+   "candidate": "SETON, Michael",
+   "party": "",
+   "votes": 184,
+   "pct": 2.51
+  },
+  {
+   "candidate": "MAYNE, Bernadette",
+   "party": "Family First",
+   "votes": 98,
+   "pct": 1.33
+  },
+  {
+   "candidate": "KORINFSKY, Natalie",
+   "party": "Animal Justice Party",
+   "votes": 397,
+   "pct": 5.41
+  },
+  {
+   "candidate": "KENDALL, Kate",
+   "party": "Liberal",
+   "votes": 2094,
+   "pct": 28.52
+  },
+  {
+   "candidate": "PAROLIN, Damien",
+   "party": "One Nation Victoria",
+   "votes": 1701,
+   "pct": 23.17
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "DEATH, Annette",
+   "party": "Australian Labor Party",
+   "votes": 701,
+   "pct": 53.11
+  },
+  {
+   "candidate": "KENDALL, Kate",
+   "party": "Liberal",
+   "votes": 619,
+   "pct": 46.89
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/macedon-district-results/Macedon-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/macedon-district-results/Macedon-2CP-results-by-voting-centre"
+ }
+}

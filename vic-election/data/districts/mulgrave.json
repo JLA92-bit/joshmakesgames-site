@@ -1,0 +1,80 @@
+{
+ "slug": "mulgrave",
+ "name": "Mulgrave",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mulgrave-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:56+00:00",
+ "title": "Mulgrave election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "enrolment": 48090,
+ "counted_pct": 8.74,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "REBBECHI, Cody",
+   "party": "One Nation Victoria",
+   "votes": 568,
+   "pct": 15.9
+  },
+  {
+   "candidate": "SCHOFIELD, Paul J",
+   "party": "The Greens",
+   "votes": 400,
+   "pct": 11.2
+  },
+  {
+   "candidate": "TRAN, Charles",
+   "party": "Liberal",
+   "votes": 1167,
+   "pct": 32.67
+  },
+  {
+   "candidate": "FOSTER, Eden",
+   "party": "Australian Labor Party",
+   "votes": 1003,
+   "pct": 28.08
+  },
+  {
+   "candidate": "THEODOSSOPOULOU, Fotini",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 43,
+   "pct": 1.2
+  },
+  {
+   "candidate": "DOBRZYNSKI, Stewart",
+   "party": "Family First",
+   "votes": 51,
+   "pct": 1.43
+  },
+  {
+   "candidate": "COOK, Ian",
+   "party": "",
+   "votes": 261,
+   "pct": 7.31
+  },
+  {
+   "candidate": "BUCHANAN, Connor",
+   "party": "Victorian Socialists",
+   "votes": 79,
+   "pct": 2.21
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "FOSTER, Eden",
+   "party": "Australian Labor Party",
+   "votes": 556,
+   "pct": 52.5
+  },
+  {
+   "candidate": "COOK, Ian",
+   "party": "",
+   "votes": 503,
+   "pct": 47.5
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mulgrave-district-results/Mulgrave-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mulgrave-district-results/Mulgrave-2CP-results-by-voting-centre"
+ }
+}

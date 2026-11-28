@@ -1,0 +1,86 @@
+{
+ "slug": "ovens-valley",
+ "name": "Ovens Valley",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ovens-valley-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:08+00:00",
+ "title": "Ovens Valley election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:13",
+ "enrolment": 49586,
+ "counted_pct": 6.3,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "McCURDY, Tim",
+   "party": "The Nationals",
+   "votes": 3976,
+   "pct": 33.87
+  },
+  {
+   "candidate": "FIDGE, Julian",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 251,
+   "pct": 2.14
+  },
+  {
+   "candidate": "MURPHY, Bronwyn",
+   "party": "Victorian Socialists",
+   "votes": 89,
+   "pct": 0.76
+  },
+  {
+   "candidate": "ROUEL, James",
+   "party": "One Nation Victoria",
+   "votes": 3940,
+   "pct": 33.57
+  },
+  {
+   "candidate": "MANNING, Steve",
+   "party": "",
+   "votes": 2080,
+   "pct": 17.72
+  },
+  {
+   "candidate": "NORTON-SMITH, Carol",
+   "party": "Family First",
+   "votes": 124,
+   "pct": 1.06
+  },
+  {
+   "candidate": "SMITH, Jennifer",
+   "party": "Australian Labor Party",
+   "votes": 604,
+   "pct": 5.15
+  },
+  {
+   "candidate": "GILBERT, Benjamin",
+   "party": "The Greens",
+   "votes": 542,
+   "pct": 4.62
+  },
+  {
+   "candidate": "LITCHFIELD, Sue",
+   "party": "Animal Justice Party",
+   "votes": 132,
+   "pct": 1.12
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "McCURDY, Tim",
+   "party": "The Nationals",
+   "votes": 3188,
+   "pct": 66.62
+  },
+  {
+   "candidate": "ROUEL, James",
+   "party": "One Nation Victoria",
+   "votes": 1597,
+   "pct": 33.38
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ovens-valley-district-results/Ovens-Valley-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ovens-valley-district-results/Ovens-Valley-2CP-results-by-voting-centre"
+ }
+}

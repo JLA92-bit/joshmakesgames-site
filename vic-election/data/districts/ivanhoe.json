@@ -1,0 +1,80 @@
+{
+ "slug": "ivanhoe",
+ "name": "Ivanhoe",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ivanhoe-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:27+00:00",
+ "title": "Ivanhoe election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "enrolment": 50245,
+ "counted_pct": 5.71,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "KENNEDY, Michelle",
+   "party": "",
+   "votes": 785,
+   "pct": 6.91
+  },
+  {
+   "candidate": "MILNE, Ben",
+   "party": "Victorian Socialists",
+   "votes": 766,
+   "pct": 6.74
+  },
+  {
+   "candidate": "CARBINES, Anthony",
+   "party": "Australian Labor Party",
+   "votes": 2456,
+   "pct": 21.61
+  },
+  {
+   "candidate": "LOPEZ RIOS, Oscar",
+   "party": "Liberal",
+   "votes": 3554,
+   "pct": 31.28
+  },
+  {
+   "candidate": "HUTCHINSON, Wayne",
+   "party": "One Nation Victoria",
+   "votes": 1029,
+   "pct": 9.06
+  },
+  {
+   "candidate": "CASONATO, Ren",
+   "party": "Family First",
+   "votes": 122,
+   "pct": 1.07
+  },
+  {
+   "candidate": "CRAWLEY, Nina",
+   "party": "The Greens",
+   "votes": 2599,
+   "pct": 22.87
+  },
+  {
+   "candidate": "BERGMAN, Dora",
+   "party": "",
+   "votes": 52,
+   "pct": 0.46
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "CARBINES, Anthony",
+   "party": "Australian Labor Party",
+   "votes": 936,
+   "pct": 50.21
+  },
+  {
+   "candidate": "LOPEZ RIOS, Oscar",
+   "party": "Liberal",
+   "votes": 928,
+   "pct": 49.79
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ivanhoe-district-results/Ivanhoe-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ivanhoe-district-results/Ivanhoe-2CP-results-by-voting-centre"
+ }
+}

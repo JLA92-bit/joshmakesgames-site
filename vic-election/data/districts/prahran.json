@@ -1,0 +1,110 @@
+{
+ "slug": "prahran",
+ "name": "Prahran",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/prahran-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:17+00:00",
+ "title": "Prahran election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:13",
+ "enrolment": 49678,
+ "counted_pct": 6.59,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "FINNIGAN, Tosh-Jake",
+   "party": "",
+   "votes": 29,
+   "pct": 0.62
+  },
+  {
+   "candidate": "O'NEILL, G. Daniel",
+   "party": "Animal Justice Party",
+   "votes": 98,
+   "pct": 2.1
+  },
+  {
+   "candidate": "LEETON WATTS, George",
+   "party": "",
+   "votes": 53,
+   "pct": 1.14
+  },
+  {
+   "candidate": "WESTAWAY, Rachel",
+   "party": "Liberal",
+   "votes": 1352,
+   "pct": 29.01
+  },
+  {
+   "candidate": "MENADUE, Alan",
+   "party": "",
+   "votes": 11,
+   "pct": 0.24
+  },
+  {
+   "candidate": "WONG, Nicholas",
+   "party": "Climate Action Now",
+   "votes": 12,
+   "pct": 0.26
+  },
+  {
+   "candidate": "JONES, Daniel",
+   "party": "Free Palestine",
+   "votes": 16,
+   "pct": 0.34
+  },
+  {
+   "candidate": "DICKS, Max",
+   "party": "",
+   "votes": 36,
+   "pct": 0.77
+  },
+  {
+   "candidate": "DOUEIHI, Clayton",
+   "party": "Victorian Socialists",
+   "votes": 311,
+   "pct": 6.67
+  },
+  {
+   "candidate": "JONAS, Morgan",
+   "party": "Safety Victoria – Violent Crime Prevention",
+   "votes": 23,
+   "pct": 0.49
+  },
+  {
+   "candidate": "VIRSU, Shaun",
+   "party": "One Nation Victoria",
+   "votes": 293,
+   "pct": 6.29
+  },
+  {
+   "candidate": "HOPPER, Meghan",
+   "party": "Australian Labor Party",
+   "votes": 664,
+   "pct": 14.25
+  },
+  {
+   "candidate": "DI CAMILLO, Angelica",
+   "party": "The Greens",
+   "votes": 1763,
+   "pct": 37.82
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "WESTAWAY, Rachel",
+   "party": "Liberal",
+   "votes": 598,
+   "pct": 38.98
+  },
+  {
+   "candidate": "DI CAMILLO, Angelica",
+   "party": "The Greens",
+   "votes": 936,
+   "pct": 61.02
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/prahran-district-results/Prahran-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/prahran-district-results/Prahran-2CP-results-by-voting-centre"
+ }
+}

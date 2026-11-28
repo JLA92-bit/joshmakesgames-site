@@ -1,0 +1,104 @@
+{
+ "slug": "ripon",
+ "name": "Ripon",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ripon-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:25+00:00",
+ "title": "Ripon election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:13",
+ "enrolment": 54525,
+ "counted_pct": 9.27,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "WOJTKOWSKI, Krzysztof",
+   "party": "Shooters, Fishers and Farmers Party Victoria",
+   "votes": 165,
+   "pct": 2.96
+  },
+  {
+   "candidate": "QUINCE, Bernard",
+   "party": "",
+   "votes": 25,
+   "pct": 0.45
+  },
+  {
+   "candidate": "MCGRATH, Mark",
+   "party": "Family First",
+   "votes": 92,
+   "pct": 1.65
+  },
+  {
+   "candidate": "SKRUZNY, Ronald",
+   "party": "Labour DLP",
+   "votes": 42,
+   "pct": 0.75
+  },
+  {
+   "candidate": "BRENNAN-JONES, Taylah",
+   "party": "Victorian Socialists",
+   "votes": 90,
+   "pct": 1.62
+  },
+  {
+   "candidate": "BARRY, Jeff",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 18,
+   "pct": 0.32
+  },
+  {
+   "candidate": "ANDREI, Trevor Scott",
+   "party": "",
+   "votes": 21,
+   "pct": 0.38
+  },
+  {
+   "candidate": "HAYLETT, Martha",
+   "party": "Australian Labor Party",
+   "votes": 834,
+   "pct": 14.98
+  },
+  {
+   "candidate": "DRYLIE, Tim",
+   "party": "The Greens",
+   "votes": 474,
+   "pct": 8.52
+  },
+  {
+   "candidate": "BUXTON, Donna",
+   "party": "One Nation Victoria",
+   "votes": 2100,
+   "pct": 37.73
+  },
+  {
+   "candidate": "READ, Megan",
+   "party": "Liberal",
+   "votes": 1245,
+   "pct": 22.37
+  },
+  {
+   "candidate": "ARMSTRONG, Jo",
+   "party": "The Nationals",
+   "votes": 460,
+   "pct": 8.26
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "HAYLETT, Martha",
+   "party": "Australian Labor Party",
+   "votes": 1000,
+   "pct": 30.73
+  },
+  {
+   "candidate": "BUXTON, Donna",
+   "party": "One Nation Victoria",
+   "votes": 2254,
+   "pct": 69.27
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ripon-district-results/Ripon-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ripon-district-results/Ripon-2CP-results-by-voting-centre"
+ }
+}

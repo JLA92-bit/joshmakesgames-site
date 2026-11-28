@@ -1,0 +1,86 @@
+{
+ "slug": "berwick",
+ "name": "Berwick",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:41:42+00:00",
+ "title": "Berwick election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:02",
+ "enrolment": 67010,
+ "counted_pct": 6.1,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "KHAN, Rana",
+   "party": "Australian Labor Party",
+   "votes": 1706,
+   "pct": 15.7
+  },
+  {
+   "candidate": "DE SILVA, Roshan",
+   "party": "The Greens",
+   "votes": 1627,
+   "pct": 14.97
+  },
+  {
+   "candidate": "DE PAOLIS, Vincenzo",
+   "party": "Family First",
+   "votes": 215,
+   "pct": 1.98
+  },
+  {
+   "candidate": "PIASTRINO, Michael",
+   "party": "One Nation Victoria",
+   "votes": 2173,
+   "pct": 20.0
+  },
+  {
+   "candidate": "BATTIN, Brad",
+   "party": "Liberal",
+   "votes": 4765,
+   "pct": 43.85
+  },
+  {
+   "candidate": "DOWLING, Scott",
+   "party": "Citizens Party",
+   "votes": 58,
+   "pct": 0.53
+  },
+  {
+   "candidate": "JOHN, David",
+   "party": "",
+   "votes": 53,
+   "pct": 0.49
+  },
+  {
+   "candidate": "AMARASIRI GUNAWARDANA, Nalinda",
+   "party": "Victorian Socialists",
+   "votes": 174,
+   "pct": 1.6
+  },
+  {
+   "candidate": "KING, Ethelyn",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 95,
+   "pct": 0.87
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "KHAN, Rana",
+   "party": "Australian Labor Party",
+   "votes": 1229,
+   "pct": 33.15
+  },
+  {
+   "candidate": "BATTIN, Brad",
+   "party": "Liberal",
+   "votes": 2478,
+   "pct": 66.85
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results/Berwick-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results/Berwick-2CP-results-by-voting-centre"
+ }
+}

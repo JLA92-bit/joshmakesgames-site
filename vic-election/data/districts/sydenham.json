@@ -1,0 +1,104 @@
+{
+ "slug": "sydenham",
+ "name": "Sydenham",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sydenham-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:38+00:00",
+ "title": "Sydenham election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:16",
+ "enrolment": 64794,
+ "counted_pct": 11.79,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "VANDENBERG, Ashleigh",
+   "party": "",
+   "votes": 118,
+   "pct": 1.94
+  },
+  {
+   "candidate": "CROES, Nancy G",
+   "party": "Family First",
+   "votes": 163,
+   "pct": 2.68
+  },
+  {
+   "candidate": "LANKALA KENDERLA, Laxmi",
+   "party": "The Republican",
+   "votes": 21,
+   "pct": 0.35
+  },
+  {
+   "candidate": "LANCASHIRE, Bruce",
+   "party": "The West Party",
+   "votes": 52,
+   "pct": 0.86
+  },
+  {
+   "candidate": "KERR, Maria",
+   "party": "",
+   "votes": 143,
+   "pct": 2.35
+  },
+  {
+   "candidate": "BAUCH, Joh",
+   "party": "One Nation Victoria",
+   "votes": 1646,
+   "pct": 27.1
+  },
+  {
+   "candidate": "MOUSSI, Nathalie",
+   "party": "Liberal",
+   "votes": 1607,
+   "pct": 26.46
+  },
+  {
+   "candidate": "SINCLAIR, Brandon",
+   "party": "Labour DLP",
+   "votes": 60,
+   "pct": 0.99
+  },
+  {
+   "candidate": "POON, Bruce",
+   "party": "Animal Justice Party",
+   "votes": 70,
+   "pct": 1.15
+  },
+  {
+   "candidate": "RASIC, Uros",
+   "party": "Australian Labor Party",
+   "votes": 1254,
+   "pct": 20.65
+  },
+  {
+   "candidate": "JANE, Maggie",
+   "party": "The Greens",
+   "votes": 676,
+   "pct": 11.13
+  },
+  {
+   "candidate": "KHAN, Shania",
+   "party": "Victorian Socialists",
+   "votes": 263,
+   "pct": 4.33
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "MOUSSI, Nathalie",
+   "party": "Liberal",
+   "votes": 164,
+   "pct": 53.25
+  },
+  {
+   "candidate": "RASIC, Uros",
+   "party": "Australian Labor Party",
+   "votes": 144,
+   "pct": 46.75
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sydenham-district-results/Sydenham-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sydenham-district-results/Sydenham-2CP-results-by-voting-centre"
+ }
+}

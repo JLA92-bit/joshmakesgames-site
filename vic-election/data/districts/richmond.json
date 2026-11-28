@@ -1,0 +1,86 @@
+{
+ "slug": "richmond",
+ "name": "Richmond",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/richmond-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:24+00:00",
+ "title": "| Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:13",
+ "enrolment": 49900,
+ "counted_pct": 4.38,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "RINDFLEISH, Harrison",
+   "party": "One Nation Victoria",
+   "votes": 259,
+   "pct": 4.66
+  },
+  {
+   "candidate": "APONSO, Charles",
+   "party": "Liberal",
+   "votes": 1046,
+   "pct": 18.8
+  },
+  {
+   "candidate": "DITE, Chris",
+   "party": "Victorian Socialists",
+   "votes": 655,
+   "pct": 11.77
+  },
+  {
+   "candidate": "MCKENZIE, Sarah",
+   "party": "Australian Labor Party",
+   "votes": 1062,
+   "pct": 19.09
+  },
+  {
+   "candidate": "MAYNARD, Christine",
+   "party": "",
+   "votes": 32,
+   "pct": 0.58
+  },
+  {
+   "candidate": "GRAY, Bernadette",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 30,
+   "pct": 0.54
+  },
+  {
+   "candidate": "PEAD-PHILIPSON, Jack",
+   "party": "Australian Democrats",
+   "votes": 128,
+   "pct": 2.3
+  },
+  {
+   "candidate": "de VIETRI, Gabrielle",
+   "party": "The Greens",
+   "votes": 2260,
+   "pct": 40.63
+  },
+  {
+   "candidate": "MEYER, David",
+   "party": "",
+   "votes": 91,
+   "pct": 1.64
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "MCKENZIE, Sarah",
+   "party": "Australian Labor Party",
+   "votes": 207,
+   "pct": 28.63
+  },
+  {
+   "candidate": "de VIETRI, Gabrielle",
+   "party": "The Greens",
+   "votes": 516,
+   "pct": 71.37
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/richmond-district-results/Richmond-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/richmond-district-results/Richmond-2CP-results-by-voting-centre"
+ }
+}

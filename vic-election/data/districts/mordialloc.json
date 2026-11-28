@@ -1,0 +1,80 @@
+{
+ "slug": "mordialloc",
+ "name": "Mordialloc",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mordialloc-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:49+00:00",
+ "title": "Mordialloc election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "enrolment": 54102,
+ "counted_pct": 5.07,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "O'HALLORAN, Paul",
+   "party": "Liberal",
+   "votes": 2850,
+   "pct": 38.47
+  },
+  {
+   "candidate": "HOSSAIN, Mahee",
+   "party": "Victorian Socialists",
+   "votes": 295,
+   "pct": 3.98
+  },
+  {
+   "candidate": "POTUCEK, Lily",
+   "party": "Family First",
+   "votes": 112,
+   "pct": 1.51
+  },
+  {
+   "candidate": "VERSTEEGEN, Rachel",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 57,
+   "pct": 0.77
+  },
+  {
+   "candidate": "TICEHURST, Nadia",
+   "party": "One Nation Victoria",
+   "votes": 1037,
+   "pct": 14.0
+  },
+  {
+   "candidate": "BRESKIN, Alex",
+   "party": "The Greens",
+   "votes": 1210,
+   "pct": 16.33
+  },
+  {
+   "candidate": "RICHARDSON, Tim",
+   "party": "Australian Labor Party",
+   "votes": 1650,
+   "pct": 22.27
+  },
+  {
+   "candidate": "THOMPSON, Renee",
+   "party": "Legalise Cannabis Victoria",
+   "votes": 197,
+   "pct": 2.66
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "O'HALLORAN, Paul",
+   "party": "Liberal",
+   "votes": 1826,
+   "pct": 63.1
+  },
+  {
+   "candidate": "RICHARDSON, Tim",
+   "party": "Australian Labor Party",
+   "votes": 1068,
+   "pct": 36.9
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mordialloc-district-results/Mordialloc-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mordialloc-district-results/Mordialloc-2CP-results-by-voting-centre"
+ }
+}

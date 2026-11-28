@@ -1,0 +1,74 @@
+{
+ "slug": "gippsland-east",
+ "name": "Gippsland East",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-east-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:18+00:00",
+ "title": "Gippsland East election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "enrolment": 51687,
+ "counted_pct": 5.27,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "ESPESETH, Amy",
+   "party": "Victorian Socialists",
+   "votes": 411,
+   "pct": 3.17
+  },
+  {
+   "candidate": "STEPHENS, Sonny",
+   "party": "Australian Labor Party",
+   "votes": 997,
+   "pct": 7.69
+  },
+  {
+   "candidate": "MUNRO, Ash",
+   "party": "The Greens",
+   "votes": 1379,
+   "pct": 10.63
+  },
+  {
+   "candidate": "RENDELL, Gemma",
+   "party": "The Nationals",
+   "votes": 4550,
+   "pct": 35.09
+  },
+  {
+   "candidate": "WATERS, Alison",
+   "party": "Family First",
+   "votes": 173,
+   "pct": 1.33
+  },
+  {
+   "candidate": "GOODMAN, Steve",
+   "party": "One Nation Victoria",
+   "votes": 5108,
+   "pct": 39.39
+  },
+  {
+   "candidate": "MUIR, Ricky",
+   "party": "Shooters, Fishers and Farmers Party Victoria",
+   "votes": 349,
+   "pct": 2.69
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "RENDELL, Gemma",
+   "party": "The Nationals",
+   "votes": 6603,
+   "pct": 56.7
+  },
+  {
+   "candidate": "GOODMAN, Steve",
+   "party": "One Nation Victoria",
+   "votes": 5043,
+   "pct": 43.3
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-east-district-results/Gippsland-East-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-east-district-results/Gippsland-East-2CP-results-by-voting-centre"
+ }
+}

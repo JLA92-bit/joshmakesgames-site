@@ -1,0 +1,92 @@
+{
+ "slug": "broadmeadows",
+ "name": "Broadmeadows",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:41:50+00:00",
+ "title": "Broadmeadows election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:02",
+ "enrolment": 51575,
+ "counted_pct": 8.8,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "YOLBULAN, Mutullah Can",
+   "party": "Victorian Socialists",
+   "votes": 541,
+   "pct": 7.68
+  },
+  {
+   "candidate": "EL YOUSSEF, Mohamad",
+   "party": "",
+   "votes": 88,
+   "pct": 1.25
+  },
+  {
+   "candidate": "DUZOVA, Baris",
+   "party": "Liberal",
+   "votes": 1332,
+   "pct": 18.91
+  },
+  {
+   "candidate": "NASIM, Maryam",
+   "party": "The Greens",
+   "votes": 1333,
+   "pct": 18.92
+  },
+  {
+   "candidate": "ELMUSTAPHA, Mohamad",
+   "party": "",
+   "votes": 128,
+   "pct": 1.82
+  },
+  {
+   "candidate": "MATTHEWS-WARD, Kathleen",
+   "party": "Australian Labor Party",
+   "votes": 1765,
+   "pct": 25.06
+  },
+  {
+   "candidate": "WILSON, Russell",
+   "party": "Family First",
+   "votes": 151,
+   "pct": 2.14
+  },
+  {
+   "candidate": "KEIRS, Ethan",
+   "party": "One Nation Victoria",
+   "votes": 1188,
+   "pct": 16.87
+  },
+  {
+   "candidate": "UNICOMB, Rachel",
+   "party": "Animal Justice Party",
+   "votes": 123,
+   "pct": 1.75
+  },
+  {
+   "candidate": "BOLTON, Sue",
+   "party": "Socialist Alliance",
+   "votes": 395,
+   "pct": 5.61
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "DUZOVA, Baris",
+   "party": "Liberal",
+   "votes": 443,
+   "pct": 33.26
+  },
+  {
+   "candidate": "MATTHEWS-WARD, Kathleen",
+   "party": "Australian Labor Party",
+   "votes": 889,
+   "pct": 66.74
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results/Broadmeadows-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results/Broadmeadows-2CP-results-by-voting-centre"
+ }
+}

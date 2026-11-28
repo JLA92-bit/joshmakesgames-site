@@ -1,0 +1,86 @@
+{
+ "slug": "williamstown",
+ "name": "Williamstown",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:48+00:00",
+ "title": "Williamstown election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:17",
+ "enrolment": 50405,
+ "counted_pct": 5.69,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "MARTIN, Oskar",
+   "party": "Victorian Socialists",
+   "votes": 325,
+   "pct": 8.0
+  },
+  {
+   "candidate": "HOCKING, Ben",
+   "party": "The Greens",
+   "votes": 785,
+   "pct": 19.33
+  },
+  {
+   "candidate": "O'REGAN, Bruce",
+   "party": "Family First",
+   "votes": 63,
+   "pct": 1.55
+  },
+  {
+   "candidate": "LOUGHNAN, Catherine",
+   "party": "One Nation Victoria",
+   "votes": 544,
+   "pct": 13.39
+  },
+  {
+   "candidate": "YARRA, Sagar Reddy",
+   "party": "The Republican",
+   "votes": 6,
+   "pct": 0.15
+  },
+  {
+   "candidate": "GANNON, Gill",
+   "party": "The West Party",
+   "votes": 342,
+   "pct": 8.42
+  },
+  {
+   "candidate": "HORNE, Melissa",
+   "party": "Australian Labor Party",
+   "votes": 928,
+   "pct": 22.85
+  },
+  {
+   "candidate": "BRIFFA, Tony",
+   "party": "",
+   "votes": 353,
+   "pct": 8.69
+  },
+  {
+   "candidate": "LINDEMANN, Paul",
+   "party": "Liberal",
+   "votes": 716,
+   "pct": 17.63
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "HORNE, Melissa",
+   "party": "Australian Labor Party",
+   "votes": 405,
+   "pct": 61.09
+  },
+  {
+   "candidate": "LINDEMANN, Paul",
+   "party": "Liberal",
+   "votes": 258,
+   "pct": 38.91
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results/Williamstown-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results/Williamstown-2CP-results-by-voting-centre"
+ }
+}

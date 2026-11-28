@@ -1,0 +1,92 @@
+{
+ "slug": "kew",
+ "name": "Kew",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kew-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:31+00:00",
+ "title": "Kew election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "enrolment": 51115,
+ "counted_pct": 4.94,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "LIANG, Man",
+   "party": "",
+   "votes": 29,
+   "pct": 0.39
+  },
+  {
+   "candidate": "TORNEY, Sophie",
+   "party": "",
+   "votes": 1816,
+   "pct": 24.73
+  },
+  {
+   "candidate": "CARTER, Jackie",
+   "party": "The Greens",
+   "votes": 570,
+   "pct": 7.76
+  },
+  {
+   "candidate": "SUN, David",
+   "party": "Australian Labor Party",
+   "votes": 438,
+   "pct": 5.96
+  },
+  {
+   "candidate": "LAIRD, David",
+   "party": "One Nation Victoria",
+   "votes": 375,
+   "pct": 5.11
+  },
+  {
+   "candidate": "LINCOLNE, Samantha",
+   "party": "Victorian Socialists",
+   "votes": 131,
+   "pct": 1.78
+  },
+  {
+   "candidate": "WILSON, Jess",
+   "party": "Liberal",
+   "votes": 3863,
+   "pct": 52.6
+  },
+  {
+   "candidate": "SEELEY, Ann",
+   "party": "Family First",
+   "votes": 58,
+   "pct": 0.79
+  },
+  {
+   "candidate": "HALES, Juliet",
+   "party": "Animal Justice Party",
+   "votes": 45,
+   "pct": 0.61
+  },
+  {
+   "candidate": "DAVIS, Finlay",
+   "party": "",
+   "votes": 19,
+   "pct": 0.26
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "TORNEY, Sophie",
+   "party": "",
+   "votes": 1746,
+   "pct": 37.1
+  },
+  {
+   "candidate": "WILSON, Jess",
+   "party": "Liberal",
+   "votes": 2960,
+   "pct": 62.9
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kew-district-results/Kew-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kew-district-results/Kew-2CP-results-by-voting-centre"
+ }
+}

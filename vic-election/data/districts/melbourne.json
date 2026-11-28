@@ -1,0 +1,86 @@
+{
+ "slug": "melbourne",
+ "name": "Melbourne",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melbourne-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:42:44+00:00",
+ "title": "Melbourne election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:08",
+ "enrolment": 57336,
+ "counted_pct": 3.8,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "TUCKFIELD, Rowan",
+   "party": "",
+   "votes": 47,
+   "pct": 1.4
+  },
+  {
+   "candidate": "SANDELL, Ellen",
+   "party": "The Greens",
+   "votes": 1396,
+   "pct": 41.47
+  },
+  {
+   "candidate": "MCCATHIE, Rob",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 24,
+   "pct": 0.71
+  },
+  {
+   "candidate": "GRIFFITHS, Davydd",
+   "party": "Australian Labor Party",
+   "votes": 496,
+   "pct": 14.74
+  },
+  {
+   "candidate": "YUSUF, Mohamed",
+   "party": "",
+   "votes": 26,
+   "pct": 0.77
+  },
+  {
+   "candidate": "JONES, Naomi",
+   "party": "Animal Justice Party",
+   "votes": 72,
+   "pct": 2.14
+  },
+  {
+   "candidate": "CAMILLO, Rafael",
+   "party": "Liberal",
+   "votes": 622,
+   "pct": 18.48
+  },
+  {
+   "candidate": "VAN DEN LAMB, Jordan",
+   "party": "Victorian Socialists",
+   "votes": 476,
+   "pct": 14.14
+  },
+  {
+   "candidate": "COURTIS, Phillip",
+   "party": "One Nation Victoria",
+   "votes": 207,
+   "pct": 6.15
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "SANDELL, Ellen",
+   "party": "The Greens",
+   "votes": 758,
+   "pct": 70.77
+  },
+  {
+   "candidate": "GRIFFITHS, Davydd",
+   "party": "Australian Labor Party",
+   "votes": 313,
+   "pct": 29.23
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melbourne-district-results/Melbourne-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melbourne-district-results/Melbourne-2CP-results-by-voting-centre"
+ }
+}

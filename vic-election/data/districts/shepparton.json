@@ -1,0 +1,86 @@
+{
+ "slug": "shepparton",
+ "name": "Shepparton",
+ "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/shepparton-district-results",
+ "status": 200,
+ "fetched_at": "2026-11-28T09:43:31+00:00",
+ "title": "Shepparton election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 20:40:14",
+ "enrolment": 52626,
+ "counted_pct": 6.72,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "SALI, Shane",
+   "party": "The Nationals",
+   "votes": 6137,
+   "pct": 40.88
+  },
+  {
+   "candidate": "WHITE, Alison",
+   "party": "Family First",
+   "votes": 245,
+   "pct": 1.63
+  },
+  {
+   "candidate": "VERNEY, Grace",
+   "party": "The Greens",
+   "votes": 550,
+   "pct": 3.66
+  },
+  {
+   "candidate": "HOCKING, Karen",
+   "party": "Victorian Socialists",
+   "votes": 175,
+   "pct": 1.17
+  },
+  {
+   "candidate": "COSTA, Lou",
+   "party": "",
+   "votes": 1839,
+   "pct": 12.25
+  },
+  {
+   "candidate": "FIN, Cayla",
+   "party": "Australian Labor Party",
+   "votes": 646,
+   "pct": 4.3
+  },
+  {
+   "candidate": "BRYANT, Phillip",
+   "party": "One Nation Victoria",
+   "votes": 5181,
+   "pct": 34.51
+  },
+  {
+   "candidate": "MURPHY-GINGER, Faith",
+   "party": "Animal Justice Party",
+   "votes": 140,
+   "pct": 0.93
+  },
+  {
+   "candidate": "VARKEY, Johnson",
+   "party": "",
+   "votes": 99,
+   "pct": 0.66
+  }
+ ],
+ "tcp": [
+  {
+   "candidate": "SALI, Shane",
+   "party": "The Nationals",
+   "votes": 3634,
+   "pct": 59.02
+  },
+  {
+   "candidate": "BRYANT, Phillip",
+   "party": "One Nation Victoria",
+   "votes": 2523,
+   "pct": 40.98
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/shepparton-district-results/Shepparton-District-results-by-voting-centre",
+  "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/shepparton-district-results/Shepparton-2CP-results-by-voting-centre"
+ }
+}
