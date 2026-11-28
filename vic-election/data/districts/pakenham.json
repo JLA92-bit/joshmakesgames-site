@@ -3,9 +3,9 @@
  "name": "Pakenham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:23:37+00:00",
+ "fetched_at": "2026-11-28T13:26:54+00:00",
  "title": "Pakenham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:20:13",
+ "last_updated": "Sunday, 29 November 2026 00:25:12",
  "enrolment": 55910,
  "formal": 23345,
  "informal": 1870,
@@ -78,14 +78,14 @@
   {
    "candidate": "DYSON, Radmila",
    "party": "Liberal",
-   "votes": 12789,
-   "pct": 59.09
+   "votes": 13852,
+   "pct": 59.46
   },
   {
    "candidate": "PICKERING, Warren",
    "party": "One Nation Victoria",
-   "votes": 8854,
-   "pct": 40.91
+   "votes": 9445,
+   "pct": 40.54
   }
  ],
  "links": {
@@ -642,18 +642,18 @@
    {
     "booth": "Total two candidate preferred votes",
     "values": {
-     "DYSON, Radmila Liberal": 12789.0,
-     "PICKERING, Warren One Nation Victoria": 8854.0,
-     "Miss-sorts": 43.0,
-     "Informal votes": 1724.0,
-     "Total votes polled": 23410.0
+     "DYSON, Radmila Liberal": 13852.0,
+     "PICKERING, Warren One Nation Victoria": 9445.0,
+     "Miss-sorts": 48.0,
+     "Informal votes": 1870.0,
+     "Total votes polled": 25215.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "DYSON, Radmila Liberal": 59.09,
-     "PICKERING, Warren One Nation Victoria": 40.91
+     "DYSON, Radmila Liberal": 59.46,
+     "PICKERING, Warren One Nation Victoria": 40.54
     }
    },
    {
@@ -827,11 +827,11 @@
    {
     "booth": "Berwick - EVC 1",
     "values": {
-     "DYSON, Radmila Liberal": 0.0,
-     "PICKERING, Warren One Nation Victoria": 0.0,
-     "Miss-sorts": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "DYSON, Radmila Liberal": 1063.0,
+     "PICKERING, Warren One Nation Victoria": 591.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 146.0,
+     "Total votes polled": 1805.0
     }
    },
    {
@@ -887,11 +887,11 @@
    {
     "booth": "Early votes total",
     "values": {
-     "DYSON, Radmila Liberal": 5644.0,
-     "PICKERING, Warren One Nation Victoria": 4178.0,
-     "Miss-sorts": 41.0,
-     "Informal votes": 761.0,
-     "Total votes polled": 10624.0
+     "DYSON, Radmila Liberal": 6707.0,
+     "PICKERING, Warren One Nation Victoria": 4769.0,
+     "Miss-sorts": 46.0,
+     "Informal votes": 907.0,
+     "Total votes polled": 12429.0
     }
    },
    {

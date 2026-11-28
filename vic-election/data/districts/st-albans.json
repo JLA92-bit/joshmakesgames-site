@@ -3,9 +3,9 @@
  "name": "St Albans",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/st-albans-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:23:39+00:00",
+ "fetched_at": "2026-11-28T13:26:58+00:00",
  "title": "St Albans election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:20:15",
+ "last_updated": "Sunday, 29 November 2026 00:25:15",
  "enrolment": 47825,
  "formal": 23194,
  "informal": 2362,
@@ -72,14 +72,14 @@
   {
    "candidate": "SULEYMAN, Natalie",
    "party": "Australian Labor Party",
-   "votes": 3088,
-   "pct": 53.71
+   "votes": 3379,
+   "pct": 51.46
   },
   {
    "candidate": "DUNSTAN, Rob",
    "party": "Liberal",
-   "votes": 2661,
-   "pct": 46.29
+   "votes": 3187,
+   "pct": 48.54
   }
  ],
  "links": {
@@ -557,18 +557,18 @@
    {
     "booth": "Total two candidate preferred votes",
     "values": {
-     "SULEYMAN, Natalie Australian Labor Party": 3088.0,
-     "DUNSTAN, Rob Liberal": 2661.0,
+     "SULEYMAN, Natalie Australian Labor Party": 3379.0,
+     "DUNSTAN, Rob Liberal": 3187.0,
      "Miss-sorts": 4.0,
-     "Informal votes": 618.0,
-     "Total votes polled": 6371.0
+     "Informal votes": 699.0,
+     "Total votes polled": 7269.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "SULEYMAN, Natalie Australian Labor Party": 53.71,
-     "DUNSTAN, Rob Liberal": 46.29
+     "SULEYMAN, Natalie Australian Labor Party": 51.46,
+     "DUNSTAN, Rob Liberal": 48.54
     }
    },
    {
@@ -608,11 +608,11 @@
    {
     "booth": "Kealba",
     "values": {
-     "SULEYMAN, Natalie Australian Labor Party": 0.0,
-     "DUNSTAN, Rob Liberal": 0.0,
+     "SULEYMAN, Natalie Australian Labor Party": 291.0,
+     "DUNSTAN, Rob Liberal": 526.0,
      "Miss-sorts": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "Informal votes": 81.0,
+     "Total votes polled": 898.0
     }
    },
    {
@@ -708,11 +708,11 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "SULEYMAN, Natalie Australian Labor Party": 2388.0,
-     "DUNSTAN, Rob Liberal": 1785.0,
+     "SULEYMAN, Natalie Australian Labor Party": 2679.0,
+     "DUNSTAN, Rob Liberal": 2311.0,
      "Miss-sorts": 3.0,
-     "Informal votes": 547.0,
-     "Total votes polled": 4723.0
+     "Informal votes": 628.0,
+     "Total votes polled": 5621.0
     }
    },
    {

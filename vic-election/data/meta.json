@@ -1,165 +1,15 @@
 {
- "scraped_at": "2026-11-28T13:23:23+00:00",
+ "scraped_at": "2026-11-28T13:26:24+00:00",
  "base": "/results/2026-results/district-election-page",
- "discovery_log": [],
- "errors": [
+ "discovery_log": [
   {
-   "slug": "bayswater",
-   "error": "HTTP 999",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bayswater-district-results"
-  },
-  {
-   "slug": "broadmeadows",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results"
-  },
-  {
-   "slug": "bundoora",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results"
-  },
-  {
-   "slug": "clarinda",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/clarinda-district-results"
-  },
-  {
-   "slug": "dandenong",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/dandenong-district-results"
-  },
-  {
-   "slug": "essendon",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/essendon-district-results"
-  },
-  {
-   "slug": "footscray",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/footscray-district-results"
-  },
-  {
-   "slug": "gippsland-south",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-south-district-results"
-  },
-  {
-   "slug": "ivanhoe",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ivanhoe-district-results"
-  },
-  {
-   "slug": "lowan",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lowan-district-results"
-  },
-  {
-   "slug": "melbourne",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melbourne-district-results"
-  },
-  {
-   "slug": "monbulk",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/monbulk-district-results"
-  },
-  {
-   "slug": "mulgrave",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mulgrave-district-results"
-  },
-  {
-   "slug": "niddrie",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/niddrie-district-results"
-  },
-  {
-   "slug": "ovens-valley",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ovens-valley-district-results"
-  },
-  {
-   "slug": "polwarth",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/polwarth-district-results"
-  },
-  {
-   "slug": "richmond",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/richmond-district-results"
-  },
-  {
-   "slug": "sandringham",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sandringham-district-results"
-  },
-  {
-   "slug": "south-west-coast",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-west-coast-district-results"
-  },
-  {
-   "slug": "warrandyte",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/warrandyte-district-results"
-  },
-  {
-   "slug": "williamstown",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results"
-  },
-  {
-   "slug": "eastern-victoria",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results"
-  },
-  {
-   "slug": "north-eastern-metropolitan",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results"
-  },
-  {
-   "slug": "northern-metropolitan",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Northern-Metropolitan-Region-results"
-  },
-  {
-   "slug": "northern-victoria",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Northern-Victoria-Region-results"
-  },
-  {
-   "slug": "south-eastern-metropolitan",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/South-Eastern-Metropolitan-Region-results"
-  },
-  {
-   "slug": "southern-metropolitan",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Southern-Metropolitan-Region-results"
-  },
-  {
-   "slug": "western-metropolitan",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Metropolitan-Region-results"
-  },
-  {
-   "slug": "western-victoria",
-   "error": "HTTP 998",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Victoria-Region-results"
-  },
-  {
-   "slug": "yan-yean",
-   "error": "HTTP 999",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/yan-yean-district-results"
-  },
-  {
-   "slug": "berwick",
-   "error": "HTTP 999",
-   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results"
+   "probe": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results",
+   "status": 200,
+   "ok": true
   }
  ],
- "iteration": 50,
+ "errors": [],
+ "iteration": 51,
  "region_urls": {
   "eastern-victoria": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
   "north-eastern-metropolitan": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
@@ -173,10 +23,10 @@
  "fetched": {
   "hot": 19,
   "cold": 23,
-  "regions": 8
+  "regions": 0
  },
- "blocked_responses": 6,
+ "blocked_responses": 0,
  "status": "ok",
- "requests": 31,
- "seconds": 47.8
+ "requests": 81,
+ "seconds": 63.8
 }

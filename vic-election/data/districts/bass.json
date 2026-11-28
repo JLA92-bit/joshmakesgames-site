@@ -3,14 +3,14 @@
  "name": "Bass",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bass-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:23:25+00:00",
+ "fetched_at": "2026-11-28T13:26:26+00:00",
  "title": "Bass District results | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:20:03",
+ "last_updated": "Sunday, 29 November 2026 00:25:02",
  "enrolment": 57998,
- "formal": 34653,
+ "formal": 34663,
  "informal": 993,
- "total_votes": 35646,
- "counted_pct": 61.46,
+ "total_votes": 35656,
+ "counted_pct": 61.48,
  "notes": [],
  "primary": [
   {
@@ -28,14 +28,14 @@
   {
    "candidate": "SCHELLEKENS, Nikole",
    "party": "One Nation Victoria",
-   "votes": 10805,
-   "pct": 31.18
+   "votes": 10815,
+   "pct": 31.2
   },
   {
    "candidate": "HALSTEAD, Rochelle",
    "party": "Liberal",
    "votes": 12040,
-   "pct": 34.74
+   "pct": 34.73
   },
   {
    "candidate": "CAUNEAC, Ben",
@@ -47,21 +47,21 @@
    "candidate": "BUCKINGHAM, Chris",
    "party": "Australian Labor Party",
    "votes": 5059,
-   "pct": 14.6
+   "pct": 14.59
   }
  ],
  "tcp": [
   {
    "candidate": "SCHELLEKENS, Nikole",
    "party": "One Nation Victoria",
-   "votes": 6812,
-   "pct": 43.53
+   "votes": 6368,
+   "pct": 42.88
   },
   {
    "candidate": "HALSTEAD, Rochelle",
    "party": "Liberal",
-   "votes": 8838,
-   "pct": 56.47
+   "votes": 8484,
+   "pct": 57.12
   }
  ],
  "links": {
@@ -85,12 +85,12 @@
     "values": {
      "JOBE, Chris Victorian Socialists": 1292.0,
      "THORN, Sophie The Greens": 4872.0,
-     "SCHELLEKENS, Nikole One Nation Victoria": 10805.0,
+     "SCHELLEKENS, Nikole One Nation Victoria": 10815.0,
      "HALSTEAD, Rochelle Liberal": 12040.0,
      "CAUNEAC, Ben Family First": 585.0,
      "BUCKINGHAM, Chris Australian Labor Party": 5059.0,
      "Informal votes": 993.0,
-     "Total votes polled": 35646.0
+     "Total votes polled": 35656.0
     }
    },
    {
@@ -98,10 +98,10 @@
     "values": {
      "JOBE, Chris Victorian Socialists": 3.73,
      "THORN, Sophie The Greens": 14.06,
-     "SCHELLEKENS, Nikole One Nation Victoria": 31.18,
-     "HALSTEAD, Rochelle Liberal": 34.74,
+     "SCHELLEKENS, Nikole One Nation Victoria": 31.2,
+     "HALSTEAD, Rochelle Liberal": 34.73,
      "CAUNEAC, Ben Family First": 1.69,
-     "BUCKINGHAM, Chris Australian Labor Party": 14.6
+     "BUCKINGHAM, Chris Australian Labor Party": 14.59
     }
    },
    {
@@ -139,12 +139,12 @@
     "values": {
      "JOBE, Chris Victorian Socialists": 18.0,
      "THORN, Sophie The Greens": 77.0,
-     "SCHELLEKENS, Nikole One Nation Victoria": 402.0,
+     "SCHELLEKENS, Nikole One Nation Victoria": 412.0,
      "HALSTEAD, Rochelle Liberal": 207.0,
      "CAUNEAC, Ben Family First": 13.0,
      "BUCKINGHAM, Chris Australian Labor Party": 82.0,
      "Informal votes": 26.0,
-     "Total votes polled": 825.0
+     "Total votes polled": 835.0
     }
    },
    {
@@ -438,12 +438,12 @@
     "values": {
      "JOBE, Chris Victorian Socialists": 509.0,
      "THORN, Sophie The Greens": 2005.0,
-     "SCHELLEKENS, Nikole One Nation Victoria": 5127.0,
+     "SCHELLEKENS, Nikole One Nation Victoria": 5137.0,
      "HALSTEAD, Rochelle Liberal": 3830.0,
      "CAUNEAC, Ben Family First": 271.0,
      "BUCKINGHAM, Chris Australian Labor Party": 1615.0,
      "Informal votes": 513.0,
-     "Total votes polled": 13870.0
+     "Total votes polled": 13880.0
     }
    },
    {
@@ -598,18 +598,18 @@
    {
     "booth": "Total two candidate preferred votes",
     "values": {
-     "SCHELLEKENS, Nikole One Nation Victoria": 6812.0,
-     "HALSTEAD, Rochelle Liberal": 8838.0,
-     "Miss-sorts": 3.0,
-     "Informal votes": 550.0,
-     "Total votes polled": 16203.0
+     "SCHELLEKENS, Nikole One Nation Victoria": 6368.0,
+     "HALSTEAD, Rochelle Liberal": 8484.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 524.0,
+     "Total votes polled": 15378.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "SCHELLEKENS, Nikole One Nation Victoria": 43.53,
-     "HALSTEAD, Rochelle Liberal": 56.47
+     "SCHELLEKENS, Nikole One Nation Victoria": 42.88,
+     "HALSTEAD, Rochelle Liberal": 57.12
     }
    },
    {
@@ -639,11 +639,11 @@
    {
     "booth": "Blind Bight",
     "values": {
-     "SCHELLEKENS, Nikole One Nation Victoria": 444.0,
-     "HALSTEAD, Rochelle Liberal": 354.0,
-     "Miss-sorts": 1.0,
-     "Informal votes": 26.0,
-     "Total votes polled": 825.0
+     "SCHELLEKENS, Nikole One Nation Victoria": 0.0,
+     "HALSTEAD, Rochelle Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
     }
    },
    {
@@ -869,11 +869,11 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "SCHELLEKENS, Nikole One Nation Victoria": 5904.0,
-     "HALSTEAD, Rochelle Liberal": 7073.0,
-     "Miss-sorts": 3.0,
-     "Informal votes": 503.0,
-     "Total votes polled": 13483.0
+     "SCHELLEKENS, Nikole One Nation Victoria": 5460.0,
+     "HALSTEAD, Rochelle Liberal": 6719.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 477.0,
+     "Total votes polled": 12658.0
     }
    },
    {
