@@ -3,69 +3,69 @@
  "name": "Bendigo East",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-east-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:27:03+00:00",
+ "fetched_at": "2026-11-28T14:36:00+00:00",
  "title": "Bendigo East election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:25:01",
+ "last_updated": "Sunday, 29 November 2026 01:35:01",
  "enrolment": 56152,
- "formal": 14216,
- "informal": 945,
- "total_votes": 15161,
- "counted_pct": 27.0,
+ "formal": 14778,
+ "informal": 977,
+ "total_votes": 15755,
+ "counted_pct": 28.06,
  "notes": [],
  "primary": [
   {
    "candidate": "JOHN, Des",
    "party": "Family First",
-   "votes": 428,
+   "votes": 445,
    "pct": 3.01
   },
   {
    "candidate": "DUNN, Bonnie",
    "party": "Animal Justice Party",
-   "votes": 400,
-   "pct": 2.81
+   "votes": 408,
+   "pct": 2.76
   },
   {
    "candidate": "NORSEN, Denali",
    "party": "Victorian Socialists",
-   "votes": 374,
-   "pct": 2.63
+   "votes": 404,
+   "pct": 2.73
   },
   {
    "candidate": "HAWKEN, Cheryl",
    "party": "One Nation Victoria",
-   "votes": 3208,
-   "pct": 22.57
+   "votes": 3291,
+   "pct": 22.27
   },
   {
    "candidate": "LETHLEAN, Andrew",
    "party": "The Nationals",
-   "votes": 5159,
-   "pct": 36.29
+   "votes": 5322,
+   "pct": 36.01
   },
   {
    "candidate": "WRIGHT, Liz",
    "party": "",
-   "votes": 300,
-   "pct": 2.11
+   "votes": 307,
+   "pct": 2.08
   },
   {
    "candidate": "HOSKINS, Kristie",
    "party": "",
-   "votes": 66,
-   "pct": 0.46
+   "votes": 70,
+   "pct": 0.47
   },
   {
    "candidate": "RICKWOOD, Tim",
    "party": "Australian Labor Party",
-   "votes": 2349,
-   "pct": 16.52
+   "votes": 2482,
+   "pct": 16.8
   },
   {
    "candidate": "TOLHURST, Michael",
    "party": "The Greens",
-   "votes": 1932,
-   "pct": 13.59
+   "votes": 2049,
+   "pct": 13.87
   }
  ],
  "tcp": [

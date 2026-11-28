@@ -3,69 +3,69 @@
  "name": "Richmond",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/richmond-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:27:15+00:00",
+ "fetched_at": "2026-11-28T14:36:10+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:25:12",
+ "last_updated": "Sunday, 29 November 2026 01:35:11",
  "enrolment": 49900,
- "formal": 24588,
- "informal": 1131,
- "total_votes": 25719,
- "counted_pct": 51.54,
+ "formal": 25645,
+ "informal": 1185,
+ "total_votes": 26830,
+ "counted_pct": 53.77,
  "notes": [],
  "primary": [
   {
    "candidate": "RINDFLEISH, Harrison",
    "party": "One Nation Victoria",
-   "votes": 1360,
-   "pct": 5.53
+   "votes": 1397,
+   "pct": 5.45
   },
   {
    "candidate": "APONSO, Charles",
    "party": "Liberal",
-   "votes": 5443,
-   "pct": 22.14
+   "votes": 5550,
+   "pct": 21.64
   },
   {
    "candidate": "DITE, Chris",
    "party": "Victorian Socialists",
-   "votes": 2676,
-   "pct": 10.88
+   "votes": 2859,
+   "pct": 11.15
   },
   {
    "candidate": "MCKENZIE, Sarah",
    "party": "Australian Labor Party",
-   "votes": 4459,
-   "pct": 18.13
+   "votes": 4637,
+   "pct": 18.08
   },
   {
    "candidate": "MAYNARD, Christine",
    "party": "",
-   "votes": 133,
-   "pct": 0.54
+   "votes": 134,
+   "pct": 0.52
   },
   {
    "candidate": "GRAY, Bernadette",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 99,
-   "pct": 0.4
+   "votes": 100,
+   "pct": 0.39
   },
   {
    "candidate": "PEAD-PHILIPSON, Jack",
    "party": "Australian Democrats",
-   "votes": 346,
-   "pct": 1.41
+   "votes": 360,
+   "pct": 1.4
   },
   {
    "candidate": "de VIETRI, Gabrielle",
    "party": "The Greens",
-   "votes": 9721,
-   "pct": 39.54
+   "votes": 10238,
+   "pct": 39.92
   },
   {
    "candidate": "MEYER, David",
    "party": "",
-   "votes": 351,
-   "pct": 1.43
+   "votes": 370,
+   "pct": 1.44
   }
  ],
  "tcp": [
