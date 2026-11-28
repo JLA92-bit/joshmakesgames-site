@@ -3,9 +3,9 @@
  "name": "Warrandyte",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/warrandyte-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:18:18+00:00",
+ "fetched_at": "2026-11-28T14:27:16+00:00",
  "title": "Warrandyte election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:15:14",
+ "last_updated": "Sunday, 29 November 2026 01:25:15",
  "enrolment": 52068,
  "formal": 32437,
  "informal": 791,
@@ -54,14 +54,14 @@
   {
    "candidate": "WERNER, Nicole",
    "party": "Liberal",
-   "votes": 17827,
-   "pct": 73.06
+   "votes": 18328,
+   "pct": 72.87
   },
   {
    "candidate": "PATERSON, Rebecca",
    "party": "Australian Labor Party",
-   "votes": 6572,
-   "pct": 26.94
+   "votes": 6825,
+   "pct": 27.13
   }
  ],
  "links": {
