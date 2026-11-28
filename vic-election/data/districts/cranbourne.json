@@ -3,13 +3,13 @@
  "name": "Cranbourne",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/cranbourne-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:44:28+00:00",
+ "fetched_at": "2026-11-28T15:52:58+00:00",
  "title": "Cranbourne election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:40:04",
+ "last_updated": "Sunday, 29 November 2026 02:50:04",
  "enrolment": 58761,
- "formal": 35503,
+ "formal": 35502,
  "informal": 2416,
- "total_votes": 37919,
+ "total_votes": 37918,
  "counted_pct": 64.53,
  "notes": [],
  "primary": [
@@ -34,8 +34,8 @@
   {
    "candidate": "TRIPODI, Gino",
    "party": "Liberal",
-   "votes": 10465,
-   "pct": 29.48
+   "votes": 10464,
+   "pct": 29.47
   },
   {
    "candidate": "RICHARDS, Pauline",
@@ -66,14 +66,14 @@
   {
    "candidate": "RICHARDS, Pauline",
    "party": "Australian Labor Party",
-   "votes": 7140,
-   "pct": 49.67
+   "votes": 18010,
+   "pct": 50.77
   },
   {
    "candidate": "HIRST, Andrew",
    "party": "One Nation Victoria",
-   "votes": 7236,
-   "pct": 50.33
+   "votes": 17464,
+   "pct": 49.23
   }
  ],
  "links": {
