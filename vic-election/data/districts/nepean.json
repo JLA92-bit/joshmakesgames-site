@@ -3,69 +3,71 @@
  "name": "Nepean",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/nepean-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:48:12+00:00",
+ "fetched_at": "2026-11-28T11:50:34+00:00",
  "title": "Nepean election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:45:11",
+ "last_updated": "Saturday, 28 November 2026 22:50:10",
  "enrolment": 51871,
- "formal": 10589,
- "informal": 580,
- "total_votes": 11169,
- "counted_pct": 21.53,
- "notes": [],
+ "formal": 11013,
+ "informal": 596,
+ "total_votes": 11609,
+ "counted_pct": 22.38,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Nepean District results Nepean District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:10 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "HEALY, Sianan",
    "party": "The Greens",
-   "votes": 1580,
-   "pct": 14.92
+   "votes": 1704,
+   "pct": 15.47
   },
   {
    "candidate": "SNOWBALL, Surbhi",
    "party": "Australian Labor Party",
-   "votes": 1053,
-   "pct": 9.94
+   "votes": 1084,
+   "pct": 9.84
   },
   {
    "candidate": "CHAMPION, Tamara",
    "party": "Animal Justice Party",
-   "votes": 219,
+   "votes": 228,
    "pct": 2.07
   },
   {
    "candidate": "HERCUS, Darren",
    "party": "One Nation Victoria",
-   "votes": 1961,
-   "pct": 18.52
+   "votes": 2025,
+   "pct": 18.39
   },
   {
    "candidate": "ROBBINS, Kim",
    "party": "",
-   "votes": 674,
-   "pct": 6.37
+   "votes": 699,
+   "pct": 6.35
   },
   {
    "candidate": "TOSCANO, Joseph",
    "party": "",
-   "votes": 34,
-   "pct": 0.32
+   "votes": 37,
+   "pct": 0.34
   },
   {
    "candidate": "WILLCOCKS, Seth",
    "party": "Victorian Socialists",
-   "votes": 134,
-   "pct": 1.27
+   "votes": 141,
+   "pct": 1.28
   },
   {
    "candidate": "MARSH, Anthony",
    "party": "Liberal",
-   "votes": 4843,
-   "pct": 45.74
+   "votes": 5002,
+   "pct": 45.42
   },
   {
    "candidate": "BROWN, Mike",
    "party": "Family First",
-   "votes": 91,
-   "pct": 0.86
+   "votes": 93,
+   "pct": 0.84
   }
  ],
  "tcp": [

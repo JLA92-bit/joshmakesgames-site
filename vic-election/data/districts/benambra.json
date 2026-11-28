@@ -3,15 +3,17 @@
  "name": "Benambra",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/benambra-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:41:50+00:00",
+ "fetched_at": "2026-11-28T11:50:24+00:00",
  "title": "Benambra election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:02",
+ "last_updated": "Saturday, 28 November 2026 22:50:03",
  "enrolment": 51973,
  "formal": 16934,
  "informal": 1122,
  "total_votes": 18056,
  "counted_pct": 34.74,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Benambra District results Benambra District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:03 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "FUERY, Mike",
@@ -72,14 +74,14 @@
   {
    "candidate": "McKEEMAN, Lachie",
    "party": "",
-   "votes": 8002,
-   "pct": 52.75
+   "votes": 8682,
+   "pct": 52.71
   },
   {
    "candidate": "MARTIN, Steve",
    "party": "Liberal",
-   "votes": 7167,
-   "pct": 47.25
+   "votes": 7788,
+   "pct": 47.29
   }
  ],
  "links": {

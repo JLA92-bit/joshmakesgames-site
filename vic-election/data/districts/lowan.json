@@ -3,15 +3,17 @@
  "name": "Lowan",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lowan-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:41:58+00:00",
+ "fetched_at": "2026-11-28T11:50:32+00:00",
  "title": "Lowan election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:07",
+ "last_updated": "Saturday, 28 November 2026 22:50:08",
  "enrolment": 51035,
  "formal": 19004,
  "informal": 1434,
  "total_votes": 20438,
  "counted_pct": 40.05,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Lowan District results Lowan District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:08 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "BUTLER, Kieran",

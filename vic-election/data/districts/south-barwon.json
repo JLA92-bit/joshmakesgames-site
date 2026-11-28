@@ -3,15 +3,17 @@
  "name": "South Barwon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-barwon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:48:17+00:00",
+ "fetched_at": "2026-11-28T11:50:39+00:00",
  "title": "South Barwon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:45:14",
+ "last_updated": "Saturday, 28 November 2026 22:50:15",
  "enrolment": 61036,
  "formal": 16167,
  "informal": 831,
  "total_votes": 16998,
  "counted_pct": 27.85,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district South Barwon District results South Barwon District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:15 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "THISTLETON, Rebecca",
@@ -66,14 +68,14 @@
   {
    "candidate": "THISTLETON, Rebecca",
    "party": "Australian Labor Party",
-   "votes": 4953,
-   "pct": 41.87
+   "votes": 5661,
+   "pct": 40.81
   },
   {
    "candidate": "PETTIT, Libby",
    "party": "Liberal",
-   "votes": 6877,
-   "pct": 58.13
+   "votes": 8209,
+   "pct": 59.19
   }
  ],
  "links": {

@@ -3,15 +3,17 @@
  "name": "Melbourne",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melbourne-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:41:59+00:00",
+ "fetched_at": "2026-11-28T11:50:33+00:00",
  "title": "Melbourne election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:08",
+ "last_updated": "Saturday, 28 November 2026 22:50:09",
  "enrolment": 57336,
- "formal": 11308,
+ "formal": 11307,
  "informal": 510,
- "total_votes": 11818,
+ "total_votes": 11817,
  "counted_pct": 20.61,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Melbourne District results Melbourne District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:09 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "TUCKFIELD, Rowan",
@@ -52,7 +54,7 @@
   {
    "candidate": "CAMILLO, Rafael",
    "party": "Liberal",
-   "votes": 2530,
+   "votes": 2529,
    "pct": 22.37
   },
   {
@@ -72,14 +74,14 @@
   {
    "candidate": "SANDELL, Ellen",
    "party": "The Greens",
-   "votes": 3728,
-   "pct": 67.16
+   "votes": 5702,
+   "pct": 61.87
   },
   {
    "candidate": "GRIFFITHS, Davydd",
    "party": "Australian Labor Party",
-   "votes": 1823,
-   "pct": 32.84
+   "votes": 3514,
+   "pct": 38.13
   }
  ],
  "links": {

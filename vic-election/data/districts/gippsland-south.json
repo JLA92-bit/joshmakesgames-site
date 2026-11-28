@@ -3,15 +3,17 @@
  "name": "Gippsland South",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-south-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:41:56+00:00",
+ "fetched_at": "2026-11-28T11:50:30+00:00",
  "title": "Gippsland South election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:07",
+ "last_updated": "Saturday, 28 November 2026 22:50:07",
  "enrolment": 50953,
  "formal": 20129,
  "informal": 1217,
  "total_votes": 21346,
  "counted_pct": 41.89,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Gippsland South District results Gippsland South District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:07 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "BARRY-MACAULAY, Amy",
@@ -60,14 +62,14 @@
   {
    "candidate": "O'BRIEN, Danny",
    "party": "The Nationals",
-   "votes": 11087,
-   "pct": 60.89
+   "votes": 11910,
+   "pct": 60.93
   },
   {
    "candidate": "WILKIE, Bianca",
    "party": "One Nation Victoria",
-   "votes": 7121,
-   "pct": 39.11
+   "votes": 7636,
+   "pct": 39.07
   }
  ],
  "links": {

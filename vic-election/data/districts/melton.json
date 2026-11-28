@@ -3,7 +3,7 @@
  "name": "Melton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:47:29+00:00",
+ "fetched_at": "2026-11-28T11:50:14+00:00",
  "title": "Melton election results 2026 | Victorian Electoral Commission",
  "last_updated": "Saturday, 28 November 2026 22:45:09",
  "enrolment": 60210,
@@ -11,7 +11,9 @@
  "informal": 2483,
  "total_votes": 26049,
  "counted_pct": 43.26,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Melton district results Melton District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:45:09 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "LEGRO, Hayden",

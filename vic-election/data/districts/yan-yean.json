@@ -3,7 +3,7 @@
  "name": "Yan Yean",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/yan-yean-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:47:59+00:00",
+ "fetched_at": "2026-11-28T11:50:21+00:00",
  "title": "Yan Yean election results 2026 | Victorian Electoral Commission",
  "last_updated": "Saturday, 28 November 2026 22:45:17",
  "enrolment": 57294,
@@ -11,7 +11,9 @@
  "informal": 581,
  "total_votes": 11383,
  "counted_pct": 19.87,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Yan Yean District results Yan Yean District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:45:17 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "KATHAGE, Lauren",

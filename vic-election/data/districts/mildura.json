@@ -3,7 +3,7 @@
  "name": "Mildura",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mildura-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:47:31+00:00",
+ "fetched_at": "2026-11-28T11:50:14+00:00",
  "title": "Mildura election results 2026 | Victorian Electoral Commission",
  "last_updated": "Saturday, 28 November 2026 22:45:09",
  "enrolment": 48557,
@@ -11,7 +11,9 @@
  "informal": 1328,
  "total_votes": 24037,
  "counted_pct": 49.5,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Mildura District results Mildura District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:45:09 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "NTAHOMVUKIYE, Joselyne",

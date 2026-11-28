@@ -3,71 +3,73 @@
  "name": "Eltham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eltham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:41:54+00:00",
+ "fetched_at": "2026-11-28T11:50:28+00:00",
  "title": "Eltham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:05",
+ "last_updated": "Saturday, 28 November 2026 22:50:05",
  "enrolment": 50567,
- "formal": 11771,
- "informal": 397,
- "total_votes": 12168,
- "counted_pct": 24.06,
- "notes": [],
+ "formal": 18887,
+ "informal": 639,
+ "total_votes": 19526,
+ "counted_pct": 38.61,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Eltham District results Eltham District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:05 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "RICHES, Maeve",
    "party": "Victorian Socialists",
-   "votes": 461,
-   "pct": 3.92
+   "votes": 767,
+   "pct": 4.06
   },
   {
    "candidate": "BYRNES, Paul",
    "party": "Liberal",
-   "votes": 4440,
-   "pct": 37.72
+   "votes": 7361,
+   "pct": 38.97
   },
   {
    "candidate": "BROOKSBY, Louise",
    "party": "Animal Justice Party",
-   "votes": 207,
-   "pct": 1.76
+   "votes": 343,
+   "pct": 1.82
   },
   {
    "candidate": "MARASEA, Steven",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 78,
-   "pct": 0.66
+   "votes": 113,
+   "pct": 0.6
   },
   {
    "candidate": "WARD, Vicki",
    "party": "Australian Labor Party",
-   "votes": 2591,
-   "pct": 22.01
+   "votes": 4082,
+   "pct": 21.61
   },
   {
    "candidate": "WEATHERLEY, Jessie",
    "party": "One Nation Victoria",
-   "votes": 1851,
+   "votes": 2970,
    "pct": 15.73
   },
   {
    "candidate": "BUSBRIDGE, Rachel",
    "party": "The Greens",
-   "votes": 2143,
-   "pct": 18.21
+   "votes": 3251,
+   "pct": 17.21
   }
  ],
  "tcp": [
   {
    "candidate": "BYRNES, Paul",
    "party": "Liberal",
-   "votes": 5360,
-   "pct": 56.14
+   "votes": 6192,
+   "pct": 56.82
   },
   {
    "candidate": "WARD, Vicki",
    "party": "Australian Labor Party",
-   "votes": 4187,
-   "pct": 43.86
+   "votes": 4706,
+   "pct": 43.18
   }
  ],
  "links": {

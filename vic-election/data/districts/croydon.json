@@ -3,15 +3,17 @@
  "name": "Croydon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:41:53+00:00",
+ "fetched_at": "2026-11-28T11:50:27+00:00",
  "title": "Croydon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:05",
+ "last_updated": "Saturday, 28 November 2026 22:50:05",
  "enrolment": 55612,
  "formal": 33129,
  "informal": 1705,
  "total_votes": 34834,
  "counted_pct": 62.64,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Croydon District results Croydon District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:05 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "FARR, Richard",
