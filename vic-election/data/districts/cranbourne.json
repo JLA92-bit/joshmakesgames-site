@@ -3,77 +3,77 @@
  "name": "Cranbourne",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/cranbourne-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:27:12+00:00",
+ "fetched_at": "2026-11-28T13:36:07+00:00",
  "title": "Cranbourne election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:25:05",
+ "last_updated": "Sunday, 29 November 2026 00:35:05",
  "enrolment": 58761,
- "formal": 35462,
- "informal": 2412,
- "total_votes": 37874,
- "counted_pct": 64.45,
+ "formal": 35498,
+ "informal": 2416,
+ "total_votes": 37914,
+ "counted_pct": 64.52,
  "notes": [],
  "primary": [
   {
    "candidate": "URQUIOLA, Liam",
    "party": "Legalise Cannabis Victoria",
    "votes": 1293,
-   "pct": 3.65
+   "pct": 3.64
   },
   {
    "candidate": "BAIRD, Craig",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 420,
-   "pct": 1.18
+   "votes": 421,
+   "pct": 1.19
   },
   {
    "candidate": "MERCER, Annalise",
    "party": "The Greens",
-   "votes": 4213,
-   "pct": 11.88
+   "votes": 4219,
+   "pct": 11.89
   },
   {
    "candidate": "TRIPODI, Gino",
    "party": "Liberal",
-   "votes": 10453,
-   "pct": 29.48
+   "votes": 10460,
+   "pct": 29.47
   },
   {
    "candidate": "RICHARDS, Pauline",
    "party": "Australian Labor Party",
-   "votes": 9091,
-   "pct": 25.64
+   "votes": 9098,
+   "pct": 25.63
   },
   {
    "candidate": "YUNIS, Reem",
    "party": "Victorian Socialists",
-   "votes": 771,
-   "pct": 2.17
+   "votes": 773,
+   "pct": 2.18
   },
   {
    "candidate": "HIRST, Andrew",
    "party": "One Nation Victoria",
-   "votes": 8393,
+   "votes": 8403,
    "pct": 23.67
   },
   {
    "candidate": "FOREMAN, Shane",
    "party": "Family First",
-   "votes": 828,
-   "pct": 2.33
+   "votes": 831,
+   "pct": 2.34
   }
  ],
  "tcp": [
   {
    "candidate": "RICHARDS, Pauline",
    "party": "Australian Labor Party",
-   "votes": 7121,
-   "pct": 49.66
+   "votes": 7140,
+   "pct": 49.67
   },
   {
    "candidate": "HIRST, Andrew",
    "party": "One Nation Victoria",
-   "votes": 7219,
-   "pct": 50.34
+   "votes": 7236,
+   "pct": 50.33
   }
  ],
  "links": {

@@ -3,87 +3,87 @@
  "name": "Sydenham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sydenham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:32:57+00:00",
+ "fetched_at": "2026-11-28T13:35:58+00:00",
  "title": "Sydenham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:30:15",
+ "last_updated": "Sunday, 29 November 2026 00:35:15",
  "enrolment": 64794,
- "formal": 13775,
- "informal": 1493,
- "total_votes": 15268,
- "counted_pct": 23.56,
+ "formal": 21227,
+ "informal": 2061,
+ "total_votes": 23288,
+ "counted_pct": 35.94,
  "notes": [],
  "primary": [
   {
    "candidate": "VANDENBERG, Ashleigh",
    "party": "",
-   "votes": 291,
-   "pct": 2.11
+   "votes": 456,
+   "pct": 2.15
   },
   {
    "candidate": "CROES, Nancy G",
    "party": "Family First",
-   "votes": 372,
-   "pct": 2.7
+   "votes": 632,
+   "pct": 2.98
   },
   {
    "candidate": "LANKALA KENDERLA, Laxmi",
    "party": "The Republican",
-   "votes": 52,
-   "pct": 0.38
+   "votes": 70,
+   "pct": 0.33
   },
   {
    "candidate": "LANCASHIRE, Bruce",
    "party": "The West Party",
-   "votes": 119,
-   "pct": 0.86
+   "votes": 215,
+   "pct": 1.01
   },
   {
    "candidate": "KERR, Maria",
    "party": "",
-   "votes": 323,
-   "pct": 2.34
+   "votes": 503,
+   "pct": 2.37
   },
   {
    "candidate": "BAUCH, Joh",
    "party": "One Nation Victoria",
-   "votes": 3548,
-   "pct": 25.76
+   "votes": 5643,
+   "pct": 26.58
   },
   {
    "candidate": "MOUSSI, Nathalie",
    "party": "Liberal",
-   "votes": 3846,
-   "pct": 27.92
+   "votes": 6032,
+   "pct": 28.42
   },
   {
    "candidate": "SINCLAIR, Brandon",
    "party": "Labour DLP",
-   "votes": 149,
-   "pct": 1.08
+   "votes": 228,
+   "pct": 1.07
   },
   {
    "candidate": "POON, Bruce",
    "party": "Animal Justice Party",
-   "votes": 170,
-   "pct": 1.23
+   "votes": 250,
+   "pct": 1.18
   },
   {
    "candidate": "RASIC, Uros",
    "party": "Australian Labor Party",
-   "votes": 3001,
-   "pct": 21.79
+   "votes": 4344,
+   "pct": 20.46
   },
   {
    "candidate": "JANE, Maggie",
    "party": "The Greens",
-   "votes": 1354,
-   "pct": 9.83
+   "votes": 1996,
+   "pct": 9.4
   },
   {
    "candidate": "KHAN, Shania",
    "party": "Victorian Socialists",
-   "votes": 550,
-   "pct": 3.99
+   "votes": 858,
+   "pct": 4.04
   }
  ],
  "tcp": [
@@ -125,37 +125,37 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "VANDENBERG, Ashleigh": 291.0,
-     "CROES, Nancy G Family First": 372.0,
-     "LANKALA KENDERLA, Laxmi The Republican": 52.0,
-     "LANCASHIRE, Bruce The West Party": 119.0,
-     "KERR, Maria": 323.0,
-     "BAUCH, Joh One Nation Victoria": 3548.0,
-     "MOUSSI, Nathalie Liberal": 3846.0,
-     "SINCLAIR, Brandon Labour DLP": 149.0,
-     "POON, Bruce Animal Justice Party": 170.0,
-     "RASIC, Uros Australian Labor Party": 3001.0,
-     "JANE, Maggie The Greens": 1354.0,
-     "KHAN, Shania Victorian Socialists": 550.0,
-     "Informal votes": 1493.0,
-     "Total votes polled": 15268.0
+     "VANDENBERG, Ashleigh": 456.0,
+     "CROES, Nancy G Family First": 632.0,
+     "LANKALA KENDERLA, Laxmi The Republican": 70.0,
+     "LANCASHIRE, Bruce The West Party": 215.0,
+     "KERR, Maria": 503.0,
+     "BAUCH, Joh One Nation Victoria": 5643.0,
+     "MOUSSI, Nathalie Liberal": 6032.0,
+     "SINCLAIR, Brandon Labour DLP": 228.0,
+     "POON, Bruce Animal Justice Party": 250.0,
+     "RASIC, Uros Australian Labor Party": 4344.0,
+     "JANE, Maggie The Greens": 1996.0,
+     "KHAN, Shania Victorian Socialists": 858.0,
+     "Informal votes": 2061.0,
+     "Total votes polled": 23288.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "VANDENBERG, Ashleigh": 2.11,
-     "CROES, Nancy G Family First": 2.7,
-     "LANKALA KENDERLA, Laxmi The Republican": 0.38,
-     "LANCASHIRE, Bruce The West Party": 0.86,
-     "KERR, Maria": 2.34,
-     "BAUCH, Joh One Nation Victoria": 25.76,
-     "MOUSSI, Nathalie Liberal": 27.92,
-     "SINCLAIR, Brandon Labour DLP": 1.08,
-     "POON, Bruce Animal Justice Party": 1.23,
-     "RASIC, Uros Australian Labor Party": 21.79,
-     "JANE, Maggie The Greens": 9.83,
-     "KHAN, Shania Victorian Socialists": 3.99
+     "VANDENBERG, Ashleigh": 2.15,
+     "CROES, Nancy G Family First": 2.98,
+     "LANKALA KENDERLA, Laxmi The Republican": 0.33,
+     "LANCASHIRE, Bruce The West Party": 1.01,
+     "KERR, Maria": 2.37,
+     "BAUCH, Joh One Nation Victoria": 26.58,
+     "MOUSSI, Nathalie Liberal": 28.42,
+     "SINCLAIR, Brandon Labour DLP": 1.07,
+     "POON, Bruce Animal Justice Party": 1.18,
+     "RASIC, Uros Australian Labor Party": 20.46,
+     "JANE, Maggie The Greens": 9.4,
+     "KHAN, Shania Victorian Socialists": 4.04
     }
    },
    {
@@ -549,20 +549,20 @@
    {
     "booth": "Sydenham - EVC 2",
     "values": {
-     "VANDENBERG, Ashleigh": 0.0,
-     "CROES, Nancy G Family First": 0.0,
-     "LANKALA KENDERLA, Laxmi The Republican": 0.0,
-     "LANCASHIRE, Bruce The West Party": 0.0,
-     "KERR, Maria": 0.0,
-     "BAUCH, Joh One Nation Victoria": 0.0,
-     "MOUSSI, Nathalie Liberal": 0.0,
-     "SINCLAIR, Brandon Labour DLP": 0.0,
-     "POON, Bruce Animal Justice Party": 0.0,
-     "RASIC, Uros Australian Labor Party": 0.0,
-     "JANE, Maggie The Greens": 0.0,
-     "KHAN, Shania Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "VANDENBERG, Ashleigh": 165.0,
+     "CROES, Nancy G Family First": 260.0,
+     "LANKALA KENDERLA, Laxmi The Republican": 18.0,
+     "LANCASHIRE, Bruce The West Party": 96.0,
+     "KERR, Maria": 180.0,
+     "BAUCH, Joh One Nation Victoria": 2095.0,
+     "MOUSSI, Nathalie Liberal": 2186.0,
+     "SINCLAIR, Brandon Labour DLP": 79.0,
+     "POON, Bruce Animal Justice Party": 80.0,
+     "RASIC, Uros Australian Labor Party": 1343.0,
+     "JANE, Maggie The Greens": 642.0,
+     "KHAN, Shania Victorian Socialists": 308.0,
+     "Informal votes": 568.0,
+     "Total votes polled": 8020.0
     }
    },
    {
@@ -606,20 +606,20 @@
    {
     "booth": "Early votes total",
     "values": {
-     "VANDENBERG, Ashleigh": 8.0,
-     "CROES, Nancy G Family First": 2.0,
-     "LANKALA KENDERLA, Laxmi The Republican": 1.0,
-     "LANCASHIRE, Bruce The West Party": 2.0,
-     "KERR, Maria": 1.0,
-     "BAUCH, Joh One Nation Victoria": 32.0,
-     "MOUSSI, Nathalie Liberal": 55.0,
-     "SINCLAIR, Brandon Labour DLP": 6.0,
-     "POON, Bruce Animal Justice Party": 2.0,
-     "RASIC, Uros Australian Labor Party": 68.0,
-     "JANE, Maggie The Greens": 8.0,
-     "KHAN, Shania Victorian Socialists": 4.0,
-     "Informal votes": 23.0,
-     "Total votes polled": 212.0
+     "VANDENBERG, Ashleigh": 173.0,
+     "CROES, Nancy G Family First": 262.0,
+     "LANKALA KENDERLA, Laxmi The Republican": 19.0,
+     "LANCASHIRE, Bruce The West Party": 98.0,
+     "KERR, Maria": 181.0,
+     "BAUCH, Joh One Nation Victoria": 2127.0,
+     "MOUSSI, Nathalie Liberal": 2241.0,
+     "SINCLAIR, Brandon Labour DLP": 85.0,
+     "POON, Bruce Animal Justice Party": 82.0,
+     "RASIC, Uros Australian Labor Party": 1411.0,
+     "JANE, Maggie The Greens": 650.0,
+     "KHAN, Shania Victorian Socialists": 312.0,
+     "Informal votes": 591.0,
+     "Total votes polled": 8232.0
     }
    },
    {
