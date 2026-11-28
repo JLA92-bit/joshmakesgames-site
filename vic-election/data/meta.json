@@ -1,9 +1,85 @@
 {
- "scraped_at": "2026-11-28T14:50:22+00:00",
+ "scraped_at": "2026-11-28T14:53:23+00:00",
  "base": "/results/2026-results/district-election-page",
  "discovery_log": [],
- "errors": [],
- "iteration": 79,
+ "errors": [
+  {
+   "slug": "polwarth",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/polwarth-district-results"
+  },
+  {
+   "slug": "richmond",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/richmond-district-results"
+  },
+  {
+   "slug": "sandringham",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sandringham-district-results"
+  },
+  {
+   "slug": "south-west-coast",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-west-coast-district-results"
+  },
+  {
+   "slug": "warrandyte",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/warrandyte-district-results"
+  },
+  {
+   "slug": "williamstown",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results"
+  },
+  {
+   "slug": "eastern-victoria",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results"
+  },
+  {
+   "slug": "north-eastern-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results"
+  },
+  {
+   "slug": "northern-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Northern-Metropolitan-Region-results"
+  },
+  {
+   "slug": "northern-victoria",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Northern-Victoria-Region-results"
+  },
+  {
+   "slug": "south-eastern-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/South-Eastern-Metropolitan-Region-results"
+  },
+  {
+   "slug": "southern-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Southern-Metropolitan-Region-results"
+  },
+  {
+   "slug": "western-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Metropolitan-Region-results"
+  },
+  {
+   "slug": "western-victoria",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Victoria-Region-results"
+  },
+  {
+   "slug": "bundoora",
+   "error": "HTTP 999",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results"
+  }
+ ],
+ "iteration": 80,
  "region_urls": {
   "eastern-victoria": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
   "north-eastern-metropolitan": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
@@ -17,10 +93,10 @@
  "fetched": {
   "hot": 18,
   "cold": 23,
-  "regions": 0
+  "regions": 8
  },
- "blocked_responses": 0,
+ "blocked_responses": 6,
  "status": "ok",
- "requests": 61,
- "seconds": 42.8
+ "requests": 58,
+ "seconds": 84.5
 }
