@@ -17,8 +17,19 @@ BASE_2022 = "/results/state-election-results/2022-state-election-results/results
 
 # Seats that changed hands at by-elections after 2022 (party holding the seat going into 2026).
 HOLDER_OVERRIDES = {
-    "prahran": {"code": "LIB", "note": "Won from the Greens at the February 2025 by-election"},
+    "prahran": {"code": "LIB", "name": "WESTAWAY, Rachel", "note": "Won from the Greens at the February 2025 by-election"},
+    "werribee": {"code": "ALP", "name": "LISTER, John", "note": "Held for Labor by 0.8% at the February 2025 by-election"},
+    "nepean": {"code": "LIB", "name": "MARSH, Anthony", "note": "Held for the Liberals at the May 2026 by-election"},
+    "warrandyte": {"code": "LIB", "name": "WERNER, Nicole", "note": "Held for the Liberals at the August 2023 by-election"},
+    "mulgrave": {"code": "ALP", "name": "FOSTER, Eden", "note": "Held for Labor at the November 2023 by-election"},
+    "narracan": {"code": "LIB", "name": "FARNHAM, Wayne", "note": "Won the January 2023 supplementary election"},
 }
+
+# Narracan's 2022 lower house poll failed (a candidate died) and was re-run in January 2023 without Labor.
+NARRACAN_2023 = {"name": "Narracan", "primary": {"LIB": 45.0, "GRN": 11.1, "IND": 14.9, "OTH": 29.0},
+                 "winner": {"candidate": "FARNHAM, Wayne", "code": "LIB"},
+                 "final": [{"candidate": "FARNHAM, Wayne", "code": "LIB", "pct": 63.0},
+                           {"candidate": "WOLFE, Tony", "code": "IND", "pct": 37.0}], "margin": 13.0}
 
 # Final pre-election polls, statewide first preferences (%). The Coalition figure is split into Liberal and
 # Nationals using their 2022 ratio. Sources: Newspoll, DemosAU/PremierNational, Freshwater Strategy and
@@ -76,14 +87,15 @@ def main():
     path = DATA / "baseline.json"
     old = json.loads(path.read_text()) if path.exists() else {}
     seats = old.get("seats", {})
-    if len(seats) < 88:
+    if len([k for k in seats if k != "narracan"]) < 87:
         fresh = fetch_2022(Fetcher())
         seats.update(fresh)
+    seats.setdefault("narracan", NARRACAN_2023)
+    for s in seats.values():
+        s["holder"] = {"code": s["winner"]["code"], "name": s["winner"]["candidate"], "note": "Won at the 2022 election"}
     for slug, o in HOLDER_OVERRIDES.items():
         if slug in seats:
             seats[slug]["holder"] = o
-    for s in seats.values():
-        s.setdefault("holder", {"code": s["winner"]["code"]})
     out = {"seats": seats, "polls": POLLS, "poll_average": poll_average()}
     path.write_text(json.dumps(out, indent=1))
     print(f"Baseline: {len(seats)} seats from 2022, poll average {out['poll_average']}")

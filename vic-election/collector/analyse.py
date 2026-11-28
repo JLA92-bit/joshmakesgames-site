@@ -113,7 +113,7 @@ def booth_flow(rec: dict, prim: list, tcp: list) -> dict | None:
             "other_votes": int(others)}
 
 
-TOTALISH = re.compile(r"(total|^formal|informal|^enrol|^votes)", re.I)
+TOTALISH = re.compile(r"(total|percentage|^formal|informal|^enrol|^votes)", re.I)
 
 
 def pcols_values(col: str, pcols: dict) -> bool:
@@ -477,6 +477,13 @@ def main():
             s["baseline"] = {"winner": b["winner"], "holder": b["holder"], "final": b.get("final"),
                              "margin": b.get("margin"), "primary": b["primary"]}
             s["held_by"] = b["holder"]["code"]
+            hn = b["holder"].get("name")
+            running = None
+            if s["status"] == "ok" and hn:
+                mine = next((r for r in s["primary"] if surname(r["candidate"]) == surname(hn)), None)
+                running = bool(mine)
+            s["mp"] = {"name": hn, "code": b["holder"]["code"], "note": b["holder"].get("note"), "running": running,
+                       "pct": next((r["pct"] for r in s.get("primary", []) if hn and surname(r["candidate"]) == surname(hn)), None)}
             if s["status"] == "ok":
                 live = {}
                 for r in s["primary"]:

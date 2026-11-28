@@ -13,6 +13,9 @@ const nm = c => NAME[c] || c;
 const person = c => { if(!c) return ''; if(NAME[c] || /^(One Nation|Liberal|Labor|Greens|Nationals|Independent|Other)$/.test(c)) return c;
   const [l,f] = c.split(','); return `${(f||'').trim()} ${l.charAt(0)}${l.slice(1).toLowerCase()}`.trim(); };
 const chip = c => `<span class="chip" style="background:${C[c]||C.OTH}">${esc(nm(c))}</span>`;
+const mpName = s => s.mp?.name ? person(s.mp.name) : null;
+const heldBy = s => s.mp?.name ? `Held by ${esc(mpName(s))}, ${nm(s.mp.code)}` : (s.held_by ? `Held by ${nm(s.held_by)}` : '');
+const onCand = s => s.on?.candidate ? `One Nation: ${esc(person(s.on.candidate))}` : '';
 const means = ps => `<div class="means">${ps.filter(Boolean).map(p=>`<p>${p}</p>`).join('')}</div>`;
 const under = ps => `<details class="under"><summary>Understanding this</summary><div>${ps.map(p=>`<p>${p}</p>`).join('')}</div></details>`;
 const chanceCell = p => `<div class="chance"><b>${chanceTxt(p)}</b><span><i style="width:${Math.round((p||0)*100)}%"></i></span></div>`;
@@ -132,7 +135,7 @@ function overview(_, animate){
       <h2>Seats One Nation could win</h2>
       <p class="lede small">Expected total: ${expected.toFixed(1)} seats. Ranked by chance of winning.</p>
       <table class="list"><thead><tr><th>Seat</th><th class="hide-s">Projected final two</th><th class="r">Chance</th></tr></thead><tbody>
-      ${close.slice(0,14).map(s=>{const p=s.projection;return `<tr data-href="#/seat/${s.slug}"><td class="seat">${esc(s.name)}<small>${s.held_by?`Held by ${nm(s.held_by)}`:''}${s.counted_pct!=null?`, ${pct(s.counted_pct,0)} counted`:''}</small></td>
+      ${close.slice(0,14).map(s=>{const p=s.projection;return `<tr data-href="#/seat/${s.slug}"><td class="seat">${esc(s.name)}<small>${onCand(s)}</small><small>${heldBy(s)}${s.counted_pct!=null?`, ${pct(s.counted_pct,0)} counted`:''}</small></td>
         <td class="hide-s small">${p.final.map(f=>`<span class="dot" style="background:${C[f.code]}"></span>${nm(f.code)} ${pct(f.pct)}`).join('<br>')}</td><td class="r">${chanceCell(p.on_win_prob)}</td></tr>`}).join('') || '<tr><td colspan="3" class="muted">No seats with a realistic One Nation chance yet.</td></tr>'}
       </tbody></table>
       <p class="small" style="margin-top:12px"><a href="#/seats">All 88 seats</a></p>
@@ -151,6 +154,21 @@ function overview(_, animate){
       <div style="margin-top:22px" class="small"><span class="muted">Roll counted</span> <b>${prog}%</b>, ${fmt(P.counted_votes)} votes</div>
       <div class="progress"><i style="width:${prog}%"></i></div>
     </div>
+  </section>
+  ${closestSeats()}`;
+}
+function closestSeats(){
+  const list = D.seats.filter(s=>s.projection && s.projection.win_prob < .72 && s.projection.basis !== 'pre-count estimate')
+    .sort((a,b)=>a.projection.win_prob-b.projection.win_prob).slice(0,16);
+  if(!list.length) return '';
+  return `<section class="block"><h2>Closest seats</h2>
+  <p class="lede small">Seats where the projected winner has less than a 72% chance, closest first. The candidates named are the projected final two.</p>
+  <table class="list"><thead><tr><th>Seat</th><th>Projected final two</th><th class="r hide-s">Sitting MP</th><th class="r">Leader's chance</th></tr></thead><tbody>
+  ${list.map(s=>{const p=s.projection;return `<tr data-href="#/seat/${s.slug}"><td class="seat">${esc(s.name)}<small>${onCand(s)}</small></td>
+    <td class="small">${p.final.map(f=>`<span class="dot" style="background:${C[f.code]}"></span><b>${esc(person(f.candidate))}</b> ${nm(f.code)}, ${pct(f.pct)}`).join('<br>')}</td>
+    <td class="r small hide-s">${s.mp?.name?`${esc(mpName(s))}<br><span class="muted">${nm(s.mp.code)}${s.mp.running===false?', not running':''}</span>`:'–'}</td>
+    <td class="r">${chanceTxt(p.win_prob)}</td></tr>`}).join('')}</tbody></table>
+  ${means(['A seat that changes hands is one where the projected winner is from a different party to the sitting MP. Where the sitting MP isn\'t running again, the seat is open and usually easier to win.'])}
   </section>`;
 }
 function barRow(name, v, code, max, tick, swing){
@@ -183,7 +201,7 @@ function rows(){
   const q = ui.q.toLowerCase();
   const list = D.seats.filter(FILTERS[ui.f][1]).filter(s=>!q||s.name.toLowerCase().includes(q))
     .sort((a,b)=>(b.projection?.on_win_prob||0)-(a.projection?.on_win_prob||0) || (b.on?.pct||0)-(a.on?.pct||0) || a.name.localeCompare(b.name));
-  $('#rows').innerHTML = list.map(s=>{const p=s.projection;return `<tr data-href="#/seat/${s.slug}"><td class="seat">${esc(s.name)}<small>${s.held_by?`Held by ${nm(s.held_by)}`:'&nbsp;'}</small></td>
+  $('#rows').innerHTML = list.map(s=>{const p=s.projection;return `<tr data-href="#/seat/${s.slug}"><td class="seat">${esc(s.name)}<small>${onCand(s)||'&nbsp;'}</small><small>${heldBy(s)}</small></td>
     <td>${p?`${chip(p.winner)} <span class="small muted">${chanceTxt(p.win_prob)}</span>`:'<span class="muted">–</span>'}</td>
     <td class="r hide-s">${pct(s.on?.pct)}</td><td class="r">${chanceCell(p?.on_win_prob)}</td></tr>`}).join('') || `<tr><td colspan="4" class="muted">No seats match.</td></tr>`;
   document.querySelectorAll('tr[data-href]').forEach(tr => tr.onclick = () => location.hash = tr.dataset.href);
@@ -196,12 +214,14 @@ function seatPage(slug){
   const p = s.projection, on = s.on || {}, b = s.baseline;
   const fin = p?.final || [];
   let h = `<a class="crumb" href="#/seats">All seats</a>
-  <div class="seat-h"><h1>${esc(s.name)}</h1>${s.held_by?`<span class="muted">Held by ${nm(s.held_by)}${b?.margin!=null?`, ${b.margin.toFixed(1)}% margin in 2022`:''}</span>`:''}</div>
+  <div class="seat-h"><h1>${esc(s.name)}</h1>${s.held_by?`<span class="muted">${heldBy(s)}${b?.margin!=null?`, won by ${b.margin.toFixed(1)} points in 2022`:''}</span>`:''}</div>
   <dl class="facts">
     <div><dt>Projected winner</dt><dd>${p?`${nm(p.winner)} <small>${chanceTxt(p.win_prob)} chance</small>`:'–'}</dd></div>
     <div><dt>One Nation chance</dt><dd style="color:var(--on)">${chanceTxt(p?.on_win_prob)}<small>${on.pct!=null?`${pct(on.pct)} first preferences`:'no live count yet'}</small></dd></div>
+    <div><dt>One Nation candidate</dt><dd>${on.candidate?esc(person(on.candidate)):'–'}<small>${on.rank?`${['','First','Second','Third','Fourth','Fifth'][on.rank]||on.rank+'th'} on first preferences`:''}</small></dd></div>
+    <div><dt>Sitting MP</dt><dd>${s.mp?.name?esc(mpName(s)):'–'}<small>${s.mp?.name?`${nm(s.mp.code)}${s.mp.running===true?`, running again${s.mp.pct!=null?` on ${pct(s.mp.pct)}`:''}`:s.mp.running===false?', not running again':''}`:''}</small></dd></div>
     <div><dt>Counted</dt><dd>${pct(s.counted_pct,0)}<small>${s.formal?`${fmt(s.formal)} formal votes`:'of enrolled voters'}</small></dd></div>
-  </dl>`;
+  </dl>${s.mp?.note && !/2022 election/.test(s.mp.note)?`<p class="small muted" style="margin:10px 0 0">${esc(mpName(s))}: ${esc(s.mp.note.charAt(0).toLowerCase()+s.mp.note.slice(1))}.</p>`:''}`;
   if(fin.length===2){
     h += `<section class="block" style="margin-top:36px"><h2>Projected result after preferences</h2>
     <div class="duel"><div class="duel__bar"><div style="width:${fin[0].pct}%;background:${C[fin[0].code]}">${pct(fin[0].pct)}</div><div style="width:${fin[1].pct}%;background:${C[fin[1].code]}">${pct(fin[1].pct)}</div></div>
@@ -245,7 +265,7 @@ async function loadBooths(slug){
     const key = s.on.candidate.split(',')[0].toLowerCase();
     const onCol = bp.columns.find(c=>c.toLowerCase().includes(key));
     const cand = bp.columns.filter(c=>s.primary.some(p=>c.toLowerCase().includes(p.candidate.split(',')[0].toLowerCase())));
-    const rows = bp.rows.filter(r=>!/total/i.test(r.booth)).map(r=>{const f=cand.reduce((a,c)=>a+(r.values[c]||0),0);return {b:r.booth,f,on:onCol&&f?100*(r.values[onCol]||0)/f:null};})
+    const rows = bp.rows.filter(r=>!/total|percentage|formal vote/i.test(r.booth)).map(r=>{const f=cand.reduce((a,c)=>a+(r.values[c]||0),0);return {b:r.booth,f,on:onCol&&f?100*(r.values[onCol]||0)/f:null};})
       .filter(r=>r.f>0).sort((a,b)=>(b.on??0)-(a.on??0));
     const el = $('#booths'); if(!el || !rows.length) return;
     el.innerHTML = `<section class="block"><h2>Booth by booth</h2><p class="lede small">One Nation's first-preference share at each voting centre counted so far.</p>

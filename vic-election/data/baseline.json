@@ -27,7 +27,9 @@
    ],
    "margin": 11.15,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "TAYLOR, Nina",
+    "note": "Won at the 2022 election"
    }
   },
   "ashwood": {
@@ -57,7 +59,9 @@
    ],
    "margin": 6.15,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "FREGON, Matt",
+    "note": "Won at the 2022 election"
    }
   },
   "bass": {
@@ -88,7 +92,9 @@
    ],
    "margin": 0.24,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "CRUGNALE, Jordan",
+    "note": "Won at the 2022 election"
    }
   },
   "bayswater": {
@@ -118,7 +124,9 @@
    ],
    "margin": 4.23,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "TAYLOR, Jackson",
+    "note": "Won at the 2022 election"
    }
   },
   "bellarine": {
@@ -148,7 +156,9 @@
    ],
    "margin": 8.46,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "MARCHANT, Alison",
+    "note": "Won at the 2022 election"
    }
   },
   "benambra": {
@@ -178,7 +188,9 @@
    ],
    "margin": 0.94,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "TILLEY, Bill",
+    "note": "Won at the 2022 election"
    }
   },
   "bendigo-east": {
@@ -209,7 +221,9 @@
    ],
    "margin": 0.04,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "ALLAN, Jacinta",
+    "note": "Won at the 2022 election"
    }
   },
   "bendigo-west": {
@@ -239,7 +253,9 @@
    ],
    "margin": 0.68,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "EDWARDS, Maree",
+    "note": "Won at the 2022 election"
    }
   },
   "bentleigh": {
@@ -269,7 +285,9 @@
    ],
    "margin": 8.04,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "STAIKOS, Nick",
+    "note": "Won at the 2022 election"
    }
   },
   "berwick": {
@@ -298,7 +316,9 @@
    ],
    "margin": 0.11,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "BATTIN, Brad",
+    "note": "Won at the 2022 election"
    }
   },
   "box-hill": {
@@ -328,7 +348,9 @@
    ],
    "margin": 7.23,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "HAMER, Paul",
+    "note": "Won at the 2022 election"
    }
   },
   "brighton": {
@@ -358,7 +380,9 @@
    ],
    "margin": 0.32,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "NEWBURY, James",
+    "note": "Won at the 2022 election"
    }
   },
   "broadmeadows": {
@@ -388,7 +412,9 @@
    ],
    "margin": 1.94,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "MATTHEWS-WARD, Kathleen",
+    "note": "Won at the 2022 election"
    }
   },
   "brunswick": {
@@ -418,7 +444,9 @@
    ],
    "margin": 5.15,
    "holder": {
-    "code": "GRN"
+    "code": "GRN",
+    "name": "READ, Tim",
+    "note": "Won at the 2022 election"
    }
   },
   "bulleen": {
@@ -448,7 +476,9 @@
    ],
    "margin": 2.08,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "GUY, Matthew",
+    "note": "Won at the 2022 election"
    }
   },
   "bundoora": {
@@ -478,7 +508,9 @@
    ],
    "margin": 0.37,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "BROOKS, Colin",
+    "note": "Won at the 2022 election"
    }
   },
   "carrum": {
@@ -508,7 +540,9 @@
    ],
    "margin": 0.04,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "KILKENNY, Sonya",
+    "note": "Won at the 2022 election"
    }
   },
   "caulfield": {
@@ -538,7 +572,9 @@
    ],
    "margin": 2.07,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "SOUTHWICK, David",
+    "note": "Won at the 2022 election"
    }
   },
   "clarinda": {
@@ -568,7 +604,9 @@
    ],
    "margin": 4.12,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "TAK, Meng Heang",
+    "note": "Won at the 2022 election"
    }
   },
   "cranbourne": {
@@ -598,7 +636,9 @@
    ],
    "margin": 3.72,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "RICHARDS, Pauline",
+    "note": "Won at the 2022 election"
    }
   },
   "croydon": {
@@ -627,7 +667,9 @@
    ],
    "margin": 1.37,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "HODGETT, David",
+    "note": "Won at the 2022 election"
    }
   },
   "dandenong": {
@@ -656,7 +698,9 @@
    ],
    "margin": 19.11,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "WILLIAMS, Gabrielle",
+    "note": "Won at the 2022 election"
    }
   },
   "eildon": {
@@ -686,7 +730,9 @@
    ],
    "margin": 3.34,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "McLEISH, Cindy",
+    "note": "Won at the 2022 election"
    }
   },
   "eltham": {
@@ -715,7 +761,9 @@
    ],
    "margin": 9.0,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "WARD, Vicki",
+    "note": "Won at the 2022 election"
    }
   },
   "essendon": {
@@ -744,7 +792,9 @@
    ],
    "margin": 12.45,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "PEARSON, Danny",
+    "note": "Won at the 2022 election"
    }
   },
   "eureka": {
@@ -774,7 +824,9 @@
    ],
    "margin": 7.17,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "SETTLE, Michaela",
+    "note": "Won at the 2022 election"
    }
   },
   "euroa": {
@@ -804,7 +856,9 @@
    ],
    "margin": 9.93,
    "holder": {
-    "code": "NAT"
+    "code": "NAT",
+    "name": "CLEELAND, Annabelle",
+    "note": "Won at the 2022 election"
    }
   },
   "evelyn": {
@@ -834,7 +888,9 @@
    ],
    "margin": 1.95,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "VALLENCE, Bridget",
+    "note": "Won at the 2022 election"
    }
   },
   "footscray": {
@@ -863,7 +919,9 @@
    ],
    "margin": 4.24,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "HALL, Katie",
+    "note": "Won at the 2022 election"
    }
   },
   "frankston": {
@@ -893,7 +951,9 @@
    ],
    "margin": 8.66,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "EDBROOKE, Paul",
+    "note": "Won at the 2022 election"
    }
   },
   "geelong": {
@@ -923,7 +983,9 @@
    ],
    "margin": 14.71,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "COUZENS, Christine",
+    "note": "Won at the 2022 election"
    }
   },
   "gippsland-east": {
@@ -952,7 +1014,9 @@
    ],
    "margin": 23.92,
    "holder": {
-    "code": "NAT"
+    "code": "NAT",
+    "name": "BULL, Tim",
+    "note": "Won at the 2022 election"
    }
   },
   "gippsland-south": {
@@ -982,7 +1046,9 @@
    ],
    "margin": 15.25,
    "holder": {
-    "code": "NAT"
+    "code": "NAT",
+    "name": "O'BRIEN, Danny",
+    "note": "Won at the 2022 election"
    }
   },
   "glen-waverley": {
@@ -1011,7 +1077,9 @@
    ],
    "margin": 3.3,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "MULLAHY, John",
+    "note": "Won at the 2022 election"
    }
   },
   "greenvale": {
@@ -1041,7 +1109,9 @@
    ],
    "margin": 1.24,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "WALTERS, Iwan",
+    "note": "Won at the 2022 election"
    }
   },
   "hastings": {
@@ -1071,7 +1141,9 @@
    ],
    "margin": 1.35,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "MERCURIO, Paul",
+    "note": "Won at the 2022 election"
    }
   },
   "hawthorn": {
@@ -1101,7 +1173,9 @@
    ],
    "margin": 1.74,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "PESUTTO, John",
+    "note": "Won at the 2022 election"
    }
   },
   "ivanhoe": {
@@ -1131,7 +1205,9 @@
    ],
    "margin": 12.75,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "CARBINES, Anthony",
+    "note": "Won at the 2022 election"
    }
   },
   "kalkallo": {
@@ -1161,7 +1237,9 @@
    ],
    "margin": 16.43,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "SPENCE, Ros",
+    "note": "Won at the 2022 election"
    }
   },
   "kew": {
@@ -1191,7 +1269,9 @@
    ],
    "margin": 3.98,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "WILSON, Jess",
+    "note": "Won at the 2022 election"
    }
   },
   "kororoit": {
@@ -1221,7 +1301,9 @@
    ],
    "margin": 3.13,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "GRIGOROVITCH, Luba",
+    "note": "Won at the 2022 election"
    }
   },
   "lara": {
@@ -1251,7 +1333,9 @@
    ],
    "margin": 0.31,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "GEORGE, Ella",
+    "note": "Won at the 2022 election"
    }
   },
   "laverton": {
@@ -1281,7 +1365,9 @@
    ],
    "margin": 2.14,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "CONNOLLY, Sarah",
+    "note": "Won at the 2022 election"
    }
   },
   "lowan": {
@@ -1311,7 +1397,9 @@
    ],
    "margin": 21.61,
    "holder": {
-    "code": "NAT"
+    "code": "NAT",
+    "name": "KEALY, Emma",
+    "note": "Won at the 2022 election"
    }
   },
   "macedon": {
@@ -1342,7 +1430,9 @@
    ],
    "margin": 9.54,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "THOMAS, Mary-Anne",
+    "note": "Won at the 2022 election"
    }
   },
   "malvern": {
@@ -1372,7 +1462,9 @@
    ],
    "margin": 8.28,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "O'BRIEN, Michael",
+    "note": "Won at the 2022 election"
    }
   },
   "melbourne": {
@@ -1402,7 +1494,9 @@
    ],
    "margin": 10.19,
    "holder": {
-    "code": "GRN"
+    "code": "GRN",
+    "name": "SANDELL, Ellen",
+    "note": "Won at the 2022 election"
    }
   },
   "melton": {
@@ -1432,7 +1526,9 @@
    ],
    "margin": 4.59,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "McGHIE, Steve",
+    "note": "Won at the 2022 election"
    }
   },
   "mildura": {
@@ -1463,7 +1559,9 @@
    ],
    "margin": 1.18,
    "holder": {
-    "code": "NAT"
+    "code": "NAT",
+    "name": "BENHAM, Jade",
+    "note": "Won at the 2022 election"
    }
   },
   "mill-park": {
@@ -1492,7 +1590,9 @@
    ],
    "margin": 0.55,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "D'AMBROSIO, Lily",
+    "note": "Won at the 2022 election"
    }
   },
   "monbulk": {
@@ -1522,7 +1622,9 @@
    ],
    "margin": 7.55,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "DE MARTINO, Daniela",
+    "note": "Won at the 2022 election"
    }
   },
   "mordialloc": {
@@ -1552,7 +1654,9 @@
    ],
    "margin": 8.19,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "RICHARDSON, Tim",
+    "note": "Won at the 2022 election"
    }
   },
   "mornington": {
@@ -1582,7 +1686,9 @@
    ],
    "margin": 0.7,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "CREWTHER, Chris",
+    "note": "Won at the 2022 election"
    }
   },
   "morwell": {
@@ -1614,7 +1720,9 @@
    ],
    "margin": 4.42,
    "holder": {
-    "code": "NAT"
+    "code": "NAT",
+    "name": "CAMERON, Martin",
+    "note": "Won at the 2022 election"
    }
   },
   "mulgrave": {
@@ -1644,7 +1752,9 @@
    ],
    "margin": 10.2,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "FOSTER, Eden",
+    "note": "Held for Labor at the November 2023 by-election"
    }
   },
   "murray-plains": {
@@ -1674,7 +1784,9 @@
    ],
    "margin": 22.89,
    "holder": {
-    "code": "NAT"
+    "code": "NAT",
+    "name": "WALSH, Peter",
+    "note": "Won at the 2022 election"
    }
   },
   "narre-warren-north": {
@@ -1704,7 +1816,9 @@
    ],
    "margin": 5.03,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "WILSON, Belinda",
+    "note": "Won at the 2022 election"
    }
   },
   "narre-warren-south": {
@@ -1734,7 +1848,9 @@
    ],
    "margin": 4.24,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "MAAS, Gary",
+    "note": "Won at the 2022 election"
    }
   },
   "nepean": {
@@ -1764,7 +1880,9 @@
    ],
    "margin": 0.54,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "MARSH, Anthony",
+    "note": "Held for the Liberals at the May 2026 by-election"
    }
   },
   "niddrie": {
@@ -1793,7 +1911,9 @@
    ],
    "margin": 6.69,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "CARROLL, Ben",
+    "note": "Won at the 2022 election"
    }
   },
   "northcote": {
@@ -1823,7 +1943,9 @@
    ],
    "margin": 0.22,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "THEOPHANOUS, Kat",
+    "note": "Won at the 2022 election"
    }
   },
   "oakleigh": {
@@ -1853,7 +1975,9 @@
    ],
    "margin": 13.48,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "DIMOPOULOS, Steve",
+    "note": "Won at the 2022 election"
    }
   },
   "ovens-valley": {
@@ -1883,7 +2007,9 @@
    ],
    "margin": 17.97,
    "holder": {
-    "code": "NAT"
+    "code": "NAT",
+    "name": "McCURDY, Tim",
+    "note": "Won at the 2022 election"
    }
   },
   "pakenham": {
@@ -1914,7 +2040,9 @@
    ],
    "margin": 0.39,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "VULIN, Emma",
+    "note": "Won at the 2022 election"
    }
   },
   "pascoe-vale": {
@@ -1944,7 +2072,9 @@
    ],
    "margin": 2.02,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "CIANFLONE, Anthony",
+    "note": "Won at the 2022 election"
    }
   },
   "point-cook": {
@@ -1974,7 +2104,9 @@
    ],
    "margin": 8.34,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "HILAKARI, Mathew",
+    "note": "Won at the 2022 election"
    }
   },
   "polwarth": {
@@ -2004,7 +2136,9 @@
    ],
    "margin": 1.79,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "RIORDAN, Richard",
+    "note": "Won at the 2022 election"
    }
   },
   "prahran": {
@@ -2035,6 +2169,7 @@
    "margin": 12.01,
    "holder": {
     "code": "LIB",
+    "name": "WESTAWAY, Rachel",
     "note": "Won from the Greens at the February 2025 by-election"
    }
   },
@@ -2065,7 +2200,9 @@
    ],
    "margin": 2.09,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "LAMBERT, Nathan",
+    "note": "Won at the 2022 election"
    }
   },
   "richmond": {
@@ -2095,7 +2232,9 @@
    ],
    "margin": 7.32,
    "holder": {
-    "code": "GRN"
+    "code": "GRN",
+    "name": "DE VIETRI, Gabrielle",
+    "note": "Won at the 2022 election"
    }
   },
   "ringwood": {
@@ -2124,7 +2263,9 @@
    ],
    "margin": 7.53,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "FOWLES, Will",
+    "note": "Won at the 2022 election"
    }
   },
   "ripon": {
@@ -2154,7 +2295,9 @@
    ],
    "margin": 2.99,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "HAYLETT, Martha",
+    "note": "Won at the 2022 election"
    }
   },
   "rowville": {
@@ -2184,7 +2327,9 @@
    ],
    "margin": 3.67,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "WELLS, Kim",
+    "note": "Won at the 2022 election"
    }
   },
   "sandringham": {
@@ -2214,7 +2359,9 @@
    ],
    "margin": 1.19,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "ROWSWELL, Brad",
+    "note": "Won at the 2022 election"
    }
   },
   "shepparton": {
@@ -2245,7 +2392,9 @@
    ],
    "margin": 6.79,
    "holder": {
-    "code": "NAT"
+    "code": "NAT",
+    "name": "O'KEEFFE, Kim",
+    "note": "Won at the 2022 election"
    }
   },
   "south-barwon": {
@@ -2274,7 +2423,9 @@
    ],
    "margin": 9.8,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "CHEESEMAN, Darren",
+    "note": "Won at the 2022 election"
    }
   },
   "south-west-coast": {
@@ -2304,7 +2455,9 @@
    ],
    "margin": 8.05,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "BRITNELL, Roma",
+    "note": "Won at the 2022 election"
    }
   },
   "st-albans": {
@@ -2334,7 +2487,9 @@
    ],
    "margin": 9.56,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "SULEYMAN, Natalie",
+    "note": "Won at the 2022 election"
    }
   },
   "sunbury": {
@@ -2364,7 +2519,9 @@
    ],
    "margin": 6.41,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "BULL, Josh",
+    "note": "Won at the 2022 election"
    }
   },
   "sydenham": {
@@ -2393,7 +2550,9 @@
    ],
    "margin": 1.87,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "HUTCHINS, Natalie",
+    "note": "Won at the 2022 election"
    }
   },
   "tarneit": {
@@ -2423,7 +2582,9 @@
    ],
    "margin": 0.41,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "WIGHT, Dylan",
+    "note": "Won at the 2022 election"
    }
   },
   "thomastown": {
@@ -2452,7 +2613,9 @@
    ],
    "margin": 16.0,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "HALFPENNY, Bronwyn",
+    "note": "Won at the 2022 election"
    }
   },
   "warrandyte": {
@@ -2482,7 +2645,9 @@
    ],
    "margin": 1.27,
    "holder": {
-    "code": "LIB"
+    "code": "LIB",
+    "name": "WERNER, Nicole",
+    "note": "Held for the Liberals at the August 2023 by-election"
    }
   },
   "wendouree": {
@@ -2512,7 +2677,9 @@
    ],
    "margin": 0.8,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "ADDISON, Juliana",
+    "note": "Won at the 2022 election"
    }
   },
   "werribee": {
@@ -2542,7 +2709,9 @@
    ],
    "margin": 1.58,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "LISTER, John",
+    "note": "Held for Labor by 0.8% at the February 2025 by-election"
    }
   },
   "williamstown": {
@@ -2571,7 +2740,9 @@
    ],
    "margin": 13.44,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "HORNE, Melissa",
+    "note": "Won at the 2022 election"
    }
   },
   "yan-yean": {
@@ -2600,7 +2771,40 @@
    ],
    "margin": 0.16,
    "holder": {
-    "code": "ALP"
+    "code": "ALP",
+    "name": "KATHAGE, Lauren",
+    "note": "Won at the 2022 election"
+   }
+  },
+  "narracan": {
+   "name": "Narracan",
+   "primary": {
+    "LIB": 45.0,
+    "GRN": 11.1,
+    "IND": 14.9,
+    "OTH": 29.0
+   },
+   "winner": {
+    "candidate": "FARNHAM, Wayne",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "FARNHAM, Wayne",
+     "code": "LIB",
+     "pct": 63.0
+    },
+    {
+     "candidate": "WOLFE, Tony",
+     "code": "IND",
+     "pct": 37.0
+    }
+   ],
+   "margin": 13.0,
+   "holder": {
+    "code": "LIB",
+    "name": "FARNHAM, Wayne",
+    "note": "Won the January 2023 supplementary election"
    }
   }
  },
