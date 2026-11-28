@@ -3,77 +3,77 @@
  "name": "Box Hill",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/box-hill-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:29:28+00:00",
+ "fetched_at": "2026-11-28T11:38:56+00:00",
  "title": "Box Hill election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:25:02",
+ "last_updated": "Saturday, 28 November 2026 22:35:02",
  "enrolment": 52758,
- "formal": 10434,
- "informal": 452,
- "total_votes": 10886,
- "counted_pct": 20.63,
+ "formal": 11177,
+ "informal": 473,
+ "total_votes": 11650,
+ "counted_pct": 22.08,
  "notes": [],
  "primary": [
   {
    "candidate": "QIN, Aaron",
    "party": "The Greens",
-   "votes": 2091,
-   "pct": 20.04
+   "votes": 2220,
+   "pct": 19.86
   },
   {
    "candidate": "CHEUNG, Heena",
    "party": "",
-   "votes": 565,
-   "pct": 5.41
+   "votes": 619,
+   "pct": 5.54
   },
   {
    "candidate": "BAKER, Jamie",
    "party": "One Nation Victoria",
-   "votes": 860,
-   "pct": 8.24
+   "votes": 890,
+   "pct": 7.96
   },
   {
    "candidate": "HOUGUET, Sally",
    "party": "Liberal",
-   "votes": 3954,
-   "pct": 37.9
+   "votes": 4276,
+   "pct": 38.26
   },
   {
    "candidate": "McGRATH, Sue-Ellen",
    "party": "Labour DLP",
-   "votes": 83,
-   "pct": 0.8
+   "votes": 84,
+   "pct": 0.75
   },
   {
    "candidate": "HAMER, Paul",
    "party": "Australian Labor Party",
-   "votes": 2320,
-   "pct": 22.24
+   "votes": 2501,
+   "pct": 22.38
   },
   {
    "candidate": "AFAJ, Saravina",
    "party": "Victorian Socialists",
-   "votes": 379,
-   "pct": 3.63
+   "votes": 400,
+   "pct": 3.58
   },
   {
    "candidate": "FAGG, Peter",
    "party": "Family First",
-   "votes": 182,
-   "pct": 1.74
+   "votes": 187,
+   "pct": 1.67
   }
  ],
  "tcp": [
   {
    "candidate": "HOUGUET, Sally",
    "party": "Liberal",
-   "votes": 4018,
-   "pct": 54.36
+   "votes": 4415,
+   "pct": 54.27
   },
   {
    "candidate": "HAMER, Paul",
    "party": "Australian Labor Party",
-   "votes": 3374,
-   "pct": 45.64
+   "votes": 3720,
+   "pct": 45.73
   }
  ],
  "links": {

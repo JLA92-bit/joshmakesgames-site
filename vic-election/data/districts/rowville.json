@@ -3,9 +3,9 @@
  "name": "Rowville",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/rowville-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:29:39+00:00",
+ "fetched_at": "2026-11-28T11:39:09+00:00",
  "title": "Rowville election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:25:12",
+ "last_updated": "Saturday, 28 November 2026 22:35:13",
  "enrolment": 50564,
  "formal": 18860,
  "informal": 889,
@@ -60,14 +60,14 @@
   {
    "candidate": "WILLIAMS, Max",
    "party": "Liberal",
-   "votes": 11989,
-   "pct": 72.18
+   "votes": 12974,
+   "pct": 72.08
   },
   {
    "candidate": "SHAHBAZ, Muhammad",
    "party": "Australian Labor Party",
-   "votes": 4620,
-   "pct": 27.82
+   "votes": 5026,
+   "pct": 27.92
   }
  ],
  "links": {

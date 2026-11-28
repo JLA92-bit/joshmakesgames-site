@@ -3,13 +3,13 @@
  "name": "Eureka",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eureka-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:09+00:00",
+ "fetched_at": "2026-11-28T11:38:09+00:00",
  "title": "Eureka election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:30:04",
+ "last_updated": "Saturday, 28 November 2026 22:35:05",
  "enrolment": 58117,
- "formal": 35983,
+ "formal": 35985,
  "informal": 2302,
- "total_votes": 38285,
+ "total_votes": 38287,
  "counted_pct": 65.88,
  "notes": [],
  "primary": [
@@ -22,7 +22,7 @@
   {
    "candidate": "McCOLL, Sam",
    "party": "The Greens",
-   "votes": 5195,
+   "votes": 5197,
    "pct": 14.44
   },
   {
@@ -59,7 +59,7 @@
    "candidate": "MUIR, Emma",
    "party": "Liberal",
    "votes": 10034,
-   "pct": 27.89
+   "pct": 27.88
   },
   {
    "candidate": "VENDITTI-TAYLOR, Steven",
@@ -72,14 +72,14 @@
   {
    "candidate": "SETTLE, Michaela",
    "party": "Australian Labor Party",
-   "votes": 5809,
-   "pct": 41.08
+   "votes": 6240,
+   "pct": 40.49
   },
   {
    "candidate": "MUIR, Emma",
    "party": "Liberal",
-   "votes": 8333,
-   "pct": 58.92
+   "votes": 9172,
+   "pct": 59.51
   }
  ],
  "links": {

@@ -3,13 +3,13 @@
  "name": "Kalkallo",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kalkallo-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:12+00:00",
+ "fetched_at": "2026-11-28T11:38:17+00:00",
  "title": "Kalkallo election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:30:07",
+ "last_updated": "Saturday, 28 November 2026 22:35:08",
  "enrolment": 70361,
  "formal": 14370,
- "informal": 1256,
- "total_votes": 15626,
+ "informal": 1257,
+ "total_votes": 15627,
  "counted_pct": 22.21,
  "notes": [],
  "primary": [
@@ -105,8 +105,8 @@
      "TIWARI, Payal The Greens": 1563.0,
      "ISLAM, Rebeca": 377.0,
      "MILLETT, Courtney Victorian Socialists": 632.0,
-     "Informal votes": 1256.0,
-     "Total votes polled": 15626.0
+     "Informal votes": 1257.0,
+     "Total votes polled": 15627.0
     }
    },
    {
@@ -580,8 +580,8 @@
      "TIWARI, Payal The Greens": 310.0,
      "ISLAM, Rebeca": 68.0,
      "MILLETT, Courtney Victorian Socialists": 85.0,
-     "Informal votes": 173.0,
-     "Total votes polled": 4438.0
+     "Informal votes": 174.0,
+     "Total votes polled": 4439.0
     }
    },
    {
@@ -610,8 +610,8 @@
      "TIWARI, Payal The Greens": 310.0,
      "ISLAM, Rebeca": 68.0,
      "MILLETT, Courtney Victorian Socialists": 85.0,
-     "Informal votes": 173.0,
-     "Total votes polled": 4438.0
+     "Informal votes": 174.0,
+     "Total votes polled": 4439.0
     }
    }
   ]

@@ -3,9 +3,9 @@
  "name": "Preston",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/preston-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:29:40+00:00",
+ "fetched_at": "2026-11-28T11:39:08+00:00",
  "title": "Preston election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:25:12",
+ "last_updated": "Saturday, 28 November 2026 22:35:13",
  "enrolment": 53545,
  "formal": 11587,
  "informal": 1051,
@@ -84,14 +84,14 @@
   {
    "candidate": "SANGARYA, Loki",
    "party": "The Greens",
-   "votes": 5325,
-   "pct": 55.31
+   "votes": 5411,
+   "pct": 55.33
   },
   {
    "candidate": "LAMBERT, Nathan",
    "party": "Australian Labor Party",
-   "votes": 4302,
-   "pct": 44.69
+   "votes": 4368,
+   "pct": 44.67
   }
  ],
  "links": {

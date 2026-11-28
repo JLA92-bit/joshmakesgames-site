@@ -3,77 +3,77 @@
  "name": "Carrum",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/carrum-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:29:28+00:00",
+ "fetched_at": "2026-11-28T11:38:58+00:00",
  "title": "Carrum election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:25:05",
+ "last_updated": "Saturday, 28 November 2026 22:35:05",
  "enrolment": 54535,
- "formal": 13749,
- "informal": 831,
- "total_votes": 14580,
- "counted_pct": 26.74,
+ "formal": 14589,
+ "informal": 853,
+ "total_votes": 15442,
+ "counted_pct": 28.32,
  "notes": [],
  "primary": [
   {
    "candidate": "MATHEWS, Joshua",
    "party": "One Nation Victoria",
-   "votes": 3472,
-   "pct": 25.25
+   "votes": 3640,
+   "pct": 24.95
   },
   {
    "candidate": "ABABNEH, Reema",
    "party": "Victorian Socialists",
-   "votes": 383,
-   "pct": 2.79
+   "votes": 419,
+   "pct": 2.87
   },
   {
    "candidate": "MOORE, Carolyn",
    "party": "Animal Justice Party",
-   "votes": 282,
-   "pct": 2.05
+   "votes": 304,
+   "pct": 2.08
   },
   {
    "candidate": "MACKENZIE, Harley",
    "party": "Legalise Cannabis Victoria",
-   "votes": 441,
-   "pct": 3.21
+   "votes": 479,
+   "pct": 3.28
   },
   {
    "candidate": "SMITH, Trevor",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 136,
-   "pct": 0.99
+   "votes": 146,
+   "pct": 1.0
   },
   {
    "candidate": "KILKENNY, Sonya",
    "party": "Australian Labor Party",
-   "votes": 2916,
-   "pct": 21.21
+   "votes": 3082,
+   "pct": 21.13
   },
   {
    "candidate": "PEGRUM, Zoe",
    "party": "The Greens",
-   "votes": 1794,
-   "pct": 13.05
+   "votes": 1928,
+   "pct": 13.22
   },
   {
    "candidate": "SHELLEY, Jeff",
    "party": "Liberal",
-   "votes": 4325,
-   "pct": 31.46
+   "votes": 4591,
+   "pct": 31.47
   }
  ],
  "tcp": [
   {
    "candidate": "KILKENNY, Sonya",
    "party": "Australian Labor Party",
-   "votes": 3501,
-   "pct": 39.68
+   "votes": 3895,
+   "pct": 39.76
   },
   {
    "candidate": "SHELLEY, Jeff",
    "party": "Liberal",
-   "votes": 5322,
-   "pct": 60.32
+   "votes": 5901,
+   "pct": 60.24
   }
  ],
  "links": {

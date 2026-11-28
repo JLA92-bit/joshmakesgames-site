@@ -3,77 +3,77 @@
  "name": "Narre Warren North",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-north-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:18+00:00",
+ "fetched_at": "2026-11-28T11:38:36+00:00",
  "title": "Narre Warren North election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:30:09",
+ "last_updated": "Saturday, 28 November 2026 22:35:10",
  "enrolment": 53493,
- "formal": 15782,
- "informal": 1120,
- "total_votes": 16902,
- "counted_pct": 31.6,
+ "formal": 16848,
+ "informal": 1240,
+ "total_votes": 18088,
+ "counted_pct": 33.81,
  "notes": [],
  "primary": [
   {
    "candidate": "NATHANIELSZ, Shemane",
    "party": "Liberal",
-   "votes": 4433,
-   "pct": 28.09
+   "votes": 4739,
+   "pct": 28.13
   },
   {
    "candidate": "CRUTCHFIELD, Sebastian",
    "party": "One Nation Victoria",
-   "votes": 3846,
-   "pct": 24.37
+   "votes": 4125,
+   "pct": 24.48
   },
   {
    "candidate": "UTOYO, Joshua",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 129,
-   "pct": 0.82
+   "votes": 136,
+   "pct": 0.81
   },
   {
    "candidate": "EMMANUEL, Cristina",
    "party": "Family First",
-   "votes": 339,
-   "pct": 2.15
+   "votes": 380,
+   "pct": 2.26
   },
   {
    "candidate": "LEAHY, Martin",
    "party": "Legalise Cannabis Victoria",
-   "votes": 390,
-   "pct": 2.47
+   "votes": 428,
+   "pct": 2.54
   },
   {
    "candidate": "WILSON, Belinda",
    "party": "Australian Labor Party",
-   "votes": 4181,
-   "pct": 26.49
+   "votes": 4417,
+   "pct": 26.22
   },
   {
    "candidate": "PERRY, Hayley",
    "party": "The Greens",
-   "votes": 2155,
-   "pct": 13.65
+   "votes": 2297,
+   "pct": 13.63
   },
   {
    "candidate": "McCRACKEN, Lachlan",
    "party": "Victorian Socialists",
-   "votes": 309,
-   "pct": 1.96
+   "votes": 326,
+   "pct": 1.93
   }
  ],
  "tcp": [
   {
    "candidate": "CRUTCHFIELD, Sebastian",
    "party": "One Nation Victoria",
-   "votes": 4200,
-   "pct": 47.09
+   "votes": 6094,
+   "pct": 50.21
   },
   {
    "candidate": "WILSON, Belinda",
    "party": "Australian Labor Party",
-   "votes": 4719,
-   "pct": 52.91
+   "votes": 6044,
+   "pct": 49.79
   }
  ],
  "links": {
@@ -97,29 +97,29 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "NATHANIELSZ, Shemane Liberal": 4433.0,
-     "CRUTCHFIELD, Sebastian One Nation Victoria": 3846.0,
-     "UTOYO, Joshua Libertarian (formerly Liberal Democrats)": 129.0,
-     "EMMANUEL, Cristina Family First": 339.0,
-     "LEAHY, Martin Legalise Cannabis Victoria": 390.0,
-     "WILSON, Belinda Australian Labor Party": 4181.0,
-     "PERRY, Hayley The Greens": 2155.0,
-     "McCRACKEN, Lachlan Victorian Socialists": 309.0,
-     "Informal votes": 1120.0,
-     "Total votes polled": 16902.0
+     "NATHANIELSZ, Shemane Liberal": 4739.0,
+     "CRUTCHFIELD, Sebastian One Nation Victoria": 4125.0,
+     "UTOYO, Joshua Libertarian (formerly Liberal Democrats)": 136.0,
+     "EMMANUEL, Cristina Family First": 380.0,
+     "LEAHY, Martin Legalise Cannabis Victoria": 428.0,
+     "WILSON, Belinda Australian Labor Party": 4417.0,
+     "PERRY, Hayley The Greens": 2297.0,
+     "McCRACKEN, Lachlan Victorian Socialists": 326.0,
+     "Informal votes": 1240.0,
+     "Total votes polled": 18088.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "NATHANIELSZ, Shemane Liberal": 28.09,
-     "CRUTCHFIELD, Sebastian One Nation Victoria": 24.37,
-     "UTOYO, Joshua Libertarian (formerly Liberal Democrats)": 0.82,
-     "EMMANUEL, Cristina Family First": 2.15,
-     "LEAHY, Martin Legalise Cannabis Victoria": 2.47,
-     "WILSON, Belinda Australian Labor Party": 26.49,
-     "PERRY, Hayley The Greens": 13.65,
-     "McCRACKEN, Lachlan Victorian Socialists": 1.96
+     "NATHANIELSZ, Shemane Liberal": 28.13,
+     "CRUTCHFIELD, Sebastian One Nation Victoria": 24.48,
+     "UTOYO, Joshua Libertarian (formerly Liberal Democrats)": 0.81,
+     "EMMANUEL, Cristina Family First": 2.26,
+     "LEAHY, Martin Legalise Cannabis Victoria": 2.54,
+     "WILSON, Belinda Australian Labor Party": 26.22,
+     "PERRY, Hayley The Greens": 13.63,
+     "McCRACKEN, Lachlan Victorian Socialists": 1.93
     }
    },
    {
@@ -324,16 +324,16 @@
    {
     "booth": "Oatlands",
     "values": {
-     "NATHANIELSZ, Shemane Liberal": 0.0,
-     "CRUTCHFIELD, Sebastian One Nation Victoria": 0.0,
-     "UTOYO, Joshua Libertarian (formerly Liberal Democrats)": 0.0,
-     "EMMANUEL, Cristina Family First": 0.0,
-     "LEAHY, Martin Legalise Cannabis Victoria": 0.0,
-     "WILSON, Belinda Australian Labor Party": 0.0,
-     "PERRY, Hayley The Greens": 0.0,
-     "McCRACKEN, Lachlan Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "NATHANIELSZ, Shemane Liberal": 306.0,
+     "CRUTCHFIELD, Sebastian One Nation Victoria": 279.0,
+     "UTOYO, Joshua Libertarian (formerly Liberal Democrats)": 7.0,
+     "EMMANUEL, Cristina Family First": 41.0,
+     "LEAHY, Martin Legalise Cannabis Victoria": 38.0,
+     "WILSON, Belinda Australian Labor Party": 236.0,
+     "PERRY, Hayley The Greens": 142.0,
+     "McCRACKEN, Lachlan Victorian Socialists": 17.0,
+     "Informal votes": 120.0,
+     "Total votes polled": 1186.0
     }
    },
    {
@@ -369,16 +369,16 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "NATHANIELSZ, Shemane Liberal": 3218.0,
-     "CRUTCHFIELD, Sebastian One Nation Victoria": 3005.0,
-     "UTOYO, Joshua Libertarian (formerly Liberal Democrats)": 110.0,
-     "EMMANUEL, Cristina Family First": 272.0,
-     "LEAHY, Martin Legalise Cannabis Victoria": 316.0,
-     "WILSON, Belinda Australian Labor Party": 3381.0,
-     "PERRY, Hayley The Greens": 1903.0,
-     "McCRACKEN, Lachlan Victorian Socialists": 264.0,
-     "Informal votes": 1023.0,
-     "Total votes polled": 13492.0
+     "NATHANIELSZ, Shemane Liberal": 3524.0,
+     "CRUTCHFIELD, Sebastian One Nation Victoria": 3284.0,
+     "UTOYO, Joshua Libertarian (formerly Liberal Democrats)": 117.0,
+     "EMMANUEL, Cristina Family First": 313.0,
+     "LEAHY, Martin Legalise Cannabis Victoria": 354.0,
+     "WILSON, Belinda Australian Labor Party": 3617.0,
+     "PERRY, Hayley The Greens": 2045.0,
+     "McCRACKEN, Lachlan Victorian Socialists": 281.0,
+     "Informal votes": 1143.0,
+     "Total votes polled": 14678.0
     }
    },
    {
