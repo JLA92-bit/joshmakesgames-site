@@ -3,95 +3,95 @@
  "name": "Frankston",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:30:12+00:00",
+ "fetched_at": "2026-11-28T14:38:43+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:25:05",
+ "last_updated": "Sunday, 29 November 2026 01:35:05",
  "enrolment": 51237,
- "formal": 18393,
- "informal": 1301,
- "total_votes": 19694,
- "counted_pct": 38.44,
+ "formal": 25455,
+ "informal": 1715,
+ "total_votes": 27170,
+ "counted_pct": 53.03,
  "notes": [],
  "primary": [
   {
    "candidate": "KNIPE, Jeff",
    "party": "Legalise Cannabis Victoria",
-   "votes": 865,
-   "pct": 4.7
+   "votes": 1090,
+   "pct": 4.28
   },
   {
    "candidate": "KELSALL, Henry",
    "party": "",
-   "votes": 141,
-   "pct": 0.77
+   "votes": 173,
+   "pct": 0.68
   },
   {
    "candidate": "BARRY, Nicola",
    "party": "",
-   "votes": 67,
-   "pct": 0.36
+   "votes": 98,
+   "pct": 0.38
   },
   {
    "candidate": "NICHOLES, Peter",
    "party": "Family First",
-   "votes": 297,
-   "pct": 1.61
+   "votes": 405,
+   "pct": 1.59
   },
   {
    "candidate": "EDBROOKE, Paul",
    "party": "Australian Labor Party",
-   "votes": 3653,
-   "pct": 19.86
+   "votes": 4961,
+   "pct": 19.49
   },
   {
    "candidate": "ABRAHAM, Chrysten",
    "party": "",
-   "votes": 339,
-   "pct": 1.84
+   "votes": 537,
+   "pct": 2.11
   },
   {
    "candidate": "AMBRY, Bree",
    "party": "Liberal",
-   "votes": 5141,
-   "pct": 27.95
+   "votes": 7390,
+   "pct": 29.03
   },
   {
    "candidate": "STAFFORD, Paul",
    "party": "One Nation Victoria",
-   "votes": 3988,
-   "pct": 21.68
+   "votes": 5508,
+   "pct": 21.64
   },
   {
    "candidate": "HARMAN, Julie",
    "party": "Animal Justice Party",
-   "votes": 325,
-   "pct": 1.77
+   "votes": 439,
+   "pct": 1.72
   },
   {
    "candidate": "GOULAS, Katie",
    "party": "The Greens",
-   "votes": 2994,
-   "pct": 16.28
+   "votes": 4036,
+   "pct": 15.86
   },
   {
    "candidate": "CHEESEMAN, Andrew",
    "party": "Victorian Socialists",
-   "votes": 583,
-   "pct": 3.17
+   "votes": 818,
+   "pct": 3.21
   }
  ],
  "tcp": [
   {
    "candidate": "EDBROOKE, Paul",
    "party": "Australian Labor Party",
-   "votes": 8124,
-   "pct": 44.18
+   "votes": 10955,
+   "pct": 43.08
   },
   {
    "candidate": "AMBRY, Bree",
    "party": "Liberal",
-   "votes": 10263,
-   "pct": 55.82
+   "votes": 14473,
+   "pct": 56.92
   }
  ],
  "links": {
