@@ -3,69 +3,69 @@
  "name": "Berwick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:09:03+00:00",
+ "fetched_at": "2026-11-28T14:18:05+00:00",
  "title": "Berwick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:05:02",
+ "last_updated": "Sunday, 29 November 2026 01:15:01",
  "enrolment": 67010,
- "formal": 19941,
- "informal": 1176,
- "total_votes": 21117,
- "counted_pct": 31.51,
+ "formal": 38193,
+ "informal": 2004,
+ "total_votes": 40197,
+ "counted_pct": 59.99,
  "notes": [],
  "primary": [
   {
    "candidate": "KHAN, Rana",
    "party": "Australian Labor Party",
-   "votes": 3076,
-   "pct": 15.43
+   "votes": 5448,
+   "pct": 14.26
   },
   {
    "candidate": "DE SILVA, Roshan",
    "party": "The Greens",
-   "votes": 2735,
-   "pct": 13.72
+   "votes": 4860,
+   "pct": 12.72
   },
   {
    "candidate": "DE PAOLIS, Vincenzo",
    "party": "Family First",
-   "votes": 384,
-   "pct": 1.93
+   "votes": 664,
+   "pct": 1.74
   },
   {
    "candidate": "PIASTRINO, Michael",
    "party": "One Nation Victoria",
-   "votes": 3850,
-   "pct": 19.31
+   "votes": 7320,
+   "pct": 19.17
   },
   {
    "candidate": "BATTIN, Brad",
    "party": "Liberal",
-   "votes": 9232,
-   "pct": 46.3
+   "votes": 18650,
+   "pct": 48.83
   },
   {
    "candidate": "DOWLING, Scott",
    "party": "Citizens Party",
-   "votes": 92,
-   "pct": 0.46
+   "votes": 152,
+   "pct": 0.4
   },
   {
    "candidate": "JOHN, David",
    "party": "",
-   "votes": 110,
-   "pct": 0.55
+   "votes": 241,
+   "pct": 0.63
   },
   {
    "candidate": "AMARASIRI GUNAWARDANA, Nalinda",
    "party": "Victorian Socialists",
-   "votes": 288,
-   "pct": 1.44
+   "votes": 546,
+   "pct": 1.43
   },
   {
    "candidate": "KING, Ethelyn",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 174,
-   "pct": 0.87
+   "votes": 312,
+   "pct": 0.82
   }
  ],
  "tcp": [

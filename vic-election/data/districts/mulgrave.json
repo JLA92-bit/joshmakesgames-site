@@ -3,9 +3,9 @@
  "name": "Mulgrave",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mulgrave-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:09:15+00:00",
+ "fetched_at": "2026-11-28T14:18:14+00:00",
  "title": "Mulgrave election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:05:10",
+ "last_updated": "Sunday, 29 November 2026 01:15:09",
  "enrolment": 48090,
  "formal": 28177,
  "informal": 1875,
@@ -66,14 +66,14 @@
   {
    "candidate": "FOSTER, Eden",
    "party": "Australian Labor Party",
-   "votes": 7538,
-   "pct": 50.88
+   "votes": 12641,
+   "pct": 53.14
   },
   {
    "candidate": "COOK, Ian",
    "party": "",
-   "votes": 7276,
-   "pct": 49.12
+   "votes": 11148,
+   "pct": 46.86
   }
  ],
  "links": {
