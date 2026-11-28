@@ -3,26 +3,26 @@
  "name": "Williamstown",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:03:20+00:00",
+ "fetched_at": "2026-11-28T15:12:12+00:00",
  "title": "Williamstown election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:00:16",
+ "last_updated": "Sunday, 29 November 2026 02:10:15",
  "enrolment": 50405,
- "formal": 36416,
+ "formal": 36418,
  "informal": 2291,
- "total_votes": 38707,
- "counted_pct": 76.79,
+ "total_votes": 38709,
+ "counted_pct": 76.8,
  "notes": [],
  "primary": [
   {
    "candidate": "MARTIN, Oskar",
    "party": "Victorian Socialists",
-   "votes": 2580,
+   "votes": 2578,
    "pct": 7.08
   },
   {
    "candidate": "HOCKING, Ben",
    "party": "The Greens",
-   "votes": 6138,
+   "votes": 6140,
    "pct": 16.86
   },
   {
@@ -34,8 +34,8 @@
   {
    "candidate": "LOUGHNAN, Catherine",
    "party": "One Nation Victoria",
-   "votes": 5736,
-   "pct": 15.75
+   "votes": 5738,
+   "pct": 15.76
   },
   {
    "candidate": "YARRA, Sagar Reddy",
@@ -72,14 +72,14 @@
   {
    "candidate": "HORNE, Melissa",
    "party": "Australian Labor Party",
-   "votes": 16810,
-   "pct": 55.1
+   "votes": 19635,
+   "pct": 53.97
   },
   {
    "candidate": "LINDEMANN, Paul",
    "party": "Liberal",
-   "votes": 13696,
-   "pct": 44.9
+   "votes": 16747,
+   "pct": 46.03
   }
  ],
  "links": {

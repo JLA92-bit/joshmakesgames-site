@@ -3,57 +3,57 @@
  "name": "Monbulk",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/monbulk-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:03:14+00:00",
+ "fetched_at": "2026-11-28T15:12:07+00:00",
  "title": "Monbulk election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:00:09",
+ "last_updated": "Sunday, 29 November 2026 02:10:08",
  "enrolment": 50003,
- "formal": 20057,
- "informal": 766,
- "total_votes": 20823,
- "counted_pct": 41.64,
+ "formal": 28785,
+ "informal": 1000,
+ "total_votes": 29785,
+ "counted_pct": 59.57,
  "notes": [],
  "primary": [
   {
    "candidate": "FITZMAURICE, Clare",
    "party": "Liberal",
-   "votes": 5553,
-   "pct": 27.69
+   "votes": 7981,
+   "pct": 27.73
   },
   {
    "candidate": "MANNERS, Craig",
    "party": "Family First",
-   "votes": 386,
-   "pct": 1.92
+   "votes": 539,
+   "pct": 1.87
   },
   {
    "candidate": "DE MARTINO, Daniela",
    "party": "Australian Labor Party",
-   "votes": 4277,
-   "pct": 21.32
+   "votes": 6177,
+   "pct": 21.46
   },
   {
    "candidate": "DOWELL, Adrian",
    "party": "One Nation Victoria",
-   "votes": 4265,
-   "pct": 21.26
+   "votes": 5868,
+   "pct": 20.39
   },
   {
    "candidate": "BLAIR, Merran",
    "party": "The Greens",
-   "votes": 4122,
-   "pct": 20.55
+   "votes": 5969,
+   "pct": 20.74
   },
   {
    "candidate": "WORMALD, Alyssa",
    "party": "Animal Justice Party",
-   "votes": 541,
-   "pct": 2.7
+   "votes": 845,
+   "pct": 2.94
   },
   {
    "candidate": "BRIGGS, Noah",
    "party": "Victorian Socialists",
-   "votes": 913,
-   "pct": 4.55
+   "votes": 1406,
+   "pct": 4.88
   }
  ],
  "tcp": [
