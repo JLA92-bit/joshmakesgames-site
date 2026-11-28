@@ -3,67 +3,65 @@
  "name": "Warrandyte",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/warrandyte-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:14:55+00:00",
+ "fetched_at": "2026-11-28T13:05:56+00:00",
  "title": "Warrandyte election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:15",
+ "last_updated": "Sunday, 29 November 2026 00:05:17",
  "enrolment": 52068,
- "formal": 13597,
- "informal": 368,
- "total_votes": 13965,
- "counted_pct": 26.82,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Warrandyte District results Warrandyte District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:15 These results are provisional."
- ],
+ "formal": 24579,
+ "informal": 555,
+ "total_votes": 25134,
+ "counted_pct": 48.27,
+ "notes": [],
  "primary": [
   {
    "candidate": "STANLEY, John",
    "party": "Victorian Socialists",
-   "votes": 411,
-   "pct": 3.02
+   "votes": 722,
+   "pct": 2.94
   },
   {
    "candidate": "WERNER, Nicole",
    "party": "Liberal",
-   "votes": 7370,
-   "pct": 54.2
+   "votes": 13374,
+   "pct": 54.41
   },
   {
    "candidate": "PATERSON, Rebecca",
    "party": "Australian Labor Party",
-   "votes": 1963,
-   "pct": 14.44
+   "votes": 3372,
+   "pct": 13.72
   },
   {
    "candidate": "SCHWAB, Caleb",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 128,
-   "pct": 0.94
+   "votes": 216,
+   "pct": 0.88
   },
   {
    "candidate": "MURADIAN, Vanessa",
    "party": "The Greens",
-   "votes": 1948,
-   "pct": 14.33
+   "votes": 3755,
+   "pct": 15.28
   },
   {
    "candidate": "BURNSIDE, Mark",
    "party": "One Nation Victoria",
-   "votes": 1777,
-   "pct": 13.07
+   "votes": 3140,
+   "pct": 12.78
   }
  ],
  "tcp": [
   {
    "candidate": "WERNER, Nicole",
    "party": "Liberal",
-   "votes": 9132,
-   "pct": 71.1
+   "votes": 12521,
+   "pct": 72.58
   },
   {
    "candidate": "PATERSON, Rebecca",
    "party": "Australian Labor Party",
-   "votes": 3711,
-   "pct": 28.9
+   "votes": 4731,
+   "pct": 27.42
   }
  ],
  "links": {

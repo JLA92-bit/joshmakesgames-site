@@ -3,73 +3,71 @@
  "name": "Polwarth",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/polwarth-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:14:52+00:00",
+ "fetched_at": "2026-11-28T13:05:54+00:00",
  "title": "Polwarth election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:12",
+ "last_updated": "Sunday, 29 November 2026 00:05:13",
  "enrolment": 55081,
- "formal": 10856,
- "informal": 583,
- "total_votes": 11439,
- "counted_pct": 20.77,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Polwarth District results Polwarth District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:12 These results are provisional."
- ],
+ "formal": 11814,
+ "informal": 634,
+ "total_votes": 12448,
+ "counted_pct": 22.6,
+ "notes": [],
  "primary": [
   {
    "candidate": "TOLLEY, Lula",
    "party": "Victorian Socialists",
-   "votes": 289,
+   "votes": 314,
    "pct": 2.66
   },
   {
    "candidate": "RIORDAN, Richard",
    "party": "Liberal",
-   "votes": 4593,
-   "pct": 42.31
+   "votes": 4925,
+   "pct": 41.69
   },
   {
    "candidate": "HUSSEIN, Hutch",
    "party": "Australian Labor Party",
-   "votes": 1311,
-   "pct": 12.08
+   "votes": 1465,
+   "pct": 12.4
   },
   {
    "candidate": "HOLDEN, Jesse",
    "party": "The Greens",
-   "votes": 1909,
-   "pct": 17.58
+   "votes": 2160,
+   "pct": 18.28
   },
   {
    "candidate": "CARBINS, Brenton",
    "party": "Citizens Party",
-   "votes": 70,
-   "pct": 0.64
+   "votes": 72,
+   "pct": 0.61
   },
   {
    "candidate": "MALCOLM, Anna",
    "party": "One Nation Victoria",
-   "votes": 2474,
-   "pct": 22.79
+   "votes": 2658,
+   "pct": 22.5
   },
   {
    "candidate": "COLLA, Vince",
    "party": "Family First",
-   "votes": 210,
-   "pct": 1.93
+   "votes": 220,
+   "pct": 1.86
   }
  ],
  "tcp": [
   {
    "candidate": "RIORDAN, Richard",
    "party": "Liberal",
-   "votes": 7242,
-   "pct": 68.66
+   "votes": 7799,
+   "pct": 67.78
   },
   {
    "candidate": "HUSSEIN, Hutch",
    "party": "Australian Labor Party",
-   "votes": 3306,
-   "pct": 31.34
+   "votes": 3707,
+   "pct": 32.22
   }
  ],
  "links": {

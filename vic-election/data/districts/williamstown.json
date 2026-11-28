@@ -3,41 +3,39 @@
  "name": "Williamstown",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:14:56+00:00",
+ "fetched_at": "2026-11-28T13:05:57+00:00",
  "title": "Williamstown election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:17",
+ "last_updated": "Sunday, 29 November 2026 00:05:18",
  "enrolment": 50405,
- "formal": 19660,
- "informal": 1260,
- "total_votes": 20920,
- "counted_pct": 41.5,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Williamstown District results Williamstown District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:17 These results are provisional."
- ],
+ "formal": 20254,
+ "informal": 1297,
+ "total_votes": 21551,
+ "counted_pct": 42.76,
+ "notes": [],
  "primary": [
   {
    "candidate": "MARTIN, Oskar",
    "party": "Victorian Socialists",
-   "votes": 1412,
-   "pct": 7.18
+   "votes": 1457,
+   "pct": 7.19
   },
   {
    "candidate": "HOCKING, Ben",
    "party": "The Greens",
-   "votes": 3295,
-   "pct": 16.76
+   "votes": 3388,
+   "pct": 16.73
   },
   {
    "candidate": "O'REGAN, Bruce",
    "party": "Family First",
-   "votes": 264,
-   "pct": 1.34
+   "votes": 273,
+   "pct": 1.35
   },
   {
    "candidate": "LOUGHNAN, Catherine",
    "party": "One Nation Victoria",
-   "votes": 3091,
-   "pct": 15.72
+   "votes": 3203,
+   "pct": 15.81
   },
   {
    "candidate": "YARRA, Sagar Reddy",
@@ -48,40 +46,40 @@
   {
    "candidate": "GANNON, Gill",
    "party": "The West Party",
-   "votes": 1346,
-   "pct": 6.85
+   "votes": 1378,
+   "pct": 6.8
   },
   {
    "candidate": "HORNE, Melissa",
    "party": "Australian Labor Party",
-   "votes": 4231,
+   "votes": 4359,
    "pct": 21.52
   },
   {
    "candidate": "BRIFFA, Tony",
    "party": "",
-   "votes": 1772,
-   "pct": 9.01
+   "votes": 1856,
+   "pct": 9.16
   },
   {
    "candidate": "LINDEMANN, Paul",
    "party": "Liberal",
-   "votes": 4209,
-   "pct": 21.41
+   "votes": 4300,
+   "pct": 21.23
   }
  ],
  "tcp": [
   {
    "candidate": "HORNE, Melissa",
    "party": "Australian Labor Party",
-   "votes": 6176,
-   "pct": 61.91
+   "votes": 8297,
+   "pct": 57.78
   },
   {
    "candidate": "LINDEMANN, Paul",
    "party": "Liberal",
-   "votes": 3799,
-   "pct": 38.09
+   "votes": 6063,
+   "pct": 42.22
   }
  ],
  "links": {

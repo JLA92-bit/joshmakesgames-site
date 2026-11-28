@@ -3,14 +3,14 @@
  "name": "North Eastern Metropolitan Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:59:56+00:00",
+ "fetched_at": "2026-11-28T13:05:58+00:00",
  "title": "North-Eastern Victoria Region election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:55:10",
+ "last_updated": "Sunday, 29 November 2026 00:05:12",
  "enrolment": 566998,
- "formal": 118587,
- "informal": 4334,
- "total_votes": 122921,
- "counted_pct": 21.68,
+ "formal": 118685,
+ "informal": 4336,
+ "total_votes": 123021,
+ "counted_pct": 21.7,
  "notes": [],
  "primary": [
   {
@@ -22,49 +22,49 @@
   {
    "candidate": "Victorian Socialists",
    "party": "Victorian Socialists",
-   "votes": 4865,
+   "votes": 4867,
    "pct": 4.1
   },
   {
    "candidate": "Australian Labor Party",
    "party": "Australian Labor Party",
-   "votes": 22432,
-   "pct": 18.92
+   "votes": 22448,
+   "pct": 18.91
   },
   {
    "candidate": "Affordable Housing Now – Sustainable Australia Party",
    "party": "Affordable Housing Now – Sustainable Australia Party",
-   "votes": 1282,
+   "votes": 1283,
    "pct": 1.08
   },
   {
    "candidate": "Labour DLP",
    "party": "Labour DLP",
-   "votes": 837,
+   "votes": 839,
    "pct": 0.71
   },
   {
    "candidate": "Family First",
    "party": "Family First",
-   "votes": 2125,
+   "votes": 2129,
    "pct": 1.79
   },
   {
    "candidate": "One Nation Victoria",
    "party": "One Nation Victoria",
-   "votes": 17704,
+   "votes": 17714,
    "pct": 14.93
   },
   {
    "candidate": "Liberal",
    "party": "Liberal",
-   "votes": 41761,
+   "votes": 41804,
    "pct": 35.22
   },
   {
    "candidate": "Libertarian (formerly Liberal Democrats)",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 672,
+   "votes": 673,
    "pct": 0.57
   },
   {
@@ -76,8 +76,8 @@
   {
    "candidate": "The Greens",
    "party": "The Greens",
-   "votes": 21849,
-   "pct": 18.42
+   "votes": 21868,
+   "pct": 18.43
   },
   {
    "candidate": "Australian Democrats",

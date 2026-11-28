@@ -3,9 +3,9 @@
  "name": "Broadmeadows",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:57:33+00:00",
+ "fetched_at": "2026-11-28T13:05:45+00:00",
  "title": "Broadmeadows election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:55:02",
+ "last_updated": "Sunday, 29 November 2026 00:05:03",
  "enrolment": 51575,
  "formal": 13757,
  "informal": 1795,
@@ -78,14 +78,14 @@
   {
    "candidate": "DUZOVA, Baris",
    "party": "Liberal",
-   "votes": 5597,
-   "pct": 42.93
+   "votes": 5879,
+   "pct": 42.82
   },
   {
    "candidate": "MATTHEWS-WARD, Kathleen",
    "party": "Australian Labor Party",
-   "votes": 7440,
-   "pct": 57.07
+   "votes": 7850,
+   "pct": 57.18
   }
  ],
  "links": {

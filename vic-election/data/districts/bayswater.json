@@ -3,9 +3,9 @@
  "name": "Bayswater",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bayswater-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:57:31+00:00",
+ "fetched_at": "2026-11-28T13:05:42+00:00",
  "title": "Bayswater election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:55:02",
+ "last_updated": "Sunday, 29 November 2026 00:05:03",
  "enrolment": 51511,
  "formal": 29498,
  "informal": 1807,
@@ -66,14 +66,14 @@
   {
    "candidate": "BUXTON, Julie",
    "party": "Australian Labor Party",
-   "votes": 8384,
-   "pct": 37.17
+   "votes": 11048,
+   "pct": 37.51
   },
   {
    "candidate": "KITCHEN, David",
    "party": "Liberal",
-   "votes": 14169,
-   "pct": 62.83
+   "votes": 18406,
+   "pct": 62.49
   }
  ],
  "links": {

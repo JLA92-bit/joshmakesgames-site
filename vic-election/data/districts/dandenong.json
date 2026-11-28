@@ -3,77 +3,77 @@
  "name": "Dandenong",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/dandenong-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:57:37+00:00",
+ "fetched_at": "2026-11-28T13:05:48+00:00",
  "title": "Dandenong election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:55:05",
+ "last_updated": "Sunday, 29 November 2026 00:05:05",
  "enrolment": 54251,
- "formal": 26508,
- "informal": 2745,
- "total_votes": 29253,
- "counted_pct": 53.92,
+ "formal": 30142,
+ "informal": 3139,
+ "total_votes": 33281,
+ "counted_pct": 61.35,
  "notes": [],
  "primary": [
   {
    "candidate": "BILLINGS, William",
    "party": "Liberal",
-   "votes": 6904,
-   "pct": 26.04
+   "votes": 7927,
+   "pct": 26.3
   },
   {
    "candidate": "McMAHON, Jack",
    "party": "Victorian Socialists",
-   "votes": 741,
-   "pct": 2.8
+   "votes": 868,
+   "pct": 2.88
   },
   {
    "candidate": "KHAN, Arshad Ali",
    "party": "",
-   "votes": 432,
-   "pct": 1.63
+   "votes": 477,
+   "pct": 1.58
   },
   {
    "candidate": "HARVEY, Jacqueline",
    "party": "Family First",
-   "votes": 755,
-   "pct": 2.85
+   "votes": 841,
+   "pct": 2.79
   },
   {
    "candidate": "WILLIAMS, Gabrielle",
    "party": "Australian Labor Party",
-   "votes": 9244,
-   "pct": 34.87
+   "votes": 10695,
+   "pct": 35.48
   },
   {
    "candidate": "FORTE, Jordan",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 234,
-   "pct": 0.88
+   "votes": 309,
+   "pct": 1.03
   },
   {
    "candidate": "D'ARCY, Catherine",
    "party": "The Greens",
-   "votes": 3793,
-   "pct": 14.31
+   "votes": 4167,
+   "pct": 13.82
   },
   {
    "candidate": "WRIGHT, Glenda",
    "party": "One Nation Victoria",
-   "votes": 4405,
-   "pct": 16.62
+   "votes": 4858,
+   "pct": 16.12
   }
  ],
  "tcp": [
   {
    "candidate": "WILLIAMS, Gabrielle",
    "party": "Australian Labor Party",
-   "votes": 7137,
-   "pct": 61.51
+   "votes": 8910,
+   "pct": 61.25
   },
   {
    "candidate": "WRIGHT, Glenda",
    "party": "One Nation Victoria",
-   "votes": 4466,
-   "pct": 38.49
+   "votes": 5637,
+   "pct": 38.75
   }
  ],
  "links": {

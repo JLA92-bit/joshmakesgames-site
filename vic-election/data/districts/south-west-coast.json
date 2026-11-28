@@ -3,67 +3,65 @@
  "name": "South West Coast",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-west-coast-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:14:54+00:00",
+ "fetched_at": "2026-11-28T13:05:56+00:00",
  "title": "South-West Coast election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:14",
+ "last_updated": "Sunday, 29 November 2026 00:05:15",
  "enrolment": 54428,
- "formal": 36533,
- "informal": 1149,
- "total_votes": 37682,
- "counted_pct": 69.23,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district South-West Coast District results South-West Coast District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:14 These results are provisional."
- ],
+ "formal": 44242,
+ "informal": 1425,
+ "total_votes": 45667,
+ "counted_pct": 83.9,
+ "notes": [],
  "primary": [
   {
    "candidate": "BUCHAN, Tamhas",
    "party": "Family First",
-   "votes": 910,
-   "pct": 2.49
+   "votes": 1149,
+   "pct": 2.6
   },
   {
    "candidate": "HUGHES, Richard",
    "party": "One Nation Victoria",
-   "votes": 9564,
-   "pct": 26.18
+   "votes": 12315,
+   "pct": 27.84
   },
   {
    "candidate": "GOVANSTONE, Andrew",
    "party": "Australian Labor Party",
-   "votes": 4091,
-   "pct": 11.2
+   "votes": 5266,
+   "pct": 11.9
   },
   {
    "candidate": "WATTS, Silver Rose",
    "party": "The Greens",
-   "votes": 4353,
-   "pct": 11.92
+   "votes": 4967,
+   "pct": 11.23
   },
   {
    "candidate": "BRITNELL, Roma",
    "party": "Liberal",
-   "votes": 16730,
-   "pct": 45.79
+   "votes": 19522,
+   "pct": 44.13
   },
   {
    "candidate": "SHEPPARD, Hera",
    "party": "Victorian Socialists",
-   "votes": 885,
-   "pct": 2.42
+   "votes": 1023,
+   "pct": 2.31
   }
  ],
  "tcp": [
   {
    "candidate": "HUGHES, Richard",
    "party": "One Nation Victoria",
-   "votes": 11203,
-   "pct": 31.42
+   "votes": 14456,
+   "pct": 33.33
   },
   {
    "candidate": "BRITNELL, Roma",
    "party": "Liberal",
-   "votes": 24455,
-   "pct": 68.58
+   "votes": 28911,
+   "pct": 66.67
   }
  ],
  "links": {
