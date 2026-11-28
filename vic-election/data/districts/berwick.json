@@ -3,68 +3,68 @@
  "name": "Berwick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:50:32+00:00",
+ "fetched_at": "2026-11-28T10:59:53+00:00",
  "title": "Berwick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:50:02",
+ "last_updated": "Saturday, 28 November 2026 21:55:02",
  "enrolment": 67010,
- "formal": 14114,
- "informal": 971,
- "total_votes": 15085,
- "counted_pct": 22.51,
+ "formal": 14247,
+ "informal": 986,
+ "total_votes": 15233,
+ "counted_pct": 22.73,
  "notes": [],
  "primary": [
   {
    "candidate": "KHAN, Rana",
    "party": "Australian Labor Party",
-   "votes": 2335,
-   "pct": 16.54
+   "votes": 2377,
+   "pct": 16.68
   },
   {
    "candidate": "DE SILVA, Roshan",
    "party": "The Greens",
-   "votes": 2213,
-   "pct": 15.68
+   "votes": 2236,
+   "pct": 15.69
   },
   {
    "candidate": "DE PAOLIS, Vincenzo",
    "party": "Family First",
-   "votes": 291,
-   "pct": 2.06
+   "votes": 292,
+   "pct": 2.05
   },
   {
    "candidate": "PIASTRINO, Michael",
    "party": "One Nation Victoria",
-   "votes": 2679,
-   "pct": 18.98
+   "votes": 2691,
+   "pct": 18.89
   },
   {
    "candidate": "BATTIN, Brad",
    "party": "Liberal",
-   "votes": 6102,
-   "pct": 43.23
+   "votes": 6152,
+   "pct": 43.18
   },
   {
    "candidate": "DOWLING, Scott",
    "party": "Citizens Party",
-   "votes": 69,
-   "pct": 0.49
+   "votes": 71,
+   "pct": 0.5
   },
   {
    "candidate": "JOHN, David",
    "party": "",
-   "votes": 68,
+   "votes": 69,
    "pct": 0.48
   },
   {
    "candidate": "AMARASIRI GUNAWARDANA, Nalinda",
    "party": "Victorian Socialists",
-   "votes": 227,
-   "pct": 1.61
+   "votes": 228,
+   "pct": 1.6
   },
   {
    "candidate": "KING, Ethelyn",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 130,
+   "votes": 131,
    "pct": 0.92
   }
  ],
@@ -72,14 +72,14 @@
   {
    "candidate": "KHAN, Rana",
    "party": "Australian Labor Party",
-   "votes": 3565,
-   "pct": 31.47
+   "votes": 3630,
+   "pct": 31.67
   },
   {
    "candidate": "BATTIN, Brad",
    "party": "Liberal",
-   "votes": 7765,
-   "pct": 68.53
+   "votes": 7833,
+   "pct": 68.33
   }
  ],
  "links": {
