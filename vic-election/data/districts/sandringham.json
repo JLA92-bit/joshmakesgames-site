@@ -3,15 +3,17 @@
  "name": "Sandringham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sandringham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T16:02:24+00:00",
+ "fetched_at": "2026-11-28T16:10:33+00:00",
  "title": "Sandringham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 03:00:12",
+ "last_updated": "Sunday, 29 November 2026 03:10:12",
  "enrolment": 49842,
  "formal": 37683,
  "informal": 596,
  "total_votes": 38279,
  "counted_pct": 76.8,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Sandringham District results Sandringham District results Listen Provisional results Last updated: Sunday, 29 November 2026 03:10:12 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "STEVENSON, Lauren",
