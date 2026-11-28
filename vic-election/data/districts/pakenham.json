@@ -3,9 +3,9 @@
  "name": "Pakenham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:23+00:00",
+ "fetched_at": "2026-11-28T10:47:39+00:00",
  "title": "Pakenham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:12",
+ "last_updated": "Saturday, 28 November 2026 21:45:12",
  "enrolment": 55910,
  "formal": 10185,
  "informal": 808,
@@ -78,14 +78,14 @@
   {
    "candidate": "DYSON, Radmila",
    "party": "Liberal",
-   "votes": 4239,
-   "pct": 59.64
+   "votes": 5697,
+   "pct": 60.12
   },
   {
    "candidate": "PICKERING, Warren",
    "party": "One Nation Victoria",
-   "votes": 2869,
-   "pct": 40.36
+   "votes": 3779,
+   "pct": 39.88
   }
  ],
  "links": {

@@ -3,9 +3,9 @@
  "name": "Narre Warren South",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-south-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:22+00:00",
+ "fetched_at": "2026-11-28T10:47:37+00:00",
  "title": "Narre Warren South election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:10",
+ "last_updated": "Saturday, 28 November 2026 21:45:10",
  "enrolment": 57195,
  "formal": 12083,
  "informal": 1064,
@@ -66,14 +66,14 @@
   {
    "candidate": "HAMMOND, Trevor",
    "party": "One Nation Victoria",
-   "votes": 0,
-   "pct": 0.0
+   "votes": 801,
+   "pct": 60.0
   },
   {
    "candidate": "KOOMEN, Stefan",
    "party": "Australian Labor Party",
-   "votes": 0,
-   "pct": 0.0
+   "votes": 534,
+   "pct": 40.0
   }
  ],
  "links": {

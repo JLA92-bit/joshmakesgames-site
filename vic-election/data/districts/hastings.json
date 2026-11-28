@@ -3,71 +3,71 @@
  "name": "Hastings",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hastings-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:15+00:00",
+ "fetched_at": "2026-11-28T10:47:17+00:00",
  "title": "Hastings District results | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:07",
+ "last_updated": "Saturday, 28 November 2026 21:45:07",
  "enrolment": 50849,
- "formal": 12870,
- "informal": 638,
- "total_votes": 13508,
- "counted_pct": 26.56,
+ "formal": 14352,
+ "informal": 697,
+ "total_votes": 15049,
+ "counted_pct": 29.6,
  "notes": [],
  "primary": [
   {
    "candidate": "COULSON, Chloe",
    "party": "Animal Justice Party",
-   "votes": 466,
-   "pct": 3.62
+   "votes": 498,
+   "pct": 3.47
   },
   {
    "candidate": "DENMAN, Michael",
    "party": "Victorian Socialists",
-   "votes": 297,
-   "pct": 2.31
+   "votes": 335,
+   "pct": 2.33
   },
   {
    "candidate": "WILLOUGHBY, Isaac",
    "party": "The Greens",
-   "votes": 1623,
-   "pct": 12.61
+   "votes": 1811,
+   "pct": 12.62
   },
   {
    "candidate": "MERCURIO, Paul",
    "party": "Australian Labor Party",
-   "votes": 2231,
-   "pct": 17.33
+   "votes": 2577,
+   "pct": 17.96
   },
   {
    "candidate": "SCHIEFLER, Frank",
    "party": "Liberal",
-   "votes": 4271,
-   "pct": 33.19
+   "votes": 4715,
+   "pct": 32.85
   },
   {
    "candidate": "SMART, Jason",
    "party": "",
-   "votes": 131,
-   "pct": 1.02
+   "votes": 138,
+   "pct": 0.96
   },
   {
    "candidate": "ANGELICO, Peter",
    "party": "One Nation Victoria",
-   "votes": 3851,
-   "pct": 29.92
+   "votes": 4278,
+   "pct": 29.81
   }
  ],
  "tcp": [
   {
    "candidate": "MERCURIO, Paul",
    "party": "Australian Labor Party",
-   "votes": 4988,
-   "pct": 47.97
+   "votes": 5993,
+   "pct": 46.66
   },
   {
    "candidate": "ANGELICO, Peter",
    "party": "One Nation Victoria",
-   "votes": 5410,
-   "pct": 52.03
+   "votes": 6852,
+   "pct": 53.34
   }
  ],
  "links": {
@@ -90,27 +90,27 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "COULSON, Chloe Animal Justice Party": 466.0,
-     "DENMAN, Michael Victorian Socialists": 297.0,
-     "WILLOUGHBY, Isaac The Greens": 1623.0,
-     "MERCURIO, Paul Australian Labor Party": 2231.0,
-     "SCHIEFLER, Frank Liberal": 4271.0,
-     "SMART, Jason": 131.0,
-     "ANGELICO, Peter One Nation Victoria": 3851.0,
-     "Informal votes": 638.0,
-     "Total votes polled": 13508.0
+     "COULSON, Chloe Animal Justice Party": 498.0,
+     "DENMAN, Michael Victorian Socialists": 335.0,
+     "WILLOUGHBY, Isaac The Greens": 1811.0,
+     "MERCURIO, Paul Australian Labor Party": 2577.0,
+     "SCHIEFLER, Frank Liberal": 4715.0,
+     "SMART, Jason": 138.0,
+     "ANGELICO, Peter One Nation Victoria": 4278.0,
+     "Informal votes": 697.0,
+     "Total votes polled": 15049.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "COULSON, Chloe Animal Justice Party": 3.62,
-     "DENMAN, Michael Victorian Socialists": 2.31,
-     "WILLOUGHBY, Isaac The Greens": 12.61,
-     "MERCURIO, Paul Australian Labor Party": 17.33,
-     "SCHIEFLER, Frank Liberal": 33.19,
-     "SMART, Jason": 1.02,
-     "ANGELICO, Peter One Nation Victoria": 29.92
+     "COULSON, Chloe Animal Justice Party": 3.47,
+     "DENMAN, Michael Victorian Socialists": 2.33,
+     "WILLOUGHBY, Isaac The Greens": 12.62,
+     "MERCURIO, Paul Australian Labor Party": 17.96,
+     "SCHIEFLER, Frank Liberal": 32.85,
+     "SMART, Jason": 0.96,
+     "ANGELICO, Peter One Nation Victoria": 29.81
     }
    },
    {
@@ -246,15 +246,15 @@
    {
     "booth": "Langwarrin Park",
     "values": {
-     "COULSON, Chloe Animal Justice Party": 0.0,
-     "DENMAN, Michael Victorian Socialists": 0.0,
-     "WILLOUGHBY, Isaac The Greens": 0.0,
-     "MERCURIO, Paul Australian Labor Party": 0.0,
-     "SCHIEFLER, Frank Liberal": 0.0,
-     "SMART, Jason": 0.0,
-     "ANGELICO, Peter One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "COULSON, Chloe Animal Justice Party": 32.0,
+     "DENMAN, Michael Victorian Socialists": 38.0,
+     "WILLOUGHBY, Isaac The Greens": 188.0,
+     "MERCURIO, Paul Australian Labor Party": 246.0,
+     "SCHIEFLER, Frank Liberal": 444.0,
+     "SMART, Jason": 7.0,
+     "ANGELICO, Peter One Nation Victoria": 427.0,
+     "Informal votes": 59.0,
+     "Total votes polled": 1441.0
     }
    },
    {
@@ -305,12 +305,12 @@
      "COULSON, Chloe Animal Justice Party": 40.0,
      "DENMAN, Michael Victorian Socialists": 24.0,
      "WILLOUGHBY, Isaac The Greens": 151.0,
-     "MERCURIO, Paul Australian Labor Party": 82.0,
+     "MERCURIO, Paul Australian Labor Party": 182.0,
      "SCHIEFLER, Frank Liberal": 339.0,
      "SMART, Jason": 28.0,
      "ANGELICO, Peter One Nation Victoria": 301.0,
      "Informal votes": 64.0,
-     "Total votes polled": 1029.0
+     "Total votes polled": 1129.0
     }
    },
    {
@@ -344,15 +344,15 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "COULSON, Chloe Animal Justice Party": 400.0,
-     "DENMAN, Michael Victorian Socialists": 268.0,
-     "WILLOUGHBY, Isaac The Greens": 1488.0,
-     "MERCURIO, Paul Australian Labor Party": 1814.0,
-     "SCHIEFLER, Frank Liberal": 3182.0,
-     "SMART, Jason": 117.0,
-     "ANGELICO, Peter One Nation Victoria": 3182.0,
-     "Informal votes": 587.0,
-     "Total votes polled": 11038.0
+     "COULSON, Chloe Animal Justice Party": 432.0,
+     "DENMAN, Michael Victorian Socialists": 306.0,
+     "WILLOUGHBY, Isaac The Greens": 1676.0,
+     "MERCURIO, Paul Australian Labor Party": 2160.0,
+     "SCHIEFLER, Frank Liberal": 3626.0,
+     "SMART, Jason": 124.0,
+     "ANGELICO, Peter One Nation Victoria": 3609.0,
+     "Informal votes": 646.0,
+     "Total votes polled": 12579.0
     }
    },
    {

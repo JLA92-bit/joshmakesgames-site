@@ -3,9 +3,9 @@
  "name": "Northcote",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/northcote-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:40:28+00:00",
+ "fetched_at": "2026-11-28T10:48:03+00:00",
  "title": "Northcote election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:11",
+ "last_updated": "Saturday, 28 November 2026 21:45:11",
  "enrolment": 53893,
  "formal": 14344,
  "informal": 623,
@@ -78,14 +78,14 @@
   {
    "candidate": "THEOPHANOUS, Kat",
    "party": "Australian Labor Party",
-   "votes": 2092,
-   "pct": 35.4
+   "votes": 3206,
+   "pct": 39.4
   },
   {
    "candidate": "GOME, Campbell",
    "party": "The Greens",
-   "votes": 3818,
-   "pct": 64.6
+   "votes": 4932,
+   "pct": 60.6
   }
  ],
  "links": {

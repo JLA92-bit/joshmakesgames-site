@@ -3,63 +3,63 @@
  "name": "Geelong",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/geelong-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:40:22+00:00",
+ "fetched_at": "2026-11-28T10:47:59+00:00",
  "title": "Geelong election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:35:08",
+ "last_updated": "Saturday, 28 November 2026 21:45:05",
  "enrolment": 53903,
- "formal": 11500,
- "informal": 637,
- "total_votes": 12137,
- "counted_pct": 22.52,
+ "formal": 17759,
+ "informal": 873,
+ "total_votes": 18632,
+ "counted_pct": 34.57,
  "notes": [],
  "primary": [
   {
    "candidate": "FLYNN, Emilie",
    "party": "The Greens",
-   "votes": 2744,
-   "pct": 23.86
+   "votes": 4171,
+   "pct": 23.49
   },
   {
    "candidate": "POBJOY, Andy",
    "party": "Liberal",
-   "votes": 3310,
-   "pct": 28.78
+   "votes": 5748,
+   "pct": 32.37
   },
   {
    "candidate": "BENGTSSON, Maria",
    "party": "Family First",
-   "votes": 200,
-   "pct": 1.74
+   "votes": 272,
+   "pct": 1.53
   },
   {
    "candidate": "MACPHERSON, Pippa",
    "party": "Animal Justice Party",
-   "votes": 224,
-   "pct": 1.95
+   "votes": 305,
+   "pct": 1.72
   },
   {
    "candidate": "DE LORENZO, John",
    "party": "One Nation Victoria",
-   "votes": 2202,
-   "pct": 19.15
+   "votes": 2879,
+   "pct": 16.21
   },
   {
    "candidate": "GRULL, Brenden",
    "party": "Socialist Alliance",
-   "votes": 138,
-   "pct": 1.2
+   "votes": 188,
+   "pct": 1.06
   },
   {
    "candidate": "COUZENS, Christine",
    "party": "Australian Labor Party",
-   "votes": 2358,
-   "pct": 20.5
+   "votes": 3744,
+   "pct": 21.08
   },
   {
    "candidate": "VANDERPOL, Bree",
    "party": "Victorian Socialists",
-   "votes": 324,
-   "pct": 2.82
+   "votes": 452,
+   "pct": 2.55
   }
  ],
  "tcp": [

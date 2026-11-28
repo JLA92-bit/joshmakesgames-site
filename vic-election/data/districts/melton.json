@@ -3,9 +3,9 @@
  "name": "Melton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:18+00:00",
+ "fetched_at": "2026-11-28T10:47:25+00:00",
  "title": "Melton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:10",
+ "last_updated": "Saturday, 28 November 2026 21:45:09",
  "enrolment": 60210,
  "formal": 9135,
  "informal": 1053,
@@ -58,8 +58,8 @@
   {
    "candidate": "BORG, Broden",
    "party": "Australian Labor Party",
-   "votes": 1756,
-   "pct": 19.22
+   "votes": 1754,
+   "pct": 19.2
   },
   {
    "candidate": "PERERA, Jason Spencer",
@@ -76,8 +76,8 @@
   {
    "candidate": "KATSELIS, Matthew",
    "party": "One Nation Victoria",
-   "votes": 2734,
-   "pct": 29.93
+   "votes": 2736,
+   "pct": 29.95
   }
  ],
  "tcp": [
@@ -125,10 +125,10 @@
      "ADIN JAMES, Fiona": 130.0,
      "BINGHAM, Jarrod Liberal": 2245.0,
      "WEST, Marlene Family First": 204.0,
-     "BORG, Broden Australian Labor Party": 1756.0,
+     "BORG, Broden Australian Labor Party": 1754.0,
      "PERERA, Jason Spencer": 36.0,
      "FRASER, Jason": 136.0,
-     "KATSELIS, Matthew One Nation Victoria": 2734.0,
+     "KATSELIS, Matthew One Nation Victoria": 2736.0,
      "Informal votes": 1053.0,
      "Total votes polled": 10188.0
     }
@@ -143,10 +143,10 @@
      "ADIN JAMES, Fiona": 1.42,
      "BINGHAM, Jarrod Liberal": 24.58,
      "WEST, Marlene Family First": 2.23,
-     "BORG, Broden Australian Labor Party": 19.22,
+     "BORG, Broden Australian Labor Party": 19.2,
      "PERERA, Jason Spencer": 0.39,
      "FRASER, Jason": 1.49,
-     "KATSELIS, Matthew One Nation Victoria": 29.93
+     "KATSELIS, Matthew One Nation Victoria": 29.95
     }
    },
    {
@@ -235,10 +235,10 @@
      "ADIN JAMES, Fiona": 1.0,
      "BINGHAM, Jarrod Liberal": 134.0,
      "WEST, Marlene Family First": 10.0,
-     "BORG, Broden Australian Labor Party": 120.0,
+     "BORG, Broden Australian Labor Party": 118.0,
      "PERERA, Jason Spencer": 3.0,
      "FRASER, Jason": 13.0,
-     "KATSELIS, Matthew One Nation Victoria": 91.0,
+     "KATSELIS, Matthew One Nation Victoria": 93.0,
      "Informal votes": 74.0,
      "Total votes polled": 556.0
     }
@@ -415,10 +415,10 @@
      "ADIN JAMES, Fiona": 130.0,
      "BINGHAM, Jarrod Liberal": 2245.0,
      "WEST, Marlene Family First": 204.0,
-     "BORG, Broden Australian Labor Party": 1756.0,
+     "BORG, Broden Australian Labor Party": 1754.0,
      "PERERA, Jason Spencer": 36.0,
      "FRASER, Jason": 136.0,
-     "KATSELIS, Matthew One Nation Victoria": 2734.0,
+     "KATSELIS, Matthew One Nation Victoria": 2736.0,
      "Informal votes": 1053.0,
      "Total votes polled": 10188.0
     }

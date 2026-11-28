@@ -3,9 +3,9 @@
  "name": "Lara",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lara-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:17+00:00",
+ "fetched_at": "2026-11-28T10:47:23+00:00",
  "title": "Lara election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:07",
+ "last_updated": "Saturday, 28 November 2026 21:45:07",
  "enrolment": 51659,
  "formal": 11627,
  "informal": 839,
@@ -66,14 +66,14 @@
   {
    "candidate": "SPYROS, Steven",
    "party": "One Nation Victoria",
-   "votes": 1628,
-   "pct": 48.38
+   "votes": 2882,
+   "pct": 51.73
   },
   {
    "candidate": "GEORGE, Ella",
    "party": "Australian Labor Party",
-   "votes": 1737,
-   "pct": 51.62
+   "votes": 2689,
+   "pct": 48.27
   }
  ],
  "links": {

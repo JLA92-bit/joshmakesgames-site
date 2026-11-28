@@ -3,9 +3,9 @@
  "name": "Mordialloc",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mordialloc-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:40:26+00:00",
+ "fetched_at": "2026-11-28T10:48:01+00:00",
  "title": "Mordialloc election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:10",
+ "last_updated": "Saturday, 28 November 2026 21:45:10",
  "enrolment": 54102,
  "formal": 12859,
  "informal": 677,
@@ -66,13 +66,13 @@
   {
    "candidate": "O'HALLORAN, Paul",
    "party": "Liberal",
-   "votes": 6647,
+   "votes": 6740,
    "pct": 58.13
   },
   {
    "candidate": "RICHARDSON, Tim",
    "party": "Australian Labor Party",
-   "votes": 4788,
+   "votes": 4854,
    "pct": 41.87
   }
  ],

@@ -3,9 +3,9 @@
  "name": "Essendon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/essendon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:40:21+00:00",
+ "fetched_at": "2026-11-28T10:47:57+00:00",
  "title": "Essendon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:35:05",
+ "last_updated": "Saturday, 28 November 2026 21:45:04",
  "enrolment": 53729,
  "formal": 12362,
  "informal": 630,
@@ -66,14 +66,14 @@
   {
    "candidate": "LE DEUX, Tommy",
    "party": "Liberal",
-   "votes": 5783,
-   "pct": 52.46
+   "votes": 6078,
+   "pct": 50.07
   },
   {
    "candidate": "THEODOSIS, Kat",
    "party": "Australian Labor Party",
-   "votes": 5240,
-   "pct": 47.54
+   "votes": 6061,
+   "pct": 49.93
   }
  ],
  "links": {

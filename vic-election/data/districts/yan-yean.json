@@ -3,13 +3,13 @@
  "name": "Yan Yean",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/yan-yean-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:27+00:00",
+ "fetched_at": "2026-11-28T10:47:51+00:00",
  "title": "Yan Yean election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:17",
+ "last_updated": "Saturday, 28 November 2026 21:45:17",
  "enrolment": 57294,
- "formal": 9385,
+ "formal": 9386,
  "informal": 519,
- "total_votes": 9904,
+ "total_votes": 9905,
  "counted_pct": 17.29,
  "notes": [],
  "primary": [
@@ -52,8 +52,8 @@
   {
    "candidate": "MOHAMMED, Gufran",
    "party": "The Greens",
-   "votes": 995,
-   "pct": 10.6
+   "votes": 996,
+   "pct": 10.61
   },
   {
    "candidate": "CHEERS, Troy",
@@ -66,14 +66,14 @@
   {
    "candidate": "KATHAGE, Lauren",
    "party": "Australian Labor Party",
-   "votes": 1850,
-   "pct": 44.48
+   "votes": 2588,
+   "pct": 46.3
   },
   {
    "candidate": "JOHNSON, Jeremy",
    "party": "One Nation Victoria",
-   "votes": 2309,
-   "pct": 55.52
+   "votes": 3002,
+   "pct": 53.7
   }
  ],
  "links": {

@@ -3,9 +3,9 @@
  "name": "St Albans",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/st-albans-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:25+00:00",
+ "fetched_at": "2026-11-28T10:47:45+00:00",
  "title": "St Albans election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:15",
+ "last_updated": "Saturday, 28 November 2026 21:45:15",
  "enrolment": 47825,
  "formal": 7551,
  "informal": 804,
@@ -72,14 +72,14 @@
   {
    "candidate": "SULEYMAN, Natalie",
    "party": "Australian Labor Party",
-   "votes": 978,
-   "pct": 57.8
+   "votes": 1605,
+   "pct": 51.25
   },
   {
    "candidate": "DUNSTAN, Rob",
    "party": "Liberal",
-   "votes": 714,
-   "pct": 42.2
+   "votes": 1527,
+   "pct": 48.75
   }
  ],
  "links": {
