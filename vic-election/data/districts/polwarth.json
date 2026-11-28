@@ -3,71 +3,71 @@
  "name": "Polwarth",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/polwarth-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:59:47+00:00",
+ "fetched_at": "2026-11-28T14:09:17+00:00",
  "title": "Polwarth election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:55:11",
+ "last_updated": "Sunday, 29 November 2026 01:05:12",
  "enrolment": 55081,
- "formal": 12769,
- "informal": 664,
- "total_votes": 13433,
- "counted_pct": 24.39,
+ "formal": 14106,
+ "informal": 719,
+ "total_votes": 14825,
+ "counted_pct": 26.91,
  "notes": [],
  "primary": [
   {
    "candidate": "TOLLEY, Lula",
    "party": "Victorian Socialists",
-   "votes": 361,
-   "pct": 2.83
+   "votes": 423,
+   "pct": 3.0
   },
   {
    "candidate": "RIORDAN, Richard",
    "party": "Liberal",
-   "votes": 5267,
-   "pct": 41.25
+   "votes": 5669,
+   "pct": 40.19
   },
   {
    "candidate": "HUSSEIN, Hutch",
    "party": "Australian Labor Party",
-   "votes": 1599,
-   "pct": 12.52
+   "votes": 1831,
+   "pct": 12.98
   },
   {
    "candidate": "HOLDEN, Jesse",
    "party": "The Greens",
-   "votes": 2444,
-   "pct": 19.14
+   "votes": 2870,
+   "pct": 20.35
   },
   {
    "candidate": "CARBINS, Brenton",
    "party": "Citizens Party",
-   "votes": 75,
+   "votes": 83,
    "pct": 0.59
   },
   {
    "candidate": "MALCOLM, Anna",
    "party": "One Nation Victoria",
-   "votes": 2793,
-   "pct": 21.87
+   "votes": 2982,
+   "pct": 21.14
   },
   {
    "candidate": "COLLA, Vince",
    "party": "Family First",
-   "votes": 230,
-   "pct": 1.8
+   "votes": 248,
+   "pct": 1.76
   }
  ],
  "tcp": [
   {
    "candidate": "RIORDAN, Richard",
    "party": "Liberal",
-   "votes": 8376,
-   "pct": 67.22
+   "votes": 9066,
+   "pct": 65.71
   },
   {
    "candidate": "HUSSEIN, Hutch",
    "party": "Australian Labor Party",
-   "votes": 4085,
-   "pct": 32.78
+   "votes": 4732,
+   "pct": 34.29
   }
  ],
  "links": {

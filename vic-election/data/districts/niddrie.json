@@ -3,9 +3,9 @@
  "name": "Niddrie",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/niddrie-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:59:46+00:00",
+ "fetched_at": "2026-11-28T14:09:15+00:00",
  "title": "Niddrie election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:55:09",
+ "last_updated": "Sunday, 29 November 2026 01:05:10",
  "enrolment": 52610,
  "formal": 30937,
  "informal": 2565,
@@ -84,14 +84,14 @@
   {
    "candidate": "CARROLL, Ben",
    "party": "Australian Labor Party",
-   "votes": 10597,
-   "pct": 36.55
+   "votes": 10932,
+   "pct": 36.63
   },
   {
    "candidate": "BYRNE, Samantha",
    "party": "Liberal",
-   "votes": 18400,
-   "pct": 63.45
+   "votes": 18911,
+   "pct": 63.37
   }
  ],
  "links": {

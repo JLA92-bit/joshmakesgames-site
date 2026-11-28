@@ -3,69 +3,69 @@
  "name": "Ovens Valley",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ovens-valley-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:59:46+00:00",
+ "fetched_at": "2026-11-28T14:09:17+00:00",
  "title": "Ovens Valley election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:55:11",
+ "last_updated": "Sunday, 29 November 2026 01:05:12",
  "enrolment": 49586,
- "formal": 17435,
- "informal": 1137,
- "total_votes": 18572,
- "counted_pct": 37.45,
+ "formal": 31751,
+ "informal": 1876,
+ "total_votes": 33627,
+ "counted_pct": 67.82,
  "notes": [],
  "primary": [
   {
    "candidate": "McCURDY, Tim",
    "party": "The Nationals",
-   "votes": 6072,
-   "pct": 34.83
+   "votes": 11167,
+   "pct": 35.17
   },
   {
    "candidate": "FIDGE, Julian",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 332,
-   "pct": 1.9
+   "votes": 623,
+   "pct": 1.96
   },
   {
    "candidate": "MURPHY, Bronwyn",
    "party": "Victorian Socialists",
-   "votes": 145,
-   "pct": 0.83
+   "votes": 242,
+   "pct": 0.76
   },
   {
    "candidate": "ROUEL, James",
    "party": "One Nation Victoria",
-   "votes": 5734,
-   "pct": 32.89
+   "votes": 9337,
+   "pct": 29.41
   },
   {
    "candidate": "MANNING, Steve",
    "party": "",
-   "votes": 3085,
-   "pct": 17.69
+   "votes": 6924,
+   "pct": 21.81
   },
   {
    "candidate": "NORTON-SMITH, Carol",
    "party": "Family First",
-   "votes": 192,
-   "pct": 1.1
+   "votes": 317,
+   "pct": 1.0
   },
   {
    "candidate": "SMITH, Jennifer",
    "party": "Australian Labor Party",
-   "votes": 908,
-   "pct": 5.21
+   "votes": 1552,
+   "pct": 4.89
   },
   {
    "candidate": "GILBERT, Benjamin",
    "party": "The Greens",
-   "votes": 776,
-   "pct": 4.45
+   "votes": 1250,
+   "pct": 3.94
   },
   {
    "candidate": "LITCHFIELD, Sue",
    "party": "Animal Justice Party",
-   "votes": 191,
-   "pct": 1.1
+   "votes": 339,
+   "pct": 1.07
   }
  ],
  "tcp": [
