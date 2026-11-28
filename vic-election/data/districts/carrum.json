@@ -3,16 +3,16 @@
  "name": "Carrum",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/carrum-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:56:55+00:00",
+ "fetched_at": "2026-11-28T12:05:25+00:00",
  "title": "Carrum election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:55:04",
+ "last_updated": "Saturday, 28 November 2026 23:05:04",
  "enrolment": 54535,
  "formal": 15398,
  "informal": 899,
  "total_votes": 16297,
  "counted_pct": 29.88,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Carrum District results Carrum District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:04 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Carrum District results Carrum District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:04 These results are provisional."
  ],
  "primary": [
   {
@@ -68,14 +68,14 @@
   {
    "candidate": "KILKENNY, Sonya",
    "party": "Australian Labor Party",
-   "votes": 4740,
-   "pct": 41.44
+   "votes": 5211,
+   "pct": 41.24
   },
   {
    "candidate": "SHELLEY, Jeff",
    "party": "Liberal",
-   "votes": 6699,
-   "pct": 58.56
+   "votes": 7425,
+   "pct": 58.76
   }
  ],
  "links": {

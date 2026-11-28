@@ -3,59 +3,59 @@
  "name": "Albert Park",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/albert-park-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:56:50+00:00",
+ "fetched_at": "2026-11-28T12:05:23+00:00",
  "title": "Albert Park election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:55:02",
+ "last_updated": "Saturday, 28 November 2026 23:05:02",
  "enrolment": 51117,
- "formal": 11019,
- "informal": 543,
- "total_votes": 11562,
- "counted_pct": 22.62,
+ "formal": 14664,
+ "informal": 629,
+ "total_votes": 15293,
+ "counted_pct": 29.92,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Albert Park District results Albert Park District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:02 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Albert Park District results Albert Park District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:02 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "DRAGWIDGE, Georgie",
    "party": "",
-   "votes": 752,
-   "pct": 6.82
+   "votes": 915,
+   "pct": 6.24
   },
   {
    "candidate": "SEMMENS, Sonya",
    "party": "The Greens",
-   "votes": 2919,
-   "pct": 26.49
+   "votes": 3330,
+   "pct": 22.71
   },
   {
    "candidate": "COOK, Andrew",
    "party": "Liberal",
-   "votes": 3614,
-   "pct": 32.8
+   "votes": 5460,
+   "pct": 37.23
   },
   {
    "candidate": "TAYLOR, Nina",
    "party": "Australian Labor Party",
-   "votes": 1972,
-   "pct": 17.9
+   "votes": 2664,
+   "pct": 18.17
   },
   {
    "candidate": "KING, Adrian William",
    "party": "",
-   "votes": 207,
-   "pct": 1.88
+   "votes": 286,
+   "pct": 1.95
   },
   {
    "candidate": "LINDRUM, Tam",
    "party": "One Nation Victoria",
-   "votes": 976,
-   "pct": 8.86
+   "votes": 1371,
+   "pct": 9.35
   },
   {
    "candidate": "BOLGER, Colleen",
    "party": "Victorian Socialists",
-   "votes": 579,
-   "pct": 5.25
+   "votes": 638,
+   "pct": 4.35
   }
  ],
  "tcp": [

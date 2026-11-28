@@ -3,79 +3,79 @@
  "name": "Box Hill",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/box-hill-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:56:54+00:00",
+ "fetched_at": "2026-11-28T12:05:26+00:00",
  "title": "Box Hill election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:55:02",
+ "last_updated": "Saturday, 28 November 2026 23:05:02",
  "enrolment": 52758,
- "formal": 11177,
- "informal": 473,
- "total_votes": 11650,
- "counted_pct": 22.08,
+ "formal": 15505,
+ "informal": 607,
+ "total_votes": 16112,
+ "counted_pct": 30.54,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Box Hill District results Box Hill District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:02 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Box Hill District results Box Hill District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:02 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "QIN, Aaron",
    "party": "The Greens",
-   "votes": 2220,
-   "pct": 19.86
+   "votes": 2614,
+   "pct": 16.86
   },
   {
    "candidate": "CHEUNG, Heena",
    "party": "",
-   "votes": 619,
-   "pct": 5.54
+   "votes": 757,
+   "pct": 4.88
   },
   {
    "candidate": "BAKER, Jamie",
    "party": "One Nation Victoria",
-   "votes": 890,
-   "pct": 7.96
+   "votes": 1220,
+   "pct": 7.87
   },
   {
    "candidate": "HOUGUET, Sally",
    "party": "Liberal",
-   "votes": 4276,
-   "pct": 38.26
+   "votes": 6688,
+   "pct": 43.13
   },
   {
    "candidate": "McGRATH, Sue-Ellen",
    "party": "Labour DLP",
-   "votes": 84,
-   "pct": 0.75
+   "votes": 112,
+   "pct": 0.72
   },
   {
    "candidate": "HAMER, Paul",
    "party": "Australian Labor Party",
-   "votes": 2501,
-   "pct": 22.38
+   "votes": 3384,
+   "pct": 21.83
   },
   {
    "candidate": "AFAJ, Saravina",
    "party": "Victorian Socialists",
-   "votes": 400,
-   "pct": 3.58
+   "votes": 451,
+   "pct": 2.91
   },
   {
    "candidate": "FAGG, Peter",
    "party": "Family First",
-   "votes": 187,
-   "pct": 1.67
+   "votes": 279,
+   "pct": 1.8
   }
  ],
  "tcp": [
   {
    "candidate": "HOUGUET, Sally",
    "party": "Liberal",
-   "votes": 4415,
-   "pct": 54.27
+   "votes": 7396,
+   "pct": 59.35
   },
   {
    "candidate": "HAMER, Paul",
    "party": "Australian Labor Party",
-   "votes": 3720,
-   "pct": 45.73
+   "votes": 5066,
+   "pct": 40.65
   }
  ],
  "links": {
