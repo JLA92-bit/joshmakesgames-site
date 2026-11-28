@@ -3,9 +3,9 @@
  "name": "Prahran",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/prahran-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:32:44+00:00",
+ "fetched_at": "2026-11-28T10:40:29+00:00",
  "title": "Prahran election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:30:12",
+ "last_updated": "Saturday, 28 November 2026 21:40:12",
  "enrolment": 49678,
  "formal": 6678,
  "informal": 438,
@@ -96,14 +96,14 @@
   {
    "candidate": "WESTAWAY, Rachel",
    "party": "Liberal",
-   "votes": 1280,
-   "pct": 39.43
+   "votes": 1766,
+   "pct": 40.46
   },
   {
    "candidate": "DI CAMILLO, Angelica",
    "party": "The Greens",
-   "votes": 1966,
-   "pct": 60.57
+   "votes": 2599,
+   "pct": 59.54
   }
  ],
  "links": {

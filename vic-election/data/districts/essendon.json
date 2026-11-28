@@ -3,13 +3,13 @@
  "name": "Essendon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/essendon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:27:24+00:00",
+ "fetched_at": "2026-11-28T10:40:21+00:00",
  "title": "Essendon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:25:05",
+ "last_updated": "Saturday, 28 November 2026 21:35:05",
  "enrolment": 53729,
- "formal": 12361,
+ "formal": 12362,
  "informal": 630,
- "total_votes": 12991,
+ "total_votes": 12992,
  "counted_pct": 24.18,
  "notes": [],
  "primary": [
@@ -46,8 +46,8 @@
   {
    "candidate": "WILLIAMS, James",
    "party": "The Greens",
-   "votes": 2105,
-   "pct": 17.03
+   "votes": 2106,
+   "pct": 17.04
   },
   {
    "candidate": "YILDIZ, Oscar",
@@ -66,14 +66,14 @@
   {
    "candidate": "LE DEUX, Tommy",
    "party": "Liberal",
-   "votes": 4201,
-   "pct": 49.28
+   "votes": 5783,
+   "pct": 52.46
   },
   {
    "candidate": "THEODOSIS, Kat",
    "party": "Australian Labor Party",
-   "votes": 4323,
-   "pct": 50.72
+   "votes": 5240,
+   "pct": 47.54
   }
  ],
  "links": {

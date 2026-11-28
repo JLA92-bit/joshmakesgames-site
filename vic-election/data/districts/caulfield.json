@@ -3,12 +3,12 @@
  "name": "Caulfield",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/caulfield-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:27:11+00:00",
+ "fetched_at": "2026-11-28T10:40:19+00:00",
  "title": "Caulfield election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:25:05",
+ "last_updated": "Saturday, 28 November 2026 21:35:05",
  "enrolment": 51087,
- "formal": 10184,
- "informal": 418,
+ "formal": 10178,
+ "informal": 424,
  "total_votes": 10602,
  "counted_pct": 20.75,
  "notes": [],
@@ -16,8 +16,8 @@
   {
    "candidate": "DOLEJŠÍ, Angel",
    "party": "The Greens",
-   "votes": 2631,
-   "pct": 25.83
+   "votes": 2630,
+   "pct": 25.84
   },
   {
    "candidate": "SHROOT, Yaakov Ziv",
@@ -28,13 +28,13 @@
   {
    "candidate": "ABABNEH, Malak",
    "party": "Victorian Socialists",
-   "votes": 533,
+   "votes": 532,
    "pct": 5.23
   },
   {
    "candidate": "STAFRACE, Mikaela",
    "party": "Australian Labor Party",
-   "votes": 1803,
+   "votes": 1801,
    "pct": 17.7
   },
   {
@@ -46,8 +46,8 @@
   {
    "candidate": "SOUTHWICK, David",
    "party": "Liberal",
-   "votes": 4290,
-   "pct": 42.12
+   "votes": 4288,
+   "pct": 42.13
   },
   {
    "candidate": "ABELMAN, Michael",
@@ -60,14 +60,14 @@
   {
    "candidate": "STAFRACE, Mikaela",
    "party": "Australian Labor Party",
-   "votes": 2199,
-   "pct": 39.91
+   "votes": 2589,
+   "pct": 41.79
   },
   {
    "candidate": "SOUTHWICK, David",
    "party": "Liberal",
-   "votes": 3311,
-   "pct": 60.09
+   "votes": 3607,
+   "pct": 58.21
   }
  ],
  "links": {

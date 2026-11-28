@@ -3,83 +3,83 @@
  "name": "Benambra",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/benambra-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:27:07+00:00",
+ "fetched_at": "2026-11-28T10:40:18+00:00",
  "title": "Benambra election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:25:02",
+ "last_updated": "Saturday, 28 November 2026 21:35:02",
  "enrolment": 51973,
- "formal": 14626,
- "informal": 932,
- "total_votes": 15558,
- "counted_pct": 29.93,
+ "formal": 16039,
+ "informal": 1018,
+ "total_votes": 17057,
+ "counted_pct": 32.82,
  "notes": [],
  "primary": [
   {
    "candidate": "FUERY, Mike",
    "party": "Animal Justice Party",
-   "votes": 311,
-   "pct": 2.13
+   "votes": 329,
+   "pct": 2.05
   },
   {
    "candidate": "PARTON, Graham",
    "party": "The Greens",
-   "votes": 752,
-   "pct": 5.14
+   "votes": 784,
+   "pct": 4.89
   },
   {
    "candidate": "YOUNG, Oliver",
    "party": "Australian Labor Party",
-   "votes": 573,
-   "pct": 3.92
+   "votes": 637,
+   "pct": 3.97
   },
   {
    "candidate": "VANGALEN, Alex",
    "party": "Victorian Socialists",
-   "votes": 164,
-   "pct": 1.12
+   "votes": 177,
+   "pct": 1.1
   },
   {
    "candidate": "McKEEMAN, Lachie",
    "party": "",
-   "votes": 5036,
-   "pct": 34.43
+   "votes": 5349,
+   "pct": 33.35
   },
   {
    "candidate": "MARTIN, Steve",
    "party": "Liberal",
-   "votes": 3611,
-   "pct": 24.69
+   "votes": 4039,
+   "pct": 25.18
   },
   {
    "candidate": "SHEPPARD, Kellie",
    "party": "One Nation Victoria",
-   "votes": 3866,
-   "pct": 26.43
+   "votes": 4371,
+   "pct": 27.25
   },
   {
    "candidate": "PEPPER, Evette",
    "party": "Family First",
-   "votes": 192,
-   "pct": 1.31
+   "votes": 214,
+   "pct": 1.33
   },
   {
    "candidate": "QUILTY, Tim",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 121,
-   "pct": 0.83
+   "votes": 139,
+   "pct": 0.87
   }
  ],
  "tcp": [
   {
    "candidate": "McKEEMAN, Lachie",
    "party": "",
-   "votes": 5517,
-   "pct": 55.81
+   "votes": 5781,
+   "pct": 54.89
   },
   {
    "candidate": "MARTIN, Steve",
    "party": "Liberal",
-   "votes": 4368,
-   "pct": 44.19
+   "votes": 4751,
+   "pct": 45.11
   }
  ],
  "links": {

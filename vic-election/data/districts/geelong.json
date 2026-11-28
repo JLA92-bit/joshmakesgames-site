@@ -3,77 +3,77 @@
  "name": "Geelong",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/geelong-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:27:13+00:00",
+ "fetched_at": "2026-11-28T10:40:22+00:00",
  "title": "Geelong election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:25:05",
+ "last_updated": "Saturday, 28 November 2026 21:35:08",
  "enrolment": 53903,
- "formal": 11120,
- "informal": 618,
- "total_votes": 11738,
- "counted_pct": 21.78,
+ "formal": 11500,
+ "informal": 637,
+ "total_votes": 12137,
+ "counted_pct": 22.52,
  "notes": [],
  "primary": [
   {
    "candidate": "FLYNN, Emilie",
    "party": "The Greens",
-   "votes": 2616,
-   "pct": 23.53
+   "votes": 2744,
+   "pct": 23.86
   },
   {
    "candidate": "POBJOY, Andy",
    "party": "Liberal",
-   "votes": 3218,
-   "pct": 28.94
+   "votes": 3310,
+   "pct": 28.78
   },
   {
    "candidate": "BENGTSSON, Maria",
    "party": "Family First",
-   "votes": 192,
-   "pct": 1.73
+   "votes": 200,
+   "pct": 1.74
   },
   {
    "candidate": "MACPHERSON, Pippa",
    "party": "Animal Justice Party",
-   "votes": 222,
-   "pct": 2.0
+   "votes": 224,
+   "pct": 1.95
   },
   {
    "candidate": "DE LORENZO, John",
    "party": "One Nation Victoria",
-   "votes": 2155,
-   "pct": 19.38
+   "votes": 2202,
+   "pct": 19.15
   },
   {
    "candidate": "GRULL, Brenden",
    "party": "Socialist Alliance",
-   "votes": 131,
-   "pct": 1.18
+   "votes": 138,
+   "pct": 1.2
   },
   {
    "candidate": "COUZENS, Christine",
    "party": "Australian Labor Party",
-   "votes": 2276,
-   "pct": 20.47
+   "votes": 2358,
+   "pct": 20.5
   },
   {
    "candidate": "VANDERPOL, Bree",
    "party": "Victorian Socialists",
-   "votes": 310,
-   "pct": 2.79
+   "votes": 324,
+   "pct": 2.82
   }
  ],
  "tcp": [
   {
    "candidate": "POBJOY, Andy",
    "party": "Liberal",
-   "votes": 2642,
-   "pct": 49.23
+   "votes": 3053,
+   "pct": 49.81
   },
   {
    "candidate": "COUZENS, Christine",
    "party": "Australian Labor Party",
-   "votes": 2725,
-   "pct": 50.77
+   "votes": 3076,
+   "pct": 50.19
   }
  ],
  "links": {
