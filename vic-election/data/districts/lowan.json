@@ -3,79 +3,79 @@
  "name": "Lowan",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lowan-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:50:32+00:00",
+ "fetched_at": "2026-11-28T11:59:31+00:00",
  "title": "Lowan election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:50:08",
+ "last_updated": "Saturday, 28 November 2026 22:55:07",
  "enrolment": 51035,
- "formal": 19004,
- "informal": 1434,
- "total_votes": 20438,
- "counted_pct": 40.05,
+ "formal": 19291,
+ "informal": 1452,
+ "total_votes": 20743,
+ "counted_pct": 40.64,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Lowan District results Lowan District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:08 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Lowan District results Lowan District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:07 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "BUTLER, Kieran",
    "party": "",
-   "votes": 396,
+   "votes": 401,
    "pct": 2.08
   },
   {
    "candidate": "HYSLOP, Karen",
    "party": "Australian Democrats",
-   "votes": 402,
-   "pct": 2.12
+   "votes": 407,
+   "pct": 2.11
   },
   {
    "candidate": "KEALY, Emma",
    "party": "The Nationals",
-   "votes": 7678,
-   "pct": 40.4
+   "votes": 7785,
+   "pct": 40.36
   },
   {
    "candidate": "PAVLOVICH, Sue",
    "party": "Australian Labor Party",
-   "votes": 1585,
-   "pct": 8.34
+   "votes": 1600,
+   "pct": 8.29
   },
   {
    "candidate": "ELMES, Lee-Ann",
    "party": "Family First",
-   "votes": 421,
-   "pct": 2.22
+   "votes": 427,
+   "pct": 2.21
   },
   {
    "candidate": "PARTRIDGE, Andrew",
    "party": "One Nation Victoria",
-   "votes": 6599,
-   "pct": 34.72
+   "votes": 6708,
+   "pct": 34.77
   },
   {
    "candidate": "DOWNEY, Jos",
    "party": "Victorian Socialists",
-   "votes": 237,
-   "pct": 1.25
+   "votes": 243,
+   "pct": 1.26
   },
   {
    "candidate": "MORAN, Jeff",
    "party": "The Greens",
-   "votes": 1686,
-   "pct": 8.87
+   "votes": 1720,
+   "pct": 8.92
   }
  ],
  "tcp": [
   {
    "candidate": "KEALY, Emma",
    "party": "The Nationals",
-   "votes": 10982,
-   "pct": 59.94
+   "votes": 11151,
+   "pct": 59.93
   },
   {
    "candidate": "PARTRIDGE, Andrew",
    "party": "One Nation Victoria",
-   "votes": 7339,
-   "pct": 40.06
+   "votes": 7457,
+   "pct": 40.07
   }
  ],
  "links": {
