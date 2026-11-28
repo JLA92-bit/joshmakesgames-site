@@ -3,71 +3,71 @@
  "name": "Clarinda",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/clarinda-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:12:03+00:00",
+ "fetched_at": "2026-11-28T15:21:01+00:00",
  "title": "Clarinda election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:10:04",
+ "last_updated": "Sunday, 29 November 2026 02:20:04",
  "enrolment": 49578,
- "formal": 20601,
- "informal": 1222,
- "total_votes": 21823,
- "counted_pct": 44.02,
+ "formal": 27810,
+ "informal": 1458,
+ "total_votes": 29268,
+ "counted_pct": 59.03,
  "notes": [],
  "primary": [
   {
    "candidate": "ROCHE, Liam",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 411,
-   "pct": 2.0
+   "votes": 508,
+   "pct": 1.83
   },
   {
    "candidate": "BOYD-EEDLE, Conor",
    "party": "The Greens",
-   "votes": 2312,
-   "pct": 11.22
+   "votes": 2952,
+   "pct": 10.61
   },
   {
    "candidate": "TAK, Meng Heang",
    "party": "Australian Labor Party",
-   "votes": 7101,
-   "pct": 34.47
+   "votes": 8689,
+   "pct": 31.24
   },
   {
    "candidate": "MESSAGE, Kit",
    "party": "Victorian Socialists",
-   "votes": 498,
-   "pct": 2.42
+   "votes": 619,
+   "pct": 2.23
   },
   {
    "candidate": "WHITE, Caroline",
    "party": "",
-   "votes": 1327,
-   "pct": 6.44
+   "votes": 2428,
+   "pct": 8.73
   },
   {
    "candidate": "BAIN, Gavin",
    "party": "One Nation Victoria",
-   "votes": 2722,
-   "pct": 13.21
+   "votes": 4084,
+   "pct": 14.69
   },
   {
    "candidate": "PAGANIS, John",
    "party": "Liberal",
-   "votes": 6230,
-   "pct": 30.24
+   "votes": 8530,
+   "pct": 30.67
   }
  ],
  "tcp": [
   {
    "candidate": "TAK, Meng Heang",
    "party": "Australian Labor Party",
-   "votes": 10443,
-   "pct": 50.73
+   "votes": 13396,
+   "pct": 48.2
   },
   {
    "candidate": "PAGANIS, John",
    "party": "Liberal",
-   "votes": 10142,
-   "pct": 49.27
+   "votes": 14398,
+   "pct": 51.8
   }
  ],
  "links": {
