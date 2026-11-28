@@ -3,14 +3,14 @@
  "name": "Cranbourne",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/cranbourne-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:48:02+00:00",
+ "fetched_at": "2026-11-28T14:57:05+00:00",
  "title": "Cranbourne election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:45:04",
+ "last_updated": "Sunday, 29 November 2026 01:55:04",
  "enrolment": 58761,
- "formal": 35498,
+ "formal": 35503,
  "informal": 2416,
- "total_votes": 37914,
- "counted_pct": 64.52,
+ "total_votes": 37919,
+ "counted_pct": 64.53,
  "notes": [],
  "primary": [
   {
@@ -29,13 +29,13 @@
    "candidate": "MERCER, Annalise",
    "party": "The Greens",
    "votes": 4219,
-   "pct": 11.89
+   "pct": 11.88
   },
   {
    "candidate": "TRIPODI, Gino",
    "party": "Liberal",
-   "votes": 10460,
-   "pct": 29.47
+   "votes": 10465,
+   "pct": 29.48
   },
   {
    "candidate": "RICHARDS, Pauline",

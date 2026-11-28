@@ -3,57 +3,57 @@
  "name": "Bendigo West",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:48:00+00:00",
+ "fetched_at": "2026-11-28T14:57:04+00:00",
  "title": "Bendigo West election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:45:01",
+ "last_updated": "Sunday, 29 November 2026 01:55:01",
  "enrolment": 49735,
- "formal": 21338,
- "informal": 1003,
- "total_votes": 22341,
- "counted_pct": 44.92,
+ "formal": 28295,
+ "informal": 1283,
+ "total_votes": 29578,
+ "counted_pct": 59.47,
  "notes": [],
  "primary": [
   {
    "candidate": "SHALEVSKI, Tayne",
    "party": "Victorian Socialists",
-   "votes": 1129,
-   "pct": 5.29
+   "votes": 1576,
+   "pct": 5.57
   },
   {
    "candidate": "HUTCHINGS, David",
    "party": "The Nationals",
-   "votes": 6074,
-   "pct": 28.47
+   "votes": 7539,
+   "pct": 26.64
   },
   {
    "candidate": "TRANTER, Debra",
    "party": "Animal Justice Party",
-   "votes": 940,
-   "pct": 4.41
+   "votes": 1368,
+   "pct": 4.83
   },
   {
    "candidate": "BALDWIN, Brenton",
    "party": "Australian Labor Party",
-   "votes": 4167,
-   "pct": 19.53
+   "votes": 5650,
+   "pct": 19.97
   },
   {
    "candidate": "SHAW, Liza",
    "party": "The Greens",
-   "votes": 3654,
-   "pct": 17.12
+   "votes": 5550,
+   "pct": 19.61
   },
   {
    "candidate": "HARISOPOULOS, Christos",
    "party": "Family First",
-   "votes": 448,
-   "pct": 2.1
+   "votes": 538,
+   "pct": 1.9
   },
   {
    "candidate": "MORGAN, Ellen",
    "party": "One Nation Victoria",
-   "votes": 4926,
-   "pct": 23.09
+   "votes": 6074,
+   "pct": 21.47
   }
  ],
  "tcp": [

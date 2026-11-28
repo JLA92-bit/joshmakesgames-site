@@ -3,12 +3,12 @@
  "name": "Prahran",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/prahran-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:48:11+00:00",
+ "fetched_at": "2026-11-28T14:57:14+00:00",
  "title": "Prahran election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:45:11",
+ "last_updated": "Sunday, 29 November 2026 01:55:11",
  "enrolment": 49678,
- "formal": 26688,
- "informal": 1672,
+ "formal": 26687,
+ "informal": 1673,
  "total_votes": 28360,
  "counted_pct": 57.09,
  "notes": [],
@@ -64,8 +64,8 @@
   {
    "candidate": "DOUEIHI, Clayton",
    "party": "Victorian Socialists",
-   "votes": 1280,
-   "pct": 4.8
+   "votes": 1279,
+   "pct": 4.79
   },
   {
    "candidate": "JONAS, Morgan",
@@ -96,14 +96,14 @@
   {
    "candidate": "WESTAWAY, Rachel",
    "party": "Liberal",
-   "votes": 5651,
-   "pct": 47.8
+   "votes": 13190,
+   "pct": 50.22
   },
   {
    "candidate": "DI CAMILLO, Angelica",
    "party": "The Greens",
-   "votes": 6171,
-   "pct": 52.2
+   "votes": 13073,
+   "pct": 49.78
   }
  ],
  "links": {
