@@ -1,9 +1,70 @@
 {
- "scraped_at": "2026-11-28T13:50:22+00:00",
+ "scraped_at": "2026-11-28T13:53:22+00:00",
  "base": "/results/2026-results/district-election-page",
  "discovery_log": [],
- "errors": [],
- "iteration": 59,
+ "errors": [
+  {
+   "slug": "tarneit",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/tarneit-district-results"
+  },
+  {
+   "slug": "wendouree",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/wendouree-district-results"
+  },
+  {
+   "slug": "eastern-victoria",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results"
+  },
+  {
+   "slug": "north-eastern-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results"
+  },
+  {
+   "slug": "northern-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Northern-Metropolitan-Region-results"
+  },
+  {
+   "slug": "northern-victoria",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Northern-Victoria-Region-results"
+  },
+  {
+   "slug": "south-eastern-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/South-Eastern-Metropolitan-Region-results"
+  },
+  {
+   "slug": "southern-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Southern-Metropolitan-Region-results"
+  },
+  {
+   "slug": "western-metropolitan",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Metropolitan-Region-results"
+  },
+  {
+   "slug": "western-victoria",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Victoria-Region-results"
+  },
+  {
+   "slug": "frankston",
+   "error": "HTTP 999",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results"
+  },
+  {
+   "slug": "mordialloc",
+   "error": "HTTP 999",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mordialloc-district-results"
+  }
+ ],
+ "iteration": 60,
  "region_urls": {
   "eastern-victoria": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
   "north-eastern-metropolitan": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
@@ -17,10 +78,10 @@
  "fetched": {
   "hot": 19,
   "cold": 23,
-  "regions": 0
+  "regions": 8
  },
- "blocked_responses": 0,
+ "blocked_responses": 6,
  "status": "ok",
- "requests": 56,
- "seconds": 36.1
+ "requests": 68,
+ "seconds": 73.9
 }

@@ -3,69 +3,69 @@
  "name": "Ringwood",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ringwood-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:44:48+00:00",
+ "fetched_at": "2026-11-28T13:54:18+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:40:13",
+ "last_updated": "Sunday, 29 November 2026 00:50:13",
  "enrolment": 54911,
- "formal": 29433,
- "informal": 1352,
- "total_votes": 30785,
- "counted_pct": 56.06,
+ "formal": 39210,
+ "informal": 1730,
+ "total_votes": 40940,
+ "counted_pct": 74.56,
  "notes": [],
  "primary": [
   {
    "candidate": "HALSE, Rachel",
    "party": "Australian Labor Party",
-   "votes": 5451,
-   "pct": 18.52
+   "votes": 7201,
+   "pct": 18.37
   },
   {
    "candidate": "McGOWAN, Nick",
    "party": "Liberal",
-   "votes": 12063,
-   "pct": 40.98
+   "votes": 16121,
+   "pct": 41.11
   },
   {
    "candidate": "NORTON, Christopher William",
    "party": "Labour DLP",
-   "votes": 141,
-   "pct": 0.48
+   "votes": 185,
+   "pct": 0.47
   },
   {
    "candidate": "HUANG, Elaine",
    "party": "Family First",
-   "votes": 559,
-   "pct": 1.9
+   "votes": 755,
+   "pct": 1.93
   },
   {
    "candidate": "CUTTS, Prue",
    "party": "",
-   "votes": 1927,
-   "pct": 6.55
+   "votes": 2622,
+   "pct": 6.69
   },
   {
    "candidate": "MILLS, Amy",
    "party": "The Greens",
-   "votes": 4781,
-   "pct": 16.24
+   "votes": 6351,
+   "pct": 16.2
   },
   {
    "candidate": "O'CONNOR, John",
    "party": "One Nation Victoria",
-   "votes": 3140,
-   "pct": 10.67
+   "votes": 4140,
+   "pct": 10.56
   },
   {
    "candidate": "WALKER, Lyndon",
    "party": "Animal Justice Party",
-   "votes": 371,
-   "pct": 1.26
+   "votes": 467,
+   "pct": 1.19
   },
   {
    "candidate": "GARDNER, Jack",
    "party": "Victorian Socialists",
-   "votes": 1000,
-   "pct": 3.4
+   "votes": 1368,
+   "pct": 3.49
   }
  ],
  "tcp": [
