@@ -3,16 +3,16 @@
  "name": "Kororoit",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kororoit-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:05:12+00:00",
+ "fetched_at": "2026-11-28T12:08:19+00:00",
  "title": "Kororoit election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:00:07",
+ "last_updated": "Saturday, 28 November 2026 23:05:07",
  "enrolment": 61816,
  "formal": 10017,
  "informal": 949,
  "total_votes": 10966,
  "counted_pct": 17.74,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Kororoit District results Kororoit District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:00:07 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Kororoit District results Kororoit District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:07 These results are provisional."
  ],
  "primary": [
   {
@@ -74,14 +74,14 @@
   {
    "candidate": "CHAKOMA, Jack",
    "party": "Liberal",
-   "votes": 2554,
-   "pct": 53.79
+   "votes": 2929,
+   "pct": 52.49
   },
   {
    "candidate": "GRIGOROVITCH, Luba",
    "party": "Australian Labor Party",
-   "votes": 2194,
-   "pct": 46.21
+   "votes": 2651,
+   "pct": 47.51
   }
  ],
  "links": {

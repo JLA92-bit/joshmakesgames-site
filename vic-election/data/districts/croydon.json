@@ -3,16 +3,16 @@
  "name": "Croydon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:59:26+00:00",
+ "fetched_at": "2026-11-28T12:09:07+00:00",
  "title": "Croydon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:55:04",
+ "last_updated": "Saturday, 28 November 2026 23:05:05",
  "enrolment": 55612,
  "formal": 33129,
  "informal": 1705,
  "total_votes": 34834,
  "counted_pct": 62.64,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Croydon District results Croydon District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:04 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Croydon District results Croydon District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:05 These results are provisional."
  ],
  "primary": [
   {
@@ -68,14 +68,14 @@
   {
    "candidate": "FARR, Richard",
    "party": "Australian Labor Party",
-   "votes": 6833,
-   "pct": 36.54
+   "votes": 10786,
+   "pct": 37.72
   },
   {
    "candidate": "WOOLDRIDGE, Toby",
    "party": "Liberal",
-   "votes": 11866,
-   "pct": 63.46
+   "votes": 17806,
+   "pct": 62.28
   }
  ],
  "links": {

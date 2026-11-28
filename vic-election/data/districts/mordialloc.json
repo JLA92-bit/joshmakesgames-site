@@ -3,64 +3,64 @@
  "name": "Mordialloc",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mordialloc-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:59:32+00:00",
+ "fetched_at": "2026-11-28T12:09:13+00:00",
  "title": "Mordialloc election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:55:09",
+ "last_updated": "Saturday, 28 November 2026 23:05:09",
  "enrolment": 54102,
- "formal": 15799,
- "informal": 757,
- "total_votes": 16556,
- "counted_pct": 30.6,
+ "formal": 16344,
+ "informal": 784,
+ "total_votes": 17128,
+ "counted_pct": 31.66,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Mordialloc District results Mordialloc District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:09 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Mordialloc District results Mordialloc District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:09 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "O'HALLORAN, Paul",
    "party": "Liberal",
-   "votes": 6343,
-   "pct": 40.15
+   "votes": 6602,
+   "pct": 40.39
   },
   {
    "candidate": "HOSSAIN, Mahee",
    "party": "Victorian Socialists",
-   "votes": 575,
-   "pct": 3.64
+   "votes": 588,
+   "pct": 3.6
   },
   {
    "candidate": "POTUCEK, Lily",
    "party": "Family First",
-   "votes": 214,
+   "votes": 221,
    "pct": 1.35
   },
   {
    "candidate": "VERSTEEGEN, Rachel",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 130,
-   "pct": 0.82
+   "votes": 132,
+   "pct": 0.81
   },
   {
    "candidate": "TICEHURST, Nadia",
    "party": "One Nation Victoria",
-   "votes": 2143,
+   "votes": 2217,
    "pct": 13.56
   },
   {
    "candidate": "BRESKIN, Alex",
    "party": "The Greens",
-   "votes": 2535,
-   "pct": 16.05
+   "votes": 2598,
+   "pct": 15.9
   },
   {
    "candidate": "RICHARDSON, Tim",
    "party": "Australian Labor Party",
-   "votes": 3483,
-   "pct": 22.05
+   "votes": 3597,
+   "pct": 22.01
   },
   {
    "candidate": "THOMPSON, Renee",
    "party": "Legalise Cannabis Victoria",
-   "votes": 376,
+   "votes": 389,
    "pct": 2.38
   }
  ],
@@ -68,14 +68,14 @@
   {
    "candidate": "O'HALLORAN, Paul",
    "party": "Liberal",
-   "votes": 9422,
-   "pct": 59.65
+   "votes": 9783,
+   "pct": 59.87
   },
   {
    "candidate": "RICHARDSON, Tim",
    "party": "Australian Labor Party",
-   "votes": 6373,
-   "pct": 40.35
+   "votes": 6557,
+   "pct": 40.13
   }
  ],
  "links": {

@@ -3,53 +3,53 @@
  "name": "Bentleigh",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bentleigh-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:59:23+00:00",
+ "fetched_at": "2026-11-28T12:09:05+00:00",
  "title": "Bentleigh election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:55:02",
+ "last_updated": "Saturday, 28 November 2026 23:05:02",
  "enrolment": 54956,
- "formal": 14144,
- "informal": 408,
- "total_votes": 14552,
- "counted_pct": 26.48,
+ "formal": 20416,
+ "informal": 557,
+ "total_votes": 20973,
+ "counted_pct": 38.16,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bentleigh District results Bentleigh District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:02 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bentleigh District results Bentleigh District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:02 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "PUTT, Tynan",
    "party": "Liberal",
-   "votes": 6005,
-   "pct": 42.46
+   "votes": 9005,
+   "pct": 44.11
   },
   {
    "candidate": "VAINORAS, Tony",
    "party": "Citizens Party",
-   "votes": 127,
-   "pct": 0.9
+   "votes": 175,
+   "pct": 0.86
   },
   {
    "candidate": "LONSING, Herbert",
    "party": "One Nation Victoria",
-   "votes": 1758,
-   "pct": 12.43
+   "votes": 2690,
+   "pct": 13.18
   },
   {
    "candidate": "PROCTOR, Claire",
    "party": "The Greens",
-   "votes": 2167,
-   "pct": 15.32
+   "votes": 2831,
+   "pct": 13.87
   },
   {
    "candidate": "STAIKOS, Nick",
    "party": "Australian Labor Party",
-   "votes": 3598,
-   "pct": 25.44
+   "votes": 5112,
+   "pct": 25.04
   },
   {
    "candidate": "KRUGER, Liam",
    "party": "Victorian Socialists",
-   "votes": 489,
-   "pct": 3.46
+   "votes": 603,
+   "pct": 2.95
   }
  ],
  "tcp": [

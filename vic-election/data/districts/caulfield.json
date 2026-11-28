@@ -3,59 +3,59 @@
  "name": "Caulfield",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/caulfield-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:59:27+00:00",
+ "fetched_at": "2026-11-28T12:09:08+00:00",
  "title": "Caulfield election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:55:04",
+ "last_updated": "Saturday, 28 November 2026 23:05:04",
  "enrolment": 51087,
- "formal": 16078,
- "informal": 580,
- "total_votes": 16658,
- "counted_pct": 32.61,
+ "formal": 16346,
+ "informal": 595,
+ "total_votes": 16941,
+ "counted_pct": 33.16,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Caulfield District results Caulfield District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:04 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Caulfield District results Caulfield District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:04 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "DOLEJŠÍ, Angel",
    "party": "The Greens",
-   "votes": 3500,
-   "pct": 21.77
+   "votes": 3531,
+   "pct": 21.6
   },
   {
    "candidate": "SHROOT, Yaakov Ziv",
    "party": "",
-   "votes": 209,
+   "votes": 213,
    "pct": 1.3
   },
   {
    "candidate": "ABABNEH, Malak",
    "party": "Victorian Socialists",
-   "votes": 752,
-   "pct": 4.68
+   "votes": 756,
+   "pct": 4.62
   },
   {
    "candidate": "STAFRACE, Mikaela",
    "party": "Australian Labor Party",
-   "votes": 2468,
-   "pct": 15.35
+   "votes": 2499,
+   "pct": 15.29
   },
   {
    "candidate": "GILBERT, Geneviève",
    "party": "Family First",
-   "votes": 112,
-   "pct": 0.7
+   "votes": 113,
+   "pct": 0.69
   },
   {
    "candidate": "SOUTHWICK, David",
    "party": "Liberal",
-   "votes": 7832,
-   "pct": 48.71
+   "votes": 8023,
+   "pct": 49.08
   },
   {
    "candidate": "ABELMAN, Michael",
    "party": "One Nation Victoria",
-   "votes": 1205,
-   "pct": 7.49
+   "votes": 1211,
+   "pct": 7.41
   }
  ],
  "tcp": [
