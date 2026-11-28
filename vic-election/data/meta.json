@@ -1,15 +1,155 @@
 {
- "scraped_at": "2026-11-28T14:11:25+00:00",
+ "scraped_at": "2026-11-28T14:14:22+00:00",
  "base": "/results/2026-results/district-election-page",
- "discovery_log": [
+ "discovery_log": [],
+ "errors": [
   {
-   "probe": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results",
-   "status": 200,
-   "ok": true
+   "slug": "narracan",
+   "error": "HTTP 999",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narracan-district-results"
+  },
+  {
+   "slug": "st-albans",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/st-albans-district-results"
+  },
+  {
+   "slug": "sunbury",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sunbury-district-results"
+  },
+  {
+   "slug": "sydenham",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sydenham-district-results"
+  },
+  {
+   "slug": "ashwood",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ashwood-district-results"
+  },
+  {
+   "slug": "benambra",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/benambra-district-results"
+  },
+  {
+   "slug": "bentleigh",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bentleigh-district-results"
+  },
+  {
+   "slug": "brighton",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brighton-district-results"
+  },
+  {
+   "slug": "bulleen",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bulleen-district-results"
+  },
+  {
+   "slug": "caulfield",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/caulfield-district-results"
+  },
+  {
+   "slug": "croydon",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results"
+  },
+  {
+   "slug": "eltham",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eltham-district-results"
+  },
+  {
+   "slug": "evelyn",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/evelyn-district-results"
+  },
+  {
+   "slug": "geelong",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/geelong-district-results"
+  },
+  {
+   "slug": "hawthorn",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hawthorn-district-results"
+  },
+  {
+   "slug": "laverton",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/laverton-district-results"
+  },
+  {
+   "slug": "malvern",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/malvern-district-results"
+  },
+  {
+   "slug": "mill-park",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mill-park-district-results"
+  },
+  {
+   "slug": "mornington",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mornington-district-results"
+  },
+  {
+   "slug": "nepean",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/nepean-district-results"
+  },
+  {
+   "slug": "oakleigh",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/oakleigh-district-results"
+  },
+  {
+   "slug": "point-cook",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/point-cook-district-results"
+  },
+  {
+   "slug": "preston",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/preston-district-results"
+  },
+  {
+   "slug": "rowville",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/rowville-district-results"
+  },
+  {
+   "slug": "south-barwon",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-barwon-district-results"
+  },
+  {
+   "slug": "thomastown",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/thomastown-district-results"
+  },
+  {
+   "slug": "werribee",
+   "error": "HTTP 998",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/werribee-district-results"
+  },
+  {
+   "slug": "narre-warren-south",
+   "error": "HTTP 999",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-south-district-results"
+  },
+  {
+   "slug": "ripon",
+   "error": "HTTP 999",
+   "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ripon-district-results"
   }
  ],
- "errors": [],
- "iteration": 66,
+ "iteration": 67,
  "region_urls": {
   "eastern-victoria": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
   "north-eastern-metropolitan": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
@@ -22,11 +162,11 @@
  },
  "fetched": {
   "hot": 18,
-  "cold": 24,
-  "regions": 8
+  "cold": 23,
+  "regions": 0
  },
- "blocked_responses": 0,
+ "blocked_responses": 6,
  "status": "ok",
- "requests": 89,
- "seconds": 63.5
+ "requests": 18,
+ "seconds": 37.3
 }
