@@ -3,9 +3,9 @@
  "name": "Sunbury",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sunbury-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:08:55+00:00",
+ "fetched_at": "2026-11-28T13:12:02+00:00",
  "title": "Sunbury election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:05:15",
+ "last_updated": "Sunday, 29 November 2026 00:10:15",
  "enrolment": 51664,
  "formal": 12975,
  "informal": 1102,
@@ -643,6 +643,316 @@
      "MEDCRAFT, Steve Jack": 21.0,
      "GRANGER BROWN, Lauren": 85.0,
      "BATRES, Elmer Family First": 41.0,
+     "Informal votes": 63.0,
+     "Total votes polled": 1477.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "DABROWSKI, Elita One Nation Victoria",
+   "BULL, Josh Australian Labor Party",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 6779.0,
+     "BULL, Josh Australian Labor Party": 5063.0,
+     "Miss-sorts": 10.0,
+     "Informal votes": 935.0,
+     "Total votes polled": 12787.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 57.25,
+     "BULL, Josh Australian Labor Party": 42.75
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Bulla East",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 48.0,
+     "BULL, Josh Australian Labor Party": 29.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 5.0,
+     "Total votes polled": 82.0
+    }
+   },
+   {
+    "booth": "Diggers Rest",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 707.0,
+     "BULL, Josh Australian Labor Party": 565.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 111.0,
+     "Total votes polled": 1383.0
+    }
+   },
+   {
+    "booth": "Gladstone Park",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Gladstone Views",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 496.0,
+     "BULL, Josh Australian Labor Party": 337.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 104.0,
+     "Total votes polled": 937.0
+    }
+   },
+   {
+    "booth": "Goonawarra",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 813.0,
+     "BULL, Josh Australian Labor Party": 594.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 92.0,
+     "Total votes polled": 1499.0
+    }
+   },
+   {
+    "booth": "Jacksons Hill",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 326.0,
+     "BULL, Josh Australian Labor Party": 313.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 38.0,
+     "Total votes polled": 677.0
+    }
+   },
+   {
+    "booth": "Sunbury",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 477.0,
+     "BULL, Josh Australian Labor Party": 352.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 60.0,
+     "Total votes polled": 891.0
+    }
+   },
+   {
+    "booth": "Sunbury Central",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 564.0,
+     "BULL, Josh Australian Labor Party": 391.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 106.0,
+     "Total votes polled": 1061.0
+    }
+   },
+   {
+    "booth": "Sunbury Heights",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 399.0,
+     "BULL, Josh Australian Labor Party": 368.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 43.0,
+     "Total votes polled": 810.0
+    }
+   },
+   {
+    "booth": "Sunbury North",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 356.0,
+     "BULL, Josh Australian Labor Party": 339.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 49.0,
+     "Total votes polled": 744.0
+    }
+   },
+   {
+    "booth": "Sunbury North West",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 486.0,
+     "BULL, Josh Australian Labor Party": 403.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 29.0,
+     "Total votes polled": 918.0
+    }
+   },
+   {
+    "booth": "Sunbury West",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 458.0,
+     "BULL, Josh Australian Labor Party": 308.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 59.0,
+     "Total votes polled": 825.0
+    }
+   },
+   {
+    "booth": "Tullamarine",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 693.0,
+     "BULL, Josh Australian Labor Party": 504.0,
+     "Miss-sorts": 8.0,
+     "Informal votes": 156.0,
+     "Total votes polled": 1361.0
+    }
+   },
+   {
+    "booth": "Westmeadows",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 57.0,
+     "BULL, Josh Australian Labor Party": 45.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 20.0,
+     "Total votes polled": 122.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 5880.0,
+     "BULL, Josh Australian Labor Party": 4548.0,
+     "Miss-sorts": 10.0,
+     "Informal votes": 872.0,
+     "Total votes polled": 11310.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Greenvale - EVC 3",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sunbury - EVC 1",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sunbury - EVC 2",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sunbury - EVC 3",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sunbury - MEVC",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 899.0,
+     "BULL, Josh Australian Labor Party": 515.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 63.0,
+     "Total votes polled": 1477.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "DABROWSKI, Elita One Nation Victoria": 899.0,
+     "BULL, Josh Australian Labor Party": 515.0,
+     "Miss-sorts": 0.0,
      "Informal votes": 63.0,
      "Total votes polled": 1477.0
     }

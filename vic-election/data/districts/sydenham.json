@@ -3,9 +3,9 @@
  "name": "Sydenham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sydenham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:08:58+00:00",
+ "fetched_at": "2026-11-28T13:12:03+00:00",
  "title": "Sydenham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:05:15",
+ "last_updated": "Sunday, 29 November 2026 00:10:15",
  "enrolment": 64794,
  "formal": 13775,
  "informal": 1493,
@@ -717,6 +717,336 @@
      "RASIC, Uros Australian Labor Party": 457.0,
      "JANE, Maggie The Greens": 129.0,
      "KHAN, Shania Victorian Socialists": 45.0,
+     "Informal votes": 109.0,
+     "Total votes polled": 2489.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "MOUSSI, Nathalie Liberal",
+   "RASIC, Uros Australian Labor Party",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 7558.0,
+     "RASIC, Uros Australian Labor Party": 4900.0,
+     "Miss-sorts": 3.0,
+     "Informal votes": 1337.0,
+     "Total votes polled": 13798.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 60.67,
+     "RASIC, Uros Australian Labor Party": 39.33
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Deanside",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 369.0,
+     "RASIC, Uros Australian Labor Party": 308.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 56.0,
+     "Total votes polled": 733.0
+    }
+   },
+   {
+    "booth": "Delahey",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 552.0,
+     "RASIC, Uros Australian Labor Party": 529.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 159.0,
+     "Total votes polled": 1240.0
+    }
+   },
+   {
+    "booth": "Fraser Rise",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Hillside",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 724.0,
+     "RASIC, Uros Australian Labor Party": 429.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 144.0,
+     "Total votes polled": 1297.0
+    }
+   },
+   {
+    "booth": "Hillside South",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 164.0,
+     "RASIC, Uros Australian Labor Party": 81.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 23.0,
+     "Total votes polled": 268.0
+    }
+   },
+   {
+    "booth": "Parkwood Green",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 596.0,
+     "RASIC, Uros Australian Labor Party": 328.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 102.0,
+     "Total votes polled": 1026.0
+    }
+   },
+   {
+    "booth": "Plumpton",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 568.0,
+     "RASIC, Uros Australian Labor Party": 395.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 103.0,
+     "Total votes polled": 1066.0
+    }
+   },
+   {
+    "booth": "Springside",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 449.0,
+     "RASIC, Uros Australian Labor Party": 282.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 156.0,
+     "Total votes polled": 887.0
+    }
+   },
+   {
+    "booth": "Sydenham",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 569.0,
+     "RASIC, Uros Australian Labor Party": 456.0,
+     "Miss-sorts": 3.0,
+     "Informal votes": 112.0,
+     "Total votes polled": 1140.0
+    }
+   },
+   {
+    "booth": "Sydenham East",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 164.0,
+     "RASIC, Uros Australian Labor Party": 144.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 21.0,
+     "Total votes polled": 329.0
+    }
+   },
+   {
+    "booth": "Taylors Hill",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 599.0,
+     "RASIC, Uros Australian Labor Party": 589.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 140.0,
+     "Total votes polled": 1328.0
+    }
+   },
+   {
+    "booth": "Taylors Lakes",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 97.0,
+     "RASIC, Uros Australian Labor Party": 40.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 151.0
+    }
+   },
+   {
+    "booth": "Taylors Lakes Central",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Taylors Lakes North",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 701.0,
+     "RASIC, Uros Australian Labor Party": 331.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 115.0,
+     "Total votes polled": 1147.0
+    }
+   },
+   {
+    "booth": "Watergardens",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 407.0,
+     "RASIC, Uros Australian Labor Party": 207.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 83.0,
+     "Total votes polled": 697.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 5959.0,
+     "RASIC, Uros Australian Labor Party": 4119.0,
+     "Miss-sorts": 3.0,
+     "Informal votes": 1228.0,
+     "Total votes polled": 11309.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Kororoit - EVC 1",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Kororoit - EVC 3",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "St Albans - EVC 1",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sydenham - EVC 1",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sydenham - EVC 2",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sydenham - MEVC",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 1599.0,
+     "RASIC, Uros Australian Labor Party": 781.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 109.0,
+     "Total votes polled": 2489.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 0.0,
+     "RASIC, Uros Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "MOUSSI, Nathalie Liberal": 1599.0,
+     "RASIC, Uros Australian Labor Party": 781.0,
+     "Miss-sorts": 0.0,
      "Informal votes": 109.0,
      "Total votes polled": 2489.0
     }

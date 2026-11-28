@@ -3,9 +3,9 @@
  "name": "Kororoit",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kororoit-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:08:38+00:00",
+ "fetched_at": "2026-11-28T13:11:40+00:00",
  "title": "Kororoit election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:05:08",
+ "last_updated": "Sunday, 29 November 2026 00:10:07",
  "enrolment": 61816,
  "formal": 12003,
  "informal": 1139,
@@ -619,6 +619,346 @@
      "GRIGOROVITCH, Luba Australian Labor Party": 406.0,
      "MELNIKOV, Seva One Nation Victoria": 378.0,
      "KANDPAL, Vasundhara Animal Justice Party": 41.0,
+     "Informal votes": 61.0,
+     "Total votes polled": 1483.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "CHAKOMA, Jack Liberal",
+   "GRIGOROVITCH, Luba Australian Labor Party",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "CHAKOMA, Jack Liberal": 5258.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 4702.0,
+     "Miss-sorts": 7.0,
+     "Informal votes": 977.0,
+     "Total votes polled": 10944.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "CHAKOMA, Jack Liberal": 52.79,
+     "GRIGOROVITCH, Luba Australian Labor Party": 47.21
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Aintree",
+    "values": {
+     "CHAKOMA, Jack Liberal": 421.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 320.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 66.0,
+     "Total votes polled": 807.0
+    }
+   },
+   {
+    "booth": "Albanvale",
+    "values": {
+     "CHAKOMA, Jack Liberal": 0.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Brookside",
+    "values": {
+     "CHAKOMA, Jack Liberal": 0.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Burnside",
+    "values": {
+     "CHAKOMA, Jack Liberal": 543.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 425.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 70.0,
+     "Total votes polled": 1038.0
+    }
+   },
+   {
+    "booth": "Caroline Springs",
+    "values": {
+     "CHAKOMA, Jack Liberal": 433.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 406.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 98.0,
+     "Total votes polled": 937.0
+    }
+   },
+   {
+    "booth": "Creekside",
+    "values": {
+     "CHAKOMA, Jack Liberal": 551.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 490.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 84.0,
+     "Total votes polled": 1125.0
+    }
+   },
+   {
+    "booth": "Deer Park",
+    "values": {
+     "CHAKOMA, Jack Liberal": 160.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 155.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 47.0,
+     "Total votes polled": 362.0
+    }
+   },
+   {
+    "booth": "Deer Park Central",
+    "values": {
+     "CHAKOMA, Jack Liberal": 315.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 315.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 100.0,
+     "Total votes polled": 730.0
+    }
+   },
+   {
+    "booth": "Deer Park North",
+    "values": {
+     "CHAKOMA, Jack Liberal": 175.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 192.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 44.0,
+     "Total votes polled": 411.0
+    }
+   },
+   {
+    "booth": "Deer Park West",
+    "values": {
+     "CHAKOMA, Jack Liberal": 348.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 364.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 98.0,
+     "Total votes polled": 810.0
+    }
+   },
+   {
+    "booth": "Kings Park",
+    "values": {
+     "CHAKOMA, Jack Liberal": 0.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Kings Park South",
+    "values": {
+     "CHAKOMA, Jack Liberal": 182.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 253.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 28.0,
+     "Total votes polled": 468.0
+    }
+   },
+   {
+    "booth": "Mount Derrimut",
+    "values": {
+     "CHAKOMA, Jack Liberal": 333.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 422.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 94.0,
+     "Total votes polled": 849.0
+    }
+   },
+   {
+    "booth": "Rockbank",
+    "values": {
+     "CHAKOMA, Jack Liberal": 367.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 280.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 74.0,
+     "Total votes polled": 721.0
+    }
+   },
+   {
+    "booth": "Taylors Hill",
+    "values": {
+     "CHAKOMA, Jack Liberal": 42.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 35.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 16.0,
+     "Total votes polled": 93.0
+    }
+   },
+   {
+    "booth": "Truganina West",
+    "values": {
+     "CHAKOMA, Jack Liberal": 345.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 350.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 41.0,
+     "Total votes polled": 736.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "CHAKOMA, Jack Liberal": 4215.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 4007.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 860.0,
+     "Total votes polled": 9087.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Kororoit - EVC 1",
+    "values": {
+     "CHAKOMA, Jack Liberal": 0.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Kororoit - EVC 2",
+    "values": {
+     "CHAKOMA, Jack Liberal": 0.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Kororoit - EVC 3",
+    "values": {
+     "CHAKOMA, Jack Liberal": 0.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "St Albans - EVC 1",
+    "values": {
+     "CHAKOMA, Jack Liberal": 0.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sydenham - EVC 1",
+    "values": {
+     "CHAKOMA, Jack Liberal": 211.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 107.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 56.0,
+     "Total votes polled": 374.0
+    }
+   },
+   {
+    "booth": "Kororoit - MEVC",
+    "values": {
+     "CHAKOMA, Jack Liberal": 0.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "CHAKOMA, Jack Liberal": 0.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "CHAKOMA, Jack Liberal": 211.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 107.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 56.0,
+     "Total votes polled": 374.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "CHAKOMA, Jack Liberal": 0.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "CHAKOMA, Jack Liberal": 0.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "CHAKOMA, Jack Liberal": 832.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 588.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 61.0,
+     "Total votes polled": 1483.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "CHAKOMA, Jack Liberal": 0.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "CHAKOMA, Jack Liberal": 832.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 588.0,
+     "Miss-sorts": 2.0,
      "Informal votes": 61.0,
      "Total votes polled": 1483.0
     }

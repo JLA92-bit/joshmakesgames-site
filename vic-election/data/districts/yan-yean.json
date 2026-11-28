@@ -3,9 +3,9 @@
  "name": "Yan Yean",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/yan-yean-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:09:01+00:00",
+ "fetched_at": "2026-11-28T13:12:04+00:00",
  "title": "Yan Yean election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:05:18",
+ "last_updated": "Sunday, 29 November 2026 00:10:17",
  "enrolment": 57294,
  "formal": 17116,
  "informal": 892,
@@ -66,14 +66,14 @@
   {
    "candidate": "KATHAGE, Lauren",
    "party": "Australian Labor Party",
-   "votes": 5816,
-   "pct": 42.6
+   "votes": 7232,
+   "pct": 43.35
   },
   {
    "candidate": "JOHNSON, Jeremy",
    "party": "One Nation Victoria",
-   "votes": 7838,
-   "pct": 57.4
+   "votes": 9452,
+   "pct": 56.65
   }
  ],
  "links": {
@@ -610,6 +610,366 @@
      "DOW, Amanda Liberal": 796.0,
      "MOHAMMED, Gufran The Greens": 61.0,
      "CHEERS, Troy Libertarian (formerly Liberal Democrats)": 6.0,
+     "Informal votes": 47.0,
+     "Total votes polled": 1918.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "KATHAGE, Lauren Australian Labor Party",
+   "JOHNSON, Jeremy One Nation Victoria",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 7232.0,
+     "JOHNSON, Jeremy One Nation Victoria": 9452.0,
+     "Miss-sorts": 11.0,
+     "Informal votes": 861.0,
+     "Total votes polled": 17556.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 43.35,
+     "JOHNSON, Jeremy One Nation Victoria": 56.65
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Ashley Park",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 599.0,
+     "JOHNSON, Jeremy One Nation Victoria": 704.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 55.0,
+     "Total votes polled": 1358.0
+    }
+   },
+   {
+    "booth": "Donnybrook",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 436.0,
+     "JOHNSON, Jeremy One Nation Victoria": 311.0,
+     "Miss-sorts": 8.0,
+     "Informal votes": 41.0,
+     "Total votes polled": 796.0
+    }
+   },
+   {
+    "booth": "Doreen",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 237.0,
+     "JOHNSON, Jeremy One Nation Victoria": 244.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 23.0,
+     "Total votes polled": 504.0
+    }
+   },
+   {
+    "booth": "Doreen Central",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 344.0,
+     "JOHNSON, Jeremy One Nation Victoria": 416.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 27.0,
+     "Total votes polled": 787.0
+    }
+   },
+   {
+    "booth": "Gilgai Plains",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 127.0,
+     "JOHNSON, Jeremy One Nation Victoria": 132.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 27.0,
+     "Total votes polled": 286.0
+    }
+   },
+   {
+    "booth": "Laurimar",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 693.0,
+     "JOHNSON, Jeremy One Nation Victoria": 1123.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 82.0,
+     "Total votes polled": 1898.0
+    }
+   },
+   {
+    "booth": "Mernda",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 736.0,
+     "JOHNSON, Jeremy One Nation Victoria": 732.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 109.0,
+     "Total votes polled": 1577.0
+    }
+   },
+   {
+    "booth": "Mernda Central",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 738.0,
+     "JOHNSON, Jeremy One Nation Victoria": 693.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 89.0,
+     "Total votes polled": 1520.0
+    }
+   },
+   {
+    "booth": "Mernda East",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 176.0,
+     "JOHNSON, Jeremy One Nation Victoria": 268.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 38.0,
+     "Total votes polled": 482.0
+    }
+   },
+   {
+    "booth": "Mernda Park",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 326.0,
+     "JOHNSON, Jeremy One Nation Victoria": 340.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 54.0,
+     "Total votes polled": 720.0
+    }
+   },
+   {
+    "booth": "Plenty",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 125.0,
+     "JOHNSON, Jeremy One Nation Victoria": 343.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 32.0,
+     "Total votes polled": 500.0
+    }
+   },
+   {
+    "booth": "Wallan East",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 0.0,
+     "JOHNSON, Jeremy One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Wallan South",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 43.0,
+     "JOHNSON, Jeremy One Nation Victoria": 77.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 16.0,
+     "Total votes polled": 136.0
+    }
+   },
+   {
+    "booth": "Wandong North",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 117.0,
+     "JOHNSON, Jeremy One Nation Victoria": 221.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 29.0,
+     "Total votes polled": 367.0
+    }
+   },
+   {
+    "booth": "Whittlesea",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 183.0,
+     "JOHNSON, Jeremy One Nation Victoria": 350.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 31.0,
+     "Total votes polled": 564.0
+    }
+   },
+   {
+    "booth": "Whittlesea Centre",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 114.0,
+     "JOHNSON, Jeremy One Nation Victoria": 213.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 19.0,
+     "Total votes polled": 346.0
+    }
+   },
+   {
+    "booth": "Yarrambat",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 164.0,
+     "JOHNSON, Jeremy One Nation Victoria": 350.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 15.0,
+     "Total votes polled": 529.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 5158.0,
+     "JOHNSON, Jeremy One Nation Victoria": 6517.0,
+     "Miss-sorts": 8.0,
+     "Informal votes": 687.0,
+     "Total votes polled": 12370.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Kalkallo - EVC 1",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 0.0,
+     "JOHNSON, Jeremy One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Thomastown - EVC 1",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 0.0,
+     "JOHNSON, Jeremy One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Yan Yean - EVC 1",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 0.0,
+     "JOHNSON, Jeremy One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Yan Yean - EVC 2",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 0.0,
+     "JOHNSON, Jeremy One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Yan Yean - EVC 3",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 0.0,
+     "JOHNSON, Jeremy One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Yan Yean - EVC 4",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 1416.0,
+     "JOHNSON, Jeremy One Nation Victoria": 1614.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 120.0,
+     "Total votes polled": 3150.0
+    }
+   },
+   {
+    "booth": "Yan Yean - MEVC",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 61.0,
+     "JOHNSON, Jeremy One Nation Victoria": 50.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 7.0,
+     "Total votes polled": 118.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 0.0,
+     "JOHNSON, Jeremy One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 1477.0,
+     "JOHNSON, Jeremy One Nation Victoria": 1664.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 127.0,
+     "Total votes polled": 3268.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 0.0,
+     "JOHNSON, Jeremy One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 0.0,
+     "JOHNSON, Jeremy One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 597.0,
+     "JOHNSON, Jeremy One Nation Victoria": 1271.0,
+     "Miss-sorts": 3.0,
+     "Informal votes": 47.0,
+     "Total votes polled": 1918.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 0.0,
+     "JOHNSON, Jeremy One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "KATHAGE, Lauren Australian Labor Party": 597.0,
+     "JOHNSON, Jeremy One Nation Victoria": 1271.0,
+     "Miss-sorts": 3.0,
      "Informal votes": 47.0,
      "Total votes polled": 1918.0
     }

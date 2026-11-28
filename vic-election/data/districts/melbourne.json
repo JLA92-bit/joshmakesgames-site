@@ -3,69 +3,69 @@
  "name": "Melbourne",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melbourne-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:05:51+00:00",
+ "fetched_at": "2026-11-28T13:12:16+00:00",
  "title": "Melbourne election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:05:10",
+ "last_updated": "Sunday, 29 November 2026 00:10:10",
  "enrolment": 57336,
- "formal": 28093,
- "informal": 1196,
- "total_votes": 29289,
- "counted_pct": 51.08,
+ "formal": 29112,
+ "informal": 1231,
+ "total_votes": 30343,
+ "counted_pct": 52.92,
  "notes": [],
  "primary": [
   {
    "candidate": "TUCKFIELD, Rowan",
    "party": "",
-   "votes": 320,
-   "pct": 1.14
+   "votes": 334,
+   "pct": 1.15
   },
   {
    "candidate": "SANDELL, Ellen",
    "party": "The Greens",
-   "votes": 10779,
-   "pct": 38.37
+   "votes": 11242,
+   "pct": 38.62
   },
   {
    "candidate": "MCCATHIE, Rob",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 218,
-   "pct": 0.78
+   "votes": 223,
+   "pct": 0.77
   },
   {
    "candidate": "GRIFFITHS, Davydd",
    "party": "Australian Labor Party",
-   "votes": 4828,
-   "pct": 17.19
+   "votes": 4976,
+   "pct": 17.09
   },
   {
    "candidate": "YUSUF, Mohamed",
    "party": "",
-   "votes": 362,
-   "pct": 1.29
+   "votes": 383,
+   "pct": 1.32
   },
   {
    "candidate": "JONES, Naomi",
    "party": "Animal Justice Party",
-   "votes": 467,
+   "votes": 483,
    "pct": 1.66
   },
   {
    "candidate": "CAMILLO, Rafael",
    "party": "Liberal",
-   "votes": 5765,
-   "pct": 20.52
+   "votes": 5885,
+   "pct": 20.22
   },
   {
    "candidate": "VAN DEN LAMB, Jordan",
    "party": "Victorian Socialists",
-   "votes": 3521,
-   "pct": 12.53
+   "votes": 3711,
+   "pct": 12.75
   },
   {
    "candidate": "COURTIS, Phillip",
    "party": "One Nation Victoria",
-   "votes": 1833,
-   "pct": 6.52
+   "votes": 1875,
+   "pct": 6.44
   }
  ],
  "tcp": [

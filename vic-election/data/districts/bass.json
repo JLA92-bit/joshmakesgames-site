@@ -3,9 +3,9 @@
  "name": "Bass",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bass-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:08:25+00:00",
+ "fetched_at": "2026-11-28T13:11:26+00:00",
  "title": "Bass District results | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:05:03",
+ "last_updated": "Sunday, 29 November 2026 00:10:02",
  "enrolment": 57998,
  "formal": 27365,
  "informal": 827,
@@ -54,14 +54,14 @@
   {
    "candidate": "SCHELLEKENS, Nikole",
    "party": "One Nation Victoria",
-   "votes": 6653,
-   "pct": 43.65
+   "votes": 6721,
+   "pct": 43.46
   },
   {
    "candidate": "HALSTEAD, Rochelle",
    "party": "Liberal",
-   "votes": 8587,
-   "pct": 56.35
+   "votes": 8743,
+   "pct": 56.54
   }
  ],
  "links": {
@@ -598,18 +598,18 @@
    {
     "booth": "Total two candidate preferred votes",
     "values": {
-     "SCHELLEKENS, Nikole One Nation Victoria": 6653.0,
-     "HALSTEAD, Rochelle Liberal": 8587.0,
+     "SCHELLEKENS, Nikole One Nation Victoria": 6721.0,
+     "HALSTEAD, Rochelle Liberal": 8743.0,
      "Miss-sorts": 3.0,
-     "Informal votes": 520.0,
-     "Total votes polled": 15763.0
+     "Informal votes": 538.0,
+     "Total votes polled": 16005.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "SCHELLEKENS, Nikole One Nation Victoria": 43.65,
-     "HALSTEAD, Rochelle Liberal": 56.35
+     "SCHELLEKENS, Nikole One Nation Victoria": 43.46,
+     "HALSTEAD, Rochelle Liberal": 56.54
     }
    },
    {
@@ -903,11 +903,11 @@
    {
     "booth": "Bass - MEVC",
     "values": {
-     "SCHELLEKENS, Nikole One Nation Victoria": 0.0,
-     "HALSTEAD, Rochelle Liberal": 0.0,
+     "SCHELLEKENS, Nikole One Nation Victoria": 68.0,
+     "HALSTEAD, Rochelle Liberal": 156.0,
      "Miss-sorts": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "Informal votes": 18.0,
+     "Total votes polled": 242.0
     }
    },
    {
@@ -923,11 +923,11 @@
    {
     "booth": "Early votes total",
     "values": {
-     "SCHELLEKENS, Nikole One Nation Victoria": 0.0,
-     "HALSTEAD, Rochelle Liberal": 0.0,
+     "SCHELLEKENS, Nikole One Nation Victoria": 68.0,
+     "HALSTEAD, Rochelle Liberal": 156.0,
      "Miss-sorts": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "Informal votes": 18.0,
+     "Total votes polled": 242.0
     }
    },
    {

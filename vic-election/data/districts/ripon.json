@@ -3,9 +3,9 @@
  "name": "Ripon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ripon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:09:20+00:00",
+ "fetched_at": "2026-11-28T13:11:56+00:00",
  "title": "Ripon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:05:15",
+ "last_updated": "Sunday, 29 November 2026 00:10:12",
  "enrolment": 54525,
  "formal": 23630,
  "informal": 2256,
@@ -1135,6 +1135,556 @@
      "BUXTON, Donna One Nation Victoria": 598.0,
      "READ, Megan Liberal": 747.0,
      "ARMSTRONG, Jo The Nationals": 265.0,
+     "Informal votes": 73.0,
+     "Total votes polled": 2416.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "HAYLETT, Martha Australian Labor Party",
+   "BUXTON, Donna One Nation Victoria",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 7802.0,
+     "BUXTON, Donna One Nation Victoria": 12376.0,
+     "Miss-sorts": 7.0,
+     "Informal votes": 1923.0,
+     "Total votes polled": 22108.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 38.67,
+     "BUXTON, Donna One Nation Victoria": 61.33
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Alfredton West",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 85.0,
+     "BUXTON, Donna One Nation Victoria": 137.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 19.0,
+     "Total votes polled": 241.0
+    }
+   },
+   {
+    "booth": "Amphitheatre",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 26.0,
+     "BUXTON, Donna One Nation Victoria": 84.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 8.0,
+     "Total votes polled": 118.0
+    }
+   },
+   {
+    "booth": "Ararat",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 126.0,
+     "BUXTON, Donna One Nation Victoria": 192.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 25.0,
+     "Total votes polled": 343.0
+    }
+   },
+   {
+    "booth": "Ararat Central",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 140.0,
+     "BUXTON, Donna One Nation Victoria": 232.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 50.0,
+     "Total votes polled": 422.0
+    }
+   },
+   {
+    "booth": "Ararat West",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 135.0,
+     "BUXTON, Donna One Nation Victoria": 175.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 36.0,
+     "Total votes polled": 346.0
+    }
+   },
+   {
+    "booth": "Avoca",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 182.0,
+     "BUXTON, Donna One Nation Victoria": 412.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 80.0,
+     "Total votes polled": 676.0
+    }
+   },
+   {
+    "booth": "Ballarat North",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 40.0,
+     "BUXTON, Donna One Nation Victoria": 70.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 17.0,
+     "Total votes polled": 127.0
+    }
+   },
+   {
+    "booth": "Bealiba",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 28.0,
+     "BUXTON, Donna One Nation Victoria": 96.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 138.0
+    }
+   },
+   {
+    "booth": "Beaufort",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 268.0,
+     "BUXTON, Donna One Nation Victoria": 553.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 106.0,
+     "Total votes polled": 927.0
+    }
+   },
+   {
+    "booth": "Buangor",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 0.0,
+     "BUXTON, Donna One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Clunes",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 329.0,
+     "BUXTON, Donna One Nation Victoria": 408.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 90.0,
+     "Total votes polled": 827.0
+    }
+   },
+   {
+    "booth": "Creswick",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 663.0,
+     "BUXTON, Donna One Nation Victoria": 693.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 118.0,
+     "Total votes polled": 1474.0
+    }
+   },
+   {
+    "booth": "Dunolly",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 129.0,
+     "BUXTON, Donna One Nation Victoria": 307.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 61.0,
+     "Total votes polled": 497.0
+    }
+   },
+   {
+    "booth": "Elmhurst",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 0.0,
+     "BUXTON, Donna One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Haddon",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 213.0,
+     "BUXTON, Donna One Nation Victoria": 369.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 77.0,
+     "Total votes polled": 659.0
+    }
+   },
+   {
+    "booth": "Inglewood",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 0.0,
+     "BUXTON, Donna One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Landsborough",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 40.0,
+     "BUXTON, Donna One Nation Victoria": 126.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 16.0,
+     "Total votes polled": 182.0
+    }
+   },
+   {
+    "booth": "Learmonth",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 89.0,
+     "BUXTON, Donna One Nation Victoria": 199.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 28.0,
+     "Total votes polled": 316.0
+    }
+   },
+   {
+    "booth": "Lexton",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 53.0,
+     "BUXTON, Donna One Nation Victoria": 116.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 10.0,
+     "Total votes polled": 179.0
+    }
+   },
+   {
+    "booth": "Lucas",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 392.0,
+     "BUXTON, Donna One Nation Victoria": 446.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 52.0,
+     "Total votes polled": 890.0
+    }
+   },
+   {
+    "booth": "Maryborough",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 177.0,
+     "BUXTON, Donna One Nation Victoria": 272.0,
+     "Miss-sorts": 3.0,
+     "Informal votes": 45.0,
+     "Total votes polled": 497.0
+    }
+   },
+   {
+    "booth": "Maryborough Central",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 197.0,
+     "BUXTON, Donna One Nation Victoria": 356.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 71.0,
+     "Total votes polled": 624.0
+    }
+   },
+   {
+    "booth": "Maryborough East",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 167.0,
+     "BUXTON, Donna One Nation Victoria": 253.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 36.0,
+     "Total votes polled": 456.0
+    }
+   },
+   {
+    "booth": "Miners Rest",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 387.0,
+     "BUXTON, Donna One Nation Victoria": 626.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 89.0,
+     "Total votes polled": 1102.0
+    }
+   },
+   {
+    "booth": "Moonambel",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 69.0,
+     "BUXTON, Donna One Nation Victoria": 78.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 4.0,
+     "Total votes polled": 152.0
+    }
+   },
+   {
+    "booth": "Napoleons",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 103.0,
+     "BUXTON, Donna One Nation Victoria": 140.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 27.0,
+     "Total votes polled": 270.0
+    }
+   },
+   {
+    "booth": "Newbridge",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 79.0,
+     "BUXTON, Donna One Nation Victoria": 231.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 21.0,
+     "Total votes polled": 331.0
+    }
+   },
+   {
+    "booth": "Newlyn",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 166.0,
+     "BUXTON, Donna One Nation Victoria": 273.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 29.0,
+     "Total votes polled": 468.0
+    }
+   },
+   {
+    "booth": "Ross Creek",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 137.0,
+     "BUXTON, Donna One Nation Victoria": 392.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 44.0,
+     "Total votes polled": 574.0
+    }
+   },
+   {
+    "booth": "Scarsdale",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 121.0,
+     "BUXTON, Donna One Nation Victoria": 200.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 29.0,
+     "Total votes polled": 350.0
+    }
+   },
+   {
+    "booth": "Skipton",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 103.0,
+     "BUXTON, Donna One Nation Victoria": 197.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 32.0,
+     "Total votes polled": 332.0
+    }
+   },
+   {
+    "booth": "Smeaton",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 42.0,
+     "BUXTON, Donna One Nation Victoria": 114.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 9.0,
+     "Total votes polled": 165.0
+    }
+   },
+   {
+    "booth": "Smythesdale",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 143.0,
+     "BUXTON, Donna One Nation Victoria": 415.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 66.0,
+     "Total votes polled": 624.0
+    }
+   },
+   {
+    "booth": "Snake Valley",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 176.0,
+     "BUXTON, Donna One Nation Victoria": 397.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 41.0,
+     "Total votes polled": 614.0
+    }
+   },
+   {
+    "booth": "St Arnaud",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 251.0,
+     "BUXTON, Donna One Nation Victoria": 807.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 186.0,
+     "Total votes polled": 1244.0
+    }
+   },
+   {
+    "booth": "Talbot",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 138.0,
+     "BUXTON, Donna One Nation Victoria": 184.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 33.0,
+     "Total votes polled": 355.0
+    }
+   },
+   {
+    "booth": "Waubra",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 50.0,
+     "BUXTON, Donna One Nation Victoria": 111.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 175.0
+    }
+   },
+   {
+    "booth": "Wedderburn",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 150.0,
+     "BUXTON, Donna One Nation Victoria": 470.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 63.0,
+     "Total votes polled": 683.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 5594.0,
+     "BUXTON, Donna One Nation Victoria": 10131.0,
+     "Miss-sorts": 7.0,
+     "Informal votes": 1646.0,
+     "Total votes polled": 17378.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Ripon - EVC 1",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 0.0,
+     "BUXTON, Donna One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Ripon - EVC 2",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 0.0,
+     "BUXTON, Donna One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Wendouree - EVC 2",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 0.0,
+     "BUXTON, Donna One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Wendouree - EVC 3",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 842.0,
+     "BUXTON, Donna One Nation Victoria": 1268.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 204.0,
+     "Total votes polled": 2314.0
+    }
+   },
+   {
+    "booth": "Ripon - MEVC",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 0.0,
+     "BUXTON, Donna One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 0.0,
+     "BUXTON, Donna One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 842.0,
+     "BUXTON, Donna One Nation Victoria": 1268.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 204.0,
+     "Total votes polled": 2314.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 0.0,
+     "BUXTON, Donna One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 0.0,
+     "BUXTON, Donna One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 1366.0,
+     "BUXTON, Donna One Nation Victoria": 977.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 73.0,
+     "Total votes polled": 2416.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 0.0,
+     "BUXTON, Donna One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "HAYLETT, Martha Australian Labor Party": 1366.0,
+     "BUXTON, Donna One Nation Victoria": 977.0,
+     "Miss-sorts": 0.0,
      "Informal votes": 73.0,
      "Total votes polled": 2416.0
     }

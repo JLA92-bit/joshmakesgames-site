@@ -3,14 +3,14 @@
  "name": "St Albans",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/st-albans-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:08:53+00:00",
+ "fetched_at": "2026-11-28T13:11:58+00:00",
  "title": "St Albans election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:05:15",
+ "last_updated": "Sunday, 29 November 2026 00:10:15",
  "enrolment": 47825,
- "formal": 23189,
- "informal": 2359,
- "total_votes": 25548,
- "counted_pct": 53.42,
+ "formal": 23194,
+ "informal": 2362,
+ "total_votes": 25556,
+ "counted_pct": 53.44,
  "notes": [],
  "primary": [
   {
@@ -23,12 +23,12 @@
    "candidate": "HUYNH, Thuc Bao",
    "party": "The Greens",
    "votes": 2515,
-   "pct": 10.85
+   "pct": 10.84
   },
   {
    "candidate": "NGUYEN, Leanna",
    "party": "Victorian Socialists",
-   "votes": 1795,
+   "votes": 1796,
    "pct": 7.74
   },
   {
@@ -40,7 +40,7 @@
   {
    "candidate": "DUNSTAN, Rob",
    "party": "Liberal",
-   "votes": 5764,
+   "votes": 5765,
    "pct": 24.86
   },
   {
@@ -58,8 +58,8 @@
   {
    "candidate": "COWELL, John",
    "party": "One Nation Victoria",
-   "votes": 4016,
-   "pct": 17.32
+   "votes": 4019,
+   "pct": 17.33
   },
   {
    "candidate": "DAVINDER KAUR",
@@ -72,14 +72,14 @@
   {
    "candidate": "SULEYMAN, Natalie",
    "party": "Australian Labor Party",
-   "votes": 3086,
-   "pct": 53.73
+   "votes": 3088,
+   "pct": 53.71
   },
   {
    "candidate": "DUNSTAN, Rob",
    "party": "Liberal",
-   "votes": 2658,
-   "pct": 46.27
+   "votes": 2661,
+   "pct": 46.29
   }
  ],
  "links": {
@@ -106,28 +106,28 @@
     "values": {
      "WALKER, Luân The West Party": 924.0,
      "HUYNH, Thuc Bao The Greens": 2515.0,
-     "NGUYEN, Leanna Victorian Socialists": 1795.0,
+     "NGUYEN, Leanna Victorian Socialists": 1796.0,
      "SULEYMAN, Natalie Australian Labor Party": 7542.0,
-     "DUNSTAN, Rob Liberal": 5764.0,
+     "DUNSTAN, Rob Liberal": 5765.0,
      "JANTEN, Kerry": 154.0,
      "HAKIZIMANA, Alex Family First": 380.0,
-     "COWELL, John One Nation Victoria": 4016.0,
+     "COWELL, John One Nation Victoria": 4019.0,
      "DAVINDER KAUR The Republican": 99.0,
-     "Informal votes": 2359.0,
-     "Total votes polled": 25548.0
+     "Informal votes": 2362.0,
+     "Total votes polled": 25556.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
      "WALKER, Luân The West Party": 3.98,
-     "HUYNH, Thuc Bao The Greens": 10.85,
+     "HUYNH, Thuc Bao The Greens": 10.84,
      "NGUYEN, Leanna Victorian Socialists": 7.74,
      "SULEYMAN, Natalie Australian Labor Party": 32.52,
      "DUNSTAN, Rob Liberal": 24.86,
      "JANTEN, Kerry": 0.66,
      "HAKIZIMANA, Alex Family First": 1.64,
-     "COWELL, John One Nation Victoria": 17.32,
+     "COWELL, John One Nation Victoria": 17.33,
      "DAVINDER KAUR The Republican": 0.43
     }
    },
@@ -156,15 +156,15 @@
     "values": {
      "WALKER, Luân The West Party": 45.0,
      "HUYNH, Thuc Bao The Greens": 139.0,
-     "NGUYEN, Leanna Victorian Socialists": 52.0,
+     "NGUYEN, Leanna Victorian Socialists": 53.0,
      "SULEYMAN, Natalie Australian Labor Party": 345.0,
-     "DUNSTAN, Rob Liberal": 217.0,
+     "DUNSTAN, Rob Liberal": 218.0,
      "JANTEN, Kerry": 5.0,
      "HAKIZIMANA, Alex Family First": 21.0,
-     "COWELL, John One Nation Victoria": 134.0,
+     "COWELL, John One Nation Victoria": 137.0,
      "DAVINDER KAUR The Republican": 5.0,
-     "Informal votes": 141.0,
-     "Total votes polled": 1104.0
+     "Informal votes": 144.0,
+     "Total votes polled": 1112.0
     }
    },
    {
@@ -348,15 +348,15 @@
     "values": {
      "WALKER, Luân The West Party": 222.0,
      "HUYNH, Thuc Bao The Greens": 850.0,
-     "NGUYEN, Leanna Victorian Socialists": 534.0,
+     "NGUYEN, Leanna Victorian Socialists": 535.0,
      "SULEYMAN, Natalie Australian Labor Party": 1867.0,
-     "DUNSTAN, Rob Liberal": 1525.0,
+     "DUNSTAN, Rob Liberal": 1526.0,
      "JANTEN, Kerry": 47.0,
      "HAKIZIMANA, Alex Family First": 135.0,
-     "COWELL, John One Nation Victoria": 1298.0,
+     "COWELL, John One Nation Victoria": 1301.0,
      "DAVINDER KAUR The Republican": 31.0,
-     "Informal votes": 815.0,
-     "Total votes polled": 7324.0
+     "Informal votes": 818.0,
+     "Total votes polled": 7332.0
     }
    },
    {
@@ -539,6 +539,296 @@
      "HAKIZIMANA, Alex Family First": 39.0,
      "COWELL, John One Nation Victoria": 324.0,
      "DAVINDER KAUR The Republican": 5.0,
+     "Informal votes": 46.0,
+     "Total votes polled": 1487.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "SULEYMAN, Natalie Australian Labor Party",
+   "DUNSTAN, Rob Liberal",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 3088.0,
+     "DUNSTAN, Rob Liberal": 2661.0,
+     "Miss-sorts": 4.0,
+     "Informal votes": 618.0,
+     "Total votes polled": 6371.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 53.71,
+     "DUNSTAN, Rob Liberal": 46.29
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Albion North",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 213.0,
+     "DUNSTAN, Rob Liberal": 183.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 53.0,
+     "Total votes polled": 449.0
+    }
+   },
+   {
+    "booth": "Cairnlea",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 566.0,
+     "DUNSTAN, Rob Liberal": 402.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 144.0,
+     "Total votes polled": 1112.0
+    }
+   },
+   {
+    "booth": "Errington",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 177.0,
+     "DUNSTAN, Rob Liberal": 160.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 50.0,
+     "Total votes polled": 387.0
+    }
+   },
+   {
+    "booth": "Kealba",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 0.0,
+     "DUNSTAN, Rob Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Keilor Downs",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 0.0,
+     "DUNSTAN, Rob Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Monmia",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 0.0,
+     "DUNSTAN, Rob Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "St Albans North",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 230.0,
+     "DUNSTAN, Rob Liberal": 149.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 38.0,
+     "Total votes polled": 417.0
+    }
+   },
+   {
+    "booth": "St Albans South",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 200.0,
+     "DUNSTAN, Rob Liberal": 155.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 45.0,
+     "Total votes polled": 400.0
+    }
+   },
+   {
+    "booth": "St Albans South East",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 341.0,
+     "DUNSTAN, Rob Liberal": 205.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 85.0,
+     "Total votes polled": 631.0
+    }
+   },
+   {
+    "booth": "St Albans West",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 224.0,
+     "DUNSTAN, Rob Liberal": 177.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 54.0,
+     "Total votes polled": 457.0
+    }
+   },
+   {
+    "booth": "Stevensville",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 126.0,
+     "DUNSTAN, Rob Liberal": 98.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 39.0,
+     "Total votes polled": 264.0
+    }
+   },
+   {
+    "booth": "Sunshine North",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 250.0,
+     "DUNSTAN, Rob Liberal": 206.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 31.0,
+     "Total votes polled": 487.0
+    }
+   },
+   {
+    "booth": "Sunvale",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 61.0,
+     "DUNSTAN, Rob Liberal": 50.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 8.0,
+     "Total votes polled": 119.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 2388.0,
+     "DUNSTAN, Rob Liberal": 1785.0,
+     "Miss-sorts": 3.0,
+     "Informal votes": 547.0,
+     "Total votes polled": 4723.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Laverton - EVC 4",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 0.0,
+     "DUNSTAN, Rob Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "St Albans - EVC 1",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 0.0,
+     "DUNSTAN, Rob Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "St Albans - EVC 2",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 0.0,
+     "DUNSTAN, Rob Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "St Albans - MEVC",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 73.0,
+     "DUNSTAN, Rob Liberal": 63.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 25.0,
+     "Total votes polled": 161.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 0.0,
+     "DUNSTAN, Rob Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 73.0,
+     "DUNSTAN, Rob Liberal": 63.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 25.0,
+     "Total votes polled": 161.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 0.0,
+     "DUNSTAN, Rob Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 0.0,
+     "DUNSTAN, Rob Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 627.0,
+     "DUNSTAN, Rob Liberal": 813.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 46.0,
+     "Total votes polled": 1487.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 0.0,
+     "DUNSTAN, Rob Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "SULEYMAN, Natalie Australian Labor Party": 627.0,
+     "DUNSTAN, Rob Liberal": 813.0,
+     "Miss-sorts": 1.0,
      "Informal votes": 46.0,
      "Total votes polled": 1487.0
     }

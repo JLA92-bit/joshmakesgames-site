@@ -3,9 +3,9 @@
  "name": "Lara",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/lara-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:08:37+00:00",
+ "fetched_at": "2026-11-28T13:11:40+00:00",
  "title": "Lara election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:05:08",
+ "last_updated": "Sunday, 29 November 2026 00:10:07",
  "enrolment": 51659,
  "formal": 33872,
  "informal": 2370,
@@ -625,6 +625,376 @@
      "RANDALL, Oliver Victorian Socialists": 33.0,
      "GEORGE, Ella Australian Labor Party": 566.0,
      "BEDDOE, Tim Liberal": 527.0,
+     "Informal votes": 60.0,
+     "Total votes polled": 2215.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "SPYROS, Steven One Nation Victoria",
+   "GEORGE, Ella Australian Labor Party",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 12907.0,
+     "GEORGE, Ella Australian Labor Party": 12195.0,
+     "Miss-sorts": 6.0,
+     "Informal votes": 1935.0,
+     "Total votes polled": 27043.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 51.42,
+     "GEORGE, Ella Australian Labor Party": 48.58
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Bell Park",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 318.0,
+     "GEORGE, Ella Australian Labor Party": 304.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 60.0,
+     "Total votes polled": 682.0
+    }
+   },
+   {
+    "booth": "Bell Park South",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 0.0,
+     "GEORGE, Ella Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Bisinella",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 491.0,
+     "GEORGE, Ella Australian Labor Party": 446.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 42.0,
+     "Total votes polled": 979.0
+    }
+   },
+   {
+    "booth": "Britannia",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 57.0,
+     "GEORGE, Ella Australian Labor Party": 107.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 8.0,
+     "Total votes polled": 172.0
+    }
+   },
+   {
+    "booth": "Corio",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 447.0,
+     "GEORGE, Ella Australian Labor Party": 550.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 145.0,
+     "Total votes polled": 1142.0
+    }
+   },
+   {
+    "booth": "Corio Central",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 190.0,
+     "GEORGE, Ella Australian Labor Party": 220.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 40.0,
+     "Total votes polled": 450.0
+    }
+   },
+   {
+    "booth": "Geelong North",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 296.0,
+     "GEORGE, Ella Australian Labor Party": 293.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 64.0,
+     "Total votes polled": 653.0
+    }
+   },
+   {
+    "booth": "Geelong West",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 0.0,
+     "GEORGE, Ella Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Hamlyn Banks",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 156.0,
+     "GEORGE, Ella Australian Labor Party": 154.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 11.0,
+     "Total votes polled": 321.0
+    }
+   },
+   {
+    "booth": "Hamlyn Heights",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 344.0,
+     "GEORGE, Ella Australian Labor Party": 434.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 44.0,
+     "Total votes polled": 822.0
+    }
+   },
+   {
+    "booth": "Lara",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 896.0,
+     "GEORGE, Ella Australian Labor Party": 714.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 109.0,
+     "Total votes polled": 1719.0
+    }
+   },
+   {
+    "booth": "Lara Central",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 246.0,
+     "GEORGE, Ella Australian Labor Party": 271.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 59.0,
+     "Total votes polled": 576.0
+    }
+   },
+   {
+    "booth": "Lara Lake",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 254.0,
+     "GEORGE, Ella Australian Labor Party": 250.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 17.0,
+     "Total votes polled": 521.0
+    }
+   },
+   {
+    "booth": "Little River",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 39.0,
+     "GEORGE, Ella Australian Labor Party": 13.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 3.0,
+     "Total votes polled": 55.0
+    }
+   },
+   {
+    "booth": "Norlane",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 581.0,
+     "GEORGE, Ella Australian Labor Party": 568.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 111.0,
+     "Total votes polled": 1265.0
+    }
+   },
+   {
+    "booth": "Norlane West",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 0.0,
+     "GEORGE, Ella Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "North Shore",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 0.0,
+     "GEORGE, Ella Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Rollins",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 504.0,
+     "GEORGE, Ella Australian Labor Party": 466.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 76.0,
+     "Total votes polled": 1046.0
+    }
+   },
+   {
+    "booth": "St Helens",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 129.0,
+     "GEORGE, Ella Australian Labor Party": 170.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 16.0,
+     "Total votes polled": 315.0
+    }
+   },
+   {
+    "booth": "West Lara",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 147.0,
+     "GEORGE, Ella Australian Labor Party": 115.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 19.0,
+     "Total votes polled": 281.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 5095.0,
+     "GEORGE, Ella Australian Labor Party": 5075.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 824.0,
+     "Total votes polled": 10999.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Geelong - EVC 3",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 372.0,
+     "GEORGE, Ella Australian Labor Party": 382.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 38.0,
+     "Total votes polled": 792.0
+    }
+   },
+   {
+    "booth": "Lara - EVC 1",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 0.0,
+     "GEORGE, Ella Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Lara - EVC 2",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 4582.0,
+     "GEORGE, Ella Australian Labor Party": 4366.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 835.0,
+     "Total votes polled": 9783.0
+    }
+   },
+   {
+    "booth": "Lara - EVC 3",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 1643.0,
+     "GEORGE, Ella Australian Labor Party": 1433.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 178.0,
+     "Total votes polled": 3254.0
+    }
+   },
+   {
+    "booth": "Lara - MEVC",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 0.0,
+     "GEORGE, Ella Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 0.0,
+     "GEORGE, Ella Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 6597.0,
+     "GEORGE, Ella Australian Labor Party": 6181.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 1051.0,
+     "Total votes polled": 13829.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 0.0,
+     "GEORGE, Ella Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 0.0,
+     "GEORGE, Ella Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 1215.0,
+     "GEORGE, Ella Australian Labor Party": 939.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 60.0,
+     "Total votes polled": 2215.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 0.0,
+     "GEORGE, Ella Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "SPYROS, Steven One Nation Victoria": 1215.0,
+     "GEORGE, Ella Australian Labor Party": 939.0,
+     "Miss-sorts": 1.0,
      "Informal votes": 60.0,
      "Total votes polled": 2215.0
     }
