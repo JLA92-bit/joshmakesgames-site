@@ -3,45 +3,45 @@
  "name": "Berwick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:09:09+00:00",
+ "fetched_at": "2026-11-28T11:17:51+00:00",
  "title": "Berwick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:02",
+ "last_updated": "Saturday, 28 November 2026 22:15:02",
  "enrolment": 67010,
- "formal": 14362,
- "informal": 995,
- "total_votes": 15357,
- "counted_pct": 22.92,
+ "formal": 14352,
+ "informal": 996,
+ "total_votes": 15348,
+ "counted_pct": 22.9,
  "notes": [],
  "primary": [
   {
    "candidate": "KHAN, Rana",
    "party": "Australian Labor Party",
    "votes": 2395,
-   "pct": 16.68
+   "pct": 16.69
   },
   {
    "candidate": "DE SILVA, Roshan",
    "party": "The Greens",
-   "votes": 2256,
-   "pct": 15.71
+   "votes": 2245,
+   "pct": 15.64
   },
   {
    "candidate": "DE PAOLIS, Vincenzo",
    "party": "Family First",
    "votes": 295,
-   "pct": 2.05
+   "pct": 2.06
   },
   {
    "candidate": "PIASTRINO, Michael",
    "party": "One Nation Victoria",
    "votes": 2710,
-   "pct": 18.87
+   "pct": 18.88
   },
   {
    "candidate": "BATTIN, Brad",
    "party": "Liberal",
    "votes": 6203,
-   "pct": 43.19
+   "pct": 43.22
   },
   {
    "candidate": "DOWLING, Scott",
@@ -58,8 +58,8 @@
   {
    "candidate": "AMARASIRI GUNAWARDANA, Nalinda",
    "party": "Victorian Socialists",
-   "votes": 231,
-   "pct": 1.61
+   "votes": 232,
+   "pct": 1.62
   },
   {
    "candidate": "KING, Ethelyn",

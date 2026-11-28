@@ -3,9 +3,9 @@
  "name": "Tarneit",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/tarneit-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:09:37+00:00",
+ "fetched_at": "2026-11-28T11:18:06+00:00",
  "title": "Tarneit election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:16",
+ "last_updated": "Saturday, 28 November 2026 22:15:15",
  "enrolment": 60755,
  "formal": 13219,
  "informal": 1443,
@@ -90,14 +90,14 @@
   {
    "candidate": "WIGHT, Dylan",
    "party": "Australian Labor Party",
-   "votes": 4800,
-   "pct": 50.51
+   "votes": 4949,
+   "pct": 50.3
   },
   {
    "candidate": "UPPARLAPALLE, Venkat Ram",
    "party": "Liberal",
-   "votes": 4704,
-   "pct": 49.49
+   "votes": 4889,
+   "pct": 49.7
   }
  ],
  "links": {

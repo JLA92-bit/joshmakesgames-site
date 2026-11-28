@@ -3,83 +3,83 @@
  "name": "Macedon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/macedon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:09:19+00:00",
+ "fetched_at": "2026-11-28T11:18:01+00:00",
  "title": "Macedon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:08",
+ "last_updated": "Saturday, 28 November 2026 22:15:07",
  "enrolment": 51446,
- "formal": 11045,
- "informal": 628,
- "total_votes": 11673,
- "counted_pct": 22.69,
+ "formal": 12500,
+ "informal": 665,
+ "total_votes": 13165,
+ "counted_pct": 25.59,
  "notes": [],
  "primary": [
   {
    "candidate": "BONANNO, Dom",
    "party": "",
-   "votes": 233,
-   "pct": 2.11
+   "votes": 266,
+   "pct": 2.13
   },
   {
    "candidate": "DEATH, Annette",
    "party": "Australian Labor Party",
-   "votes": 1852,
-   "pct": 16.77
+   "votes": 2068,
+   "pct": 16.54
   },
   {
    "candidate": "WILSON, Catherine",
    "party": "Victorian Socialists",
-   "votes": 400,
-   "pct": 3.62
+   "votes": 424,
+   "pct": 3.39
   },
   {
    "candidate": "MCRAE MCLEOD, Marley",
    "party": "The Greens",
-   "votes": 1972,
-   "pct": 17.85
+   "votes": 2050,
+   "pct": 16.4
   },
   {
    "candidate": "SETON, Michael",
    "party": "",
-   "votes": 310,
-   "pct": 2.81
+   "votes": 353,
+   "pct": 2.82
   },
   {
    "candidate": "MAYNE, Bernadette",
    "party": "Family First",
-   "votes": 137,
-   "pct": 1.24
+   "votes": 147,
+   "pct": 1.18
   },
   {
    "candidate": "KORINFSKY, Natalie",
    "party": "Animal Justice Party",
-   "votes": 667,
-   "pct": 6.04
+   "votes": 727,
+   "pct": 5.82
   },
   {
    "candidate": "KENDALL, Kate",
    "party": "Liberal",
-   "votes": 3184,
-   "pct": 28.83
+   "votes": 3804,
+   "pct": 30.43
   },
   {
    "candidate": "PAROLIN, Damien",
    "party": "One Nation Victoria",
-   "votes": 2290,
-   "pct": 20.73
+   "votes": 2661,
+   "pct": 21.29
   }
  ],
  "tcp": [
   {
    "candidate": "DEATH, Annette",
    "party": "Australian Labor Party",
-   "votes": 2442,
-   "pct": 45.87
+   "votes": 3431,
+   "pct": 48.39
   },
   {
    "candidate": "KENDALL, Kate",
    "party": "Liberal",
-   "votes": 2882,
-   "pct": 54.13
+   "votes": 3660,
+   "pct": 51.61
   }
  ],
  "links": {

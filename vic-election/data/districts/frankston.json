@@ -3,9 +3,9 @@
  "name": "Frankston",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:09:17+00:00",
+ "fetched_at": "2026-11-28T11:17:58+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:05",
+ "last_updated": "Saturday, 28 November 2026 22:15:05",
  "enrolment": 51237,
  "formal": 12265,
  "informal": 895,
@@ -84,14 +84,14 @@
   {
    "candidate": "EDBROOKE, Paul",
    "party": "Australian Labor Party",
-   "votes": 3081,
-   "pct": 47.47
+   "votes": 3923,
+   "pct": 44.18
   },
   {
    "candidate": "AMBRY, Bree",
    "party": "Liberal",
-   "votes": 3410,
-   "pct": 52.53
+   "votes": 4956,
+   "pct": 55.82
   }
  ],
  "links": {

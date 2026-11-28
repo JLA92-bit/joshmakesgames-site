@@ -3,74 +3,74 @@
  "name": "Kew",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kew-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:09:18+00:00",
+ "fetched_at": "2026-11-28T11:17:59+00:00",
  "title": "Kew election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:08",
+ "last_updated": "Saturday, 28 November 2026 22:15:07",
  "enrolment": 51115,
- "formal": 18051,
- "informal": 838,
- "total_votes": 18889,
- "counted_pct": 36.95,
+ "formal": 19518,
+ "informal": 909,
+ "total_votes": 20427,
+ "counted_pct": 39.96,
  "notes": [],
  "primary": [
   {
    "candidate": "LIANG, Man",
    "party": "",
-   "votes": 87,
-   "pct": 0.48
+   "votes": 108,
+   "pct": 0.55
   },
   {
    "candidate": "TORNEY, Sophie",
    "party": "",
-   "votes": 4390,
-   "pct": 24.32
+   "votes": 4690,
+   "pct": 24.03
   },
   {
    "candidate": "CARTER, Jackie",
    "party": "The Greens",
-   "votes": 1378,
-   "pct": 7.63
+   "votes": 1473,
+   "pct": 7.55
   },
   {
    "candidate": "SUN, David",
    "party": "Australian Labor Party",
-   "votes": 1086,
-   "pct": 6.02
+   "votes": 1211,
+   "pct": 6.2
   },
   {
    "candidate": "LAIRD, David",
    "party": "One Nation Victoria",
-   "votes": 1017,
-   "pct": 5.63
+   "votes": 1095,
+   "pct": 5.61
   },
   {
    "candidate": "LINCOLNE, Samantha",
    "party": "Victorian Socialists",
-   "votes": 363,
-   "pct": 2.01
+   "votes": 386,
+   "pct": 1.98
   },
   {
    "candidate": "WILSON, Jess",
    "party": "Liberal",
-   "votes": 9453,
-   "pct": 52.37
+   "votes": 10244,
+   "pct": 52.48
   },
   {
    "candidate": "SEELEY, Ann",
    "party": "Family First",
-   "votes": 119,
-   "pct": 0.66
+   "votes": 133,
+   "pct": 0.68
   },
   {
    "candidate": "HALES, Juliet",
    "party": "Animal Justice Party",
-   "votes": 126,
-   "pct": 0.7
+   "votes": 142,
+   "pct": 0.73
   },
   {
    "candidate": "DAVIS, Finlay",
    "party": "",
-   "votes": 32,
+   "votes": 36,
    "pct": 0.18
   }
  ],

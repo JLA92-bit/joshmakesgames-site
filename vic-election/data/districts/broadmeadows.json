@@ -3,89 +3,89 @@
  "name": "Broadmeadows",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:09:11+00:00",
+ "fetched_at": "2026-11-28T11:17:52+00:00",
  "title": "Broadmeadows election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:02",
+ "last_updated": "Saturday, 28 November 2026 22:15:02",
  "enrolment": 51575,
- "formal": 10777,
- "informal": 1229,
- "total_votes": 12006,
- "counted_pct": 23.28,
+ "formal": 10915,
+ "informal": 1258,
+ "total_votes": 12173,
+ "counted_pct": 23.6,
  "notes": [],
  "primary": [
   {
    "candidate": "YOLBULAN, Mutullah Can",
    "party": "Victorian Socialists",
-   "votes": 923,
+   "votes": 934,
    "pct": 8.56
   },
   {
    "candidate": "EL YOUSSEF, Mohamad",
    "party": "",
-   "votes": 168,
-   "pct": 1.56
+   "votes": 172,
+   "pct": 1.58
   },
   {
    "candidate": "DUZOVA, Baris",
    "party": "Liberal",
-   "votes": 1904,
-   "pct": 17.67
+   "votes": 1939,
+   "pct": 17.76
   },
   {
    "candidate": "NASIM, Maryam",
    "party": "The Greens",
-   "votes": 2013,
-   "pct": 18.68
+   "votes": 2019,
+   "pct": 18.5
   },
   {
    "candidate": "ELMUSTAPHA, Mohamad",
    "party": "",
-   "votes": 291,
-   "pct": 2.7
+   "votes": 289,
+   "pct": 2.65
   },
   {
    "candidate": "MATTHEWS-WARD, Kathleen",
    "party": "Australian Labor Party",
-   "votes": 2716,
-   "pct": 25.2
+   "votes": 2762,
+   "pct": 25.3
   },
   {
    "candidate": "WILSON, Russell",
    "party": "Family First",
-   "votes": 206,
-   "pct": 1.91
+   "votes": 213,
+   "pct": 1.95
   },
   {
    "candidate": "KEIRS, Ethan",
    "party": "One Nation Victoria",
-   "votes": 1816,
-   "pct": 16.85
+   "votes": 1843,
+   "pct": 16.89
   },
   {
    "candidate": "UNICOMB, Rachel",
    "party": "Animal Justice Party",
-   "votes": 191,
-   "pct": 1.77
+   "votes": 192,
+   "pct": 1.76
   },
   {
    "candidate": "BOLTON, Sue",
    "party": "Socialist Alliance",
-   "votes": 549,
-   "pct": 5.09
+   "votes": 552,
+   "pct": 5.06
   }
  ],
  "tcp": [
   {
    "candidate": "DUZOVA, Baris",
    "party": "Liberal",
-   "votes": 2068,
-   "pct": 40.57
+   "votes": 2507,
+   "pct": 42.57
   },
   {
    "candidate": "MATTHEWS-WARD, Kathleen",
    "party": "Australian Labor Party",
-   "votes": 3029,
-   "pct": 59.43
+   "votes": 3382,
+   "pct": 57.43
   }
  ],
  "links": {

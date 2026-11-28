@@ -3,13 +3,13 @@
  "name": "Morwell",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/morwell-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:14:15+00:00",
+ "fetched_at": "2026-11-28T11:17:27+00:00",
  "title": "Morwell election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:10",
+ "last_updated": "Saturday, 28 November 2026 22:15:10",
  "enrolment": 55328,
- "formal": 26566,
+ "formal": 26567,
  "informal": 1393,
- "total_votes": 27959,
+ "total_votes": 27960,
  "counted_pct": 50.53,
  "notes": [],
  "primary": [
@@ -28,7 +28,7 @@
   {
    "candidate": "HINE, Rochelle",
    "party": "The Greens",
-   "votes": 2625,
+   "votes": 2626,
    "pct": 9.88
   },
   {
@@ -60,14 +60,14 @@
   {
    "candidate": "CAMERON, Martin",
    "party": "The Nationals",
-   "votes": 5579,
-   "pct": 53.05
+   "votes": 6115,
+   "pct": 52.62
   },
   {
    "candidate": "MURPHY, Casey",
    "party": "One Nation Victoria",
-   "votes": 4937,
-   "pct": 46.95
+   "votes": 5505,
+   "pct": 47.38
   }
  ],
  "links": {
@@ -92,13 +92,13 @@
     "values": {
      "CLARKE, Brendan Family First": 911.0,
      "LUND, Tracie Australian Labor Party": 3317.0,
-     "HINE, Rochelle The Greens": 2625.0,
+     "HINE, Rochelle The Greens": 2626.0,
      "McPHEE, Ross Labour DLP": 188.0,
      "CAMERON, Martin The Nationals": 8343.0,
      "ACREMAN, Natalie Victorian Socialists": 591.0,
      "MURPHY, Casey One Nation Victoria": 10591.0,
      "Informal votes": 1393.0,
-     "Total votes polled": 27959.0
+     "Total votes polled": 27960.0
     }
    },
    {
@@ -318,13 +318,13 @@
     "values": {
      "CLARKE, Brendan Family First": 51.0,
      "LUND, Tracie Australian Labor Party": 126.0,
-     "HINE, Rochelle The Greens": 127.0,
+     "HINE, Rochelle The Greens": 128.0,
      "McPHEE, Ross Labour DLP": 7.0,
      "CAMERON, Martin The Nationals": 263.0,
      "ACREMAN, Natalie Victorian Socialists": 21.0,
      "MURPHY, Casey One Nation Victoria": 508.0,
      "Informal votes": 77.0,
-     "Total votes polled": 1180.0
+     "Total votes polled": 1181.0
     }
    },
    {
@@ -402,13 +402,13 @@
     "values": {
      "CLARKE, Brendan Family First": 480.0,
      "LUND, Tracie Australian Labor Party": 1453.0,
-     "HINE, Rochelle The Greens": 1349.0,
+     "HINE, Rochelle The Greens": 1350.0,
      "McPHEE, Ross Labour DLP": 101.0,
      "CAMERON, Martin The Nationals": 2732.0,
      "ACREMAN, Natalie Victorian Socialists": 307.0,
      "MURPHY, Casey One Nation Victoria": 4636.0,
      "Informal votes": 715.0,
-     "Total votes polled": 11773.0
+     "Total votes polled": 11774.0
     }
    },
    {

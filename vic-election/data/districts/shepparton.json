@@ -3,9 +3,9 @@
  "name": "Shepparton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/shepparton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:14:20+00:00",
+ "fetched_at": "2026-11-28T11:17:42+00:00",
  "title": "Shepparton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:13",
+ "last_updated": "Saturday, 28 November 2026 22:15:14",
  "enrolment": 52626,
  "formal": 17505,
  "informal": 1313,
@@ -72,14 +72,14 @@
   {
    "candidate": "SALI, Shane",
    "party": "The Nationals",
-   "votes": 7730,
-   "pct": 58.51
+   "votes": 10040,
+   "pct": 59.33
   },
   {
    "candidate": "BRYANT, Phillip",
    "party": "One Nation Victoria",
-   "votes": 5481,
-   "pct": 41.49
+   "votes": 6882,
+   "pct": 40.67
   }
  ],
  "links": {

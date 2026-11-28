@@ -3,14 +3,14 @@
  "name": "Bundoora",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:09:12+00:00",
+ "fetched_at": "2026-11-28T11:17:54+00:00",
  "title": "Bundoora election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:02",
+ "last_updated": "Saturday, 28 November 2026 22:15:02",
  "enrolment": 48975,
- "formal": 12831,
- "informal": 727,
- "total_votes": 13558,
- "counted_pct": 27.68,
+ "formal": 12832,
+ "informal": 728,
+ "total_votes": 13560,
+ "counted_pct": 27.69,
  "notes": [],
  "primary": [
   {
@@ -22,14 +22,14 @@
   {
    "candidate": "LAITALA, Nina",
    "party": "The Greens",
-   "votes": 2249,
-   "pct": 17.53
+   "votes": 2248,
+   "pct": 17.52
   },
   {
    "candidate": "PARR, Chris",
    "party": "Liberal",
-   "votes": 3838,
-   "pct": 29.91
+   "votes": 3839,
+   "pct": 29.92
   },
   {
    "candidate": "WHALLEY, Bruce",
@@ -52,8 +52,8 @@
   {
    "candidate": "BROOKS, Colin",
    "party": "Australian Labor Party",
-   "votes": 3126,
-   "pct": 24.36
+   "votes": 3127,
+   "pct": 24.37
   },
   {
    "candidate": "SANYAL, Sagar",

@@ -3,9 +3,9 @@
  "name": "Polwarth",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/polwarth-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:09:25+00:00",
+ "fetched_at": "2026-11-28T11:18:04+00:00",
  "title": "Polwarth election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:13",
+ "last_updated": "Saturday, 28 November 2026 22:15:12",
  "enrolment": 55081,
  "formal": 10269,
  "informal": 549,
@@ -60,14 +60,14 @@
   {
    "candidate": "RIORDAN, Richard",
    "party": "Liberal",
-   "votes": 5884,
-   "pct": 68.09
+   "votes": 6538,
+   "pct": 68.89
   },
   {
    "candidate": "HUSSEIN, Hutch",
    "party": "Australian Labor Party",
-   "votes": 2757,
-   "pct": 31.91
+   "votes": 2953,
+   "pct": 31.11
   }
  ],
  "links": {

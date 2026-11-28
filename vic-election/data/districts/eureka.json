@@ -3,69 +3,69 @@
  "name": "Eureka",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eureka-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:14:09+00:00",
+ "fetched_at": "2026-11-28T11:17:09+00:00",
  "title": "Eureka election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:05",
+ "last_updated": "Saturday, 28 November 2026 22:15:05",
  "enrolment": 58117,
- "formal": 26034,
- "informal": 1674,
- "total_votes": 27708,
- "counted_pct": 47.68,
+ "formal": 35983,
+ "informal": 2302,
+ "total_votes": 38285,
+ "counted_pct": 65.88,
  "notes": [],
  "primary": [
   {
    "candidate": "ZIVKOVIC, Belinda",
    "party": "",
-   "votes": 686,
-   "pct": 2.64
+   "votes": 886,
+   "pct": 2.46
   },
   {
    "candidate": "McCOLL, Sam",
    "party": "The Greens",
-   "votes": 4234,
-   "pct": 16.26
+   "votes": 5195,
+   "pct": 14.44
   },
   {
    "candidate": "SETTLE, Michaela",
    "party": "Australian Labor Party",
-   "votes": 4585,
-   "pct": 17.61
+   "votes": 5965,
+   "pct": 16.58
   },
   {
    "candidate": "RAVEN, Andy",
    "party": "Victorian Socialists",
-   "votes": 664,
-   "pct": 2.55
+   "votes": 839,
+   "pct": 2.33
   },
   {
    "candidate": "HARKNESS, Ian Maxwell",
    "party": "Family First",
-   "votes": 518,
-   "pct": 1.99
+   "votes": 675,
+   "pct": 1.88
   },
   {
    "candidate": "MORRISON, Wendy",
    "party": "Animal Justice Party",
-   "votes": 477,
-   "pct": 1.83
+   "votes": 593,
+   "pct": 1.65
   },
   {
    "candidate": "BALLINGER, Paul",
    "party": "One Nation Victoria",
-   "votes": 7479,
-   "pct": 28.73
+   "votes": 10939,
+   "pct": 30.4
   },
   {
    "candidate": "MUIR, Emma",
    "party": "Liberal",
-   "votes": 7000,
-   "pct": 26.89
+   "votes": 10034,
+   "pct": 27.89
   },
   {
    "candidate": "VENDITTI-TAYLOR, Steven",
    "party": "",
-   "votes": 391,
-   "pct": 1.5
+   "votes": 857,
+   "pct": 2.38
   }
  ],
  "tcp": [

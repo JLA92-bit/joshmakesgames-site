@@ -3,69 +3,69 @@
  "name": "Ovens Valley",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ovens-valley-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:09:25+00:00",
+ "fetched_at": "2026-11-28T11:18:04+00:00",
  "title": "Ovens Valley election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:13",
+ "last_updated": "Saturday, 28 November 2026 22:15:12",
  "enrolment": 49586,
- "formal": 17120,
- "informal": 1111,
- "total_votes": 18231,
- "counted_pct": 36.77,
+ "formal": 17434,
+ "informal": 1137,
+ "total_votes": 18571,
+ "counted_pct": 37.45,
  "notes": [],
  "primary": [
   {
    "candidate": "McCURDY, Tim",
    "party": "The Nationals",
-   "votes": 5963,
-   "pct": 34.83
+   "votes": 6070,
+   "pct": 34.82
   },
   {
    "candidate": "FIDGE, Julian",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 325,
+   "votes": 332,
    "pct": 1.9
   },
   {
    "candidate": "MURPHY, Bronwyn",
    "party": "Victorian Socialists",
-   "votes": 142,
+   "votes": 145,
    "pct": 0.83
   },
   {
    "candidate": "ROUEL, James",
    "party": "One Nation Victoria",
-   "votes": 5587,
-   "pct": 32.63
+   "votes": 5734,
+   "pct": 32.89
   },
   {
    "candidate": "MANNING, Steve",
    "party": "",
-   "votes": 3072,
-   "pct": 17.94
+   "votes": 3087,
+   "pct": 17.71
   },
   {
    "candidate": "NORTON-SMITH, Carol",
    "party": "Family First",
-   "votes": 181,
-   "pct": 1.06
+   "votes": 193,
+   "pct": 1.11
   },
   {
    "candidate": "SMITH, Jennifer",
    "party": "Australian Labor Party",
-   "votes": 896,
-   "pct": 5.23
+   "votes": 908,
+   "pct": 5.21
   },
   {
    "candidate": "GILBERT, Benjamin",
    "party": "The Greens",
-   "votes": 766,
-   "pct": 4.47
+   "votes": 775,
+   "pct": 4.45
   },
   {
    "candidate": "LITCHFIELD, Sue",
    "party": "Animal Justice Party",
-   "votes": 188,
-   "pct": 1.1
+   "votes": 190,
+   "pct": 1.09
   }
  ],
  "tcp": [

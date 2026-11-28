@@ -3,63 +3,63 @@
  "name": "Kalkallo",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kalkallo-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:14:12+00:00",
+ "fetched_at": "2026-11-28T11:17:17+00:00",
  "title": "Kalkallo election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:07",
+ "last_updated": "Saturday, 28 November 2026 22:15:07",
  "enrolment": 70361,
- "formal": 12001,
- "informal": 1002,
- "total_votes": 13003,
- "counted_pct": 18.48,
+ "formal": 12742,
+ "informal": 1077,
+ "total_votes": 13819,
+ "counted_pct": 19.64,
  "notes": [],
  "primary": [
   {
    "candidate": "SPENCE, Ros",
    "party": "Australian Labor Party",
-   "votes": 2409,
-   "pct": 20.07
+   "votes": 2591,
+   "pct": 20.33
   },
   {
    "candidate": "DADISHO, Eddie",
    "party": "Liberal",
-   "votes": 3395,
-   "pct": 28.29
+   "votes": 3626,
+   "pct": 28.46
   },
   {
    "candidate": "DOBSON, Jeanette",
    "party": "Family First",
-   "votes": 365,
-   "pct": 3.04
+   "votes": 386,
+   "pct": 3.03
   },
   {
    "candidate": "LYNCH, Matthew",
    "party": "Animal Justice Party",
-   "votes": 207,
-   "pct": 1.72
+   "votes": 214,
+   "pct": 1.68
   },
   {
    "candidate": "STEANS, Troy",
    "party": "One Nation Victoria",
-   "votes": 3624,
-   "pct": 30.2
+   "votes": 3731,
+   "pct": 29.28
   },
   {
    "candidate": "TIWARI, Payal",
    "party": "The Greens",
-   "votes": 1214,
-   "pct": 10.12
+   "votes": 1331,
+   "pct": 10.45
   },
   {
    "candidate": "ISLAM, Rebeca",
    "party": "",
-   "votes": 283,
-   "pct": 2.36
+   "votes": 321,
+   "pct": 2.52
   },
   {
    "candidate": "MILLETT, Courtney",
    "party": "Victorian Socialists",
-   "votes": 504,
-   "pct": 4.2
+   "votes": 542,
+   "pct": 4.25
   }
  ],
  "tcp": [
@@ -97,29 +97,29 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "SPENCE, Ros Australian Labor Party": 2409.0,
-     "DADISHO, Eddie Liberal": 3395.0,
-     "DOBSON, Jeanette Family First": 365.0,
-     "LYNCH, Matthew Animal Justice Party": 207.0,
-     "STEANS, Troy One Nation Victoria": 3624.0,
-     "TIWARI, Payal The Greens": 1214.0,
-     "ISLAM, Rebeca": 283.0,
-     "MILLETT, Courtney Victorian Socialists": 504.0,
-     "Informal votes": 1002.0,
-     "Total votes polled": 13003.0
+     "SPENCE, Ros Australian Labor Party": 2591.0,
+     "DADISHO, Eddie Liberal": 3626.0,
+     "DOBSON, Jeanette Family First": 386.0,
+     "LYNCH, Matthew Animal Justice Party": 214.0,
+     "STEANS, Troy One Nation Victoria": 3731.0,
+     "TIWARI, Payal The Greens": 1331.0,
+     "ISLAM, Rebeca": 321.0,
+     "MILLETT, Courtney Victorian Socialists": 542.0,
+     "Informal votes": 1077.0,
+     "Total votes polled": 13819.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "SPENCE, Ros Australian Labor Party": 20.07,
-     "DADISHO, Eddie Liberal": 28.29,
-     "DOBSON, Jeanette Family First": 3.04,
-     "LYNCH, Matthew Animal Justice Party": 1.72,
-     "STEANS, Troy One Nation Victoria": 30.2,
-     "TIWARI, Payal The Greens": 10.12,
-     "ISLAM, Rebeca": 2.36,
-     "MILLETT, Courtney Victorian Socialists": 4.2
+     "SPENCE, Ros Australian Labor Party": 20.33,
+     "DADISHO, Eddie Liberal": 28.46,
+     "DOBSON, Jeanette Family First": 3.03,
+     "LYNCH, Matthew Animal Justice Party": 1.68,
+     "STEANS, Troy One Nation Victoria": 29.28,
+     "TIWARI, Payal The Greens": 10.45,
+     "ISLAM, Rebeca": 2.52,
+     "MILLETT, Courtney Victorian Socialists": 4.25
     }
    },
    {
@@ -279,16 +279,16 @@
    {
     "booth": "Mickleham",
     "values": {
-     "SPENCE, Ros Australian Labor Party": 0.0,
-     "DADISHO, Eddie Liberal": 0.0,
-     "DOBSON, Jeanette Family First": 0.0,
-     "LYNCH, Matthew Animal Justice Party": 0.0,
-     "STEANS, Troy One Nation Victoria": 0.0,
-     "TIWARI, Payal The Greens": 0.0,
-     "ISLAM, Rebeca": 0.0,
-     "MILLETT, Courtney Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "SPENCE, Ros Australian Labor Party": 182.0,
+     "DADISHO, Eddie Liberal": 231.0,
+     "DOBSON, Jeanette Family First": 21.0,
+     "LYNCH, Matthew Animal Justice Party": 7.0,
+     "STEANS, Troy One Nation Victoria": 107.0,
+     "TIWARI, Payal The Greens": 117.0,
+     "ISLAM, Rebeca": 38.0,
+     "MILLETT, Courtney Victorian Socialists": 38.0,
+     "Informal votes": 75.0,
+     "Total votes polled": 816.0
     }
    },
    {
@@ -399,16 +399,16 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "SPENCE, Ros Australian Labor Party": 1555.0,
-     "DADISHO, Eddie Liberal": 2085.0,
-     "DOBSON, Jeanette Family First": 207.0,
-     "LYNCH, Matthew Animal Justice Party": 117.0,
-     "STEANS, Troy One Nation Victoria": 2234.0,
-     "TIWARI, Payal The Greens": 904.0,
-     "ISLAM, Rebeca": 215.0,
-     "MILLETT, Courtney Victorian Socialists": 419.0,
-     "Informal votes": 829.0,
-     "Total votes polled": 8565.0
+     "SPENCE, Ros Australian Labor Party": 1737.0,
+     "DADISHO, Eddie Liberal": 2316.0,
+     "DOBSON, Jeanette Family First": 228.0,
+     "LYNCH, Matthew Animal Justice Party": 124.0,
+     "STEANS, Troy One Nation Victoria": 2341.0,
+     "TIWARI, Payal The Greens": 1021.0,
+     "ISLAM, Rebeca": 253.0,
+     "MILLETT, Courtney Victorian Socialists": 457.0,
+     "Informal votes": 904.0,
+     "Total votes polled": 9381.0
     }
    },
    {
