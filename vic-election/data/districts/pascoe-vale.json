@@ -3,91 +3,89 @@
  "name": "Pascoe Vale",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pascoe-vale-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:18:06+00:00",
+ "fetched_at": "2026-11-28T12:55:45+00:00",
  "title": "Pascoe Vale election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:12",
+ "last_updated": "Saturday, 28 November 2026 23:55:12",
  "enrolment": 52169,
- "formal": 14281,
- "informal": 833,
- "total_votes": 15114,
- "counted_pct": 28.97,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Pascoe Vale District results Pascoe Vale District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:12 These results are provisional."
- ],
+ "formal": 14790,
+ "informal": 866,
+ "total_votes": 15656,
+ "counted_pct": 30.01,
+ "notes": [],
  "primary": [
   {
    "candidate": "HICKEY, Amanda",
    "party": "Free Palestine",
-   "votes": 133,
-   "pct": 0.93
+   "votes": 135,
+   "pct": 0.91
   },
   {
    "candidate": "LAWRENCE, Stuart",
    "party": "Climate Action Now",
-   "votes": 57,
-   "pct": 0.4
+   "votes": 58,
+   "pct": 0.39
   },
   {
    "candidate": "CIANFLONE, Anthony",
    "party": "Australian Labor Party",
-   "votes": 3348,
-   "pct": 23.44
+   "votes": 3469,
+   "pct": 23.46
   },
   {
    "candidate": "GANCI, Rosemarie Pauline",
    "party": "One Nation Victoria",
-   "votes": 1611,
-   "pct": 11.28
+   "votes": 1686,
+   "pct": 11.4
   },
   {
    "candidate": "PANOPOULOS, Angelica",
    "party": "The Greens",
-   "votes": 4497,
-   "pct": 31.49
+   "votes": 4624,
+   "pct": 31.26
   },
   {
    "candidate": "ASHTON, Kathrine",
    "party": "Family First",
-   "votes": 124,
+   "votes": 129,
    "pct": 0.87
   },
   {
    "candidate": "ANDREWARTHA, Jacob",
    "party": "Socialist Alliance",
-   "votes": 261,
-   "pct": 1.83
+   "votes": 265,
+   "pct": 1.79
   },
   {
    "candidate": "HAUPT, Kerry",
    "party": "I'm Voting to Avoid the Fine",
-   "votes": 81,
-   "pct": 0.57
+   "votes": 83,
+   "pct": 0.56
   },
   {
    "candidate": "SHAMSILI, Yasemin",
    "party": "Victorian Socialists",
-   "votes": 1693,
-   "pct": 11.85
+   "votes": 1733,
+   "pct": 11.72
   },
   {
    "candidate": "TAGGAR, Rohit",
    "party": "Liberal",
-   "votes": 2476,
-   "pct": 17.34
+   "votes": 2608,
+   "pct": 17.63
   }
  ],
  "tcp": [
   {
    "candidate": "CIANFLONE, Anthony",
    "party": "Australian Labor Party",
-   "votes": 4500,
-   "pct": 43.77
+   "votes": 5626,
+   "pct": 43.13
   },
   {
    "candidate": "PANOPOULOS, Angelica",
    "party": "The Greens",
-   "votes": 5780,
-   "pct": 56.23
+   "votes": 7418,
+   "pct": 56.87
   }
  ],
  "links": {

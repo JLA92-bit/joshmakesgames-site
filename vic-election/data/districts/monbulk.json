@@ -3,73 +3,71 @@
  "name": "Monbulk",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/monbulk-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:18:03+00:00",
+ "fetched_at": "2026-11-28T12:55:19+00:00",
  "title": "Monbulk election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:10",
+ "last_updated": "Saturday, 28 November 2026 23:50:09",
  "enrolment": 50003,
- "formal": 19151,
- "informal": 745,
- "total_votes": 19896,
- "counted_pct": 39.79,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Monbulk District results Monbulk District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:10 These results are provisional."
- ],
+ "formal": 19651,
+ "informal": 751,
+ "total_votes": 20402,
+ "counted_pct": 40.8,
+ "notes": [],
  "primary": [
   {
    "candidate": "FITZMAURICE, Clare",
    "party": "Liberal",
-   "votes": 5331,
-   "pct": 27.84
+   "votes": 5459,
+   "pct": 27.78
   },
   {
    "candidate": "MANNERS, Craig",
    "party": "Family First",
-   "votes": 370,
+   "votes": 380,
    "pct": 1.93
   },
   {
    "candidate": "DE MARTINO, Daniela",
    "party": "Australian Labor Party",
-   "votes": 4066,
-   "pct": 21.23
+   "votes": 4165,
+   "pct": 21.19
   },
   {
    "candidate": "DOWELL, Adrian",
    "party": "One Nation Victoria",
-   "votes": 4077,
-   "pct": 21.29
+   "votes": 4200,
+   "pct": 21.37
   },
   {
    "candidate": "BLAIR, Merran",
    "party": "The Greens",
-   "votes": 3932,
-   "pct": 20.53
+   "votes": 4027,
+   "pct": 20.49
   },
   {
    "candidate": "WORMALD, Alyssa",
    "party": "Animal Justice Party",
-   "votes": 515,
-   "pct": 2.69
+   "votes": 525,
+   "pct": 2.67
   },
   {
    "candidate": "BRIGGS, Noah",
    "party": "Victorian Socialists",
-   "votes": 860,
-   "pct": 4.49
+   "votes": 895,
+   "pct": 4.55
   }
  ],
  "tcp": [
   {
    "candidate": "FITZMAURICE, Clare",
    "party": "Liberal",
-   "votes": 9288,
-   "pct": 52.9
+   "votes": 10158,
+   "pct": 53.05
   },
   {
    "candidate": "DE MARTINO, Daniela",
    "party": "Australian Labor Party",
-   "votes": 8269,
-   "pct": 47.1
+   "votes": 8989,
+   "pct": 46.95
   }
  ],
  "links": {

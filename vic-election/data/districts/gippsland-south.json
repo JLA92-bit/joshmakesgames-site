@@ -3,23 +3,21 @@
  "name": "Gippsland South",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-south-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:18:00+00:00",
+ "fetched_at": "2026-11-28T12:55:08+00:00",
  "title": "Gippsland South election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:07",
+ "last_updated": "Saturday, 28 November 2026 23:50:07",
  "enrolment": 50953,
- "formal": 20129,
- "informal": 1217,
- "total_votes": 21346,
- "counted_pct": 41.89,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Gippsland South District results Gippsland South District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:07 These results are provisional."
- ],
+ "formal": 20131,
+ "informal": 1218,
+ "total_votes": 21349,
+ "counted_pct": 41.9,
+ "notes": [],
  "primary": [
   {
    "candidate": "BARRY-MACAULAY, Amy",
    "party": "Australian Labor Party",
-   "votes": 2143,
-   "pct": 10.65
+   "votes": 2142,
+   "pct": 10.64
   },
   {
    "candidate": "McAULIFFE, Jessica",
@@ -30,7 +28,7 @@
   {
    "candidate": "O'BRIEN, Danny",
    "party": "The Nationals",
-   "votes": 7538,
+   "votes": 7540,
    "pct": 37.45
   },
   {
@@ -42,19 +40,19 @@
   {
    "candidate": "EVANS, Zave",
    "party": "The Greens",
-   "votes": 2195,
-   "pct": 10.9
+   "votes": 2197,
+   "pct": 10.91
   },
   {
    "candidate": "McGENNISKEN, Lachie",
    "party": "Victorian Socialists",
-   "votes": 339,
-   "pct": 1.68
+   "votes": 337,
+   "pct": 1.67
   },
   {
    "candidate": "WILKIE, Bianca",
    "party": "One Nation Victoria",
-   "votes": 7265,
+   "votes": 7266,
    "pct": 36.09
   }
  ],
@@ -62,14 +60,14 @@
   {
    "candidate": "O'BRIEN, Danny",
    "party": "The Nationals",
-   "votes": 11910,
-   "pct": 60.93
+   "votes": 12227,
+   "pct": 60.74
   },
   {
    "candidate": "WILKIE, Bianca",
    "party": "One Nation Victoria",
-   "votes": 7636,
-   "pct": 39.07
+   "votes": 7903,
+   "pct": 39.26
   }
  ],
  "links": {

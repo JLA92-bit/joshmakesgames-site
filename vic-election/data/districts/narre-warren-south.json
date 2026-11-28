@@ -3,17 +3,15 @@
  "name": "Narre Warren South",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-south-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:30:56+00:00",
+ "fetched_at": "2026-11-28T12:50:22+00:00",
  "title": "Narre Warren South election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:30:09",
+ "last_updated": "Saturday, 28 November 2026 23:50:10",
  "enrolment": 57195,
  "formal": 16373,
  "informal": 1323,
  "total_votes": 17696,
  "counted_pct": 30.94,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Narre Warren South election results Narre Warren South District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:30:09 These results are provisional."
- ],
+ "notes": [],
  "primary": [
   {
    "candidate": "McCRACKEN, Bailey",

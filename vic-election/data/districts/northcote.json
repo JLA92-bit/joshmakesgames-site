@@ -3,91 +3,89 @@
  "name": "Northcote",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/northcote-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:18:05+00:00",
+ "fetched_at": "2026-11-28T12:55:21+00:00",
  "title": "Northcote election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:11",
+ "last_updated": "Saturday, 28 November 2026 23:50:11",
  "enrolment": 53893,
- "formal": 14349,
- "informal": 625,
- "total_votes": 14974,
- "counted_pct": 27.78,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Northcote District results Northcote District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:11 These results are provisional."
- ],
+ "formal": 15644,
+ "informal": 674,
+ "total_votes": 16318,
+ "counted_pct": 30.28,
+ "notes": [],
  "primary": [
   {
    "candidate": "CIMBARO, Richard",
    "party": "Family First",
-   "votes": 115,
-   "pct": 0.8
+   "votes": 121,
+   "pct": 0.77
   },
   {
    "candidate": "PENMAN, Jim",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 101,
-   "pct": 0.7
+   "votes": 115,
+   "pct": 0.74
   },
   {
    "candidate": "LARKIN, Kath",
    "party": "Victorian Socialists",
-   "votes": 2174,
-   "pct": 15.15
+   "votes": 2376,
+   "pct": 15.19
   },
   {
    "candidate": "PILLEY, Clive",
    "party": "I'm Voting to Avoid the Fine",
-   "votes": 54,
-   "pct": 0.38
+   "votes": 58,
+   "pct": 0.37
   },
   {
    "candidate": "HILLMAN, Ian",
    "party": "",
-   "votes": 170,
-   "pct": 1.18
+   "votes": 174,
+   "pct": 1.11
   },
   {
    "candidate": "BRADBURY, Christopher",
    "party": "One Nation Victoria",
-   "votes": 703,
-   "pct": 4.9
+   "votes": 765,
+   "pct": 4.89
   },
   {
    "candidate": "AWAD, Lynda",
    "party": "Liberal",
-   "votes": 2066,
-   "pct": 14.4
+   "votes": 2220,
+   "pct": 14.19
   },
   {
    "candidate": "THEOPHANOUS, Kat",
    "party": "Australian Labor Party",
-   "votes": 3424,
-   "pct": 23.86
+   "votes": 3730,
+   "pct": 23.84
   },
   {
    "candidate": "KAFEL, Hannah",
    "party": "Free Palestine",
-   "votes": 39,
+   "votes": 42,
    "pct": 0.27
   },
   {
    "candidate": "GOME, Campbell",
    "party": "The Greens",
-   "votes": 5503,
-   "pct": 38.35
+   "votes": 6043,
+   "pct": 38.63
   }
  ],
  "tcp": [
   {
    "candidate": "THEOPHANOUS, Kat",
    "party": "Australian Labor Party",
-   "votes": 5518,
-   "pct": 38.47
+   "votes": 5987,
+   "pct": 38.28
   },
   {
    "candidate": "GOME, Campbell",
    "party": "The Greens",
-   "votes": 8827,
-   "pct": 61.53
+   "votes": 9653,
+   "pct": 61.72
   }
  ],
  "links": {

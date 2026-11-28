@@ -3,85 +3,83 @@
  "name": "Shepparton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/shepparton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:18:08+00:00",
+ "fetched_at": "2026-11-28T12:55:44+00:00",
  "title": "Shepparton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:13",
+ "last_updated": "Saturday, 28 November 2026 23:55:14",
  "enrolment": 52626,
- "formal": 22051,
- "informal": 1614,
- "total_votes": 23665,
- "counted_pct": 44.97,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Shepparton District results Shepparton District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:13 These results are provisional."
- ],
+ "formal": 23479,
+ "informal": 1646,
+ "total_votes": 25125,
+ "counted_pct": 47.74,
+ "notes": [],
  "primary": [
   {
    "candidate": "SALI, Shane",
    "party": "The Nationals",
-   "votes": 8985,
-   "pct": 40.75
+   "votes": 9786,
+   "pct": 41.68
   },
   {
    "candidate": "WHITE, Alison",
    "party": "Family First",
-   "votes": 354,
+   "votes": 379,
    "pct": 1.61
   },
   {
    "candidate": "VERNEY, Grace",
    "party": "The Greens",
-   "votes": 876,
-   "pct": 3.97
+   "votes": 904,
+   "pct": 3.85
   },
   {
    "candidate": "HOCKING, Karen",
    "party": "Victorian Socialists",
-   "votes": 245,
-   "pct": 1.11
+   "votes": 255,
+   "pct": 1.09
   },
   {
    "candidate": "COSTA, Lou",
    "party": "",
-   "votes": 2609,
-   "pct": 11.83
+   "votes": 2684,
+   "pct": 11.43
   },
   {
    "candidate": "FIN, Cayla",
    "party": "Australian Labor Party",
-   "votes": 1097,
-   "pct": 4.97
+   "votes": 1208,
+   "pct": 5.15
   },
   {
    "candidate": "BRYANT, Phillip",
    "party": "One Nation Victoria",
-   "votes": 7553,
-   "pct": 34.25
+   "votes": 7907,
+   "pct": 33.68
   },
   {
    "candidate": "MURPHY-GINGER, Faith",
    "party": "Animal Justice Party",
-   "votes": 200,
-   "pct": 0.91
+   "votes": 218,
+   "pct": 0.93
   },
   {
    "candidate": "VARKEY, Johnson",
    "party": "",
-   "votes": 132,
-   "pct": 0.6
+   "votes": 138,
+   "pct": 0.59
   }
  ],
  "tcp": [
   {
    "candidate": "SALI, Shane",
    "party": "The Nationals",
-   "votes": 10553,
-   "pct": 60.17
+   "votes": 11566,
+   "pct": 60.98
   },
   {
    "candidate": "BRYANT, Phillip",
    "party": "One Nation Victoria",
-   "votes": 6985,
-   "pct": 39.83
+   "votes": 7400,
+   "pct": 39.02
   }
  ],
  "links": {

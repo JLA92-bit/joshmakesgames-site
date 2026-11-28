@@ -3,17 +3,15 @@
  "name": "Ringwood",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ringwood-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:18:08+00:00",
+ "fetched_at": "2026-11-28T12:55:42+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:12",
+ "last_updated": "Saturday, 28 November 2026 23:55:12",
  "enrolment": 54911,
- "formal": 29436,
- "informal": 1350,
- "total_votes": 30786,
- "counted_pct": 56.07,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Ringwood District results Ringwood District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:12 These results are provisional."
- ],
+ "formal": 29433,
+ "informal": 1352,
+ "total_votes": 30785,
+ "counted_pct": 56.06,
+ "notes": [],
  "primary": [
   {
    "candidate": "HALSE, Rachel",
@@ -24,7 +22,7 @@
   {
    "candidate": "McGOWAN, Nick",
    "party": "Liberal",
-   "votes": 12062,
+   "votes": 12063,
    "pct": 40.98
   },
   {
@@ -48,13 +46,13 @@
   {
    "candidate": "MILLS, Amy",
    "party": "The Greens",
-   "votes": 4784,
-   "pct": 16.25
+   "votes": 4781,
+   "pct": 16.24
   },
   {
    "candidate": "O'CONNOR, John",
    "party": "One Nation Victoria",
-   "votes": 3141,
+   "votes": 3140,
    "pct": 10.67
   },
   {
@@ -74,14 +72,14 @@
   {
    "candidate": "HALSE, Rachel",
    "party": "Australian Labor Party",
-   "votes": 7514,
-   "pct": 44.28
+   "votes": 10975,
+   "pct": 39.82
   },
   {
    "candidate": "McGOWAN, Nick",
    "party": "Liberal",
-   "votes": 9455,
-   "pct": 55.72
+   "votes": 16586,
+   "pct": 60.18
   }
  ],
  "links": {

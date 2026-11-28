@@ -3,17 +3,15 @@
  "name": "Mulgrave",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mulgrave-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:18:03+00:00",
+ "fetched_at": "2026-11-28T12:55:19+00:00",
  "title": "Mulgrave election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:10",
+ "last_updated": "Saturday, 28 November 2026 23:50:09",
  "enrolment": 48090,
  "formal": 27370,
  "informal": 1831,
  "total_votes": 29201,
  "counted_pct": 60.72,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Mulgrave District results Mulgrave District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:10 These results are provisional."
- ],
+ "notes": [],
  "primary": [
   {
    "candidate": "REBBECHI, Cody",
@@ -30,14 +28,14 @@
   {
    "candidate": "TRAN, Charles",
    "party": "Liberal",
-   "votes": 9196,
-   "pct": 33.6
+   "votes": 9096,
+   "pct": 33.23
   },
   {
    "candidate": "FOSTER, Eden",
    "party": "Australian Labor Party",
-   "votes": 7688,
-   "pct": 28.09
+   "votes": 7788,
+   "pct": 28.45
   },
   {
    "candidate": "THEODOSSOPOULOU, Fotini",

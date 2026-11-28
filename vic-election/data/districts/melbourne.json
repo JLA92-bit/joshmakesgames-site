@@ -3,85 +3,83 @@
  "name": "Melbourne",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/melbourne-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:18:02+00:00",
+ "fetched_at": "2026-11-28T12:55:13+00:00",
  "title": "Melbourne election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:08",
+ "last_updated": "Saturday, 28 November 2026 23:50:08",
  "enrolment": 57336,
- "formal": 24726,
- "informal": 1064,
- "total_votes": 25790,
- "counted_pct": 44.98,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Melbourne District results Melbourne District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:08 These results are provisional."
- ],
+ "formal": 26764,
+ "informal": 1162,
+ "total_votes": 27926,
+ "counted_pct": 48.71,
+ "notes": [],
  "primary": [
   {
    "candidate": "TUCKFIELD, Rowan",
    "party": "",
-   "votes": 280,
-   "pct": 1.13
+   "votes": 305,
+   "pct": 1.14
   },
   {
    "candidate": "SANDELL, Ellen",
    "party": "The Greens",
-   "votes": 9563,
-   "pct": 38.68
+   "votes": 10423,
+   "pct": 38.94
   },
   {
    "candidate": "MCCATHIE, Rob",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 188,
-   "pct": 0.76
+   "votes": 198,
+   "pct": 0.74
   },
   {
    "candidate": "GRIFFITHS, Davydd",
    "party": "Australian Labor Party",
-   "votes": 4240,
-   "pct": 17.15
+   "votes": 4594,
+   "pct": 17.16
   },
   {
    "candidate": "YUSUF, Mohamed",
    "party": "",
-   "votes": 326,
+   "votes": 354,
    "pct": 1.32
   },
   {
    "candidate": "JONES, Naomi",
    "party": "Animal Justice Party",
-   "votes": 417,
-   "pct": 1.69
+   "votes": 459,
+   "pct": 1.71
   },
   {
    "candidate": "CAMILLO, Rafael",
    "party": "Liberal",
-   "votes": 4973,
-   "pct": 20.11
+   "votes": 5275,
+   "pct": 19.71
   },
   {
    "candidate": "VAN DEN LAMB, Jordan",
    "party": "Victorian Socialists",
-   "votes": 3139,
-   "pct": 12.7
+   "votes": 3452,
+   "pct": 12.9
   },
   {
    "candidate": "COURTIS, Phillip",
    "party": "One Nation Victoria",
-   "votes": 1600,
-   "pct": 6.47
+   "votes": 1704,
+   "pct": 6.37
   }
  ],
  "tcp": [
   {
    "candidate": "SANDELL, Ellen",
    "party": "The Greens",
-   "votes": 7498,
-   "pct": 64.04
+   "votes": 17079,
+   "pct": 65.1
   },
   {
    "candidate": "GRIFFITHS, Davydd",
    "party": "Australian Labor Party",
-   "votes": 4210,
-   "pct": 35.96
+   "votes": 9158,
+   "pct": 34.9
   }
  ],
  "links": {

@@ -3,73 +3,71 @@
  "name": "Wendouree",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/wendouree-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:18:11+00:00",
+ "fetched_at": "2026-11-28T12:55:48+00:00",
  "title": "Wendouree election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:15",
+ "last_updated": "Saturday, 28 November 2026 23:55:14",
  "enrolment": 53581,
- "formal": 20518,
- "informal": 870,
- "total_votes": 21388,
- "counted_pct": 39.92,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Wendouree District results Wendouree District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:15 These results are provisional."
- ],
+ "formal": 29472,
+ "informal": 1257,
+ "total_votes": 30729,
+ "counted_pct": 57.35,
+ "notes": [],
  "primary": [
   {
    "candidate": "ADDISON, Juliana",
    "party": "Australian Labor Party",
-   "votes": 5047,
-   "pct": 24.6
+   "votes": 7142,
+   "pct": 24.23
   },
   {
    "candidate": "ROBINSON, Stuart",
    "party": "One Nation Victoria",
-   "votes": 4656,
-   "pct": 22.69
+   "votes": 6334,
+   "pct": 21.49
   },
   {
    "candidate": "BYRNE, Ruth",
    "party": "Family First",
-   "votes": 529,
-   "pct": 2.58
+   "votes": 784,
+   "pct": 2.66
   },
   {
    "candidate": "MEAGHER, Chris",
    "party": "Victorian Socialists",
-   "votes": 654,
-   "pct": 3.19
+   "votes": 955,
+   "pct": 3.24
   },
   {
    "candidate": "RONAN, Gav",
    "party": "Liberal",
-   "votes": 5747,
-   "pct": 28.01
+   "votes": 8649,
+   "pct": 29.35
   },
   {
    "candidate": "COLLINS, Melissa",
    "party": "Animal Justice Party",
-   "votes": 452,
-   "pct": 2.2
+   "votes": 652,
+   "pct": 2.21
   },
   {
    "candidate": "BURNS, Ellen",
    "party": "The Greens",
-   "votes": 3433,
-   "pct": 16.73
+   "votes": 4956,
+   "pct": 16.82
   }
  ],
  "tcp": [
   {
    "candidate": "ADDISON, Juliana",
    "party": "Australian Labor Party",
-   "votes": 9440,
-   "pct": 46.03
+   "votes": 9878,
+   "pct": 45.97
   },
   {
    "candidate": "RONAN, Gav",
    "party": "Liberal",
-   "votes": 11069,
-   "pct": 53.97
+   "votes": 11609,
+   "pct": 54.03
   }
  ],
  "links": {
