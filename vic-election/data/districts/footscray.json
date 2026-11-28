@@ -3,12 +3,12 @@
  "name": "Footscray",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/footscray-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:33:11+00:00",
+ "fetched_at": "2026-11-28T13:42:11+00:00",
  "title": "Footscray election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:30:05",
+ "last_updated": "Sunday, 29 November 2026 00:40:05",
  "enrolment": 51960,
- "formal": 30357,
- "informal": 2841,
+ "formal": 30346,
+ "informal": 2852,
  "total_votes": 33198,
  "counted_pct": 63.89,
  "notes": [],
@@ -16,14 +16,14 @@
   {
    "candidate": "DINH, Hai",
    "party": "",
-   "votes": 494,
-   "pct": 1.63
+   "votes": 490,
+   "pct": 1.61
   },
   {
    "candidate": "PEREYRA, Elena",
    "party": "The Greens",
-   "votes": 7526,
-   "pct": 24.79
+   "votes": 7529,
+   "pct": 24.81
   },
   {
    "candidate": "NGUYEN, Minh Quan",
@@ -34,20 +34,20 @@
   {
    "candidate": "FELATE, Andualem",
    "party": "The Republican",
-   "votes": 71,
+   "votes": 70,
    "pct": 0.23
   },
   {
    "candidate": "HESS, Kristina",
    "party": "I'm Voting to Avoid the Fine",
-   "votes": 107,
+   "votes": 106,
    "pct": 0.35
   },
   {
    "candidate": "LOPEZ, Alexander",
    "party": "One Nation Victoria",
-   "votes": 2513,
-   "pct": 8.28
+   "votes": 2509,
+   "pct": 8.27
   },
   {
    "candidate": "LEWIS, Daniel",
@@ -65,19 +65,19 @@
    "candidate": "FLORES, Ana",
    "party": "Family First",
    "votes": 217,
-   "pct": 0.71
+   "pct": 0.72
   },
   {
    "candidate": "HALL, Katie",
    "party": "Australian Labor Party",
-   "votes": 6656,
-   "pct": 21.93
+   "votes": 6658,
+   "pct": 21.94
   },
   {
    "candidate": "MARSH, Jess",
    "party": "",
-   "votes": 1801,
-   "pct": 5.93
+   "votes": 1802,
+   "pct": 5.94
   },
   {
    "candidate": "CALDER, Daryle",
@@ -94,28 +94,28 @@
   {
    "candidate": "CHANG, Tim",
    "party": "Liberal",
-   "votes": 5543,
+   "votes": 5541,
    "pct": 18.26
   },
   {
    "candidate": "DUFF, Jasmine",
    "party": "Victorian Socialists",
-   "votes": 4576,
-   "pct": 15.07
+   "votes": 4571,
+   "pct": 15.06
   }
  ],
  "tcp": [
   {
    "candidate": "PEREYRA, Elena",
    "party": "The Greens",
-   "votes": 14585,
-   "pct": 62.44
+   "votes": 18706,
+   "pct": 61.68
   },
   {
    "candidate": "HALL, Katie",
    "party": "Australian Labor Party",
-   "votes": 8773,
-   "pct": 37.56
+   "votes": 11620,
+   "pct": 38.32
   }
  ],
  "links": {

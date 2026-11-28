@@ -3,9 +3,9 @@
  "name": "Gippsland East",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-east-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:38:24+00:00",
+ "fetched_at": "2026-11-28T13:41:24+00:00",
  "title": "Gippsland East election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:35:07",
+ "last_updated": "Sunday, 29 November 2026 00:40:07",
  "enrolment": 51687,
  "formal": 34430,
  "informal": 1695,
@@ -60,14 +60,14 @@
   {
    "candidate": "RENDELL, Gemma",
    "party": "The Nationals",
-   "votes": 11159,
-   "pct": 55.54
+   "votes": 20035,
+   "pct": 58.22
   },
   {
    "candidate": "GOODMAN, Steve",
    "party": "One Nation Victoria",
-   "votes": 8934,
-   "pct": 44.46
+   "votes": 14377,
+   "pct": 41.78
   }
  ],
  "links": {
@@ -797,18 +797,18 @@
    {
     "booth": "Total two candidate preferred votes",
     "values": {
-     "RENDELL, Gemma The Nationals": 11159.0,
-     "GOODMAN, Steve One Nation Victoria": 8934.0,
-     "Miss-sorts": 7.0,
-     "Informal votes": 1059.0,
-     "Total votes polled": 21159.0
+     "RENDELL, Gemma The Nationals": 20035.0,
+     "GOODMAN, Steve One Nation Victoria": 14377.0,
+     "Miss-sorts": 18.0,
+     "Informal votes": 1695.0,
+     "Total votes polled": 36125.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "RENDELL, Gemma The Nationals": 55.54,
-     "GOODMAN, Steve One Nation Victoria": 44.46
+     "RENDELL, Gemma The Nationals": 58.22,
+     "GOODMAN, Steve One Nation Victoria": 41.78
     }
    },
    {
@@ -1192,11 +1192,11 @@
    {
     "booth": "Gippsland East - EVC 2",
     "values": {
-     "RENDELL, Gemma The Nationals": 0.0,
-     "GOODMAN, Steve One Nation Victoria": 0.0,
-     "Miss-sorts": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "RENDELL, Gemma The Nationals": 8876.0,
+     "GOODMAN, Steve One Nation Victoria": 5443.0,
+     "Miss-sorts": 11.0,
+     "Informal votes": 636.0,
+     "Total votes polled": 14966.0
     }
    },
    {
@@ -1232,11 +1232,11 @@
    {
     "booth": "Early votes total",
     "values": {
-     "RENDELL, Gemma The Nationals": 2354.0,
-     "GOODMAN, Steve One Nation Victoria": 2175.0,
-     "Miss-sorts": 0.0,
-     "Informal votes": 216.0,
-     "Total votes polled": 4745.0
+     "RENDELL, Gemma The Nationals": 11230.0,
+     "GOODMAN, Steve One Nation Victoria": 7618.0,
+     "Miss-sorts": 11.0,
+     "Informal votes": 852.0,
+     "Total votes polled": 19711.0
     }
    },
    {
