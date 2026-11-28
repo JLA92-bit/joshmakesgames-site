@@ -3,9 +3,9 @@
  "name": "Gippsland East",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-east-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:05:24+00:00",
+ "fetched_at": "2026-11-28T13:08:25+00:00",
  "title": "Gippsland East election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:00:07",
+ "last_updated": "Sunday, 29 November 2026 00:05:07",
  "enrolment": 51687,
  "formal": 20100,
  "informal": 1059,
@@ -779,6 +779,516 @@
      "WATERS, Alison Family First": 5.0,
      "GOODMAN, Steve One Nation Victoria": 306.0,
      "MUIR, Ricky Shooters, Fishers and Farmers Party Victoria": 22.0,
+     "Informal votes": 28.0,
+     "Total votes polled": 904.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "RENDELL, Gemma The Nationals",
+   "GOODMAN, Steve One Nation Victoria",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "RENDELL, Gemma The Nationals": 11159.0,
+     "GOODMAN, Steve One Nation Victoria": 8934.0,
+     "Miss-sorts": 7.0,
+     "Informal votes": 1059.0,
+     "Total votes polled": 21159.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "RENDELL, Gemma The Nationals": 55.54,
+     "GOODMAN, Steve One Nation Victoria": 44.46
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Bairnsdale",
+    "values": {
+     "RENDELL, Gemma The Nationals": 551.0,
+     "GOODMAN, Steve One Nation Victoria": 483.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 59.0,
+     "Total votes polled": 1093.0
+    }
+   },
+   {
+    "booth": "Bairnsdale West",
+    "values": {
+     "RENDELL, Gemma The Nationals": 501.0,
+     "GOODMAN, Steve One Nation Victoria": 269.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 37.0,
+     "Total votes polled": 807.0
+    }
+   },
+   {
+    "booth": "Boisdale",
+    "values": {
+     "RENDELL, Gemma The Nationals": 107.0,
+     "GOODMAN, Steve One Nation Victoria": 96.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 2.0,
+     "Total votes polled": 205.0
+    }
+   },
+   {
+    "booth": "Briagolong",
+    "values": {
+     "RENDELL, Gemma The Nationals": 254.0,
+     "GOODMAN, Steve One Nation Victoria": 206.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 18.0,
+     "Total votes polled": 478.0
+    }
+   },
+   {
+    "booth": "Bruthen",
+    "values": {
+     "RENDELL, Gemma The Nationals": 253.0,
+     "GOODMAN, Steve One Nation Victoria": 175.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 19.0,
+     "Total votes polled": 447.0
+    }
+   },
+   {
+    "booth": "Buchan",
+    "values": {
+     "RENDELL, Gemma The Nationals": 84.0,
+     "GOODMAN, Steve One Nation Victoria": 74.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 4.0,
+     "Total votes polled": 164.0
+    }
+   },
+   {
+    "booth": "Bundalaguah",
+    "values": {
+     "RENDELL, Gemma The Nationals": 73.0,
+     "GOODMAN, Steve One Nation Victoria": 61.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 3.0,
+     "Total votes polled": 138.0
+    }
+   },
+   {
+    "booth": "Cann River",
+    "values": {
+     "RENDELL, Gemma The Nationals": 51.0,
+     "GOODMAN, Steve One Nation Victoria": 39.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 5.0,
+     "Total votes polled": 95.0
+    }
+   },
+   {
+    "booth": "Cobains",
+    "values": {
+     "RENDELL, Gemma The Nationals": 56.0,
+     "GOODMAN, Steve One Nation Victoria": 56.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 9.0,
+     "Total votes polled": 121.0
+    }
+   },
+   {
+    "booth": "Dargo",
+    "values": {
+     "RENDELL, Gemma The Nationals": 15.0,
+     "GOODMAN, Steve One Nation Victoria": 21.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 2.0,
+     "Total votes polled": 38.0
+    }
+   },
+   {
+    "booth": "Eagle Point",
+    "values": {
+     "RENDELL, Gemma The Nationals": 230.0,
+     "GOODMAN, Steve One Nation Victoria": 135.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 21.0,
+     "Total votes polled": 386.0
+    }
+   },
+   {
+    "booth": "Ellaswood",
+    "values": {
+     "RENDELL, Gemma The Nationals": 153.0,
+     "GOODMAN, Steve One Nation Victoria": 129.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 8.0,
+     "Total votes polled": 290.0
+    }
+   },
+   {
+    "booth": "Glenmaggie",
+    "values": {
+     "RENDELL, Gemma The Nationals": 80.0,
+     "GOODMAN, Steve One Nation Victoria": 106.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 13.0,
+     "Total votes polled": 199.0
+    }
+   },
+   {
+    "booth": "Heyfield",
+    "values": {
+     "RENDELL, Gemma The Nationals": 393.0,
+     "GOODMAN, Steve One Nation Victoria": 470.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 54.0,
+     "Total votes polled": 917.0
+    }
+   },
+   {
+    "booth": "Johnsonville",
+    "values": {
+     "RENDELL, Gemma The Nationals": 292.0,
+     "GOODMAN, Steve One Nation Victoria": 217.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 27.0,
+     "Total votes polled": 536.0
+    }
+   },
+   {
+    "booth": "Lakes Entrance",
+    "values": {
+     "RENDELL, Gemma The Nationals": 321.0,
+     "GOODMAN, Steve One Nation Victoria": 225.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 35.0,
+     "Total votes polled": 583.0
+    }
+   },
+   {
+    "booth": "Lakes Entrance East",
+    "values": {
+     "RENDELL, Gemma The Nationals": 173.0,
+     "GOODMAN, Steve One Nation Victoria": 112.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 31.0,
+     "Total votes polled": 316.0
+    }
+   },
+   {
+    "booth": "Lindenow",
+    "values": {
+     "RENDELL, Gemma The Nationals": 197.0,
+     "GOODMAN, Steve One Nation Victoria": 250.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 20.0,
+     "Total votes polled": 467.0
+    }
+   },
+   {
+    "booth": "Lucknow West",
+    "values": {
+     "RENDELL, Gemma The Nationals": 400.0,
+     "GOODMAN, Steve One Nation Victoria": 263.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 34.0,
+     "Total votes polled": 697.0
+    }
+   },
+   {
+    "booth": "Maffra",
+    "values": {
+     "RENDELL, Gemma The Nationals": 757.0,
+     "GOODMAN, Steve One Nation Victoria": 617.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 76.0,
+     "Total votes polled": 1450.0
+    }
+   },
+   {
+    "booth": "Mallacoota",
+    "values": {
+     "RENDELL, Gemma The Nationals": 378.0,
+     "GOODMAN, Steve One Nation Victoria": 196.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 31.0,
+     "Total votes polled": 605.0
+    }
+   },
+   {
+    "booth": "Marlo",
+    "values": {
+     "RENDELL, Gemma The Nationals": 238.0,
+     "GOODMAN, Steve One Nation Victoria": 97.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 15.0,
+     "Total votes polled": 350.0
+    }
+   },
+   {
+    "booth": "Metung",
+    "values": {
+     "RENDELL, Gemma The Nationals": 315.0,
+     "GOODMAN, Steve One Nation Victoria": 131.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 17.0,
+     "Total votes polled": 463.0
+    }
+   },
+   {
+    "booth": "Newlands Arm",
+    "values": {
+     "RENDELL, Gemma The Nationals": 183.0,
+     "GOODMAN, Steve One Nation Victoria": 111.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 18.0,
+     "Total votes polled": 312.0
+    }
+   },
+   {
+    "booth": "Newmerella",
+    "values": {
+     "RENDELL, Gemma The Nationals": 185.0,
+     "GOODMAN, Steve One Nation Victoria": 195.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 22.0,
+     "Total votes polled": 402.0
+    }
+   },
+   {
+    "booth": "Newry",
+    "values": {
+     "RENDELL, Gemma The Nationals": 73.0,
+     "GOODMAN, Steve One Nation Victoria": 85.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 9.0,
+     "Total votes polled": 167.0
+    }
+   },
+   {
+    "booth": "Nowa Nowa",
+    "values": {
+     "RENDELL, Gemma The Nationals": 58.0,
+     "GOODMAN, Steve One Nation Victoria": 71.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 7.0,
+     "Total votes polled": 136.0
+    }
+   },
+   {
+    "booth": "Omeo",
+    "values": {
+     "RENDELL, Gemma The Nationals": 142.0,
+     "GOODMAN, Steve One Nation Victoria": 152.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 12.0,
+     "Total votes polled": 306.0
+    }
+   },
+   {
+    "booth": "Orbost",
+    "values": {
+     "RENDELL, Gemma The Nationals": 271.0,
+     "GOODMAN, Steve One Nation Victoria": 487.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 62.0,
+     "Total votes polled": 821.0
+    }
+   },
+   {
+    "booth": "Paynesville",
+    "values": {
+     "RENDELL, Gemma The Nationals": 519.0,
+     "GOODMAN, Steve One Nation Victoria": 273.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 54.0,
+     "Total votes polled": 846.0
+    }
+   },
+   {
+    "booth": "Stratford",
+    "values": {
+     "RENDELL, Gemma The Nationals": 525.0,
+     "GOODMAN, Steve One Nation Victoria": 320.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 48.0,
+     "Total votes polled": 894.0
+    }
+   },
+   {
+    "booth": "Swifts Creek",
+    "values": {
+     "RENDELL, Gemma The Nationals": 131.0,
+     "GOODMAN, Steve One Nation Victoria": 83.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 11.0,
+     "Total votes polled": 225.0
+    }
+   },
+   {
+    "booth": "Tinamba",
+    "values": {
+     "RENDELL, Gemma The Nationals": 66.0,
+     "GOODMAN, Steve One Nation Victoria": 73.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 9.0,
+     "Total votes polled": 148.0
+    }
+   },
+   {
+    "booth": "Toorloo Arm",
+    "values": {
+     "RENDELL, Gemma The Nationals": 193.0,
+     "GOODMAN, Steve One Nation Victoria": 89.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 21.0,
+     "Total votes polled": 303.0
+    }
+   },
+   {
+    "booth": "Valencia Creek",
+    "values": {
+     "RENDELL, Gemma The Nationals": 49.0,
+     "GOODMAN, Steve One Nation Victoria": 54.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 2.0,
+     "Total votes polled": 105.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "RENDELL, Gemma The Nationals": 8267.0,
+     "GOODMAN, Steve One Nation Victoria": 6421.0,
+     "Miss-sorts": 7.0,
+     "Informal votes": 815.0,
+     "Total votes polled": 15510.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Gippsland East - EVC 1",
+    "values": {
+     "RENDELL, Gemma The Nationals": 0.0,
+     "GOODMAN, Steve One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Gippsland East - EVC 2",
+    "values": {
+     "RENDELL, Gemma The Nationals": 0.0,
+     "GOODMAN, Steve One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Gippsland South - EVC 2",
+    "values": {
+     "RENDELL, Gemma The Nationals": 2163.0,
+     "GOODMAN, Steve One Nation Victoria": 2097.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 192.0,
+     "Total votes polled": 4452.0
+    }
+   },
+   {
+    "booth": "Gippsland East - MEVC",
+    "values": {
+     "RENDELL, Gemma The Nationals": 191.0,
+     "GOODMAN, Steve One Nation Victoria": 78.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 24.0,
+     "Total votes polled": 293.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "RENDELL, Gemma The Nationals": 0.0,
+     "GOODMAN, Steve One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "RENDELL, Gemma The Nationals": 2354.0,
+     "GOODMAN, Steve One Nation Victoria": 2175.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 216.0,
+     "Total votes polled": 4745.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "RENDELL, Gemma The Nationals": 0.0,
+     "GOODMAN, Steve One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "RENDELL, Gemma The Nationals": 0.0,
+     "GOODMAN, Steve One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "RENDELL, Gemma The Nationals": 538.0,
+     "GOODMAN, Steve One Nation Victoria": 338.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 28.0,
+     "Total votes polled": 904.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "RENDELL, Gemma The Nationals": 0.0,
+     "GOODMAN, Steve One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "RENDELL, Gemma The Nationals": 538.0,
+     "GOODMAN, Steve One Nation Victoria": 338.0,
+     "Miss-sorts": 0.0,
      "Informal votes": 28.0,
      "Total votes polled": 904.0
     }

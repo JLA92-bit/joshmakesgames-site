@@ -3,57 +3,57 @@
  "name": "Euroa",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/euroa-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:59:44+00:00",
+ "fetched_at": "2026-11-28T13:09:09+00:00",
  "title": "Euroa election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:55:05",
+ "last_updated": "Sunday, 29 November 2026 00:05:05",
  "enrolment": 53147,
- "formal": 13743,
- "informal": 688,
- "total_votes": 14431,
- "counted_pct": 27.15,
+ "formal": 17244,
+ "informal": 817,
+ "total_votes": 18061,
+ "counted_pct": 33.98,
  "notes": [],
  "primary": [
   {
    "candidate": "CLEELAND, Annabelle",
    "party": "The Nationals",
-   "votes": 5470,
-   "pct": 39.8
+   "votes": 6738,
+   "pct": 39.07
   },
   {
    "candidate": "TAOUK, Moussa",
    "party": "Family First",
-   "votes": 267,
-   "pct": 1.94
+   "votes": 333,
+   "pct": 1.93
   },
   {
    "candidate": "REGAN, Alysia",
    "party": "The Greens",
-   "votes": 1097,
-   "pct": 7.98
+   "votes": 1344,
+   "pct": 7.79
   },
   {
    "candidate": "KELLY, Karina",
    "party": "Animal Justice Party",
-   "votes": 330,
-   "pct": 2.4
+   "votes": 391,
+   "pct": 2.27
   },
   {
    "candidate": "KELLY, Julian",
    "party": "Australian Labor Party",
-   "votes": 1286,
-   "pct": 9.36
+   "votes": 1692,
+   "pct": 9.81
   },
   {
    "candidate": "CAMPBELL, Steve",
    "party": "One Nation Victoria",
-   "votes": 5004,
-   "pct": 36.41
+   "votes": 6397,
+   "pct": 37.1
   },
   {
    "candidate": "LYLE, Zoe",
    "party": "Victorian Socialists",
-   "votes": 289,
-   "pct": 2.1
+   "votes": 349,
+   "pct": 2.02
   }
  ],
  "tcp": [

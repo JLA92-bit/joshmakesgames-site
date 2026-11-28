@@ -3,9 +3,9 @@
  "name": "Hastings",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hastings-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:05:26+00:00",
+ "fetched_at": "2026-11-28T13:08:31+00:00",
  "title": "Hastings District results | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:00:07",
+ "last_updated": "Sunday, 29 November 2026 00:05:08",
  "enrolment": 50849,
  "formal": 24201,
  "informal": 1222,
@@ -513,6 +513,326 @@
      "SCHIEFLER, Frank Liberal": 1089.0,
      "SMART, Jason": 14.0,
      "ANGELICO, Peter One Nation Victoria": 669.0,
+     "Informal votes": 51.0,
+     "Total votes polled": 2470.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "MERCURIO, Paul Australian Labor Party",
+   "ANGELICO, Peter One Nation Victoria",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 10557.0,
+     "ANGELICO, Peter One Nation Victoria": 13634.0,
+     "Miss-sorts": 10.0,
+     "Informal votes": 1222.0,
+     "Total votes polled": 25423.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 43.64,
+     "ANGELICO, Peter One Nation Victoria": 56.36
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Balnarring",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 521.0,
+     "ANGELICO, Peter One Nation Victoria": 320.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 32.0,
+     "Total votes polled": 874.0
+    }
+   },
+   {
+    "booth": "Baxter",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 325.0,
+     "ANGELICO, Peter One Nation Victoria": 549.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 40.0,
+     "Total votes polled": 914.0
+    }
+   },
+   {
+    "booth": "Bittern",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 154.0,
+     "ANGELICO, Peter One Nation Victoria": 134.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 12.0,
+     "Total votes polled": 300.0
+    }
+   },
+   {
+    "booth": "Bittern North",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 251.0,
+     "ANGELICO, Peter One Nation Victoria": 348.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 41.0,
+     "Total votes polled": 642.0
+    }
+   },
+   {
+    "booth": "Crib Point",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 255.0,
+     "ANGELICO, Peter One Nation Victoria": 299.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 35.0,
+     "Total votes polled": 589.0
+    }
+   },
+   {
+    "booth": "Frankston",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 36.0,
+     "ANGELICO, Peter One Nation Victoria": 34.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 6.0,
+     "Total votes polled": 76.0
+    }
+   },
+   {
+    "booth": "Hastings",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 602.0,
+     "ANGELICO, Peter One Nation Victoria": 793.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 90.0,
+     "Total votes polled": 1486.0
+    }
+   },
+   {
+    "booth": "Langwarrin",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 594.0,
+     "ANGELICO, Peter One Nation Victoria": 908.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 70.0,
+     "Total votes polled": 1572.0
+    }
+   },
+   {
+    "booth": "Langwarrin Hall",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 433.0,
+     "ANGELICO, Peter One Nation Victoria": 787.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 66.0,
+     "Total votes polled": 1287.0
+    }
+   },
+   {
+    "booth": "Langwarrin Park",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 554.0,
+     "ANGELICO, Peter One Nation Victoria": 828.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 59.0,
+     "Total votes polled": 1441.0
+    }
+   },
+   {
+    "booth": "Mt Erin",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 23.0,
+     "ANGELICO, Peter One Nation Victoria": 30.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 8.0,
+     "Total votes polled": 61.0
+    }
+   },
+   {
+    "booth": "Somerville",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 332.0,
+     "ANGELICO, Peter One Nation Victoria": 443.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 65.0,
+     "Total votes polled": 840.0
+    }
+   },
+   {
+    "booth": "Somerville Central",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 132.0,
+     "ANGELICO, Peter One Nation Victoria": 196.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 342.0
+    }
+   },
+   {
+    "booth": "Somerville West",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 451.0,
+     "ANGELICO, Peter One Nation Victoria": 614.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 64.0,
+     "Total votes polled": 1129.0
+    }
+   },
+   {
+    "booth": "Tyabb",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 273.0,
+     "ANGELICO, Peter One Nation Victoria": 409.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 55.0,
+     "Total votes polled": 737.0
+    }
+   },
+   {
+    "booth": "Woodlands",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 366.0,
+     "ANGELICO, Peter One Nation Victoria": 616.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 44.0,
+     "Total votes polled": 1026.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 5302.0,
+     "ANGELICO, Peter One Nation Victoria": 7308.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 701.0,
+     "Total votes polled": 13316.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Frankston - EVC 2",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 0.0,
+     "ANGELICO, Peter One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Hastings - EVC 1",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 0.0,
+     "ANGELICO, Peter One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Hastings - EVC 2",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 3588.0,
+     "ANGELICO, Peter One Nation Victoria": 5364.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 443.0,
+     "Total votes polled": 9400.0
+    }
+   },
+   {
+    "booth": "Hastings - MEVC",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 109.0,
+     "ANGELICO, Peter One Nation Victoria": 101.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 27.0,
+     "Total votes polled": 237.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 0.0,
+     "ANGELICO, Peter One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 3697.0,
+     "ANGELICO, Peter One Nation Victoria": 5465.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 470.0,
+     "Total votes polled": 9637.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 0.0,
+     "ANGELICO, Peter One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 0.0,
+     "ANGELICO, Peter One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 1558.0,
+     "ANGELICO, Peter One Nation Victoria": 861.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 51.0,
+     "Total votes polled": 2470.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 0.0,
+     "ANGELICO, Peter One Nation Victoria": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "MERCURIO, Paul Australian Labor Party": 1558.0,
+     "ANGELICO, Peter One Nation Victoria": 861.0,
+     "Miss-sorts": 0.0,
      "Informal votes": 51.0,
      "Total votes polled": 2470.0
     }

@@ -3,9 +3,9 @@
  "name": "Greenvale",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/greenvale-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:05:25+00:00",
+ "fetched_at": "2026-11-28T13:08:31+00:00",
  "title": "Greenvale election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:00:07",
+ "last_updated": "Sunday, 29 November 2026 00:05:08",
  "enrolment": 55541,
  "formal": 11356,
  "informal": 1218,
@@ -607,6 +607,316 @@
      "FURINA, Rosanna Animal Justice Party": 23.0,
      "OVEREND, Jim Liberal": 549.0,
      "WALTERS, Iwan Australian Labor Party": 461.0,
+     "Informal votes": 60.0,
+     "Total votes polled": 1970.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "MOORE, Chris One Nation Victoria",
+   "WALTERS, Iwan Australian Labor Party",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 3701.0,
+     "WALTERS, Iwan Australian Labor Party": 6014.0,
+     "Miss-sorts": 11.0,
+     "Informal votes": 1073.0,
+     "Total votes polled": 10799.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 38.1,
+     "WALTERS, Iwan Australian Labor Party": 61.9
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Attwood",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 255.0,
+     "WALTERS, Iwan Australian Labor Party": 273.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 63.0,
+     "Total votes polled": 591.0
+    }
+   },
+   {
+    "booth": "Coolaroo",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 0.0,
+     "WALTERS, Iwan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Craigieburn",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 150.0,
+     "WALTERS, Iwan Australian Labor Party": 121.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 51.0,
+     "Total votes polled": 322.0
+    }
+   },
+   {
+    "booth": "Craigieburn South",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 436.0,
+     "WALTERS, Iwan Australian Labor Party": 449.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 107.0,
+     "Total votes polled": 992.0
+    }
+   },
+   {
+    "booth": "Greenvale",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 0.0,
+     "WALTERS, Iwan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Greenvale Park",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 318.0,
+     "WALTERS, Iwan Australian Labor Party": 445.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 64.0,
+     "Total votes polled": 827.0
+    }
+   },
+   {
+    "booth": "Greenvale South",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 0.0,
+     "WALTERS, Iwan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Lakeside Drive",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 0.0,
+     "WALTERS, Iwan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Meadow Heights",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 475.0,
+     "WALTERS, Iwan Australian Labor Party": 1525.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 316.0,
+     "Total votes polled": 2316.0
+    }
+   },
+   {
+    "booth": "Roxburgh Homestead",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 267.0,
+     "WALTERS, Iwan Australian Labor Party": 663.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 125.0,
+     "Total votes polled": 1055.0
+    }
+   },
+   {
+    "booth": "Roxburgh Park",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 102.0,
+     "WALTERS, Iwan Australian Labor Party": 271.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 63.0,
+     "Total votes polled": 441.0
+    }
+   },
+   {
+    "booth": "Roxburgh Rise",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 282.0,
+     "WALTERS, Iwan Australian Labor Party": 662.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 102.0,
+     "Total votes polled": 1046.0
+    }
+   },
+   {
+    "booth": "Somerton",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 206.0,
+     "WALTERS, Iwan Australian Labor Party": 434.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 70.0,
+     "Total votes polled": 710.0
+    }
+   },
+   {
+    "booth": "Westmeadows",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 121.0,
+     "WALTERS, Iwan Australian Labor Party": 154.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 28.0,
+     "Total votes polled": 303.0
+    }
+   },
+   {
+    "booth": "Yellowbox",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 19.0,
+     "WALTERS, Iwan Australian Labor Party": 26.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 7.0,
+     "Total votes polled": 53.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 2631.0,
+     "WALTERS, Iwan Australian Labor Party": 5023.0,
+     "Miss-sorts": 6.0,
+     "Informal votes": 996.0,
+     "Total votes polled": 8656.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Greenvale - EVC 1",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 0.0,
+     "WALTERS, Iwan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Greenvale - EVC 2",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 0.0,
+     "WALTERS, Iwan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Greenvale - EVC 3",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 0.0,
+     "WALTERS, Iwan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Greenvale - MEVC",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 70.0,
+     "WALTERS, Iwan Australian Labor Party": 86.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 17.0,
+     "Total votes polled": 173.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 0.0,
+     "WALTERS, Iwan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 70.0,
+     "WALTERS, Iwan Australian Labor Party": 86.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 17.0,
+     "Total votes polled": 173.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 0.0,
+     "WALTERS, Iwan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 0.0,
+     "WALTERS, Iwan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 1000.0,
+     "WALTERS, Iwan Australian Labor Party": 905.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 60.0,
+     "Total votes polled": 1970.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 0.0,
+     "WALTERS, Iwan Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "MOORE, Chris One Nation Victoria": 1000.0,
+     "WALTERS, Iwan Australian Labor Party": 905.0,
+     "Miss-sorts": 5.0,
      "Informal votes": 60.0,
      "Total votes polled": 1970.0
     }

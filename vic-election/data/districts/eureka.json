@@ -3,9 +3,9 @@
  "name": "Eureka",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eureka-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:05:24+00:00",
+ "fetched_at": "2026-11-28T13:08:25+00:00",
  "title": "Eureka election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:00:05",
+ "last_updated": "Sunday, 29 November 2026 00:05:05",
  "enrolment": 58117,
  "formal": 35985,
  "informal": 2302,
@@ -795,6 +795,456 @@
      "BALLINGER, Paul One Nation Victoria": 764.0,
      "MUIR, Emma Liberal": 813.0,
      "VENDITTI TAYLOR, Steven": 95.0,
+     "Informal votes": 59.0,
+     "Total votes polled": 2461.0
+    }
+   }
+  ]
+ },
+ "booths_tcp": {
+  "columns": [
+   "SETTLE, Michaela Australian Labor Party",
+   "MUIR, Emma Liberal",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 13439.0,
+     "MUIR, Emma Liberal": 22285.0,
+     "Miss-sorts": 34.0,
+     "Informal votes": 2275.0,
+     "Total votes polled": 38033.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 37.62,
+     "MUIR, Emma Liberal": 62.38
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Bacchus Marsh",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 404.0,
+     "MUIR, Emma Liberal": 651.0,
+     "Miss-sorts": 11.0,
+     "Informal votes": 67.0,
+     "Total votes polled": 1133.0
+    }
+   },
+   {
+    "booth": "Bacchus Marsh Central",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 377.0,
+     "MUIR, Emma Liberal": 659.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 95.0,
+     "Total votes polled": 1131.0
+    }
+   },
+   {
+    "booth": "Ballan",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 431.0,
+     "MUIR, Emma Liberal": 839.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 104.0,
+     "Total votes polled": 1374.0
+    }
+   },
+   {
+    "booth": "Ballarat",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 231.0,
+     "MUIR, Emma Liberal": 146.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 37.0,
+     "Total votes polled": 414.0
+    }
+   },
+   {
+    "booth": "Ballarat City",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 32.0,
+     "MUIR, Emma Liberal": 34.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 12.0,
+     "Total votes polled": 78.0
+    }
+   },
+   {
+    "booth": "Black Hill",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 76.0,
+     "MUIR, Emma Liberal": 84.0,
+     "Miss-sorts": 3.0,
+     "Informal votes": 6.0,
+     "Total votes polled": 169.0
+    }
+   },
+   {
+    "booth": "Bungaree",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 161.0,
+     "MUIR, Emma Liberal": 169.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 19.0,
+     "Total votes polled": 349.0
+    }
+   },
+   {
+    "booth": "Buninyong",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 757.0,
+     "MUIR, Emma Liberal": 864.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 73.0,
+     "Total votes polled": 1696.0
+    }
+   },
+   {
+    "booth": "Caledonian",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 475.0,
+     "MUIR, Emma Liberal": 518.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 92.0,
+     "Total votes polled": 1085.0
+    }
+   },
+   {
+    "booth": "Canadian",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 421.0,
+     "MUIR, Emma Liberal": 354.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 44.0,
+     "Total votes polled": 819.0
+    }
+   },
+   {
+    "booth": "Cape Clear",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 65.0,
+     "MUIR, Emma Liberal": 119.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 198.0
+    }
+   },
+   {
+    "booth": "Clarkes Hill",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 8.0,
+     "MUIR, Emma Liberal": 72.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 3.0,
+     "Total votes polled": 83.0
+    }
+   },
+   {
+    "booth": "Darley",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 405.0,
+     "MUIR, Emma Liberal": 727.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 69.0,
+     "Total votes polled": 1201.0
+    }
+   },
+   {
+    "booth": "Dereel",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 125.0,
+     "MUIR, Emma Liberal": 185.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 17.0,
+     "Total votes polled": 327.0
+    }
+   },
+   {
+    "booth": "Elaine",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 88.0,
+     "MUIR, Emma Liberal": 234.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 23.0,
+     "Total votes polled": 345.0
+    }
+   },
+   {
+    "booth": "Gordon",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 221.0,
+     "MUIR, Emma Liberal": 395.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 39.0,
+     "Total votes polled": 655.0
+    }
+   },
+   {
+    "booth": "Inverleigh",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 239.0,
+     "MUIR, Emma Liberal": 573.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 36.0,
+     "Total votes polled": 849.0
+    }
+   },
+   {
+    "booth": "Lethbridge",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 166.0,
+     "MUIR, Emma Liberal": 398.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 50.0,
+     "Total votes polled": 615.0
+    }
+   },
+   {
+    "booth": "Magpie",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 72.0,
+     "MUIR, Emma Liberal": 88.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 174.0
+    }
+   },
+   {
+    "booth": "Meredith",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 138.0,
+     "MUIR, Emma Liberal": 302.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 24.0,
+     "Total votes polled": 466.0
+    }
+   },
+   {
+    "booth": "Mount Clear",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 496.0,
+     "MUIR, Emma Liberal": 567.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 54.0,
+     "Total votes polled": 1117.0
+    }
+   },
+   {
+    "booth": "Mount Egerton",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 137.0,
+     "MUIR, Emma Liberal": 222.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 27.0,
+     "Total votes polled": 387.0
+    }
+   },
+   {
+    "booth": "Mount Pleasant",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 250.0,
+     "MUIR, Emma Liberal": 149.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 23.0,
+     "Total votes polled": 422.0
+    }
+   },
+   {
+    "booth": "Mount Wallace",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 12.0,
+     "MUIR, Emma Liberal": 72.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 7.0,
+     "Total votes polled": 93.0
+    }
+   },
+   {
+    "booth": "Rokewood",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 28.0,
+     "MUIR, Emma Liberal": 142.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 10.0,
+     "Total votes polled": 180.0
+    }
+   },
+   {
+    "booth": "Teesdale",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 330.0,
+     "MUIR, Emma Liberal": 691.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 61.0,
+     "Total votes polled": 1082.0
+    }
+   },
+   {
+    "booth": "The Stockade",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 446.0,
+     "MUIR, Emma Liberal": 293.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 45.0,
+     "Total votes polled": 784.0
+    }
+   },
+   {
+    "booth": "Warrenheip",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 195.0,
+     "MUIR, Emma Liberal": 428.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 51.0,
+     "Total votes polled": 674.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 6786.0,
+     "MUIR, Emma Liberal": 9975.0,
+     "Miss-sorts": 23.0,
+     "Informal votes": 1116.0,
+     "Total votes polled": 17900.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Eureka - EVC 1",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 2980.0,
+     "MUIR, Emma Liberal": 6964.0,
+     "Miss-sorts": 5.0,
+     "Informal votes": 628.0,
+     "Total votes polled": 10577.0
+    }
+   },
+   {
+    "booth": "Eureka - EVC 2",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 2929.0,
+     "MUIR, Emma Liberal": 3692.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 472.0,
+     "Total votes polled": 7095.0
+    }
+   },
+   {
+    "booth": "Wendouree - EVC 1",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 0.0,
+     "MUIR, Emma Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Wendouree - EVC 3",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 0.0,
+     "MUIR, Emma Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Eureka - MEVC",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 0.0,
+     "MUIR, Emma Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 0.0,
+     "MUIR, Emma Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 5909.0,
+     "MUIR, Emma Liberal": 10656.0,
+     "Miss-sorts": 7.0,
+     "Informal votes": 1100.0,
+     "Total votes polled": 17672.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 0.0,
+     "MUIR, Emma Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 0.0,
+     "MUIR, Emma Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 744.0,
+     "MUIR, Emma Liberal": 1654.0,
+     "Miss-sorts": 4.0,
+     "Informal votes": 59.0,
+     "Total votes polled": 2461.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 0.0,
+     "MUIR, Emma Liberal": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "SETTLE, Michaela Australian Labor Party": 744.0,
+     "MUIR, Emma Liberal": 1654.0,
+     "Miss-sorts": 4.0,
      "Informal votes": 59.0,
      "Total votes polled": 2461.0
     }

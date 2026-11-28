@@ -3,63 +3,63 @@
  "name": "Box Hill",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/box-hill-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:59:41+00:00",
+ "fetched_at": "2026-11-28T13:09:04+00:00",
  "title": "Box Hill election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:55:02",
+ "last_updated": "Sunday, 29 November 2026 00:05:03",
  "enrolment": 52758,
- "formal": 15505,
- "informal": 607,
- "total_votes": 16112,
- "counted_pct": 30.54,
+ "formal": 22504,
+ "informal": 793,
+ "total_votes": 23297,
+ "counted_pct": 44.16,
  "notes": [],
  "primary": [
   {
    "candidate": "QIN, Aaron",
    "party": "The Greens",
-   "votes": 2614,
-   "pct": 16.86
+   "votes": 3707,
+   "pct": 16.47
   },
   {
    "candidate": "CHEUNG, Heena",
    "party": "",
-   "votes": 757,
-   "pct": 4.88
+   "votes": 1021,
+   "pct": 4.54
   },
   {
    "candidate": "BAKER, Jamie",
    "party": "One Nation Victoria",
-   "votes": 1220,
-   "pct": 7.87
+   "votes": 1791,
+   "pct": 7.96
   },
   {
    "candidate": "HOUGUET, Sally",
    "party": "Liberal",
-   "votes": 6688,
-   "pct": 43.13
+   "votes": 10016,
+   "pct": 44.51
   },
   {
    "candidate": "McGRATH, Sue-Ellen",
    "party": "Labour DLP",
-   "votes": 112,
-   "pct": 0.72
+   "votes": 160,
+   "pct": 0.71
   },
   {
    "candidate": "HAMER, Paul",
    "party": "Australian Labor Party",
-   "votes": 3384,
-   "pct": 21.83
+   "votes": 4760,
+   "pct": 21.15
   },
   {
    "candidate": "AFAJ, Saravina",
    "party": "Victorian Socialists",
-   "votes": 451,
-   "pct": 2.91
+   "votes": 719,
+   "pct": 3.19
   },
   {
    "candidate": "FAGG, Peter",
    "party": "Family First",
-   "votes": 279,
-   "pct": 1.8
+   "votes": 330,
+   "pct": 1.47
   }
  ],
  "tcp": [
