@@ -3,16 +3,16 @@
  "name": "Yan Yean",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/yan-yean-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:08:49+00:00",
+ "fetched_at": "2026-11-28T12:11:47+00:00",
  "title": "Yan Yean election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:05:17",
+ "last_updated": "Saturday, 28 November 2026 23:10:17",
  "enrolment": 57294,
  "formal": 10802,
  "informal": 581,
  "total_votes": 11383,
  "counted_pct": 19.87,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Yan Yean District results Yan Yean District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:17 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Yan Yean District results Yan Yean District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:17 These results are provisional."
  ],
  "primary": [
   {
@@ -68,14 +68,14 @@
   {
    "candidate": "KATHAGE, Lauren",
    "party": "Australian Labor Party",
-   "votes": 4326,
-   "pct": 42.17
+   "votes": 4387,
+   "pct": 42.3
   },
   {
    "candidate": "JOHNSON, Jeremy",
    "party": "One Nation Victoria",
-   "votes": 5933,
-   "pct": 57.83
+   "votes": 5983,
+   "pct": 57.7
   }
  ],
  "links": {

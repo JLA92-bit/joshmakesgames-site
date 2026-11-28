@@ -3,71 +3,71 @@
  "name": "Bendigo East",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-east-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:02:49+00:00",
+ "fetched_at": "2026-11-28T12:11:50+00:00",
  "title": "Bendigo East election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:00:02",
+ "last_updated": "Saturday, 28 November 2026 23:10:02",
  "enrolment": 56152,
- "formal": 7866,
- "informal": 486,
- "total_votes": 8352,
- "counted_pct": 14.87,
+ "formal": 8282,
+ "informal": 520,
+ "total_votes": 8802,
+ "counted_pct": 15.68,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bendigo East District results Bendigo East District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:00:02 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bendigo East District results Bendigo East District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:02 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "JOHN, Des",
    "party": "Family First",
-   "votes": 252,
-   "pct": 3.2
+   "votes": 261,
+   "pct": 3.15
   },
   {
    "candidate": "DUNN, Bonnie",
    "party": "Animal Justice Party",
-   "votes": 204,
-   "pct": 2.59
+   "votes": 208,
+   "pct": 2.51
   },
   {
    "candidate": "NORSEN, Denali",
    "party": "Victorian Socialists",
-   "votes": 176,
-   "pct": 2.24
+   "votes": 178,
+   "pct": 2.15
   },
   {
    "candidate": "HAWKEN, Cheryl",
    "party": "One Nation Victoria",
-   "votes": 1772,
-   "pct": 22.53
+   "votes": 1924,
+   "pct": 23.23
   },
   {
    "candidate": "LETHLEAN, Andrew",
    "party": "The Nationals",
-   "votes": 2922,
-   "pct": 37.15
+   "votes": 3099,
+   "pct": 37.42
   },
   {
    "candidate": "WRIGHT, Liz",
    "party": "",
-   "votes": 138,
-   "pct": 1.75
+   "votes": 148,
+   "pct": 1.79
   },
   {
    "candidate": "HOSKINS, Kristie",
    "party": "",
    "votes": 33,
-   "pct": 0.42
+   "pct": 0.4
   },
   {
    "candidate": "RICKWOOD, Tim",
    "party": "Australian Labor Party",
-   "votes": 1327,
-   "pct": 16.87
+   "votes": 1364,
+   "pct": 16.47
   },
   {
    "candidate": "TOLHURST, Michael",
    "party": "The Greens",
-   "votes": 1042,
-   "pct": 13.25
+   "votes": 1067,
+   "pct": 12.88
   }
  ],
  "tcp": [

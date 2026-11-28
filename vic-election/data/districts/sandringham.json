@@ -3,16 +3,16 @@
  "name": "Sandringham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sandringham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:03:03+00:00",
+ "fetched_at": "2026-11-28T12:12:02+00:00",
  "title": "Sandringham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:00:13",
+ "last_updated": "Saturday, 28 November 2026 23:10:14",
  "enrolment": 49842,
- "formal": 37678,
- "informal": 595,
- "total_votes": 38273,
- "counted_pct": 76.79,
+ "formal": 37683,
+ "informal": 596,
+ "total_votes": 38279,
+ "counted_pct": 76.8,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Sandringham District results Sandringham District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:00:13 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Sandringham District results Sandringham District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:14 These results are provisional."
  ],
  "primary": [
   {
@@ -25,12 +25,12 @@
    "candidate": "FOTAKIS, Timon",
    "party": "The Greens",
    "votes": 6366,
-   "pct": 16.9
+   "pct": 16.89
   },
   {
    "candidate": "ROWSWELL, Brad",
    "party": "Liberal",
-   "votes": 21000,
+   "votes": 21005,
    "pct": 55.74
   },
   {
@@ -50,7 +50,7 @@
   {
    "candidate": "ROWSWELL, Brad",
    "party": "Liberal",
-   "votes": 26188,
+   "votes": 26193,
    "pct": 69.53
   },
   {

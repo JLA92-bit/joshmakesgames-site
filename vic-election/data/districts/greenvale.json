@@ -3,77 +3,77 @@
  "name": "Greenvale",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/greenvale-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:08:11+00:00",
+ "fetched_at": "2026-11-28T12:11:12+00:00",
  "title": "Greenvale election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:05:07",
+ "last_updated": "Saturday, 28 November 2026 23:10:07",
  "enrolment": 55541,
- "formal": 10436,
- "informal": 1138,
- "total_votes": 11574,
- "counted_pct": 20.84,
+ "formal": 11200,
+ "informal": 1201,
+ "total_votes": 12401,
+ "counted_pct": 22.33,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Greenvale District results Greenvale District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:07 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Greenvale District results Greenvale District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:07 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "SAID, Hassan",
    "party": "",
-   "votes": 788,
-   "pct": 7.55
+   "votes": 831,
+   "pct": 7.42
   },
   {
    "candidate": "SMELOV, Kirill",
    "party": "Victorian Socialists",
-   "votes": 585,
-   "pct": 5.61
+   "votes": 624,
+   "pct": 5.57
   },
   {
    "candidate": "MCGINNESS, Declan",
    "party": "The Greens",
-   "votes": 1234,
-   "pct": 11.82
+   "votes": 1314,
+   "pct": 11.73
   },
   {
    "candidate": "MOORE, Chris",
    "party": "One Nation Victoria",
-   "votes": 2159,
-   "pct": 20.69
+   "votes": 2324,
+   "pct": 20.75
   },
   {
    "candidate": "ZOUGHAIB, Yehya",
    "party": "",
-   "votes": 212,
-   "pct": 2.03
+   "votes": 217,
+   "pct": 1.94
   },
   {
    "candidate": "YOHANNA, Mazen",
    "party": "Citizens Party",
-   "votes": 201,
-   "pct": 1.93
+   "votes": 208,
+   "pct": 1.86
   },
   {
    "candidate": "TITHERIDGE, Michael",
    "party": "Family First",
-   "votes": 198,
+   "votes": 213,
    "pct": 1.9
   },
   {
    "candidate": "FURINA, Rosanna",
    "party": "Animal Justice Party",
-   "votes": 109,
-   "pct": 1.04
+   "votes": 112,
+   "pct": 1.0
   },
   {
    "candidate": "OVEREND, Jim",
    "party": "Liberal",
-   "votes": 2158,
-   "pct": 20.68
+   "votes": 2398,
+   "pct": 21.41
   },
   {
    "candidate": "WALTERS, Iwan",
    "party": "Australian Labor Party",
-   "votes": 2792,
-   "pct": 26.75
+   "votes": 2959,
+   "pct": 26.42
   }
  ],
  "tcp": [
@@ -113,33 +113,33 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "SAID, Hassan": 788.0,
-     "SMELOV, Kirill Victorian Socialists": 585.0,
-     "MCGINNESS, Declan The Greens": 1234.0,
-     "MOORE, Chris One Nation Victoria": 2159.0,
-     "ZOUGHAIB, Yehya": 212.0,
-     "YOHANNA, Mazen Citizens Party": 201.0,
-     "TITHERIDGE, Michael Family First": 198.0,
-     "FURINA, Rosanna Animal Justice Party": 109.0,
-     "OVEREND, Jim Liberal": 2158.0,
-     "WALTERS, Iwan Australian Labor Party": 2792.0,
-     "Informal votes": 1138.0,
-     "Total votes polled": 11574.0
+     "SAID, Hassan": 831.0,
+     "SMELOV, Kirill Victorian Socialists": 624.0,
+     "MCGINNESS, Declan The Greens": 1314.0,
+     "MOORE, Chris One Nation Victoria": 2324.0,
+     "ZOUGHAIB, Yehya": 217.0,
+     "YOHANNA, Mazen Citizens Party": 208.0,
+     "TITHERIDGE, Michael Family First": 213.0,
+     "FURINA, Rosanna Animal Justice Party": 112.0,
+     "OVEREND, Jim Liberal": 2398.0,
+     "WALTERS, Iwan Australian Labor Party": 2959.0,
+     "Informal votes": 1201.0,
+     "Total votes polled": 12401.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "SAID, Hassan": 7.55,
-     "SMELOV, Kirill Victorian Socialists": 5.61,
-     "MCGINNESS, Declan The Greens": 11.82,
-     "MOORE, Chris One Nation Victoria": 20.69,
-     "ZOUGHAIB, Yehya": 2.03,
-     "YOHANNA, Mazen Citizens Party": 1.93,
+     "SAID, Hassan": 7.42,
+     "SMELOV, Kirill Victorian Socialists": 5.57,
+     "MCGINNESS, Declan The Greens": 11.73,
+     "MOORE, Chris One Nation Victoria": 20.75,
+     "ZOUGHAIB, Yehya": 1.94,
+     "YOHANNA, Mazen Citizens Party": 1.86,
      "TITHERIDGE, Michael Family First": 1.9,
-     "FURINA, Rosanna Animal Justice Party": 1.04,
-     "OVEREND, Jim Liberal": 20.68,
-     "WALTERS, Iwan Australian Labor Party": 26.75
+     "FURINA, Rosanna Animal Justice Party": 1.0,
+     "OVEREND, Jim Liberal": 21.41,
+     "WALTERS, Iwan Australian Labor Party": 26.42
     }
    },
    {
@@ -251,18 +251,18 @@
    {
     "booth": "Greenvale South",
     "values": {
-     "SAID, Hassan": 0.0,
-     "SMELOV, Kirill Victorian Socialists": 0.0,
-     "MCGINNESS, Declan The Greens": 0.0,
-     "MOORE, Chris One Nation Victoria": 0.0,
-     "ZOUGHAIB, Yehya": 0.0,
-     "YOHANNA, Mazen Citizens Party": 0.0,
-     "TITHERIDGE, Michael Family First": 0.0,
-     "FURINA, Rosanna Animal Justice Party": 0.0,
-     "OVEREND, Jim Liberal": 0.0,
-     "WALTERS, Iwan Australian Labor Party": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "SAID, Hassan": 43.0,
+     "SMELOV, Kirill Victorian Socialists": 39.0,
+     "MCGINNESS, Declan The Greens": 80.0,
+     "MOORE, Chris One Nation Victoria": 165.0,
+     "ZOUGHAIB, Yehya": 5.0,
+     "YOHANNA, Mazen Citizens Party": 7.0,
+     "TITHERIDGE, Michael Family First": 15.0,
+     "FURINA, Rosanna Animal Justice Party": 3.0,
+     "OVEREND, Jim Liberal": 240.0,
+     "WALTERS, Iwan Australian Labor Party": 167.0,
+     "Informal votes": 63.0,
+     "Total votes polled": 827.0
     }
    },
    {
@@ -404,18 +404,18 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "SAID, Hassan": 715.0,
-     "SMELOV, Kirill Victorian Socialists": 555.0,
-     "MCGINNESS, Declan The Greens": 1102.0,
-     "MOORE, Chris One Nation Victoria": 1616.0,
-     "ZOUGHAIB, Yehya": 192.0,
-     "YOHANNA, Mazen Citizens Party": 162.0,
-     "TITHERIDGE, Michael Family First": 158.0,
-     "FURINA, Rosanna Animal Justice Party": 86.0,
-     "OVEREND, Jim Liberal": 1609.0,
-     "WALTERS, Iwan Australian Labor Party": 2331.0,
-     "Informal votes": 1078.0,
-     "Total votes polled": 9604.0
+     "SAID, Hassan": 758.0,
+     "SMELOV, Kirill Victorian Socialists": 594.0,
+     "MCGINNESS, Declan The Greens": 1182.0,
+     "MOORE, Chris One Nation Victoria": 1781.0,
+     "ZOUGHAIB, Yehya": 197.0,
+     "YOHANNA, Mazen Citizens Party": 169.0,
+     "TITHERIDGE, Michael Family First": 173.0,
+     "FURINA, Rosanna Animal Justice Party": 89.0,
+     "OVEREND, Jim Liberal": 1849.0,
+     "WALTERS, Iwan Australian Labor Party": 2498.0,
+     "Informal votes": 1141.0,
+     "Total votes polled": 10431.0
     }
    },
    {

@@ -3,22 +3,22 @@
  "name": "Mildura",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mildura-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:08:24+00:00",
+ "fetched_at": "2026-11-28T12:11:24+00:00",
  "title": "Mildura election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:05:09",
+ "last_updated": "Saturday, 28 November 2026 23:10:09",
  "enrolment": 48557,
- "formal": 23250,
- "informal": 1367,
+ "formal": 23249,
+ "informal": 1368,
  "total_votes": 24617,
  "counted_pct": 50.7,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Mildura District results Mildura District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:05:09 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Mildura District results Mildura District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:09 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "NTAHOMVUKIYE, Joselyne",
    "party": "Family First",
-   "votes": 500,
+   "votes": 499,
    "pct": 2.15
   },
   {
@@ -36,40 +36,40 @@
   {
    "candidate": "BENHAM, Jade",
    "party": "The Nationals",
-   "votes": 10084,
-   "pct": 43.37
+   "votes": 10085,
+   "pct": 43.38
   },
   {
    "candidate": "FRIES, Vanessa",
    "party": "Animal Justice Party",
-   "votes": 282,
+   "votes": 281,
    "pct": 1.21
   },
   {
    "candidate": "ZIGOURAS, Stella",
    "party": "Australian Labor Party",
-   "votes": 1411,
-   "pct": 6.07
+   "votes": 1414,
+   "pct": 6.08
   },
   {
    "candidate": "CLEMENTS, Katie",
    "party": "The Greens",
-   "votes": 1889,
-   "pct": 8.12
+   "votes": 1886,
+   "pct": 8.11
   }
  ],
  "tcp": [
   {
    "candidate": "COOPER, Guy",
    "party": "One Nation Victoria",
-   "votes": 6282,
-   "pct": 45.07
+   "votes": 9326,
+   "pct": 42.27
   },
   {
    "candidate": "BENHAM, Jade",
    "party": "The Nationals",
-   "votes": 7657,
-   "pct": 54.93
+   "votes": 12737,
+   "pct": 57.73
   }
  ],
  "links": {

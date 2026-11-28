@@ -3,64 +3,64 @@
  "name": "Mill Park",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mill-park-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:02:59+00:00",
+ "fetched_at": "2026-11-28T12:11:58+00:00",
  "title": "Mill Park election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:00:09",
+ "last_updated": "Saturday, 28 November 2026 23:10:09",
  "enrolment": 48297,
- "formal": 23832,
- "informal": 2043,
- "total_votes": 25875,
- "counted_pct": 53.57,
+ "formal": 23952,
+ "informal": 2049,
+ "total_votes": 26001,
+ "counted_pct": 53.84,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Mill Park District results Mill Park District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:00:09 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Mill Park District results Mill Park District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:09 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "NEALY, Elizabeth",
    "party": "Australian Labor Party",
-   "votes": 5634,
-   "pct": 23.64
+   "votes": 5683,
+   "pct": 23.73
   },
   {
    "candidate": "DRYSDALE, Joel",
    "party": "Liberal",
-   "votes": 7022,
-   "pct": 29.46
+   "votes": 7052,
+   "pct": 29.44
   },
   {
    "candidate": "VAN DER END, Kath",
    "party": "Family First",
-   "votes": 587,
+   "votes": 590,
    "pct": 2.46
   },
   {
    "candidate": "ZACHARIAS, Binoy",
    "party": "The Greens",
-   "votes": 2637,
-   "pct": 11.06
+   "votes": 2644,
+   "pct": 11.04
   },
   {
    "candidate": "McLINDON, Aidan",
    "party": "",
-   "votes": 166,
+   "votes": 168,
    "pct": 0.7
   },
   {
    "candidate": "LAMBOURN, Jesse",
    "party": "Victorian Socialists",
-   "votes": 1012,
+   "votes": 1017,
    "pct": 4.25
   },
   {
    "candidate": "TSOUTSOULIS, Arthur",
    "party": "One Nation Victoria",
-   "votes": 6356,
-   "pct": 26.67
+   "votes": 6379,
+   "pct": 26.63
   },
   {
    "candidate": "LEVENS, Eve",
    "party": "Animal Justice Party",
-   "votes": 418,
+   "votes": 419,
    "pct": 1.75
   }
  ],
@@ -68,14 +68,14 @@
   {
    "candidate": "NEALY, Elizabeth",
    "party": "Australian Labor Party",
-   "votes": 4749,
-   "pct": 48.77
+   "votes": 4815,
+   "pct": 48.84
   },
   {
    "candidate": "TSOUTSOULIS, Arthur",
    "party": "One Nation Victoria",
-   "votes": 4989,
-   "pct": 51.23
+   "votes": 5043,
+   "pct": 51.16
   }
  ],
  "links": {

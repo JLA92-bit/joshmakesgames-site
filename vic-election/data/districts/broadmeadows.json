@@ -3,29 +3,29 @@
  "name": "Broadmeadows",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:02:51+00:00",
+ "fetched_at": "2026-11-28T12:11:52+00:00",
  "title": "Broadmeadows election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:00:02",
+ "last_updated": "Saturday, 28 November 2026 23:10:02",
  "enrolment": 51575,
- "formal": 12421,
- "informal": 1593,
+ "formal": 12424,
+ "informal": 1590,
  "total_votes": 14014,
  "counted_pct": 27.17,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Broadmeadows District results Broadmeadows District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:00:02 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Broadmeadows District results Broadmeadows District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:02 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "YOLBULAN, Mutullah Can",
    "party": "Victorian Socialists",
-   "votes": 1107,
-   "pct": 8.91
+   "votes": 1106,
+   "pct": 8.9
   },
   {
    "candidate": "EL YOUSSEF, Mohamad",
    "party": "",
-   "votes": 241,
-   "pct": 1.94
+   "votes": 242,
+   "pct": 1.95
   },
   {
    "candidate": "DUZOVA, Baris",
@@ -42,8 +42,8 @@
   {
    "candidate": "ELMUSTAPHA, Mohamad",
    "party": "",
-   "votes": 355,
-   "pct": 2.86
+   "votes": 356,
+   "pct": 2.87
   },
   {
    "candidate": "MATTHEWS-WARD, Kathleen",
@@ -60,8 +60,8 @@
   {
    "candidate": "KEIRS, Ethan",
    "party": "One Nation Victoria",
-   "votes": 2141,
-   "pct": 17.24
+   "votes": 2143,
+   "pct": 17.25
   },
   {
    "candidate": "UNICOMB, Rachel",
