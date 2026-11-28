@@ -3,9 +3,9 @@
  "name": "Macedon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/macedon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:18:01+00:00",
+ "fetched_at": "2026-11-28T11:26:59+00:00",
  "title": "Macedon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:15:07",
+ "last_updated": "Saturday, 28 November 2026 22:25:07",
  "enrolment": 51446,
  "formal": 12500,
  "informal": 665,
@@ -72,14 +72,14 @@
   {
    "candidate": "DEATH, Annette",
    "party": "Australian Labor Party",
-   "votes": 3431,
-   "pct": 48.39
+   "votes": 3675,
+   "pct": 47.27
   },
   {
    "candidate": "KENDALL, Kate",
    "party": "Liberal",
-   "votes": 3660,
-   "pct": 51.61
+   "votes": 4099,
+   "pct": 52.73
   }
  ],
  "links": {

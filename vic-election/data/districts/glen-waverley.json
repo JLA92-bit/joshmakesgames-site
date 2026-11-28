@@ -3,71 +3,71 @@
  "name": "Glen Waverley",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/glen-waverley-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:17:59+00:00",
+ "fetched_at": "2026-11-28T11:26:56+00:00",
  "title": "Glen Waverley election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:15:07",
+ "last_updated": "Saturday, 28 November 2026 22:25:07",
  "enrolment": 50821,
- "formal": 12693,
- "informal": 496,
- "total_votes": 13189,
- "counted_pct": 25.95,
+ "formal": 13439,
+ "informal": 524,
+ "total_votes": 13963,
+ "counted_pct": 27.47,
  "notes": [],
  "primary": [
   {
    "candidate": "SUN, Jacky",
    "party": "Liberal",
-   "votes": 5865,
-   "pct": 46.21
+   "votes": 6215,
+   "pct": 46.25
   },
   {
    "candidate": "WHITE, Toyo",
    "party": "The Greens",
-   "votes": 1675,
-   "pct": 13.2
+   "votes": 1772,
+   "pct": 13.19
   },
   {
    "candidate": "NADARAJAH, Segar",
    "party": "Labour DLP",
-   "votes": 135,
-   "pct": 1.06
+   "votes": 147,
+   "pct": 1.09
   },
   {
    "candidate": "COX, Brad",
    "party": "One Nation Victoria",
-   "votes": 1301,
-   "pct": 10.25
+   "votes": 1392,
+   "pct": 10.36
   },
   {
    "candidate": "DOBIE, Anna",
    "party": "Family First",
-   "votes": 250,
-   "pct": 1.97
+   "votes": 272,
+   "pct": 2.02
   },
   {
    "candidate": "SIOW, Nicholas",
    "party": "Victorian Socialists",
-   "votes": 338,
-   "pct": 2.66
+   "votes": 353,
+   "pct": 2.63
   },
   {
    "candidate": "MULLAHY, John",
    "party": "Australian Labor Party",
-   "votes": 3129,
-   "pct": 24.65
+   "votes": 3288,
+   "pct": 24.47
   }
  ],
  "tcp": [
   {
    "candidate": "SUN, Jacky",
    "party": "Liberal",
-   "votes": 7368,
-   "pct": 60.72
+   "votes": 7851,
+   "pct": 60.95
   },
   {
    "candidate": "MULLAHY, John",
    "party": "Australian Labor Party",
-   "votes": 4766,
-   "pct": 39.28
+   "votes": 5029,
+   "pct": 39.05
   }
  ],
  "links": {

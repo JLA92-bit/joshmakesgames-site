@@ -3,9 +3,9 @@
  "name": "Mildura",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mildura-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:23:25+00:00",
+ "fetched_at": "2026-11-28T11:26:24+00:00",
  "title": "Mildura election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:10",
+ "last_updated": "Saturday, 28 November 2026 22:25:10",
  "enrolment": 48557,
  "formal": 22138,
  "informal": 1304,
@@ -60,14 +60,14 @@
   {
    "candidate": "COOPER, Guy",
    "party": "One Nation Victoria",
-   "votes": 5971,
-   "pct": 45.33
+   "votes": 6282,
+   "pct": 45.07
   },
   {
    "candidate": "BENHAM, Jade",
    "party": "The Nationals",
-   "votes": 7202,
-   "pct": 54.67
+   "votes": 7657,
+   "pct": 54.93
   }
  ],
  "links": {

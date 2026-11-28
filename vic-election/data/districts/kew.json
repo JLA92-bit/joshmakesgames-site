@@ -3,9 +3,9 @@
  "name": "Kew",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kew-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:17:59+00:00",
+ "fetched_at": "2026-11-28T11:26:57+00:00",
  "title": "Kew election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:15:07",
+ "last_updated": "Saturday, 28 November 2026 22:25:07",
  "enrolment": 51115,
  "formal": 19518,
  "informal": 909,
@@ -78,14 +78,14 @@
   {
    "candidate": "TORNEY, Sophie",
    "party": "",
-   "votes": 5197,
-   "pct": 40.72
+   "votes": 5712,
+   "pct": 40.14
   },
   {
    "candidate": "WILSON, Jess",
    "party": "Liberal",
-   "votes": 7567,
-   "pct": 59.28
+   "votes": 8519,
+   "pct": 59.86
   }
  ],
  "links": {

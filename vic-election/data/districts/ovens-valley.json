@@ -3,9 +3,9 @@
  "name": "Ovens Valley",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ovens-valley-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:18:04+00:00",
+ "fetched_at": "2026-11-28T11:27:01+00:00",
  "title": "Ovens Valley election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:15:12",
+ "last_updated": "Saturday, 28 November 2026 22:25:12",
  "enrolment": 49586,
  "formal": 17434,
  "informal": 1137,
@@ -72,14 +72,14 @@
   {
    "candidate": "McCURDY, Tim",
    "party": "The Nationals",
-   "votes": 7752,
-   "pct": 59.76
+   "votes": 8387,
+   "pct": 60.22
   },
   {
    "candidate": "ROUEL, James",
    "party": "One Nation Victoria",
-   "votes": 5219,
-   "pct": 40.24
+   "votes": 5541,
+   "pct": 39.78
   }
  ],
  "links": {

@@ -3,9 +3,9 @@
  "name": "Sandringham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sandringham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:18:07+00:00",
+ "fetched_at": "2026-11-28T11:27:03+00:00",
  "title": "Sandringham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:15:14",
+ "last_updated": "Saturday, 28 November 2026 22:25:13",
  "enrolment": 49842,
  "formal": 37678,
  "informal": 595,
@@ -48,14 +48,14 @@
   {
    "candidate": "ROWSWELL, Brad",
    "party": "Liberal",
-   "votes": 20279,
-   "pct": 68.67
+   "votes": 26188,
+   "pct": 69.53
   },
   {
    "candidate": "SAGRIS-DESMOND, Anastasia",
    "party": "Australian Labor Party",
-   "votes": 9252,
-   "pct": 31.33
+   "votes": 11476,
+   "pct": 30.47
   }
  ],
  "links": {

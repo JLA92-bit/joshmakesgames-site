@@ -3,9 +3,9 @@
  "name": "Gippsland East",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-east-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:23:11+00:00",
+ "fetched_at": "2026-11-28T11:26:11+00:00",
  "title": "Gippsland East election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:07",
+ "last_updated": "Saturday, 28 November 2026 22:25:07",
  "enrolment": 51687,
  "formal": 19831,
  "informal": 1035,
@@ -60,14 +60,14 @@
   {
    "candidate": "RENDELL, Gemma",
    "party": "The Nationals",
-   "votes": 8805,
-   "pct": 56.57
+   "votes": 10968,
+   "pct": 55.33
   },
   {
    "candidate": "GOODMAN, Steve",
    "party": "One Nation Victoria",
-   "votes": 6759,
-   "pct": 43.43
+   "votes": 8856,
+   "pct": 44.67
   }
  ],
  "links": {
