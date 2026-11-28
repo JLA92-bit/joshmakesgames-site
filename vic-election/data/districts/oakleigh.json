@@ -3,50 +3,50 @@
  "name": "Oakleigh",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/oakleigh-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:24:02+00:00",
+ "fetched_at": "2026-11-28T11:29:37+00:00",
  "title": "Oakleigh election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:12",
+ "last_updated": "Saturday, 28 November 2026 22:25:12",
  "enrolment": 54228,
- "formal": 14388,
+ "formal": 14525,
  "informal": 385,
- "total_votes": 14773,
- "counted_pct": 27.24,
+ "total_votes": 14910,
+ "counted_pct": 27.5,
  "notes": [],
  "primary": [
   {
    "candidate": "HSIEH, Hsiang-Han",
    "party": "The Greens",
-   "votes": 3027,
-   "pct": 21.04
+   "votes": 3047,
+   "pct": 20.98
   },
   {
    "candidate": "DIMOPOULOS, Steve",
    "party": "Australian Labor Party",
-   "votes": 3762,
-   "pct": 26.15
+   "votes": 3812,
+   "pct": 26.24
   },
   {
    "candidate": "JUNG, Martin",
    "party": "Liberal",
-   "votes": 4986,
-   "pct": 34.65
+   "votes": 5035,
+   "pct": 34.66
   },
   {
    "candidate": "CARTER, Brooke",
    "party": "One Nation Victoria",
-   "votes": 1748,
-   "pct": 12.15
+   "votes": 1757,
+   "pct": 12.1
   },
   {
    "candidate": "GRINTER, Matthew",
    "party": "Family First",
-   "votes": 238,
+   "votes": 240,
    "pct": 1.65
   },
   {
    "candidate": "BUGTER, Rowdy",
    "party": "Victorian Socialists",
-   "votes": 627,
+   "votes": 634,
    "pct": 4.36
   }
  ],
@@ -54,14 +54,14 @@
   {
    "candidate": "DIMOPOULOS, Steve",
    "party": "Australian Labor Party",
-   "votes": 5784,
-   "pct": 49.67
+   "votes": 6095,
+   "pct": 49.94
   },
   {
    "candidate": "JUNG, Martin",
    "party": "Liberal",
-   "votes": 5860,
-   "pct": 50.33
+   "votes": 6110,
+   "pct": 50.06
   }
  ],
  "links": {

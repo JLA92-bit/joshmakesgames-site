@@ -3,71 +3,71 @@
  "name": "Bendigo West",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:20:30+00:00",
+ "fetched_at": "2026-11-28T11:29:27+00:00",
  "title": "Bendigo West election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:02",
+ "last_updated": "Saturday, 28 November 2026 22:25:02",
  "enrolment": 49735,
- "formal": 10333,
- "informal": 467,
- "total_votes": 10800,
- "counted_pct": 21.72,
+ "formal": 10811,
+ "informal": 492,
+ "total_votes": 11303,
+ "counted_pct": 22.73,
  "notes": [],
  "primary": [
   {
    "candidate": "SHALEVSKI, Tayne",
    "party": "Victorian Socialists",
-   "votes": 574,
-   "pct": 5.56
+   "votes": 596,
+   "pct": 5.51
   },
   {
    "candidate": "HUTCHINGS, David",
    "party": "The Nationals",
-   "votes": 2827,
-   "pct": 27.36
+   "votes": 2921,
+   "pct": 27.02
   },
   {
    "candidate": "TRANTER, Debra",
    "party": "Animal Justice Party",
-   "votes": 455,
-   "pct": 4.4
+   "votes": 478,
+   "pct": 4.42
   },
   {
    "candidate": "BALDWIN, Brenton",
    "party": "Australian Labor Party",
-   "votes": 2042,
+   "votes": 2136,
    "pct": 19.76
   },
   {
    "candidate": "SHAW, Liza",
    "party": "The Greens",
-   "votes": 1642,
-   "pct": 15.89
+   "votes": 1788,
+   "pct": 16.54
   },
   {
    "candidate": "HARISOPOULOS, Christos",
    "party": "Family First",
-   "votes": 239,
-   "pct": 2.31
+   "votes": 247,
+   "pct": 2.28
   },
   {
    "candidate": "MORGAN, Ellen",
    "party": "One Nation Victoria",
-   "votes": 2554,
-   "pct": 24.72
+   "votes": 2645,
+   "pct": 24.47
   }
  ],
  "tcp": [
   {
    "candidate": "HUTCHINGS, David",
    "party": "The Nationals",
-   "votes": 4947,
-   "pct": 58.03
+   "votes": 5170,
+   "pct": 57.43
   },
   {
    "candidate": "BALDWIN, Brenton",
    "party": "Australian Labor Party",
-   "votes": 3578,
-   "pct": 41.97
+   "votes": 3833,
+   "pct": 42.57
   }
  ],
  "links": {

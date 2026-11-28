@@ -3,9 +3,9 @@
  "name": "Nepean",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/nepean-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:24:00+00:00",
+ "fetched_at": "2026-11-28T11:29:37+00:00",
  "title": "Nepean election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:10",
+ "last_updated": "Saturday, 28 November 2026 22:25:10",
  "enrolment": 51871,
  "formal": 10589,
  "informal": 580,
@@ -72,14 +72,14 @@
   {
    "candidate": "HERCUS, Darren",
    "party": "One Nation Victoria",
-   "votes": 2378,
-   "pct": 25.79
+   "votes": 2628,
+   "pct": 25.84
   },
   {
    "candidate": "MARSH, Anthony",
    "party": "Liberal",
-   "votes": 6843,
-   "pct": 74.21
+   "votes": 7541,
+   "pct": 74.16
   }
  ],
  "links": {

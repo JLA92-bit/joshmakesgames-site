@@ -3,9 +3,9 @@
  "name": "Brunswick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brunswick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:20:28+00:00",
+ "fetched_at": "2026-11-28T11:29:28+00:00",
  "title": "Brunswick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:02",
+ "last_updated": "Saturday, 28 November 2026 22:25:02",
  "enrolment": 56194,
  "formal": 16323,
  "informal": 737,
@@ -66,14 +66,14 @@
   {
    "candidate": "PULFORD, Adam",
    "party": "The Greens",
-   "votes": 9970,
-   "pct": 74.41
+   "votes": 11601,
+   "pct": 74.89
   },
   {
    "candidate": "STEGER, Gabe",
    "party": "Australian Labor Party",
-   "votes": 3428,
-   "pct": 25.59
+   "votes": 3890,
+   "pct": 25.11
   }
  ],
  "links": {
