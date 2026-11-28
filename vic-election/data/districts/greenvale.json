@@ -3,9 +3,9 @@
  "name": "Greenvale",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/greenvale-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:40:00+00:00",
+ "fetched_at": "2026-11-28T10:41:18+00:00",
  "title": "Greenvale election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:35:08",
+ "last_updated": "Saturday, 28 November 2026 21:40:07",
  "enrolment": 55541,
  "formal": 7506,
  "informal": 697,
@@ -78,14 +78,14 @@
   {
    "candidate": "MOORE, Chris",
    "party": "One Nation Victoria",
-   "votes": 1571,
-   "pct": 39.66
+   "votes": 1889,
+   "pct": 39.99
   },
   {
    "candidate": "WALTERS, Iwan",
    "party": "Australian Labor Party",
-   "votes": 2390,
-   "pct": 60.34
+   "votes": 2835,
+   "pct": 60.01
   }
  ],
  "links": {

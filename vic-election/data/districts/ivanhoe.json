@@ -3,77 +3,77 @@
  "name": "Ivanhoe",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ivanhoe-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:32:38+00:00",
+ "fetched_at": "2026-11-28T10:42:05+00:00",
  "title": "Ivanhoe election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:30:07",
+ "last_updated": "Saturday, 28 November 2026 21:40:07",
  "enrolment": 50245,
- "formal": 12728,
- "informal": 724,
- "total_votes": 13452,
- "counted_pct": 26.77,
+ "formal": 13846,
+ "informal": 811,
+ "total_votes": 14657,
+ "counted_pct": 29.17,
  "notes": [],
  "primary": [
   {
    "candidate": "KENNEDY, Michelle",
    "party": "",
-   "votes": 822,
-   "pct": 6.46
+   "votes": 866,
+   "pct": 6.25
   },
   {
    "candidate": "MILNE, Ben",
    "party": "Victorian Socialists",
-   "votes": 790,
-   "pct": 6.21
+   "votes": 877,
+   "pct": 6.33
   },
   {
    "candidate": "CARBINES, Anthony",
    "party": "Australian Labor Party",
-   "votes": 2797,
-   "pct": 21.98
+   "votes": 3007,
+   "pct": 21.72
   },
   {
    "candidate": "LOPEZ RIOS, Oscar",
    "party": "Liberal",
-   "votes": 4185,
-   "pct": 32.88
+   "votes": 4534,
+   "pct": 32.75
   },
   {
    "candidate": "HUTCHINSON, Wayne",
    "party": "One Nation Victoria",
-   "votes": 1205,
-   "pct": 9.47
+   "votes": 1338,
+   "pct": 9.66
   },
   {
    "candidate": "CASONATO, Ren",
    "party": "Family First",
-   "votes": 142,
-   "pct": 1.12
+   "votes": 164,
+   "pct": 1.18
   },
   {
    "candidate": "CRAWLEY, Nina",
    "party": "The Greens",
-   "votes": 2728,
-   "pct": 21.43
+   "votes": 2985,
+   "pct": 21.56
   },
   {
    "candidate": "BERGMAN, Dora",
    "party": "",
-   "votes": 59,
-   "pct": 0.46
+   "votes": 75,
+   "pct": 0.54
   }
  ],
  "tcp": [
   {
    "candidate": "CARBINES, Anthony",
    "party": "Australian Labor Party",
-   "votes": 4112,
-   "pct": 54.27
+   "votes": 4601,
+   "pct": 54.58
   },
   {
    "candidate": "LOPEZ RIOS, Oscar",
    "party": "Liberal",
-   "votes": 3465,
-   "pct": 45.73
+   "votes": 3829,
+   "pct": 45.42
   }
  ],
  "links": {

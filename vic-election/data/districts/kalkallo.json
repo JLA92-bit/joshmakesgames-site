@@ -3,9 +3,9 @@
  "name": "Kalkallo",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kalkallo-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:40:01+00:00",
+ "fetched_at": "2026-11-28T10:41:24+00:00",
  "title": "Kalkallo election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:35:08",
+ "last_updated": "Saturday, 28 November 2026 21:40:07",
  "enrolment": 70361,
  "formal": 8553,
  "informal": 668,
@@ -66,14 +66,14 @@
   {
    "candidate": "SPENCE, Ros",
    "party": "Australian Labor Party",
-   "votes": 1371,
-   "pct": 57.65
+   "votes": 1494,
+   "pct": 54.61
   },
   {
    "candidate": "STEANS, Troy",
    "party": "One Nation Victoria",
-   "votes": 1007,
-   "pct": 42.35
+   "votes": 1242,
+   "pct": 45.39
   }
  ],
  "links": {

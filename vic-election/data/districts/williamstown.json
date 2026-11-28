@@ -3,14 +3,14 @@
  "name": "Williamstown",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:38:03+00:00",
+ "fetched_at": "2026-11-28T10:42:15+00:00",
  "title": "Williamstown election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:35:17",
+ "last_updated": "Saturday, 28 November 2026 21:40:16",
  "enrolment": 50405,
- "formal": 6809,
+ "formal": 6810,
  "informal": 431,
- "total_votes": 7240,
- "counted_pct": 14.36,
+ "total_votes": 7241,
+ "counted_pct": 14.37,
  "notes": [],
  "primary": [
   {
@@ -52,8 +52,8 @@
   {
    "candidate": "HORNE, Melissa",
    "party": "Australian Labor Party",
-   "votes": 1517,
-   "pct": 22.28
+   "votes": 1518,
+   "pct": 22.29
   },
   {
    "candidate": "BRIFFA, Tony",

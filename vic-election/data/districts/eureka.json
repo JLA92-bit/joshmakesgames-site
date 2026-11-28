@@ -3,14 +3,14 @@
  "name": "Eureka",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eureka-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:39:55+00:00",
+ "fetched_at": "2026-11-28T10:41:10+00:00",
  "title": "Eureka election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:35:05",
+ "last_updated": "Saturday, 28 November 2026 21:40:05",
  "enrolment": 58117,
- "formal": 19410,
- "informal": 1201,
- "total_votes": 20611,
- "counted_pct": 35.46,
+ "formal": 19411,
+ "informal": 1202,
+ "total_votes": 20613,
+ "counted_pct": 35.47,
  "notes": [],
  "primary": [
   {
@@ -52,7 +52,7 @@
   {
    "candidate": "BALLINGER, Paul",
    "party": "One Nation Victoria",
-   "votes": 5947,
+   "votes": 5948,
    "pct": 30.64
   },
   {
@@ -110,11 +110,11 @@
      "RAVEN, Andy Victorian Socialists": 466.0,
      "HARKNESS, Ian Maxwell Family First": 400.0,
      "MORRISON, Wendy Animal Justice Party": 359.0,
-     "BALLINGER, Paul One Nation Victoria": 5947.0,
+     "BALLINGER, Paul One Nation Victoria": 5948.0,
      "MUIR, Emma Liberal": 5091.0,
      "VENDITTI TAYLOR, Steven": 365.0,
-     "Informal votes": 1201.0,
-     "Total votes polled": 20611.0
+     "Informal votes": 1202.0,
+     "Total votes polled": 20613.0
     }
    },
    {
@@ -304,11 +304,11 @@
      "RAVEN, Andy Victorian Socialists": 4.0,
      "HARKNESS, Ian Maxwell Family First": 6.0,
      "MORRISON, Wendy Animal Justice Party": 6.0,
-     "BALLINGER, Paul One Nation Victoria": 64.0,
+     "BALLINGER, Paul One Nation Victoria": 65.0,
      "MUIR, Emma Liberal": 43.0,
      "VENDITTI TAYLOR, Steven": 2.0,
-     "Informal votes": 13.0,
-     "Total votes polled": 196.0
+     "Informal votes": 14.0,
+     "Total votes polled": 198.0
     }
    },
    {
@@ -592,11 +592,11 @@
      "RAVEN, Andy Victorian Socialists": 430.0,
      "HARKNESS, Ian Maxwell Family First": 349.0,
      "MORRISON, Wendy Animal Justice Party": 307.0,
-     "BALLINGER, Paul One Nation Victoria": 5144.0,
+     "BALLINGER, Paul One Nation Victoria": 5145.0,
      "MUIR, Emma Liberal": 4190.0,
      "VENDITTI TAYLOR, Steven": 265.0,
-     "Informal votes": 1115.0,
-     "Total votes polled": 17896.0
+     "Informal votes": 1116.0,
+     "Total votes polled": 17898.0
     }
    },
    {

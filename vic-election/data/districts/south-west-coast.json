@@ -3,9 +3,9 @@
  "name": "South West Coast",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-west-coast-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:38:02+00:00",
+ "fetched_at": "2026-11-28T10:42:12+00:00",
  "title": "South-West Coast election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:35:16",
+ "last_updated": "Saturday, 28 November 2026 21:40:15",
  "enrolment": 54428,
  "formal": 15860,
  "informal": 518,
@@ -54,14 +54,14 @@
   {
    "candidate": "HUGHES, Richard",
    "party": "One Nation Victoria",
-   "votes": 4372,
-   "pct": 34.33
+   "votes": 4495,
+   "pct": 34.56
   },
   {
    "candidate": "BRITNELL, Roma",
    "party": "Liberal",
-   "votes": 8362,
-   "pct": 65.67
+   "votes": 8510,
+   "pct": 65.44
   }
  ],
  "links": {

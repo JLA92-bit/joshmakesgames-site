@@ -3,83 +3,83 @@
  "name": "Point Cook",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/point-cook-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:37:58+00:00",
+ "fetched_at": "2026-11-28T10:42:10+00:00",
  "title": "Point Cook election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:35:13",
+ "last_updated": "Saturday, 28 November 2026 21:40:12",
  "enrolment": 55756,
- "formal": 7607,
- "informal": 489,
- "total_votes": 8096,
- "counted_pct": 14.52,
+ "formal": 8685,
+ "informal": 597,
+ "total_votes": 9282,
+ "counted_pct": 16.65,
  "notes": [],
  "primary": [
   {
    "candidate": "LAINE, Taylor",
    "party": "Victorian Socialists",
-   "votes": 377,
-   "pct": 4.96
+   "votes": 501,
+   "pct": 5.77
   },
   {
    "candidate": "GRECH, Mark",
    "party": "The West Party",
-   "votes": 209,
-   "pct": 2.75
+   "votes": 248,
+   "pct": 2.86
   },
   {
    "candidate": "KELLY, Paul",
    "party": "Labour DLP",
-   "votes": 86,
-   "pct": 1.13
+   "votes": 102,
+   "pct": 1.17
   },
   {
    "candidate": "HILAKARI, Mathew",
    "party": "Australian Labor Party",
-   "votes": 2023,
-   "pct": 26.59
+   "votes": 2347,
+   "pct": 27.02
   },
   {
    "candidate": "ALLE, Kirti",
    "party": "The Republican",
-   "votes": 15,
-   "pct": 0.2
+   "votes": 16,
+   "pct": 0.18
   },
   {
    "candidate": "KRISHNA PANDI, Ponraj",
    "party": "The Greens",
-   "votes": 1011,
-   "pct": 13.29
+   "votes": 1173,
+   "pct": 13.51
   },
   {
    "candidate": "MEURE, Keith",
    "party": "Family First",
-   "votes": 142,
-   "pct": 1.87
+   "votes": 160,
+   "pct": 1.84
   },
   {
    "candidate": "REDDY, Raja",
    "party": "Liberal",
-   "votes": 2460,
-   "pct": 32.34
+   "votes": 2633,
+   "pct": 30.32
   },
   {
    "candidate": "REID, Cameron",
    "party": "One Nation Victoria",
-   "votes": 1284,
-   "pct": 16.88
+   "votes": 1505,
+   "pct": 17.33
   }
  ],
  "tcp": [
   {
    "candidate": "HILAKARI, Mathew",
    "party": "Australian Labor Party",
-   "votes": 1474,
-   "pct": 42.52
+   "votes": 2163,
+   "pct": 43.27
   },
   {
    "candidate": "REDDY, Raja",
    "party": "Liberal",
-   "votes": 1993,
-   "pct": 57.48
+   "votes": 2836,
+   "pct": 56.73
   }
  ],
  "links": {

@@ -1,68 +1,7 @@
 {
- "scraped_at": "2026-11-28T10:39:52+00:00",
+ "scraped_at": "2026-11-28T10:41:08+00:00",
  "base": "/results/2026-results/district-election-page",
  "discovery_log": [
-  {
-   "probe": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results",
-   "status": 999,
-   "ok": false
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/results/state-election-results",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/results",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/voting/current-elections",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/voting/2026-state-election",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/voting/2026-state-election/away-from-victoria",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/voting/2026-state-election/find-candidates",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/voting/2026-state-election/how-to-vote-cards",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/voting/2026-state-election/voting-options",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/voting/2026-state-election/voting-locations",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/voting/2026-state-election/how-votes-are-counted",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/voting/2026-state-election/electoral-misinformation",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/voting/2026-state-election/voting-statistics",
-   "status": 200
-  },
-  {
-   "crawl": "https://www.vec.vic.gov.au/results/2026-results",
-   "status": 200
-  },
   {
    "probe": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results",
    "status": 200,
@@ -70,7 +9,7 @@
   }
  ],
  "errors": [],
- "iteration": 4,
+ "iteration": 5,
  "region_urls": {
   "eastern-victoria": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
   "north-eastern-metropolitan": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
@@ -84,10 +23,10 @@
  "fetched": {
   "hot": 25,
   "cold": 21,
-  "regions": 8
+  "regions": 0
  },
- "blocked_responses": 4,
+ "blocked_responses": 0,
  "status": "ok",
- "requests": 73,
- "seconds": 154.2
+ "requests": 83,
+ "seconds": 69.2
 }
