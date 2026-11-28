@@ -3,9 +3,9 @@
  "name": "Bellarine",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bellarine-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:28+00:00",
+ "fetched_at": "2026-11-28T11:02:56+00:00",
  "title": "Bellarine election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:02",
+ "last_updated": "Saturday, 28 November 2026 22:00:02",
  "enrolment": 59824,
  "formal": 17019,
  "informal": 909,
@@ -16,8 +16,8 @@
   {
    "candidate": "WHITEHEAD, Callum",
    "party": "Liberal",
-   "votes": 5670,
-   "pct": 33.32
+   "votes": 5697,
+   "pct": 33.47
   },
   {
    "candidate": "MARCHANT, Alison",
@@ -58,22 +58,22 @@
   {
    "candidate": "POPE, Mitch",
    "party": "The Greens",
-   "votes": 3284,
-   "pct": 19.3
+   "votes": 3257,
+   "pct": 19.14
   }
  ],
  "tcp": [
   {
    "candidate": "WHITEHEAD, Callum",
    "party": "Liberal",
-   "votes": 7135,
-   "pct": 54.47
+   "votes": 8010,
+   "pct": 54.45
   },
   {
    "candidate": "MARCHANT, Alison",
    "party": "Australian Labor Party",
-   "votes": 5965,
-   "pct": 45.53
+   "votes": 6700,
+   "pct": 45.55
   }
  ],
  "links": {

@@ -3,65 +3,65 @@
  "name": "Bass",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bass-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:59:08+00:00",
+ "fetched_at": "2026-11-28T11:02:10+00:00",
  "title": "Bass District results | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:02",
+ "last_updated": "Saturday, 28 November 2026 22:00:02",
  "enrolment": 57998,
- "formal": 13710,
- "informal": 460,
- "total_votes": 14170,
- "counted_pct": 24.43,
+ "formal": 13930,
+ "informal": 464,
+ "total_votes": 14394,
+ "counted_pct": 24.82,
  "notes": [],
  "primary": [
   {
    "candidate": "JOBE, Chris",
    "party": "Victorian Socialists",
-   "votes": 496,
-   "pct": 3.62
+   "votes": 502,
+   "pct": 3.6
   },
   {
    "candidate": "THORN, Sophie",
    "party": "The Greens",
-   "votes": 1957,
-   "pct": 14.27
+   "votes": 1995,
+   "pct": 14.32
   },
   {
    "candidate": "SCHELLEKENS, Nikole",
    "party": "One Nation Victoria",
-   "votes": 4917,
-   "pct": 35.86
+   "votes": 4951,
+   "pct": 35.54
   },
   {
    "candidate": "HALSTEAD, Rochelle",
    "party": "Liberal",
-   "votes": 4347,
-   "pct": 31.71
+   "votes": 4451,
+   "pct": 31.95
   },
   {
    "candidate": "CAUNEAC, Ben",
    "party": "Family First",
-   "votes": 279,
-   "pct": 2.04
+   "votes": 281,
+   "pct": 2.02
   },
   {
    "candidate": "BUCKINGHAM, Chris",
    "party": "Australian Labor Party",
-   "votes": 1714,
-   "pct": 12.5
+   "votes": 1750,
+   "pct": 12.56
   }
  ],
  "tcp": [
   {
    "candidate": "SCHELLEKENS, Nikole",
    "party": "One Nation Victoria",
-   "votes": 4770,
-   "pct": 41.0
+   "votes": 4909,
+   "pct": 40.53
   },
   {
    "candidate": "HALSTEAD, Rochelle",
    "party": "Liberal",
-   "votes": 6864,
-   "pct": 59.0
+   "votes": 7202,
+   "pct": 59.47
   }
  ],
  "links": {
@@ -83,25 +83,25 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "JOBE, Chris Victorian Socialists": 496.0,
-     "THORN, Sophie The Greens": 1957.0,
-     "SCHELLEKENS, Nikole One Nation Victoria": 4917.0,
-     "HALSTEAD, Rochelle Liberal": 4347.0,
-     "CAUNEAC, Ben Family First": 279.0,
-     "BUCKINGHAM, Chris Australian Labor Party": 1714.0,
-     "Informal votes": 460.0,
-     "Total votes polled": 14170.0
+     "JOBE, Chris Victorian Socialists": 502.0,
+     "THORN, Sophie The Greens": 1995.0,
+     "SCHELLEKENS, Nikole One Nation Victoria": 4951.0,
+     "HALSTEAD, Rochelle Liberal": 4451.0,
+     "CAUNEAC, Ben Family First": 281.0,
+     "BUCKINGHAM, Chris Australian Labor Party": 1750.0,
+     "Informal votes": 464.0,
+     "Total votes polled": 14394.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "JOBE, Chris Victorian Socialists": 3.62,
-     "THORN, Sophie The Greens": 14.27,
-     "SCHELLEKENS, Nikole One Nation Victoria": 35.86,
-     "HALSTEAD, Rochelle Liberal": 31.71,
-     "CAUNEAC, Ben Family First": 2.04,
-     "BUCKINGHAM, Chris Australian Labor Party": 12.5
+     "JOBE, Chris Victorian Socialists": 3.6,
+     "THORN, Sophie The Greens": 14.32,
+     "SCHELLEKENS, Nikole One Nation Victoria": 35.54,
+     "HALSTEAD, Rochelle Liberal": 31.95,
+     "CAUNEAC, Ben Family First": 2.02,
+     "BUCKINGHAM, Chris Australian Labor Party": 12.56
     }
    },
    {
@@ -371,14 +371,14 @@
    {
     "booth": "Rhyll",
     "values": {
-     "JOBE, Chris Victorian Socialists": 0.0,
-     "THORN, Sophie The Greens": 0.0,
-     "SCHELLEKENS, Nikole One Nation Victoria": 0.0,
-     "HALSTEAD, Rochelle Liberal": 0.0,
-     "CAUNEAC, Ben Family First": 0.0,
-     "BUCKINGHAM, Chris Australian Labor Party": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "JOBE, Chris Victorian Socialists": 6.0,
+     "THORN, Sophie The Greens": 38.0,
+     "SCHELLEKENS, Nikole One Nation Victoria": 34.0,
+     "HALSTEAD, Rochelle Liberal": 104.0,
+     "CAUNEAC, Ben Family First": 2.0,
+     "BUCKINGHAM, Chris Australian Labor Party": 36.0,
+     "Informal votes": 4.0,
+     "Total votes polled": 224.0
     }
    },
    {
@@ -436,14 +436,14 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "JOBE, Chris Victorian Socialists": 446.0,
-     "THORN, Sophie The Greens": 1804.0,
-     "SCHELLEKENS, Nikole One Nation Victoria": 4193.0,
-     "HALSTEAD, Rochelle Liberal": 3191.0,
-     "CAUNEAC, Ben Family First": 230.0,
-     "BUCKINGHAM, Chris Australian Labor Party": 1397.0,
-     "Informal votes": 431.0,
-     "Total votes polled": 11692.0
+     "JOBE, Chris Victorian Socialists": 452.0,
+     "THORN, Sophie The Greens": 1842.0,
+     "SCHELLEKENS, Nikole One Nation Victoria": 4227.0,
+     "HALSTEAD, Rochelle Liberal": 3295.0,
+     "CAUNEAC, Ben Family First": 232.0,
+     "BUCKINGHAM, Chris Australian Labor Party": 1433.0,
+     "Informal votes": 435.0,
+     "Total votes polled": 11916.0
     }
    },
    {

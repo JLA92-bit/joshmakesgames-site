@@ -3,87 +3,87 @@
  "name": "Tarneit",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/tarneit-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:57:13+00:00",
+ "fetched_at": "2026-11-28T11:03:11+00:00",
  "title": "Tarneit election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:15",
+ "last_updated": "Saturday, 28 November 2026 22:00:16",
  "enrolment": 60755,
- "formal": 12620,
- "informal": 1379,
- "total_votes": 13999,
- "counted_pct": 23.04,
+ "formal": 13218,
+ "informal": 1443,
+ "total_votes": 14661,
+ "counted_pct": 24.13,
  "notes": [],
  "primary": [
   {
    "candidate": "MOINUDDIN, Aijaz",
    "party": "",
-   "votes": 179,
-   "pct": 1.42
+   "votes": 191,
+   "pct": 1.44
   },
   {
    "candidate": "WIGHT, Dylan",
    "party": "Australian Labor Party",
-   "votes": 2760,
-   "pct": 21.87
+   "votes": 2877,
+   "pct": 21.77
   },
   {
    "candidate": "ISLAM, SM Zaberul",
    "party": "",
-   "votes": 70,
+   "votes": 73,
    "pct": 0.55
   },
   {
    "candidate": "ELSBURY, Andrew",
    "party": "The West Party",
-   "votes": 478,
-   "pct": 3.79
+   "votes": 502,
+   "pct": 3.8
   },
   {
    "candidate": "VAN KEULEN, Leah",
    "party": "Victorian Socialists",
-   "votes": 565,
-   "pct": 4.48
+   "votes": 610,
+   "pct": 4.61
   },
   {
    "candidate": "NIYONGABIRE, Horizana",
    "party": "Family First",
-   "votes": 249,
-   "pct": 1.97
+   "votes": 258,
+   "pct": 1.95
   },
   {
    "candidate": "AHMED, Rahima Ibrahim",
    "party": "",
-   "votes": 81,
-   "pct": 0.64
+   "votes": 83,
+   "pct": 0.63
   },
   {
    "candidate": "RAHN, Maurita",
    "party": "Animal Justice Party",
-   "votes": 127,
-   "pct": 1.01
+   "votes": 138,
+   "pct": 1.04
   },
   {
    "candidate": "VILLAGONZALO, Walter",
    "party": "One Nation Victoria",
-   "votes": 2425,
-   "pct": 19.22
+   "votes": 2568,
+   "pct": 19.43
   },
   {
    "candidate": "RIFAI, A. Raheem",
    "party": "The Greens",
-   "votes": 2360,
-   "pct": 18.7
+   "votes": 2465,
+   "pct": 18.65
   },
   {
    "candidate": "UPPARLAPALLE, Venkat Ram",
    "party": "Liberal",
-   "votes": 3252,
-   "pct": 25.77
+   "votes": 3377,
+   "pct": 25.55
   },
   {
    "candidate": "SUDHAGANI, Sindhu",
    "party": "The Republican",
-   "votes": 74,
-   "pct": 0.59
+   "votes": 76,
+   "pct": 0.57
   }
  ],
  "tcp": [

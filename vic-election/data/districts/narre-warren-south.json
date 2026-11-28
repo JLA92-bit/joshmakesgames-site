@@ -3,14 +3,14 @@
  "name": "Narre Warren South",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narre-warren-south-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:59:35+00:00",
+ "fetched_at": "2026-11-28T11:02:39+00:00",
  "title": "Narre Warren South election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:10",
+ "last_updated": "Saturday, 28 November 2026 22:00:11",
  "enrolment": 57195,
- "formal": 12083,
- "informal": 1064,
- "total_votes": 13147,
- "counted_pct": 22.99,
+ "formal": 12079,
+ "informal": 1065,
+ "total_votes": 13144,
+ "counted_pct": 22.98,
  "notes": [],
  "primary": [
   {
@@ -41,25 +41,25 @@
    "candidate": "WATSON, Scott",
    "party": "",
    "votes": 479,
-   "pct": 3.96
+   "pct": 3.97
   },
   {
    "candidate": "NAMBU, Jill",
    "party": "The Greens",
-   "votes": 1731,
-   "pct": 14.33
+   "votes": 1730,
+   "pct": 14.32
   },
   {
    "candidate": "KOOMEN, Stefan",
    "party": "Australian Labor Party",
    "votes": 3537,
-   "pct": 29.27
+   "pct": 29.28
   },
   {
    "candidate": "PETERSON, Norliah",
    "party": "Liberal",
-   "votes": 2880,
-   "pct": 23.84
+   "votes": 2877,
+   "pct": 23.82
   }
  ],
  "tcp": [
@@ -102,11 +102,11 @@
      "HAMMOND, Trevor One Nation Victoria": 2706.0,
      "DENKER, Lydia Libertarian (formerly Liberal Democrats)": 124.0,
      "WATSON, Scott": 479.0,
-     "NAMBU, Jill The Greens": 1731.0,
+     "NAMBU, Jill The Greens": 1730.0,
      "KOOMEN, Stefan Australian Labor Party": 3537.0,
-     "PETERSON, Norliah Liberal": 2880.0,
-     "Informal votes": 1064.0,
-     "Total votes polled": 13147.0
+     "PETERSON, Norliah Liberal": 2877.0,
+     "Informal votes": 1065.0,
+     "Total votes polled": 13144.0
     }
    },
    {
@@ -116,10 +116,10 @@
      "CURRIE, Alan Family First": 2.63,
      "HAMMOND, Trevor One Nation Victoria": 22.4,
      "DENKER, Lydia Libertarian (formerly Liberal Democrats)": 1.03,
-     "WATSON, Scott": 3.96,
-     "NAMBU, Jill The Greens": 14.33,
-     "KOOMEN, Stefan Australian Labor Party": 29.27,
-     "PETERSON, Norliah Liberal": 23.84
+     "WATSON, Scott": 3.97,
+     "NAMBU, Jill The Greens": 14.32,
+     "KOOMEN, Stefan Australian Labor Party": 29.28,
+     "PETERSON, Norliah Liberal": 23.82
     }
    },
    {
@@ -329,11 +329,11 @@
      "HAMMOND, Trevor One Nation Victoria": 194.0,
      "DENKER, Lydia Libertarian (formerly Liberal Democrats)": 7.0,
      "WATSON, Scott": 30.0,
-     "NAMBU, Jill The Greens": 165.0,
+     "NAMBU, Jill The Greens": 164.0,
      "KOOMEN, Stefan Australian Labor Party": 311.0,
-     "PETERSON, Norliah Liberal": 226.0,
-     "Informal votes": 120.0,
-     "Total votes polled": 1104.0
+     "PETERSON, Norliah Liberal": 223.0,
+     "Informal votes": 121.0,
+     "Total votes polled": 1101.0
     }
    },
    {
@@ -404,11 +404,11 @@
      "HAMMOND, Trevor One Nation Victoria": 2310.0,
      "DENKER, Lydia Libertarian (formerly Liberal Democrats)": 112.0,
      "WATSON, Scott": 435.0,
-     "NAMBU, Jill The Greens": 1611.0,
+     "NAMBU, Jill The Greens": 1610.0,
      "KOOMEN, Stefan Australian Labor Party": 3182.0,
-     "PETERSON, Norliah Liberal": 2387.0,
-     "Informal votes": 1009.0,
-     "Total votes polled": 11592.0
+     "PETERSON, Norliah Liberal": 2384.0,
+     "Informal votes": 1010.0,
+     "Total votes polled": 11589.0
     }
    },
    {

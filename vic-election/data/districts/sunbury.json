@@ -3,9 +3,9 @@
  "name": "Sunbury",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sunbury-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:59:46+00:00",
+ "fetched_at": "2026-11-28T11:02:47+00:00",
  "title": "Sunbury election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:15",
+ "last_updated": "Saturday, 28 November 2026 22:00:16",
  "enrolment": 51664,
  "formal": 10580,
  "informal": 824,
@@ -84,14 +84,14 @@
   {
    "candidate": "DABROWSKI, Elita",
    "party": "One Nation Victoria",
-   "votes": 3477,
-   "pct": 56.95
+   "votes": 4041,
+   "pct": 57.24
   },
   {
    "candidate": "BULL, Josh",
    "party": "Australian Labor Party",
-   "votes": 2628,
-   "pct": 43.05
+   "votes": 3019,
+   "pct": 42.76
   }
  ],
  "links": {

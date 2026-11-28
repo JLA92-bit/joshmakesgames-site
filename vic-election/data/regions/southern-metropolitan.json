@@ -3,81 +3,81 @@
  "name": "Southern Metropolitan Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Southern-Metropolitan-Region-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:57:18+00:00",
+ "fetched_at": "2026-11-28T11:03:19+00:00",
  "title": "Southern Metropolitan Region results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:15",
+ "last_updated": "Saturday, 28 November 2026 22:00:15",
  "enrolment": 567082,
- "formal": 33999,
- "informal": 828,
- "total_votes": 34827,
- "counted_pct": 6.14,
+ "formal": 36101,
+ "informal": 891,
+ "total_votes": 36992,
+ "counted_pct": 6.52,
  "notes": [],
  "primary": [
   {
    "candidate": "Australian Labor Party",
    "party": "Australian Labor Party",
-   "votes": 5608,
-   "pct": 16.49
+   "votes": 6004,
+   "pct": 16.63
   },
   {
    "candidate": "Australian Democrats",
    "party": "Australian Democrats",
-   "votes": 312,
-   "pct": 0.92
+   "votes": 326,
+   "pct": 0.9
   },
   {
    "candidate": "Legalise Cannabis Victoria",
    "party": "Legalise Cannabis Victoria",
-   "votes": 722,
-   "pct": 2.12
+   "votes": 776,
+   "pct": 2.15
   },
   {
    "candidate": "One Nation Victoria",
    "party": "One Nation Victoria",
-   "votes": 3184,
-   "pct": 9.36
+   "votes": 3400,
+   "pct": 9.42
   },
   {
    "candidate": "Family First",
    "party": "Family First",
-   "votes": 369,
+   "votes": 395,
    "pct": 1.09
   },
   {
    "candidate": "Liberal",
    "party": "Liberal",
-   "votes": 15276,
-   "pct": 44.93
+   "votes": 16060,
+   "pct": 44.49
   },
   {
    "candidate": "Victorian Socialists",
    "party": "Victorian Socialists",
-   "votes": 1133,
-   "pct": 3.33
+   "votes": 1234,
+   "pct": 3.42
   },
   {
    "candidate": "Affordable Housing Now – Sustainable Australia Party",
    "party": "Affordable Housing Now – Sustainable Australia Party",
-   "votes": 299,
+   "votes": 319,
    "pct": 0.88
   },
   {
    "candidate": "Labour DLP",
    "party": "Labour DLP",
-   "votes": 116,
-   "pct": 0.34
+   "votes": 126,
+   "pct": 0.35
   },
   {
    "candidate": "Group J",
    "party": "Group J",
-   "votes": 343,
-   "pct": 1.01
+   "votes": 356,
+   "pct": 0.99
   },
   {
    "candidate": "The Greens",
    "party": "The Greens",
-   "votes": 6637,
-   "pct": 19.52
+   "votes": 7105,
+   "pct": 19.68
   }
  ],
  "links": {

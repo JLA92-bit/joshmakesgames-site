@@ -3,77 +3,77 @@
  "name": "Box Hill",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/box-hill-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:29+00:00",
+ "fetched_at": "2026-11-28T11:02:57+00:00",
  "title": "Box Hill election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:02",
+ "last_updated": "Saturday, 28 November 2026 22:00:02",
  "enrolment": 52758,
- "formal": 7403,
- "informal": 341,
- "total_votes": 7744,
- "counted_pct": 14.68,
+ "formal": 9620,
+ "informal": 433,
+ "total_votes": 10053,
+ "counted_pct": 19.05,
  "notes": [],
  "primary": [
   {
    "candidate": "QIN, Aaron",
    "party": "The Greens",
-   "votes": 1514,
-   "pct": 20.45
+   "votes": 1924,
+   "pct": 20.0
   },
   {
    "candidate": "CHEUNG, Heena",
    "party": "",
-   "votes": 400,
-   "pct": 5.4
+   "votes": 517,
+   "pct": 5.37
   },
   {
    "candidate": "BAKER, Jamie",
    "party": "One Nation Victoria",
-   "votes": 595,
-   "pct": 8.04
+   "votes": 807,
+   "pct": 8.39
   },
   {
    "candidate": "HOUGUET, Sally",
    "party": "Liberal",
-   "votes": 2752,
-   "pct": 37.17
+   "votes": 3656,
+   "pct": 38.0
   },
   {
    "candidate": "McGRATH, Sue-Ellen",
    "party": "Labour DLP",
-   "votes": 60,
-   "pct": 0.81
+   "votes": 80,
+   "pct": 0.83
   },
   {
    "candidate": "HAMER, Paul",
    "party": "Australian Labor Party",
-   "votes": 1663,
-   "pct": 22.46
+   "votes": 2120,
+   "pct": 22.04
   },
   {
    "candidate": "AFAJ, Saravina",
    "party": "Victorian Socialists",
-   "votes": 291,
-   "pct": 3.93
+   "votes": 344,
+   "pct": 3.58
   },
   {
    "candidate": "FAGG, Peter",
    "party": "Family First",
-   "votes": 128,
-   "pct": 1.73
+   "votes": 172,
+   "pct": 1.79
   }
  ],
  "tcp": [
   {
    "candidate": "HOUGUET, Sally",
    "party": "Liberal",
-   "votes": 1864,
-   "pct": 55.83
+   "votes": 2813,
+   "pct": 56.35
   },
   {
    "candidate": "HAMER, Paul",
    "party": "Australian Labor Party",
-   "votes": 1475,
-   "pct": 44.17
+   "votes": 2179,
+   "pct": 43.65
   }
  ],
  "links": {

@@ -3,69 +3,69 @@
  "name": "Kororoit",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kororoit-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:59:14+00:00",
+ "fetched_at": "2026-11-28T11:02:25+00:00",
  "title": "Kororoit election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:07",
+ "last_updated": "Saturday, 28 November 2026 22:00:07",
  "enrolment": 61816,
- "formal": 5580,
- "informal": 462,
- "total_votes": 6042,
- "counted_pct": 9.77,
+ "formal": 5898,
+ "informal": 518,
+ "total_votes": 6416,
+ "counted_pct": 10.38,
  "notes": [],
  "primary": [
   {
    "candidate": "SOUTHERN, Donna",
    "party": "The West Party",
-   "votes": 124,
-   "pct": 2.22
+   "votes": 137,
+   "pct": 2.32
   },
   {
    "candidate": "PATTERSON, Nick",
    "party": "Family First",
-   "votes": 202,
-   "pct": 3.62
+   "votes": 221,
+   "pct": 3.75
   },
   {
    "candidate": "MCDONALD, Joyce",
    "party": "The Greens",
-   "votes": 568,
-   "pct": 10.18
+   "votes": 591,
+   "pct": 10.02
   },
   {
    "candidate": "PIDI, Divya",
    "party": "The Republican",
-   "votes": 49,
-   "pct": 0.88
+   "votes": 54,
+   "pct": 0.92
   },
   {
    "candidate": "HASSAN, Rayan",
    "party": "Victorian Socialists",
-   "votes": 296,
-   "pct": 5.3
+   "votes": 305,
+   "pct": 5.17
   },
   {
    "candidate": "CHAKOMA, Jack",
    "party": "Liberal",
-   "votes": 1394,
-   "pct": 24.98
+   "votes": 1455,
+   "pct": 24.67
   },
   {
    "candidate": "GRIGOROVITCH, Luba",
    "party": "Australian Labor Party",
-   "votes": 1564,
-   "pct": 28.03
+   "votes": 1622,
+   "pct": 27.5
   },
   {
    "candidate": "MELNIKOV, Seva",
    "party": "One Nation Victoria",
-   "votes": 1245,
-   "pct": 22.31
+   "votes": 1373,
+   "pct": 23.28
   },
   {
    "candidate": "KANDPAL, Vasundhara",
    "party": "Animal Justice Party",
-   "votes": 138,
-   "pct": 2.47
+   "votes": 140,
+   "pct": 2.37
   }
  ],
  "tcp": [
@@ -104,31 +104,31 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "SOUTHERN, Donna The West Party": 124.0,
-     "PATTERSON, Nick Family First": 202.0,
-     "MCDONALD, Joyce The Greens": 568.0,
-     "PIDI, Divya The Republican": 49.0,
-     "HASSAN, Rayan Victorian Socialists": 296.0,
-     "CHAKOMA, Jack Liberal": 1394.0,
-     "GRIGOROVITCH, Luba Australian Labor Party": 1564.0,
-     "MELNIKOV, Seva One Nation Victoria": 1245.0,
-     "KANDPAL, Vasundhara Animal Justice Party": 138.0,
-     "Informal votes": 462.0,
-     "Total votes polled": 6042.0
+     "SOUTHERN, Donna The West Party": 137.0,
+     "PATTERSON, Nick Family First": 221.0,
+     "MCDONALD, Joyce The Greens": 591.0,
+     "PIDI, Divya The Republican": 54.0,
+     "HASSAN, Rayan Victorian Socialists": 305.0,
+     "CHAKOMA, Jack Liberal": 1455.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 1622.0,
+     "MELNIKOV, Seva One Nation Victoria": 1373.0,
+     "KANDPAL, Vasundhara Animal Justice Party": 140.0,
+     "Informal votes": 518.0,
+     "Total votes polled": 6416.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "SOUTHERN, Donna The West Party": 2.22,
-     "PATTERSON, Nick Family First": 3.62,
-     "MCDONALD, Joyce The Greens": 10.18,
-     "PIDI, Divya The Republican": 0.88,
-     "HASSAN, Rayan Victorian Socialists": 5.3,
-     "CHAKOMA, Jack Liberal": 24.98,
-     "GRIGOROVITCH, Luba Australian Labor Party": 28.03,
-     "MELNIKOV, Seva One Nation Victoria": 22.31,
-     "KANDPAL, Vasundhara Animal Justice Party": 2.47
+     "SOUTHERN, Donna The West Party": 2.32,
+     "PATTERSON, Nick Family First": 3.75,
+     "MCDONALD, Joyce The Greens": 10.02,
+     "PIDI, Divya The Republican": 0.92,
+     "HASSAN, Rayan Victorian Socialists": 5.17,
+     "CHAKOMA, Jack Liberal": 24.67,
+     "GRIGOROVITCH, Luba Australian Labor Party": 27.5,
+     "MELNIKOV, Seva One Nation Victoria": 23.28,
+     "KANDPAL, Vasundhara Animal Justice Party": 2.37
     }
    },
    {
@@ -478,17 +478,17 @@
    {
     "booth": "Sydenham - EVC 1",
     "values": {
-     "SOUTHERN, Donna The West Party": 0.0,
-     "PATTERSON, Nick Family First": 0.0,
-     "MCDONALD, Joyce The Greens": 0.0,
-     "PIDI, Divya The Republican": 0.0,
-     "HASSAN, Rayan Victorian Socialists": 0.0,
-     "CHAKOMA, Jack Liberal": 0.0,
-     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
-     "MELNIKOV, Seva One Nation Victoria": 0.0,
-     "KANDPAL, Vasundhara Animal Justice Party": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "SOUTHERN, Donna The West Party": 13.0,
+     "PATTERSON, Nick Family First": 19.0,
+     "MCDONALD, Joyce The Greens": 23.0,
+     "PIDI, Divya The Republican": 5.0,
+     "HASSAN, Rayan Victorian Socialists": 9.0,
+     "CHAKOMA, Jack Liberal": 61.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 58.0,
+     "MELNIKOV, Seva One Nation Victoria": 128.0,
+     "KANDPAL, Vasundhara Animal Justice Party": 2.0,
+     "Informal votes": 56.0,
+     "Total votes polled": 374.0
     }
    },
    {
@@ -526,17 +526,17 @@
    {
     "booth": "Early votes total",
     "values": {
-     "SOUTHERN, Donna The West Party": 0.0,
-     "PATTERSON, Nick Family First": 0.0,
-     "MCDONALD, Joyce The Greens": 0.0,
-     "PIDI, Divya The Republican": 0.0,
-     "HASSAN, Rayan Victorian Socialists": 0.0,
-     "CHAKOMA, Jack Liberal": 0.0,
-     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
-     "MELNIKOV, Seva One Nation Victoria": 0.0,
-     "KANDPAL, Vasundhara Animal Justice Party": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "SOUTHERN, Donna The West Party": 13.0,
+     "PATTERSON, Nick Family First": 19.0,
+     "MCDONALD, Joyce The Greens": 23.0,
+     "PIDI, Divya The Republican": 5.0,
+     "HASSAN, Rayan Victorian Socialists": 9.0,
+     "CHAKOMA, Jack Liberal": 61.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 58.0,
+     "MELNIKOV, Seva One Nation Victoria": 128.0,
+     "KANDPAL, Vasundhara Animal Justice Party": 2.0,
+     "Informal votes": 56.0,
+     "Total votes polled": 374.0
     }
    },
    {

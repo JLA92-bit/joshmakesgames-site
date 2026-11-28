@@ -3,9 +3,9 @@
  "name": "Eureka",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eureka-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:59:08+00:00",
+ "fetched_at": "2026-11-28T11:02:11+00:00",
  "title": "Eureka election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:55:05",
+ "last_updated": "Saturday, 28 November 2026 22:00:05",
  "enrolment": 58117,
  "formal": 19411,
  "informal": 1202,
@@ -72,14 +72,14 @@
   {
    "candidate": "SETTLE, Michaela",
    "party": "Australian Labor Party",
-   "votes": 5052,
-   "pct": 40.35
+   "votes": 5809,
+   "pct": 41.08
   },
   {
    "candidate": "MUIR, Emma",
    "party": "Liberal",
-   "votes": 7469,
-   "pct": 59.65
+   "votes": 8333,
+   "pct": 58.92
   }
  ],
  "links": {

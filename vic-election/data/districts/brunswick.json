@@ -3,77 +3,77 @@
  "name": "Brunswick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brunswick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:31+00:00",
+ "fetched_at": "2026-11-28T11:02:59+00:00",
  "title": "Brunswick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:02",
+ "last_updated": "Saturday, 28 November 2026 22:00:02",
  "enrolment": 56194,
- "formal": 12913,
- "informal": 591,
- "total_votes": 13504,
- "counted_pct": 24.03,
+ "formal": 15368,
+ "informal": 688,
+ "total_votes": 16056,
+ "counted_pct": 28.57,
  "notes": [],
  "primary": [
   {
    "candidate": "FARMER, Naomi",
    "party": "Victorian Socialists",
-   "votes": 2441,
-   "pct": 18.9
+   "votes": 2977,
+   "pct": 19.37
   },
   {
    "candidate": "MARGELIS, John",
    "party": "Liberal",
-   "votes": 1435,
-   "pct": 11.11
+   "votes": 1679,
+   "pct": 10.93
   },
   {
    "candidate": "PULFORD, Adam",
    "party": "The Greens",
-   "votes": 5849,
-   "pct": 45.3
+   "votes": 7073,
+   "pct": 46.02
   },
   {
    "candidate": "HELMAN, Adam",
    "party": "One Nation Victoria",
-   "votes": 593,
-   "pct": 4.59
+   "votes": 643,
+   "pct": 4.18
   },
   {
    "candidate": "ROSE, India",
    "party": "Animal Justice Party",
-   "votes": 235,
-   "pct": 1.82
+   "votes": 272,
+   "pct": 1.77
   },
   {
    "candidate": "STEGER, Gabe",
    "party": "Australian Labor Party",
-   "votes": 2065,
-   "pct": 15.99
+   "votes": 2381,
+   "pct": 15.49
   },
   {
    "candidate": "AMANATIDIS, Jack",
    "party": "",
-   "votes": 72,
-   "pct": 0.56
+   "votes": 76,
+   "pct": 0.49
   },
   {
    "candidate": "YUAN, Melissa",
    "party": "",
-   "votes": 223,
-   "pct": 1.73
+   "votes": 267,
+   "pct": 1.74
   }
  ],
  "tcp": [
   {
    "candidate": "PULFORD, Adam",
    "party": "The Greens",
-   "votes": 6240,
-   "pct": 73.43
+   "votes": 7117,
+   "pct": 73.04
   },
   {
    "candidate": "STEGER, Gabe",
    "party": "Australian Labor Party",
-   "votes": 2258,
-   "pct": 26.57
+   "votes": 2627,
+   "pct": 26.96
   }
  ],
  "links": {

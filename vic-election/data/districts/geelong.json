@@ -3,27 +3,27 @@
  "name": "Geelong",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/geelong-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:50:38+00:00",
+ "fetched_at": "2026-11-28T11:03:03+00:00",
  "title": "Geelong election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:50:05",
+ "last_updated": "Saturday, 28 November 2026 22:00:06",
  "enrolment": 53903,
- "formal": 17759,
- "informal": 873,
- "total_votes": 18632,
+ "formal": 17757,
+ "informal": 877,
+ "total_votes": 18634,
  "counted_pct": 34.57,
  "notes": [],
  "primary": [
   {
    "candidate": "FLYNN, Emilie",
    "party": "The Greens",
-   "votes": 4171,
-   "pct": 23.49
+   "votes": 4169,
+   "pct": 23.48
   },
   {
    "candidate": "POBJOY, Andy",
    "party": "Liberal",
-   "votes": 5748,
-   "pct": 32.37
+   "votes": 5749,
+   "pct": 32.38
   },
   {
    "candidate": "BENGTSSON, Maria",
@@ -58,22 +58,22 @@
   {
    "candidate": "VANDERPOL, Bree",
    "party": "Victorian Socialists",
-   "votes": 452,
-   "pct": 2.55
+   "votes": 451,
+   "pct": 2.54
   }
  ],
  "tcp": [
   {
    "candidate": "POBJOY, Andy",
    "party": "Liberal",
-   "votes": 3053,
-   "pct": 49.81
+   "votes": 3738,
+   "pct": 51.42
   },
   {
    "candidate": "COUZENS, Christine",
    "party": "Australian Labor Party",
-   "votes": 3076,
-   "pct": 50.19
+   "votes": 3532,
+   "pct": 48.58
   }
  ],
  "links": {
