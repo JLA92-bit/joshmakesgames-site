@@ -3,71 +3,71 @@
  "name": "Bendigo West",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:03:06+00:00",
+ "fetched_at": "2026-11-28T14:12:04+00:00",
  "title": "Bendigo West election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:00:01",
+ "last_updated": "Sunday, 29 November 2026 01:10:01",
  "enrolment": 49735,
- "formal": 13612,
- "informal": 632,
- "total_votes": 14244,
- "counted_pct": 28.64,
+ "formal": 21338,
+ "informal": 1003,
+ "total_votes": 22341,
+ "counted_pct": 44.92,
  "notes": [],
  "primary": [
   {
    "candidate": "SHALEVSKI, Tayne",
    "party": "Victorian Socialists",
-   "votes": 809,
-   "pct": 5.94
+   "votes": 1129,
+   "pct": 5.29
   },
   {
    "candidate": "HUTCHINGS, David",
    "party": "The Nationals",
-   "votes": 3405,
-   "pct": 25.01
+   "votes": 6074,
+   "pct": 28.47
   },
   {
    "candidate": "TRANTER, Debra",
    "party": "Animal Justice Party",
-   "votes": 642,
-   "pct": 4.72
+   "votes": 940,
+   "pct": 4.41
   },
   {
    "candidate": "BALDWIN, Brenton",
    "party": "Australian Labor Party",
-   "votes": 2710,
-   "pct": 19.91
+   "votes": 4167,
+   "pct": 19.53
   },
   {
    "candidate": "SHAW, Liza",
    "party": "The Greens",
-   "votes": 2607,
-   "pct": 19.15
+   "votes": 3654,
+   "pct": 17.12
   },
   {
    "candidate": "HARISOPOULOS, Christos",
    "party": "Family First",
-   "votes": 289,
-   "pct": 2.12
+   "votes": 448,
+   "pct": 2.1
   },
   {
    "candidate": "MORGAN, Ellen",
    "party": "One Nation Victoria",
-   "votes": 3150,
-   "pct": 23.14
+   "votes": 4926,
+   "pct": 23.09
   }
  ],
  "tcp": [
   {
    "candidate": "HUTCHINGS, David",
    "party": "The Nationals",
-   "votes": 6318,
-   "pct": 53.53
+   "votes": 6461,
+   "pct": 53.63
   },
   {
    "candidate": "BALDWIN, Brenton",
    "party": "Australian Labor Party",
-   "votes": 5484,
-   "pct": 46.47
+   "votes": 5586,
+   "pct": 46.37
   }
  ],
  "links": {
