@@ -3,15 +3,17 @@
  "name": "South West Coast",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-west-coast-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:42:05+00:00",
+ "fetched_at": "2026-11-28T11:54:08+00:00",
  "title": "South-West Coast election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:14",
+ "last_updated": "Saturday, 28 November 2026 22:50:15",
  "enrolment": 54428,
  "formal": 18623,
  "informal": 605,
  "total_votes": 19228,
  "counted_pct": 35.33,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district South-West Coast District results South-West Coast District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:15 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "BUCHAN, Tamhas",
@@ -54,14 +56,14 @@
   {
    "candidate": "HUGHES, Richard",
    "party": "One Nation Victoria",
-   "votes": 5155,
-   "pct": 33.43
+   "votes": 5529,
+   "pct": 33.91
   },
   {
    "candidate": "BRITNELL, Roma",
    "party": "Liberal",
-   "votes": 10266,
-   "pct": 66.57
+   "votes": 10775,
+   "pct": 66.09
   }
  ],
  "links": {

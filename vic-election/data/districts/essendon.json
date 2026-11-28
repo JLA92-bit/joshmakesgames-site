@@ -3,77 +3,79 @@
  "name": "Essendon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/essendon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:28+00:00",
+ "fetched_at": "2026-11-28T11:53:58+00:00",
  "title": "Essendon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:05",
+ "last_updated": "Saturday, 28 November 2026 22:50:05",
  "enrolment": 53729,
- "formal": 14329,
- "informal": 773,
- "total_votes": 15102,
- "counted_pct": 28.11,
- "notes": [],
+ "formal": 16124,
+ "informal": 857,
+ "total_votes": 16981,
+ "counted_pct": 31.6,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Essendon District results Essendon District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:05 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "BARNES, John",
    "party": "One Nation Victoria",
-   "votes": 1490,
-   "pct": 10.4
+   "votes": 1695,
+   "pct": 10.51
   },
   {
    "candidate": "ADAMS, Ava",
    "party": "",
-   "votes": 743,
-   "pct": 5.19
+   "votes": 938,
+   "pct": 5.82
   },
   {
    "candidate": "LE DEUX, Tommy",
    "party": "Liberal",
-   "votes": 4083,
-   "pct": 28.49
+   "votes": 4553,
+   "pct": 28.24
   },
   {
    "candidate": "MOHAMUD, Anab",
    "party": "",
-   "votes": 73,
-   "pct": 0.51
+   "votes": 75,
+   "pct": 0.47
   },
   {
    "candidate": "THEODOSIS, Kat",
    "party": "Australian Labor Party",
-   "votes": 2902,
-   "pct": 20.25
+   "votes": 3208,
+   "pct": 19.9
   },
   {
    "candidate": "WILLIAMS, James",
    "party": "The Greens",
-   "votes": 2498,
-   "pct": 17.43
+   "votes": 2786,
+   "pct": 17.28
   },
   {
    "candidate": "YILDIZ, Oscar",
    "party": "",
-   "votes": 1327,
-   "pct": 9.26
+   "votes": 1522,
+   "pct": 9.44
   },
   {
    "candidate": "KEDEM, Michal",
    "party": "Victorian Socialists",
-   "votes": 1213,
-   "pct": 8.47
+   "votes": 1347,
+   "pct": 8.35
   }
  ],
  "tcp": [
   {
    "candidate": "LE DEUX, Tommy",
    "party": "Liberal",
-   "votes": 6785,
-   "pct": 49.94
+   "votes": 7809,
+   "pct": 49.11
   },
   {
    "candidate": "THEODOSIS, Kat",
    "party": "Australian Labor Party",
-   "votes": 6802,
-   "pct": 50.06
+   "votes": 8091,
+   "pct": 50.89
   }
  ],
  "links": {

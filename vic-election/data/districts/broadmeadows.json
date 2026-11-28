@@ -3,89 +3,91 @@
  "name": "Broadmeadows",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:44:49+00:00",
+ "fetched_at": "2026-11-28T11:53:53+00:00",
  "title": "Broadmeadows election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:02",
+ "last_updated": "Saturday, 28 November 2026 22:50:03",
  "enrolment": 51575,
- "formal": 11611,
- "informal": 1373,
- "total_votes": 12984,
- "counted_pct": 25.17,
- "notes": [],
+ "formal": 12422,
+ "informal": 1593,
+ "total_votes": 14015,
+ "counted_pct": 27.17,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Broadmeadows District results Broadmeadows District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:03 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "YOLBULAN, Mutullah Can",
    "party": "Victorian Socialists",
-   "votes": 1021,
-   "pct": 8.79
+   "votes": 1107,
+   "pct": 8.91
   },
   {
    "candidate": "EL YOUSSEF, Mohamad",
    "party": "",
-   "votes": 196,
-   "pct": 1.69
+   "votes": 241,
+   "pct": 1.94
   },
   {
    "candidate": "DUZOVA, Baris",
    "party": "Liberal",
-   "votes": 2019,
-   "pct": 17.39
+   "votes": 2130,
+   "pct": 17.15
   },
   {
    "candidate": "NASIM, Maryam",
    "party": "The Greens",
-   "votes": 2156,
-   "pct": 18.57
+   "votes": 2273,
+   "pct": 18.3
   },
   {
    "candidate": "ELMUSTAPHA, Mohamad",
    "party": "",
-   "votes": 325,
-   "pct": 2.8
+   "votes": 355,
+   "pct": 2.86
   },
   {
    "candidate": "MATTHEWS-WARD, Kathleen",
    "party": "Australian Labor Party",
-   "votes": 2943,
-   "pct": 25.35
+   "votes": 3106,
+   "pct": 25.0
   },
   {
    "candidate": "WILSON, Russell",
    "party": "Family First",
-   "votes": 221,
+   "votes": 236,
    "pct": 1.9
   },
   {
    "candidate": "KEIRS, Ethan",
    "party": "One Nation Victoria",
-   "votes": 1938,
-   "pct": 16.69
+   "votes": 2141,
+   "pct": 17.24
   },
   {
    "candidate": "UNICOMB, Rachel",
    "party": "Animal Justice Party",
-   "votes": 211,
-   "pct": 1.82
+   "votes": 224,
+   "pct": 1.8
   },
   {
    "candidate": "BOLTON, Sue",
    "party": "Socialist Alliance",
-   "votes": 581,
-   "pct": 5.0
+   "votes": 609,
+   "pct": 4.9
   }
  ],
  "tcp": [
   {
    "candidate": "DUZOVA, Baris",
    "party": "Liberal",
-   "votes": 3452,
-   "pct": 41.34
+   "votes": 3837,
+   "pct": 41.88
   },
   {
    "candidate": "MATTHEWS-WARD, Kathleen",
    "party": "Australian Labor Party",
-   "votes": 4899,
-   "pct": 58.66
+   "votes": 5325,
+   "pct": 58.12
   }
  ],
  "links": {

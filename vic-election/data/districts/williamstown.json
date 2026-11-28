@@ -3,15 +3,17 @@
  "name": "Williamstown",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:42:06+00:00",
+ "fetched_at": "2026-11-28T11:54:07+00:00",
  "title": "Williamstown election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:16",
+ "last_updated": "Saturday, 28 November 2026 22:50:16",
  "enrolment": 50405,
  "formal": 16193,
  "informal": 1032,
  "total_votes": 17225,
  "counted_pct": 34.17,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Williamstown District results Williamstown District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:16 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "MARTIN, Oskar",

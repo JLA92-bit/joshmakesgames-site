@@ -3,15 +3,17 @@
  "name": "Mornington",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mornington-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:42:00+00:00",
+ "fetched_at": "2026-11-28T11:54:02+00:00",
  "title": "Mornington election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:09",
+ "last_updated": "Saturday, 28 November 2026 22:50:10",
  "enrolment": 50151,
  "formal": 36900,
  "informal": 1955,
  "total_votes": 38855,
  "counted_pct": 77.48,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Mornington District results Mornington District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:10 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "BROWNLIE, Gene",
@@ -28,8 +30,8 @@
   {
    "candidate": "CREWTHER, Chris",
    "party": "Liberal",
-   "votes": 19333,
-   "pct": 52.39
+   "votes": 19334,
+   "pct": 52.4
   },
   {
    "candidate": "BEARDS, Ashli",
@@ -52,7 +54,7 @@
   {
    "candidate": "MAHER, Adrian",
    "party": "",
-   "votes": 912,
+   "votes": 911,
    "pct": 2.47
   }
  ],
@@ -60,14 +62,14 @@
   {
    "candidate": "CREWTHER, Chris",
    "party": "Liberal",
-   "votes": 6713,
-   "pct": 65.95
+   "votes": 7876,
+   "pct": 66.5
   },
   {
    "candidate": "GOFFIN, Melissa",
    "party": "",
-   "votes": 3466,
-   "pct": 34.05
+   "votes": 3968,
+   "pct": 33.5
   }
  ],
  "links": {

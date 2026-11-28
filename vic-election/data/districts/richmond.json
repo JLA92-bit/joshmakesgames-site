@@ -3,15 +3,17 @@
  "name": "Richmond",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/richmond-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:42:02+00:00",
+ "fetched_at": "2026-11-28T11:54:05+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:12",
+ "last_updated": "Saturday, 28 November 2026 22:50:13",
  "enrolment": 49900,
  "formal": 10328,
  "informal": 544,
  "total_votes": 10872,
  "counted_pct": 21.79,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Richmond District results Richmond District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:13 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "RINDFLEISH, Harrison",
@@ -72,14 +74,14 @@
   {
    "candidate": "MCKENZIE, Sarah",
    "party": "Australian Labor Party",
-   "votes": 2957,
-   "pct": 38.22
+   "votes": 3309,
+   "pct": 38.73
   },
   {
    "candidate": "de VIETRI, Gabrielle",
    "party": "The Greens",
-   "votes": 4780,
-   "pct": 61.78
+   "votes": 5234,
+   "pct": 61.27
   }
  ],
  "links": {

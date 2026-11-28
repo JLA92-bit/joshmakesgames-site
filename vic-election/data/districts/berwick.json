@@ -3,69 +3,71 @@
  "name": "Berwick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:44:46+00:00",
+ "fetched_at": "2026-11-28T11:53:52+00:00",
  "title": "Berwick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:02",
+ "last_updated": "Saturday, 28 November 2026 22:50:03",
  "enrolment": 67010,
- "formal": 18657,
- "informal": 1102,
- "total_votes": 19759,
- "counted_pct": 29.49,
- "notes": [],
+ "formal": 19941,
+ "informal": 1176,
+ "total_votes": 21117,
+ "counted_pct": 31.51,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Berwick District results Berwick District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:03 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "KHAN, Rana",
    "party": "Australian Labor Party",
-   "votes": 2919,
-   "pct": 15.65
+   "votes": 3076,
+   "pct": 15.43
   },
   {
    "candidate": "DE SILVA, Roshan",
    "party": "The Greens",
-   "votes": 2554,
-   "pct": 13.69
+   "votes": 2735,
+   "pct": 13.72
   },
   {
    "candidate": "DE PAOLIS, Vincenzo",
    "party": "Family First",
-   "votes": 352,
-   "pct": 1.89
+   "votes": 384,
+   "pct": 1.93
   },
   {
    "candidate": "PIASTRINO, Michael",
    "party": "One Nation Victoria",
-   "votes": 3543,
-   "pct": 18.99
+   "votes": 3850,
+   "pct": 19.31
   },
   {
    "candidate": "BATTIN, Brad",
    "party": "Liberal",
-   "votes": 8685,
-   "pct": 46.55
+   "votes": 9232,
+   "pct": 46.3
   },
   {
    "candidate": "DOWLING, Scott",
    "party": "Citizens Party",
-   "votes": 88,
-   "pct": 0.47
+   "votes": 92,
+   "pct": 0.46
   },
   {
    "candidate": "JOHN, David",
    "party": "",
-   "votes": 102,
+   "votes": 110,
    "pct": 0.55
   },
   {
    "candidate": "AMARASIRI GUNAWARDANA, Nalinda",
    "party": "Victorian Socialists",
-   "votes": 258,
-   "pct": 1.38
+   "votes": 288,
+   "pct": 1.44
   },
   {
    "candidate": "KING, Ethelyn",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 156,
-   "pct": 0.84
+   "votes": 174,
+   "pct": 0.87
   }
  ],
  "tcp": [

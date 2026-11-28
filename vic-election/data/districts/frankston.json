@@ -3,81 +3,83 @@
  "name": "Frankston",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/frankston-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:29+00:00",
+ "fetched_at": "2026-11-28T11:53:59+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:05",
+ "last_updated": "Saturday, 28 November 2026 22:50:06",
  "enrolment": 51237,
- "formal": 15170,
- "informal": 1053,
- "total_votes": 16223,
- "counted_pct": 31.66,
- "notes": [],
+ "formal": 16033,
+ "informal": 1119,
+ "total_votes": 17152,
+ "counted_pct": 33.48,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Frankston District results Frankston District Results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:06 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "KNIPE, Jeff",
    "party": "Legalise Cannabis Victoria",
-   "votes": 704,
-   "pct": 4.64
+   "votes": 740,
+   "pct": 4.62
   },
   {
    "candidate": "KELSALL, Henry",
    "party": "",
-   "votes": 121,
+   "votes": 128,
    "pct": 0.8
   },
   {
    "candidate": "BARRY, Nicola",
    "party": "",
-   "votes": 59,
-   "pct": 0.39
+   "votes": 60,
+   "pct": 0.37
   },
   {
    "candidate": "NICHOLES, Peter",
    "party": "Family First",
-   "votes": 227,
-   "pct": 1.5
+   "votes": 243,
+   "pct": 1.52
   },
   {
    "candidate": "EDBROOKE, Paul",
    "party": "Australian Labor Party",
-   "votes": 2931,
-   "pct": 19.32
+   "votes": 3120,
+   "pct": 19.46
   },
   {
    "candidate": "ABRAHAM, Chrysten",
    "party": "",
-   "votes": 276,
-   "pct": 1.82
+   "votes": 294,
+   "pct": 1.83
   },
   {
    "candidate": "AMBRY, Bree",
    "party": "Liberal",
-   "votes": 4386,
-   "pct": 28.91
+   "votes": 4591,
+   "pct": 28.63
   },
   {
    "candidate": "STAFFORD, Paul",
    "party": "One Nation Victoria",
-   "votes": 3174,
-   "pct": 20.92
+   "votes": 3396,
+   "pct": 21.18
   },
   {
    "candidate": "HARMAN, Julie",
    "party": "Animal Justice Party",
-   "votes": 267,
-   "pct": 1.76
+   "votes": 288,
+   "pct": 1.8
   },
   {
    "candidate": "GOULAS, Katie",
    "party": "The Greens",
-   "votes": 2531,
-   "pct": 16.68
+   "votes": 2646,
+   "pct": 16.5
   },
   {
    "candidate": "CHEESEMAN, Andrew",
    "party": "Victorian Socialists",
-   "votes": 494,
-   "pct": 3.26
+   "votes": 527,
+   "pct": 3.29
   }
  ],
  "tcp": [

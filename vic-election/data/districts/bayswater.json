@@ -3,77 +3,79 @@
  "name": "Bayswater",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bayswater-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:44:41+00:00",
+ "fetched_at": "2026-11-28T11:53:50+00:00",
  "title": "Bayswater election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:02",
+ "last_updated": "Saturday, 28 November 2026 22:50:03",
  "enrolment": 51511,
- "formal": 14265,
- "informal": 934,
- "total_votes": 15199,
- "counted_pct": 29.51,
- "notes": [],
+ "formal": 15076,
+ "informal": 978,
+ "total_votes": 16054,
+ "counted_pct": 31.17,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bayswater District results Bayswater District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:03 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "BLEAKNEY, Kayte",
    "party": "One Nation Victoria",
-   "votes": 2946,
-   "pct": 20.65
+   "votes": 3073,
+   "pct": 20.38
   },
   {
    "candidate": "KENNEDY, Jess",
    "party": "The Greens",
-   "votes": 2343,
+   "votes": 2475,
    "pct": 16.42
   },
   {
    "candidate": "BUXTON, Julie",
    "party": "Australian Labor Party",
-   "votes": 2727,
-   "pct": 19.12
+   "votes": 2922,
+   "pct": 19.38
   },
   {
    "candidate": "KITCHEN, David",
    "party": "Liberal",
-   "votes": 4985,
-   "pct": 34.95
+   "votes": 5308,
+   "pct": 35.21
   },
   {
    "candidate": "CLARKE, Mathew",
    "party": "",
-   "votes": 227,
-   "pct": 1.59
+   "votes": 234,
+   "pct": 1.55
   },
   {
    "candidate": "HUBBARD, Naomi",
    "party": "Labour DLP",
-   "votes": 90,
-   "pct": 0.63
+   "votes": 91,
+   "pct": 0.6
   },
   {
    "candidate": "FERGUSON, Alec",
    "party": "Victorian Socialists",
-   "votes": 545,
-   "pct": 3.82
+   "votes": 557,
+   "pct": 3.69
   },
   {
    "candidate": "COOMBES, Gary",
    "party": "Family First",
-   "votes": 402,
-   "pct": 2.82
+   "votes": 416,
+   "pct": 2.76
   }
  ],
  "tcp": [
   {
    "candidate": "BUXTON, Julie",
    "party": "Australian Labor Party",
-   "votes": 5213,
-   "pct": 39.28
+   "votes": 5545,
+   "pct": 39.39
   },
   {
    "candidate": "KITCHEN, David",
    "party": "Liberal",
-   "votes": 8057,
-   "pct": 60.72
+   "votes": 8533,
+   "pct": 60.61
   }
  ],
  "links": {

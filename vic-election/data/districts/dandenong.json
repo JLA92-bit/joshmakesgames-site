@@ -3,21 +3,23 @@
  "name": "Dandenong",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/dandenong-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:27+00:00",
+ "fetched_at": "2026-11-28T11:53:56+00:00",
  "title": "Dandenong election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:05",
+ "last_updated": "Saturday, 28 November 2026 22:50:05",
  "enrolment": 54251,
- "formal": 13013,
+ "formal": 13014,
  "informal": 1472,
- "total_votes": 14485,
+ "total_votes": 14486,
  "counted_pct": 26.7,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Dandenong District results Dandenong District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:05 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "BILLINGS, William",
    "party": "Liberal",
    "votes": 3422,
-   "pct": 26.3
+   "pct": 26.29
   },
   {
    "candidate": "McMAHON, Jack",
@@ -46,8 +48,8 @@
   {
    "candidate": "FORTE, Jordan",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 130,
-   "pct": 1.0
+   "votes": 131,
+   "pct": 1.01
   },
   {
    "candidate": "D'ARCY, Catherine",

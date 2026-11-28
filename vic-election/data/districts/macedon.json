@@ -3,83 +3,85 @@
  "name": "Macedon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/macedon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:31+00:00",
+ "fetched_at": "2026-11-28T11:54:01+00:00",
  "title": "Macedon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:08",
+ "last_updated": "Saturday, 28 November 2026 22:50:08",
  "enrolment": 51446,
- "formal": 13920,
- "informal": 740,
- "total_votes": 14660,
- "counted_pct": 28.5,
- "notes": [],
+ "formal": 15324,
+ "informal": 810,
+ "total_votes": 16134,
+ "counted_pct": 31.36,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Macedon District results Macedon District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:08 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "BONANNO, Dom",
    "party": "",
-   "votes": 314,
-   "pct": 2.26
+   "votes": 385,
+   "pct": 2.51
   },
   {
    "candidate": "DEATH, Annette",
    "party": "Australian Labor Party",
-   "votes": 2303,
-   "pct": 16.54
+   "votes": 2482,
+   "pct": 16.2
   },
   {
    "candidate": "WILSON, Catherine",
    "party": "Victorian Socialists",
-   "votes": 460,
-   "pct": 3.3
+   "votes": 495,
+   "pct": 3.23
   },
   {
    "candidate": "MCRAE MCLEOD, Marley",
    "party": "The Greens",
-   "votes": 2259,
-   "pct": 16.23
+   "votes": 2427,
+   "pct": 15.84
   },
   {
    "candidate": "SETON, Michael",
    "party": "",
-   "votes": 398,
-   "pct": 2.86
+   "votes": 433,
+   "pct": 2.83
   },
   {
    "candidate": "MAYNE, Bernadette",
    "party": "Family First",
-   "votes": 159,
-   "pct": 1.14
+   "votes": 177,
+   "pct": 1.16
   },
   {
    "candidate": "KORINFSKY, Natalie",
    "party": "Animal Justice Party",
-   "votes": 794,
-   "pct": 5.7
+   "votes": 838,
+   "pct": 5.47
   },
   {
    "candidate": "KENDALL, Kate",
    "party": "Liberal",
-   "votes": 4215,
-   "pct": 30.28
+   "votes": 4651,
+   "pct": 30.35
   },
   {
    "candidate": "PAROLIN, Damien",
    "party": "One Nation Victoria",
-   "votes": 3018,
-   "pct": 21.68
+   "votes": 3436,
+   "pct": 22.42
   }
  ],
  "tcp": [
   {
    "candidate": "DEATH, Annette",
    "party": "Australian Labor Party",
-   "votes": 3759,
-   "pct": 47.09
+   "votes": 4146,
+   "pct": 44.83
   },
   {
    "candidate": "KENDALL, Kate",
    "party": "Liberal",
-   "votes": 4224,
-   "pct": 52.91
+   "votes": 5102,
+   "pct": 55.17
   }
  ],
  "links": {

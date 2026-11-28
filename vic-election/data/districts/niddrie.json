@@ -3,39 +3,41 @@
  "name": "Niddrie",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/niddrie-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:41:59+00:00",
+ "fetched_at": "2026-11-28T11:54:03+00:00",
  "title": "Niddrie election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:40:10",
+ "last_updated": "Saturday, 28 November 2026 22:50:10",
  "enrolment": 52610,
- "formal": 28302,
- "informal": 2272,
- "total_votes": 30574,
- "counted_pct": 58.11,
- "notes": [],
+ "formal": 28423,
+ "informal": 2279,
+ "total_votes": 30702,
+ "counted_pct": 58.36,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Niddrie District results Niddrie District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:10 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "SFAMENI, Sam",
    "party": "",
    "votes": 277,
-   "pct": 0.98
+   "pct": 0.97
   },
   {
    "candidate": "CARROLL, Ben",
    "party": "Australian Labor Party",
-   "votes": 6397,
-   "pct": 22.6
+   "votes": 6417,
+   "pct": 22.58
   },
   {
    "candidate": "THEODOROU, George",
    "party": "Family First",
-   "votes": 370,
+   "votes": 372,
    "pct": 1.31
   },
   {
    "candidate": "BYRNE, Samantha",
    "party": "Liberal",
-   "votes": 11094,
-   "pct": 39.2
+   "votes": 11131,
+   "pct": 39.16
   },
   {
    "candidate": "METE, Domenic",
@@ -46,37 +48,37 @@
   {
    "candidate": "LAWS, Brendan",
    "party": "Victorian Socialists",
-   "votes": 1018,
-   "pct": 3.6
+   "votes": 1021,
+   "pct": 3.59
   },
   {
    "candidate": "HASELGROVE, Salomae",
    "party": "Animal Justice Party",
-   "votes": 284,
-   "pct": 1.0
+   "votes": 290,
+   "pct": 1.02
   },
   {
    "candidate": "TAVERNA, Jason",
    "party": "One Nation Victoria",
-   "votes": 5952,
-   "pct": 21.03
+   "votes": 5992,
+   "pct": 21.08
   },
   {
    "candidate": "NGUYEN, Lana",
    "party": "The Greens",
-   "votes": 2579,
-   "pct": 9.11
+   "votes": 2591,
+   "pct": 9.12
   },
   {
    "candidate": "CHITTEDI, Karthik Reddy",
    "party": "The Republican",
    "votes": 27,
-   "pct": 0.1
+   "pct": 0.09
   },
   {
    "candidate": "PATRIKEOS, Brett",
    "party": "The West Party",
-   "votes": 198,
+   "votes": 199,
    "pct": 0.7
   }
  ],
@@ -84,14 +86,14 @@
   {
    "candidate": "CARROLL, Ben",
    "party": "Australian Labor Party",
-   "votes": 3391,
-   "pct": 41.16
+   "votes": 4127,
+   "pct": 38.46
   },
   {
    "candidate": "BYRNE, Samantha",
    "party": "Liberal",
-   "votes": 4847,
-   "pct": 58.84
+   "votes": 6605,
+   "pct": 61.54
   }
  ],
  "links": {

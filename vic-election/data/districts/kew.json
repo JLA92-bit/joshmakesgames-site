@@ -3,15 +3,17 @@
  "name": "Kew",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kew-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:31+00:00",
+ "fetched_at": "2026-11-28T11:54:00+00:00",
  "title": "Kew election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:08",
+ "last_updated": "Saturday, 28 November 2026 22:50:08",
  "enrolment": 51115,
  "formal": 19518,
  "informal": 909,
  "total_votes": 20427,
  "counted_pct": 39.96,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Kew District results Kew District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:08 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "LIANG, Man",
@@ -78,14 +80,14 @@
   {
    "candidate": "TORNEY, Sophie",
    "party": "",
-   "votes": 5712,
-   "pct": 40.14
+   "votes": 6874,
+   "pct": 39.83
   },
   {
    "candidate": "WILSON, Jess",
    "party": "Liberal",
-   "votes": 8519,
-   "pct": 59.86
+   "votes": 10384,
+   "pct": 60.17
   }
  ],
  "links": {
