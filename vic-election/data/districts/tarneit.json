@@ -3,15 +3,17 @@
  "name": "Tarneit",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/tarneit-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:37+00:00",
+ "fetched_at": "2026-11-28T11:57:07+00:00",
  "title": "Tarneit election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:15",
+ "last_updated": "Saturday, 28 November 2026 22:55:14",
  "enrolment": 60755,
- "formal": 14672,
+ "formal": 14675,
  "informal": 1634,
- "total_votes": 16306,
+ "total_votes": 16309,
  "counted_pct": 26.84,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Tarneit District results Tarneit District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:14 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "MOINUDDIN, Aijaz",
@@ -35,7 +37,7 @@
    "candidate": "ELSBURY, Andrew",
    "party": "The West Party",
    "votes": 551,
-   "pct": 3.76
+   "pct": 3.75
   },
   {
    "candidate": "VAN KEULEN, Leah",
@@ -58,14 +60,14 @@
   {
    "candidate": "RAHN, Maurita",
    "party": "Animal Justice Party",
-   "votes": 147,
-   "pct": 1.0
+   "votes": 150,
+   "pct": 1.02
   },
   {
    "candidate": "VILLAGONZALO, Walter",
    "party": "One Nation Victoria",
    "votes": 2752,
-   "pct": 18.76
+   "pct": 18.75
   },
   {
    "candidate": "RIFAI, A. Raheem",
@@ -90,14 +92,14 @@
   {
    "candidate": "WIGHT, Dylan",
    "party": "Australian Labor Party",
-   "votes": 5480,
-   "pct": 50.29
+   "votes": 5945,
+   "pct": 49.57
   },
   {
    "candidate": "UPPARLAPALLE, Venkat Ram",
    "party": "Liberal",
-   "votes": 5417,
-   "pct": 49.71
+   "votes": 6048,
+   "pct": 50.43
   }
  ],
  "links": {

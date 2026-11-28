@@ -3,57 +3,59 @@
  "name": "Monbulk",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/monbulk-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:31+00:00",
+ "fetched_at": "2026-11-28T11:57:02+00:00",
  "title": "Monbulk election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:10",
+ "last_updated": "Saturday, 28 November 2026 22:55:09",
  "enrolment": 50003,
- "formal": 17561,
- "informal": 675,
- "total_votes": 18236,
- "counted_pct": 36.47,
- "notes": [],
+ "formal": 19151,
+ "informal": 745,
+ "total_votes": 19896,
+ "counted_pct": 39.79,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Monbulk District results Monbulk District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:09 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "FITZMAURICE, Clare",
    "party": "Liberal",
-   "votes": 4909,
-   "pct": 27.95
+   "votes": 5331,
+   "pct": 27.84
   },
   {
    "candidate": "MANNERS, Craig",
    "party": "Family First",
-   "votes": 347,
-   "pct": 1.98
+   "votes": 370,
+   "pct": 1.93
   },
   {
    "candidate": "DE MARTINO, Daniela",
    "party": "Australian Labor Party",
-   "votes": 3733,
-   "pct": 21.26
+   "votes": 4066,
+   "pct": 21.23
   },
   {
    "candidate": "DOWELL, Adrian",
    "party": "One Nation Victoria",
-   "votes": 3679,
-   "pct": 20.95
+   "votes": 4077,
+   "pct": 21.29
   },
   {
    "candidate": "BLAIR, Merran",
    "party": "The Greens",
-   "votes": 3641,
-   "pct": 20.73
+   "votes": 3932,
+   "pct": 20.53
   },
   {
    "candidate": "WORMALD, Alyssa",
    "party": "Animal Justice Party",
-   "votes": 459,
-   "pct": 2.61
+   "votes": 515,
+   "pct": 2.69
   },
   {
    "candidate": "BRIGGS, Noah",
    "party": "Victorian Socialists",
-   "votes": 793,
-   "pct": 4.52
+   "votes": 860,
+   "pct": 4.49
   }
  ],
  "tcp": [

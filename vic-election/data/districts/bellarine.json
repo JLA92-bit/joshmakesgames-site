@@ -3,15 +3,17 @@
  "name": "Bellarine",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bellarine-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:48:02+00:00",
+ "fetched_at": "2026-11-28T11:56:52+00:00",
  "title": "Bellarine election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:45:02",
+ "last_updated": "Saturday, 28 November 2026 22:55:02",
  "enrolment": 59824,
  "formal": 17019,
  "informal": 909,
  "total_votes": 17928,
  "counted_pct": 29.97,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bellarine District results Bellarine District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:02 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "WHITEHEAD, Callum",

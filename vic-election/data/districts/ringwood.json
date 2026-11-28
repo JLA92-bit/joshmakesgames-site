@@ -3,69 +3,71 @@
  "name": "Ringwood",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ringwood-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:36+00:00",
+ "fetched_at": "2026-11-28T11:57:06+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:13",
+ "last_updated": "Saturday, 28 November 2026 22:55:12",
  "enrolment": 54911,
- "formal": 24054,
- "informal": 1060,
- "total_votes": 25114,
- "counted_pct": 45.74,
- "notes": [],
+ "formal": 29436,
+ "informal": 1350,
+ "total_votes": 30786,
+ "counted_pct": 56.07,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Ringwood District results Ringwood District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:12 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "HALSE, Rachel",
    "party": "Australian Labor Party",
-   "votes": 4441,
-   "pct": 18.46
+   "votes": 5451,
+   "pct": 18.52
   },
   {
    "candidate": "McGOWAN, Nick",
    "party": "Liberal",
-   "votes": 9617,
-   "pct": 39.98
+   "votes": 12062,
+   "pct": 40.98
   },
   {
    "candidate": "NORTON, Christopher William",
    "party": "Labour DLP",
-   "votes": 118,
-   "pct": 0.49
+   "votes": 141,
+   "pct": 0.48
   },
   {
    "candidate": "HUANG, Elaine",
    "party": "Family First",
-   "votes": 471,
-   "pct": 1.96
+   "votes": 559,
+   "pct": 1.9
   },
   {
    "candidate": "CUTTS, Prue",
    "party": "",
-   "votes": 1723,
-   "pct": 7.16
+   "votes": 1927,
+   "pct": 6.55
   },
   {
    "candidate": "MILLS, Amy",
    "party": "The Greens",
-   "votes": 4038,
-   "pct": 16.79
+   "votes": 4784,
+   "pct": 16.25
   },
   {
    "candidate": "O'CONNOR, John",
    "party": "One Nation Victoria",
-   "votes": 2459,
-   "pct": 10.22
+   "votes": 3141,
+   "pct": 10.67
   },
   {
    "candidate": "WALKER, Lyndon",
    "party": "Animal Justice Party",
-   "votes": 332,
-   "pct": 1.38
+   "votes": 371,
+   "pct": 1.26
   },
   {
    "candidate": "GARDNER, Jack",
    "party": "Victorian Socialists",
-   "votes": 855,
-   "pct": 3.55
+   "votes": 1000,
+   "pct": 3.4
   }
  ],
  "tcp": [

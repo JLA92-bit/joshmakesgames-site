@@ -3,77 +3,79 @@
  "name": "Mulgrave",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mulgrave-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:32+00:00",
+ "fetched_at": "2026-11-28T11:57:02+00:00",
  "title": "Mulgrave election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:10",
+ "last_updated": "Saturday, 28 November 2026 22:55:09",
  "enrolment": 48090,
- "formal": 23091,
- "informal": 1471,
- "total_votes": 24562,
- "counted_pct": 51.08,
- "notes": [],
+ "formal": 27368,
+ "informal": 1831,
+ "total_votes": 29199,
+ "counted_pct": 60.72,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Mulgrave District results Mulgrave District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:09 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "REBBECHI, Cody",
    "party": "One Nation Victoria",
-   "votes": 3332,
-   "pct": 14.43
+   "votes": 4015,
+   "pct": 14.67
   },
   {
    "candidate": "SCHOFIELD, Paul J",
    "party": "The Greens",
-   "votes": 2412,
-   "pct": 10.45
+   "votes": 2919,
+   "pct": 10.67
   },
   {
    "candidate": "TRAN, Charles",
    "party": "Liberal",
-   "votes": 8090,
-   "pct": 35.04
+   "votes": 9195,
+   "pct": 33.6
   },
   {
    "candidate": "FOSTER, Eden",
    "party": "Australian Labor Party",
-   "votes": 6350,
-   "pct": 27.5
+   "votes": 7688,
+   "pct": 28.09
   },
   {
    "candidate": "THEODOSSOPOULOU, Fotini",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 251,
-   "pct": 1.09
+   "votes": 291,
+   "pct": 1.06
   },
   {
    "candidate": "DOBRZYNSKI, Stewart",
    "party": "Family First",
-   "votes": 369,
-   "pct": 1.6
+   "votes": 432,
+   "pct": 1.58
   },
   {
    "candidate": "COOK, Ian",
    "party": "",
-   "votes": 1790,
-   "pct": 7.75
+   "votes": 2208,
+   "pct": 8.07
   },
   {
    "candidate": "BUCHANAN, Connor",
    "party": "Victorian Socialists",
-   "votes": 497,
-   "pct": 2.15
+   "votes": 620,
+   "pct": 2.27
   }
  ],
  "tcp": [
   {
    "candidate": "FOSTER, Eden",
    "party": "Australian Labor Party",
-   "votes": 2089,
-   "pct": 52.98
+   "votes": 3060,
+   "pct": 50.79
   },
   {
    "candidate": "COOK, Ian",
    "party": "",
-   "votes": 1854,
-   "pct": 47.02
+   "votes": 2965,
+   "pct": 49.21
   }
  ],
  "links": {

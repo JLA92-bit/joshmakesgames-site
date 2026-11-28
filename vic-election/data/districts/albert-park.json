@@ -3,15 +3,17 @@
  "name": "Albert Park",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/albert-park-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:48:00+00:00",
+ "fetched_at": "2026-11-28T11:56:50+00:00",
  "title": "Albert Park election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:45:02",
+ "last_updated": "Saturday, 28 November 2026 22:55:02",
  "enrolment": 51117,
  "formal": 11019,
  "informal": 543,
  "total_votes": 11562,
  "counted_pct": 22.62,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Albert Park District results Albert Park District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:02 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "DRAGWIDGE, Georgie",
@@ -60,14 +62,14 @@
   {
    "candidate": "COOK, Andrew",
    "party": "Liberal",
-   "votes": 4370,
-   "pct": 51.39
+   "votes": 4910,
+   "pct": 52.01
   },
   {
    "candidate": "TAYLOR, Nina",
    "party": "Australian Labor Party",
-   "votes": 4133,
-   "pct": 48.61
+   "votes": 4531,
+   "pct": 47.99
   }
  ],
  "links": {

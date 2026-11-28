@@ -3,112 +3,112 @@
  "name": "Western Victoria Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Victoria-Region-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:50:47+00:00",
+ "fetched_at": "2026-11-28T11:57:14+00:00",
  "title": "Western Victoria Region results | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:50:16",
+ "last_updated": "Saturday, 28 November 2026 22:55:16",
  "enrolment": 613399,
- "formal": 76519,
- "informal": 3535,
- "total_votes": 80054,
- "counted_pct": 13.05,
+ "formal": 82787,
+ "informal": 3774,
+ "total_votes": 86561,
+ "counted_pct": 14.11,
  "notes": [
-  "Close Back to Results by region Home Results 2026 state election results Region results Results by region Western Victoria Region results Western Victoria Region results Provisional results Last updated: Saturday, 28 November 2026 22:50:16 These results are provisional."
+  "Close Back to Results by region Home Results 2026 state election results Region results Results by region Western Victoria Region results Western Victoria Region results Provisional results Last updated: Saturday, 28 November 2026 22:55:16 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "The Greens",
    "party": "The Greens",
-   "votes": 12840,
-   "pct": 16.78
+   "votes": 14029,
+   "pct": 16.95
   },
   {
    "candidate": "Affordable Housing Now – Sustainable Australia Party",
    "party": "Affordable Housing Now – Sustainable Australia Party",
-   "votes": 1011,
-   "pct": 1.32
+   "votes": 1085,
+   "pct": 1.31
   },
   {
    "candidate": "Australian Labor Party",
    "party": "Australian Labor Party",
-   "votes": 10753,
-   "pct": 14.05
+   "votes": 11797,
+   "pct": 14.25
   },
   {
    "candidate": "Legalise Cannabis Victoria",
    "party": "Legalise Cannabis Victoria",
-   "votes": 2590,
-   "pct": 3.38
+   "votes": 2749,
+   "pct": 3.32
   },
   {
    "candidate": "Australian Democrats",
    "party": "Australian Democrats",
-   "votes": 462,
+   "votes": 498,
    "pct": 0.6
   },
   {
    "candidate": "Liberal / The Nationals",
    "party": "Liberal / The Nationals",
-   "votes": 22736,
-   "pct": 29.71
+   "votes": 24464,
+   "pct": 29.55
   },
   {
    "candidate": "Victorian Socialists",
    "party": "Victorian Socialists",
-   "votes": 1395,
-   "pct": 1.82
+   "votes": 1502,
+   "pct": 1.81
   },
   {
    "candidate": "Group H",
    "party": "Group H",
-   "votes": 578,
-   "pct": 0.76
+   "votes": 621,
+   "pct": 0.75
   },
   {
    "candidate": "Libertarian (formerly Liberal Democrats)",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 437,
-   "pct": 0.57
+   "votes": 464,
+   "pct": 0.56
   },
   {
    "candidate": "Socialist Alliance",
    "party": "Socialist Alliance",
-   "votes": 316,
-   "pct": 0.41
+   "votes": 350,
+   "pct": 0.42
   },
   {
    "candidate": "One Nation Victoria",
    "party": "One Nation Victoria",
-   "votes": 20650,
-   "pct": 26.99
+   "votes": 22271,
+   "pct": 26.9
   },
   {
    "candidate": "Labour DLP",
    "party": "Labour DLP",
-   "votes": 353,
-   "pct": 0.46
+   "votes": 370,
+   "pct": 0.45
   },
   {
    "candidate": "Shooters, Fishers and Farmers Party Victoria",
    "party": "Shooters, Fishers and Farmers Party Victoria",
-   "votes": 1055,
-   "pct": 1.38
+   "votes": 1133,
+   "pct": 1.37
   },
   {
    "candidate": "Family First",
    "party": "Family First",
-   "votes": 1253,
+   "votes": 1359,
    "pct": 1.64
   },
   {
    "candidate": "The Republican",
    "party": "The Republican",
-   "votes": 54,
+   "votes": 57,
    "pct": 0.07
   },
   {
    "candidate": "FISHER, Eve",
    "party": "FISHER, Eve",
-   "votes": 36,
+   "votes": 38,
    "pct": 0.05
   }
  ],

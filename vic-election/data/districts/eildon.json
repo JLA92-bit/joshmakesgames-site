@@ -3,77 +3,79 @@
  "name": "Eildon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eildon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:48:07+00:00",
+ "fetched_at": "2026-11-28T11:56:56+00:00",
  "title": "Eildon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:45:05",
+ "last_updated": "Saturday, 28 November 2026 22:55:05",
  "enrolment": 51711,
- "formal": 19466,
- "informal": 1075,
- "total_votes": 20541,
- "counted_pct": 39.72,
- "notes": [],
+ "formal": 19882,
+ "informal": 1094,
+ "total_votes": 20976,
+ "counted_pct": 40.56,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Eildon District results Eildon District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:05 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "WARD, Tom",
    "party": "",
-   "votes": 1220,
-   "pct": 6.27
+   "votes": 1231,
+   "pct": 6.19
   },
   {
    "candidate": "MCLEISH, Cindy",
    "party": "Liberal",
-   "votes": 6439,
-   "pct": 33.08
+   "votes": 6608,
+   "pct": 33.24
   },
   {
    "candidate": "BARBER, Tim",
    "party": "One Nation Victoria",
-   "votes": 6166,
-   "pct": 31.68
+   "votes": 6308,
+   "pct": 31.73
   },
   {
    "candidate": "MOSELY, Joshua",
    "party": "Family First",
-   "votes": 270,
-   "pct": 1.39
+   "votes": 274,
+   "pct": 1.38
   },
   {
    "candidate": "GULPILIL, Talia",
    "party": "The Greens",
-   "votes": 2520,
-   "pct": 12.95
+   "votes": 2555,
+   "pct": 12.85
   },
   {
    "candidate": "LITTLE, Dylan",
    "party": "Victorian Socialists",
-   "votes": 358,
-   "pct": 1.84
+   "votes": 363,
+   "pct": 1.83
   },
   {
    "candidate": "GIBSON, Kevin",
    "party": "Australian Labor Party",
-   "votes": 1876,
-   "pct": 9.64
+   "votes": 1914,
+   "pct": 9.63
   },
   {
    "candidate": "BOND, Chloe",
    "party": "Animal Justice Party",
-   "votes": 617,
-   "pct": 3.17
+   "votes": 629,
+   "pct": 3.16
   }
  ],
  "tcp": [
   {
    "candidate": "MCLEISH, Cindy",
    "party": "Liberal",
-   "votes": 10738,
-   "pct": 62.63
+   "votes": 11287,
+   "pct": 62.08
   },
   {
    "candidate": "BARBER, Tim",
    "party": "One Nation Victoria",
-   "votes": 6407,
-   "pct": 37.37
+   "votes": 6893,
+   "pct": 37.92
   }
  ],
  "links": {

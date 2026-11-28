@@ -3,45 +3,47 @@
  "name": "Prahran",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/prahran-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:35:35+00:00",
+ "fetched_at": "2026-11-28T11:57:04+00:00",
  "title": "Prahran election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:13",
+ "last_updated": "Saturday, 28 November 2026 22:55:12",
  "enrolment": 49678,
- "formal": 11061,
- "informal": 635,
- "total_votes": 11696,
- "counted_pct": 23.54,
- "notes": [],
+ "formal": 11139,
+ "informal": 643,
+ "total_votes": 11782,
+ "counted_pct": 23.72,
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Prahran District results Prahran District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:12 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "FINNIGAN, Tosh-Jake",
    "party": "",
    "votes": 64,
-   "pct": 0.58
+   "pct": 0.57
   },
   {
    "candidate": "O'NEILL, G. Daniel",
    "party": "Animal Justice Party",
    "votes": 210,
-   "pct": 1.9
+   "pct": 1.89
   },
   {
    "candidate": "LEETON WATTS, George",
    "party": "",
    "votes": 97,
-   "pct": 0.88
+   "pct": 0.87
   },
   {
    "candidate": "WESTAWAY, Rachel",
    "party": "Liberal",
-   "votes": 4188,
-   "pct": 37.86
+   "votes": 4210,
+   "pct": 37.8
   },
   {
    "candidate": "MENADUE, Alan",
    "party": "",
    "votes": 25,
-   "pct": 0.23
+   "pct": 0.22
   },
   {
    "candidate": "WONG, Nicholas",
@@ -64,46 +66,46 @@
   {
    "candidate": "DOUEIHI, Clayton",
    "party": "Victorian Socialists",
-   "votes": 536,
-   "pct": 4.85
+   "votes": 538,
+   "pct": 4.83
   },
   {
    "candidate": "JONAS, Morgan",
    "party": "Safety Victoria – Violent Crime Prevention",
-   "votes": 71,
-   "pct": 0.64
+   "votes": 72,
+   "pct": 0.65
   },
   {
    "candidate": "VIRSU, Shaun",
    "party": "One Nation Victoria",
-   "votes": 708,
-   "pct": 6.4
+   "votes": 714,
+   "pct": 6.41
   },
   {
    "candidate": "HOPPER, Meghan",
    "party": "Australian Labor Party",
-   "votes": 1424,
-   "pct": 12.87
+   "votes": 1433,
+   "pct": 12.86
   },
   {
    "candidate": "DI CAMILLO, Angelica",
    "party": "The Greens",
-   "votes": 3579,
-   "pct": 32.36
+   "votes": 3617,
+   "pct": 32.47
   }
  ],
  "tcp": [
   {
    "candidate": "WESTAWAY, Rachel",
    "party": "Liberal",
-   "votes": 3101,
-   "pct": 43.33
+   "votes": 4976,
+   "pct": 48.52
   },
   {
    "candidate": "DI CAMILLO, Angelica",
    "party": "The Greens",
-   "votes": 4055,
-   "pct": 56.67
+   "votes": 5280,
+   "pct": 51.48
   }
  ],
  "links": {

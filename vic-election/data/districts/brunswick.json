@@ -3,15 +3,17 @@
  "name": "Brunswick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brunswick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:48:05+00:00",
+ "fetched_at": "2026-11-28T11:56:54+00:00",
  "title": "Brunswick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:45:02",
+ "last_updated": "Saturday, 28 November 2026 22:55:02",
  "enrolment": 56194,
  "formal": 16323,
  "informal": 737,
  "total_votes": 17060,
  "counted_pct": 30.36,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Brunswick District results Brunswick District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:02 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "FARMER, Naomi",
@@ -66,14 +68,14 @@
   {
    "candidate": "PULFORD, Adam",
    "party": "The Greens",
-   "votes": 11601,
-   "pct": 74.89
+   "votes": 12269,
+   "pct": 75.22
   },
   {
    "candidate": "STEGER, Gabe",
    "party": "Australian Labor Party",
-   "votes": 3890,
-   "pct": 25.11
+   "votes": 4041,
+   "pct": 24.78
   }
  ],
  "links": {
