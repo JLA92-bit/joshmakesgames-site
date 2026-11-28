@@ -3,77 +3,77 @@
  "name": "Mulgrave",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mulgrave-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:27:26+00:00",
+ "fetched_at": "2026-11-28T10:44:37+00:00",
  "title": "Mulgrave election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:25:10",
+ "last_updated": "Saturday, 28 November 2026 21:40:10",
  "enrolment": 48090,
- "formal": 6259,
- "informal": 503,
- "total_votes": 6762,
- "counted_pct": 14.06,
+ "formal": 9031,
+ "informal": 603,
+ "total_votes": 9634,
+ "counted_pct": 20.03,
  "notes": [],
  "primary": [
   {
    "candidate": "REBBECHI, Cody",
    "party": "One Nation Victoria",
-   "votes": 973,
-   "pct": 15.55
+   "votes": 1361,
+   "pct": 15.07
   },
   {
    "candidate": "SCHOFIELD, Paul J",
    "party": "The Greens",
-   "votes": 691,
-   "pct": 11.04
+   "votes": 918,
+   "pct": 10.16
   },
   {
    "candidate": "TRAN, Charles",
    "party": "Liberal",
-   "votes": 2091,
-   "pct": 33.41
+   "votes": 3091,
+   "pct": 34.23
   },
   {
    "candidate": "FOSTER, Eden",
    "party": "Australian Labor Party",
-   "votes": 1722,
-   "pct": 27.51
+   "votes": 2587,
+   "pct": 28.65
   },
   {
    "candidate": "THEODOSSOPOULOU, Fotini",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 75,
-   "pct": 1.2
+   "votes": 102,
+   "pct": 1.13
   },
   {
    "candidate": "DOBRZYNSKI, Stewart",
    "party": "Family First",
-   "votes": 100,
-   "pct": 1.6
+   "votes": 171,
+   "pct": 1.89
   },
   {
    "candidate": "COOK, Ian",
    "party": "",
-   "votes": 457,
-   "pct": 7.3
+   "votes": 598,
+   "pct": 6.62
   },
   {
    "candidate": "BUCHANAN, Connor",
    "party": "Victorian Socialists",
-   "votes": 150,
-   "pct": 2.4
+   "votes": 203,
+   "pct": 2.25
   }
  ],
  "tcp": [
   {
    "candidate": "FOSTER, Eden",
    "party": "Australian Labor Party",
-   "votes": 863,
-   "pct": 54.41
+   "votes": 1461,
+   "pct": 51.79
   },
   {
    "candidate": "COOK, Ian",
    "party": "",
-   "votes": 723,
-   "pct": 45.59
+   "votes": 1360,
+   "pct": 48.21
   }
  ],
  "links": {

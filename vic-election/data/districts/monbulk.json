@@ -3,71 +3,71 @@
  "name": "Monbulk",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/monbulk-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:27:34+00:00",
+ "fetched_at": "2026-11-28T10:44:37+00:00",
  "title": "Monbulk election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:25:10",
+ "last_updated": "Saturday, 28 November 2026 21:40:10",
  "enrolment": 50003,
- "formal": 15295,
- "informal": 602,
- "total_votes": 15897,
- "counted_pct": 31.79,
+ "formal": 16679,
+ "informal": 639,
+ "total_votes": 17318,
+ "counted_pct": 34.63,
  "notes": [],
  "primary": [
   {
    "candidate": "FITZMAURICE, Clare",
    "party": "Liberal",
-   "votes": 4375,
-   "pct": 28.6
+   "votes": 4694,
+   "pct": 28.14
   },
   {
    "candidate": "MANNERS, Craig",
    "party": "Family First",
-   "votes": 293,
-   "pct": 1.92
+   "votes": 330,
+   "pct": 1.98
   },
   {
    "candidate": "DE MARTINO, Daniela",
    "party": "Australian Labor Party",
-   "votes": 3204,
-   "pct": 20.95
+   "votes": 3522,
+   "pct": 21.12
   },
   {
    "candidate": "DOWELL, Adrian",
    "party": "One Nation Victoria",
-   "votes": 3294,
-   "pct": 21.54
+   "votes": 3522,
+   "pct": 21.12
   },
   {
    "candidate": "BLAIR, Merran",
    "party": "The Greens",
-   "votes": 3070,
-   "pct": 20.07
+   "votes": 3422,
+   "pct": 20.52
   },
   {
    "candidate": "WORMALD, Alyssa",
    "party": "Animal Justice Party",
-   "votes": 411,
-   "pct": 2.69
+   "votes": 445,
+   "pct": 2.67
   },
   {
    "candidate": "BRIGGS, Noah",
    "party": "Victorian Socialists",
-   "votes": 648,
-   "pct": 4.24
+   "votes": 744,
+   "pct": 4.46
   }
  ],
  "tcp": [
   {
    "candidate": "FITZMAURICE, Clare",
    "party": "Liberal",
-   "votes": 5913,
-   "pct": 55.07
+   "votes": 6798,
+   "pct": 56.07
   },
   {
    "candidate": "DE MARTINO, Daniela",
    "party": "Australian Labor Party",
-   "votes": 4824,
-   "pct": 44.93
+   "votes": 5327,
+   "pct": 43.93
   }
  ],
  "links": {

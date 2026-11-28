@@ -3,80 +3,83 @@
  "name": "Ovens Valley",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ovens-valley-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:43:08+00:00",
+ "fetched_at": "2026-11-28T10:44:39+00:00",
  "title": "Ovens Valley election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:13",
+ "last_updated": "Saturday, 28 November 2026 21:40:12",
  "enrolment": 49586,
- "counted_pct": 6.3,
+ "formal": 16414,
+ "informal": 1089,
+ "total_votes": 17503,
+ "counted_pct": 35.3,
  "notes": [],
  "primary": [
   {
    "candidate": "McCURDY, Tim",
    "party": "The Nationals",
-   "votes": 3976,
-   "pct": 33.87
+   "votes": 5741,
+   "pct": 34.98
   },
   {
    "candidate": "FIDGE, Julian",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 251,
-   "pct": 2.14
+   "votes": 319,
+   "pct": 1.94
   },
   {
    "candidate": "MURPHY, Bronwyn",
    "party": "Victorian Socialists",
-   "votes": 89,
-   "pct": 0.76
+   "votes": 139,
+   "pct": 0.85
   },
   {
    "candidate": "ROUEL, James",
    "party": "One Nation Victoria",
-   "votes": 3940,
-   "pct": 33.57
+   "votes": 5406,
+   "pct": 32.94
   },
   {
    "candidate": "MANNING, Steve",
    "party": "",
-   "votes": 2080,
-   "pct": 17.72
+   "votes": 2887,
+   "pct": 17.59
   },
   {
    "candidate": "NORTON-SMITH, Carol",
    "party": "Family First",
-   "votes": 124,
-   "pct": 1.06
+   "votes": 161,
+   "pct": 0.98
   },
   {
    "candidate": "SMITH, Jennifer",
    "party": "Australian Labor Party",
-   "votes": 604,
-   "pct": 5.15
+   "votes": 849,
+   "pct": 5.17
   },
   {
    "candidate": "GILBERT, Benjamin",
    "party": "The Greens",
-   "votes": 542,
-   "pct": 4.62
+   "votes": 736,
+   "pct": 4.48
   },
   {
    "candidate": "LITCHFIELD, Sue",
    "party": "Animal Justice Party",
-   "votes": 132,
-   "pct": 1.12
+   "votes": 176,
+   "pct": 1.07
   }
  ],
  "tcp": [
   {
    "candidate": "McCURDY, Tim",
    "party": "The Nationals",
-   "votes": 3188,
-   "pct": 66.62
+   "votes": 7285,
+   "pct": 59.39
   },
   {
    "candidate": "ROUEL, James",
    "party": "One Nation Victoria",
-   "votes": 1597,
-   "pct": 33.38
+   "votes": 4982,
+   "pct": 40.61
   }
  ],
  "links": {

@@ -3,13 +3,13 @@
  "name": "Tarneit",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/tarneit-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:27:36+00:00",
+ "fetched_at": "2026-11-28T10:44:43+00:00",
  "title": "Tarneit election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:25:15",
+ "last_updated": "Saturday, 28 November 2026 21:40:15",
  "enrolment": 60755,
- "formal": 12619,
+ "formal": 12620,
  "informal": 1379,
- "total_votes": 13998,
+ "total_votes": 13999,
  "counted_pct": 23.04,
  "notes": [],
  "primary": [
@@ -64,20 +64,20 @@
   {
    "candidate": "VILLAGONZALO, Walter",
    "party": "One Nation Victoria",
-   "votes": 2424,
-   "pct": 19.21
+   "votes": 2425,
+   "pct": 19.22
   },
   {
    "candidate": "RIFAI, A. Raheem",
    "party": "The Greens",
-   "votes": 2361,
-   "pct": 18.71
+   "votes": 2360,
+   "pct": 18.7
   },
   {
    "candidate": "UPPARLAPALLE, Venkat Ram",
    "party": "Liberal",
-   "votes": 3251,
-   "pct": 25.76
+   "votes": 3252,
+   "pct": 25.77
   },
   {
    "candidate": "SUDHAGANI, Sindhu",
@@ -90,14 +90,14 @@
   {
    "candidate": "WIGHT, Dylan",
    "party": "Australian Labor Party",
-   "votes": 2185,
-   "pct": 51.9
+   "votes": 3073,
+   "pct": 51.19
   },
   {
    "candidate": "UPPARLAPALLE, Venkat Ram",
    "party": "Liberal",
-   "votes": 2025,
-   "pct": 48.1
+   "votes": 2930,
+   "pct": 48.81
   }
  ],
  "links": {

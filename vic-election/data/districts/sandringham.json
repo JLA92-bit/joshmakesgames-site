@@ -3,41 +3,44 @@
  "name": "Sandringham",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sandringham-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:43:35+00:00",
+ "fetched_at": "2026-11-28T10:44:42+00:00",
  "title": "Sandringham election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:14",
+ "last_updated": "Saturday, 28 November 2026 21:40:14",
  "enrolment": 49842,
- "counted_pct": 1.61,
+ "formal": 37674,
+ "informal": 595,
+ "total_votes": 38269,
+ "counted_pct": 76.78,
  "notes": [],
  "primary": [
   {
    "candidate": "STEVENSON, Lauren",
    "party": "Victorian Socialists",
-   "votes": 947,
-   "pct": 3.77
+   "votes": 1323,
+   "pct": 3.51
   },
   {
    "candidate": "FOTAKIS, Timon",
    "party": "The Greens",
-   "votes": 4506,
-   "pct": 17.93
+   "votes": 6334,
+   "pct": 16.81
   },
   {
    "candidate": "ROWSWELL, Brad",
    "party": "Liberal",
-   "votes": 13625,
-   "pct": 54.21
+   "votes": 20994,
+   "pct": 55.73
   },
   {
    "candidate": "SAGRIS-DESMOND, Anastasia",
    "party": "Australian Labor Party",
-   "votes": 3563,
-   "pct": 14.18
+   "votes": 5289,
+   "pct": 14.04
   },
   {
    "candidate": "BLIGHT, Anthony",
    "party": "One Nation Victoria",
-   "votes": 2491,
+   "votes": 3734,
    "pct": 9.91
   }
  ],
@@ -45,14 +48,14 @@
   {
    "candidate": "ROWSWELL, Brad",
    "party": "Liberal",
-   "votes": 5473,
-   "pct": 65.12
+   "votes": 9016,
+   "pct": 64.23
   },
   {
    "candidate": "SAGRIS-DESMOND, Anastasia",
    "party": "Australian Labor Party",
-   "votes": 2932,
-   "pct": 34.88
+   "votes": 5021,
+   "pct": 35.77
   }
  ],
  "links": {

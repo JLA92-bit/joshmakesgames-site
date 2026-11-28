@@ -3,63 +3,63 @@
  "name": "Brunswick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brunswick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:37:39+00:00",
+ "fetched_at": "2026-11-28T10:44:31+00:00",
  "title": "Brunswick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:35:02",
+ "last_updated": "Saturday, 28 November 2026 21:40:02",
  "enrolment": 56194,
- "formal": 11944,
- "informal": 551,
- "total_votes": 12495,
- "counted_pct": 22.24,
+ "formal": 12913,
+ "informal": 591,
+ "total_votes": 13504,
+ "counted_pct": 24.03,
  "notes": [],
  "primary": [
   {
    "candidate": "FARMER, Naomi",
    "party": "Victorian Socialists",
-   "votes": 2234,
-   "pct": 18.7
+   "votes": 2441,
+   "pct": 18.9
   },
   {
    "candidate": "MARGELIS, John",
    "party": "Liberal",
-   "votes": 1341,
-   "pct": 11.23
+   "votes": 1435,
+   "pct": 11.11
   },
   {
    "candidate": "PULFORD, Adam",
    "party": "The Greens",
-   "votes": 5450,
-   "pct": 45.63
+   "votes": 5849,
+   "pct": 45.3
   },
   {
    "candidate": "HELMAN, Adam",
    "party": "One Nation Victoria",
-   "votes": 548,
+   "votes": 593,
    "pct": 4.59
   },
   {
    "candidate": "ROSE, India",
    "party": "Animal Justice Party",
-   "votes": 219,
-   "pct": 1.83
+   "votes": 235,
+   "pct": 1.82
   },
   {
    "candidate": "STEGER, Gabe",
    "party": "Australian Labor Party",
-   "votes": 1884,
-   "pct": 15.77
+   "votes": 2065,
+   "pct": 15.99
   },
   {
    "candidate": "AMANATIDIS, Jack",
    "party": "",
-   "votes": 65,
-   "pct": 0.54
+   "votes": 72,
+   "pct": 0.56
   },
   {
    "candidate": "YUAN, Melissa",
    "party": "",
-   "votes": 203,
-   "pct": 1.7
+   "votes": 223,
+   "pct": 1.73
   }
  ],
  "tcp": [
