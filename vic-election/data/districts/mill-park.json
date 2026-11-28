@@ -3,63 +3,63 @@
  "name": "Mill Park",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mill-park-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:23:50+00:00",
+ "fetched_at": "2026-11-28T14:33:16+00:00",
  "title": "Mill Park election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:20:09",
+ "last_updated": "Sunday, 29 November 2026 01:30:09",
  "enrolment": 48297,
- "formal": 24658,
- "informal": 2112,
- "total_votes": 26770,
- "counted_pct": 55.43,
+ "formal": 29824,
+ "informal": 2690,
+ "total_votes": 32514,
+ "counted_pct": 67.32,
  "notes": [],
  "primary": [
   {
    "candidate": "NEALY, Elizabeth",
    "party": "Australian Labor Party",
-   "votes": 5869,
-   "pct": 23.8
+   "votes": 7183,
+   "pct": 24.08
   },
   {
    "candidate": "DRYSDALE, Joel",
    "party": "Liberal",
-   "votes": 7253,
-   "pct": 29.41
+   "votes": 8878,
+   "pct": 29.77
   },
   {
    "candidate": "VAN DER END, Kath",
    "party": "Family First",
-   "votes": 620,
-   "pct": 2.51
+   "votes": 717,
+   "pct": 2.4
   },
   {
    "candidate": "ZACHARIAS, Binoy",
    "party": "The Greens",
-   "votes": 2742,
-   "pct": 11.12
+   "votes": 3196,
+   "pct": 10.72
   },
   {
    "candidate": "McLINDON, Aidan",
    "party": "",
-   "votes": 173,
-   "pct": 0.7
+   "votes": 200,
+   "pct": 0.67
   },
   {
    "candidate": "LAMBOURN, Jesse",
    "party": "Victorian Socialists",
-   "votes": 1037,
-   "pct": 4.21
+   "votes": 1142,
+   "pct": 3.83
   },
   {
    "candidate": "TSOUTSOULIS, Arthur",
    "party": "One Nation Victoria",
-   "votes": 6529,
-   "pct": 26.48
+   "votes": 8002,
+   "pct": 26.83
   },
   {
    "candidate": "LEVENS, Eve",
    "party": "Animal Justice Party",
-   "votes": 435,
-   "pct": 1.76
+   "votes": 506,
+   "pct": 1.7
   }
  ],
  "tcp": [

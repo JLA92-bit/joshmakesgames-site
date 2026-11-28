@@ -3,9 +3,9 @@
  "name": "Greenvale",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/greenvale-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:29:26+00:00",
+ "fetched_at": "2026-11-28T14:32:33+00:00",
  "title": "Greenvale election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:25:06",
+ "last_updated": "Sunday, 29 November 2026 01:30:06",
  "enrolment": 55541,
  "formal": 12264,
  "informal": 1306,
@@ -78,14 +78,14 @@
   {
    "candidate": "MOORE, Chris",
    "party": "One Nation Victoria",
-   "votes": 3701,
-   "pct": 38.1
+   "votes": 3910,
+   "pct": 37.89
   },
   {
    "candidate": "WALTERS, Iwan",
    "party": "Australian Labor Party",
-   "votes": 6014,
-   "pct": 61.9
+   "votes": 6409,
+   "pct": 62.11
   }
  ],
  "links": {
@@ -625,18 +625,18 @@
    {
     "booth": "Total two candidate preferred votes",
     "values": {
-     "MOORE, Chris One Nation Victoria": 3701.0,
-     "WALTERS, Iwan Australian Labor Party": 6014.0,
+     "MOORE, Chris One Nation Victoria": 3910.0,
+     "WALTERS, Iwan Australian Labor Party": 6409.0,
      "Miss-sorts": 11.0,
-     "Informal votes": 1073.0,
-     "Total votes polled": 10799.0
+     "Informal votes": 1170.0,
+     "Total votes polled": 11500.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "MOORE, Chris One Nation Victoria": 38.1,
-     "WALTERS, Iwan Australian Labor Party": 61.9
+     "MOORE, Chris One Nation Victoria": 37.89,
+     "WALTERS, Iwan Australian Labor Party": 62.11
     }
    },
    {
@@ -716,11 +716,11 @@
    {
     "booth": "Lakeside Drive",
     "values": {
-     "MOORE, Chris One Nation Victoria": 0.0,
-     "WALTERS, Iwan Australian Labor Party": 0.0,
+     "MOORE, Chris One Nation Victoria": 209.0,
+     "WALTERS, Iwan Australian Labor Party": 395.0,
      "Miss-sorts": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "Informal votes": 97.0,
+     "Total votes polled": 701.0
     }
    },
    {
@@ -796,11 +796,11 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "MOORE, Chris One Nation Victoria": 2631.0,
-     "WALTERS, Iwan Australian Labor Party": 5023.0,
+     "MOORE, Chris One Nation Victoria": 2840.0,
+     "WALTERS, Iwan Australian Labor Party": 5418.0,
      "Miss-sorts": 6.0,
-     "Informal votes": 996.0,
-     "Total votes polled": 8656.0
+     "Informal votes": 1093.0,
+     "Total votes polled": 9357.0
     }
    },
    {
