@@ -3,72 +3,562 @@
  "name": "Albert Park",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/albert-park-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:41:32+00:00",
+ "fetched_at": "2026-11-28T10:16:55+00:00",
  "title": "Albert Park election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:02",
+ "last_updated": "Saturday, 28 November 2026 21:15:02",
  "enrolment": 51117,
- "counted_pct": 4.98,
+ "formal": 8196,
+ "informal": 414,
+ "total_votes": 8610,
+ "counted_pct": 16.84,
  "notes": [],
  "primary": [
   {
    "candidate": "DRAGWIDGE, Georgie",
    "party": "",
-   "votes": 401,
-   "pct": 6.84
+   "votes": 541,
+   "pct": 6.6
   },
   {
    "candidate": "SEMMENS, Sonya",
    "party": "The Greens",
-   "votes": 1617,
-   "pct": 27.58
+   "votes": 2106,
+   "pct": 25.7
   },
   {
    "candidate": "COOK, Andrew",
    "party": "Liberal",
-   "votes": 1848,
-   "pct": 31.52
+   "votes": 2773,
+   "pct": 33.83
   },
   {
    "candidate": "TAYLOR, Nina",
    "party": "Australian Labor Party",
-   "votes": 1042,
-   "pct": 17.77
+   "votes": 1436,
+   "pct": 17.52
   },
   {
    "candidate": "KING, Adrian William",
    "party": "",
-   "votes": 104,
-   "pct": 1.77
+   "votes": 174,
+   "pct": 2.12
   },
   {
    "candidate": "LINDRUM, Tam",
    "party": "One Nation Victoria",
-   "votes": 519,
-   "pct": 8.85
+   "votes": 776,
+   "pct": 9.47
   },
   {
    "candidate": "BOLGER, Colleen",
    "party": "Victorian Socialists",
-   "votes": 332,
-   "pct": 5.66
+   "votes": 390,
+   "pct": 4.76
   }
  ],
  "tcp": [
   {
    "candidate": "COOK, Andrew",
    "party": "Liberal",
-   "votes": 969,
-   "pct": 50.6
+   "votes": 2677,
+   "pct": 54.37
   },
   {
    "candidate": "TAYLOR, Nina",
    "party": "Australian Labor Party",
-   "votes": 946,
-   "pct": 49.4
+   "votes": 2247,
+   "pct": 45.63
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/albert-park-district-results/Albert-Park-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/albert-park-district-results/Albert-Park-2CP-results-by-voting-centre"
+ },
+ "booths_primary": {
+  "columns": [
+   "DRAGWIDGE, Georgie",
+   "SEMMENS, Sonya The Greens",
+   "COOK, Andrew Liberal",
+   "TAYLOR, Nina Australian Labor Party",
+   "KING, Adrian William",
+   "LINDRUM, Tam One Nation Victoria",
+   "BOLGER, Colleen Victorian Socialists",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total first preference votes",
+    "values": {
+     "DRAGWIDGE, Georgie": 541.0,
+     "SEMMENS, Sonya The Greens": 2106.0,
+     "COOK, Andrew Liberal": 2773.0,
+     "TAYLOR, Nina Australian Labor Party": 1436.0,
+     "KING, Adrian William": 174.0,
+     "LINDRUM, Tam One Nation Victoria": 776.0,
+     "BOLGER, Colleen Victorian Socialists": 390.0,
+     "Informal votes": 414.0,
+     "Total votes polled": 8610.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "DRAGWIDGE, Georgie": 6.6,
+     "SEMMENS, Sonya The Greens": 25.7,
+     "COOK, Andrew Liberal": 33.83,
+     "TAYLOR, Nina Australian Labor Party": 17.52,
+     "KING, Adrian William": 2.12,
+     "LINDRUM, Tam One Nation Victoria": 9.47,
+     "BOLGER, Colleen Victorian Socialists": 4.76
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Bridport",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Ferrars",
+    "values": {
+     "DRAGWIDGE, Georgie": 33.0,
+     "SEMMENS, Sonya The Greens": 146.0,
+     "COOK, Andrew Liberal": 183.0,
+     "TAYLOR, Nina Australian Labor Party": 122.0,
+     "KING, Adrian William": 12.0,
+     "LINDRUM, Tam One Nation Victoria": 67.0,
+     "BOLGER, Colleen Victorian Socialists": 37.0,
+     "Informal votes": 36.0,
+     "Total votes polled": 636.0
+    }
+   },
+   {
+    "booth": "Kerferd South",
+    "values": {
+     "DRAGWIDGE, Georgie": 77.0,
+     "SEMMENS, Sonya The Greens": 283.0,
+     "COOK, Andrew Liberal": 587.0,
+     "TAYLOR, Nina Australian Labor Party": 226.0,
+     "KING, Adrian William": 60.0,
+     "LINDRUM, Tam One Nation Victoria": 126.0,
+     "BOLGER, Colleen Victorian Socialists": 22.0,
+     "Informal votes": 60.0,
+     "Total votes polled": 1441.0
+    }
+   },
+   {
+    "booth": "Melbourne",
+    "values": {
+     "DRAGWIDGE, Georgie": 4.0,
+     "SEMMENS, Sonya The Greens": 33.0,
+     "COOK, Andrew Liberal": 52.0,
+     "TAYLOR, Nina Australian Labor Party": 24.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 12.0,
+     "BOLGER, Colleen Victorian Socialists": 13.0,
+     "Informal votes": 7.0,
+     "Total votes polled": 145.0
+    }
+   },
+   {
+    "booth": "Port Melbourne",
+    "values": {
+     "DRAGWIDGE, Georgie": 43.0,
+     "SEMMENS, Sonya The Greens": 150.0,
+     "COOK, Andrew Liberal": 247.0,
+     "TAYLOR, Nina Australian Labor Party": 121.0,
+     "KING, Adrian William": 11.0,
+     "LINDRUM, Tam One Nation Victoria": 68.0,
+     "BOLGER, Colleen Victorian Socialists": 10.0,
+     "Informal votes": 21.0,
+     "Total votes polled": 671.0
+    }
+   },
+   {
+    "booth": "Port Melbourne Beach",
+    "values": {
+     "DRAGWIDGE, Georgie": 60.0,
+     "SEMMENS, Sonya The Greens": 203.0,
+     "COOK, Andrew Liberal": 335.0,
+     "TAYLOR, Nina Australian Labor Party": 166.0,
+     "KING, Adrian William": 10.0,
+     "LINDRUM, Tam One Nation Victoria": 129.0,
+     "BOLGER, Colleen Victorian Socialists": 36.0,
+     "Informal votes": 47.0,
+     "Total votes polled": 986.0
+    }
+   },
+   {
+    "booth": "Port Melbourne East",
+    "values": {
+     "DRAGWIDGE, Georgie": 37.0,
+     "SEMMENS, Sonya The Greens": 76.0,
+     "COOK, Andrew Liberal": 89.0,
+     "TAYLOR, Nina Australian Labor Party": 68.0,
+     "KING, Adrian William": 8.0,
+     "LINDRUM, Tam One Nation Victoria": 16.0,
+     "BOLGER, Colleen Victorian Socialists": 11.0,
+     "Informal votes": 17.0,
+     "Total votes polled": 322.0
+    }
+   },
+   {
+    "booth": "Port Melbourne West",
+    "values": {
+     "DRAGWIDGE, Georgie": 41.0,
+     "SEMMENS, Sonya The Greens": 145.0,
+     "COOK, Andrew Liberal": 365.0,
+     "TAYLOR, Nina Australian Labor Party": 87.0,
+     "KING, Adrian William": 24.0,
+     "LINDRUM, Tam One Nation Victoria": 75.0,
+     "BOLGER, Colleen Victorian Socialists": 25.0,
+     "Informal votes": 37.0,
+     "Total votes polled": 799.0
+    }
+   },
+   {
+    "booth": "Sandridge",
+    "values": {
+     "DRAGWIDGE, Georgie": 37.0,
+     "SEMMENS, Sonya The Greens": 120.0,
+     "COOK, Andrew Liberal": 220.0,
+     "TAYLOR, Nina Australian Labor Party": 73.0,
+     "KING, Adrian William": 10.0,
+     "LINDRUM, Tam One Nation Victoria": 75.0,
+     "BOLGER, Colleen Victorian Socialists": 26.0,
+     "Informal votes": 45.0,
+     "Total votes polled": 606.0
+    }
+   },
+   {
+    "booth": "South Melbourne",
+    "values": {
+     "DRAGWIDGE, Georgie": 43.0,
+     "SEMMENS, Sonya The Greens": 142.0,
+     "COOK, Andrew Liberal": 167.0,
+     "TAYLOR, Nina Australian Labor Party": 115.0,
+     "KING, Adrian William": 9.0,
+     "LINDRUM, Tam One Nation Victoria": 43.0,
+     "BOLGER, Colleen Victorian Socialists": 28.0,
+     "Informal votes": 47.0,
+     "Total votes polled": 594.0
+    }
+   },
+   {
+    "booth": "South Melbourne Park",
+    "values": {
+     "DRAGWIDGE, Georgie": 62.0,
+     "SEMMENS, Sonya The Greens": 152.0,
+     "COOK, Andrew Liberal": 156.0,
+     "TAYLOR, Nina Australian Labor Party": 77.0,
+     "KING, Adrian William": 7.0,
+     "LINDRUM, Tam One Nation Victoria": 28.0,
+     "BOLGER, Colleen Victorian Socialists": 20.0,
+     "Informal votes": 18.0,
+     "Total votes polled": 520.0
+    }
+   },
+   {
+    "booth": "South Port",
+    "values": {
+     "DRAGWIDGE, Georgie": 24.0,
+     "SEMMENS, Sonya The Greens": 69.0,
+     "COOK, Andrew Liberal": 70.0,
+     "TAYLOR, Nina Australian Labor Party": 42.0,
+     "KING, Adrian William": 3.0,
+     "LINDRUM, Tam One Nation Victoria": 18.0,
+     "BOLGER, Colleen Victorian Socialists": 14.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 254.0
+    }
+   },
+   {
+    "booth": "Southbank",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "St Kilda",
+    "values": {
+     "DRAGWIDGE, Georgie": 15.0,
+     "SEMMENS, Sonya The Greens": 143.0,
+     "COOK, Andrew Liberal": 66.0,
+     "TAYLOR, Nina Australian Labor Party": 56.0,
+     "KING, Adrian William": 2.0,
+     "LINDRUM, Tam One Nation Victoria": 17.0,
+     "BOLGER, Colleen Victorian Socialists": 30.0,
+     "Informal votes": 11.0,
+     "Total votes polled": 340.0
+    }
+   },
+   {
+    "booth": "St Kilda Beach",
+    "values": {
+     "DRAGWIDGE, Georgie": 18.0,
+     "SEMMENS, Sonya The Greens": 153.0,
+     "COOK, Andrew Liberal": 96.0,
+     "TAYLOR, Nina Australian Labor Party": 87.0,
+     "KING, Adrian William": 9.0,
+     "LINDRUM, Tam One Nation Victoria": 37.0,
+     "BOLGER, Colleen Victorian Socialists": 41.0,
+     "Informal votes": 22.0,
+     "Total votes polled": 463.0
+    }
+   },
+   {
+    "booth": "St Kilda Central",
+    "values": {
+     "DRAGWIDGE, Georgie": 3.0,
+     "SEMMENS, Sonya The Greens": 34.0,
+     "COOK, Andrew Liberal": 19.0,
+     "TAYLOR, Nina Australian Labor Party": 18.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 11.0,
+     "BOLGER, Colleen Victorian Socialists": 5.0,
+     "Informal votes": 5.0,
+     "Total votes polled": 95.0
+    }
+   },
+   {
+    "booth": "St Kilda Park",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "St Kilda South",
+    "values": {
+     "DRAGWIDGE, Georgie": 44.0,
+     "SEMMENS, Sonya The Greens": 257.0,
+     "COOK, Andrew Liberal": 121.0,
+     "TAYLOR, Nina Australian Labor Party": 154.0,
+     "KING, Adrian William": 9.0,
+     "LINDRUM, Tam One Nation Victoria": 54.0,
+     "BOLGER, Colleen Victorian Socialists": 72.0,
+     "Informal votes": 27.0,
+     "Total votes polled": 738.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "DRAGWIDGE, Georgie": 541.0,
+     "SEMMENS, Sonya The Greens": 2106.0,
+     "COOK, Andrew Liberal": 2773.0,
+     "TAYLOR, Nina Australian Labor Party": 1436.0,
+     "KING, Adrian William": 174.0,
+     "LINDRUM, Tam One Nation Victoria": 776.0,
+     "BOLGER, Colleen Victorian Socialists": 390.0,
+     "Informal votes": 414.0,
+     "Total votes polled": 8610.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Albert Park - EVC 1",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Albert Park - EVC 2",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Melbourne - EVC 2",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Melbourne - EVC 3",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Albert Park - MEVC",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "DRAGWIDGE, Georgie": 0.0,
+     "SEMMENS, Sonya The Greens": 0.0,
+     "COOK, Andrew Liberal": 0.0,
+     "TAYLOR, Nina Australian Labor Party": 0.0,
+     "KING, Adrian William": 0.0,
+     "LINDRUM, Tam One Nation Victoria": 0.0,
+     "BOLGER, Colleen Victorian Socialists": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   }
+  ]
  }
 }

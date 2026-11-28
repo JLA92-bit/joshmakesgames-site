@@ -3,84 +3,642 @@
  "name": "Berwick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:41:42+00:00",
+ "fetched_at": "2026-11-28T10:17:11+00:00",
  "title": "Berwick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:02",
+ "last_updated": "Saturday, 28 November 2026 21:15:02",
  "enrolment": 67010,
- "counted_pct": 6.1,
+ "formal": 14113,
+ "informal": 971,
+ "total_votes": 15084,
+ "counted_pct": 22.51,
  "notes": [],
  "primary": [
   {
    "candidate": "KHAN, Rana",
    "party": "Australian Labor Party",
-   "votes": 1706,
-   "pct": 15.7
+   "votes": 2334,
+   "pct": 16.54
   },
   {
    "candidate": "DE SILVA, Roshan",
    "party": "The Greens",
-   "votes": 1627,
-   "pct": 14.97
+   "votes": 2213,
+   "pct": 15.68
   },
   {
    "candidate": "DE PAOLIS, Vincenzo",
    "party": "Family First",
-   "votes": 215,
-   "pct": 1.98
+   "votes": 291,
+   "pct": 2.06
   },
   {
    "candidate": "PIASTRINO, Michael",
    "party": "One Nation Victoria",
-   "votes": 2173,
-   "pct": 20.0
+   "votes": 2679,
+   "pct": 18.98
   },
   {
    "candidate": "BATTIN, Brad",
    "party": "Liberal",
-   "votes": 4765,
-   "pct": 43.85
+   "votes": 6102,
+   "pct": 43.24
   },
   {
    "candidate": "DOWLING, Scott",
    "party": "Citizens Party",
-   "votes": 58,
-   "pct": 0.53
+   "votes": 69,
+   "pct": 0.49
   },
   {
    "candidate": "JOHN, David",
    "party": "",
-   "votes": 53,
-   "pct": 0.49
+   "votes": 68,
+   "pct": 0.48
   },
   {
    "candidate": "AMARASIRI GUNAWARDANA, Nalinda",
    "party": "Victorian Socialists",
-   "votes": 174,
-   "pct": 1.6
+   "votes": 227,
+   "pct": 1.61
   },
   {
    "candidate": "KING, Ethelyn",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 95,
-   "pct": 0.87
+   "votes": 130,
+   "pct": 0.92
   }
  ],
  "tcp": [
   {
    "candidate": "KHAN, Rana",
    "party": "Australian Labor Party",
-   "votes": 1229,
-   "pct": 33.15
+   "votes": 2724,
+   "pct": 30.95
   },
   {
    "candidate": "BATTIN, Brad",
    "party": "Liberal",
-   "votes": 2478,
-   "pct": 66.85
+   "votes": 6078,
+   "pct": 69.05
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results/Berwick-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results/Berwick-2CP-results-by-voting-centre"
+ },
+ "booths_primary": {
+  "columns": [
+   "KHAN, Rana Australian Labor Party",
+   "DE SILVA, Roshan The Greens",
+   "DE PAOLIS, Vincenzo Family First",
+   "PIASTRINO, Michael One Nation Victoria",
+   "BATTIN, Brad Liberal",
+   "DOWLING, Scott Citizens Party",
+   "JOHN, David",
+   "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists",
+   "KING, Ethelyn Libertarian (formerly Liberal Democrats)",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total first preference votes",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 2334.0,
+     "DE SILVA, Roshan The Greens": 2213.0,
+     "DE PAOLIS, Vincenzo Family First": 291.0,
+     "PIASTRINO, Michael One Nation Victoria": 2679.0,
+     "BATTIN, Brad Liberal": 6102.0,
+     "DOWLING, Scott Citizens Party": 69.0,
+     "JOHN, David": 68.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 227.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 130.0,
+     "Informal votes": 971.0,
+     "Total votes polled": 15084.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 16.54,
+     "DE SILVA, Roshan The Greens": 15.68,
+     "DE PAOLIS, Vincenzo Family First": 2.06,
+     "PIASTRINO, Michael One Nation Victoria": 18.98,
+     "BATTIN, Brad Liberal": 43.24,
+     "DOWLING, Scott Citizens Party": 0.49,
+     "JOHN, David": 0.48,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 1.61,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.92
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Avebury",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 82.0,
+     "DE SILVA, Roshan The Greens": 55.0,
+     "DE PAOLIS, Vincenzo Family First": 6.0,
+     "PIASTRINO, Michael One Nation Victoria": 117.0,
+     "BATTIN, Brad Liberal": 277.0,
+     "DOWLING, Scott Citizens Party": 7.0,
+     "JOHN, David": 1.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 12.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 6.0,
+     "Informal votes": 28.0,
+     "Total votes polled": 591.0
+    }
+   },
+   {
+    "booth": "Beaconsfield",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 133.0,
+     "DE SILVA, Roshan The Greens": 160.0,
+     "DE PAOLIS, Vincenzo Family First": 16.0,
+     "PIASTRINO, Michael One Nation Victoria": 228.0,
+     "BATTIN, Brad Liberal": 535.0,
+     "DOWLING, Scott Citizens Party": 4.0,
+     "JOHN, David": 3.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 27.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 13.0,
+     "Informal votes": 55.0,
+     "Total votes polled": 1174.0
+    }
+   },
+   {
+    "booth": "Beaconsfield Upper",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 74.0,
+     "DE SILVA, Roshan The Greens": 98.0,
+     "DE PAOLIS, Vincenzo Family First": 22.0,
+     "PIASTRINO, Michael One Nation Victoria": 249.0,
+     "BATTIN, Brad Liberal": 469.0,
+     "DOWLING, Scott Citizens Party": 5.0,
+     "JOHN, David": 3.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 14.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 5.0,
+     "Informal votes": 52.0,
+     "Total votes polled": 991.0
+    }
+   },
+   {
+    "booth": "Berwick",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 0.0,
+     "DE SILVA, Roshan The Greens": 0.0,
+     "DE PAOLIS, Vincenzo Family First": 0.0,
+     "PIASTRINO, Michael One Nation Victoria": 0.0,
+     "BATTIN, Brad Liberal": 0.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 0.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Berwick Central",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 63.0,
+     "DE SILVA, Roshan The Greens": 57.0,
+     "DE PAOLIS, Vincenzo Family First": 5.0,
+     "PIASTRINO, Michael One Nation Victoria": 75.0,
+     "BATTIN, Brad Liberal": 197.0,
+     "DOWLING, Scott Citizens Party": 2.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 5.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 4.0,
+     "Informal votes": 18.0,
+     "Total votes polled": 426.0
+    }
+   },
+   {
+    "booth": "Berwick Chase",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 207.0,
+     "DE SILVA, Roshan The Greens": 215.0,
+     "DE PAOLIS, Vincenzo Family First": 26.0,
+     "PIASTRINO, Michael One Nation Victoria": 249.0,
+     "BATTIN, Brad Liberal": 549.0,
+     "DOWLING, Scott Citizens Party": 2.0,
+     "JOHN, David": 7.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 22.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 6.0,
+     "Informal votes": 89.0,
+     "Total votes polled": 1372.0
+    }
+   },
+   {
+    "booth": "Berwick Lodge",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 143.0,
+     "DE SILVA, Roshan The Greens": 141.0,
+     "DE PAOLIS, Vincenzo Family First": 21.0,
+     "PIASTRINO, Michael One Nation Victoria": 164.0,
+     "BATTIN, Brad Liberal": 304.0,
+     "DOWLING, Scott Citizens Party": 4.0,
+     "JOHN, David": 6.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 16.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 3.0,
+     "Informal votes": 48.0,
+     "Total votes polled": 850.0
+    }
+   },
+   {
+    "booth": "Berwick South",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 181.0,
+     "DE SILVA, Roshan The Greens": 152.0,
+     "DE PAOLIS, Vincenzo Family First": 15.0,
+     "PIASTRINO, Michael One Nation Victoria": 241.0,
+     "BATTIN, Brad Liberal": 430.0,
+     "DOWLING, Scott Citizens Party": 13.0,
+     "JOHN, David": 4.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 23.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 8.0,
+     "Informal votes": 109.0,
+     "Total votes polled": 1176.0
+    }
+   },
+   {
+    "booth": "Centre Road",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 313.0,
+     "DE SILVA, Roshan The Greens": 299.0,
+     "DE PAOLIS, Vincenzo Family First": 31.0,
+     "PIASTRINO, Michael One Nation Victoria": 349.0,
+     "BATTIN, Brad Liberal": 642.0,
+     "DOWLING, Scott Citizens Party": 11.0,
+     "JOHN, David": 14.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 34.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 25.0,
+     "Informal votes": 120.0,
+     "Total votes polled": 1838.0
+    }
+   },
+   {
+    "booth": "Clyde",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 0.0,
+     "DE SILVA, Roshan The Greens": 0.0,
+     "DE PAOLIS, Vincenzo Family First": 0.0,
+     "PIASTRINO, Michael One Nation Victoria": 0.0,
+     "BATTIN, Brad Liberal": 0.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 0.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Clyde Cascades",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 105.0,
+     "DE SILVA, Roshan The Greens": 93.0,
+     "DE PAOLIS, Vincenzo Family First": 18.0,
+     "PIASTRINO, Michael One Nation Victoria": 72.0,
+     "BATTIN, Brad Liberal": 196.0,
+     "DOWLING, Scott Citizens Party": 5.0,
+     "JOHN, David": 4.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 21.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 2.0,
+     "Informal votes": 46.0,
+     "Total votes polled": 562.0
+    }
+   },
+   {
+    "booth": "Clyde Creek",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 21.0,
+     "DE SILVA, Roshan The Greens": 21.0,
+     "DE PAOLIS, Vincenzo Family First": 5.0,
+     "PIASTRINO, Michael One Nation Victoria": 20.0,
+     "BATTIN, Brad Liberal": 40.0,
+     "DOWLING, Scott Citizens Party": 1.0,
+     "JOHN, David": 1.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 2.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 2.0,
+     "Informal votes": 19.0,
+     "Total votes polled": 132.0
+    }
+   },
+   {
+    "booth": "Clyde North",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 0.0,
+     "DE SILVA, Roshan The Greens": 0.0,
+     "DE PAOLIS, Vincenzo Family First": 0.0,
+     "PIASTRINO, Michael One Nation Victoria": 0.0,
+     "BATTIN, Brad Liberal": 0.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 0.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Clyde North East",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 350.0,
+     "DE SILVA, Roshan The Greens": 246.0,
+     "DE PAOLIS, Vincenzo Family First": 45.0,
+     "PIASTRINO, Michael One Nation Victoria": 222.0,
+     "BATTIN, Brad Liberal": 689.0,
+     "DOWLING, Scott Citizens Party": 2.0,
+     "JOHN, David": 8.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 13.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 9.0,
+     "Informal votes": 81.0,
+     "Total votes polled": 1665.0
+    }
+   },
+   {
+    "booth": "Harkaway",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 47.0,
+     "DE SILVA, Roshan The Greens": 74.0,
+     "DE PAOLIS, Vincenzo Family First": 10.0,
+     "PIASTRINO, Michael One Nation Victoria": 121.0,
+     "BATTIN, Brad Liberal": 326.0,
+     "DOWLING, Scott Citizens Party": 2.0,
+     "JOHN, David": 1.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 2.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 9.0,
+     "Informal votes": 30.0,
+     "Total votes polled": 622.0
+    }
+   },
+   {
+    "booth": "Ramlegh Park",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 292.0,
+     "DE SILVA, Roshan The Greens": 246.0,
+     "DE PAOLIS, Vincenzo Family First": 29.0,
+     "PIASTRINO, Michael One Nation Victoria": 247.0,
+     "BATTIN, Brad Liberal": 568.0,
+     "DOWLING, Scott Citizens Party": 4.0,
+     "JOHN, David": 5.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 16.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 15.0,
+     "Informal votes": 154.0,
+     "Total votes polled": 1576.0
+    }
+   },
+   {
+    "booth": "Timbarra",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 43.0,
+     "DE SILVA, Roshan The Greens": 76.0,
+     "DE PAOLIS, Vincenzo Family First": 5.0,
+     "PIASTRINO, Michael One Nation Victoria": 114.0,
+     "BATTIN, Brad Liberal": 220.0,
+     "DOWLING, Scott Citizens Party": 5.0,
+     "JOHN, David": 3.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 2.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 3.0,
+     "Informal votes": 38.0,
+     "Total votes polled": 509.0
+    }
+   },
+   {
+    "booth": "Tulliallan",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 51.0,
+     "DE SILVA, Roshan The Greens": 33.0,
+     "DE PAOLIS, Vincenzo Family First": 8.0,
+     "PIASTRINO, Michael One Nation Victoria": 23.0,
+     "BATTIN, Brad Liberal": 88.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 2.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 2.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 1.0,
+     "Informal votes": 20.0,
+     "Total votes polled": 228.0
+    }
+   },
+   {
+    "booth": "Turrun",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 220.0,
+     "DE SILVA, Roshan The Greens": 235.0,
+     "DE PAOLIS, Vincenzo Family First": 27.0,
+     "PIASTRINO, Michael One Nation Victoria": 184.0,
+     "BATTIN, Brad Liberal": 541.0,
+     "DOWLING, Scott Citizens Party": 2.0,
+     "JOHN, David": 6.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 11.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 18.0,
+     "Informal votes": 58.0,
+     "Total votes polled": 1302.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 2325.0,
+     "DE SILVA, Roshan The Greens": 2201.0,
+     "DE PAOLIS, Vincenzo Family First": 289.0,
+     "PIASTRINO, Michael One Nation Victoria": 2675.0,
+     "BATTIN, Brad Liberal": 6071.0,
+     "DOWLING, Scott Citizens Party": 69.0,
+     "JOHN, David": 68.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 222.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 129.0,
+     "Informal votes": 965.0,
+     "Total votes polled": 15014.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Berwick - EVC 1",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 0.0,
+     "DE SILVA, Roshan The Greens": 0.0,
+     "DE PAOLIS, Vincenzo Family First": 0.0,
+     "PIASTRINO, Michael One Nation Victoria": 0.0,
+     "BATTIN, Brad Liberal": 0.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 0.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Narre Warren South - EVC 1",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 0.0,
+     "DE SILVA, Roshan The Greens": 0.0,
+     "DE PAOLIS, Vincenzo Family First": 0.0,
+     "PIASTRINO, Michael One Nation Victoria": 0.0,
+     "BATTIN, Brad Liberal": 0.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 0.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Narre Warren South - EVC 2",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 0.0,
+     "DE SILVA, Roshan The Greens": 0.0,
+     "DE PAOLIS, Vincenzo Family First": 0.0,
+     "PIASTRINO, Michael One Nation Victoria": 0.0,
+     "BATTIN, Brad Liberal": 0.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 0.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Berwick - MEVC",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 9.0,
+     "DE SILVA, Roshan The Greens": 12.0,
+     "DE PAOLIS, Vincenzo Family First": 2.0,
+     "PIASTRINO, Michael One Nation Victoria": 4.0,
+     "BATTIN, Brad Liberal": 31.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 5.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 1.0,
+     "Informal votes": 6.0,
+     "Total votes polled": 70.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 0.0,
+     "DE SILVA, Roshan The Greens": 0.0,
+     "DE PAOLIS, Vincenzo Family First": 0.0,
+     "PIASTRINO, Michael One Nation Victoria": 0.0,
+     "BATTIN, Brad Liberal": 0.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 0.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 9.0,
+     "DE SILVA, Roshan The Greens": 12.0,
+     "DE PAOLIS, Vincenzo Family First": 2.0,
+     "PIASTRINO, Michael One Nation Victoria": 4.0,
+     "BATTIN, Brad Liberal": 31.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 5.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 1.0,
+     "Informal votes": 6.0,
+     "Total votes polled": 70.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 0.0,
+     "DE SILVA, Roshan The Greens": 0.0,
+     "DE PAOLIS, Vincenzo Family First": 0.0,
+     "PIASTRINO, Michael One Nation Victoria": 0.0,
+     "BATTIN, Brad Liberal": 0.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 0.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 0.0,
+     "DE SILVA, Roshan The Greens": 0.0,
+     "DE PAOLIS, Vincenzo Family First": 0.0,
+     "PIASTRINO, Michael One Nation Victoria": 0.0,
+     "BATTIN, Brad Liberal": 0.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 0.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 0.0,
+     "DE SILVA, Roshan The Greens": 0.0,
+     "DE PAOLIS, Vincenzo Family First": 0.0,
+     "PIASTRINO, Michael One Nation Victoria": 0.0,
+     "BATTIN, Brad Liberal": 0.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 0.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 0.0,
+     "DE SILVA, Roshan The Greens": 0.0,
+     "DE PAOLIS, Vincenzo Family First": 0.0,
+     "PIASTRINO, Michael One Nation Victoria": 0.0,
+     "BATTIN, Brad Liberal": 0.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 0.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "KHAN, Rana Australian Labor Party": 0.0,
+     "DE SILVA, Roshan The Greens": 0.0,
+     "DE PAOLIS, Vincenzo Family First": 0.0,
+     "PIASTRINO, Michael One Nation Victoria": 0.0,
+     "BATTIN, Brad Liberal": 0.0,
+     "DOWLING, Scott Citizens Party": 0.0,
+     "JOHN, David": 0.0,
+     "AMARASIRI GUNAWARDANA, Nalinda Victorian Socialists": 0.0,
+     "KING, Ethelyn Libertarian (formerly Liberal Democrats)": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   }
+  ]
  }
 }

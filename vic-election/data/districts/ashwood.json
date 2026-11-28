@@ -3,72 +3,590 @@
  "name": "Ashwood",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ashwood-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:41:33+00:00",
+ "fetched_at": "2026-11-28T10:16:55+00:00",
  "title": "Ashwood election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:02",
+ "last_updated": "Saturday, 28 November 2026 21:15:02",
  "enrolment": 53131,
- "counted_pct": 4.36,
+ "formal": 8706,
+ "informal": 386,
+ "total_votes": 9092,
+ "counted_pct": 17.11,
  "notes": [],
  "primary": [
   {
    "candidate": "UWIMANA, Enid",
    "party": "Family First",
-   "votes": 131,
-   "pct": 1.86
+   "votes": 159,
+   "pct": 1.83
   },
   {
    "candidate": "RANDALL, Tim",
    "party": "The Greens",
-   "votes": 1411,
-   "pct": 20.06
+   "votes": 1734,
+   "pct": 19.92
   },
   {
    "candidate": "FREGON, Matt",
    "party": "Australian Labor Party",
-   "votes": 1227,
-   "pct": 17.44
+   "votes": 1524,
+   "pct": 17.51
   },
   {
    "candidate": "VAN DER EYNDEN, Jacob",
    "party": "Victorian Socialists",
-   "votes": 190,
-   "pct": 2.7
+   "votes": 246,
+   "pct": 2.83
   },
   {
    "candidate": "ZOGRAPHOS, Theo",
    "party": "Liberal",
-   "votes": 3118,
+   "votes": 3859,
    "pct": 44.33
   },
   {
    "candidate": "JOSHI, Hitendra K.",
    "party": "",
-   "votes": 395,
-   "pct": 5.62
+   "votes": 490,
+   "pct": 5.63
   },
   {
    "candidate": "MITCHELL, Steven",
    "party": "One Nation Victoria",
-   "votes": 562,
-   "pct": 7.99
+   "votes": 694,
+   "pct": 7.97
   }
  ],
  "tcp": [
   {
    "candidate": "FREGON, Matt",
    "party": "Australian Labor Party",
-   "votes": 1402,
-   "pct": 39.5
+   "votes": 1952,
+   "pct": 39.04
   },
   {
    "candidate": "ZOGRAPHOS, Theo",
    "party": "Liberal",
-   "votes": 2147,
-   "pct": 60.5
+   "votes": 3048,
+   "pct": 60.96
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ashwood-district-results/Ashwood-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ashwood-district-results/Ashwood-2CP-results-by-voting-centre"
+ },
+ "booths_primary": {
+  "columns": [
+   "UWIMANA, Enid Family First",
+   "RANDALL, Tim The Greens",
+   "FREGON, Matt Australian Labor Party",
+   "VAN DER EYNDEN, Jacob Victorian Socialists",
+   "ZOGRAPHOS, Theo Liberal",
+   "JOSHI, Hitendra K.",
+   "MITCHELL, Steven One Nation Victoria",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total first preference votes",
+    "values": {
+     "UWIMANA, Enid Family First": 159.0,
+     "RANDALL, Tim The Greens": 1734.0,
+     "FREGON, Matt Australian Labor Party": 1524.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 246.0,
+     "ZOGRAPHOS, Theo Liberal": 3859.0,
+     "JOSHI, Hitendra K.": 490.0,
+     "MITCHELL, Steven One Nation Victoria": 694.0,
+     "Informal votes": 386.0,
+     "Total votes polled": 9092.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "UWIMANA, Enid Family First": 1.83,
+     "RANDALL, Tim The Greens": 19.92,
+     "FREGON, Matt Australian Labor Party": 17.51,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 2.83,
+     "ZOGRAPHOS, Theo Liberal": 44.33,
+     "JOSHI, Hitendra K.": 5.63,
+     "MITCHELL, Steven One Nation Victoria": 7.97
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Ashburton",
+    "values": {
+     "UWIMANA, Enid Family First": 22.0,
+     "RANDALL, Tim The Greens": 352.0,
+     "FREGON, Matt Australian Labor Party": 215.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 42.0,
+     "ZOGRAPHOS, Theo Liberal": 639.0,
+     "JOSHI, Hitendra K.": 84.0,
+     "MITCHELL, Steven One Nation Victoria": 119.0,
+     "Informal votes": 69.0,
+     "Total votes polled": 1542.0
+    }
+   },
+   {
+    "booth": "Ashwood",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Bowen",
+    "values": {
+     "UWIMANA, Enid Family First": 2.0,
+     "RANDALL, Tim The Greens": 29.0,
+     "FREGON, Matt Australian Labor Party": 12.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 5.0,
+     "ZOGRAPHOS, Theo Liberal": 78.0,
+     "JOSHI, Hitendra K.": 9.0,
+     "MITCHELL, Steven One Nation Victoria": 22.0,
+     "Informal votes": 5.0,
+     "Total votes polled": 162.0
+    }
+   },
+   {
+    "booth": "Burwood",
+    "values": {
+     "UWIMANA, Enid Family First": 8.0,
+     "RANDALL, Tim The Greens": 156.0,
+     "FREGON, Matt Australian Labor Party": 114.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 18.0,
+     "ZOGRAPHOS, Theo Liberal": 296.0,
+     "JOSHI, Hitendra K.": 51.0,
+     "MITCHELL, Steven One Nation Victoria": 46.0,
+     "Informal votes": 24.0,
+     "Total votes polled": 713.0
+    }
+   },
+   {
+    "booth": "Burwood West",
+    "values": {
+     "UWIMANA, Enid Family First": 11.0,
+     "RANDALL, Tim The Greens": 126.0,
+     "FREGON, Matt Australian Labor Party": 70.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 19.0,
+     "ZOGRAPHOS, Theo Liberal": 336.0,
+     "JOSHI, Hitendra K.": 46.0,
+     "MITCHELL, Steven One Nation Victoria": 43.0,
+     "Informal votes": 19.0,
+     "Total votes polled": 670.0
+    }
+   },
+   {
+    "booth": "Camberwell South",
+    "values": {
+     "UWIMANA, Enid Family First": 9.0,
+     "RANDALL, Tim The Greens": 114.0,
+     "FREGON, Matt Australian Labor Party": 66.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 14.0,
+     "ZOGRAPHOS, Theo Liberal": 226.0,
+     "JOSHI, Hitendra K.": 40.0,
+     "MITCHELL, Steven One Nation Victoria": 35.0,
+     "Informal votes": 16.0,
+     "Total votes polled": 520.0
+    }
+   },
+   {
+    "booth": "Chadstone",
+    "values": {
+     "UWIMANA, Enid Family First": 7.0,
+     "RANDALL, Tim The Greens": 27.0,
+     "FREGON, Matt Australian Labor Party": 29.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 7.0,
+     "ZOGRAPHOS, Theo Liberal": 55.0,
+     "JOSHI, Hitendra K.": 2.0,
+     "MITCHELL, Steven One Nation Victoria": 12.0,
+     "Informal votes": 6.0,
+     "Total votes polled": 145.0
+    }
+   },
+   {
+    "booth": "Essex Heights",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Glen Iris",
+    "values": {
+     "UWIMANA, Enid Family First": 5.0,
+     "RANDALL, Tim The Greens": 113.0,
+     "FREGON, Matt Australian Labor Party": 101.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 11.0,
+     "ZOGRAPHOS, Theo Liberal": 348.0,
+     "JOSHI, Hitendra K.": 45.0,
+     "MITCHELL, Steven One Nation Victoria": 28.0,
+     "Informal votes": 24.0,
+     "Total votes polled": 675.0
+    }
+   },
+   {
+    "booth": "Glen Iris South",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Hartwell",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 46.0,
+     "FREGON, Matt Australian Labor Party": 20.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 4.0,
+     "ZOGRAPHOS, Theo Liberal": 68.0,
+     "JOSHI, Hitendra K.": 5.0,
+     "MITCHELL, Steven One Nation Victoria": 7.0,
+     "Informal votes": 6.0,
+     "Total votes polled": 156.0
+    }
+   },
+   {
+    "booth": "Highbury",
+    "values": {
+     "UWIMANA, Enid Family First": 4.0,
+     "RANDALL, Tim The Greens": 49.0,
+     "FREGON, Matt Australian Labor Party": 43.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 19.0,
+     "ZOGRAPHOS, Theo Liberal": 85.0,
+     "JOSHI, Hitendra K.": 7.0,
+     "MITCHELL, Steven One Nation Victoria": 27.0,
+     "Informal votes": 16.0,
+     "Total votes polled": 250.0
+    }
+   },
+   {
+    "booth": "Manooka",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Mount Waverley North",
+    "values": {
+     "UWIMANA, Enid Family First": 20.0,
+     "RANDALL, Tim The Greens": 112.0,
+     "FREGON, Matt Australian Labor Party": 154.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 20.0,
+     "ZOGRAPHOS, Theo Liberal": 303.0,
+     "JOSHI, Hitendra K.": 31.0,
+     "MITCHELL, Steven One Nation Victoria": 35.0,
+     "Informal votes": 36.0,
+     "Total votes polled": 711.0
+    }
+   },
+   {
+    "booth": "Mount Waverley South",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Pinewood",
+    "values": {
+     "UWIMANA, Enid Family First": 15.0,
+     "RANDALL, Tim The Greens": 114.0,
+     "FREGON, Matt Australian Labor Party": 145.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 15.0,
+     "ZOGRAPHOS, Theo Liberal": 308.0,
+     "JOSHI, Hitendra K.": 23.0,
+     "MITCHELL, Steven One Nation Victoria": 69.0,
+     "Informal votes": 37.0,
+     "Total votes polled": 726.0
+    }
+   },
+   {
+    "booth": "Scotchmans Creek",
+    "values": {
+     "UWIMANA, Enid Family First": 3.0,
+     "RANDALL, Tim The Greens": 29.0,
+     "FREGON, Matt Australian Labor Party": 25.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 4.0,
+     "ZOGRAPHOS, Theo Liberal": 48.0,
+     "JOSHI, Hitendra K.": 8.0,
+     "MITCHELL, Steven One Nation Victoria": 14.0,
+     "Informal votes": 6.0,
+     "Total votes polled": 137.0
+    }
+   },
+   {
+    "booth": "Starling",
+    "values": {
+     "UWIMANA, Enid Family First": 13.0,
+     "RANDALL, Tim The Greens": 79.0,
+     "FREGON, Matt Australian Labor Party": 97.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 10.0,
+     "ZOGRAPHOS, Theo Liberal": 185.0,
+     "JOSHI, Hitendra K.": 26.0,
+     "MITCHELL, Steven One Nation Victoria": 54.0,
+     "Informal votes": 20.0,
+     "Total votes polled": 484.0
+    }
+   },
+   {
+    "booth": "Sussex Heights",
+    "values": {
+     "UWIMANA, Enid Family First": 7.0,
+     "RANDALL, Tim The Greens": 44.0,
+     "FREGON, Matt Australian Labor Party": 41.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 3.0,
+     "ZOGRAPHOS, Theo Liberal": 82.0,
+     "JOSHI, Hitendra K.": 15.0,
+     "MITCHELL, Steven One Nation Victoria": 28.0,
+     "Informal votes": 13.0,
+     "Total votes polled": 233.0
+    }
+   },
+   {
+    "booth": "Syndal North",
+    "values": {
+     "UWIMANA, Enid Family First": 16.0,
+     "RANDALL, Tim The Greens": 147.0,
+     "FREGON, Matt Australian Labor Party": 165.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 18.0,
+     "ZOGRAPHOS, Theo Liberal": 397.0,
+     "JOSHI, Hitendra K.": 49.0,
+     "MITCHELL, Steven One Nation Victoria": 66.0,
+     "Informal votes": 43.0,
+     "Total votes polled": 901.0
+    }
+   },
+   {
+    "booth": "Syndal South",
+    "values": {
+     "UWIMANA, Enid Family First": 15.0,
+     "RANDALL, Tim The Greens": 181.0,
+     "FREGON, Matt Australian Labor Party": 191.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 30.0,
+     "ZOGRAPHOS, Theo Liberal": 346.0,
+     "JOSHI, Hitendra K.": 46.0,
+     "MITCHELL, Steven One Nation Victoria": 79.0,
+     "Informal votes": 38.0,
+     "Total votes polled": 926.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "UWIMANA, Enid Family First": 157.0,
+     "RANDALL, Tim The Greens": 1718.0,
+     "FREGON, Matt Australian Labor Party": 1488.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 239.0,
+     "ZOGRAPHOS, Theo Liberal": 3800.0,
+     "JOSHI, Hitendra K.": 487.0,
+     "MITCHELL, Steven One Nation Victoria": 684.0,
+     "Informal votes": 378.0,
+     "Total votes polled": 8951.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Ashwood - EVC 1",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Box Hill - EVC 1",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Hawthorn - EVC 1",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Ashwood - MEVC",
+    "values": {
+     "UWIMANA, Enid Family First": 2.0,
+     "RANDALL, Tim The Greens": 16.0,
+     "FREGON, Matt Australian Labor Party": 36.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 7.0,
+     "ZOGRAPHOS, Theo Liberal": 59.0,
+     "JOSHI, Hitendra K.": 3.0,
+     "MITCHELL, Steven One Nation Victoria": 10.0,
+     "Informal votes": 8.0,
+     "Total votes polled": 141.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "UWIMANA, Enid Family First": 2.0,
+     "RANDALL, Tim The Greens": 16.0,
+     "FREGON, Matt Australian Labor Party": 36.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 7.0,
+     "ZOGRAPHOS, Theo Liberal": 59.0,
+     "JOSHI, Hitendra K.": 3.0,
+     "MITCHELL, Steven One Nation Victoria": 10.0,
+     "Informal votes": 8.0,
+     "Total votes polled": 141.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "UWIMANA, Enid Family First": 0.0,
+     "RANDALL, Tim The Greens": 0.0,
+     "FREGON, Matt Australian Labor Party": 0.0,
+     "VAN DER EYNDEN, Jacob Victorian Socialists": 0.0,
+     "ZOGRAPHOS, Theo Liberal": 0.0,
+     "JOSHI, Hitendra K.": 0.0,
+     "MITCHELL, Steven One Nation Victoria": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   }
+  ]
  }
 }

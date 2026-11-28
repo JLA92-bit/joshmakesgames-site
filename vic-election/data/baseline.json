@@ -1,0 +1,2644 @@
+{
+ "seats": {
+  "albert-park": {
+   "name": "Albert Park",
+   "primary": {
+    "IND": 5.87,
+    "ALP": 36.45,
+    "GRN": 20.91,
+    "OTH": 5.6,
+    "LIB": 31.18
+   },
+   "winner": {
+    "candidate": "TAYLOR, Nina",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "TAYLOR, Nina",
+     "code": "ALP",
+     "pct": 61.15
+    },
+    {
+     "candidate": "SHERSON, Lauren",
+     "code": "LIB",
+     "pct": 38.85
+    }
+   ],
+   "margin": 11.15,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "ashwood": {
+   "name": "Ashwood",
+   "primary": {
+    "LIB": 37.17,
+    "IND": 2.62,
+    "ALP": 40.29,
+    "GRN": 14.79,
+    "OTH": 5.13
+   },
+   "winner": {
+    "candidate": "FREGON, Matt",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "FREGON, Matt",
+     "code": "ALP",
+     "pct": 56.15
+    },
+    {
+     "candidate": "JUDAH, Asher",
+     "code": "LIB",
+     "pct": 43.85
+    }
+   ],
+   "margin": 6.15,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "bass": {
+   "name": "Bass",
+   "primary": {
+    "NAT": 13.3,
+    "OTH": 11.42,
+    "ALP": 32.55,
+    "LIB": 30.15,
+    "IND": 4.45,
+    "GRN": 8.14
+   },
+   "winner": {
+    "candidate": "CRUGNALE, Jordan",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "CRUGNALE, Jordan",
+     "code": "ALP",
+     "pct": 50.24
+    },
+    {
+     "candidate": "BROWN, Aaron",
+     "code": "LIB",
+     "pct": 49.76
+    }
+   ],
+   "margin": 0.24,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "bayswater": {
+   "name": "Bayswater",
+   "primary": {
+    "OTH": 13.56,
+    "IND": 2.09,
+    "LIB": 35.62,
+    "ALP": 41.34,
+    "GRN": 7.4
+   },
+   "winner": {
+    "candidate": "TAYLOR, Jackson",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "TAYLOR, Jackson",
+     "code": "ALP",
+     "pct": 54.23
+    },
+    {
+     "candidate": "WAKELING, Nick",
+     "code": "LIB",
+     "pct": 45.77
+    }
+   ],
+   "margin": 4.23,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "bellarine": {
+   "name": "Bellarine",
+   "primary": {
+    "GRN": 11.74,
+    "LIB": 33.12,
+    "OTH": 7.93,
+    "ALP": 42.63,
+    "IND": 4.58
+   },
+   "winner": {
+    "candidate": "MARCHANT, Alison",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "MARCHANT, Alison",
+     "code": "ALP",
+     "pct": 58.46
+    },
+    {
+     "candidate": "GRIGAU, Donnie",
+     "code": "LIB",
+     "pct": 41.54
+    }
+   ],
+   "margin": 8.46,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "benambra": {
+   "name": "Benambra",
+   "primary": {
+    "OTH": 6.49,
+    "LIB": 44.88,
+    "GRN": 3.87,
+    "IND": 31.7,
+    "ALP": 13.07
+   },
+   "winner": {
+    "candidate": "TILLEY, Bill",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "TILLEY, Bill",
+     "code": "LIB",
+     "pct": 50.94
+    },
+    {
+     "candidate": "HAWKINS, Jacqui",
+     "code": "IND",
+     "pct": 49.06
+    }
+   ],
+   "margin": 0.94,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "bendigo-east": {
+   "name": "Bendigo East",
+   "primary": {
+    "OTH": 6.44,
+    "LIB": 27.38,
+    "ON": 5.7,
+    "GRN": 8.66,
+    "IND": 3.52,
+    "ALP": 48.3
+   },
+   "winner": {
+    "candidate": "ALLAN, Jacinta",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "ALLAN, Jacinta",
+     "code": "ALP",
+     "pct": 50.04
+    },
+    {
+     "candidate": "SCHADE, Darin",
+     "code": "LIB",
+     "pct": 29.52
+    }
+   ],
+   "margin": 0.04,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "bendigo-west": {
+   "name": "Bendigo West",
+   "primary": {
+    "OTH": 13.73,
+    "LIB": 24.99,
+    "IND": 3.3,
+    "ALP": 46.47,
+    "GRN": 11.51
+   },
+   "winner": {
+    "candidate": "EDWARDS, Maree",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "EDWARDS, Maree",
+     "code": "ALP",
+     "pct": 50.68
+    },
+    {
+     "candidate": "PRICE, Ken",
+     "code": "LIB",
+     "pct": 32.88
+    }
+   ],
+   "margin": 0.68,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "bentleigh": {
+   "name": "Bentleigh",
+   "primary": {
+    "IND": 1.75,
+    "ALP": 45.78,
+    "GRN": 10.74,
+    "OTH": 5.38,
+    "LIB": 36.35
+   },
+   "winner": {
+    "candidate": "STAIKOS, Nick",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "STAIKOS, Nick",
+     "code": "ALP",
+     "pct": 58.04
+    },
+    {
+     "candidate": "TAYLOR-HAYNES, Debbie",
+     "code": "LIB",
+     "pct": 41.96
+    }
+   ],
+   "margin": 8.04,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "berwick": {
+   "name": "Berwick",
+   "primary": {
+    "GRN": 9.7,
+    "OTH": 9.23,
+    "LIB": 45.23,
+    "ALP": 35.84
+   },
+   "winner": {
+    "candidate": "BATTIN, Brad",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "BATTIN, Brad",
+     "code": "LIB",
+     "pct": 50.11
+    },
+    {
+     "candidate": "ZAVEER, Malik",
+     "code": "ALP",
+     "pct": 37.26
+    }
+   ],
+   "margin": 0.11,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "box-hill": {
+   "name": "Box Hill",
+   "primary": {
+    "IND": 2.03,
+    "OTH": 7.34,
+    "LIB": 35.15,
+    "GRN": 14.13,
+    "ALP": 41.35
+   },
+   "winner": {
+    "candidate": "HAMER, Paul",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "HAMER, Paul",
+     "code": "ALP",
+     "pct": 57.23
+    },
+    {
+     "candidate": "WERNER, Nicole Ta-Ei",
+     "code": "LIB",
+     "pct": 42.77
+    }
+   ],
+   "margin": 7.23,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "brighton": {
+   "name": "Brighton",
+   "primary": {
+    "IND": 12.51,
+    "OTH": 3.42,
+    "GRN": 13.79,
+    "LIB": 45.61,
+    "ALP": 24.67
+   },
+   "winner": {
+    "candidate": "NEWBURY, James",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "NEWBURY, James",
+     "code": "LIB",
+     "pct": 50.32
+    },
+    {
+     "candidate": "CRAWFORD, Louise",
+     "code": "ALP",
+     "pct": 28.76
+    }
+   ],
+   "margin": 0.32,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "broadmeadows": {
+   "name": "Broadmeadows",
+   "primary": {
+    "LIB": 23.13,
+    "OTH": 17.97,
+    "IND": 4.82,
+    "ALP": 45.71,
+    "GRN": 8.36
+   },
+   "winner": {
+    "candidate": "MATTHEWS-WARD, Kathleen",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "MATTHEWS-WARD, Kathleen",
+     "code": "ALP",
+     "pct": 51.94
+    },
+    {
+     "candidate": "DUZOVA, Baris",
+     "code": "LIB",
+     "pct": 29.95
+    }
+   ],
+   "margin": 1.94,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "brunswick": {
+   "name": "Brunswick",
+   "primary": {
+    "IND": 1.62,
+    "ALP": 28.52,
+    "OTH": 15.35,
+    "LIB": 10.87,
+    "GRN": 43.64
+   },
+   "winner": {
+    "candidate": "READ, Tim",
+    "code": "GRN"
+   },
+   "final": [
+    {
+     "candidate": "READ, Tim",
+     "code": "GRN",
+     "pct": 55.15
+    },
+    {
+     "candidate": "WILLIAMS, Mike",
+     "code": "ALP",
+     "pct": 31.89
+    }
+   ],
+   "margin": 5.15,
+   "holder": {
+    "code": "GRN"
+   }
+  },
+  "bulleen": {
+   "name": "Bulleen",
+   "primary": {
+    "GRN": 10.65,
+    "IND": 1.47,
+    "OTH": 7.11,
+    "LIB": 48.06,
+    "ALP": 32.71
+   },
+   "winner": {
+    "candidate": "GUY, Matthew",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "GUY, Matthew",
+     "code": "LIB",
+     "pct": 52.08
+    },
+    {
+     "candidate": "ROGERS, Ian",
+     "code": "ALP",
+     "pct": 34.52
+    }
+   ],
+   "margin": 2.08,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "bundoora": {
+   "name": "Bundoora",
+   "primary": {
+    "GRN": 13.17,
+    "LIB": 27.68,
+    "IND": 1.01,
+    "ALP": 47.82,
+    "OTH": 10.32
+   },
+   "winner": {
+    "candidate": "BROOKS, Colin",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "BROOKS, Colin",
+     "code": "ALP",
+     "pct": 50.37
+    },
+    {
+     "candidate": "TOMAR, Sahil",
+     "code": "LIB",
+     "pct": 32.96
+    }
+   ],
+   "margin": 0.37,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "carrum": {
+   "name": "Carrum",
+   "primary": {
+    "IND": 2.28,
+    "OTH": 9.94,
+    "GRN": 7.58,
+    "LIB": 30.35,
+    "ALP": 49.85
+   },
+   "winner": {
+    "candidate": "KILKENNY, Sonya",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "KILKENNY, Sonya",
+     "code": "ALP",
+     "pct": 50.04
+    },
+    {
+     "candidate": "BUCHANAN, Bec",
+     "code": "LIB",
+     "pct": 30.59
+    }
+   ],
+   "margin": 0.04,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "caulfield": {
+   "name": "Caulfield",
+   "primary": {
+    "IND": 6.5,
+    "OTH": 3.6,
+    "GRN": 15.85,
+    "LIB": 46.28,
+    "ALP": 27.78
+   },
+   "winner": {
+    "candidate": "SOUTHWICK, David",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "SOUTHWICK, David",
+     "code": "LIB",
+     "pct": 52.07
+    },
+    {
+     "candidate": "HAREL, Lior",
+     "code": "ALP",
+     "pct": 47.93
+    }
+   ],
+   "margin": 2.07,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "clarinda": {
+   "name": "Clarinda",
+   "primary": {
+    "IND": 10.57,
+    "OTH": 7.43,
+    "ALP": 45.46,
+    "LIB": 28.58,
+    "GRN": 7.96
+   },
+   "winner": {
+    "candidate": "TAK, Meng Heang",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "TAK, Meng Heang",
+     "code": "ALP",
+     "pct": 54.12
+    },
+    {
+     "candidate": "RICHARDSON, Anthony",
+     "code": "LIB",
+     "pct": 31.85
+    }
+   ],
+   "margin": 4.12,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "cranbourne": {
+   "name": "Cranbourne",
+   "primary": {
+    "OTH": 20.12,
+    "LIB": 27.51,
+    "ALP": 46.18,
+    "IND": 0.59,
+    "GRN": 5.59
+   },
+   "winner": {
+    "candidate": "RICHARDS, Pauline",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "RICHARDS, Pauline",
+     "code": "ALP",
+     "pct": 53.72
+    },
+    {
+     "candidate": "SINGH, Jagdeep",
+     "code": "LIB",
+     "pct": 31.78
+    }
+   ],
+   "margin": 3.72,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "croydon": {
+   "name": "Croydon",
+   "primary": {
+    "OTH": 12.12,
+    "ALP": 34.1,
+    "LIB": 42.96,
+    "GRN": 10.82
+   },
+   "winner": {
+    "candidate": "HODGETT, David",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "HODGETT, David",
+     "code": "LIB",
+     "pct": 51.37
+    },
+    {
+     "candidate": "GRASSO, Sorina",
+     "code": "ALP",
+     "pct": 48.63
+    }
+   ],
+   "margin": 1.37,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "dandenong": {
+   "name": "Dandenong",
+   "primary": {
+    "OTH": 13.11,
+    "ALP": 54.87,
+    "GRN": 8.14,
+    "LIB": 23.88
+   },
+   "winner": {
+    "candidate": "WILLIAMS, Gabrielle",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "WILLIAMS, Gabrielle",
+     "code": "ALP",
+     "pct": 69.11
+    },
+    {
+     "candidate": "BROADLEY, Karen",
+     "code": "LIB",
+     "pct": 30.89
+    }
+   ],
+   "margin": 19.11,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "eildon": {
+   "name": "Eildon",
+   "primary": {
+    "ALP": 28.97,
+    "OTH": 9.91,
+    "LIB": 47.45,
+    "IND": 2.45,
+    "GRN": 11.21
+   },
+   "winner": {
+    "candidate": "McLEISH, Cindy",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "McLEISH, Cindy",
+     "code": "LIB",
+     "pct": 53.34
+    },
+    {
+     "candidate": "JUDD, Jane",
+     "code": "ALP",
+     "pct": 31.11
+    }
+   ],
+   "margin": 3.34,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "eltham": {
+   "name": "Eltham",
+   "primary": {
+    "ALP": 44.5,
+    "OTH": 6.44,
+    "LIB": 35.61,
+    "GRN": 13.45
+   },
+   "winner": {
+    "candidate": "WARD, Vicki",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "WARD, Vicki",
+     "code": "ALP",
+     "pct": 59.0
+    },
+    {
+     "candidate": "McCLINTOCK, Jason",
+     "code": "LIB",
+     "pct": 41.0
+    }
+   ],
+   "margin": 9.0,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "essendon": {
+   "name": "Essendon",
+   "primary": {
+    "OTH": 14.32,
+    "GRN": 15.15,
+    "LIB": 29.45,
+    "ALP": 41.07
+   },
+   "winner": {
+    "candidate": "PEARSON, Danny",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "PEARSON, Danny",
+     "code": "ALP",
+     "pct": 62.45
+    },
+    {
+     "candidate": "BARONESSA, Angelo",
+     "code": "LIB",
+     "pct": 37.55
+    }
+   ],
+   "margin": 12.45,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "eureka": {
+   "name": "Eureka",
+   "primary": {
+    "LIB": 31.65,
+    "OTH": 12.24,
+    "GRN": 10.8,
+    "IND": 4.35,
+    "ALP": 40.96
+   },
+   "winner": {
+    "candidate": "SETTLE, Michaela",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "SETTLE, Michaela",
+     "code": "ALP",
+     "pct": 57.17
+    },
+    {
+     "candidate": "TATCHELL, Paul",
+     "code": "LIB",
+     "pct": 42.83
+    }
+   ],
+   "margin": 7.17,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "euroa": {
+   "name": "Euroa",
+   "primary": {
+    "ALP": 30.4,
+    "OTH": 10.5,
+    "NAT": 31.95,
+    "LIB": 21.84,
+    "GRN": 5.31
+   },
+   "winner": {
+    "candidate": "CLEELAND, Annabelle",
+    "code": "NAT"
+   },
+   "final": [
+    {
+     "candidate": "CLEELAND, Annabelle",
+     "code": "NAT",
+     "pct": 59.93
+    },
+    {
+     "candidate": "TOUGH, Angela",
+     "code": "ALP",
+     "pct": 40.07
+    }
+   ],
+   "margin": 9.93,
+   "holder": {
+    "code": "NAT"
+   }
+  },
+  "evelyn": {
+   "name": "Evelyn",
+   "primary": {
+    "OTH": 9.47,
+    "IND": 1.86,
+    "ALP": 32.7,
+    "LIB": 46.68,
+    "GRN": 9.28
+   },
+   "winner": {
+    "candidate": "VALLENCE, Bridget",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "VALLENCE, Bridget",
+     "code": "LIB",
+     "pct": 51.95
+    },
+    {
+     "candidate": "DENT, Lorna",
+     "code": "ALP",
+     "pct": 35.2
+    }
+   ],
+   "margin": 1.95,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "footscray": {
+   "name": "Footscray",
+   "primary": {
+    "GRN": 22.42,
+    "OTH": 16.59,
+    "ALP": 43.1,
+    "LIB": 17.88
+   },
+   "winner": {
+    "candidate": "HALL, Katie",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "HALL, Katie",
+     "code": "ALP",
+     "pct": 54.24
+    },
+    {
+     "candidate": "PEREYRA, Elena",
+     "code": "GRN",
+     "pct": 45.76
+    }
+   ],
+   "margin": 4.24,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "frankston": {
+   "name": "Frankston",
+   "primary": {
+    "OTH": 9.74,
+    "GRN": 12.67,
+    "IND": 3.04,
+    "ALP": 41.55,
+    "LIB": 33.0
+   },
+   "winner": {
+    "candidate": "EDBROOKE, Paul",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "EDBROOKE, Paul",
+     "code": "ALP",
+     "pct": 58.66
+    },
+    {
+     "candidate": "O'REILLY, Michael",
+     "code": "LIB",
+     "pct": 41.34
+    }
+   ],
+   "margin": 8.66,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "geelong": {
+   "name": "Geelong",
+   "primary": {
+    "OTH": 7.85,
+    "IND": 3.24,
+    "LIB": 27.24,
+    "ALP": 46.37,
+    "GRN": 15.3
+   },
+   "winner": {
+    "candidate": "COUZENS, Christine",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "COUZENS, Christine",
+     "code": "ALP",
+     "pct": 64.71
+    },
+    {
+     "candidate": "BENNETT-HULLIN, James",
+     "code": "LIB",
+     "pct": 35.29
+    }
+   ],
+   "margin": 14.71,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "gippsland-east": {
+   "name": "Gippsland East",
+   "primary": {
+    "NAT": 63.34,
+    "OTH": 13.25,
+    "ALP": 17.04,
+    "GRN": 6.37
+   },
+   "winner": {
+    "candidate": "BULL, Tim",
+    "code": "NAT"
+   },
+   "final": [
+    {
+     "candidate": "BULL, Tim",
+     "code": "NAT",
+     "pct": 73.92
+    },
+    {
+     "candidate": "RICHARDSON, Stephen",
+     "code": "ALP",
+     "pct": 26.08
+    }
+   ],
+   "margin": 23.92,
+   "holder": {
+    "code": "NAT"
+   }
+  },
+  "gippsland-south": {
+   "name": "Gippsland South",
+   "primary": {
+    "IND": 5.7,
+    "GRN": 8.35,
+    "OTH": 9.27,
+    "ALP": 23.42,
+    "NAT": 53.27
+   },
+   "winner": {
+    "candidate": "O'BRIEN, Danny",
+    "code": "NAT"
+   },
+   "final": [
+    {
+     "candidate": "O'BRIEN, Danny",
+     "code": "NAT",
+     "pct": 65.25
+    },
+    {
+     "candidate": "RYAN, Denise",
+     "code": "ALP",
+     "pct": 34.75
+    }
+   ],
+   "margin": 15.25,
+   "holder": {
+    "code": "NAT"
+   }
+  },
+  "glen-waverley": {
+   "name": "Glen Waverley",
+   "primary": {
+    "OTH": 9.61,
+    "GRN": 9.58,
+    "ALP": 40.64,
+    "LIB": 40.17
+   },
+   "winner": {
+    "candidate": "MULLAHY, John",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "MULLAHY, John",
+     "code": "ALP",
+     "pct": 53.3
+    },
+    {
+     "candidate": "ANGUS, Neil",
+     "code": "LIB",
+     "pct": 46.7
+    }
+   ],
+   "margin": 3.3,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "greenvale": {
+   "name": "Greenvale",
+   "primary": {
+    "OTH": 20.91,
+    "IND": 6.41,
+    "LIB": 25.39,
+    "GRN": 5.82,
+    "ALP": 41.47
+   },
+   "winner": {
+    "candidate": "WALTERS, Iwan",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "WALTERS, Iwan",
+     "code": "ALP",
+     "pct": 51.24
+    },
+    {
+     "candidate": "GHANI, Usman",
+     "code": "LIB",
+     "pct": 33.72
+    }
+   ],
+   "margin": 1.24,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "hastings": {
+   "name": "Hastings",
+   "primary": {
+    "OTH": 11.65,
+    "GRN": 9.99,
+    "ALP": 37.26,
+    "LIB": 39.81,
+    "IND": 1.29
+   },
+   "winner": {
+    "candidate": "MERCURIO, Paul",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "MERCURIO, Paul",
+     "code": "ALP",
+     "pct": 51.35
+    },
+    {
+     "candidate": "HUTTON, Briony",
+     "code": "LIB",
+     "pct": 48.65
+    }
+   ],
+   "margin": 1.35,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "hawthorn": {
+   "name": "Hawthorn",
+   "primary": {
+    "OTH": 3.21,
+    "ALP": 22.11,
+    "LIB": 43.58,
+    "IND": 19.98,
+    "GRN": 11.12
+   },
+   "winner": {
+    "candidate": "PESUTTO, John",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "PESUTTO, John",
+     "code": "LIB",
+     "pct": 51.74
+    },
+    {
+     "candidate": "KENNEDY, John",
+     "code": "ALP",
+     "pct": 48.26
+    }
+   ],
+   "margin": 1.74,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "ivanhoe": {
+   "name": "Ivanhoe",
+   "primary": {
+    "ALP": 42.69,
+    "OTH": 5.3,
+    "LIB": 30.95,
+    "IND": 1.82,
+    "GRN": 19.23
+   },
+   "winner": {
+    "candidate": "CARBINES, Anthony",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "CARBINES, Anthony",
+     "code": "ALP",
+     "pct": 62.75
+    },
+    {
+     "candidate": "KHOURY, Bernadette",
+     "code": "LIB",
+     "pct": 37.25
+    }
+   ],
+   "margin": 12.75,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "kalkallo": {
+   "name": "Kalkallo",
+   "primary": {
+    "ALP": 53.85,
+    "LIB": 22.9,
+    "OTH": 15.68,
+    "IND": 2.27,
+    "GRN": 5.29
+   },
+   "winner": {
+    "candidate": "SPENCE, Ros",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "SPENCE, Ros",
+     "code": "ALP",
+     "pct": 66.43
+    },
+    {
+     "candidate": "SINGH, Bikram",
+     "code": "LIB",
+     "pct": 33.57
+    }
+   ],
+   "margin": 16.43,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "kew": {
+   "name": "Kew",
+   "primary": {
+    "IND": 21.8,
+    "ALP": 22.7,
+    "OTH": 2.89,
+    "LIB": 44.32,
+    "GRN": 8.29
+   },
+   "winner": {
+    "candidate": "WILSON, Jess",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "WILSON, Jess",
+     "code": "LIB",
+     "pct": 53.98
+    },
+    {
+     "candidate": "SKELTON, Lucy",
+     "code": "ALP",
+     "pct": 46.02
+    }
+   ],
+   "margin": 3.98,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "kororoit": {
+   "name": "Kororoit",
+   "primary": {
+    "OTH": 23.47,
+    "IND": 2.42,
+    "ALP": 43.27,
+    "GRN": 6.56,
+    "LIB": 24.28
+   },
+   "winner": {
+    "candidate": "GRIGOROVITCH, Luba",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "GRIGOROVITCH, Luba",
+     "code": "ALP",
+     "pct": 53.13
+    },
+    {
+     "candidate": "FLETCHER, John",
+     "code": "LIB",
+     "pct": 31.04
+    }
+   ],
+   "margin": 3.13,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "lara": {
+   "name": "Lara",
+   "primary": {
+    "GRN": 11.32,
+    "IND": 2.66,
+    "LIB": 25.68,
+    "OTH": 10.67,
+    "ALP": 49.68
+   },
+   "winner": {
+    "candidate": "GEORGE, Ella",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "GEORGE, Ella",
+     "code": "ALP",
+     "pct": 50.31
+    },
+    {
+     "candidate": "KREIN, Ralph",
+     "code": "LIB",
+     "pct": 21.86
+    }
+   ],
+   "margin": 0.31,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "laverton": {
+   "name": "Laverton",
+   "primary": {
+    "OTH": 21.61,
+    "GRN": 9.41,
+    "IND": 0.96,
+    "ALP": 45.85,
+    "LIB": 22.17
+   },
+   "winner": {
+    "candidate": "CONNOLLY, Sarah",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "CONNOLLY, Sarah",
+     "code": "ALP",
+     "pct": 52.14
+    },
+    {
+     "candidate": "REDDY, Raja",
+     "code": "LIB",
+     "pct": 27.79
+    }
+   ],
+   "margin": 2.14,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "lowan": {
+   "name": "Lowan",
+   "primary": {
+    "OTH": 9.94,
+    "NAT": 58.85,
+    "IND": 5.51,
+    "ALP": 19.76,
+    "GRN": 5.95
+   },
+   "winner": {
+    "candidate": "KEALY, Emma",
+    "code": "NAT"
+   },
+   "final": [
+    {
+     "candidate": "KEALY, Emma",
+     "code": "NAT",
+     "pct": 71.61
+    },
+    {
+     "candidate": "MONAGHAN, Mick",
+     "code": "ALP",
+     "pct": 28.39
+    }
+   ],
+   "margin": 21.61,
+   "holder": {
+    "code": "NAT"
+   }
+  },
+  "macedon": {
+   "name": "Macedon",
+   "primary": {
+    "LIB": 29.97,
+    "GRN": 12.54,
+    "ALP": 41.44,
+    "IND": 5.41,
+    "OTH": 7.01,
+    "ON": 3.63
+   },
+   "winner": {
+    "candidate": "THOMAS, Mary-Anne",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "THOMAS, Mary-Anne",
+     "code": "ALP",
+     "pct": 59.54
+    },
+    {
+     "candidate": "BONANNO, Dominic",
+     "code": "LIB",
+     "pct": 40.46
+    }
+   ],
+   "margin": 9.54,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "malvern": {
+   "name": "Malvern",
+   "primary": {
+    "OTH": 4.03,
+    "ALP": 26.19,
+    "LIB": 52.54,
+    "IND": 1.58,
+    "GRN": 15.66
+   },
+   "winner": {
+    "candidate": "O'BRIEN, Michael",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "O'BRIEN, Michael",
+     "code": "LIB",
+     "pct": 58.28
+    },
+    {
+     "candidate": "NATALE, Darren",
+     "code": "ALP",
+     "pct": 41.72
+    }
+   ],
+   "margin": 8.28,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "melbourne": {
+   "name": "Melbourne",
+   "primary": {
+    "LIB": 17.69,
+    "GRN": 37.29,
+    "OTH": 13.36,
+    "IND": 1.01,
+    "ALP": 30.65
+   },
+   "winner": {
+    "candidate": "SANDELL, Ellen",
+    "code": "GRN"
+   },
+   "final": [
+    {
+     "candidate": "SANDELL, Ellen",
+     "code": "GRN",
+     "pct": 60.19
+    },
+    {
+     "candidate": "THISTLETON, Rebecca",
+     "code": "ALP",
+     "pct": 39.81
+    }
+   ],
+   "margin": 10.19,
+   "holder": {
+    "code": "GRN"
+   }
+  },
+  "melton": {
+   "name": "Melton",
+   "primary": {
+    "OTH": 18.18,
+    "IND": 15.2,
+    "LIB": 24.34,
+    "GRN": 4.55,
+    "ALP": 37.73
+   },
+   "winner": {
+    "candidate": "McGHIE, Steve",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "McGHIE, Steve",
+     "code": "ALP",
+     "pct": 54.59
+    },
+    {
+     "candidate": "WATT, Graham",
+     "code": "LIB",
+     "pct": 45.41
+    }
+   ],
+   "margin": 4.59,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "mildura": {
+   "name": "Mildura",
+   "primary": {
+    "IND": 41.19,
+    "OTH": 4.97,
+    "LIB": 19.12,
+    "ALP": 6.51,
+    "NAT": 25.87,
+    "GRN": 2.34
+   },
+   "winner": {
+    "candidate": "BENHAM, Jade",
+    "code": "NAT"
+   },
+   "final": [
+    {
+     "candidate": "BENHAM, Jade",
+     "code": "NAT",
+     "pct": 51.18
+    },
+    {
+     "candidate": "CUPPER, Ali",
+     "code": "IND",
+     "pct": 48.82
+    }
+   ],
+   "margin": 1.18,
+   "holder": {
+    "code": "NAT"
+   }
+  },
+  "mill-park": {
+   "name": "Mill Park",
+   "primary": {
+    "OTH": 16.89,
+    "LIB": 25.92,
+    "ALP": 49.89,
+    "GRN": 7.3
+   },
+   "winner": {
+    "candidate": "D'AMBROSIO, Lily",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "D'AMBROSIO, Lily",
+     "code": "ALP",
+     "pct": 50.55
+    },
+    {
+     "candidate": "YAP, Paige",
+     "code": "LIB",
+     "pct": 27.22
+    }
+   ],
+   "margin": 0.55,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "monbulk": {
+   "name": "Monbulk",
+   "primary": {
+    "IND": 10.28,
+    "OTH": 9.2,
+    "GRN": 14.97,
+    "LIB": 29.49,
+    "ALP": 36.06
+   },
+   "winner": {
+    "candidate": "DE MARTINO, Daniela",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "DE MARTINO, Daniela",
+     "code": "ALP",
+     "pct": 57.55
+    },
+    {
+     "candidate": "WARD, Gareth",
+     "code": "LIB",
+     "pct": 42.45
+    }
+   ],
+   "margin": 7.55,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "mordialloc": {
+   "name": "Mordialloc",
+   "primary": {
+    "IND": 7.7,
+    "OTH": 6.61,
+    "ALP": 44.03,
+    "GRN": 10.27,
+    "LIB": 31.39
+   },
+   "winner": {
+    "candidate": "RICHARDSON, Tim",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "RICHARDSON, Tim",
+     "code": "ALP",
+     "pct": 58.19
+    },
+    {
+     "candidate": "PEASE, Phillip",
+     "code": "LIB",
+     "pct": 41.81
+    }
+   ],
+   "margin": 8.19,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "mornington": {
+   "name": "Mornington",
+   "primary": {
+    "IND": 23.95,
+    "OTH": 5.13,
+    "LIB": 42.58,
+    "GRN": 6.36,
+    "ALP": 21.98
+   },
+   "winner": {
+    "candidate": "CREWTHER, Chris",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "CREWTHER, Chris",
+     "code": "LIB",
+     "pct": 50.7
+    },
+    {
+     "candidate": "LARDNER, Kate",
+     "code": "IND",
+     "pct": 49.3
+    }
+   ],
+   "margin": 0.7,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "morwell": {
+   "name": "Morwell",
+   "primary": {
+    "LIB": 15.51,
+    "NAT": 22.89,
+    "OTH": 10.12,
+    "GRN": 4.23,
+    "IND": 9.69,
+    "ALP": 31.44,
+    "ON": 6.12
+   },
+   "winner": {
+    "candidate": "CAMERON, Martin",
+    "code": "NAT"
+   },
+   "final": [
+    {
+     "candidate": "CAMERON, Martin",
+     "code": "NAT",
+     "pct": 54.42
+    },
+    {
+     "candidate": "MAXFIELD, Kate",
+     "code": "ALP",
+     "pct": 45.58
+    }
+   ],
+   "margin": 4.42,
+   "holder": {
+    "code": "NAT"
+   }
+  },
+  "mulgrave": {
+   "name": "Mulgrave",
+   "primary": {
+    "ALP": 51.0,
+    "IND": 20.62,
+    "OTH": 6.11,
+    "GRN": 5.08,
+    "LIB": 17.19
+   },
+   "winner": {
+    "candidate": "ANDREWS, Daniel",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "ANDREWS, Daniel",
+     "code": "ALP",
+     "pct": 60.2
+    },
+    {
+     "candidate": "PIASTRINO, Michael",
+     "code": "LIB",
+     "pct": 39.8
+    }
+   ],
+   "margin": 10.2,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "murray-plains": {
+   "name": "Murray Plains",
+   "primary": {
+    "OTH": 13.03,
+    "ALP": 18.77,
+    "NAT": 61.78,
+    "IND": 2.54,
+    "GRN": 3.88
+   },
+   "winner": {
+    "candidate": "WALSH, Peter",
+    "code": "NAT"
+   },
+   "final": [
+    {
+     "candidate": "WALSH, Peter",
+     "code": "NAT",
+     "pct": 72.89
+    },
+    {
+     "candidate": "HURRELL, Damien",
+     "code": "ALP",
+     "pct": 27.11
+    }
+   ],
+   "margin": 22.89,
+   "holder": {
+    "code": "NAT"
+   }
+  },
+  "narre-warren-north": {
+   "name": "Narre Warren North",
+   "primary": {
+    "ALP": 46.77,
+    "OTH": 13.75,
+    "IND": 2.19,
+    "LIB": 30.5,
+    "GRN": 6.79
+   },
+   "winner": {
+    "candidate": "WILSON, Belinda",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "WILSON, Belinda",
+     "code": "ALP",
+     "pct": 55.03
+    },
+    {
+     "candidate": "DRAGAN, Timothy",
+     "code": "LIB",
+     "pct": 32.72
+    }
+   ],
+   "margin": 5.03,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "narre-warren-south": {
+   "name": "Narre Warren South",
+   "primary": {
+    "OTH": 13.25,
+    "LIB": 31.48,
+    "IND": 0.68,
+    "ALP": 47.98,
+    "GRN": 6.62
+   },
+   "winner": {
+    "candidate": "MAAS, Gary",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "MAAS, Gary",
+     "code": "ALP",
+     "pct": 54.24
+    },
+    {
+     "candidate": "SAMUEL, Annette",
+     "code": "LIB",
+     "pct": 32.23
+    }
+   ],
+   "margin": 4.24,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "nepean": {
+   "name": "Nepean",
+   "primary": {
+    "OTH": 7.93,
+    "IND": 2.54,
+    "LIB": 48.11,
+    "GRN": 8.77,
+    "ALP": 32.64
+   },
+   "winner": {
+    "candidate": "GROTH, Sam",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "GROTH, Sam",
+     "code": "LIB",
+     "pct": 50.54
+    },
+    {
+     "candidate": "BRAYNE, Chris",
+     "code": "ALP",
+     "pct": 34.14
+    }
+   ],
+   "margin": 0.54,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "niddrie": {
+   "name": "Niddrie",
+   "primary": {
+    "OTH": 14.71,
+    "ALP": 43.95,
+    "LIB": 33.96,
+    "GRN": 7.38
+   },
+   "winner": {
+    "candidate": "CARROLL, Ben",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "CARROLL, Ben",
+     "code": "ALP",
+     "pct": 56.69
+    },
+    {
+     "candidate": "YOUHANA, Alan",
+     "code": "LIB",
+     "pct": 43.31
+    }
+   ],
+   "margin": 6.69,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "northcote": {
+   "name": "Northcote",
+   "primary": {
+    "IND": 1.4,
+    "OTH": 14.56,
+    "GRN": 30.01,
+    "LIB": 13.45,
+    "ALP": 40.58
+   },
+   "winner": {
+    "candidate": "THEOPHANOUS, Kat",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "THEOPHANOUS, Kat",
+     "code": "ALP",
+     "pct": 50.22
+    },
+    {
+     "candidate": "GOME, Campbell",
+     "code": "GRN",
+     "pct": 49.78
+    }
+   ],
+   "margin": 0.22,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "oakleigh": {
+   "name": "Oakleigh",
+   "primary": {
+    "IND": 3.0,
+    "ALP": 45.04,
+    "OTH": 6.12,
+    "LIB": 29.26,
+    "GRN": 16.57
+   },
+   "winner": {
+    "candidate": "DIMOPOULOS, Steve",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "DIMOPOULOS, Steve",
+     "code": "ALP",
+     "pct": 63.48
+    },
+    {
+     "candidate": "GRIVOKOSTOPOULOS, Jim",
+     "code": "LIB",
+     "pct": 36.52
+    }
+   ],
+   "margin": 13.48,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "ovens-valley": {
+   "name": "Ovens Valley",
+   "primary": {
+    "NAT": 52.13,
+    "OTH": 10.76,
+    "ALP": 20.72,
+    "GRN": 8.97,
+    "LIB": 7.42
+   },
+   "winner": {
+    "candidate": "McCURDY, Tim",
+    "code": "NAT"
+   },
+   "final": [
+    {
+     "candidate": "McCURDY, Tim",
+     "code": "NAT",
+     "pct": 67.97
+    },
+    {
+     "candidate": "LESCHEN, Zuvele",
+     "code": "ALP",
+     "pct": 32.03
+    }
+   ],
+   "margin": 17.97,
+   "holder": {
+    "code": "NAT"
+   }
+  },
+  "pakenham": {
+   "name": "Pakenham",
+   "primary": {
+    "LIB": 32.43,
+    "OTH": 14.99,
+    "GRN": 6.61,
+    "IND": 8.72,
+    "ALP": 33.84,
+    "ON": 3.4
+   },
+   "winner": {
+    "candidate": "VULIN, Emma",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "VULIN, Emma",
+     "code": "ALP",
+     "pct": 50.39
+    },
+    {
+     "candidate": "FARRELLY, David",
+     "code": "LIB",
+     "pct": 49.61
+    }
+   ],
+   "margin": 0.39,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "pascoe-vale": {
+   "name": "Pascoe Vale",
+   "primary": {
+    "OTH": 13.6,
+    "LIB": 21.01,
+    "IND": 4.19,
+    "ALP": 38.76,
+    "GRN": 22.43
+   },
+   "winner": {
+    "candidate": "CIANFLONE, Anthony",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "CIANFLONE, Anthony",
+     "code": "ALP",
+     "pct": 52.02
+    },
+    {
+     "candidate": "PANOPOULOS, Angelica",
+     "code": "GRN",
+     "pct": 47.98
+    }
+   ],
+   "margin": 2.02,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "point-cook": {
+   "name": "Point Cook",
+   "primary": {
+    "OTH": 18.26,
+    "GRN": 6.8,
+    "IND": 10.22,
+    "LIB": 24.68,
+    "ALP": 40.04
+   },
+   "winner": {
+    "candidate": "HILAKARI, Mathew",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "HILAKARI, Mathew",
+     "code": "ALP",
+     "pct": 58.34
+    },
+    {
+     "candidate": "NEWHOUSE, Angela",
+     "code": "LIB",
+     "pct": 41.66
+    }
+   ],
+   "margin": 8.34,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "polwarth": {
+   "name": "Polwarth",
+   "primary": {
+    "GRN": 16.65,
+    "IND": 4.38,
+    "OTH": 7.17,
+    "ALP": 29.31,
+    "LIB": 42.48
+   },
+   "winner": {
+    "candidate": "RIORDAN, Richard",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "RIORDAN, Richard",
+     "code": "LIB",
+     "pct": 51.79
+    },
+    {
+     "candidate": "HUSSEIN, Hutch",
+     "code": "ALP",
+     "pct": 48.21
+    }
+   ],
+   "margin": 1.79,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "prahran": {
+   "name": "Prahran",
+   "primary": {
+    "OTH": 4.81,
+    "LIB": 31.08,
+    "ALP": 26.56,
+    "IND": 1.14,
+    "GRN": 36.4
+   },
+   "winner": {
+    "candidate": "HIBBINS, Sam",
+    "code": "GRN"
+   },
+   "final": [
+    {
+     "candidate": "HIBBINS, Sam",
+     "code": "GRN",
+     "pct": 62.01
+    },
+    {
+     "candidate": "LUCAS, Matthew",
+     "code": "LIB",
+     "pct": 37.99
+    }
+   ],
+   "margin": 12.01,
+   "holder": {
+    "code": "LIB",
+    "note": "Won from the Greens at the February 2025 by-election"
+   }
+  },
+  "preston": {
+   "name": "Preston",
+   "primary": {
+    "IND": 14.41,
+    "OTH": 15.57,
+    "GRN": 15.12,
+    "LIB": 17.27,
+    "ALP": 37.63
+   },
+   "winner": {
+    "candidate": "LAMBERT, Nathan",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "LAMBERT, Nathan",
+     "code": "ALP",
+     "pct": 52.09
+    },
+    {
+     "candidate": "PATERSON, Patchouli",
+     "code": "GRN",
+     "pct": 47.91
+    }
+   ],
+   "margin": 2.09,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "richmond": {
+   "name": "Richmond",
+   "primary": {
+    "OTH": 12.71,
+    "IND": 1.05,
+    "GRN": 34.66,
+    "LIB": 18.77,
+    "ALP": 32.81
+   },
+   "winner": {
+    "candidate": "DE VIETRI, Gabrielle",
+    "code": "GRN"
+   },
+   "final": [
+    {
+     "candidate": "DE VIETRI, Gabrielle",
+     "code": "GRN",
+     "pct": 57.32
+    },
+    {
+     "candidate": "O'DWYER, Lauren",
+     "code": "ALP",
+     "pct": 42.68
+    }
+   ],
+   "margin": 7.32,
+   "holder": {
+    "code": "GRN"
+   }
+  },
+  "ringwood": {
+   "name": "Ringwood",
+   "primary": {
+    "OTH": 11.65,
+    "ALP": 39.02,
+    "LIB": 33.81,
+    "GRN": 15.53
+   },
+   "winner": {
+    "candidate": "FOWLES, Will",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "FOWLES, Will",
+     "code": "ALP",
+     "pct": 57.53
+    },
+    {
+     "candidate": "WATSON, Cynthia",
+     "code": "LIB",
+     "pct": 42.47
+    }
+   ],
+   "margin": 7.53,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "ripon": {
+   "name": "Ripon",
+   "primary": {
+    "OTH": 16.55,
+    "IND": 2.8,
+    "GRN": 5.96,
+    "ALP": 38.55,
+    "LIB": 36.15
+   },
+   "winner": {
+    "candidate": "HAYLETT, Martha",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "HAYLETT, Martha",
+     "code": "ALP",
+     "pct": 52.99
+    },
+    {
+     "candidate": "STALEY, Louise",
+     "code": "LIB",
+     "pct": 47.01
+    }
+   ],
+   "margin": 2.99,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "rowville": {
+   "name": "Rowville",
+   "primary": {
+    "LIB": 40.58,
+    "IND": 12.06,
+    "GRN": 7.04,
+    "ALP": 32.93,
+    "OTH": 7.38
+   },
+   "winner": {
+    "candidate": "WELLS, Kim",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "WELLS, Kim",
+     "code": "LIB",
+     "pct": 53.67
+    },
+    {
+     "candidate": "VERMA, Mannie Kaur",
+     "code": "ALP",
+     "pct": 46.33
+    }
+   ],
+   "margin": 3.67,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "sandringham": {
+   "name": "Sandringham",
+   "primary": {
+    "GRN": 14.68,
+    "OTH": 6.02,
+    "ALP": 25.74,
+    "LIB": 46.36,
+    "IND": 7.2
+   },
+   "winner": {
+    "candidate": "ROWSWELL, Brad",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "ROWSWELL, Brad",
+     "code": "LIB",
+     "pct": 51.19
+    },
+    {
+     "candidate": "PRESCOTT, Bettina",
+     "code": "ALP",
+     "pct": 29.19
+    }
+   ],
+   "margin": 1.19,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "shepparton": {
+   "name": "Shepparton",
+   "primary": {
+    "NAT": 32.06,
+    "GRN": 2.56,
+    "OTH": 7.46,
+    "ALP": 7.95,
+    "LIB": 20.56,
+    "IND": 29.41
+   },
+   "winner": {
+    "candidate": "O'KEEFFE, Kim",
+    "code": "NAT"
+   },
+   "final": [
+    {
+     "candidate": "O'KEEFFE, Kim",
+     "code": "NAT",
+     "pct": 56.79
+    },
+    {
+     "candidate": "SHEED, Suzanna",
+     "code": "IND",
+     "pct": 43.21
+    }
+   ],
+   "margin": 6.79,
+   "holder": {
+    "code": "NAT"
+   }
+  },
+  "south-barwon": {
+   "name": "South Barwon",
+   "primary": {
+    "LIB": 32.13,
+    "OTH": 11.02,
+    "GRN": 12.66,
+    "ALP": 44.19
+   },
+   "winner": {
+    "candidate": "CHEESEMAN, Darren",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "CHEESEMAN, Darren",
+     "code": "ALP",
+     "pct": 59.8
+    },
+    {
+     "candidate": "KATOS, Andrew",
+     "code": "LIB",
+     "pct": 40.2
+    }
+   ],
+   "margin": 9.8,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "south-west-coast": {
+   "name": "South West Coast",
+   "primary": {
+    "IND": 25.9,
+    "OTH": 4.62,
+    "ALP": 21.19,
+    "GRN": 5.4,
+    "LIB": 42.9
+   },
+   "winner": {
+    "candidate": "BRITNELL, Roma",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "BRITNELL, Roma",
+     "code": "LIB",
+     "pct": 58.05
+    },
+    {
+     "candidate": "GASTON, Kylie",
+     "code": "ALP",
+     "pct": 41.95
+    }
+   ],
+   "margin": 8.05,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "st-albans": {
+   "name": "St Albans",
+   "primary": {
+    "LIB": 25.38,
+    "OTH": 22.37,
+    "ALP": 42.26,
+    "GRN": 6.76,
+    "IND": 3.23
+   },
+   "winner": {
+    "candidate": "SULEYMAN, Natalie",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "SULEYMAN, Natalie",
+     "code": "ALP",
+     "pct": 59.56
+    },
+    {
+     "candidate": "KERR, Maria",
+     "code": "LIB",
+     "pct": 40.44
+    }
+   ],
+   "margin": 9.56,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "sunbury": {
+   "name": "Sunbury",
+   "primary": {
+    "OTH": 15.03,
+    "LIB": 31.55,
+    "ALP": 43.1,
+    "GRN": 6.52,
+    "IND": 3.8
+   },
+   "winner": {
+    "candidate": "BULL, Josh",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "BULL, Josh",
+     "code": "ALP",
+     "pct": 56.41
+    },
+    {
+     "candidate": "COTTOM, Simmone",
+     "code": "LIB",
+     "pct": 43.59
+    }
+   ],
+   "margin": 6.41,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "sydenham": {
+   "name": "Sydenham",
+   "primary": {
+    "OTH": 21.71,
+    "ALP": 43.46,
+    "LIB": 29.0,
+    "GRN": 5.83
+   },
+   "winner": {
+    "candidate": "HUTCHINS, Natalie",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "HUTCHINS, Natalie",
+     "code": "ALP",
+     "pct": 51.87
+    },
+    {
+     "candidate": "CULLIA, Joseph",
+     "code": "LIB",
+     "pct": 33.4
+    }
+   ],
+   "margin": 1.87,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "tarneit": {
+   "name": "Tarneit",
+   "primary": {
+    "OTH": 17.83,
+    "IND": 1.37,
+    "ALP": 46.62,
+    "GRN": 7.4,
+    "LIB": 26.78
+   },
+   "winner": {
+    "candidate": "WIGHT, Dylan",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "WIGHT, Dylan",
+     "code": "ALP",
+     "pct": 50.41
+    },
+    {
+     "candidate": "SINGH, Preet",
+     "code": "LIB",
+     "pct": 30.21
+    }
+   ],
+   "margin": 0.41,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "thomastown": {
+   "name": "Thomastown",
+   "primary": {
+    "LIB": 24.02,
+    "OTH": 17.4,
+    "ALP": 51.76,
+    "GRN": 6.82
+   },
+   "winner": {
+    "candidate": "HALFPENNY, Bronwyn",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "HALFPENNY, Bronwyn",
+     "code": "ALP",
+     "pct": 66.0
+    },
+    {
+     "candidate": "SINGH, Gurdawar",
+     "code": "LIB",
+     "pct": 34.0
+    }
+   ],
+   "margin": 16.0,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "warrandyte": {
+   "name": "Warrandyte",
+   "primary": {
+    "ALP": 33.16,
+    "OTH": 6.31,
+    "GRN": 11.72,
+    "IND": 1.46,
+    "LIB": 47.35
+   },
+   "winner": {
+    "candidate": "SMITH, Ryan",
+    "code": "LIB"
+   },
+   "final": [
+    {
+     "candidate": "SMITH, Ryan",
+     "code": "LIB",
+     "pct": 51.27
+    },
+    {
+     "candidate": "OAKLEY, Naomi",
+     "code": "ALP",
+     "pct": 34.38
+    }
+   ],
+   "margin": 1.27,
+   "holder": {
+    "code": "LIB"
+   }
+  },
+  "wendouree": {
+   "name": "Wendouree",
+   "primary": {
+    "OTH": 11.21,
+    "LIB": 29.75,
+    "ALP": 47.56,
+    "IND": 1.08,
+    "GRN": 10.4
+   },
+   "winner": {
+    "candidate": "ADDISON, Juliana",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "ADDISON, Juliana",
+     "code": "ALP",
+     "pct": 50.8
+    },
+    {
+     "candidate": "McINTOSH, Samantha",
+     "code": "LIB",
+     "pct": 35.05
+    }
+   ],
+   "margin": 0.8,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "werribee": {
+   "name": "Werribee",
+   "primary": {
+    "ALP": 45.36,
+    "OTH": 15.97,
+    "IND": 6.57,
+    "GRN": 6.77,
+    "LIB": 25.33
+   },
+   "winner": {
+    "candidate": "PALLAS, Tim",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "PALLAS, Tim",
+     "code": "ALP",
+     "pct": 51.58
+    },
+    {
+     "candidate": "SHAW, Mia",
+     "code": "LIB",
+     "pct": 34.93
+    }
+   ],
+   "margin": 1.58,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "williamstown": {
+   "name": "Williamstown",
+   "primary": {
+    "OTH": 15.04,
+    "LIB": 28.04,
+    "ALP": 41.5,
+    "GRN": 15.43
+   },
+   "winner": {
+    "candidate": "HORNE, Melissa",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "HORNE, Melissa",
+     "code": "ALP",
+     "pct": 63.44
+    },
+    {
+     "candidate": "KELLANDER, Daria",
+     "code": "LIB",
+     "pct": 36.56
+    }
+   ],
+   "margin": 13.44,
+   "holder": {
+    "code": "ALP"
+   }
+  },
+  "yan-yean": {
+   "name": "Yan Yean",
+   "primary": {
+    "OTH": 18.25,
+    "GRN": 6.44,
+    "LIB": 33.89,
+    "ALP": 41.42
+   },
+   "winner": {
+    "candidate": "KATHAGE, Lauren",
+    "code": "ALP"
+   },
+   "final": [
+    {
+     "candidate": "KATHAGE, Lauren",
+     "code": "ALP",
+     "pct": 50.16
+    },
+    {
+     "candidate": "WELCH, Richard",
+     "code": "LIB",
+     "pct": 38.2
+    }
+   ],
+   "margin": 0.16,
+   "holder": {
+    "code": "ALP"
+   }
+  }
+ },
+ "polls": [
+  {
+   "name": "Newspoll",
+   "COAL": 33,
+   "ALP": 20,
+   "ON": 18,
+   "GRN": 17
+  },
+  {
+   "name": "DemosAU",
+   "COAL": 34,
+   "ALP": 19,
+   "ON": 16,
+   "GRN": 16
+  },
+  {
+   "name": "Freshwater Strategy",
+   "COAL": 34,
+   "ALP": 21,
+   "ON": 23,
+   "GRN": 15
+  },
+  {
+   "name": "Resolve Strategic",
+   "COAL": 31,
+   "ALP": 20,
+   "ON": 25,
+   "GRN": null
+  }
+ ],
+ "poll_average": {
+  "COAL": 33.0,
+  "ALP": 20.0,
+  "ON": 20.5,
+  "GRN": 16.0,
+  "OTHERS": 10.5
+ }
+}

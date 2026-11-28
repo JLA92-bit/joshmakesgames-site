@@ -3,78 +3,421 @@
  "name": "Bayswater",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bayswater-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:41:33+00:00",
+ "fetched_at": "2026-11-28T10:17:00+00:00",
  "title": "Bayswater election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:02",
+ "last_updated": "Saturday, 28 November 2026 21:15:02",
  "enrolment": 51511,
- "counted_pct": 6.36,
+ "formal": 11039,
+ "informal": 748,
+ "total_votes": 11787,
+ "counted_pct": 22.88,
  "notes": [],
  "primary": [
   {
    "candidate": "BLEAKNEY, Kayte",
    "party": "One Nation Victoria",
-   "votes": 2001,
-   "pct": 20.86
+   "votes": 2325,
+   "pct": 21.06
   },
   {
    "candidate": "KENNEDY, Jess",
    "party": "The Greens",
-   "votes": 1671,
-   "pct": 17.42
+   "votes": 1920,
+   "pct": 17.39
   },
   {
    "candidate": "BUXTON, Julie",
    "party": "Australian Labor Party",
-   "votes": 1815,
-   "pct": 18.92
+   "votes": 2100,
+   "pct": 19.02
   },
   {
    "candidate": "KITCHEN, David",
    "party": "Liberal",
-   "votes": 3222,
-   "pct": 33.58
+   "votes": 3682,
+   "pct": 33.35
   },
   {
    "candidate": "CLARKE, Mathew",
    "party": "",
-   "votes": 157,
-   "pct": 1.64
+   "votes": 180,
+   "pct": 1.63
   },
   {
    "candidate": "HUBBARD, Naomi",
    "party": "Labour DLP",
-   "votes": 62,
-   "pct": 0.65
+   "votes": 69,
+   "pct": 0.63
   },
   {
    "candidate": "FERGUSON, Alec",
    "party": "Victorian Socialists",
-   "votes": 386,
-   "pct": 4.02
+   "votes": 456,
+   "pct": 4.13
   },
   {
    "candidate": "COOMBES, Gary",
    "party": "Family First",
-   "votes": 280,
-   "pct": 2.92
+   "votes": 307,
+   "pct": 2.78
   }
  ],
  "tcp": [
   {
    "candidate": "BUXTON, Julie",
    "party": "Australian Labor Party",
-   "votes": 2558,
-   "pct": 39.52
+   "votes": 4266,
+   "pct": 40.62
   },
   {
    "candidate": "KITCHEN, David",
    "party": "Liberal",
-   "votes": 3915,
-   "pct": 60.48
+   "votes": 6236,
+   "pct": 59.38
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bayswater-district-results/Bayswater-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bayswater-district-results/Bayswater-2CP-results-by-voting-centre"
+ },
+ "booths_tcp": {
+  "columns": [
+   "BUXTON, Julie Australian Labor Party",
+   "KITCHEN, David Australian Labor Party",
+   "Miss-sorts",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total two candidate preferred votes",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 4266.0,
+     "KITCHEN, David Australian Labor Party": 6236.0,
+     "Miss-sorts": 15.0,
+     "Informal votes": 714.0,
+     "Total votes polled": 11231.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 40.62,
+     "KITCHEN, David Australian Labor Party": 59.38
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Bayswater",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 404.0,
+     "KITCHEN, David Australian Labor Party": 518.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 58.0,
+     "Total votes polled": 980.0
+    }
+   },
+   {
+    "booth": "Bayswater South",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 248.0,
+     "KITCHEN, David Australian Labor Party": 282.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 47.0,
+     "Total votes polled": 578.0
+    }
+   },
+   {
+    "booth": "Bayswater West",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 354.0,
+     "KITCHEN, David Australian Labor Party": 532.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 62.0,
+     "Total votes polled": 948.0
+    }
+   },
+   {
+    "booth": "Boronia",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 233.0,
+     "KITCHEN, David Australian Labor Party": 307.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 44.0,
+     "Total votes polled": 584.0
+    }
+   },
+   {
+    "booth": "Boronia East",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 185.0,
+     "KITCHEN, David Australian Labor Party": 245.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 34.0,
+     "Total votes polled": 464.0
+    }
+   },
+   {
+    "booth": "Boronia North",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 354.0,
+     "KITCHEN, David Australian Labor Party": 459.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 84.0,
+     "Total votes polled": 897.0
+    }
+   },
+   {
+    "booth": "Boronia West",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Fairhills",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Ferntree Gully West",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 494.0,
+     "KITCHEN, David Australian Labor Party": 690.0,
+     "Miss-sorts": 6.0,
+     "Informal votes": 80.0,
+     "Total votes polled": 1270.0
+    }
+   },
+   {
+    "booth": "Knox",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 177.0,
+     "KITCHEN, David Australian Labor Party": 192.0,
+     "Miss-sorts": 1.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 384.0
+    }
+   },
+   {
+    "booth": "Knoxfield North",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 227.0,
+     "KITCHEN, David Australian Labor Party": 452.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 39.0,
+     "Total votes polled": 720.0
+    }
+   },
+   {
+    "booth": "Lewis Park",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 90.0,
+     "KITCHEN, David Australian Labor Party": 184.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 20.0,
+     "Total votes polled": 294.0
+    }
+   },
+   {
+    "booth": "Mountain Gate",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 490.0,
+     "KITCHEN, David Australian Labor Party": 697.0,
+     "Miss-sorts": 3.0,
+     "Informal votes": 74.0,
+     "Total votes polled": 1264.0
+    }
+   },
+   {
+    "booth": "Studfield East",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 320.0,
+     "KITCHEN, David Australian Labor Party": 415.0,
+     "Miss-sorts": 2.0,
+     "Informal votes": 35.0,
+     "Total votes polled": 772.0
+    }
+   },
+   {
+    "booth": "Templeton",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "The Basin",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Wantirna",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 356.0,
+     "KITCHEN, David Australian Labor Party": 633.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 70.0,
+     "Total votes polled": 1059.0
+    }
+   },
+   {
+    "booth": "Wantirna North",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 334.0,
+     "KITCHEN, David Australian Labor Party": 630.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 53.0,
+     "Total votes polled": 1017.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 4266.0,
+     "KITCHEN, David Australian Labor Party": 6236.0,
+     "Miss-sorts": 15.0,
+     "Informal votes": 714.0,
+     "Total votes polled": 11231.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Bayswater - EVC 1",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Bayswater - EVC 2",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Bayswater - EVC 3",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Bayswater - MEVC",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "BUXTON, Julie Australian Labor Party": 0.0,
+     "KITCHEN, David Australian Labor Party": 0.0,
+     "Miss-sorts": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   }
+  ]
  }
 }

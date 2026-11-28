@@ -3,78 +3,647 @@
  "name": "Box Hill",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/box-hill-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:41:42+00:00",
+ "fetched_at": "2026-11-28T10:17:13+00:00",
  "title": "Box Hill election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:02",
+ "last_updated": "Saturday, 28 November 2026 21:15:02",
  "enrolment": 52758,
- "counted_pct": 4.23,
+ "formal": 6571,
+ "informal": 302,
+ "total_votes": 6873,
+ "counted_pct": 13.03,
  "notes": [],
  "primary": [
   {
    "candidate": "QIN, Aaron",
    "party": "The Greens",
-   "votes": 1208,
-   "pct": 20.53
+   "votes": 1334,
+   "pct": 20.3
   },
   {
    "candidate": "CHEUNG, Heena",
    "party": "",
-   "votes": 329,
-   "pct": 5.59
+   "votes": 358,
+   "pct": 5.45
   },
   {
    "candidate": "BAKER, Jamie",
    "party": "One Nation Victoria",
-   "votes": 469,
+   "votes": 524,
    "pct": 7.97
   },
   {
    "candidate": "HOUGUET, Sally",
    "party": "Liberal",
-   "votes": 2163,
-   "pct": 36.75
+   "votes": 2422,
+   "pct": 36.86
   },
   {
    "candidate": "McGRATH, Sue-Ellen",
    "party": "Labour DLP",
-   "votes": 50,
-   "pct": 0.85
+   "votes": 53,
+   "pct": 0.81
   },
   {
    "candidate": "HAMER, Paul",
    "party": "Australian Labor Party",
-   "votes": 1328,
-   "pct": 22.57
+   "votes": 1502,
+   "pct": 22.86
   },
   {
    "candidate": "AFAJ, Saravina",
    "party": "Victorian Socialists",
-   "votes": 234,
-   "pct": 3.98
+   "votes": 264,
+   "pct": 4.02
   },
   {
    "candidate": "FAGG, Peter",
    "party": "Family First",
-   "votes": 104,
-   "pct": 1.77
+   "votes": 114,
+   "pct": 1.73
   }
  ],
  "tcp": [
   {
    "candidate": "HOUGUET, Sally",
    "party": "Liberal",
-   "votes": 0,
-   "pct": 0.0
+   "votes": 357,
+   "pct": 52.04
   },
   {
    "candidate": "HAMER, Paul",
    "party": "Australian Labor Party",
-   "votes": 0,
-   "pct": 0.0
+   "votes": 329,
+   "pct": 47.96
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/box-hill-district-results/Box-Hill-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/box-hill-district-results/Box-Hill-2CP-results-by-voting-centre"
+ },
+ "booths_primary": {
+  "columns": [
+   "QIN, Aaron The Greens",
+   "CHEUNG, Heena",
+   "BAKER, Jamie One Nation Victoria",
+   "HOUGUET, Sally Liberal",
+   "McGRATH, Sue Ellen",
+   "HAMER, Paul Australian Labor Party",
+   "AFAJ, Saravina Victorian Socialists",
+   "FAGG, Peter Family First",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total first preference votes",
+    "values": {
+     "QIN, Aaron The Greens": 1334.0,
+     "CHEUNG, Heena": 358.0,
+     "BAKER, Jamie One Nation Victoria": 524.0,
+     "HOUGUET, Sally Liberal": 2422.0,
+     "McGRATH, Sue Ellen": 53.0,
+     "HAMER, Paul Australian Labor Party": 1502.0,
+     "AFAJ, Saravina Victorian Socialists": 264.0,
+     "FAGG, Peter Family First": 114.0,
+     "Informal votes": 302.0,
+     "Total votes polled": 6873.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "QIN, Aaron The Greens": 20.3,
+     "CHEUNG, Heena": 5.45,
+     "BAKER, Jamie One Nation Victoria": 7.97,
+     "HOUGUET, Sally Liberal": 36.86,
+     "McGRATH, Sue Ellen": 0.81,
+     "HAMER, Paul Australian Labor Party": 22.86,
+     "AFAJ, Saravina Victorian Socialists": 4.02,
+     "FAGG, Peter Family First": 1.73
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Blackburn",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Blackburn North",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Blackburn South",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Box Hill",
+    "values": {
+     "QIN, Aaron The Greens": 98.0,
+     "CHEUNG, Heena": 42.0,
+     "BAKER, Jamie One Nation Victoria": 42.0,
+     "HOUGUET, Sally Liberal": 147.0,
+     "McGRATH, Sue Ellen": 4.0,
+     "HAMER, Paul Australian Labor Party": 127.0,
+     "AFAJ, Saravina Victorian Socialists": 32.0,
+     "FAGG, Peter Family First": 12.0,
+     "Informal votes": 17.0,
+     "Total votes polled": 521.0
+    }
+   },
+   {
+    "booth": "Box Hill Central",
+    "values": {
+     "QIN, Aaron The Greens": 184.0,
+     "CHEUNG, Heena": 49.0,
+     "BAKER, Jamie One Nation Victoria": 35.0,
+     "HOUGUET, Sally Liberal": 195.0,
+     "McGRATH, Sue Ellen": 12.0,
+     "HAMER, Paul Australian Labor Party": 196.0,
+     "AFAJ, Saravina Victorian Socialists": 45.0,
+     "FAGG, Peter Family First": 12.0,
+     "Informal votes": 39.0,
+     "Total votes polled": 767.0
+    }
+   },
+   {
+    "booth": "Box Hill North",
+    "values": {
+     "QIN, Aaron The Greens": 137.0,
+     "CHEUNG, Heena": 32.0,
+     "BAKER, Jamie One Nation Victoria": 63.0,
+     "HOUGUET, Sally Liberal": 229.0,
+     "McGRATH, Sue Ellen": 4.0,
+     "HAMER, Paul Australian Labor Party": 178.0,
+     "AFAJ, Saravina Victorian Socialists": 29.0,
+     "FAGG, Peter Family First": 16.0,
+     "Informal votes": 31.0,
+     "Total votes polled": 719.0
+    }
+   },
+   {
+    "booth": "Box Hill South",
+    "values": {
+     "QIN, Aaron The Greens": 110.0,
+     "CHEUNG, Heena": 26.0,
+     "BAKER, Jamie One Nation Victoria": 39.0,
+     "HOUGUET, Sally Liberal": 186.0,
+     "McGRATH, Sue Ellen": 4.0,
+     "HAMER, Paul Australian Labor Party": 125.0,
+     "AFAJ, Saravina Victorian Socialists": 18.0,
+     "FAGG, Peter Family First": 10.0,
+     "Informal votes": 11.0,
+     "Total votes polled": 529.0
+    }
+   },
+   {
+    "booth": "Burwood Central",
+    "values": {
+     "QIN, Aaron The Greens": 96.0,
+     "CHEUNG, Heena": 20.0,
+     "BAKER, Jamie One Nation Victoria": 51.0,
+     "HOUGUET, Sally Liberal": 195.0,
+     "McGRATH, Sue Ellen": 3.0,
+     "HAMER, Paul Australian Labor Party": 115.0,
+     "AFAJ, Saravina Victorian Socialists": 15.0,
+     "FAGG, Peter Family First": 4.0,
+     "Informal votes": 30.0,
+     "Total votes polled": 529.0
+    }
+   },
+   {
+    "booth": "Elgar Park",
+    "values": {
+     "QIN, Aaron The Greens": 119.0,
+     "CHEUNG, Heena": 56.0,
+     "BAKER, Jamie One Nation Victoria": 33.0,
+     "HOUGUET, Sally Liberal": 319.0,
+     "McGRATH, Sue Ellen": 2.0,
+     "HAMER, Paul Australian Labor Party": 115.0,
+     "AFAJ, Saravina Victorian Socialists": 24.0,
+     "FAGG, Peter Family First": 18.0,
+     "Informal votes": 21.0,
+     "Total votes polled": 707.0
+    }
+   },
+   {
+    "booth": "Kerrimuir",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Koonung Heights",
+    "values": {
+     "QIN, Aaron The Greens": 58.0,
+     "CHEUNG, Heena": 10.0,
+     "BAKER, Jamie One Nation Victoria": 24.0,
+     "HOUGUET, Sally Liberal": 139.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 81.0,
+     "AFAJ, Saravina Victorian Socialists": 7.0,
+     "FAGG, Peter Family First": 1.0,
+     "Informal votes": 26.0,
+     "Total votes polled": 346.0
+    }
+   },
+   {
+    "booth": "Laburnum",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Middlefield",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Mont Albert",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Mont Albert North",
+    "values": {
+     "QIN, Aaron The Greens": 107.0,
+     "CHEUNG, Heena": 34.0,
+     "BAKER, Jamie One Nation Victoria": 44.0,
+     "HOUGUET, Sally Liberal": 297.0,
+     "McGRATH, Sue Ellen": 5.0,
+     "HAMER, Paul Australian Labor Party": 124.0,
+     "AFAJ, Saravina Victorian Socialists": 20.0,
+     "FAGG, Peter Family First": 5.0,
+     "Informal votes": 16.0,
+     "Total votes polled": 652.0
+    }
+   },
+   {
+    "booth": "Orchard Grove",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Starling",
+    "values": {
+     "QIN, Aaron The Greens": 69.0,
+     "CHEUNG, Heena": 4.0,
+     "BAKER, Jamie One Nation Victoria": 20.0,
+     "HOUGUET, Sally Liberal": 85.0,
+     "McGRATH, Sue Ellen": 5.0,
+     "HAMER, Paul Australian Labor Party": 48.0,
+     "AFAJ, Saravina Victorian Socialists": 9.0,
+     "FAGG, Peter Family First": 5.0,
+     "Informal votes": 23.0,
+     "Total votes polled": 268.0
+    }
+   },
+   {
+    "booth": "Surrey Hills North",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Tyne",
+    "values": {
+     "QIN, Aaron The Greens": 68.0,
+     "CHEUNG, Heena": 19.0,
+     "BAKER, Jamie One Nation Victoria": 32.0,
+     "HOUGUET, Sally Liberal": 120.0,
+     "McGRATH, Sue Ellen": 3.0,
+     "HAMER, Paul Australian Labor Party": 93.0,
+     "AFAJ, Saravina Victorian Socialists": 23.0,
+     "FAGG, Peter Family First": 8.0,
+     "Informal votes": 15.0,
+     "Total votes polled": 381.0
+    }
+   },
+   {
+    "booth": "Warrawong",
+    "values": {
+     "QIN, Aaron The Greens": 116.0,
+     "CHEUNG, Heena": 21.0,
+     "BAKER, Jamie One Nation Victoria": 78.0,
+     "HOUGUET, Sally Liberal": 230.0,
+     "McGRATH, Sue Ellen": 2.0,
+     "HAMER, Paul Australian Labor Party": 140.0,
+     "AFAJ, Saravina Victorian Socialists": 16.0,
+     "FAGG, Peter Family First": 8.0,
+     "Informal votes": 38.0,
+     "Total votes polled": 649.0
+    }
+   },
+   {
+    "booth": "Wattle Park",
+    "values": {
+     "QIN, Aaron The Greens": 172.0,
+     "CHEUNG, Heena": 45.0,
+     "BAKER, Jamie One Nation Victoria": 63.0,
+     "HOUGUET, Sally Liberal": 280.0,
+     "McGRATH, Sue Ellen": 9.0,
+     "HAMER, Paul Australian Labor Party": 160.0,
+     "AFAJ, Saravina Victorian Socialists": 26.0,
+     "FAGG, Peter Family First": 15.0,
+     "Informal votes": 35.0,
+     "Total votes polled": 805.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "QIN, Aaron The Greens": 1334.0,
+     "CHEUNG, Heena": 358.0,
+     "BAKER, Jamie One Nation Victoria": 524.0,
+     "HOUGUET, Sally Liberal": 2422.0,
+     "McGRATH, Sue Ellen": 53.0,
+     "HAMER, Paul Australian Labor Party": 1502.0,
+     "AFAJ, Saravina Victorian Socialists": 264.0,
+     "FAGG, Peter Family First": 114.0,
+     "Informal votes": 302.0,
+     "Total votes polled": 6873.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Box Hill - EVC 1",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Box Hill - EVC 2",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Box Hill - EVC 3",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Glen Waverley - EVC 3",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Box Hill - MEVC",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "QIN, Aaron The Greens": 0.0,
+     "CHEUNG, Heena": 0.0,
+     "BAKER, Jamie One Nation Victoria": 0.0,
+     "HOUGUET, Sally Liberal": 0.0,
+     "McGRATH, Sue Ellen": 0.0,
+     "HAMER, Paul Australian Labor Party": 0.0,
+     "AFAJ, Saravina Victorian Socialists": 0.0,
+     "FAGG, Peter Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   }
+  ]
  }
 }
