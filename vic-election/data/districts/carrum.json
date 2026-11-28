@@ -3,62 +3,62 @@
  "name": "Carrum",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/carrum-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:21:03+00:00",
+ "fetched_at": "2026-11-28T14:29:39+00:00",
  "title": "Carrum election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:20:04",
+ "last_updated": "Sunday, 29 November 2026 01:25:04",
  "enrolment": 54535,
- "formal": 36518,
- "informal": 1914,
- "total_votes": 38432,
- "counted_pct": 70.47,
+ "formal": 36590,
+ "informal": 1918,
+ "total_votes": 38508,
+ "counted_pct": 70.61,
  "notes": [],
  "primary": [
   {
    "candidate": "MATHEWS, Joshua",
    "party": "One Nation Victoria",
-   "votes": 8973,
-   "pct": 24.57
+   "votes": 8985,
+   "pct": 24.56
   },
   {
    "candidate": "ABABNEH, Reema",
    "party": "Victorian Socialists",
-   "votes": 898,
+   "votes": 899,
    "pct": 2.46
   },
   {
    "candidate": "MOORE, Carolyn",
    "party": "Animal Justice Party",
-   "votes": 628,
-   "pct": 1.72
+   "votes": 632,
+   "pct": 1.73
   },
   {
    "candidate": "MACKENZIE, Harley",
    "party": "Legalise Cannabis Victoria",
-   "votes": 1025,
+   "votes": 1027,
    "pct": 2.81
   },
   {
    "candidate": "SMITH, Trevor",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 359,
-   "pct": 0.98
+   "votes": 361,
+   "pct": 0.99
   },
   {
    "candidate": "KILKENNY, Sonya",
    "party": "Australian Labor Party",
-   "votes": 7931,
-   "pct": 21.72
+   "votes": 7953,
+   "pct": 21.74
   },
   {
    "candidate": "PEGRUM, Zoe",
    "party": "The Greens",
-   "votes": 4392,
-   "pct": 12.03
+   "votes": 4398,
+   "pct": 12.02
   },
   {
    "candidate": "SHELLEY, Jeff",
    "party": "Liberal",
-   "votes": 12312,
+   "votes": 12335,
    "pct": 33.71
   }
  ],

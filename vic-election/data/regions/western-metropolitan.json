@@ -3,45 +3,45 @@
  "name": "Western Metropolitan Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Metropolitan-Region-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:24:00+00:00",
+ "fetched_at": "2026-11-28T14:30:10+00:00",
  "title": "Western Metropolitan Region results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:20:16",
+ "last_updated": "Sunday, 29 November 2026 01:25:16",
  "enrolment": 616432,
- "formal": 72468,
- "informal": 4104,
- "total_votes": 76572,
- "counted_pct": 12.42,
+ "formal": 72546,
+ "informal": 4107,
+ "total_votes": 76653,
+ "counted_pct": 12.43,
  "notes": [],
  "primary": [
   {
    "candidate": "Labour DLP",
    "party": "Labour DLP",
-   "votes": 2219,
+   "votes": 2221,
    "pct": 3.06
   },
   {
    "candidate": "Legalise Cannabis Victoria",
    "party": "Legalise Cannabis Victoria",
-   "votes": 2558,
+   "votes": 2563,
    "pct": 3.53
   },
   {
    "candidate": "Liberal",
    "party": "Liberal",
-   "votes": 18205,
+   "votes": 18225,
    "pct": 25.12
   },
   {
    "candidate": "Victorian Socialists",
    "party": "Victorian Socialists",
-   "votes": 5271,
+   "votes": 5274,
    "pct": 7.27
   },
   {
    "candidate": "Australian Labor Party",
    "party": "Australian Labor Party",
-   "votes": 15255,
-   "pct": 21.05
+   "votes": 15267,
+   "pct": 21.04
   },
   {
    "candidate": "Australian Democrats",
@@ -59,12 +59,12 @@
    "candidate": "Family First",
    "party": "Family First",
    "votes": 1672,
-   "pct": 2.31
+   "pct": 2.3
   },
   {
    "candidate": "The Greens",
    "party": "The Greens",
-   "votes": 11944,
+   "votes": 11954,
    "pct": 16.48
   },
   {
@@ -76,8 +76,8 @@
   {
    "candidate": "One Nation Victoria",
    "party": "One Nation Victoria",
-   "votes": 12575,
-   "pct": 17.35
+   "votes": 12601,
+   "pct": 17.37
   },
   {
    "candidate": "The West Party",
