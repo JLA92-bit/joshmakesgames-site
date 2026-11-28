@@ -3,93 +3,93 @@
  "name": "Prahran",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/prahran-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:36:16+00:00",
+ "fetched_at": "2026-11-28T13:44:46+00:00",
  "title": "Prahran election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:35:12",
+ "last_updated": "Sunday, 29 November 2026 00:40:12",
  "enrolment": 49678,
- "formal": 19562,
- "informal": 1245,
- "total_votes": 20807,
- "counted_pct": 41.88,
+ "formal": 26688,
+ "informal": 1672,
+ "total_votes": 28360,
+ "counted_pct": 57.09,
  "notes": [],
  "primary": [
   {
    "candidate": "FINNIGAN, Tosh-Jake",
    "party": "",
-   "votes": 104,
+   "votes": 141,
    "pct": 0.53
   },
   {
    "candidate": "O'NEILL, G. Daniel",
    "party": "Animal Justice Party",
-   "votes": 351,
-   "pct": 1.79
+   "votes": 428,
+   "pct": 1.6
   },
   {
    "candidate": "LEETON WATTS, George",
    "party": "",
-   "votes": 169,
-   "pct": 0.86
+   "votes": 222,
+   "pct": 0.83
   },
   {
    "candidate": "WESTAWAY, Rachel",
    "party": "Liberal",
-   "votes": 7419,
-   "pct": 37.93
+   "votes": 10638,
+   "pct": 39.86
   },
   {
    "candidate": "MENADUE, Alan",
    "party": "",
-   "votes": 49,
+   "votes": 66,
    "pct": 0.25
   },
   {
    "candidate": "WONG, Nicholas",
    "party": "Climate Action Now",
-   "votes": 45,
-   "pct": 0.23
+   "votes": 56,
+   "pct": 0.21
   },
   {
    "candidate": "JONES, Daniel",
    "party": "Free Palestine",
-   "votes": 61,
-   "pct": 0.31
+   "votes": 79,
+   "pct": 0.3
   },
   {
    "candidate": "DICKS, Max",
    "party": "",
-   "votes": 142,
-   "pct": 0.73
+   "votes": 181,
+   "pct": 0.68
   },
   {
    "candidate": "DOUEIHI, Clayton",
    "party": "Victorian Socialists",
-   "votes": 990,
-   "pct": 5.06
+   "votes": 1280,
+   "pct": 4.8
   },
   {
    "candidate": "JONAS, Morgan",
    "party": "Safety Victoria – Violent Crime Prevention",
-   "votes": 115,
-   "pct": 0.59
+   "votes": 163,
+   "pct": 0.61
   },
   {
    "candidate": "VIRSU, Shaun",
    "party": "One Nation Victoria",
-   "votes": 1221,
-   "pct": 6.24
+   "votes": 1700,
+   "pct": 6.37
   },
   {
    "candidate": "HOPPER, Meghan",
    "party": "Australian Labor Party",
-   "votes": 2427,
-   "pct": 12.41
+   "votes": 3321,
+   "pct": 12.44
   },
   {
    "candidate": "DI CAMILLO, Angelica",
    "party": "The Greens",
-   "votes": 6469,
-   "pct": 33.07
+   "votes": 8413,
+   "pct": 31.52
   }
  ],
  "tcp": [
