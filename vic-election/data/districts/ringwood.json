@@ -3,9 +3,9 @@
  "name": "Ringwood",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ringwood-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:12:06+00:00",
+ "fetched_at": "2026-11-28T11:20:40+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:12",
+ "last_updated": "Saturday, 28 November 2026 22:20:12",
  "enrolment": 54911,
  "formal": 24054,
  "informal": 1060,
@@ -72,14 +72,14 @@
   {
    "candidate": "HALSE, Rachel",
    "party": "Australian Labor Party",
-   "votes": 7012,
-   "pct": 43.99
+   "votes": 7258,
+   "pct": 44.12
   },
   {
    "candidate": "McGOWAN, Nick",
    "party": "Liberal",
-   "votes": 8928,
-   "pct": 56.01
+   "votes": 9192,
+   "pct": 55.88
   }
  ],
  "links": {

@@ -3,92 +3,92 @@
  "name": "Western Metropolitan Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Metropolitan-Region-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:14:47+00:00",
+ "fetched_at": "2026-11-28T11:20:48+00:00",
  "title": "Western Metropolitan Region results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:15",
+ "last_updated": "Saturday, 28 November 2026 22:20:15",
  "enrolment": 616432,
- "formal": 9952,
- "informal": 434,
- "total_votes": 10386,
- "counted_pct": 1.68,
+ "formal": 12319,
+ "informal": 629,
+ "total_votes": 12948,
+ "counted_pct": 2.1,
  "notes": [],
  "primary": [
   {
    "candidate": "Labour DLP",
    "party": "Labour DLP",
-   "votes": 243,
-   "pct": 2.44
+   "votes": 318,
+   "pct": 2.58
   },
   {
    "candidate": "Legalise Cannabis Victoria",
    "party": "Legalise Cannabis Victoria",
-   "votes": 390,
-   "pct": 3.92
+   "votes": 463,
+   "pct": 3.76
   },
   {
    "candidate": "Liberal",
    "party": "Liberal",
-   "votes": 2915,
-   "pct": 29.29
+   "votes": 3351,
+   "pct": 27.2
   },
   {
    "candidate": "Victorian Socialists",
    "party": "Victorian Socialists",
-   "votes": 580,
-   "pct": 5.83
+   "votes": 928,
+   "pct": 7.53
   },
   {
    "candidate": "Australian Labor Party",
    "party": "Australian Labor Party",
-   "votes": 1985,
-   "pct": 19.95
+   "votes": 2505,
+   "pct": 20.33
   },
   {
    "candidate": "Australian Democrats",
    "party": "Australian Democrats",
-   "votes": 56,
-   "pct": 0.56
+   "votes": 65,
+   "pct": 0.53
   },
   {
    "candidate": "Affordable Housing Now – Sustainable Australia Party",
    "party": "Affordable Housing Now – Sustainable Australia Party",
-   "votes": 78,
-   "pct": 0.78
+   "votes": 99,
+   "pct": 0.8
   },
   {
    "candidate": "Family First",
    "party": "Family First",
-   "votes": 224,
-   "pct": 2.25
+   "votes": 274,
+   "pct": 2.22
   },
   {
    "candidate": "The Greens",
    "party": "The Greens",
-   "votes": 1433,
-   "pct": 14.4
+   "votes": 1924,
+   "pct": 15.62
   },
   {
    "candidate": "The Republican",
    "party": "The Republican",
-   "votes": 19,
+   "votes": 23,
    "pct": 0.19
   },
   {
    "candidate": "One Nation Victoria",
    "party": "One Nation Victoria",
-   "votes": 1778,
-   "pct": 17.87
+   "votes": 2095,
+   "pct": 17.01
   },
   {
    "candidate": "The West Party",
    "party": "The West Party",
-   "votes": 247,
-   "pct": 2.48
+   "votes": 269,
+   "pct": 2.18
   },
   {
    "candidate": "RAIZADA, Rakesh",
    "party": "RAIZADA, Rakesh",
-   "votes": 4,
+   "votes": 5,
    "pct": 0.04
   }
  ],

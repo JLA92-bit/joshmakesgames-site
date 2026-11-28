@@ -3,77 +3,77 @@
  "name": "Eildon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eildon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:11:56+00:00",
+ "fetched_at": "2026-11-28T11:20:31+00:00",
  "title": "Eildon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:05",
+ "last_updated": "Saturday, 28 November 2026 22:20:05",
  "enrolment": 51711,
- "formal": 15839,
- "informal": 938,
- "total_votes": 16777,
- "counted_pct": 32.44,
+ "formal": 18431,
+ "informal": 995,
+ "total_votes": 19426,
+ "counted_pct": 37.57,
  "notes": [],
  "primary": [
   {
    "candidate": "WARD, Tom",
    "party": "",
-   "votes": 1046,
-   "pct": 6.6
+   "votes": 1175,
+   "pct": 6.38
   },
   {
    "candidate": "MCLEISH, Cindy",
    "party": "Liberal",
-   "votes": 4940,
-   "pct": 31.19
+   "votes": 6167,
+   "pct": 33.46
   },
   {
    "candidate": "BARBER, Tim",
    "party": "One Nation Victoria",
-   "votes": 5102,
-   "pct": 32.21
+   "votes": 5764,
+   "pct": 31.27
   },
   {
    "candidate": "MOSELY, Joshua",
    "party": "Family First",
-   "votes": 219,
-   "pct": 1.38
+   "votes": 244,
+   "pct": 1.32
   },
   {
    "candidate": "GULPILIL, Talia",
    "party": "The Greens",
-   "votes": 2211,
-   "pct": 13.96
+   "votes": 2388,
+   "pct": 12.96
   },
   {
    "candidate": "LITTLE, Dylan",
    "party": "Victorian Socialists",
-   "votes": 307,
-   "pct": 1.94
+   "votes": 342,
+   "pct": 1.86
   },
   {
    "candidate": "GIBSON, Kevin",
    "party": "Australian Labor Party",
-   "votes": 1506,
-   "pct": 9.51
+   "votes": 1775,
+   "pct": 9.63
   },
   {
    "candidate": "BOND, Chloe",
    "party": "Animal Justice Party",
-   "votes": 508,
-   "pct": 3.21
+   "votes": 576,
+   "pct": 3.13
   }
  ],
  "tcp": [
   {
    "candidate": "MCLEISH, Cindy",
    "party": "Liberal",
-   "votes": 8045,
-   "pct": 60.93
+   "votes": 10134,
+   "pct": 62.47
   },
   {
    "candidate": "BARBER, Tim",
    "party": "One Nation Victoria",
-   "votes": 5159,
-   "pct": 39.07
+   "votes": 6087,
+   "pct": 37.53
   }
  ],
  "links": {

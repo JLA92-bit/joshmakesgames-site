@@ -3,75 +3,75 @@
  "name": "Pascoe Vale",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pascoe-vale-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:12:03+00:00",
+ "fetched_at": "2026-11-28T11:20:39+00:00",
  "title": "Pascoe Vale election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:12",
+ "last_updated": "Saturday, 28 November 2026 22:20:12",
  "enrolment": 52169,
- "formal": 11827,
- "informal": 619,
- "total_votes": 12446,
- "counted_pct": 23.86,
+ "formal": 13198,
+ "informal": 747,
+ "total_votes": 13945,
+ "counted_pct": 26.73,
  "notes": [],
  "primary": [
   {
    "candidate": "HICKEY, Amanda",
    "party": "Free Palestine",
-   "votes": 116,
-   "pct": 0.98
+   "votes": 126,
+   "pct": 0.95
   },
   {
    "candidate": "LAWRENCE, Stuart",
    "party": "Climate Action Now",
-   "votes": 49,
-   "pct": 0.41
+   "votes": 55,
+   "pct": 0.42
   },
   {
    "candidate": "CIANFLONE, Anthony",
    "party": "Australian Labor Party",
-   "votes": 2792,
-   "pct": 23.61
+   "votes": 3107,
+   "pct": 23.54
   },
   {
    "candidate": "GANCI, Rosemarie Pauline",
    "party": "One Nation Victoria",
-   "votes": 1321,
-   "pct": 11.17
+   "votes": 1524,
+   "pct": 11.55
   },
   {
    "candidate": "PANOPOULOS, Angelica",
    "party": "The Greens",
-   "votes": 3673,
-   "pct": 31.06
+   "votes": 4091,
+   "pct": 31.0
   },
   {
    "candidate": "ASHTON, Kathrine",
    "party": "Family First",
-   "votes": 102,
+   "votes": 114,
    "pct": 0.86
   },
   {
    "candidate": "ANDREWARTHA, Jacob",
    "party": "Socialist Alliance",
-   "votes": 198,
-   "pct": 1.67
+   "votes": 230,
+   "pct": 1.74
   },
   {
    "candidate": "HAUPT, Kerry",
    "party": "I'm Voting to Avoid the Fine",
-   "votes": 68,
-   "pct": 0.57
+   "votes": 74,
+   "pct": 0.56
   },
   {
    "candidate": "SHAMSILI, Yasemin",
    "party": "Victorian Socialists",
-   "votes": 1389,
-   "pct": 11.74
+   "votes": 1521,
+   "pct": 11.52
   },
   {
    "candidate": "TAGGAR, Rohit",
    "party": "Liberal",
-   "votes": 2119,
-   "pct": 17.92
+   "votes": 2356,
+   "pct": 17.85
   }
  ],
  "tcp": [

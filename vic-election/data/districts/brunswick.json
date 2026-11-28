@@ -3,62 +3,62 @@
  "name": "Brunswick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brunswick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:11:53+00:00",
+ "fetched_at": "2026-11-28T11:20:28+00:00",
  "title": "Brunswick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:02",
+ "last_updated": "Saturday, 28 November 2026 22:20:02",
  "enrolment": 56194,
- "formal": 15419,
- "informal": 693,
- "total_votes": 16112,
- "counted_pct": 28.67,
+ "formal": 16323,
+ "informal": 737,
+ "total_votes": 17060,
+ "counted_pct": 30.36,
  "notes": [],
  "primary": [
   {
    "candidate": "FARMER, Naomi",
    "party": "Victorian Socialists",
-   "votes": 2988,
-   "pct": 19.38
+   "votes": 3207,
+   "pct": 19.65
   },
   {
    "candidate": "MARGELIS, John",
    "party": "Liberal",
-   "votes": 1685,
-   "pct": 10.93
+   "votes": 1742,
+   "pct": 10.67
   },
   {
    "candidate": "PULFORD, Adam",
    "party": "The Greens",
-   "votes": 7094,
-   "pct": 46.01
+   "votes": 7548,
+   "pct": 46.24
   },
   {
    "candidate": "HELMAN, Adam",
    "party": "One Nation Victoria",
-   "votes": 643,
+   "votes": 680,
    "pct": 4.17
   },
   {
    "candidate": "ROSE, India",
    "party": "Animal Justice Party",
-   "votes": 274,
+   "votes": 290,
    "pct": 1.78
   },
   {
    "candidate": "STEGER, Gabe",
    "party": "Australian Labor Party",
-   "votes": 2392,
-   "pct": 15.51
+   "votes": 2494,
+   "pct": 15.28
   },
   {
    "candidate": "AMANATIDIS, Jack",
    "party": "",
-   "votes": 76,
-   "pct": 0.49
+   "votes": 79,
+   "pct": 0.48
   },
   {
    "candidate": "YUAN, Melissa",
    "party": "",
-   "votes": 267,
+   "votes": 283,
    "pct": 1.73
   }
  ],
@@ -66,14 +66,14 @@
   {
    "candidate": "PULFORD, Adam",
    "party": "The Greens",
-   "votes": 9936,
-   "pct": 74.44
+   "votes": 9970,
+   "pct": 74.41
   },
   {
    "candidate": "STEGER, Gabe",
    "party": "Australian Labor Party",
-   "votes": 3412,
-   "pct": 25.56
+   "votes": 3428,
+   "pct": 25.59
   }
  ],
  "links": {

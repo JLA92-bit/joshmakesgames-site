@@ -3,77 +3,77 @@
  "name": "Box Hill",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/box-hill-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:11:53+00:00",
+ "fetched_at": "2026-11-28T11:20:29+00:00",
  "title": "Box Hill election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:02",
+ "last_updated": "Saturday, 28 November 2026 22:20:02",
  "enrolment": 52758,
- "formal": 9620,
- "informal": 433,
- "total_votes": 10053,
- "counted_pct": 19.05,
+ "formal": 10434,
+ "informal": 452,
+ "total_votes": 10886,
+ "counted_pct": 20.63,
  "notes": [],
  "primary": [
   {
    "candidate": "QIN, Aaron",
    "party": "The Greens",
-   "votes": 1924,
-   "pct": 20.0
+   "votes": 2091,
+   "pct": 20.04
   },
   {
    "candidate": "CHEUNG, Heena",
    "party": "",
-   "votes": 517,
-   "pct": 5.37
+   "votes": 565,
+   "pct": 5.41
   },
   {
    "candidate": "BAKER, Jamie",
    "party": "One Nation Victoria",
-   "votes": 807,
-   "pct": 8.39
+   "votes": 860,
+   "pct": 8.24
   },
   {
    "candidate": "HOUGUET, Sally",
    "party": "Liberal",
-   "votes": 3656,
-   "pct": 38.0
+   "votes": 3954,
+   "pct": 37.9
   },
   {
    "candidate": "McGRATH, Sue-Ellen",
    "party": "Labour DLP",
-   "votes": 80,
-   "pct": 0.83
+   "votes": 83,
+   "pct": 0.8
   },
   {
    "candidate": "HAMER, Paul",
    "party": "Australian Labor Party",
-   "votes": 2120,
-   "pct": 22.04
+   "votes": 2320,
+   "pct": 22.24
   },
   {
    "candidate": "AFAJ, Saravina",
    "party": "Victorian Socialists",
-   "votes": 344,
-   "pct": 3.58
+   "votes": 379,
+   "pct": 3.63
   },
   {
    "candidate": "FAGG, Peter",
    "party": "Family First",
-   "votes": 172,
-   "pct": 1.79
+   "votes": 182,
+   "pct": 1.74
   }
  ],
  "tcp": [
   {
    "candidate": "HOUGUET, Sally",
    "party": "Liberal",
-   "votes": 3133,
-   "pct": 56.39
+   "votes": 3791,
+   "pct": 55.04
   },
   {
    "candidate": "HAMER, Paul",
    "party": "Australian Labor Party",
-   "votes": 2423,
-   "pct": 43.61
+   "votes": 3097,
+   "pct": 44.96
   }
  ],
  "links": {

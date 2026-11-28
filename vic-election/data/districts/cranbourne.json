@@ -3,14 +3,14 @@
  "name": "Cranbourne",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/cranbourne-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:11:56+00:00",
+ "fetched_at": "2026-11-28T11:20:31+00:00",
  "title": "Cranbourne election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:04",
+ "last_updated": "Saturday, 28 November 2026 22:20:05",
  "enrolment": 58761,
- "formal": 12418,
+ "formal": 12420,
  "informal": 928,
- "total_votes": 13346,
- "counted_pct": 22.71,
+ "total_votes": 13348,
+ "counted_pct": 22.72,
  "notes": [],
  "primary": [
   {
@@ -28,20 +28,20 @@
   {
    "candidate": "MERCER, Annalise",
    "party": "The Greens",
-   "votes": 1657,
-   "pct": 13.34
+   "votes": 1658,
+   "pct": 13.35
   },
   {
    "candidate": "TRIPODI, Gino",
    "party": "Liberal",
-   "votes": 3537,
-   "pct": 28.48
+   "votes": 3538,
+   "pct": 28.49
   },
   {
    "candidate": "RICHARDS, Pauline",
    "party": "Australian Labor Party",
    "votes": 2903,
-   "pct": 23.38
+   "pct": 23.37
   },
   {
    "candidate": "YUNIS, Reem",
@@ -53,7 +53,7 @@
    "candidate": "HIRST, Andrew",
    "party": "One Nation Victoria",
    "votes": 3073,
-   "pct": 24.75
+   "pct": 24.74
   },
   {
    "candidate": "FOREMAN, Shane",
@@ -66,14 +66,14 @@
   {
    "candidate": "RICHARDS, Pauline",
    "party": "Australian Labor Party",
-   "votes": 3536,
-   "pct": 50.85
+   "votes": 4357,
+   "pct": 50.07
   },
   {
    "candidate": "HIRST, Andrew",
    "party": "One Nation Victoria",
-   "votes": 3418,
-   "pct": 49.15
+   "votes": 4344,
+   "pct": 49.93
   }
  ],
  "links": {

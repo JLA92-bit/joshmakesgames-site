@@ -3,71 +3,71 @@
  "name": "Evelyn",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/evelyn-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:11:57+00:00",
+ "fetched_at": "2026-11-28T11:20:33+00:00",
  "title": "Evelyn election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:10:05",
+ "last_updated": "Saturday, 28 November 2026 22:20:05",
  "enrolment": 53163,
- "formal": 15588,
- "informal": 689,
- "total_votes": 16277,
- "counted_pct": 30.62,
+ "formal": 16407,
+ "informal": 752,
+ "total_votes": 17159,
+ "counted_pct": 32.28,
  "notes": [],
  "primary": [
   {
    "candidate": "SHERLOCK, Analise",
    "party": "Australian Labor Party",
-   "votes": 1997,
-   "pct": 12.81
+   "votes": 2115,
+   "pct": 12.89
   },
   {
    "candidate": "O'BRIEN, Michelle",
    "party": "Family First",
-   "votes": 476,
-   "pct": 3.05
+   "votes": 497,
+   "pct": 3.03
   },
   {
    "candidate": "HENLEY, Andrew",
    "party": "The Greens",
-   "votes": 2113,
-   "pct": 13.56
+   "votes": 2269,
+   "pct": 13.83
   },
   {
    "candidate": "VALLENCE, Bridget",
    "party": "Liberal",
-   "votes": 6267,
-   "pct": 40.2
+   "votes": 6563,
+   "pct": 40.0
   },
   {
    "candidate": "HEALD, Jan",
    "party": "Animal Justice Party",
-   "votes": 305,
-   "pct": 1.96
+   "votes": 311,
+   "pct": 1.9
   },
   {
    "candidate": "KILLEY, Daniel",
    "party": "One Nation Victoria",
-   "votes": 3925,
-   "pct": 25.18
+   "votes": 4111,
+   "pct": 25.06
   },
   {
    "candidate": "SCANLON, James",
    "party": "Victorian Socialists",
-   "votes": 505,
-   "pct": 3.24
+   "votes": 541,
+   "pct": 3.3
   }
  ],
  "tcp": [
   {
    "candidate": "SHERLOCK, Analise",
    "party": "Australian Labor Party",
-   "votes": 3778,
-   "pct": 29.33
+   "votes": 4362,
+   "pct": 29.77
   },
   {
    "candidate": "VALLENCE, Bridget",
    "party": "Liberal",
-   "votes": 9103,
-   "pct": 70.67
+   "votes": 10288,
+   "pct": 70.23
   }
  ],
  "links": {
