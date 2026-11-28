@@ -3,32 +3,32 @@
  "name": "Mill Park",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mill-park-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:03:10+00:00",
+ "fetched_at": "2026-11-28T13:38:44+00:00",
  "title": "Mill Park election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:00:09",
+ "last_updated": "Sunday, 29 November 2026 00:35:10",
  "enrolment": 48297,
- "formal": 24654,
- "informal": 2108,
- "total_votes": 26762,
- "counted_pct": 55.41,
+ "formal": 24658,
+ "informal": 2112,
+ "total_votes": 26770,
+ "counted_pct": 55.43,
  "notes": [],
  "primary": [
   {
    "candidate": "NEALY, Elizabeth",
    "party": "Australian Labor Party",
-   "votes": 5868,
+   "votes": 5869,
    "pct": 23.8
   },
   {
    "candidate": "DRYSDALE, Joel",
    "party": "Liberal",
    "votes": 7253,
-   "pct": 29.42
+   "pct": 29.41
   },
   {
    "candidate": "VAN DER END, Kath",
    "party": "Family First",
-   "votes": 619,
+   "votes": 620,
    "pct": 2.51
   },
   {
@@ -52,8 +52,8 @@
   {
    "candidate": "TSOUTSOULIS, Arthur",
    "party": "One Nation Victoria",
-   "votes": 6527,
-   "pct": 26.47
+   "votes": 6529,
+   "pct": 26.48
   },
   {
    "candidate": "LEVENS, Eve",

@@ -3,9 +3,9 @@
  "name": "Mornington",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mornington-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:03:13+00:00",
+ "fetched_at": "2026-11-28T13:38:46+00:00",
  "title": "Mornington election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:00:10",
+ "last_updated": "Sunday, 29 November 2026 00:35:10",
  "enrolment": 50151,
  "formal": 36900,
  "informal": 1955,
@@ -60,14 +60,14 @@
   {
    "candidate": "CREWTHER, Chris",
    "party": "Liberal",
-   "votes": 11682,
-   "pct": 70.24
+   "votes": 17832,
+   "pct": 71.47
   },
   {
    "candidate": "GOFFIN, Melissa",
    "party": "",
-   "votes": 4950,
-   "pct": 29.76
+   "votes": 7117,
+   "pct": 28.53
   }
  ],
  "links": {

@@ -3,69 +3,69 @@
  "name": "Nepean",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/nepean-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:03:12+00:00",
+ "fetched_at": "2026-11-28T13:38:47+00:00",
  "title": "Nepean election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:00:10",
+ "last_updated": "Sunday, 29 November 2026 00:35:10",
  "enrolment": 51871,
- "formal": 11857,
- "informal": 668,
- "total_votes": 12525,
- "counted_pct": 24.15,
+ "formal": 26147,
+ "informal": 1657,
+ "total_votes": 27804,
+ "counted_pct": 53.6,
  "notes": [],
  "primary": [
   {
    "candidate": "HEALY, Sianan",
    "party": "The Greens",
-   "votes": 1890,
-   "pct": 15.94
+   "votes": 3780,
+   "pct": 14.46
   },
   {
    "candidate": "SNOWBALL, Surbhi",
    "party": "Australian Labor Party",
-   "votes": 1172,
-   "pct": 9.88
+   "votes": 2554,
+   "pct": 9.77
   },
   {
    "candidate": "CHAMPION, Tamara",
    "party": "Animal Justice Party",
-   "votes": 252,
-   "pct": 2.13
+   "votes": 459,
+   "pct": 1.76
   },
   {
    "candidate": "HERCUS, Darren",
    "party": "One Nation Victoria",
-   "votes": 2216,
-   "pct": 18.69
+   "votes": 5287,
+   "pct": 20.22
   },
   {
    "candidate": "ROBBINS, Kim",
    "party": "",
-   "votes": 763,
-   "pct": 6.44
+   "votes": 2088,
+   "pct": 7.99
   },
   {
    "candidate": "TOSCANO, Joseph",
    "party": "",
-   "votes": 43,
-   "pct": 0.36
+   "votes": 79,
+   "pct": 0.3
   },
   {
    "candidate": "WILLCOCKS, Seth",
    "party": "Victorian Socialists",
-   "votes": 158,
-   "pct": 1.33
+   "votes": 316,
+   "pct": 1.21
   },
   {
    "candidate": "MARSH, Anthony",
    "party": "Liberal",
-   "votes": 5261,
-   "pct": 44.37
+   "votes": 11313,
+   "pct": 43.27
   },
   {
    "candidate": "BROWN, Mike",
    "party": "Family First",
-   "votes": 102,
-   "pct": 0.86
+   "votes": 271,
+   "pct": 1.04
   }
  ],
  "tcp": [

@@ -3,77 +3,77 @@
  "name": "Bulleen",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bulleen-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:29:39+00:00",
+ "fetched_at": "2026-11-28T13:38:39+00:00",
  "title": "Bulleen election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:25:02",
+ "last_updated": "Sunday, 29 November 2026 00:35:02",
  "enrolment": 51233,
- "formal": 19101,
- "informal": 1182,
- "total_votes": 20283,
- "counted_pct": 39.59,
+ "formal": 23642,
+ "informal": 1471,
+ "total_votes": 25113,
+ "counted_pct": 49.02,
  "notes": [],
  "primary": [
   {
    "candidate": "RUBLEE, Greg",
    "party": "",
-   "votes": 411,
-   "pct": 2.15
+   "votes": 467,
+   "pct": 1.98
   },
   {
    "candidate": "LIGHTBODY, Tomas",
    "party": "The Greens",
-   "votes": 2373,
-   "pct": 12.42
+   "votes": 2799,
+   "pct": 11.84
   },
   {
    "candidate": "HARVEY, Bradley",
    "party": "Family First",
-   "votes": 293,
-   "pct": 1.53
+   "votes": 346,
+   "pct": 1.46
   },
   {
    "candidate": "GUY, Matthew",
    "party": "Liberal",
-   "votes": 10136,
-   "pct": 53.07
+   "votes": 12899,
+   "pct": 54.56
   },
   {
    "candidate": "PALIOURAS, Amanda",
    "party": "",
-   "votes": 172,
-   "pct": 0.9
+   "votes": 207,
+   "pct": 0.88
   },
   {
    "candidate": "TAFIDIS, Dimitrios",
    "party": "Victorian Socialists",
-   "votes": 449,
-   "pct": 2.35
+   "votes": 490,
+   "pct": 2.07
   },
   {
    "candidate": "DALE, Tim",
    "party": "Australian Labor Party",
-   "votes": 3012,
-   "pct": 15.77
+   "votes": 3611,
+   "pct": 15.27
   },
   {
    "candidate": "ATHARI, Mahdi",
    "party": "One Nation Victoria",
-   "votes": 2255,
-   "pct": 11.81
+   "votes": 2823,
+   "pct": 11.94
   }
  ],
  "tcp": [
   {
    "candidate": "GUY, Matthew",
    "party": "Liberal",
-   "votes": 12704,
-   "pct": 70.35
+   "votes": 16227,
+   "pct": 71.81
   },
   {
    "candidate": "DALE, Tim",
    "party": "Australian Labor Party",
-   "votes": 5353,
-   "pct": 29.65
+   "votes": 6371,
+   "pct": 28.19
   }
  ],
  "links": {

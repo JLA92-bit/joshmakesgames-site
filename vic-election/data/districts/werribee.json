@@ -3,74 +3,74 @@
  "name": "Werribee",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/werribee-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:03:16+00:00",
+ "fetched_at": "2026-11-28T13:38:53+00:00",
  "title": "Werribee election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:00:17",
+ "last_updated": "Sunday, 29 November 2026 00:35:15",
  "enrolment": 62801,
- "formal": 14875,
- "informal": 1162,
- "total_votes": 16037,
- "counted_pct": 25.54,
+ "formal": 15656,
+ "informal": 1214,
+ "total_votes": 16870,
+ "counted_pct": 26.86,
  "notes": [],
  "primary": [
   {
    "candidate": "HOPPER, Paul",
    "party": "The West Party",
-   "votes": 1204,
-   "pct": 8.09
+   "votes": 1253,
+   "pct": 8.0
   },
   {
    "candidate": "KUMAR, Tushar",
    "party": "The Greens",
-   "votes": 1734,
-   "pct": 11.66
+   "votes": 1841,
+   "pct": 11.76
   },
   {
    "candidate": "PATERAS, Paul",
    "party": "One Nation Victoria",
-   "votes": 3435,
-   "pct": 23.09
+   "votes": 3619,
+   "pct": 23.12
   },
   {
    "candidate": "CLARK, Reece",
    "party": "Liberal",
-   "votes": 3638,
-   "pct": 24.46
+   "votes": 3809,
+   "pct": 24.33
   },
   {
    "candidate": "EMERSON, Matt",
    "party": "Family First",
-   "votes": 419,
-   "pct": 2.82
+   "votes": 450,
+   "pct": 2.87
   },
   {
    "candidate": "LISTER, John",
    "party": "Australian Labor Party",
-   "votes": 3240,
-   "pct": 21.78
+   "votes": 3408,
+   "pct": 21.77
   },
   {
    "candidate": "ORCHARD, Jeremy",
    "party": "Labour DLP",
-   "votes": 129,
-   "pct": 0.87
+   "votes": 133,
+   "pct": 0.85
   },
   {
    "candidate": "MUNRO, Sue",
    "party": "Victorian Socialists",
-   "votes": 909,
-   "pct": 6.11
+   "votes": 969,
+   "pct": 6.19
   },
   {
    "candidate": "RAIZADA, Monica Sharma",
    "party": "",
-   "votes": 108,
-   "pct": 0.73
+   "votes": 112,
+   "pct": 0.72
   },
   {
    "candidate": "KAYAGURLA, Sandhya",
    "party": "The Republican",
-   "votes": 59,
+   "votes": 62,
    "pct": 0.4
   }
  ],
