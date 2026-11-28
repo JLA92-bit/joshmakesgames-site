@@ -3,9 +3,9 @@
  "name": "Williamstown",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:33:06+00:00",
+ "fetched_at": "2026-11-28T11:42:06+00:00",
  "title": "Williamstown election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:30:15",
+ "last_updated": "Saturday, 28 November 2026 22:40:16",
  "enrolment": 50405,
  "formal": 16193,
  "informal": 1032,
@@ -72,14 +72,14 @@
   {
    "candidate": "HORNE, Melissa",
    "party": "Australian Labor Party",
-   "votes": 3588,
-   "pct": 62.23
+   "votes": 4326,
+   "pct": 62.16
   },
   {
    "candidate": "LINDEMANN, Paul",
    "party": "Liberal",
-   "votes": 2178,
-   "pct": 37.77
+   "votes": 2633,
+   "pct": 37.84
   }
  ],
  "links": {

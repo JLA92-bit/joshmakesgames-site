@@ -3,9 +3,9 @@
  "name": "Gippsland South",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-south-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:32:59+00:00",
+ "fetched_at": "2026-11-28T11:41:56+00:00",
  "title": "Gippsland South election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:30:07",
+ "last_updated": "Saturday, 28 November 2026 22:40:07",
  "enrolment": 50953,
  "formal": 20129,
  "informal": 1217,
@@ -60,14 +60,14 @@
   {
    "candidate": "O'BRIEN, Danny",
    "party": "The Nationals",
-   "votes": 10419,
-   "pct": 61.91
+   "votes": 11087,
+   "pct": 60.89
   },
   {
    "candidate": "WILKIE, Bianca",
    "party": "One Nation Victoria",
-   "votes": 6411,
-   "pct": 38.09
+   "votes": 7121,
+   "pct": 39.11
   }
  ],
  "links": {

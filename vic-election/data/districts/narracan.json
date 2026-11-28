@@ -3,51 +3,51 @@
  "name": "Narracan",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/narracan-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:38:33+00:00",
+ "fetched_at": "2026-11-28T11:41:31+00:00",
  "title": "Narracan election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:35:10",
+ "last_updated": "Saturday, 28 November 2026 22:40:10",
  "enrolment": 55254,
- "formal": 18115,
- "informal": 476,
- "total_votes": 18591,
- "counted_pct": 33.65,
+ "formal": 18412,
+ "informal": 493,
+ "total_votes": 18905,
+ "counted_pct": 34.21,
  "notes": [],
  "primary": [
   {
    "candidate": "DETHLEFS, Geoff",
    "party": "Family First",
-   "votes": 637,
-   "pct": 3.52
+   "votes": 647,
+   "pct": 3.51
   },
   {
    "candidate": "FARNHAM, Wayne",
    "party": "Liberal",
-   "votes": 5685,
-   "pct": 31.38
+   "votes": 5826,
+   "pct": 31.64
   },
   {
    "candidate": "WEAVER, Alyssa",
    "party": "The Greens",
-   "votes": 1957,
-   "pct": 10.8
+   "votes": 1978,
+   "pct": 10.74
   },
   {
    "candidate": "PAGE, Moss",
    "party": "Victorian Socialists",
-   "votes": 489,
-   "pct": 2.7
+   "votes": 490,
+   "pct": 2.66
   },
   {
    "candidate": "LUCAS, Ben",
    "party": "One Nation Victoria",
-   "votes": 7518,
-   "pct": 41.5
+   "votes": 7586,
+   "pct": 41.2
   },
   {
    "candidate": "LANGLEY, Jannette",
    "party": "Australian Labor Party",
-   "votes": 1829,
-   "pct": 10.1
+   "votes": 1885,
+   "pct": 10.24
   }
  ],
  "tcp": [
@@ -83,25 +83,25 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "DETHLEFS, Geoff Family First": 637.0,
-     "FARNHAM, Wayne Liberal": 5685.0,
-     "WEAVER, Alyssa The Greens": 1957.0,
-     "PAGE, Moss Victorian Socialists": 489.0,
-     "LUCAS, Ben One Nation Victoria": 7518.0,
-     "LANGLEY, Jannette Australian Labor Party": 1829.0,
-     "Informal votes": 476.0,
-     "Total votes polled": 18591.0
+     "DETHLEFS, Geoff Family First": 647.0,
+     "FARNHAM, Wayne Liberal": 5826.0,
+     "WEAVER, Alyssa The Greens": 1978.0,
+     "PAGE, Moss Victorian Socialists": 490.0,
+     "LUCAS, Ben One Nation Victoria": 7586.0,
+     "LANGLEY, Jannette Australian Labor Party": 1885.0,
+     "Informal votes": 493.0,
+     "Total votes polled": 18905.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "DETHLEFS, Geoff Family First": 3.52,
-     "FARNHAM, Wayne Liberal": 31.38,
-     "WEAVER, Alyssa The Greens": 10.8,
-     "PAGE, Moss Victorian Socialists": 2.7,
-     "LUCAS, Ben One Nation Victoria": 41.5,
-     "LANGLEY, Jannette Australian Labor Party": 10.1
+     "DETHLEFS, Geoff Family First": 3.51,
+     "FARNHAM, Wayne Liberal": 31.64,
+     "WEAVER, Alyssa The Greens": 10.74,
+     "PAGE, Moss Victorian Socialists": 2.66,
+     "LUCAS, Ben One Nation Victoria": 41.2,
+     "LANGLEY, Jannette Australian Labor Party": 10.24
     }
    },
    {
@@ -583,14 +583,14 @@
    {
     "booth": "Narracan - MEVC",
     "values": {
-     "DETHLEFS, Geoff Family First": 0.0,
-     "FARNHAM, Wayne Liberal": 0.0,
-     "WEAVER, Alyssa The Greens": 0.0,
-     "PAGE, Moss Victorian Socialists": 0.0,
-     "LUCAS, Ben One Nation Victoria": 0.0,
-     "LANGLEY, Jannette Australian Labor Party": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "DETHLEFS, Geoff Family First": 10.0,
+     "FARNHAM, Wayne Liberal": 141.0,
+     "WEAVER, Alyssa The Greens": 21.0,
+     "PAGE, Moss Victorian Socialists": 1.0,
+     "LUCAS, Ben One Nation Victoria": 68.0,
+     "LANGLEY, Jannette Australian Labor Party": 56.0,
+     "Informal votes": 17.0,
+     "Total votes polled": 314.0
     }
    },
    {
@@ -609,14 +609,14 @@
    {
     "booth": "Early votes total",
     "values": {
-     "DETHLEFS, Geoff Family First": 36.0,
-     "FARNHAM, Wayne Liberal": 399.0,
-     "WEAVER, Alyssa The Greens": 130.0,
-     "PAGE, Moss Victorian Socialists": 20.0,
-     "LUCAS, Ben One Nation Victoria": 639.0,
-     "LANGLEY, Jannette Australian Labor Party": 181.0,
-     "Informal votes": 50.0,
-     "Total votes polled": 1455.0
+     "DETHLEFS, Geoff Family First": 46.0,
+     "FARNHAM, Wayne Liberal": 540.0,
+     "WEAVER, Alyssa The Greens": 151.0,
+     "PAGE, Moss Victorian Socialists": 21.0,
+     "LUCAS, Ben One Nation Victoria": 707.0,
+     "LANGLEY, Jannette Australian Labor Party": 237.0,
+     "Informal votes": 67.0,
+     "Total votes polled": 1769.0
     }
    },
    {
