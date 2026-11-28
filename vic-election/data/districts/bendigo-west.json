@@ -3,9 +3,9 @@
  "name": "Bendigo West",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:12:04+00:00",
+ "fetched_at": "2026-11-28T14:21:00+00:00",
  "title": "Bendigo West election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:10:01",
+ "last_updated": "Sunday, 29 November 2026 01:20:01",
  "enrolment": 49735,
  "formal": 21338,
  "informal": 1003,
@@ -60,14 +60,14 @@
   {
    "candidate": "HUTCHINGS, David",
    "party": "The Nationals",
-   "votes": 6461,
-   "pct": 53.63
+   "votes": 11322,
+   "pct": 57.26
   },
   {
    "candidate": "BALDWIN, Brenton",
    "party": "Australian Labor Party",
-   "votes": 5586,
-   "pct": 46.37
+   "votes": 8451,
+   "pct": 42.74
   }
  ],
  "links": {

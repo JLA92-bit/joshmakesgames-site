@@ -3,14 +3,14 @@
  "name": "Bass",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bass-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:17:27+00:00",
+ "fetched_at": "2026-11-28T14:20:24+00:00",
  "title": "Bass District results | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:15:01",
+ "last_updated": "Sunday, 29 November 2026 01:20:01",
  "enrolment": 57998,
  "formal": 34840,
- "informal": 993,
- "total_votes": 35833,
- "counted_pct": 61.78,
+ "informal": 999,
+ "total_votes": 35839,
+ "counted_pct": 61.79,
  "notes": [],
  "primary": [
   {
@@ -89,8 +89,8 @@
      "HALSTEAD, Rochelle Liberal": 12102.0,
      "CAUNEAC, Ben Family First": 594.0,
      "BUCKINGHAM, Chris Australian Labor Party": 5101.0,
-     "Informal votes": 993.0,
-     "Total votes polled": 35833.0
+     "Informal votes": 999.0,
+     "Total votes polled": 35839.0
     }
    },
    {
@@ -459,8 +459,8 @@
      "HALSTEAD, Rochelle Liberal": 4145.0,
      "CAUNEAC, Ben Family First": 163.0,
      "BUCKINGHAM, Chris Australian Labor Party": 1882.0,
-     "Informal votes": 267.0,
-     "Total votes polled": 11602.0
+     "Informal votes": 273.0,
+     "Total votes polled": 11608.0
     }
    },
    {
@@ -511,8 +511,8 @@
      "HALSTEAD, Rochelle Liberal": 7054.0,
      "CAUNEAC, Ben Family First": 265.0,
      "BUCKINGHAM, Chris Australian Labor Party": 3127.0,
-     "Informal votes": 451.0,
-     "Total votes polled": 19298.0
+     "Informal votes": 457.0,
+     "Total votes polled": 19304.0
     }
    },
    {

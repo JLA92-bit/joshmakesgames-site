@@ -3,69 +3,69 @@
  "name": "Kororoit",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/kororoit-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:17:39+00:00",
+ "fetched_at": "2026-11-28T14:20:31+00:00",
  "title": "Kororoit election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:15:07",
+ "last_updated": "Sunday, 29 November 2026 01:20:07",
  "enrolment": 61816,
- "formal": 12003,
- "informal": 1139,
- "total_votes": 13142,
- "counted_pct": 21.26,
+ "formal": 18556,
+ "informal": 1760,
+ "total_votes": 20316,
+ "counted_pct": 32.87,
  "notes": [],
  "primary": [
   {
    "candidate": "SOUTHERN, Donna",
    "party": "The West Party",
-   "votes": 294,
-   "pct": 2.45
+   "votes": 439,
+   "pct": 2.37
   },
   {
    "candidate": "PATTERSON, Nick",
    "party": "Family First",
-   "votes": 459,
-   "pct": 3.82
+   "votes": 719,
+   "pct": 3.87
   },
   {
    "candidate": "MCDONALD, Joyce",
    "party": "The Greens",
-   "votes": 1300,
-   "pct": 10.83
+   "votes": 2023,
+   "pct": 10.9
   },
   {
    "candidate": "PIDI, Divya",
    "party": "The Republican",
-   "votes": 91,
-   "pct": 0.76
+   "votes": 136,
+   "pct": 0.73
   },
   {
    "candidate": "HASSAN, Rayan",
    "party": "Victorian Socialists",
-   "votes": 727,
-   "pct": 6.06
+   "votes": 1111,
+   "pct": 5.99
   },
   {
    "candidate": "CHAKOMA, Jack",
    "party": "Liberal",
-   "votes": 2945,
-   "pct": 24.54
+   "votes": 4641,
+   "pct": 25.01
   },
   {
    "candidate": "GRIGOROVITCH, Luba",
    "party": "Australian Labor Party",
-   "votes": 3344,
-   "pct": 27.86
+   "votes": 5179,
+   "pct": 27.91
   },
   {
    "candidate": "MELNIKOV, Seva",
    "party": "One Nation Victoria",
-   "votes": 2572,
-   "pct": 21.43
+   "votes": 3936,
+   "pct": 21.21
   },
   {
    "candidate": "KANDPAL, Vasundhara",
    "party": "Animal Justice Party",
-   "votes": 271,
-   "pct": 2.26
+   "votes": 372,
+   "pct": 2.0
   }
  ],
  "tcp": [
@@ -104,31 +104,31 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "SOUTHERN, Donna The West Party": 294.0,
-     "PATTERSON, Nick Family First": 459.0,
-     "MCDONALD, Joyce The Greens": 1300.0,
-     "PIDI, Divya The Republican": 91.0,
-     "HASSAN, Rayan Victorian Socialists": 727.0,
-     "CHAKOMA, Jack Liberal": 2945.0,
-     "GRIGOROVITCH, Luba Australian Labor Party": 3344.0,
-     "MELNIKOV, Seva One Nation Victoria": 2572.0,
-     "KANDPAL, Vasundhara Animal Justice Party": 271.0,
-     "Informal votes": 1139.0,
-     "Total votes polled": 13142.0
+     "SOUTHERN, Donna The West Party": 439.0,
+     "PATTERSON, Nick Family First": 719.0,
+     "MCDONALD, Joyce The Greens": 2023.0,
+     "PIDI, Divya The Republican": 136.0,
+     "HASSAN, Rayan Victorian Socialists": 1111.0,
+     "CHAKOMA, Jack Liberal": 4641.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 5179.0,
+     "MELNIKOV, Seva One Nation Victoria": 3936.0,
+     "KANDPAL, Vasundhara Animal Justice Party": 372.0,
+     "Informal votes": 1760.0,
+     "Total votes polled": 20316.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "SOUTHERN, Donna The West Party": 2.45,
-     "PATTERSON, Nick Family First": 3.82,
-     "MCDONALD, Joyce The Greens": 10.83,
-     "PIDI, Divya The Republican": 0.76,
-     "HASSAN, Rayan Victorian Socialists": 6.06,
-     "CHAKOMA, Jack Liberal": 24.54,
-     "GRIGOROVITCH, Luba Australian Labor Party": 27.86,
-     "MELNIKOV, Seva One Nation Victoria": 21.43,
-     "KANDPAL, Vasundhara Animal Justice Party": 2.26
+     "SOUTHERN, Donna The West Party": 2.37,
+     "PATTERSON, Nick Family First": 3.87,
+     "MCDONALD, Joyce The Greens": 10.9,
+     "PIDI, Divya The Republican": 0.73,
+     "HASSAN, Rayan Victorian Socialists": 5.99,
+     "CHAKOMA, Jack Liberal": 25.01,
+     "GRIGOROVITCH, Luba Australian Labor Party": 27.91,
+     "MELNIKOV, Seva One Nation Victoria": 21.21,
+     "KANDPAL, Vasundhara Animal Justice Party": 2.0
     }
    },
    {
@@ -430,17 +430,17 @@
    {
     "booth": "Kororoit - EVC 2",
     "values": {
-     "SOUTHERN, Donna The West Party": 0.0,
-     "PATTERSON, Nick Family First": 0.0,
-     "MCDONALD, Joyce The Greens": 0.0,
-     "PIDI, Divya The Republican": 0.0,
-     "HASSAN, Rayan Victorian Socialists": 0.0,
-     "CHAKOMA, Jack Liberal": 0.0,
-     "GRIGOROVITCH, Luba Australian Labor Party": 0.0,
-     "MELNIKOV, Seva One Nation Victoria": 0.0,
-     "KANDPAL, Vasundhara Animal Justice Party": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "SOUTHERN, Donna The West Party": 145.0,
+     "PATTERSON, Nick Family First": 260.0,
+     "MCDONALD, Joyce The Greens": 723.0,
+     "PIDI, Divya The Republican": 45.0,
+     "HASSAN, Rayan Victorian Socialists": 384.0,
+     "CHAKOMA, Jack Liberal": 1696.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 1835.0,
+     "MELNIKOV, Seva One Nation Victoria": 1364.0,
+     "KANDPAL, Vasundhara Animal Justice Party": 101.0,
+     "Informal votes": 621.0,
+     "Total votes polled": 7174.0
     }
    },
    {
@@ -526,17 +526,17 @@
    {
     "booth": "Early votes total",
     "values": {
-     "SOUTHERN, Donna The West Party": 13.0,
-     "PATTERSON, Nick Family First": 19.0,
-     "MCDONALD, Joyce The Greens": 23.0,
-     "PIDI, Divya The Republican": 5.0,
-     "HASSAN, Rayan Victorian Socialists": 9.0,
-     "CHAKOMA, Jack Liberal": 61.0,
-     "GRIGOROVITCH, Luba Australian Labor Party": 58.0,
-     "MELNIKOV, Seva One Nation Victoria": 128.0,
-     "KANDPAL, Vasundhara Animal Justice Party": 2.0,
-     "Informal votes": 56.0,
-     "Total votes polled": 374.0
+     "SOUTHERN, Donna The West Party": 158.0,
+     "PATTERSON, Nick Family First": 279.0,
+     "MCDONALD, Joyce The Greens": 746.0,
+     "PIDI, Divya The Republican": 50.0,
+     "HASSAN, Rayan Victorian Socialists": 393.0,
+     "CHAKOMA, Jack Liberal": 1757.0,
+     "GRIGOROVITCH, Luba Australian Labor Party": 1893.0,
+     "MELNIKOV, Seva One Nation Victoria": 1492.0,
+     "KANDPAL, Vasundhara Animal Justice Party": 103.0,
+     "Informal votes": 677.0,
+     "Total votes polled": 7548.0
     }
    },
    {

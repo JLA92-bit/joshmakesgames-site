@@ -3,75 +3,75 @@
  "name": "Northcote",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/northcote-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T14:12:14+00:00",
+ "fetched_at": "2026-11-28T14:21:11+00:00",
  "title": "Northcote election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 01:10:11",
+ "last_updated": "Sunday, 29 November 2026 01:20:11",
  "enrolment": 53893,
- "formal": 23266,
- "informal": 1084,
- "total_votes": 24350,
- "counted_pct": 45.18,
+ "formal": 33323,
+ "informal": 1595,
+ "total_votes": 34918,
+ "counted_pct": 64.79,
  "notes": [],
  "primary": [
   {
    "candidate": "CIMBARO, Richard",
    "party": "Family First",
-   "votes": 206,
-   "pct": 0.89
+   "votes": 284,
+   "pct": 0.85
   },
   {
    "candidate": "PENMAN, Jim",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 181,
-   "pct": 0.78
+   "votes": 273,
+   "pct": 0.82
   },
   {
    "candidate": "LARKIN, Kath",
    "party": "Victorian Socialists",
-   "votes": 3581,
-   "pct": 15.39
+   "votes": 4907,
+   "pct": 14.73
   },
   {
    "candidate": "PILLEY, Clive",
    "party": "I'm Voting to Avoid the Fine",
-   "votes": 84,
-   "pct": 0.36
+   "votes": 110,
+   "pct": 0.33
   },
   {
    "candidate": "HILLMAN, Ian",
    "party": "",
-   "votes": 225,
-   "pct": 0.97
+   "votes": 282,
+   "pct": 0.85
   },
   {
    "candidate": "BRADBURY, Christopher",
    "party": "One Nation Victoria",
-   "votes": 1268,
-   "pct": 5.45
+   "votes": 1846,
+   "pct": 5.54
   },
   {
    "candidate": "AWAD, Lynda",
    "party": "Liberal",
-   "votes": 3359,
-   "pct": 14.44
+   "votes": 4954,
+   "pct": 14.87
   },
   {
    "candidate": "THEOPHANOUS, Kat",
    "party": "Australian Labor Party",
-   "votes": 5466,
-   "pct": 23.49
+   "votes": 8110,
+   "pct": 24.34
   },
   {
    "candidate": "KAFEL, Hannah",
    "party": "Free Palestine",
-   "votes": 73,
-   "pct": 0.31
+   "votes": 108,
+   "pct": 0.32
   },
   {
    "candidate": "GOME, Campbell",
    "party": "The Greens",
-   "votes": 8823,
-   "pct": 37.92
+   "votes": 12449,
+   "pct": 37.36
   }
  ],
  "tcp": [
