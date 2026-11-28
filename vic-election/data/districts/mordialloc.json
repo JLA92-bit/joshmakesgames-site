@@ -3,15 +3,17 @@
  "name": "Mordialloc",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mordialloc-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:55:36+00:00",
+ "fetched_at": "2026-11-28T16:04:34+00:00",
  "title": "Mordialloc election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:55:09",
+ "last_updated": "Sunday, 29 November 2026 03:00:09",
  "enrolment": 54102,
  "formal": 20002,
  "informal": 931,
  "total_votes": 20933,
  "counted_pct": 38.69,
- "notes": [],
+ "notes": [
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Mordialloc District results Mordialloc District results Listen Provisional results Last updated: Sunday, 29 November 2026 03:00:09 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "O'HALLORAN, Paul",

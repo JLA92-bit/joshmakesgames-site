@@ -3,15 +3,17 @@
  "name": "Northern Metropolitan Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Northern-Metropolitan-Region-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:59:40+00:00",
+ "fetched_at": "2026-11-28T16:04:55+00:00",
  "title": "Northern Metropolitan Region election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:55:10",
+ "last_updated": "Sunday, 29 November 2026 03:00:11",
  "enrolment": 610433,
  "formal": 108268,
  "informal": 6000,
  "total_votes": 114268,
  "counted_pct": 18.72,
- "notes": [],
+ "notes": [
+  "Close Back to Results by region Home Results 2026 state election results Region results Results by region Northern Metropolitan Region results Northern Metropolitan Region results Listen Provisional results Last updated: Sunday, 29 November 2026 03:00:11 These results are provisional."
+ ],
  "primary": [
   {
    "candidate": "Legalise Cannabis Victoria",
