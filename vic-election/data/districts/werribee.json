@@ -3,86 +3,89 @@
  "name": "Werribee",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/werribee-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:43:49+00:00",
+ "fetched_at": "2026-11-28T10:32:49+00:00",
  "title": "Werribee election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:16",
+ "last_updated": "Saturday, 28 November 2026 21:30:16",
  "enrolment": 62801,
- "counted_pct": 7.96,
+ "formal": 7560,
+ "informal": 650,
+ "total_votes": 8210,
+ "counted_pct": 13.07,
  "notes": [],
  "primary": [
   {
    "candidate": "HOPPER, Paul",
    "party": "The West Party",
-   "votes": 369,
-   "pct": 8.67
+   "votes": 617,
+   "pct": 8.16
   },
   {
    "candidate": "KUMAR, Tushar",
    "party": "The Greens",
-   "votes": 524,
-   "pct": 12.31
+   "votes": 899,
+   "pct": 11.89
   },
   {
    "candidate": "PATERAS, Paul",
    "party": "One Nation Victoria",
-   "votes": 992,
-   "pct": 23.3
+   "votes": 1669,
+   "pct": 22.08
   },
   {
    "candidate": "CLARK, Reece",
    "party": "Liberal",
-   "votes": 971,
-   "pct": 22.8
+   "votes": 1912,
+   "pct": 25.29
   },
   {
    "candidate": "EMERSON, Matt",
    "party": "Family First",
-   "votes": 111,
-   "pct": 2.61
+   "votes": 205,
+   "pct": 2.71
   },
   {
    "candidate": "LISTER, John",
    "party": "Australian Labor Party",
-   "votes": 933,
-   "pct": 21.91
+   "votes": 1618,
+   "pct": 21.4
   },
   {
    "candidate": "ORCHARD, Jeremy",
    "party": "Labour DLP",
-   "votes": 34,
-   "pct": 0.8
+   "votes": 65,
+   "pct": 0.86
   },
   {
    "candidate": "MUNRO, Sue",
    "party": "Victorian Socialists",
-   "votes": 276,
-   "pct": 6.48
+   "votes": 485,
+   "pct": 6.42
   },
   {
    "candidate": "RAIZADA, Monica Sharma",
    "party": "",
-   "votes": 33,
+   "votes": 59,
    "pct": 0.78
   },
   {
    "candidate": "KAYAGURLA, Sandhya",
    "party": "The Republican",
-   "votes": 15,
-   "pct": 0.35
+   "votes": 31,
+   "pct": 0.41
   }
  ],
  "tcp": [
   {
    "candidate": "CLARK, Reece",
    "party": "Liberal",
-   "votes": 0,
-   "pct": 0.0
+   "votes": 487,
+   "pct": 57.7
   },
   {
    "candidate": "LISTER, John",
    "party": "Australian Labor Party",
-   "votes": 0,
-   "pct": 0.0
+   "votes": 357,
+   "pct": 42.3
   }
  ],
  "links": {

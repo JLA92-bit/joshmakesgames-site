@@ -3,21 +3,21 @@
  "name": "St Albans",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/st-albans-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:26:57+00:00",
+ "fetched_at": "2026-11-28T10:32:22+00:00",
  "title": "St Albans election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:25:15",
+ "last_updated": "Saturday, 28 November 2026 21:30:15",
  "enrolment": 47825,
- "formal": 7555,
+ "formal": 7556,
  "informal": 799,
- "total_votes": 8354,
+ "total_votes": 8355,
  "counted_pct": 17.47,
  "notes": [],
  "primary": [
   {
    "candidate": "WALKER, Luân",
    "party": "The West Party",
-   "votes": 251,
-   "pct": 3.32
+   "votes": 252,
+   "pct": 3.34
   },
   {
    "candidate": "HUYNH, Thuc Bao",
@@ -35,7 +35,7 @@
    "candidate": "SULEYMAN, Natalie",
    "party": "Australian Labor Party",
    "votes": 2177,
-   "pct": 28.82
+   "pct": 28.81
   },
   {
    "candidate": "DUNSTAN, Rob",
@@ -104,7 +104,7 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "WALKER, Luân The West Party": 251.0,
+     "WALKER, Luân The West Party": 252.0,
      "HUYNH, Thuc Bao The Greens": 908.0,
      "NGUYEN, Leanna Victorian Socialists": 540.0,
      "SULEYMAN, Natalie Australian Labor Party": 2177.0,
@@ -114,16 +114,16 @@
      "COWELL, John One Nation Victoria": 1549.0,
      "DAVINDER KAUR The Republican": 35.0,
      "Informal votes": 799.0,
-     "Total votes polled": 8354.0
+     "Total votes polled": 8355.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "WALKER, Luân The West Party": 3.32,
+     "WALKER, Luân The West Party": 3.34,
      "HUYNH, Thuc Bao The Greens": 12.02,
      "NGUYEN, Leanna Victorian Socialists": 7.15,
-     "SULEYMAN, Natalie Australian Labor Party": 28.82,
+     "SULEYMAN, Natalie Australian Labor Party": 28.81,
      "DUNSTAN, Rob Liberal": 24.75,
      "JANTEN, Kerry": 0.71,
      "HAKIZIMANA, Alex Family First": 2.26,
@@ -218,7 +218,7 @@
    {
     "booth": "Monmia",
     "values": {
-     "WALKER, Luân The West Party": 24.0,
+     "WALKER, Luân The West Party": 25.0,
      "HUYNH, Thuc Bao The Greens": 79.0,
      "NGUYEN, Leanna Victorian Socialists": 37.0,
      "SULEYMAN, Natalie Australian Labor Party": 234.0,
@@ -228,7 +228,7 @@
      "COWELL, John One Nation Victoria": 260.0,
      "DAVINDER KAUR The Republican": 2.0,
      "Informal votes": 119.0,
-     "Total votes polled": 1011.0
+     "Total votes polled": 1012.0
     }
    },
    {
@@ -346,7 +346,7 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "WALKER, Luân The West Party": 200.0,
+     "WALKER, Luân The West Party": 201.0,
      "HUYNH, Thuc Bao The Greens": 798.0,
      "NGUYEN, Leanna Victorian Socialists": 495.0,
      "SULEYMAN, Natalie Australian Labor Party": 1763.0,
@@ -356,7 +356,7 @@
      "COWELL, John One Nation Victoria": 1225.0,
      "DAVINDER KAUR The Republican": 30.0,
      "Informal votes": 753.0,
-     "Total votes polled": 6867.0
+     "Total votes polled": 6868.0
     }
    },
    {

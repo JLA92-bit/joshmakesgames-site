@@ -2,7 +2,85 @@
  "slug": "eastern-victoria",
  "name": "Eastern Victoria Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
- "status": 998,
- "fetched_at": "2026-11-28T10:17:48+00:00",
- "error": "HTTP 998"
+ "status": 200,
+ "fetched_at": "2026-11-28T10:32:48+00:00",
+ "title": "Eastern Victoria Region election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 21:30:04",
+ "enrolment": 583167,
+ "formal": 27382,
+ "informal": 1061,
+ "total_votes": 28443,
+ "counted_pct": 4.88,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "Victorian Socialists",
+   "party": "Victorian Socialists",
+   "votes": 715,
+   "pct": 2.61
+  },
+  {
+   "candidate": "One Nation Victoria",
+   "party": "One Nation Victoria",
+   "votes": 9703,
+   "pct": 35.44
+  },
+  {
+   "candidate": "Liberal / The Nationals",
+   "party": "Liberal / The Nationals",
+   "votes": 8216,
+   "pct": 30.01
+  },
+  {
+   "candidate": "Legalise Cannabis Victoria",
+   "party": "Legalise Cannabis Victoria",
+   "votes": 831,
+   "pct": 3.03
+  },
+  {
+   "candidate": "Labour DLP",
+   "party": "Labour DLP",
+   "votes": 294,
+   "pct": 1.07
+  },
+  {
+   "candidate": "Animal Justice Party",
+   "party": "Animal Justice Party",
+   "votes": 428,
+   "pct": 1.56
+  },
+  {
+   "candidate": "Australian Labor Party",
+   "party": "Australian Labor Party",
+   "votes": 2895,
+   "pct": 10.57
+  },
+  {
+   "candidate": "Affordable Housing Now – Sustainable Australia Party",
+   "party": "Affordable Housing Now – Sustainable Australia Party",
+   "votes": 247,
+   "pct": 0.9
+  },
+  {
+   "candidate": "Shooters, Fishers and Farmers Party Victoria",
+   "party": "Shooters, Fishers and Farmers Party Victoria",
+   "votes": 528,
+   "pct": 1.93
+  },
+  {
+   "candidate": "Group J",
+   "party": "Group J",
+   "votes": 185,
+   "pct": 0.68
+  },
+  {
+   "candidate": "The Greens",
+   "party": "The Greens",
+   "votes": 3340,
+   "pct": 12.2
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results/Eastern-Victoria-Region-results-by-voting-centre"
+ }
 }

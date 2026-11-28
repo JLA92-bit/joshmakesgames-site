@@ -3,74 +3,77 @@
  "name": "Mordialloc",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mordialloc-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:42:49+00:00",
+ "fetched_at": "2026-11-28T10:32:41+00:00",
  "title": "Mordialloc election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "last_updated": "Saturday, 28 November 2026 21:30:10",
  "enrolment": 54102,
- "counted_pct": 5.07,
+ "formal": 12325,
+ "informal": 659,
+ "total_votes": 12984,
+ "counted_pct": 24.0,
  "notes": [],
  "primary": [
   {
    "candidate": "O'HALLORAN, Paul",
    "party": "Liberal",
-   "votes": 2850,
-   "pct": 38.47
+   "votes": 4645,
+   "pct": 37.69
   },
   {
    "candidate": "HOSSAIN, Mahee",
    "party": "Victorian Socialists",
-   "votes": 295,
-   "pct": 3.98
+   "votes": 509,
+   "pct": 4.13
   },
   {
    "candidate": "POTUCEK, Lily",
    "party": "Family First",
-   "votes": 112,
-   "pct": 1.51
+   "votes": 170,
+   "pct": 1.38
   },
   {
    "candidate": "VERSTEEGEN, Rachel",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 57,
-   "pct": 0.77
+   "votes": 105,
+   "pct": 0.85
   },
   {
    "candidate": "TICEHURST, Nadia",
    "party": "One Nation Victoria",
-   "votes": 1037,
-   "pct": 14.0
+   "votes": 1702,
+   "pct": 13.81
   },
   {
    "candidate": "BRESKIN, Alex",
    "party": "The Greens",
-   "votes": 1210,
-   "pct": 16.33
+   "votes": 2109,
+   "pct": 17.11
   },
   {
    "candidate": "RICHARDSON, Tim",
    "party": "Australian Labor Party",
-   "votes": 1650,
-   "pct": 22.27
+   "votes": 2758,
+   "pct": 22.38
   },
   {
    "candidate": "THOMPSON, Renee",
    "party": "Legalise Cannabis Victoria",
-   "votes": 197,
-   "pct": 2.66
+   "votes": 327,
+   "pct": 2.65
   }
  ],
  "tcp": [
   {
    "candidate": "O'HALLORAN, Paul",
    "party": "Liberal",
-   "votes": 1826,
-   "pct": 63.1
+   "votes": 5859,
+   "pct": 58.8
   },
   {
    "candidate": "RICHARDSON, Tim",
    "party": "Australian Labor Party",
-   "votes": 1068,
-   "pct": 36.9
+   "votes": 4105,
+   "pct": 41.2
   }
  ],
  "links": {

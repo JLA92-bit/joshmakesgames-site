@@ -3,74 +3,77 @@
  "name": "South Barwon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-barwon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:43:32+00:00",
+ "fetched_at": "2026-11-28T10:32:46+00:00",
  "title": "South Barwon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:15",
+ "last_updated": "Saturday, 28 November 2026 21:30:15",
  "enrolment": 61036,
- "counted_pct": 5.76,
+ "formal": 11831,
+ "informal": 689,
+ "total_votes": 12520,
+ "counted_pct": 20.51,
  "notes": [],
  "primary": [
   {
    "candidate": "THISTLETON, Rebecca",
    "party": "Australian Labor Party",
-   "votes": 1449,
-   "pct": 16.89
+   "votes": 2052,
+   "pct": 17.34
   },
   {
    "candidate": "NELSON, Ron",
    "party": "",
-   "votes": 466,
-   "pct": 5.43
+   "votes": 625,
+   "pct": 5.28
   },
   {
    "candidate": "BARRON, Alan",
    "party": "Family First",
-   "votes": 202,
-   "pct": 2.35
+   "votes": 262,
+   "pct": 2.21
   },
   {
    "candidate": "HEDLEY, Freya",
    "party": "Socialist Alliance",
-   "votes": 83,
-   "pct": 0.97
+   "votes": 112,
+   "pct": 0.95
   },
   {
    "candidate": "GORMAN, Madilyn",
    "party": "Victorian Socialists",
-   "votes": 254,
-   "pct": 2.96
+   "votes": 348,
+   "pct": 2.94
   },
   {
    "candidate": "GEARD, Josh",
    "party": "One Nation Victoria",
-   "votes": 1748,
-   "pct": 20.37
+   "votes": 2384,
+   "pct": 20.15
   },
   {
    "candidate": "SCHERRER, Izzy",
    "party": "The Greens",
-   "votes": 1831,
-   "pct": 21.34
+   "votes": 2577,
+   "pct": 21.78
   },
   {
    "candidate": "PETTIT, Libby",
    "party": "Liberal",
-   "votes": 2547,
-   "pct": 29.69
+   "votes": 3471,
+   "pct": 29.34
   }
  ],
  "tcp": [
   {
    "candidate": "THISTLETON, Rebecca",
    "party": "Australian Labor Party",
-   "votes": 1851,
-   "pct": 41.47
+   "votes": 4582,
+   "pct": 41.57
   },
   {
    "candidate": "PETTIT, Libby",
    "party": "Liberal",
-   "votes": 2613,
-   "pct": 58.53
+   "votes": 6441,
+   "pct": 58.43
   }
  ],
  "links": {

@@ -3,68 +3,71 @@
  "name": "Malvern",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/malvern-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:42:41+00:00",
+ "fetched_at": "2026-11-28T10:32:41+00:00",
  "title": "Malvern election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:08",
+ "last_updated": "Saturday, 28 November 2026 21:30:08",
  "enrolment": 49058,
- "counted_pct": 3.02,
+ "formal": 11708,
+ "informal": 346,
+ "total_votes": 12054,
+ "counted_pct": 24.57,
  "notes": [],
  "primary": [
   {
    "candidate": "SEGAL, David",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 74,
-   "pct": 1.07
+   "votes": 107,
+   "pct": 0.91
   },
   {
    "candidate": "MARTIN, Peter",
    "party": "Australian Labor Party",
-   "votes": 654,
-   "pct": 9.42
+   "votes": 1150,
+   "pct": 9.82
   },
   {
    "candidate": "BODE, Edward",
    "party": "One Nation Victoria",
-   "votes": 383,
-   "pct": 5.51
+   "votes": 751,
+   "pct": 6.41
   },
   {
    "candidate": "LEONARD, Gavin",
    "party": "Victorian Socialists",
-   "votes": 212,
-   "pct": 3.05
+   "votes": 326,
+   "pct": 2.78
   },
   {
    "candidate": "KATSIKIS, Georgia",
    "party": "The Greens",
-   "votes": 1175,
-   "pct": 16.92
+   "votes": 1994,
+   "pct": 17.03
   },
   {
    "candidate": "ZIGOURAS, Christina",
    "party": "",
-   "votes": 516,
-   "pct": 7.43
+   "votes": 771,
+   "pct": 6.59
   },
   {
    "candidate": "HAMER, Amelia",
    "party": "Liberal",
-   "votes": 3931,
-   "pct": 56.6
+   "votes": 6609,
+   "pct": 56.45
   }
  ],
  "tcp": [
   {
    "candidate": "ZIGOURAS, Christina",
    "party": "",
-   "votes": 181,
-   "pct": 29.48
+   "votes": 1594,
+   "pct": 36.22
   },
   {
    "candidate": "HAMER, Amelia",
    "party": "Liberal",
-   "votes": 433,
-   "pct": 70.52
+   "votes": 2807,
+   "pct": 63.78
   }
  ],
  "links": {

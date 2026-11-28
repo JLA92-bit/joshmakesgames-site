@@ -2,7 +2,91 @@
  "slug": "north-eastern-metropolitan",
  "name": "North Eastern Metropolitan Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
- "status": 998,
- "fetched_at": "2026-11-28T10:17:48+00:00",
- "error": "HTTP 998"
+ "status": 200,
+ "fetched_at": "2026-11-28T10:32:48+00:00",
+ "title": "North-Eastern Victoria Region election results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 21:30:11",
+ "enrolment": 566998,
+ "formal": 19269,
+ "informal": 682,
+ "total_votes": 19951,
+ "counted_pct": 3.52,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "Legalise Cannabis Victoria",
+   "party": "Legalise Cannabis Victoria",
+   "votes": 635,
+   "pct": 3.3
+  },
+  {
+   "candidate": "Victorian Socialists",
+   "party": "Victorian Socialists",
+   "votes": 695,
+   "pct": 3.61
+  },
+  {
+   "candidate": "Australian Labor Party",
+   "party": "Australian Labor Party",
+   "votes": 3494,
+   "pct": 18.13
+  },
+  {
+   "candidate": "Affordable Housing Now – Sustainable Australia Party",
+   "party": "Affordable Housing Now – Sustainable Australia Party",
+   "votes": 247,
+   "pct": 1.28
+  },
+  {
+   "candidate": "Labour DLP",
+   "party": "Labour DLP",
+   "votes": 136,
+   "pct": 0.71
+  },
+  {
+   "candidate": "Family First",
+   "party": "Family First",
+   "votes": 399,
+   "pct": 2.07
+  },
+  {
+   "candidate": "One Nation Victoria",
+   "party": "One Nation Victoria",
+   "votes": 2708,
+   "pct": 14.05
+  },
+  {
+   "candidate": "Liberal",
+   "party": "Liberal",
+   "votes": 7002,
+   "pct": 36.34
+  },
+  {
+   "candidate": "Libertarian (formerly Liberal Democrats)",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 103,
+   "pct": 0.53
+  },
+  {
+   "candidate": "Group J",
+   "party": "Group J",
+   "votes": 67,
+   "pct": 0.35
+  },
+  {
+   "candidate": "The Greens",
+   "party": "The Greens",
+   "votes": 3639,
+   "pct": 18.89
+  },
+  {
+   "candidate": "Australian Democrats",
+   "party": "Australian Democrats",
+   "votes": 144,
+   "pct": 0.75
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results/North-Eastern-Metropolitan-Region-results-by-voting-centre"
+ }
 }

@@ -3,77 +3,77 @@
  "name": "Eildon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eildon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:26:14+00:00",
+ "fetched_at": "2026-11-28T10:31:46+00:00",
  "title": "Eildon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:25:05",
+ "last_updated": "Saturday, 28 November 2026 21:30:04",
  "enrolment": 51711,
- "formal": 14372,
- "informal": 835,
- "total_votes": 15207,
- "counted_pct": 29.41,
+ "formal": 14841,
+ "informal": 875,
+ "total_votes": 15716,
+ "counted_pct": 30.39,
  "notes": [],
  "primary": [
   {
    "candidate": "WARD, Tom",
    "party": "",
-   "votes": 999,
-   "pct": 6.95
+   "votes": 1015,
+   "pct": 6.84
   },
   {
    "candidate": "MCLEISH, Cindy",
    "party": "Liberal",
-   "votes": 4567,
-   "pct": 31.78
+   "votes": 4682,
+   "pct": 31.55
   },
   {
    "candidate": "BARBER, Tim",
    "party": "One Nation Victoria",
-   "votes": 4635,
-   "pct": 32.25
+   "votes": 4727,
+   "pct": 31.85
   },
   {
    "candidate": "MOSELY, Joshua",
    "party": "Family First",
-   "votes": 196,
-   "pct": 1.36
+   "votes": 200,
+   "pct": 1.35
   },
   {
    "candidate": "GULPILIL, Talia",
    "party": "The Greens",
-   "votes": 1950,
-   "pct": 13.57
+   "votes": 2094,
+   "pct": 14.11
   },
   {
    "candidate": "LITTLE, Dylan",
    "party": "Victorian Socialists",
-   "votes": 268,
+   "votes": 276,
    "pct": 1.86
   },
   {
    "candidate": "GIBSON, Kevin",
    "party": "Australian Labor Party",
-   "votes": 1316,
-   "pct": 9.16
+   "votes": 1386,
+   "pct": 9.34
   },
   {
    "candidate": "BOND, Chloe",
    "party": "Animal Justice Party",
-   "votes": 441,
-   "pct": 3.07
+   "votes": 461,
+   "pct": 3.11
   }
  ],
  "tcp": [
   {
    "candidate": "MCLEISH, Cindy",
    "party": "Liberal",
-   "votes": 5159,
-   "pct": 58.54
+   "votes": 5519,
+   "pct": 59.46
   },
   {
    "candidate": "BARBER, Tim",
    "party": "One Nation Victoria",
-   "votes": 3654,
-   "pct": 41.46
+   "votes": 3763,
+   "pct": 40.54
   }
  ],
  "links": {

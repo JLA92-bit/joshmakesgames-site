@@ -3,80 +3,83 @@
  "name": "Laverton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/laverton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:42:36+00:00",
+ "fetched_at": "2026-11-28T10:32:40+00:00",
  "title": "Laverton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:07",
+ "last_updated": "Saturday, 28 November 2026 21:30:07",
  "enrolment": 56046,
- "counted_pct": 10.72,
+ "formal": 5287,
+ "informal": 482,
+ "total_votes": 5769,
+ "counted_pct": 10.29,
  "notes": [],
  "primary": [
   {
    "candidate": "NGUYEN, Lucy",
    "party": "The Greens",
-   "votes": 543,
-   "pct": 22.81
+   "votes": 1134,
+   "pct": 21.45
   },
   {
    "candidate": "MENDELSOHN, Emma",
    "party": "The West Party",
-   "votes": 36,
-   "pct": 1.51
+   "votes": 86,
+   "pct": 1.63
   },
   {
    "candidate": "PAREDES, Rufo",
    "party": "One Nation Victoria",
-   "votes": 395,
-   "pct": 16.59
+   "votes": 817,
+   "pct": 15.45
   },
   {
    "candidate": "GARCIA, Jo",
    "party": "Family First",
-   "votes": 52,
-   "pct": 2.18
+   "votes": 122,
+   "pct": 2.31
   },
   {
    "candidate": "CONNOLLY, Sarah",
    "party": "Australian Labor Party",
-   "votes": 636,
-   "pct": 26.71
+   "votes": 1445,
+   "pct": 27.33
   },
   {
    "candidate": "MANSOURI JAJAEE, Shohre",
    "party": "Animal Justice Party",
-   "votes": 36,
-   "pct": 1.51
+   "votes": 72,
+   "pct": 1.36
   },
   {
    "candidate": "CHITTEDI, Suchithra",
    "party": "The Republican",
-   "votes": 3,
-   "pct": 0.13
+   "votes": 17,
+   "pct": 0.32
   },
   {
    "candidate": "NOUNE, Ghada",
    "party": "Liberal",
-   "votes": 388,
-   "pct": 16.3
+   "votes": 1018,
+   "pct": 19.25
   },
   {
    "candidate": "RUDD, Van Thanh",
    "party": "Victorian Socialists",
-   "votes": 292,
-   "pct": 12.26
+   "votes": 576,
+   "pct": 10.89
   }
  ],
  "tcp": [
   {
    "candidate": "CONNOLLY, Sarah",
    "party": "Australian Labor Party",
-   "votes": 479,
-   "pct": 52.99
+   "votes": 1733,
+   "pct": 55.72
   },
   {
    "candidate": "NOUNE, Ghada",
    "party": "Liberal",
-   "votes": 425,
-   "pct": 47.01
+   "votes": 1377,
+   "pct": 44.28
   }
  ],
  "links": {

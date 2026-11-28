@@ -3,75 +3,75 @@
  "name": "Broadmeadows",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:21:21+00:00",
+ "fetched_at": "2026-11-28T10:32:35+00:00",
  "title": "Broadmeadows election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:20:02",
+ "last_updated": "Saturday, 28 November 2026 21:30:02",
  "enrolment": 51575,
- "formal": 8566,
- "informal": 872,
- "total_votes": 9438,
- "counted_pct": 18.3,
+ "formal": 10208,
+ "informal": 1166,
+ "total_votes": 11374,
+ "counted_pct": 22.05,
  "notes": [],
  "primary": [
   {
    "candidate": "YOLBULAN, Mutullah Can",
    "party": "Victorian Socialists",
-   "votes": 679,
-   "pct": 7.93
+   "votes": 888,
+   "pct": 8.7
   },
   {
    "candidate": "EL YOUSSEF, Mohamad",
    "party": "",
-   "votes": 121,
-   "pct": 1.41
+   "votes": 155,
+   "pct": 1.52
   },
   {
    "candidate": "DUZOVA, Baris",
    "party": "Liberal",
-   "votes": 1582,
-   "pct": 18.47
+   "votes": 1789,
+   "pct": 17.53
   },
   {
    "candidate": "NASIM, Maryam",
    "party": "The Greens",
-   "votes": 1613,
-   "pct": 18.83
+   "votes": 1895,
+   "pct": 18.56
   },
   {
    "candidate": "ELMUSTAPHA, Mohamad",
    "party": "",
-   "votes": 207,
-   "pct": 2.42
+   "votes": 277,
+   "pct": 2.71
   },
   {
    "candidate": "MATTHEWS-WARD, Kathleen",
    "party": "Australian Labor Party",
-   "votes": 2127,
-   "pct": 24.83
+   "votes": 2577,
+   "pct": 25.24
   },
   {
    "candidate": "WILSON, Russell",
    "party": "Family First",
-   "votes": 166,
-   "pct": 1.94
+   "votes": 201,
+   "pct": 1.97
   },
   {
    "candidate": "KEIRS, Ethan",
    "party": "One Nation Victoria",
-   "votes": 1455,
-   "pct": 16.99
+   "votes": 1731,
+   "pct": 16.96
   },
   {
    "candidate": "UNICOMB, Rachel",
    "party": "Animal Justice Party",
-   "votes": 160,
-   "pct": 1.87
+   "votes": 176,
+   "pct": 1.72
   },
   {
    "candidate": "BOLTON, Sue",
    "party": "Socialist Alliance",
-   "votes": 456,
-   "pct": 5.32
+   "votes": 519,
+   "pct": 5.08
   }
  ],
  "tcp": [
@@ -91,543 +91,5 @@
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results/Broadmeadows-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results/Broadmeadows-2CP-results-by-voting-centre"
- },
- "booths_primary": {
-  "columns": [
-   "YOLBULAN, Mutullah Can Victorian Socialists",
-   "EL YOUSSEF, Mohamad",
-   "DUZOVA, Baris Liberal",
-   "NASIM, Maryam The Greens",
-   "ELMUSTAPHA, Mohamad",
-   "MATTHEWS WARD, Kathleen",
-   "WILSON, Russell Family First",
-   "KEIRS, Ethan One Nation Victoria",
-   "UNICOMB, Rachel Animal Justice Party",
-   "BOLTON, Sue Socialist Alliance",
-   "Informal votes",
-   "Total votes polled"
-  ],
-  "rows": [
-   {
-    "booth": "Total first preference votes",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 679.0,
-     "EL YOUSSEF, Mohamad": 121.0,
-     "DUZOVA, Baris Liberal": 1582.0,
-     "NASIM, Maryam The Greens": 1613.0,
-     "ELMUSTAPHA, Mohamad": 207.0,
-     "MATTHEWS WARD, Kathleen": 2127.0,
-     "WILSON, Russell Family First": 166.0,
-     "KEIRS, Ethan One Nation Victoria": 1455.0,
-     "UNICOMB, Rachel Animal Justice Party": 160.0,
-     "BOLTON, Sue Socialist Alliance": 456.0,
-     "Informal votes": 872.0,
-     "Total votes polled": 9438.0
-    }
-   },
-   {
-    "booth": "Percentage of formal vote polled by candidate",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 7.93,
-     "EL YOUSSEF, Mohamad": 1.41,
-     "DUZOVA, Baris Liberal": 18.47,
-     "NASIM, Maryam The Greens": 18.83,
-     "ELMUSTAPHA, Mohamad": 2.42,
-     "MATTHEWS WARD, Kathleen": 24.83,
-     "WILSON, Russell Family First": 1.94,
-     "KEIRS, Ethan One Nation Victoria": 16.99,
-     "UNICOMB, Rachel Animal Justice Party": 1.87,
-     "BOLTON, Sue Socialist Alliance": 5.32
-    }
-   },
-   {
-    "booth": "Ordinary votes",
-    "values": {}
-   },
-   {
-    "booth": "Broadmeadows",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Broadmeadows North",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Campbellfield",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Coolaroo",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Fawkner",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Fawkner North",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 49.0,
-     "EL YOUSSEF, Mohamad": 5.0,
-     "DUZOVA, Baris Liberal": 42.0,
-     "NASIM, Maryam The Greens": 151.0,
-     "ELMUSTAPHA, Mohamad": 16.0,
-     "MATTHEWS WARD, Kathleen": 117.0,
-     "WILSON, Russell Family First": 2.0,
-     "KEIRS, Ethan One Nation Victoria": 44.0,
-     "UNICOMB, Rachel Animal Justice Party": 11.0,
-     "BOLTON, Sue Socialist Alliance": 102.0,
-     "Informal votes": 80.0,
-     "Total votes polled": 619.0
-    }
-   },
-   {
-    "booth": "Glenroy",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 48.0,
-     "EL YOUSSEF, Mohamad": 14.0,
-     "DUZOVA, Baris Liberal": 122.0,
-     "NASIM, Maryam The Greens": 140.0,
-     "ELMUSTAPHA, Mohamad": 35.0,
-     "MATTHEWS WARD, Kathleen": 188.0,
-     "WILSON, Russell Family First": 8.0,
-     "KEIRS, Ethan One Nation Victoria": 114.0,
-     "UNICOMB, Rachel Animal Justice Party": 20.0,
-     "BOLTON, Sue Socialist Alliance": 31.0,
-     "Informal votes": 94.0,
-     "Total votes polled": 814.0
-    }
-   },
-   {
-    "booth": "Glenroy North",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 53.0,
-     "EL YOUSSEF, Mohamad": 6.0,
-     "DUZOVA, Baris Liberal": 83.0,
-     "NASIM, Maryam The Greens": 97.0,
-     "ELMUSTAPHA, Mohamad": 9.0,
-     "MATTHEWS WARD, Kathleen": 169.0,
-     "WILSON, Russell Family First": 18.0,
-     "KEIRS, Ethan One Nation Victoria": 91.0,
-     "UNICOMB, Rachel Animal Justice Party": 11.0,
-     "BOLTON, Sue Socialist Alliance": 22.0,
-     "Informal votes": 50.0,
-     "Total votes polled": 609.0
-    }
-   },
-   {
-    "booth": "Glenroy South",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 72.0,
-     "EL YOUSSEF, Mohamad": 6.0,
-     "DUZOVA, Baris Liberal": 91.0,
-     "NASIM, Maryam The Greens": 122.0,
-     "ELMUSTAPHA, Mohamad": 19.0,
-     "MATTHEWS WARD, Kathleen": 154.0,
-     "WILSON, Russell Family First": 8.0,
-     "KEIRS, Ethan One Nation Victoria": 68.0,
-     "UNICOMB, Rachel Animal Justice Party": 8.0,
-     "BOLTON, Sue Socialist Alliance": 26.0,
-     "Informal votes": 80.0,
-     "Total votes polled": 654.0
-    }
-   },
-   {
-    "booth": "Glenroy West",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 94.0,
-     "EL YOUSSEF, Mohamad": 11.0,
-     "DUZOVA, Baris Liberal": 162.0,
-     "NASIM, Maryam The Greens": 164.0,
-     "ELMUSTAPHA, Mohamad": 10.0,
-     "MATTHEWS WARD, Kathleen": 236.0,
-     "WILSON, Russell Family First": 14.0,
-     "KEIRS, Ethan One Nation Victoria": 127.0,
-     "UNICOMB, Rachel Animal Justice Party": 14.0,
-     "BOLTON, Sue Socialist Alliance": 21.0,
-     "Informal votes": 78.0,
-     "Total votes polled": 931.0
-    }
-   },
-   {
-    "booth": "Gowrie Park",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 90.0,
-     "EL YOUSSEF, Mohamad": 19.0,
-     "DUZOVA, Baris Liberal": 126.0,
-     "NASIM, Maryam The Greens": 140.0,
-     "ELMUSTAPHA, Mohamad": 45.0,
-     "MATTHEWS WARD, Kathleen": 174.0,
-     "WILSON, Russell Family First": 7.0,
-     "KEIRS, Ethan One Nation Victoria": 149.0,
-     "UNICOMB, Rachel Animal Justice Party": 13.0,
-     "BOLTON, Sue Socialist Alliance": 30.0,
-     "Informal votes": 98.0,
-     "Total votes polled": 891.0
-    }
-   },
-   {
-    "booth": "Hadfield",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Merlynston",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 4.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 3.0,
-     "NASIM, Maryam The Greens": 13.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 10.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 9.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 3.0,
-     "Informal votes": 5.0,
-     "Total votes polled": 47.0
-    }
-   },
-   {
-    "booth": "Moomba Park",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 69.0,
-     "EL YOUSSEF, Mohamad": 12.0,
-     "DUZOVA, Baris Liberal": 122.0,
-     "NASIM, Maryam The Greens": 219.0,
-     "ELMUSTAPHA, Mohamad": 9.0,
-     "MATTHEWS WARD, Kathleen": 183.0,
-     "WILSON, Russell Family First": 27.0,
-     "KEIRS, Ethan One Nation Victoria": 175.0,
-     "UNICOMB, Rachel Animal Justice Party": 6.0,
-     "BOLTON, Sue Socialist Alliance": 99.0,
-     "Informal votes": 147.0,
-     "Total votes polled": 1068.0
-    }
-   },
-   {
-    "booth": "Oak Park",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 103.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 305.0,
-     "NASIM, Maryam The Greens": 194.0,
-     "ELMUSTAPHA, Mohamad": 5.0,
-     "MATTHEWS WARD, Kathleen": 270.0,
-     "WILSON, Russell Family First": 25.0,
-     "KEIRS, Ethan One Nation Victoria": 178.0,
-     "UNICOMB, Rachel Animal Justice Party": 19.0,
-     "BOLTON, Sue Socialist Alliance": 29.0,
-     "Informal votes": 104.0,
-     "Total votes polled": 1232.0
-    }
-   },
-   {
-    "booth": "Pascoe Vale North",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 15.0,
-     "EL YOUSSEF, Mohamad": 7.0,
-     "DUZOVA, Baris Liberal": 22.0,
-     "NASIM, Maryam The Greens": 57.0,
-     "ELMUSTAPHA, Mohamad": 5.0,
-     "MATTHEWS WARD, Kathleen": 37.0,
-     "WILSON, Russell Family First": 2.0,
-     "KEIRS, Ethan One Nation Victoria": 37.0,
-     "UNICOMB, Rachel Animal Justice Party": 2.0,
-     "BOLTON, Sue Socialist Alliance": 8.0,
-     "Informal votes": 20.0,
-     "Total votes polled": 212.0
-    }
-   },
-   {
-    "booth": "Upfield",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Ordinary votes total",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 597.0,
-     "EL YOUSSEF, Mohamad": 80.0,
-     "DUZOVA, Baris Liberal": 1078.0,
-     "NASIM, Maryam The Greens": 1297.0,
-     "ELMUSTAPHA, Mohamad": 153.0,
-     "MATTHEWS WARD, Kathleen": 1538.0,
-     "WILSON, Russell Family First": 111.0,
-     "KEIRS, Ethan One Nation Victoria": 992.0,
-     "UNICOMB, Rachel Animal Justice Party": 104.0,
-     "BOLTON, Sue Socialist Alliance": 371.0,
-     "Informal votes": 756.0,
-     "Total votes polled": 7077.0
-    }
-   },
-   {
-    "booth": "Early voting centres",
-    "values": {}
-   },
-   {
-    "booth": "Broadmeadows - EVC 1",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Broadmeadows - EVC 2",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Broadmeadows - MEVC",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Other early votes",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Early votes total",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes",
-    "values": {}
-   },
-   {
-    "booth": "Absent votes",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Marked as voted votes",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Postal votes",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 82.0,
-     "EL YOUSSEF, Mohamad": 41.0,
-     "DUZOVA, Baris Liberal": 504.0,
-     "NASIM, Maryam The Greens": 316.0,
-     "ELMUSTAPHA, Mohamad": 54.0,
-     "MATTHEWS WARD, Kathleen": 589.0,
-     "WILSON, Russell Family First": 55.0,
-     "KEIRS, Ethan One Nation Victoria": 463.0,
-     "UNICOMB, Rachel Animal Justice Party": 56.0,
-     "BOLTON, Sue Socialist Alliance": 85.0,
-     "Informal votes": 116.0,
-     "Total votes polled": 2361.0
-    }
-   },
-   {
-    "booth": "Provisional votes",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 0.0,
-     "EL YOUSSEF, Mohamad": 0.0,
-     "DUZOVA, Baris Liberal": 0.0,
-     "NASIM, Maryam The Greens": 0.0,
-     "ELMUSTAPHA, Mohamad": 0.0,
-     "MATTHEWS WARD, Kathleen": 0.0,
-     "WILSON, Russell Family First": 0.0,
-     "KEIRS, Ethan One Nation Victoria": 0.0,
-     "UNICOMB, Rachel Animal Justice Party": 0.0,
-     "BOLTON, Sue Socialist Alliance": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes total",
-    "values": {
-     "YOLBULAN, Mutullah Can Victorian Socialists": 82.0,
-     "EL YOUSSEF, Mohamad": 41.0,
-     "DUZOVA, Baris Liberal": 504.0,
-     "NASIM, Maryam The Greens": 316.0,
-     "ELMUSTAPHA, Mohamad": 54.0,
-     "MATTHEWS WARD, Kathleen": 589.0,
-     "WILSON, Russell Family First": 55.0,
-     "KEIRS, Ethan One Nation Victoria": 463.0,
-     "UNICOMB, Rachel Animal Justice Party": 56.0,
-     "BOLTON, Sue Socialist Alliance": 85.0,
-     "Informal votes": 116.0,
-     "Total votes polled": 2361.0
-    }
-   }
-  ]
  }
 }

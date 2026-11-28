@@ -2,7 +2,97 @@
  "slug": "south-eastern-metropolitan",
  "name": "South Eastern Metropolitan Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/South-Eastern-Metropolitan-Region-results",
- "status": 998,
- "fetched_at": "2026-11-28T10:17:48+00:00",
- "error": "HTTP 998"
+ "status": 200,
+ "fetched_at": "2026-11-28T10:32:51+00:00",
+ "title": "South-Eastern Metropolitan Region results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 21:30:15",
+ "enrolment": 598816,
+ "formal": 10330,
+ "informal": 583,
+ "total_votes": 10913,
+ "counted_pct": 1.82,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "One Nation Victoria",
+   "party": "One Nation Victoria",
+   "votes": 2031,
+   "pct": 19.66
+  },
+  {
+   "candidate": "Christian Alliance Party - Reform AU",
+   "party": "Christian Alliance Party - Reform AU",
+   "votes": 106,
+   "pct": 1.03
+  },
+  {
+   "candidate": "Citizens Party",
+   "party": "Citizens Party",
+   "votes": 57,
+   "pct": 0.55
+  },
+  {
+   "candidate": "Australian Labor Party",
+   "party": "Australian Labor Party",
+   "votes": 2334,
+   "pct": 22.59
+  },
+  {
+   "candidate": "Victorian Socialists",
+   "party": "Victorian Socialists",
+   "votes": 264,
+   "pct": 2.56
+  },
+  {
+   "candidate": "Legalise Cannabis Victoria",
+   "party": "Legalise Cannabis Victoria",
+   "votes": 340,
+   "pct": 3.29
+  },
+  {
+   "candidate": "Affordable Housing Now – Sustainable Australia Party",
+   "party": "Affordable Housing Now – Sustainable Australia Party",
+   "votes": 130,
+   "pct": 1.26
+  },
+  {
+   "candidate": "The Greens",
+   "party": "The Greens",
+   "votes": 1654,
+   "pct": 16.01
+  },
+  {
+   "candidate": "Libertarian (formerly Liberal Democrats)",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 216,
+   "pct": 2.09
+  },
+  {
+   "candidate": "Australian Democrats",
+   "party": "Australian Democrats",
+   "votes": 41,
+   "pct": 0.4
+  },
+  {
+   "candidate": "Liberal",
+   "party": "Liberal",
+   "votes": 3026,
+   "pct": 29.29
+  },
+  {
+   "candidate": "Labour DLP",
+   "party": "Labour DLP",
+   "votes": 129,
+   "pct": 1.25
+  },
+  {
+   "candidate": "ABEYSINGHE, Susantha",
+   "party": "ABEYSINGHE, Susantha",
+   "votes": 2,
+   "pct": 0.02
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/South-Eastern-Metropolitan-Region-results/South-Eastern-Metropolitan-Region-results-by-voting-centre"
+ }
 }

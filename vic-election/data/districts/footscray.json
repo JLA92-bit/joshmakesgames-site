@@ -3,838 +3,123 @@
  "name": "Footscray",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/footscray-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:21:53+00:00",
+ "fetched_at": "2026-11-28T10:32:37+00:00",
  "title": "Footscray election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:20:05",
+ "last_updated": "Saturday, 28 November 2026 21:30:05",
  "enrolment": 51960,
- "formal": 4708,
- "informal": 469,
- "total_votes": 5177,
- "counted_pct": 9.96,
+ "formal": 5871,
+ "informal": 595,
+ "total_votes": 6466,
+ "counted_pct": 12.44,
  "notes": [],
  "primary": [
   {
    "candidate": "DINH, Hai",
    "party": "",
-   "votes": 44,
-   "pct": 0.93
+   "votes": 65,
+   "pct": 1.11
   },
   {
    "candidate": "PEREYRA, Elena",
    "party": "The Greens",
-   "votes": 1356,
-   "pct": 28.8
+   "votes": 1535,
+   "pct": 26.15
   },
   {
    "candidate": "NGUYEN, Minh Quan",
    "party": "The West Party",
-   "votes": 52,
-   "pct": 1.1
+   "votes": 75,
+   "pct": 1.28
   },
   {
    "candidate": "FELATE, Andualem",
    "party": "The Republican",
-   "votes": 12,
-   "pct": 0.25
+   "votes": 16,
+   "pct": 0.27
   },
   {
    "candidate": "HESS, Kristina",
    "party": "I'm Voting to Avoid the Fine",
-   "votes": 9,
-   "pct": 0.19
+   "votes": 12,
+   "pct": 0.2
   },
   {
    "candidate": "LOPEZ, Alexander",
    "party": "One Nation Victoria",
-   "votes": 288,
-   "pct": 6.12
+   "votes": 477,
+   "pct": 8.12
   },
   {
    "candidate": "LEWIS, Daniel",
    "party": "Free Palestine",
-   "votes": 6,
-   "pct": 0.13
+   "votes": 12,
+   "pct": 0.2
   },
   {
    "candidate": "IBRAHIM, Marcus",
    "party": "",
-   "votes": 15,
-   "pct": 0.32
+   "votes": 20,
+   "pct": 0.34
   },
   {
    "candidate": "FLORES, Ana",
    "party": "Family First",
-   "votes": 35,
-   "pct": 0.74
+   "votes": 49,
+   "pct": 0.83
   },
   {
    "candidate": "HALL, Katie",
    "party": "Australian Labor Party",
-   "votes": 1000,
-   "pct": 21.24
+   "votes": 1216,
+   "pct": 20.71
   },
   {
    "candidate": "MARSH, Jess",
    "party": "",
-   "votes": 312,
-   "pct": 6.63
+   "votes": 333,
+   "pct": 5.67
   },
   {
    "candidate": "CALDER, Daryle",
    "party": "Climate Action Now",
-   "votes": 3,
-   "pct": 0.06
+   "votes": 7,
+   "pct": 0.12
   },
   {
    "candidate": "CUMMING, Catherine",
    "party": "",
-   "votes": 40,
-   "pct": 0.85
+   "votes": 51,
+   "pct": 0.87
   },
   {
    "candidate": "CHANG, Tim",
    "party": "Liberal",
-   "votes": 633,
-   "pct": 13.45
+   "votes": 1016,
+   "pct": 17.31
   },
   {
    "candidate": "DUFF, Jasmine",
    "party": "Victorian Socialists",
-   "votes": 903,
-   "pct": 19.18
+   "votes": 987,
+   "pct": 16.81
   }
  ],
  "tcp": [
   {
    "candidate": "PEREYRA, Elena",
    "party": "The Greens",
-   "votes": 1133,
-   "pct": 66.53
+   "votes": 1784,
+   "pct": 62.36
   },
   {
    "candidate": "HALL, Katie",
    "party": "Australian Labor Party",
-   "votes": 570,
-   "pct": 33.47
+   "votes": 1077,
+   "pct": 37.64
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/footscray-district-results/Footscray-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/footscray-district-results/Footscray-2CP-results-by-voting-centre"
- },
- "booths_primary": {
-  "columns": [
-   "DINH, Hai",
-   "PEREYRA, Elena The Greens",
-   "NGUYEN, Minh Quan The West Party",
-   "FELATE, Andualem The Republican",
-   "HESS, Kristina I'm Voting to Avoid the Fine",
-   "LOPEZ, Alexander One Nation Victoria",
-   "LEWIS, Daniel Free Palestine",
-   "IBRAHIM, Marcus",
-   "FLORES, Ana Family First",
-   "HALL, Katie Australian Labor Party",
-   "MARSH, Jess",
-   "CALDER, Daryle Climate Action Now",
-   "CUMMING, Catherine",
-   "CHANG, Tim Liberal",
-   "DUFF, Jasmine Victorian Socialists",
-   "Informal votes",
-   "Total votes polled"
-  ],
-  "rows": [
-   {
-    "booth": "Total first preference votes",
-    "values": {
-     "DINH, Hai": 44.0,
-     "PEREYRA, Elena The Greens": 1356.0,
-     "NGUYEN, Minh Quan The West Party": 52.0,
-     "FELATE, Andualem The Republican": 12.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 9.0,
-     "LOPEZ, Alexander One Nation Victoria": 288.0,
-     "LEWIS, Daniel Free Palestine": 6.0,
-     "IBRAHIM, Marcus": 15.0,
-     "FLORES, Ana Family First": 35.0,
-     "HALL, Katie Australian Labor Party": 1000.0,
-     "MARSH, Jess": 312.0,
-     "CALDER, Daryle Climate Action Now": 3.0,
-     "CUMMING, Catherine": 40.0,
-     "CHANG, Tim Liberal": 633.0,
-     "DUFF, Jasmine Victorian Socialists": 903.0,
-     "Informal votes": 469.0,
-     "Total votes polled": 5177.0
-    }
-   },
-   {
-    "booth": "Percentage of formal vote polled by candidate",
-    "values": {
-     "DINH, Hai": 0.93,
-     "PEREYRA, Elena The Greens": 28.8,
-     "NGUYEN, Minh Quan The West Party": 1.1,
-     "FELATE, Andualem The Republican": 0.25,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.19,
-     "LOPEZ, Alexander One Nation Victoria": 6.12,
-     "LEWIS, Daniel Free Palestine": 0.13,
-     "IBRAHIM, Marcus": 0.32,
-     "FLORES, Ana Family First": 0.74,
-     "HALL, Katie Australian Labor Party": 21.24,
-     "MARSH, Jess": 6.63,
-     "CALDER, Daryle Climate Action Now": 0.06,
-     "CUMMING, Catherine": 0.85,
-     "CHANG, Tim Liberal": 13.45,
-     "DUFF, Jasmine Victorian Socialists": 19.18
-    }
-   },
-   {
-    "booth": "Ordinary votes",
-    "values": {}
-   },
-   {
-    "booth": "Footscray",
-    "values": {
-     "DINH, Hai": 20.0,
-     "PEREYRA, Elena The Greens": 307.0,
-     "NGUYEN, Minh Quan The West Party": 12.0,
-     "FELATE, Andualem The Republican": 11.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 3.0,
-     "LOPEZ, Alexander One Nation Victoria": 48.0,
-     "LEWIS, Daniel Free Palestine": 4.0,
-     "IBRAHIM, Marcus": 8.0,
-     "FLORES, Ana Family First": 5.0,
-     "HALL, Katie Australian Labor Party": 202.0,
-     "MARSH, Jess": 63.0,
-     "CALDER, Daryle Climate Action Now": 1.0,
-     "CUMMING, Catherine": 12.0,
-     "CHANG, Tim Liberal": 111.0,
-     "DUFF, Jasmine Victorian Socialists": 318.0,
-     "Informal votes": 108.0,
-     "Total votes polled": 1233.0
-    }
-   },
-   {
-    "booth": "Footscray Central",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Footscray East",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Gaudion Reserve",
-    "values": {
-     "DINH, Hai": 3.0,
-     "PEREYRA, Elena The Greens": 128.0,
-     "NGUYEN, Minh Quan The West Party": 4.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 30.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 1.0,
-     "FLORES, Ana Family First": 6.0,
-     "HALL, Katie Australian Labor Party": 100.0,
-     "MARSH, Jess": 20.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 4.0,
-     "CHANG, Tim Liberal": 27.0,
-     "DUFF, Jasmine Victorian Socialists": 93.0,
-     "Informal votes": 60.0,
-     "Total votes polled": 476.0
-    }
-   },
-   {
-    "booth": "Hansen Reserve",
-    "values": {
-     "DINH, Hai": 5.0,
-     "PEREYRA, Elena The Greens": 139.0,
-     "NGUYEN, Minh Quan The West Party": 6.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 1.0,
-     "LOPEZ, Alexander One Nation Victoria": 39.0,
-     "LEWIS, Daniel Free Palestine": 1.0,
-     "IBRAHIM, Marcus": 1.0,
-     "FLORES, Ana Family First": 4.0,
-     "HALL, Katie Australian Labor Party": 88.0,
-     "MARSH, Jess": 36.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 2.0,
-     "CHANG, Tim Liberal": 65.0,
-     "DUFF, Jasmine Victorian Socialists": 74.0,
-     "Informal votes": 49.0,
-     "Total votes polled": 510.0
-    }
-   },
-   {
-    "booth": "Hyde",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Kingsville",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Kingsville South",
-    "values": {
-     "DINH, Hai": 6.0,
-     "PEREYRA, Elena The Greens": 145.0,
-     "NGUYEN, Minh Quan The West Party": 6.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 4.0,
-     "LOPEZ, Alexander One Nation Victoria": 42.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 2.0,
-     "HALL, Katie Australian Labor Party": 112.0,
-     "MARSH, Jess": 28.0,
-     "CALDER, Daryle Climate Action Now": 1.0,
-     "CUMMING, Catherine": 4.0,
-     "CHANG, Tim Liberal": 110.0,
-     "DUFF, Jasmine Victorian Socialists": 53.0,
-     "Informal votes": 56.0,
-     "Total votes polled": 569.0
-    }
-   },
-   {
-    "booth": "Maidstone",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Maidstone West",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Maribyrnong River",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Seddon",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Tottenham North",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "West Footscray",
-    "values": {
-     "DINH, Hai": 1.0,
-     "PEREYRA, Elena The Greens": 307.0,
-     "NGUYEN, Minh Quan The West Party": 18.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 45.0,
-     "LEWIS, Daniel Free Palestine": 1.0,
-     "IBRAHIM, Marcus": 1.0,
-     "FLORES, Ana Family First": 9.0,
-     "HALL, Katie Australian Labor Party": 236.0,
-     "MARSH, Jess": 73.0,
-     "CALDER, Daryle Climate Action Now": 1.0,
-     "CUMMING, Catherine": 4.0,
-     "CHANG, Tim Liberal": 104.0,
-     "DUFF, Jasmine Victorian Socialists": 213.0,
-     "Informal votes": 92.0,
-     "Total votes polled": 1105.0
-    }
-   },
-   {
-    "booth": "Yarraville",
-    "values": {
-     "DINH, Hai": 2.0,
-     "PEREYRA, Elena The Greens": 106.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 1.0,
-     "LOPEZ, Alexander One Nation Victoria": 19.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 1.0,
-     "FLORES, Ana Family First": 3.0,
-     "HALL, Katie Australian Labor Party": 66.0,
-     "MARSH, Jess": 20.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 4.0,
-     "CHANG, Tim Liberal": 51.0,
-     "DUFF, Jasmine Victorian Socialists": 42.0,
-     "Informal votes": 36.0,
-     "Total votes polled": 351.0
-    }
-   },
-   {
-    "booth": "Yarraville Central",
-    "values": {
-     "DINH, Hai": 7.0,
-     "PEREYRA, Elena The Greens": 224.0,
-     "NGUYEN, Minh Quan The West Party": 6.0,
-     "FELATE, Andualem The Republican": 1.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 65.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 3.0,
-     "FLORES, Ana Family First": 6.0,
-     "HALL, Katie Australian Labor Party": 196.0,
-     "MARSH, Jess": 72.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 10.0,
-     "CHANG, Tim Liberal": 165.0,
-     "DUFF, Jasmine Victorian Socialists": 110.0,
-     "Informal votes": 68.0,
-     "Total votes polled": 933.0
-    }
-   },
-   {
-    "booth": "Ordinary votes total",
-    "values": {
-     "DINH, Hai": 44.0,
-     "PEREYRA, Elena The Greens": 1356.0,
-     "NGUYEN, Minh Quan The West Party": 52.0,
-     "FELATE, Andualem The Republican": 12.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 9.0,
-     "LOPEZ, Alexander One Nation Victoria": 288.0,
-     "LEWIS, Daniel Free Palestine": 6.0,
-     "IBRAHIM, Marcus": 15.0,
-     "FLORES, Ana Family First": 35.0,
-     "HALL, Katie Australian Labor Party": 1000.0,
-     "MARSH, Jess": 312.0,
-     "CALDER, Daryle Climate Action Now": 3.0,
-     "CUMMING, Catherine": 40.0,
-     "CHANG, Tim Liberal": 633.0,
-     "DUFF, Jasmine Victorian Socialists": 903.0,
-     "Informal votes": 469.0,
-     "Total votes polled": 5177.0
-    }
-   },
-   {
-    "booth": "Early voting centres",
-    "values": {}
-   },
-   {
-    "booth": "Footscray - EVC 1",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Footscray - EVC 2",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Laverton - EVC 1",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Niddrie - EVC 1",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Footscray - MEVC",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Other early votes",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Early votes total",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes",
-    "values": {}
-   },
-   {
-    "booth": "Absent votes",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Marked as voted votes",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Postal votes",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Provisional votes",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes total",
-    "values": {
-     "DINH, Hai": 0.0,
-     "PEREYRA, Elena The Greens": 0.0,
-     "NGUYEN, Minh Quan The West Party": 0.0,
-     "FELATE, Andualem The Republican": 0.0,
-     "HESS, Kristina I'm Voting to Avoid the Fine": 0.0,
-     "LOPEZ, Alexander One Nation Victoria": 0.0,
-     "LEWIS, Daniel Free Palestine": 0.0,
-     "IBRAHIM, Marcus": 0.0,
-     "FLORES, Ana Family First": 0.0,
-     "HALL, Katie Australian Labor Party": 0.0,
-     "MARSH, Jess": 0.0,
-     "CALDER, Daryle Climate Action Now": 0.0,
-     "CUMMING, Catherine": 0.0,
-     "CHANG, Tim Liberal": 0.0,
-     "DUFF, Jasmine Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   }
-  ]
  }
 }

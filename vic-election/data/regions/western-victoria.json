@@ -2,7 +2,115 @@
  "slug": "western-victoria",
  "name": "Western Victoria Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Victoria-Region-results",
- "status": 998,
- "fetched_at": "2026-11-28T10:17:48+00:00",
- "error": "HTTP 998"
+ "status": 200,
+ "fetched_at": "2026-11-28T10:32:53+00:00",
+ "title": "Western Victoria Region results | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 21:30:16",
+ "enrolment": 613399,
+ "formal": 20448,
+ "informal": 848,
+ "total_votes": 21296,
+ "counted_pct": 3.47,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "The Greens",
+   "party": "The Greens",
+   "votes": 3202,
+   "pct": 15.66
+  },
+  {
+   "candidate": "Affordable Housing Now – Sustainable Australia Party",
+   "party": "Affordable Housing Now – Sustainable Australia Party",
+   "votes": 262,
+   "pct": 1.28
+  },
+  {
+   "candidate": "Australian Labor Party",
+   "party": "Australian Labor Party",
+   "votes": 2733,
+   "pct": 13.37
+  },
+  {
+   "candidate": "Legalise Cannabis Victoria",
+   "party": "Legalise Cannabis Victoria",
+   "votes": 646,
+   "pct": 3.16
+  },
+  {
+   "candidate": "Australian Democrats",
+   "party": "Australian Democrats",
+   "votes": 110,
+   "pct": 0.54
+  },
+  {
+   "candidate": "Liberal / The Nationals",
+   "party": "Liberal / The Nationals",
+   "votes": 6396,
+   "pct": 31.28
+  },
+  {
+   "candidate": "Victorian Socialists",
+   "party": "Victorian Socialists",
+   "votes": 357,
+   "pct": 1.75
+  },
+  {
+   "candidate": "Group H",
+   "party": "Group H",
+   "votes": 134,
+   "pct": 0.66
+  },
+  {
+   "candidate": "Libertarian (formerly Liberal Democrats)",
+   "party": "Libertarian (formerly Liberal Democrats)",
+   "votes": 115,
+   "pct": 0.56
+  },
+  {
+   "candidate": "Socialist Alliance",
+   "party": "Socialist Alliance",
+   "votes": 51,
+   "pct": 0.25
+  },
+  {
+   "candidate": "One Nation Victoria",
+   "party": "One Nation Victoria",
+   "votes": 5687,
+   "pct": 27.81
+  },
+  {
+   "candidate": "Labour DLP",
+   "party": "Labour DLP",
+   "votes": 120,
+   "pct": 0.59
+  },
+  {
+   "candidate": "Shooters, Fishers and Farmers Party Victoria",
+   "party": "Shooters, Fishers and Farmers Party Victoria",
+   "votes": 294,
+   "pct": 1.44
+  },
+  {
+   "candidate": "Family First",
+   "party": "Family First",
+   "votes": 319,
+   "pct": 1.56
+  },
+  {
+   "candidate": "The Republican",
+   "party": "The Republican",
+   "votes": 15,
+   "pct": 0.07
+  },
+  {
+   "candidate": "FISHER, Eve",
+   "party": "FISHER, Eve",
+   "votes": 7,
+   "pct": 0.03
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Victoria-Region-results/Western-Victoria-Region-results-by-voting-centre"
+ }
 }

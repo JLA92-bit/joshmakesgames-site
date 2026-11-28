@@ -3,11 +3,14 @@
  "name": "Thomastown",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/thomastown-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:43:39+00:00",
+ "fetched_at": "2026-11-28T10:32:46+00:00",
  "title": "Thomastown election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:16",
+ "last_updated": "Saturday, 28 November 2026 21:30:15",
  "enrolment": 56190,
- "counted_pct": 5.32,
+ "formal": 7973,
+ "informal": 448,
+ "total_votes": 8421,
+ "counted_pct": 14.99,
  "notes": [],
  "primary": [
   {
@@ -37,14 +40,14 @@
   {
    "candidate": "HALFPENNY, Bronwyn",
    "party": "Australian Labor Party",
-   "votes": 2293,
-   "pct": 28.76
+   "votes": 2295,
+   "pct": 28.78
   },
   {
    "candidate": "TREWELLA, Gavin",
    "party": "The Greens",
-   "votes": 842,
-   "pct": 10.56
+   "votes": 840,
+   "pct": 10.54
   }
  ],
  "tcp": [

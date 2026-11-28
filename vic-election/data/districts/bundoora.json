@@ -3,62 +3,62 @@
  "name": "Bundoora",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:21:27+00:00",
+ "fetched_at": "2026-11-28T10:32:36+00:00",
  "title": "Bundoora election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:20:02",
+ "last_updated": "Saturday, 28 November 2026 21:30:02",
  "enrolment": 48975,
- "formal": 12516,
- "informal": 705,
- "total_votes": 13221,
- "counted_pct": 27.0,
+ "formal": 12831,
+ "informal": 727,
+ "total_votes": 13558,
+ "counted_pct": 27.68,
  "notes": [],
  "primary": [
   {
    "candidate": "MURPHY-WEBSTER, Melissa",
    "party": "",
-   "votes": 348,
+   "votes": 357,
    "pct": 2.78
   },
   {
    "candidate": "LAITALA, Nina",
    "party": "The Greens",
-   "votes": 2192,
-   "pct": 17.51
+   "votes": 2249,
+   "pct": 17.53
   },
   {
    "candidate": "PARR, Chris",
    "party": "Liberal",
-   "votes": 3777,
-   "pct": 30.18
+   "votes": 3838,
+   "pct": 29.91
   },
   {
    "candidate": "WHALLEY, Bruce",
    "party": "One Nation Victoria",
-   "votes": 2235,
-   "pct": 17.86
+   "votes": 2304,
+   "pct": 17.96
   },
   {
    "candidate": "RANCIE, Rae",
    "party": "Family First",
-   "votes": 211,
-   "pct": 1.69
+   "votes": 216,
+   "pct": 1.68
   },
   {
    "candidate": "NICOLOSI, Chloe",
    "party": "Animal Justice Party",
-   "votes": 202,
-   "pct": 1.61
+   "votes": 210,
+   "pct": 1.64
   },
   {
    "candidate": "BROOKS, Colin",
    "party": "Australian Labor Party",
-   "votes": 3033,
-   "pct": 24.23
+   "votes": 3126,
+   "pct": 24.36
   },
   {
    "candidate": "SANYAL, Sagar",
    "party": "Victorian Socialists",
-   "votes": 518,
+   "votes": 531,
    "pct": 4.14
   }
  ],
@@ -66,539 +66,18 @@
   {
    "candidate": "PARR, Chris",
    "party": "Liberal",
-   "votes": 3533,
-   "pct": 49.87
+   "votes": 5198,
+   "pct": 53.18
   },
   {
    "candidate": "BROOKS, Colin",
    "party": "Australian Labor Party",
-   "votes": 3551,
-   "pct": 50.13
+   "votes": 4577,
+   "pct": 46.82
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results/Bundoora-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results/Bundoora-2CP-results-by-voting-centre"
- },
- "booths_primary": {
-  "columns": [
-   "MURPHY WEBSTER, Melissa",
-   "LAITALA, Nina The Greens",
-   "PARR, Chris Liberal",
-   "WHALLEY, Bruce One Nation Victoria",
-   "RANCIE, Rae Family First",
-   "NICOLOSI, Chloe Animal Justice Party",
-   "BROOKS, Colin Australian Labor Party",
-   "SANYAL, Sagar Victorian Socialists",
-   "Informal votes",
-   "Total votes polled"
-  ],
-  "rows": [
-   {
-    "booth": "Total first preference votes",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 348.0,
-     "LAITALA, Nina The Greens": 2192.0,
-     "PARR, Chris Liberal": 3777.0,
-     "WHALLEY, Bruce One Nation Victoria": 2235.0,
-     "RANCIE, Rae Family First": 211.0,
-     "NICOLOSI, Chloe Animal Justice Party": 202.0,
-     "BROOKS, Colin Australian Labor Party": 3033.0,
-     "SANYAL, Sagar Victorian Socialists": 518.0,
-     "Informal votes": 705.0,
-     "Total votes polled": 13221.0
-    }
-   },
-   {
-    "booth": "Percentage of formal vote polled by candidate",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 2.78,
-     "LAITALA, Nina The Greens": 17.51,
-     "PARR, Chris Liberal": 30.18,
-     "WHALLEY, Bruce One Nation Victoria": 17.86,
-     "RANCIE, Rae Family First": 1.69,
-     "NICOLOSI, Chloe Animal Justice Party": 1.61,
-     "BROOKS, Colin Australian Labor Party": 24.23,
-     "SANYAL, Sagar Victorian Socialists": 4.14
-    }
-   },
-   {
-    "booth": "Ordinary votes",
-    "values": {}
-   },
-   {
-    "booth": "Apollo Parkways",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 27.0,
-     "LAITALA, Nina The Greens": 187.0,
-     "PARR, Chris Liberal": 313.0,
-     "WHALLEY, Bruce One Nation Victoria": 195.0,
-     "RANCIE, Rae Family First": 16.0,
-     "NICOLOSI, Chloe Animal Justice Party": 15.0,
-     "BROOKS, Colin Australian Labor Party": 218.0,
-     "SANYAL, Sagar Victorian Socialists": 41.0,
-     "Informal votes": 54.0,
-     "Total votes polled": 1066.0
-    }
-   },
-   {
-    "booth": "Bundoora",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 25.0,
-     "LAITALA, Nina The Greens": 297.0,
-     "PARR, Chris Liberal": 319.0,
-     "WHALLEY, Bruce One Nation Victoria": 224.0,
-     "RANCIE, Rae Family First": 15.0,
-     "NICOLOSI, Chloe Animal Justice Party": 29.0,
-     "BROOKS, Colin Australian Labor Party": 350.0,
-     "SANYAL, Sagar Victorian Socialists": 69.0,
-     "Informal votes": 67.0,
-     "Total votes polled": 1395.0
-    }
-   },
-   {
-    "booth": "Bundoora North",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 14.0,
-     "LAITALA, Nina The Greens": 108.0,
-     "PARR, Chris Liberal": 146.0,
-     "WHALLEY, Bruce One Nation Victoria": 109.0,
-     "RANCIE, Rae Family First": 18.0,
-     "NICOLOSI, Chloe Animal Justice Party": 6.0,
-     "BROOKS, Colin Australian Labor Party": 119.0,
-     "SANYAL, Sagar Victorian Socialists": 23.0,
-     "Informal votes": 38.0,
-     "Total votes polled": 581.0
-    }
-   },
-   {
-    "booth": "Findon",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 0.0,
-     "LAITALA, Nina The Greens": 0.0,
-     "PARR, Chris Liberal": 0.0,
-     "WHALLEY, Bruce One Nation Victoria": 0.0,
-     "RANCIE, Rae Family First": 0.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 0.0,
-     "SANYAL, Sagar Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Greenhills",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 1.0,
-     "LAITALA, Nina The Greens": 33.0,
-     "PARR, Chris Liberal": 62.0,
-     "WHALLEY, Bruce One Nation Victoria": 29.0,
-     "RANCIE, Rae Family First": 0.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 35.0,
-     "SANYAL, Sagar Victorian Socialists": 9.0,
-     "Informal votes": 13.0,
-     "Total votes polled": 182.0
-    }
-   },
-   {
-    "booth": "Greensborough",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 33.0,
-     "LAITALA, Nina The Greens": 194.0,
-     "PARR, Chris Liberal": 247.0,
-     "WHALLEY, Bruce One Nation Victoria": 144.0,
-     "RANCIE, Rae Family First": 13.0,
-     "NICOLOSI, Chloe Animal Justice Party": 16.0,
-     "BROOKS, Colin Australian Labor Party": 190.0,
-     "SANYAL, Sagar Victorian Socialists": 39.0,
-     "Informal votes": 46.0,
-     "Total votes polled": 922.0
-    }
-   },
-   {
-    "booth": "Greensborough West",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 15.0,
-     "LAITALA, Nina The Greens": 153.0,
-     "PARR, Chris Liberal": 176.0,
-     "WHALLEY, Bruce One Nation Victoria": 118.0,
-     "RANCIE, Rae Family First": 15.0,
-     "NICOLOSI, Chloe Animal Justice Party": 11.0,
-     "BROOKS, Colin Australian Labor Party": 156.0,
-     "SANYAL, Sagar Victorian Socialists": 27.0,
-     "Informal votes": 31.0,
-     "Total votes polled": 702.0
-    }
-   },
-   {
-    "booth": "Kingsbury",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 0.0,
-     "LAITALA, Nina The Greens": 0.0,
-     "PARR, Chris Liberal": 0.0,
-     "WHALLEY, Bruce One Nation Victoria": 0.0,
-     "RANCIE, Rae Family First": 0.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 0.0,
-     "SANYAL, Sagar Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Lalor East",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 2.0,
-     "LAITALA, Nina The Greens": 9.0,
-     "PARR, Chris Liberal": 12.0,
-     "WHALLEY, Bruce One Nation Victoria": 12.0,
-     "RANCIE, Rae Family First": 1.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 12.0,
-     "SANYAL, Sagar Victorian Socialists": 6.0,
-     "Informal votes": 6.0,
-     "Total votes polled": 60.0
-    }
-   },
-   {
-    "booth": "Macleod",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 4.0,
-     "LAITALA, Nina The Greens": 70.0,
-     "PARR, Chris Liberal": 96.0,
-     "WHALLEY, Bruce One Nation Victoria": 39.0,
-     "RANCIE, Rae Family First": 4.0,
-     "NICOLOSI, Chloe Animal Justice Party": 7.0,
-     "BROOKS, Colin Australian Labor Party": 70.0,
-     "SANYAL, Sagar Victorian Socialists": 16.0,
-     "Informal votes": 17.0,
-     "Total votes polled": 323.0
-    }
-   },
-   {
-    "booth": "Mill Park",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 14.0,
-     "LAITALA, Nina The Greens": 100.0,
-     "PARR, Chris Liberal": 134.0,
-     "WHALLEY, Bruce One Nation Victoria": 141.0,
-     "RANCIE, Rae Family First": 10.0,
-     "NICOLOSI, Chloe Animal Justice Party": 6.0,
-     "BROOKS, Colin Australian Labor Party": 145.0,
-     "SANYAL, Sagar Victorian Socialists": 27.0,
-     "Informal votes": 44.0,
-     "Total votes polled": 621.0
-    }
-   },
-   {
-    "booth": "Mill Park South",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 2.0,
-     "LAITALA, Nina The Greens": 23.0,
-     "PARR, Chris Liberal": 41.0,
-     "WHALLEY, Bruce One Nation Victoria": 71.0,
-     "RANCIE, Rae Family First": 10.0,
-     "NICOLOSI, Chloe Animal Justice Party": 1.0,
-     "BROOKS, Colin Australian Labor Party": 29.0,
-     "SANYAL, Sagar Victorian Socialists": 3.0,
-     "Informal votes": 27.0,
-     "Total votes polled": 207.0
-    }
-   },
-   {
-    "booth": "Norris Bank",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 32.0,
-     "LAITALA, Nina The Greens": 126.0,
-     "PARR, Chris Liberal": 252.0,
-     "WHALLEY, Bruce One Nation Victoria": 214.0,
-     "RANCIE, Rae Family First": 16.0,
-     "NICOLOSI, Chloe Animal Justice Party": 11.0,
-     "BROOKS, Colin Australian Labor Party": 278.0,
-     "SANYAL, Sagar Victorian Socialists": 76.0,
-     "Informal votes": 89.0,
-     "Total votes polled": 1094.0
-    }
-   },
-   {
-    "booth": "Streeton",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 18.0,
-     "LAITALA, Nina The Greens": 103.0,
-     "PARR, Chris Liberal": 180.0,
-     "WHALLEY, Bruce One Nation Victoria": 88.0,
-     "RANCIE, Rae Family First": 4.0,
-     "NICOLOSI, Chloe Animal Justice Party": 8.0,
-     "BROOKS, Colin Australian Labor Party": 137.0,
-     "SANYAL, Sagar Victorian Socialists": 23.0,
-     "Informal votes": 30.0,
-     "Total votes polled": 591.0
-    }
-   },
-   {
-    "booth": "Watsonia",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 23.0,
-     "LAITALA, Nina The Greens": 108.0,
-     "PARR, Chris Liberal": 123.0,
-     "WHALLEY, Bruce One Nation Victoria": 64.0,
-     "RANCIE, Rae Family First": 12.0,
-     "NICOLOSI, Chloe Animal Justice Party": 6.0,
-     "BROOKS, Colin Australian Labor Party": 100.0,
-     "SANYAL, Sagar Victorian Socialists": 19.0,
-     "Informal votes": 31.0,
-     "Total votes polled": 486.0
-    }
-   },
-   {
-    "booth": "Watsonia Heights",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 15.0,
-     "LAITALA, Nina The Greens": 134.0,
-     "PARR, Chris Liberal": 125.0,
-     "WHALLEY, Bruce One Nation Victoria": 54.0,
-     "RANCIE, Rae Family First": 3.0,
-     "NICOLOSI, Chloe Animal Justice Party": 9.0,
-     "BROOKS, Colin Australian Labor Party": 107.0,
-     "SANYAL, Sagar Victorian Socialists": 20.0,
-     "Informal votes": 18.0,
-     "Total votes polled": 485.0
-    }
-   },
-   {
-    "booth": "Watsonia North",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 37.0,
-     "LAITALA, Nina The Greens": 191.0,
-     "PARR, Chris Liberal": 405.0,
-     "WHALLEY, Bruce One Nation Victoria": 218.0,
-     "RANCIE, Rae Family First": 15.0,
-     "NICOLOSI, Chloe Animal Justice Party": 18.0,
-     "BROOKS, Colin Australian Labor Party": 348.0,
-     "SANYAL, Sagar Victorian Socialists": 52.0,
-     "Informal votes": 98.0,
-     "Total votes polled": 1382.0
-    }
-   },
-   {
-    "booth": "Watsonia South",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 18.0,
-     "LAITALA, Nina The Greens": 116.0,
-     "PARR, Chris Liberal": 163.0,
-     "WHALLEY, Bruce One Nation Victoria": 62.0,
-     "RANCIE, Rae Family First": 6.0,
-     "NICOLOSI, Chloe Animal Justice Party": 9.0,
-     "BROOKS, Colin Australian Labor Party": 115.0,
-     "SANYAL, Sagar Victorian Socialists": 28.0,
-     "Informal votes": 25.0,
-     "Total votes polled": 542.0
-    }
-   },
-   {
-    "booth": "Ordinary votes total",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 280.0,
-     "LAITALA, Nina The Greens": 1952.0,
-     "PARR, Chris Liberal": 2794.0,
-     "WHALLEY, Bruce One Nation Victoria": 1782.0,
-     "RANCIE, Rae Family First": 158.0,
-     "NICOLOSI, Chloe Animal Justice Party": 152.0,
-     "BROOKS, Colin Australian Labor Party": 2409.0,
-     "SANYAL, Sagar Victorian Socialists": 478.0,
-     "Informal votes": 634.0,
-     "Total votes polled": 10639.0
-    }
-   },
-   {
-    "booth": "Early voting centres",
-    "values": {}
-   },
-   {
-    "booth": "Bundoora - EVC 1",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 0.0,
-     "LAITALA, Nina The Greens": 0.0,
-     "PARR, Chris Liberal": 0.0,
-     "WHALLEY, Bruce One Nation Victoria": 0.0,
-     "RANCIE, Rae Family First": 0.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 0.0,
-     "SANYAL, Sagar Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Bundoora - EVC 2",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 0.0,
-     "LAITALA, Nina The Greens": 0.0,
-     "PARR, Chris Liberal": 0.0,
-     "WHALLEY, Bruce One Nation Victoria": 0.0,
-     "RANCIE, Rae Family First": 0.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 0.0,
-     "SANYAL, Sagar Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Bundoora - EVC 3",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 0.0,
-     "LAITALA, Nina The Greens": 0.0,
-     "PARR, Chris Liberal": 0.0,
-     "WHALLEY, Bruce One Nation Victoria": 0.0,
-     "RANCIE, Rae Family First": 0.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 0.0,
-     "SANYAL, Sagar Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Bundoora - EVC 4",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 0.0,
-     "LAITALA, Nina The Greens": 0.0,
-     "PARR, Chris Liberal": 0.0,
-     "WHALLEY, Bruce One Nation Victoria": 0.0,
-     "RANCIE, Rae Family First": 0.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 0.0,
-     "SANYAL, Sagar Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Bundoora - MEVC",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 5.0,
-     "LAITALA, Nina The Greens": 16.0,
-     "PARR, Chris Liberal": 37.0,
-     "WHALLEY, Bruce One Nation Victoria": 12.0,
-     "RANCIE, Rae Family First": 1.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 22.0,
-     "SANYAL, Sagar Victorian Socialists": 0.0,
-     "Informal votes": 8.0,
-     "Total votes polled": 101.0
-    }
-   },
-   {
-    "booth": "Other early votes",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 0.0,
-     "LAITALA, Nina The Greens": 0.0,
-     "PARR, Chris Liberal": 0.0,
-     "WHALLEY, Bruce One Nation Victoria": 0.0,
-     "RANCIE, Rae Family First": 0.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 0.0,
-     "SANYAL, Sagar Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Early votes total",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 5.0,
-     "LAITALA, Nina The Greens": 16.0,
-     "PARR, Chris Liberal": 37.0,
-     "WHALLEY, Bruce One Nation Victoria": 12.0,
-     "RANCIE, Rae Family First": 1.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 22.0,
-     "SANYAL, Sagar Victorian Socialists": 0.0,
-     "Informal votes": 8.0,
-     "Total votes polled": 101.0
-    }
-   },
-   {
-    "booth": "Declaration votes",
-    "values": {}
-   },
-   {
-    "booth": "Absent votes",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 0.0,
-     "LAITALA, Nina The Greens": 0.0,
-     "PARR, Chris Liberal": 0.0,
-     "WHALLEY, Bruce One Nation Victoria": 0.0,
-     "RANCIE, Rae Family First": 0.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 0.0,
-     "SANYAL, Sagar Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Marked as voted votes",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 0.0,
-     "LAITALA, Nina The Greens": 0.0,
-     "PARR, Chris Liberal": 0.0,
-     "WHALLEY, Bruce One Nation Victoria": 0.0,
-     "RANCIE, Rae Family First": 0.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 0.0,
-     "SANYAL, Sagar Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Postal votes",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 63.0,
-     "LAITALA, Nina The Greens": 224.0,
-     "PARR, Chris Liberal": 946.0,
-     "WHALLEY, Bruce One Nation Victoria": 441.0,
-     "RANCIE, Rae Family First": 52.0,
-     "NICOLOSI, Chloe Animal Justice Party": 50.0,
-     "BROOKS, Colin Australian Labor Party": 602.0,
-     "SANYAL, Sagar Victorian Socialists": 40.0,
-     "Informal votes": 63.0,
-     "Total votes polled": 2481.0
-    }
-   },
-   {
-    "booth": "Provisional votes",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 0.0,
-     "LAITALA, Nina The Greens": 0.0,
-     "PARR, Chris Liberal": 0.0,
-     "WHALLEY, Bruce One Nation Victoria": 0.0,
-     "RANCIE, Rae Family First": 0.0,
-     "NICOLOSI, Chloe Animal Justice Party": 0.0,
-     "BROOKS, Colin Australian Labor Party": 0.0,
-     "SANYAL, Sagar Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes total",
-    "values": {
-     "MURPHY WEBSTER, Melissa": 63.0,
-     "LAITALA, Nina The Greens": 224.0,
-     "PARR, Chris Liberal": 946.0,
-     "WHALLEY, Bruce One Nation Victoria": 441.0,
-     "RANCIE, Rae Family First": 52.0,
-     "NICOLOSI, Chloe Animal Justice Party": 50.0,
-     "BROOKS, Colin Australian Labor Party": 602.0,
-     "SANYAL, Sagar Victorian Socialists": 40.0,
-     "Informal votes": 63.0,
-     "Total votes polled": 2481.0
-    }
-   }
-  ]
  }
 }

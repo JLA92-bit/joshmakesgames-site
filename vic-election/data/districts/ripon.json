@@ -3,9 +3,9 @@
  "name": "Ripon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ripon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:26:53+00:00",
+ "fetched_at": "2026-11-28T10:32:21+00:00",
  "title": "Ripon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:25:13",
+ "last_updated": "Saturday, 28 November 2026 21:30:13",
  "enrolment": 54525,
  "formal": 13923,
  "informal": 1386,
@@ -70,14 +70,14 @@
   {
    "candidate": "BUXTON, Donna",
    "party": "One Nation Victoria",
-   "votes": 4957,
-   "pct": 35.6
+   "votes": 4959,
+   "pct": 35.62
   },
   {
    "candidate": "READ, Megan",
    "party": "Liberal",
-   "votes": 3094,
-   "pct": 22.22
+   "votes": 3092,
+   "pct": 22.21
   },
   {
    "candidate": "ARMSTRONG, Jo",
@@ -134,8 +134,8 @@
      "ANDREI, Trevor Scott": 55.0,
      "HAYLETT, Martha Australian Labor Party": 2265.0,
      "DRYLIE, Tim The Greens": 1490.0,
-     "BUXTON, Donna One Nation Victoria": 4957.0,
-     "READ, Megan Liberal": 3094.0,
+     "BUXTON, Donna One Nation Victoria": 4959.0,
+     "READ, Megan Liberal": 3092.0,
      "ARMSTRONG, Jo The Nationals": 1042.0,
      "Informal votes": 1386.0,
      "Total votes polled": 15309.0
@@ -153,8 +153,8 @@
      "ANDREI, Trevor Scott": 0.4,
      "HAYLETT, Martha Australian Labor Party": 16.27,
      "DRYLIE, Tim The Greens": 10.7,
-     "BUXTON, Donna One Nation Victoria": 35.6,
-     "READ, Megan Liberal": 22.22,
+     "BUXTON, Donna One Nation Victoria": 35.62,
+     "READ, Megan Liberal": 22.21,
      "ARMSTRONG, Jo The Nationals": 7.48
     }
    },
@@ -497,8 +497,8 @@
      "ANDREI, Trevor Scott": 0.0,
      "HAYLETT, Martha Australian Labor Party": 30.0,
      "DRYLIE, Tim The Greens": 42.0,
-     "BUXTON, Donna One Nation Victoria": 98.0,
-     "READ, Megan Liberal": 91.0,
+     "BUXTON, Donna One Nation Victoria": 100.0,
+     "READ, Megan Liberal": 89.0,
      "ARMSTRONG, Jo The Nationals": 18.0,
      "Informal votes": 28.0,
      "Total votes polled": 316.0
@@ -896,8 +896,8 @@
      "ANDREI, Trevor Scott": 55.0,
      "HAYLETT, Martha Australian Labor Party": 2265.0,
      "DRYLIE, Tim The Greens": 1490.0,
-     "BUXTON, Donna One Nation Victoria": 4957.0,
-     "READ, Megan Liberal": 3094.0,
+     "BUXTON, Donna One Nation Victoria": 4959.0,
+     "READ, Megan Liberal": 3092.0,
      "ARMSTRONG, Jo The Nationals": 1042.0,
      "Informal votes": 1386.0,
      "Total votes polled": 15309.0

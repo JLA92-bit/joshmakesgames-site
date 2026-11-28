@@ -2,7 +2,85 @@
  "slug": "southern-metropolitan",
  "name": "Southern Metropolitan Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Southern-Metropolitan-Region-results",
- "status": 998,
- "fetched_at": "2026-11-28T10:17:48+00:00",
- "error": "HTTP 998"
+ "status": 200,
+ "fetched_at": "2026-11-28T10:32:52+00:00",
+ "title": "Southern Metropolitan Region results 2026 | Victorian Electoral Commission",
+ "last_updated": "Saturday, 28 November 2026 21:30:15",
+ "enrolment": 567082,
+ "formal": 23203,
+ "informal": 611,
+ "total_votes": 23814,
+ "counted_pct": 4.2,
+ "notes": [],
+ "primary": [
+  {
+   "candidate": "Australian Labor Party",
+   "party": "Australian Labor Party",
+   "votes": 3767,
+   "pct": 16.23
+  },
+  {
+   "candidate": "Australian Democrats",
+   "party": "Australian Democrats",
+   "votes": 222,
+   "pct": 0.96
+  },
+  {
+   "candidate": "Legalise Cannabis Victoria",
+   "party": "Legalise Cannabis Victoria",
+   "votes": 505,
+   "pct": 2.18
+  },
+  {
+   "candidate": "One Nation Victoria",
+   "party": "One Nation Victoria",
+   "votes": 2145,
+   "pct": 9.24
+  },
+  {
+   "candidate": "Family First",
+   "party": "Family First",
+   "votes": 236,
+   "pct": 1.02
+  },
+  {
+   "candidate": "Liberal",
+   "party": "Liberal",
+   "votes": 10504,
+   "pct": 45.27
+  },
+  {
+   "candidate": "Victorian Socialists",
+   "party": "Victorian Socialists",
+   "votes": 766,
+   "pct": 3.3
+  },
+  {
+   "candidate": "Affordable Housing Now – Sustainable Australia Party",
+   "party": "Affordable Housing Now – Sustainable Australia Party",
+   "votes": 216,
+   "pct": 0.93
+  },
+  {
+   "candidate": "Labour DLP",
+   "party": "Labour DLP",
+   "votes": 83,
+   "pct": 0.36
+  },
+  {
+   "candidate": "Group J",
+   "party": "Group J",
+   "votes": 271,
+   "pct": 1.17
+  },
+  {
+   "candidate": "The Greens",
+   "party": "The Greens",
+   "votes": 4488,
+   "pct": 19.34
+  }
+ ],
+ "links": {
+  "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Southern-Metropolitan-Region-results/Southern-Metropolitan-Region-results-by-voting-centre"
+ }
 }
