@@ -3,77 +3,77 @@
  "name": "Ivanhoe",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ivanhoe-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:42:05+00:00",
+ "fetched_at": "2026-11-28T10:57:04+00:00",
  "title": "Ivanhoe election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:07",
+ "last_updated": "Saturday, 28 November 2026 21:55:07",
  "enrolment": 50245,
- "formal": 13846,
- "informal": 811,
- "total_votes": 14657,
- "counted_pct": 29.17,
+ "formal": 15082,
+ "informal": 908,
+ "total_votes": 15990,
+ "counted_pct": 31.82,
  "notes": [],
  "primary": [
   {
    "candidate": "KENNEDY, Michelle",
    "party": "",
-   "votes": 866,
-   "pct": 6.25
+   "votes": 950,
+   "pct": 6.3
   },
   {
    "candidate": "MILNE, Ben",
    "party": "Victorian Socialists",
-   "votes": 877,
-   "pct": 6.33
+   "votes": 931,
+   "pct": 6.17
   },
   {
    "candidate": "CARBINES, Anthony",
    "party": "Australian Labor Party",
-   "votes": 3007,
-   "pct": 21.72
+   "votes": 3305,
+   "pct": 21.91
   },
   {
    "candidate": "LOPEZ RIOS, Oscar",
    "party": "Liberal",
-   "votes": 4534,
-   "pct": 32.75
+   "votes": 4950,
+   "pct": 32.82
   },
   {
    "candidate": "HUTCHINSON, Wayne",
    "party": "One Nation Victoria",
-   "votes": 1338,
-   "pct": 9.66
+   "votes": 1478,
+   "pct": 9.8
   },
   {
    "candidate": "CASONATO, Ren",
    "party": "Family First",
-   "votes": 164,
-   "pct": 1.18
+   "votes": 179,
+   "pct": 1.19
   },
   {
    "candidate": "CRAWLEY, Nina",
    "party": "The Greens",
-   "votes": 2985,
-   "pct": 21.56
+   "votes": 3211,
+   "pct": 21.29
   },
   {
    "candidate": "BERGMAN, Dora",
    "party": "",
-   "votes": 75,
-   "pct": 0.54
+   "votes": 78,
+   "pct": 0.52
   }
  ],
  "tcp": [
   {
    "candidate": "CARBINES, Anthony",
    "party": "Australian Labor Party",
-   "votes": 4601,
-   "pct": 54.58
+   "votes": 6495,
+   "pct": 51.84
   },
   {
    "candidate": "LOPEZ RIOS, Oscar",
    "party": "Liberal",
-   "votes": 3829,
-   "pct": 45.42
+   "votes": 6035,
+   "pct": 48.16
   }
  ],
  "links": {

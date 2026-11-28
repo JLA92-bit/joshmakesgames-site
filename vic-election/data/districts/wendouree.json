@@ -3,71 +3,71 @@
  "name": "Wendouree",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/wendouree-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:44+00:00",
+ "fetched_at": "2026-11-28T10:57:12+00:00",
  "title": "Wendouree election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:16",
+ "last_updated": "Saturday, 28 November 2026 21:55:15",
  "enrolment": 53581,
- "formal": 11379,
- "informal": 494,
- "total_votes": 11873,
- "counted_pct": 22.16,
+ "formal": 19692,
+ "informal": 827,
+ "total_votes": 20519,
+ "counted_pct": 38.3,
  "notes": [],
  "primary": [
   {
    "candidate": "ADDISON, Juliana",
    "party": "Australian Labor Party",
-   "votes": 2792,
+   "votes": 4832,
    "pct": 24.54
   },
   {
    "candidate": "ROBINSON, Stuart",
    "party": "One Nation Victoria",
-   "votes": 2631,
-   "pct": 23.12
+   "votes": 4415,
+   "pct": 22.42
   },
   {
    "candidate": "BYRNE, Ruth",
    "party": "Family First",
-   "votes": 306,
-   "pct": 2.69
+   "votes": 490,
+   "pct": 2.49
   },
   {
    "candidate": "MEAGHER, Chris",
    "party": "Victorian Socialists",
-   "votes": 419,
-   "pct": 3.68
+   "votes": 622,
+   "pct": 3.16
   },
   {
    "candidate": "RONAN, Gav",
    "party": "Liberal",
-   "votes": 2685,
-   "pct": 23.6
+   "votes": 5626,
+   "pct": 28.57
   },
   {
    "candidate": "COLLINS, Melissa",
    "party": "Animal Justice Party",
-   "votes": 282,
-   "pct": 2.48
+   "votes": 420,
+   "pct": 2.13
   },
   {
    "candidate": "BURNS, Ellen",
    "party": "The Greens",
-   "votes": 2264,
-   "pct": 19.9
+   "votes": 3287,
+   "pct": 16.69
   }
  ],
  "tcp": [
   {
    "candidate": "ADDISON, Juliana",
    "party": "Australian Labor Party",
-   "votes": 3396,
-   "pct": 47.7
+   "votes": 3688,
+   "pct": 48.33
   },
   {
    "candidate": "RONAN, Gav",
    "party": "Liberal",
-   "votes": 3724,
-   "pct": 52.3
+   "votes": 3943,
+   "pct": 51.67
   }
  ],
  "links": {

@@ -3,71 +3,71 @@
  "name": "Gippsland South",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/gippsland-south-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:42:05+00:00",
+ "fetched_at": "2026-11-28T10:57:05+00:00",
  "title": "Gippsland South election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:07",
+ "last_updated": "Saturday, 28 November 2026 21:55:07",
  "enrolment": 50953,
- "formal": 17458,
- "informal": 1061,
- "total_votes": 18519,
- "counted_pct": 36.35,
+ "formal": 18796,
+ "informal": 1126,
+ "total_votes": 19922,
+ "counted_pct": 39.1,
  "notes": [],
  "primary": [
   {
    "candidate": "BARRY-MACAULAY, Amy",
    "party": "Australian Labor Party",
-   "votes": 1846,
-   "pct": 10.57
+   "votes": 2004,
+   "pct": 10.66
   },
   {
    "candidate": "McAULIFFE, Jessica",
    "party": "Animal Justice Party",
-   "votes": 366,
-   "pct": 2.1
+   "votes": 413,
+   "pct": 2.2
   },
   {
    "candidate": "O'BRIEN, Danny",
    "party": "The Nationals",
-   "votes": 6519,
-   "pct": 37.34
+   "votes": 6989,
+   "pct": 37.18
   },
   {
    "candidate": "SCHUHMANN, Phillip",
    "party": "",
-   "votes": 200,
-   "pct": 1.15
+   "votes": 211,
+   "pct": 1.12
   },
   {
    "candidate": "EVANS, Zave",
    "party": "The Greens",
-   "votes": 1906,
-   "pct": 10.92
+   "votes": 2060,
+   "pct": 10.96
   },
   {
    "candidate": "McGENNISKEN, Lachie",
    "party": "Victorian Socialists",
-   "votes": 289,
-   "pct": 1.66
+   "votes": 324,
+   "pct": 1.72
   },
   {
    "candidate": "WILKIE, Bianca",
    "party": "One Nation Victoria",
-   "votes": 6332,
-   "pct": 36.27
+   "votes": 6795,
+   "pct": 36.15
   }
  ],
  "tcp": [
   {
    "candidate": "O'BRIEN, Danny",
    "party": "The Nationals",
-   "votes": 8588,
-   "pct": 60.9
+   "votes": 8749,
+   "pct": 61.06
   },
   {
    "candidate": "WILKIE, Bianca",
    "party": "One Nation Victoria",
-   "votes": 5513,
-   "pct": 39.1
+   "votes": 5579,
+   "pct": 38.94
   }
  ],
  "links": {

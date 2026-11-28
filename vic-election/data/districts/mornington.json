@@ -3,14 +3,14 @@
  "name": "Mornington",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mornington-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:42:08+00:00",
+ "fetched_at": "2026-11-28T10:57:06+00:00",
  "title": "Mornington election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:10",
+ "last_updated": "Saturday, 28 November 2026 21:55:10",
  "enrolment": 50151,
- "formal": 16094,
+ "formal": 16096,
  "informal": 974,
- "total_votes": 17068,
- "counted_pct": 34.03,
+ "total_votes": 17070,
+ "counted_pct": 34.04,
  "notes": [],
  "primary": [
   {
@@ -34,8 +34,8 @@
   {
    "candidate": "BEARDS, Ashli",
    "party": "One Nation Victoria",
-   "votes": 2580,
-   "pct": 16.03
+   "votes": 2582,
+   "pct": 16.04
   },
   {
    "candidate": "TITCHER, Kai",

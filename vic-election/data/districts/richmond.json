@@ -3,83 +3,83 @@
  "name": "Richmond",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/richmond-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:41+00:00",
+ "fetched_at": "2026-11-28T10:57:10+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:12",
+ "last_updated": "Saturday, 28 November 2026 21:55:13",
  "enrolment": 49900,
- "formal": 8392,
- "informal": 433,
- "total_votes": 8825,
- "counted_pct": 17.69,
+ "formal": 9100,
+ "informal": 479,
+ "total_votes": 9579,
+ "counted_pct": 19.2,
  "notes": [],
  "primary": [
   {
    "candidate": "RINDFLEISH, Harrison",
    "party": "One Nation Victoria",
-   "votes": 409,
+   "votes": 443,
    "pct": 4.87
   },
   {
    "candidate": "APONSO, Charles",
    "party": "Liberal",
-   "votes": 1649,
-   "pct": 19.65
+   "votes": 1730,
+   "pct": 19.01
   },
   {
    "candidate": "DITE, Chris",
    "party": "Victorian Socialists",
-   "votes": 976,
-   "pct": 11.63
+   "votes": 1095,
+   "pct": 12.03
   },
   {
    "candidate": "MCKENZIE, Sarah",
    "party": "Australian Labor Party",
-   "votes": 1571,
-   "pct": 18.72
+   "votes": 1700,
+   "pct": 18.68
   },
   {
    "candidate": "MAYNARD, Christine",
    "party": "",
-   "votes": 45,
+   "votes": 49,
    "pct": 0.54
   },
   {
    "candidate": "GRAY, Bernadette",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 38,
-   "pct": 0.45
+   "votes": 42,
+   "pct": 0.46
   },
   {
    "candidate": "PEAD-PHILIPSON, Jack",
    "party": "Australian Democrats",
-   "votes": 180,
-   "pct": 2.14
+   "votes": 192,
+   "pct": 2.11
   },
   {
    "candidate": "de VIETRI, Gabrielle",
    "party": "The Greens",
-   "votes": 3396,
-   "pct": 40.47
+   "votes": 3709,
+   "pct": 40.76
   },
   {
    "candidate": "MEYER, David",
    "party": "",
-   "votes": 128,
-   "pct": 1.53
+   "votes": 140,
+   "pct": 1.54
   }
  ],
  "tcp": [
   {
    "candidate": "MCKENZIE, Sarah",
    "party": "Australian Labor Party",
-   "votes": 1349,
-   "pct": 38.84
+   "votes": 2060,
+   "pct": 37.97
   },
   {
    "candidate": "de VIETRI, Gabrielle",
    "party": "The Greens",
-   "votes": 2124,
-   "pct": 61.16
+   "votes": 3366,
+   "pct": 62.03
   }
  ],
  "links": {

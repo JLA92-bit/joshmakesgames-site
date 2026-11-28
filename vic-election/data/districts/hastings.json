@@ -3,9 +3,9 @@
  "name": "Hastings",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hastings-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:53:18+00:00",
+ "fetched_at": "2026-11-28T10:56:18+00:00",
  "title": "Hastings District results | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:50:07",
+ "last_updated": "Saturday, 28 November 2026 21:55:07",
  "enrolment": 50849,
  "formal": 14352,
  "informal": 697,
@@ -60,14 +60,14 @@
   {
    "candidate": "MERCURIO, Paul",
    "party": "Australian Labor Party",
-   "votes": 5993,
-   "pct": 46.66
+   "votes": 6587,
+   "pct": 45.91
   },
   {
    "candidate": "ANGELICO, Peter",
    "party": "One Nation Victoria",
-   "votes": 6852,
-   "pct": 53.34
+   "votes": 7760,
+   "pct": 54.09
   }
  ],
  "links": {

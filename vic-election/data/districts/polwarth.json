@@ -3,71 +3,71 @@
  "name": "Polwarth",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/polwarth-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:40+00:00",
+ "fetched_at": "2026-11-28T10:57:10+00:00",
  "title": "Polwarth election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:12",
+ "last_updated": "Saturday, 28 November 2026 21:55:13",
  "enrolment": 55081,
- "formal": 8062,
- "informal": 489,
- "total_votes": 8551,
- "counted_pct": 15.52,
+ "formal": 9419,
+ "informal": 509,
+ "total_votes": 9928,
+ "counted_pct": 18.02,
  "notes": [],
  "primary": [
   {
    "candidate": "TOLLEY, Lula",
    "party": "Victorian Socialists",
-   "votes": 242,
-   "pct": 3.0
+   "votes": 250,
+   "pct": 2.65
   },
   {
    "candidate": "RIORDAN, Richard",
    "party": "Liberal",
-   "votes": 3213,
-   "pct": 39.85
+   "votes": 3992,
+   "pct": 42.38
   },
   {
    "candidate": "HUSSEIN, Hutch",
    "party": "Australian Labor Party",
-   "votes": 1008,
-   "pct": 12.5
+   "votes": 1157,
+   "pct": 12.28
   },
   {
    "candidate": "HOLDEN, Jesse",
    "party": "The Greens",
-   "votes": 1593,
-   "pct": 19.76
+   "votes": 1741,
+   "pct": 18.48
   },
   {
    "candidate": "CARBINS, Brenton",
    "party": "Citizens Party",
-   "votes": 50,
-   "pct": 0.62
+   "votes": 60,
+   "pct": 0.64
   },
   {
    "candidate": "MALCOLM, Anna",
    "party": "One Nation Victoria",
-   "votes": 1816,
-   "pct": 22.53
+   "votes": 2046,
+   "pct": 21.72
   },
   {
    "candidate": "COLLA, Vince",
    "party": "Family First",
-   "votes": 140,
-   "pct": 1.74
+   "votes": 173,
+   "pct": 1.84
   }
  ],
  "tcp": [
   {
    "candidate": "RIORDAN, Richard",
    "party": "Liberal",
-   "votes": 4369,
-   "pct": 68.16
+   "votes": 5884,
+   "pct": 68.09
   },
   {
    "candidate": "HUSSEIN, Hutch",
    "party": "Australian Labor Party",
-   "votes": 2041,
-   "pct": 31.84
+   "votes": 2757,
+   "pct": 31.91
   }
  ],
  "links": {
