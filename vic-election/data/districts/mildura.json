@@ -3,53 +3,56 @@
  "name": "Mildura",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mildura-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:42:46+00:00",
+ "fetched_at": "2026-11-28T10:26:32+00:00",
  "title": "Mildura election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:10",
+ "last_updated": "Saturday, 28 November 2026 21:25:10",
  "enrolment": 48557,
- "counted_pct": 5.66,
+ "formal": 21088,
+ "informal": 1197,
+ "total_votes": 22285,
+ "counted_pct": 45.89,
  "notes": [],
  "primary": [
   {
    "candidate": "NTAHOMVUKIYE, Joselyne",
    "party": "Family First",
-   "votes": 260,
-   "pct": 2.14
+   "votes": 421,
+   "pct": 2.0
   },
   {
    "candidate": "COOPER, Guy",
    "party": "One Nation Victoria",
-   "votes": 4975,
-   "pct": 41.04
+   "votes": 8096,
+   "pct": 38.39
   },
   {
    "candidate": "NAYEF, Renee",
    "party": "Victorian Socialists",
-   "votes": 149,
-   "pct": 1.23
+   "votes": 222,
+   "pct": 1.05
   },
   {
    "candidate": "BENHAM, Jade",
    "party": "The Nationals",
-   "votes": 4824,
-   "pct": 39.8
+   "votes": 9083,
+   "pct": 43.07
   },
   {
    "candidate": "FRIES, Vanessa",
    "party": "Animal Justice Party",
-   "votes": 164,
-   "pct": 1.35
+   "votes": 256,
+   "pct": 1.21
   },
   {
    "candidate": "ZIGOURAS, Stella",
    "party": "Australian Labor Party",
-   "votes": 731,
-   "pct": 6.03
+   "votes": 1236,
+   "pct": 5.86
   },
   {
    "candidate": "CLEMENTS, Katie",
    "party": "The Greens",
-   "votes": 1019,
+   "votes": 1774,
    "pct": 8.41
   }
  ],
@@ -57,18 +60,701 @@
   {
    "candidate": "COOPER, Guy",
    "party": "One Nation Victoria",
-   "votes": 4169,
-   "pct": 47.46
+   "votes": 5516,
+   "pct": 45.52
   },
   {
    "candidate": "BENHAM, Jade",
    "party": "The Nationals",
-   "votes": 4616,
-   "pct": 52.54
+   "votes": 6602,
+   "pct": 54.48
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mildura-district-results/Mildura-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mildura-district-results/Mildura-2CP-results-by-voting-centre"
+ },
+ "booths_primary": {
+  "columns": [
+   "NTAHOMVUKIYE, Joselyne Family First",
+   "COOPER, Guy One Nation Victoria",
+   "NAYEF, Renee Victorian Socialists",
+   "BENHAM, Jade The Nationals",
+   "FRIES, Vanessa Animal Justice Party",
+   "ZIGOURAS, Stella Australian Labor Party",
+   "CLEMENTS, Katie The Greens",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total first preference votes",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 421.0,
+     "COOPER, Guy One Nation Victoria": 8096.0,
+     "NAYEF, Renee Victorian Socialists": 222.0,
+     "BENHAM, Jade The Nationals": 9083.0,
+     "FRIES, Vanessa Animal Justice Party": 256.0,
+     "ZIGOURAS, Stella Australian Labor Party": 1236.0,
+     "CLEMENTS, Katie The Greens": 1774.0,
+     "Informal votes": 1197.0,
+     "Total votes polled": 22285.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 2.0,
+     "COOPER, Guy One Nation Victoria": 38.39,
+     "NAYEF, Renee Victorian Socialists": 1.05,
+     "BENHAM, Jade The Nationals": 43.07,
+     "FRIES, Vanessa Animal Justice Party": 1.21,
+     "ZIGOURAS, Stella Australian Labor Party": 5.86,
+     "CLEMENTS, Katie The Greens": 8.41
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Berriwillock",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 31.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 43.0,
+     "FRIES, Vanessa Animal Justice Party": 1.0,
+     "ZIGOURAS, Stella Australian Labor Party": 2.0,
+     "CLEMENTS, Katie The Greens": 5.0,
+     "Informal votes": 2.0,
+     "Total votes polled": 84.0
+    }
+   },
+   {
+    "booth": "Beulah",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 7.0,
+     "COOPER, Guy One Nation Victoria": 90.0,
+     "NAYEF, Renee Victorian Socialists": 1.0,
+     "BENHAM, Jade The Nationals": 69.0,
+     "FRIES, Vanessa Animal Justice Party": 1.0,
+     "ZIGOURAS, Stella Australian Labor Party": 9.0,
+     "CLEMENTS, Katie The Greens": 3.0,
+     "Informal votes": 8.0,
+     "Total votes polled": 188.0
+    }
+   },
+   {
+    "booth": "Birchip",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 16.0,
+     "COOPER, Guy One Nation Victoria": 201.0,
+     "NAYEF, Renee Victorian Socialists": 1.0,
+     "BENHAM, Jade The Nationals": 213.0,
+     "FRIES, Vanessa Animal Justice Party": 6.0,
+     "ZIGOURAS, Stella Australian Labor Party": 29.0,
+     "CLEMENTS, Katie The Greens": 21.0,
+     "Informal votes": 36.0,
+     "Total votes polled": 523.0
+    }
+   },
+   {
+    "booth": "Boundary Bend",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 1.0,
+     "COOPER, Guy One Nation Victoria": 44.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 12.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 3.0,
+     "CLEMENTS, Katie The Greens": 0.0,
+     "Informal votes": 4.0,
+     "Total votes polled": 64.0
+    }
+   },
+   {
+    "booth": "Cabarita",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 14.0,
+     "COOPER, Guy One Nation Victoria": 174.0,
+     "NAYEF, Renee Victorian Socialists": 3.0,
+     "BENHAM, Jade The Nationals": 211.0,
+     "FRIES, Vanessa Animal Justice Party": 1.0,
+     "ZIGOURAS, Stella Australian Labor Party": 12.0,
+     "CLEMENTS, Katie The Greens": 35.0,
+     "Informal votes": 17.0,
+     "Total votes polled": 467.0
+    }
+   },
+   {
+    "booth": "Cardross",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 7.0,
+     "COOPER, Guy One Nation Victoria": 230.0,
+     "NAYEF, Renee Victorian Socialists": 4.0,
+     "BENHAM, Jade The Nationals": 129.0,
+     "FRIES, Vanessa Animal Justice Party": 5.0,
+     "ZIGOURAS, Stella Australian Labor Party": 23.0,
+     "CLEMENTS, Katie The Greens": 23.0,
+     "Informal votes": 13.0,
+     "Total votes polled": 434.0
+    }
+   },
+   {
+    "booth": "Charlton",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 0.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 0.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 0.0,
+     "CLEMENTS, Katie The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Cullulleraine",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 1.0,
+     "COOPER, Guy One Nation Victoria": 34.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 22.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 0.0,
+     "CLEMENTS, Katie The Greens": 1.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 58.0
+    }
+   },
+   {
+    "booth": "Donald",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 18.0,
+     "COOPER, Guy One Nation Victoria": 324.0,
+     "NAYEF, Renee Victorian Socialists": 5.0,
+     "BENHAM, Jade The Nationals": 287.0,
+     "FRIES, Vanessa Animal Justice Party": 9.0,
+     "ZIGOURAS, Stella Australian Labor Party": 52.0,
+     "CLEMENTS, Katie The Greens": 30.0,
+     "Informal votes": 39.0,
+     "Total votes polled": 764.0
+    }
+   },
+   {
+    "booth": "Hopetoun",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 8.0,
+     "COOPER, Guy One Nation Victoria": 163.0,
+     "NAYEF, Renee Victorian Socialists": 5.0,
+     "BENHAM, Jade The Nationals": 150.0,
+     "FRIES, Vanessa Animal Justice Party": 9.0,
+     "ZIGOURAS, Stella Australian Labor Party": 19.0,
+     "CLEMENTS, Katie The Greens": 19.0,
+     "Informal votes": 17.0,
+     "Total votes polled": 390.0
+    }
+   },
+   {
+    "booth": "Irymple",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 22.0,
+     "COOPER, Guy One Nation Victoria": 337.0,
+     "NAYEF, Renee Victorian Socialists": 9.0,
+     "BENHAM, Jade The Nationals": 362.0,
+     "FRIES, Vanessa Animal Justice Party": 8.0,
+     "ZIGOURAS, Stella Australian Labor Party": 39.0,
+     "CLEMENTS, Katie The Greens": 62.0,
+     "Informal votes": 58.0,
+     "Total votes polled": 897.0
+    }
+   },
+   {
+    "booth": "Koorlong",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 3.0,
+     "COOPER, Guy One Nation Victoria": 130.0,
+     "NAYEF, Renee Victorian Socialists": 3.0,
+     "BENHAM, Jade The Nationals": 89.0,
+     "FRIES, Vanessa Animal Justice Party": 1.0,
+     "ZIGOURAS, Stella Australian Labor Party": 11.0,
+     "CLEMENTS, Katie The Greens": 17.0,
+     "Informal votes": 13.0,
+     "Total votes polled": 267.0
+    }
+   },
+   {
+    "booth": "Manangatang",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 1.0,
+     "COOPER, Guy One Nation Victoria": 61.0,
+     "NAYEF, Renee Victorian Socialists": 2.0,
+     "BENHAM, Jade The Nationals": 81.0,
+     "FRIES, Vanessa Animal Justice Party": 1.0,
+     "ZIGOURAS, Stella Australian Labor Party": 5.0,
+     "CLEMENTS, Katie The Greens": 4.0,
+     "Informal votes": 13.0,
+     "Total votes polled": 168.0
+    }
+   },
+   {
+    "booth": "Merbein",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 14.0,
+     "COOPER, Guy One Nation Victoria": 453.0,
+     "NAYEF, Renee Victorian Socialists": 5.0,
+     "BENHAM, Jade The Nationals": 302.0,
+     "FRIES, Vanessa Animal Justice Party": 12.0,
+     "ZIGOURAS, Stella Australian Labor Party": 54.0,
+     "CLEMENTS, Katie The Greens": 81.0,
+     "Informal votes": 56.0,
+     "Total votes polled": 977.0
+    }
+   },
+   {
+    "booth": "Mildura",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 29.0,
+     "COOPER, Guy One Nation Victoria": 597.0,
+     "NAYEF, Renee Victorian Socialists": 15.0,
+     "BENHAM, Jade The Nationals": 448.0,
+     "FRIES, Vanessa Animal Justice Party": 28.0,
+     "ZIGOURAS, Stella Australian Labor Party": 91.0,
+     "CLEMENTS, Katie The Greens": 149.0,
+     "Informal votes": 99.0,
+     "Total votes polled": 1456.0
+    }
+   },
+   {
+    "booth": "Mildura City Central",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 29.0,
+     "COOPER, Guy One Nation Victoria": 279.0,
+     "NAYEF, Renee Victorian Socialists": 21.0,
+     "BENHAM, Jade The Nationals": 360.0,
+     "FRIES, Vanessa Animal Justice Party": 15.0,
+     "ZIGOURAS, Stella Australian Labor Party": 66.0,
+     "CLEMENTS, Katie The Greens": 96.0,
+     "Informal votes": 74.0,
+     "Total votes polled": 940.0
+    }
+   },
+   {
+    "booth": "Mildura Deakin",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 8.0,
+     "COOPER, Guy One Nation Victoria": 172.0,
+     "NAYEF, Renee Victorian Socialists": 14.0,
+     "BENHAM, Jade The Nationals": 171.0,
+     "FRIES, Vanessa Animal Justice Party": 13.0,
+     "ZIGOURAS, Stella Australian Labor Party": 43.0,
+     "CLEMENTS, Katie The Greens": 72.0,
+     "Informal votes": 34.0,
+     "Total votes polled": 527.0
+    }
+   },
+   {
+    "booth": "Mildura Ranfurly",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 13.0,
+     "COOPER, Guy One Nation Victoria": 204.0,
+     "NAYEF, Renee Victorian Socialists": 9.0,
+     "BENHAM, Jade The Nationals": 272.0,
+     "FRIES, Vanessa Animal Justice Party": 4.0,
+     "ZIGOURAS, Stella Australian Labor Party": 47.0,
+     "CLEMENTS, Katie The Greens": 71.0,
+     "Informal votes": 41.0,
+     "Total votes polled": 661.0
+    }
+   },
+   {
+    "booth": "Mildura South",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 27.0,
+     "COOPER, Guy One Nation Victoria": 204.0,
+     "NAYEF, Renee Victorian Socialists": 10.0,
+     "BENHAM, Jade The Nationals": 195.0,
+     "FRIES, Vanessa Animal Justice Party": 9.0,
+     "ZIGOURAS, Stella Australian Labor Party": 27.0,
+     "CLEMENTS, Katie The Greens": 55.0,
+     "Informal votes": 20.0,
+     "Total votes polled": 547.0
+    }
+   },
+   {
+    "booth": "Mildura West",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 14.0,
+     "COOPER, Guy One Nation Victoria": 188.0,
+     "NAYEF, Renee Victorian Socialists": 15.0,
+     "BENHAM, Jade The Nationals": 254.0,
+     "FRIES, Vanessa Animal Justice Party": 13.0,
+     "ZIGOURAS, Stella Australian Labor Party": 49.0,
+     "CLEMENTS, Katie The Greens": 103.0,
+     "Informal votes": 26.0,
+     "Total votes polled": 662.0
+    }
+   },
+   {
+    "booth": "Murrayville",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 3.0,
+     "COOPER, Guy One Nation Victoria": 76.0,
+     "NAYEF, Renee Victorian Socialists": 1.0,
+     "BENHAM, Jade The Nationals": 85.0,
+     "FRIES, Vanessa Animal Justice Party": 1.0,
+     "ZIGOURAS, Stella Australian Labor Party": 5.0,
+     "CLEMENTS, Katie The Greens": 9.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 180.0
+    }
+   },
+   {
+    "booth": "Nandaly",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 10.0,
+     "NAYEF, Renee Victorian Socialists": 1.0,
+     "BENHAM, Jade The Nationals": 15.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 1.0,
+     "CLEMENTS, Katie The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 27.0
+    }
+   },
+   {
+    "booth": "Nangiloc",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 2.0,
+     "COOPER, Guy One Nation Victoria": 76.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 61.0,
+     "FRIES, Vanessa Animal Justice Party": 4.0,
+     "ZIGOURAS, Stella Australian Labor Party": 14.0,
+     "CLEMENTS, Katie The Greens": 12.0,
+     "Informal votes": 12.0,
+     "Total votes polled": 181.0
+    }
+   },
+   {
+    "booth": "Nichols Point",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 1.0,
+     "COOPER, Guy One Nation Victoria": 116.0,
+     "NAYEF, Renee Victorian Socialists": 5.0,
+     "BENHAM, Jade The Nationals": 211.0,
+     "FRIES, Vanessa Animal Justice Party": 1.0,
+     "ZIGOURAS, Stella Australian Labor Party": 20.0,
+     "CLEMENTS, Katie The Greens": 32.0,
+     "Informal votes": 12.0,
+     "Total votes polled": 398.0
+    }
+   },
+   {
+    "booth": "Ouyen",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 4.0,
+     "COOPER, Guy One Nation Victoria": 236.0,
+     "NAYEF, Renee Victorian Socialists": 6.0,
+     "BENHAM, Jade The Nationals": 293.0,
+     "FRIES, Vanessa Animal Justice Party": 8.0,
+     "ZIGOURAS, Stella Australian Labor Party": 23.0,
+     "CLEMENTS, Katie The Greens": 24.0,
+     "Informal votes": 59.0,
+     "Total votes polled": 653.0
+    }
+   },
+   {
+    "booth": "Piangil",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 3.0,
+     "COOPER, Guy One Nation Victoria": 60.0,
+     "NAYEF, Renee Victorian Socialists": 1.0,
+     "BENHAM, Jade The Nationals": 50.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 3.0,
+     "CLEMENTS, Katie The Greens": 3.0,
+     "Informal votes": 14.0,
+     "Total votes polled": 134.0
+    }
+   },
+   {
+    "booth": "Red Cliffs",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 24.0,
+     "COOPER, Guy One Nation Victoria": 437.0,
+     "NAYEF, Renee Victorian Socialists": 14.0,
+     "BENHAM, Jade The Nationals": 259.0,
+     "FRIES, Vanessa Animal Justice Party": 9.0,
+     "ZIGOURAS, Stella Australian Labor Party": 53.0,
+     "CLEMENTS, Katie The Greens": 97.0,
+     "Informal votes": 58.0,
+     "Total votes polled": 951.0
+    }
+   },
+   {
+    "booth": "Robinvale",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 0.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 0.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 0.0,
+     "CLEMENTS, Katie The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sea Lake",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 0.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 0.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 0.0,
+     "CLEMENTS, Katie The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Speed",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 26.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 14.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 0.0,
+     "CLEMENTS, Katie The Greens": 1.0,
+     "Informal votes": 1.0,
+     "Total votes polled": 42.0
+    }
+   },
+   {
+    "booth": "Underbool",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 3.0,
+     "COOPER, Guy One Nation Victoria": 45.0,
+     "NAYEF, Renee Victorian Socialists": 4.0,
+     "BENHAM, Jade The Nationals": 81.0,
+     "FRIES, Vanessa Animal Justice Party": 2.0,
+     "ZIGOURAS, Stella Australian Labor Party": 4.0,
+     "CLEMENTS, Katie The Greens": 5.0,
+     "Informal votes": 7.0,
+     "Total votes polled": 151.0
+    }
+   },
+   {
+    "booth": "Wemen",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 2.0,
+     "COOPER, Guy One Nation Victoria": 14.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 21.0,
+     "FRIES, Vanessa Animal Justice Party": 1.0,
+     "ZIGOURAS, Stella Australian Labor Party": 2.0,
+     "CLEMENTS, Katie The Greens": 2.0,
+     "Informal votes": 2.0,
+     "Total votes polled": 44.0
+    }
+   },
+   {
+    "booth": "Woomelang",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 66.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 76.0,
+     "FRIES, Vanessa Animal Justice Party": 2.0,
+     "ZIGOURAS, Stella Australian Labor Party": 10.0,
+     "CLEMENTS, Katie The Greens": 6.0,
+     "Informal votes": 5.0,
+     "Total votes polled": 165.0
+    }
+   },
+   {
+    "booth": "Wycheproof",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 6.0,
+     "COOPER, Guy One Nation Victoria": 139.0,
+     "NAYEF, Renee Victorian Socialists": 4.0,
+     "BENHAM, Jade The Nationals": 220.0,
+     "FRIES, Vanessa Animal Justice Party": 3.0,
+     "ZIGOURAS, Stella Australian Labor Party": 19.0,
+     "CLEMENTS, Katie The Greens": 28.0,
+     "Informal votes": 30.0,
+     "Total votes polled": 449.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 280.0,
+     "COOPER, Guy One Nation Victoria": 5217.0,
+     "NAYEF, Renee Victorian Socialists": 158.0,
+     "BENHAM, Jade The Nationals": 5056.0,
+     "FRIES, Vanessa Animal Justice Party": 167.0,
+     "ZIGOURAS, Stella Australian Labor Party": 735.0,
+     "CLEMENTS, Katie The Greens": 1066.0,
+     "Informal votes": 770.0,
+     "Total votes polled": 13449.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Mildura - EVC 1",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 139.0,
+     "COOPER, Guy One Nation Victoria": 2784.0,
+     "NAYEF, Renee Victorian Socialists": 64.0,
+     "BENHAM, Jade The Nationals": 3895.0,
+     "FRIES, Vanessa Animal Justice Party": 84.0,
+     "ZIGOURAS, Stella Australian Labor Party": 466.0,
+     "CLEMENTS, Katie The Greens": 693.0,
+     "Informal votes": 412.0,
+     "Total votes polled": 8537.0
+    }
+   },
+   {
+    "booth": "Mildura - EVC 2",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 0.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 0.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 0.0,
+     "CLEMENTS, Katie The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Mildura - MEVC",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 0.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 0.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 0.0,
+     "CLEMENTS, Katie The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 0.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 0.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 0.0,
+     "CLEMENTS, Katie The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 139.0,
+     "COOPER, Guy One Nation Victoria": 2784.0,
+     "NAYEF, Renee Victorian Socialists": 64.0,
+     "BENHAM, Jade The Nationals": 3895.0,
+     "FRIES, Vanessa Animal Justice Party": 84.0,
+     "ZIGOURAS, Stella Australian Labor Party": 466.0,
+     "CLEMENTS, Katie The Greens": 693.0,
+     "Informal votes": 412.0,
+     "Total votes polled": 8537.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 0.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 0.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 0.0,
+     "CLEMENTS, Katie The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 0.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 0.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 0.0,
+     "CLEMENTS, Katie The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 2.0,
+     "COOPER, Guy One Nation Victoria": 95.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 132.0,
+     "FRIES, Vanessa Animal Justice Party": 5.0,
+     "ZIGOURAS, Stella Australian Labor Party": 35.0,
+     "CLEMENTS, Katie The Greens": 15.0,
+     "Informal votes": 15.0,
+     "Total votes polled": 299.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 0.0,
+     "COOPER, Guy One Nation Victoria": 0.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 0.0,
+     "FRIES, Vanessa Animal Justice Party": 0.0,
+     "ZIGOURAS, Stella Australian Labor Party": 0.0,
+     "CLEMENTS, Katie The Greens": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "NTAHOMVUKIYE, Joselyne Family First": 2.0,
+     "COOPER, Guy One Nation Victoria": 95.0,
+     "NAYEF, Renee Victorian Socialists": 0.0,
+     "BENHAM, Jade The Nationals": 132.0,
+     "FRIES, Vanessa Animal Justice Party": 5.0,
+     "ZIGOURAS, Stella Australian Labor Party": 35.0,
+     "CLEMENTS, Katie The Greens": 15.0,
+     "Informal votes": 15.0,
+     "Total votes polled": 299.0
+    }
+   }
+  ]
  }
 }

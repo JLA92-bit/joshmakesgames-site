@@ -3,562 +3,75 @@
  "name": "Caulfield",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/caulfield-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:21:33+00:00",
+ "fetched_at": "2026-11-28T10:27:11+00:00",
  "title": "Caulfield election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:20:05",
+ "last_updated": "Saturday, 28 November 2026 21:25:05",
  "enrolment": 51087,
- "formal": 9525,
- "informal": 387,
- "total_votes": 9912,
- "counted_pct": 19.4,
+ "formal": 10184,
+ "informal": 418,
+ "total_votes": 10602,
+ "counted_pct": 20.75,
  "notes": [],
  "primary": [
   {
    "candidate": "DOLEJŠÍ, Angel",
    "party": "The Greens",
-   "votes": 2359,
-   "pct": 24.77
+   "votes": 2631,
+   "pct": 25.83
   },
   {
    "candidate": "SHROOT, Yaakov Ziv",
    "party": "",
-   "votes": 123,
+   "votes": 131,
    "pct": 1.29
   },
   {
    "candidate": "ABABNEH, Malak",
    "party": "Victorian Socialists",
-   "votes": 484,
-   "pct": 5.08
+   "votes": 533,
+   "pct": 5.23
   },
   {
    "candidate": "STAFRACE, Mikaela",
    "party": "Australian Labor Party",
-   "votes": 1672,
-   "pct": 17.55
+   "votes": 1803,
+   "pct": 17.7
   },
   {
    "candidate": "GILBERT, Geneviève",
    "party": "Family First",
-   "votes": 72,
-   "pct": 0.76
+   "votes": 76,
+   "pct": 0.75
   },
   {
    "candidate": "SOUTHWICK, David",
    "party": "Liberal",
-   "votes": 4125,
-   "pct": 43.31
+   "votes": 4290,
+   "pct": 42.12
   },
   {
    "candidate": "ABELMAN, Michael",
    "party": "One Nation Victoria",
-   "votes": 690,
-   "pct": 7.24
+   "votes": 720,
+   "pct": 7.07
   }
  ],
  "tcp": [
   {
    "candidate": "STAFRACE, Mikaela",
    "party": "Australian Labor Party",
-   "votes": 1866,
-   "pct": 41.44
+   "votes": 2199,
+   "pct": 39.91
   },
   {
    "candidate": "SOUTHWICK, David",
    "party": "Liberal",
-   "votes": 2637,
-   "pct": 58.56
+   "votes": 3311,
+   "pct": 60.09
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/caulfield-district-results/Caulfield-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/caulfield-district-results/Caulfield-2CP-results-by-voting-centre"
- },
- "booths_primary": {
-  "columns": [
-   "DOLEJŠÍ, Angel The Greens",
-   "SHROOT, Yaakov Ziv",
-   "ABABNEH, Malak Victorian Socialists",
-   "STAFRACE, Mikaela Australian Labor Party",
-   "GILBERT, Geneviève Family First",
-   "SOUTHWICK, David Liberal",
-   "ABELMAN, Michael One Nation Victoria",
-   "Informal votes",
-   "Total votes polled"
-  ],
-  "rows": [
-   {
-    "booth": "Total first preference votes",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 2359.0,
-     "SHROOT, Yaakov Ziv": 123.0,
-     "ABABNEH, Malak Victorian Socialists": 484.0,
-     "STAFRACE, Mikaela Australian Labor Party": 1672.0,
-     "GILBERT, Geneviève Family First": 72.0,
-     "SOUTHWICK, David Liberal": 4125.0,
-     "ABELMAN, Michael One Nation Victoria": 690.0,
-     "Informal votes": 387.0,
-     "Total votes polled": 9912.0
-    }
-   },
-   {
-    "booth": "Percentage of formal vote polled by candidate",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 24.77,
-     "SHROOT, Yaakov Ziv": 1.29,
-     "ABABNEH, Malak Victorian Socialists": 5.08,
-     "STAFRACE, Mikaela Australian Labor Party": 17.55,
-     "GILBERT, Geneviève Family First": 0.76,
-     "SOUTHWICK, David Liberal": 43.31,
-     "ABELMAN, Michael One Nation Victoria": 7.24
-    }
-   },
-   {
-    "booth": "Ordinary votes",
-    "values": {}
-   },
-   {
-    "booth": "Alma",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Balaclava",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 98.0,
-     "SHROOT, Yaakov Ziv": 2.0,
-     "ABABNEH, Malak Victorian Socialists": 9.0,
-     "STAFRACE, Mikaela Australian Labor Party": 54.0,
-     "GILBERT, Geneviève Family First": 5.0,
-     "SOUTHWICK, David Liberal": 77.0,
-     "ABELMAN, Michael One Nation Victoria": 11.0,
-     "Informal votes": 10.0,
-     "Total votes polled": 266.0
-    }
-   },
-   {
-    "booth": "Bundeera",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 147.0,
-     "SHROOT, Yaakov Ziv": 14.0,
-     "ABABNEH, Malak Victorian Socialists": 22.0,
-     "STAFRACE, Mikaela Australian Labor Party": 161.0,
-     "GILBERT, Geneviève Family First": 13.0,
-     "SOUTHWICK, David Liberal": 572.0,
-     "ABELMAN, Michael One Nation Victoria": 78.0,
-     "Informal votes": 36.0,
-     "Total votes polled": 1043.0
-    }
-   },
-   {
-    "booth": "Caulfield East",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 198.0,
-     "SHROOT, Yaakov Ziv": 14.0,
-     "ABABNEH, Malak Victorian Socialists": 50.0,
-     "STAFRACE, Mikaela Australian Labor Party": 129.0,
-     "GILBERT, Geneviève Family First": 5.0,
-     "SOUTHWICK, David Liberal": 277.0,
-     "ABELMAN, Michael One Nation Victoria": 51.0,
-     "Informal votes": 34.0,
-     "Total votes polled": 758.0
-    }
-   },
-   {
-    "booth": "Caulfield North",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 228.0,
-     "SHROOT, Yaakov Ziv": 14.0,
-     "ABABNEH, Malak Victorian Socialists": 62.0,
-     "STAFRACE, Mikaela Australian Labor Party": 162.0,
-     "GILBERT, Geneviève Family First": 7.0,
-     "SOUTHWICK, David Liberal": 650.0,
-     "ABELMAN, Michael One Nation Victoria": 79.0,
-     "Informal votes": 51.0,
-     "Total votes polled": 1253.0
-    }
-   },
-   {
-    "booth": "Caulfield Park",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 75.0,
-     "SHROOT, Yaakov Ziv": 2.0,
-     "ABABNEH, Malak Victorian Socialists": 22.0,
-     "STAFRACE, Mikaela Australian Labor Party": 44.0,
-     "GILBERT, Geneviève Family First": 2.0,
-     "SOUTHWICK, David Liberal": 114.0,
-     "ABELMAN, Michael One Nation Victoria": 14.0,
-     "Informal votes": 9.0,
-     "Total votes polled": 282.0
-    }
-   },
-   {
-    "booth": "Caulfield Upper",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 85.0,
-     "SHROOT, Yaakov Ziv": 6.0,
-     "ABABNEH, Malak Victorian Socialists": 14.0,
-     "STAFRACE, Mikaela Australian Labor Party": 75.0,
-     "GILBERT, Geneviève Family First": 1.0,
-     "SOUTHWICK, David Liberal": 266.0,
-     "ABELMAN, Michael One Nation Victoria": 59.0,
-     "Informal votes": 14.0,
-     "Total votes polled": 520.0
-    }
-   },
-   {
-    "booth": "Clarence",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 167.0,
-     "SHROOT, Yaakov Ziv": 7.0,
-     "ABABNEH, Malak Victorian Socialists": 24.0,
-     "STAFRACE, Mikaela Australian Labor Party": 128.0,
-     "GILBERT, Geneviève Family First": 5.0,
-     "SOUTHWICK, David Liberal": 368.0,
-     "ABELMAN, Michael One Nation Victoria": 59.0,
-     "Informal votes": 28.0,
-     "Total votes polled": 786.0
-    }
-   },
-   {
-    "booth": "Elsternwick",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 308.0,
-     "SHROOT, Yaakov Ziv": 17.0,
-     "ABABNEH, Malak Victorian Socialists": 59.0,
-     "STAFRACE, Mikaela Australian Labor Party": 246.0,
-     "GILBERT, Geneviève Family First": 12.0,
-     "SOUTHWICK, David Liberal": 465.0,
-     "ABELMAN, Michael One Nation Victoria": 85.0,
-     "Informal votes": 38.0,
-     "Total votes polled": 1230.0
-    }
-   },
-   {
-    "booth": "Elsternwick North",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 122.0,
-     "SHROOT, Yaakov Ziv": 6.0,
-     "ABABNEH, Malak Victorian Socialists": 23.0,
-     "STAFRACE, Mikaela Australian Labor Party": 66.0,
-     "GILBERT, Geneviève Family First": 1.0,
-     "SOUTHWICK, David Liberal": 105.0,
-     "ABELMAN, Michael One Nation Victoria": 24.0,
-     "Informal votes": 5.0,
-     "Total votes polled": 352.0
-    }
-   },
-   {
-    "booth": "Elwood Beach",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 38.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 6.0,
-     "STAFRACE, Mikaela Australian Labor Party": 17.0,
-     "GILBERT, Geneviève Family First": 1.0,
-     "SOUTHWICK, David Liberal": 28.0,
-     "ABELMAN, Michael One Nation Victoria": 2.0,
-     "Informal votes": 3.0,
-     "Total votes polled": 95.0
-    }
-   },
-   {
-    "booth": "Glenhuntly East",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 118.0,
-     "SHROOT, Yaakov Ziv": 3.0,
-     "ABABNEH, Malak Victorian Socialists": 34.0,
-     "STAFRACE, Mikaela Australian Labor Party": 84.0,
-     "GILBERT, Geneviève Family First": 1.0,
-     "SOUTHWICK, David Liberal": 111.0,
-     "ABELMAN, Michael One Nation Victoria": 28.0,
-     "Informal votes": 28.0,
-     "Total votes polled": 407.0
-    }
-   },
-   {
-    "booth": "Malvern South",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 11.0,
-     "SHROOT, Yaakov Ziv": 1.0,
-     "ABABNEH, Malak Victorian Socialists": 3.0,
-     "STAFRACE, Mikaela Australian Labor Party": 11.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 34.0,
-     "ABELMAN, Michael One Nation Victoria": 3.0,
-     "Informal votes": 1.0,
-     "Total votes polled": 64.0
-    }
-   },
-   {
-    "booth": "Ormond",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 94.0,
-     "SHROOT, Yaakov Ziv": 9.0,
-     "ABABNEH, Malak Victorian Socialists": 19.0,
-     "STAFRACE, Mikaela Australian Labor Party": 85.0,
-     "GILBERT, Geneviève Family First": 4.0,
-     "SOUTHWICK, David Liberal": 107.0,
-     "ABELMAN, Michael One Nation Victoria": 27.0,
-     "Informal votes": 9.0,
-     "Total votes polled": 354.0
-    }
-   },
-   {
-    "booth": "Princes Park",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 155.0,
-     "SHROOT, Yaakov Ziv": 7.0,
-     "ABABNEH, Malak Victorian Socialists": 23.0,
-     "STAFRACE, Mikaela Australian Labor Party": 120.0,
-     "GILBERT, Geneviève Family First": 3.0,
-     "SOUTHWICK, David Liberal": 391.0,
-     "ABELMAN, Michael One Nation Victoria": 57.0,
-     "Informal votes": 35.0,
-     "Total votes polled": 791.0
-    }
-   },
-   {
-    "booth": "Ripponlea East",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "St Kilda",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Windsor",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 42.0,
-     "SHROOT, Yaakov Ziv": 1.0,
-     "ABABNEH, Malak Victorian Socialists": 13.0,
-     "STAFRACE, Mikaela Australian Labor Party": 17.0,
-     "GILBERT, Geneviève Family First": 1.0,
-     "SOUTHWICK, David Liberal": 41.0,
-     "ABELMAN, Michael One Nation Victoria": 15.0,
-     "Informal votes": 11.0,
-     "Total votes polled": 141.0
-    }
-   },
-   {
-    "booth": "Ordinary votes total",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 1886.0,
-     "SHROOT, Yaakov Ziv": 103.0,
-     "ABABNEH, Malak Victorian Socialists": 383.0,
-     "STAFRACE, Mikaela Australian Labor Party": 1399.0,
-     "GILBERT, Geneviève Family First": 61.0,
-     "SOUTHWICK, David Liberal": 3606.0,
-     "ABELMAN, Michael One Nation Victoria": 592.0,
-     "Informal votes": 312.0,
-     "Total votes polled": 8342.0
-    }
-   },
-   {
-    "booth": "Early voting centres",
-    "values": {}
-   },
-   {
-    "booth": "Brighton - EVC 3",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 473.0,
-     "SHROOT, Yaakov Ziv": 20.0,
-     "ABABNEH, Malak Victorian Socialists": 101.0,
-     "STAFRACE, Mikaela Australian Labor Party": 273.0,
-     "GILBERT, Geneviève Family First": 11.0,
-     "SOUTHWICK, David Liberal": 519.0,
-     "ABELMAN, Michael One Nation Victoria": 98.0,
-     "Informal votes": 75.0,
-     "Total votes polled": 1570.0
-    }
-   },
-   {
-    "booth": "Caulfield - EVC 1",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Caulfield - EVC 2",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Malvern - EVC 2",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Caulfield - MEVC",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Other early votes",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Early votes total",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 473.0,
-     "SHROOT, Yaakov Ziv": 20.0,
-     "ABABNEH, Malak Victorian Socialists": 101.0,
-     "STAFRACE, Mikaela Australian Labor Party": 273.0,
-     "GILBERT, Geneviève Family First": 11.0,
-     "SOUTHWICK, David Liberal": 519.0,
-     "ABELMAN, Michael One Nation Victoria": 98.0,
-     "Informal votes": 75.0,
-     "Total votes polled": 1570.0
-    }
-   },
-   {
-    "booth": "Declaration votes",
-    "values": {}
-   },
-   {
-    "booth": "Absent votes",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Marked as voted votes",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Postal votes",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Provisional votes",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes total",
-    "values": {
-     "DOLEJŠÍ, Angel The Greens": 0.0,
-     "SHROOT, Yaakov Ziv": 0.0,
-     "ABABNEH, Malak Victorian Socialists": 0.0,
-     "STAFRACE, Mikaela Australian Labor Party": 0.0,
-     "GILBERT, Geneviève Family First": 0.0,
-     "SOUTHWICK, David Liberal": 0.0,
-     "ABELMAN, Michael One Nation Victoria": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   }
-  ]
  }
 }

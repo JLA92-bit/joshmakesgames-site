@@ -3,707 +3,81 @@
  "name": "Geelong",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/geelong-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:21:54+00:00",
+ "fetched_at": "2026-11-28T10:27:13+00:00",
  "title": "Geelong election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:20:05",
+ "last_updated": "Saturday, 28 November 2026 21:25:05",
  "enrolment": 53903,
- "formal": 10023,
- "informal": 570,
- "total_votes": 10593,
- "counted_pct": 19.65,
+ "formal": 11120,
+ "informal": 618,
+ "total_votes": 11738,
+ "counted_pct": 21.78,
  "notes": [],
  "primary": [
   {
    "candidate": "FLYNN, Emilie",
    "party": "The Greens",
-   "votes": 2332,
-   "pct": 23.27
+   "votes": 2616,
+   "pct": 23.53
   },
   {
    "candidate": "POBJOY, Andy",
    "party": "Liberal",
-   "votes": 2848,
-   "pct": 28.41
+   "votes": 3218,
+   "pct": 28.94
   },
   {
    "candidate": "BENGTSSON, Maria",
    "party": "Family First",
-   "votes": 181,
-   "pct": 1.81
+   "votes": 192,
+   "pct": 1.73
   },
   {
    "candidate": "MACPHERSON, Pippa",
    "party": "Animal Justice Party",
-   "votes": 200,
+   "votes": 222,
    "pct": 2.0
   },
   {
    "candidate": "DE LORENZO, John",
    "party": "One Nation Victoria",
-   "votes": 2016,
-   "pct": 20.11
+   "votes": 2155,
+   "pct": 19.38
   },
   {
    "candidate": "GRULL, Brenden",
    "party": "Socialist Alliance",
-   "votes": 105,
-   "pct": 1.05
+   "votes": 131,
+   "pct": 1.18
   },
   {
    "candidate": "COUZENS, Christine",
    "party": "Australian Labor Party",
-   "votes": 2057,
-   "pct": 20.52
+   "votes": 2276,
+   "pct": 20.47
   },
   {
    "candidate": "VANDERPOL, Bree",
    "party": "Victorian Socialists",
-   "votes": 284,
-   "pct": 2.83
+   "votes": 310,
+   "pct": 2.79
   }
  ],
  "tcp": [
   {
    "candidate": "POBJOY, Andy",
    "party": "Liberal",
-   "votes": 2600,
-   "pct": 49.08
+   "votes": 2642,
+   "pct": 49.23
   },
   {
    "candidate": "COUZENS, Christine",
    "party": "Australian Labor Party",
-   "votes": 2697,
-   "pct": 50.92
+   "votes": 2725,
+   "pct": 50.77
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/geelong-district-results/Geelong-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/geelong-district-results/Geelong-2CP-results-by-voting-centre"
- },
- "booths_primary": {
-  "columns": [
-   "FLYNN, Emilie The Greens",
-   "POBJOY, Andy Liberal",
-   "BENGTSSON, Maria Family First",
-   "MACPHERSON, Pippa Animal Justice Party",
-   "DE LORENZO, John One Nation Victoria",
-   "GRULL, Brenden Socialist Alliance",
-   "COUZENS, Christine Australian Labor Party",
-   "VANDERPOL, Bree Victorian Socialists",
-   "Informal votes",
-   "Total votes polled"
-  ],
-  "rows": [
-   {
-    "booth": "Total first preference votes",
-    "values": {
-     "FLYNN, Emilie The Greens": 2332.0,
-     "POBJOY, Andy Liberal": 2848.0,
-     "BENGTSSON, Maria Family First": 181.0,
-     "MACPHERSON, Pippa Animal Justice Party": 200.0,
-     "DE LORENZO, John One Nation Victoria": 2016.0,
-     "GRULL, Brenden Socialist Alliance": 105.0,
-     "COUZENS, Christine Australian Labor Party": 2057.0,
-     "VANDERPOL, Bree Victorian Socialists": 284.0,
-     "Informal votes": 570.0,
-     "Total votes polled": 10593.0
-    }
-   },
-   {
-    "booth": "Percentage of formal vote polled by candidate",
-    "values": {
-     "FLYNN, Emilie The Greens": 23.27,
-     "POBJOY, Andy Liberal": 28.41,
-     "BENGTSSON, Maria Family First": 1.81,
-     "MACPHERSON, Pippa Animal Justice Party": 2.0,
-     "DE LORENZO, John One Nation Victoria": 20.11,
-     "GRULL, Brenden Socialist Alliance": 1.05,
-     "COUZENS, Christine Australian Labor Party": 20.52,
-     "VANDERPOL, Bree Victorian Socialists": 2.83
-    }
-   },
-   {
-    "booth": "Ordinary votes",
-    "values": {}
-   },
-   {
-    "booth": "Bannockburn",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Bannockburn West",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Barwon",
-    "values": {
-     "FLYNN, Emilie The Greens": 212.0,
-     "POBJOY, Andy Liberal": 205.0,
-     "BENGTSSON, Maria Family First": 7.0,
-     "MACPHERSON, Pippa Animal Justice Party": 13.0,
-     "DE LORENZO, John One Nation Victoria": 82.0,
-     "GRULL, Brenden Socialist Alliance": 9.0,
-     "COUZENS, Christine Australian Labor Party": 137.0,
-     "VANDERPOL, Bree Victorian Socialists": 20.0,
-     "Informal votes": 25.0,
-     "Total votes polled": 710.0
-    }
-   },
-   {
-    "booth": "Belmont",
-    "values": {
-     "FLYNN, Emilie The Greens": 67.0,
-     "POBJOY, Andy Liberal": 30.0,
-     "BENGTSSON, Maria Family First": 3.0,
-     "MACPHERSON, Pippa Animal Justice Party": 4.0,
-     "DE LORENZO, John One Nation Victoria": 21.0,
-     "GRULL, Brenden Socialist Alliance": 4.0,
-     "COUZENS, Christine Australian Labor Party": 30.0,
-     "VANDERPOL, Bree Victorian Socialists": 6.0,
-     "Informal votes": 16.0,
-     "Total votes polled": 181.0
-    }
-   },
-   {
-    "booth": "Belmont North",
-    "values": {
-     "FLYNN, Emilie The Greens": 156.0,
-     "POBJOY, Andy Liberal": 142.0,
-     "BENGTSSON, Maria Family First": 8.0,
-     "MACPHERSON, Pippa Animal Justice Party": 11.0,
-     "DE LORENZO, John One Nation Victoria": 80.0,
-     "GRULL, Brenden Socialist Alliance": 7.0,
-     "COUZENS, Christine Australian Labor Party": 89.0,
-     "VANDERPOL, Bree Victorian Socialists": 25.0,
-     "Informal votes": 23.0,
-     "Total votes polled": 541.0
-    }
-   },
-   {
-    "booth": "Belmont South",
-    "values": {
-     "FLYNN, Emilie The Greens": 42.0,
-     "POBJOY, Andy Liberal": 23.0,
-     "BENGTSSON, Maria Family First": 5.0,
-     "MACPHERSON, Pippa Animal Justice Party": 3.0,
-     "DE LORENZO, John One Nation Victoria": 36.0,
-     "GRULL, Brenden Socialist Alliance": 3.0,
-     "COUZENS, Christine Australian Labor Party": 34.0,
-     "VANDERPOL, Bree Victorian Socialists": 5.0,
-     "Informal votes": 8.0,
-     "Total votes polled": 159.0
-    }
-   },
-   {
-    "booth": "Britannia",
-    "values": {
-     "FLYNN, Emilie The Greens": 161.0,
-     "POBJOY, Andy Liberal": 138.0,
-     "BENGTSSON, Maria Family First": 14.0,
-     "MACPHERSON, Pippa Animal Justice Party": 8.0,
-     "DE LORENZO, John One Nation Victoria": 71.0,
-     "GRULL, Brenden Socialist Alliance": 4.0,
-     "COUZENS, Christine Australian Labor Party": 124.0,
-     "VANDERPOL, Bree Victorian Socialists": 15.0,
-     "Informal votes": 38.0,
-     "Total votes polled": 573.0
-    }
-   },
-   {
-    "booth": "Chilwell",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Fyans Park",
-    "values": {
-     "FLYNN, Emilie The Greens": 93.0,
-     "POBJOY, Andy Liberal": 177.0,
-     "BENGTSSON, Maria Family First": 8.0,
-     "MACPHERSON, Pippa Animal Justice Party": 3.0,
-     "DE LORENZO, John One Nation Victoria": 33.0,
-     "GRULL, Brenden Socialist Alliance": 3.0,
-     "COUZENS, Christine Australian Labor Party": 53.0,
-     "VANDERPOL, Bree Victorian Socialists": 13.0,
-     "Informal votes": 7.0,
-     "Total votes polled": 390.0
-    }
-   },
-   {
-    "booth": "Gateway",
-    "values": {
-     "FLYNN, Emilie The Greens": 53.0,
-     "POBJOY, Andy Liberal": 77.0,
-     "BENGTSSON, Maria Family First": 9.0,
-     "MACPHERSON, Pippa Animal Justice Party": 7.0,
-     "DE LORENZO, John One Nation Victoria": 68.0,
-     "GRULL, Brenden Socialist Alliance": 2.0,
-     "COUZENS, Christine Australian Labor Party": 51.0,
-     "VANDERPOL, Bree Victorian Socialists": 10.0,
-     "Informal votes": 18.0,
-     "Total votes polled": 295.0
-    }
-   },
-   {
-    "booth": "Geelong",
-    "values": {
-     "FLYNN, Emilie The Greens": 137.0,
-     "POBJOY, Andy Liberal": 180.0,
-     "BENGTSSON, Maria Family First": 3.0,
-     "MACPHERSON, Pippa Animal Justice Party": 7.0,
-     "DE LORENZO, John One Nation Victoria": 83.0,
-     "GRULL, Brenden Socialist Alliance": 8.0,
-     "COUZENS, Christine Australian Labor Party": 116.0,
-     "VANDERPOL, Bree Victorian Socialists": 10.0,
-     "Informal votes": 27.0,
-     "Total votes polled": 571.0
-    }
-   },
-   {
-    "booth": "Geelong East",
-    "values": {
-     "FLYNN, Emilie The Greens": 272.0,
-     "POBJOY, Andy Liberal": 234.0,
-     "BENGTSSON, Maria Family First": 37.0,
-     "MACPHERSON, Pippa Animal Justice Party": 26.0,
-     "DE LORENZO, John One Nation Victoria": 384.0,
-     "GRULL, Brenden Socialist Alliance": 9.0,
-     "COUZENS, Christine Australian Labor Party": 293.0,
-     "VANDERPOL, Bree Victorian Socialists": 54.0,
-     "Informal votes": 97.0,
-     "Total votes polled": 1406.0
-    }
-   },
-   {
-    "booth": "Geelong West",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Hamlyn Heights",
-    "values": {
-     "FLYNN, Emilie The Greens": 50.0,
-     "POBJOY, Andy Liberal": 68.0,
-     "BENGTSSON, Maria Family First": 3.0,
-     "MACPHERSON, Pippa Animal Justice Party": 4.0,
-     "DE LORENZO, John One Nation Victoria": 59.0,
-     "GRULL, Brenden Socialist Alliance": 4.0,
-     "COUZENS, Christine Australian Labor Party": 46.0,
-     "VANDERPOL, Bree Victorian Socialists": 7.0,
-     "Informal votes": 13.0,
-     "Total votes polled": 254.0
-    }
-   },
-   {
-    "booth": "Johnstone Park",
-    "values": {
-     "FLYNN, Emilie The Greens": 62.0,
-     "POBJOY, Andy Liberal": 52.0,
-     "BENGTSSON, Maria Family First": 2.0,
-     "MACPHERSON, Pippa Animal Justice Party": 2.0,
-     "DE LORENZO, John One Nation Victoria": 31.0,
-     "GRULL, Brenden Socialist Alliance": 1.0,
-     "COUZENS, Christine Australian Labor Party": 37.0,
-     "VANDERPOL, Bree Victorian Socialists": 12.0,
-     "Informal votes": 18.0,
-     "Total votes polled": 217.0
-    }
-   },
-   {
-    "booth": "Kidman",
-    "values": {
-     "FLYNN, Emilie The Greens": 88.0,
-     "POBJOY, Andy Liberal": 47.0,
-     "BENGTSSON, Maria Family First": 3.0,
-     "MACPHERSON, Pippa Animal Justice Party": 6.0,
-     "DE LORENZO, John One Nation Victoria": 47.0,
-     "GRULL, Brenden Socialist Alliance": 4.0,
-     "COUZENS, Christine Australian Labor Party": 40.0,
-     "VANDERPOL, Bree Victorian Socialists": 9.0,
-     "Informal votes": 10.0,
-     "Total votes polled": 254.0
-    }
-   },
-   {
-    "booth": "Manifold Heights",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "McKillop",
-    "values": {
-     "FLYNN, Emilie The Greens": 196.0,
-     "POBJOY, Andy Liberal": 118.0,
-     "BENGTSSON, Maria Family First": 10.0,
-     "MACPHERSON, Pippa Animal Justice Party": 16.0,
-     "DE LORENZO, John One Nation Victoria": 121.0,
-     "GRULL, Brenden Socialist Alliance": 6.0,
-     "COUZENS, Christine Australian Labor Party": 127.0,
-     "VANDERPOL, Bree Victorian Socialists": 23.0,
-     "Informal votes": 34.0,
-     "Total votes polled": 651.0
-    }
-   },
-   {
-    "booth": "Newcomb",
-    "values": {
-     "FLYNN, Emilie The Greens": 241.0,
-     "POBJOY, Andy Liberal": 192.0,
-     "BENGTSSON, Maria Family First": 26.0,
-     "MACPHERSON, Pippa Animal Justice Party": 18.0,
-     "DE LORENZO, John One Nation Victoria": 272.0,
-     "GRULL, Brenden Socialist Alliance": 20.0,
-     "COUZENS, Christine Australian Labor Party": 239.0,
-     "VANDERPOL, Bree Victorian Socialists": 23.0,
-     "Informal votes": 110.0,
-     "Total votes polled": 1141.0
-    }
-   },
-   {
-    "booth": "Oberon",
-    "values": {
-     "FLYNN, Emilie The Greens": 77.0,
-     "POBJOY, Andy Liberal": 49.0,
-     "BENGTSSON, Maria Family First": 5.0,
-     "MACPHERSON, Pippa Animal Justice Party": 6.0,
-     "DE LORENZO, John One Nation Victoria": 43.0,
-     "GRULL, Brenden Socialist Alliance": 2.0,
-     "COUZENS, Christine Australian Labor Party": 64.0,
-     "VANDERPOL, Bree Victorian Socialists": 7.0,
-     "Informal votes": 14.0,
-     "Total votes polled": 267.0
-    }
-   },
-   {
-    "booth": "Rollins",
-    "values": {
-     "FLYNN, Emilie The Greens": 9.0,
-     "POBJOY, Andy Liberal": 9.0,
-     "BENGTSSON, Maria Family First": 2.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 17.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 5.0,
-     "VANDERPOL, Bree Victorian Socialists": 1.0,
-     "Informal votes": 3.0,
-     "Total votes polled": 46.0
-    }
-   },
-   {
-    "booth": "Shannon",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "St Helens",
-    "values": {
-     "FLYNN, Emilie The Greens": 20.0,
-     "POBJOY, Andy Liberal": 19.0,
-     "BENGTSSON, Maria Family First": 1.0,
-     "MACPHERSON, Pippa Animal Justice Party": 1.0,
-     "DE LORENZO, John One Nation Victoria": 16.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 8.0,
-     "VANDERPOL, Bree Victorian Socialists": 3.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 68.0
-    }
-   },
-   {
-    "booth": "Thomson",
-    "values": {
-     "FLYNN, Emilie The Greens": 108.0,
-     "POBJOY, Andy Liberal": 65.0,
-     "BENGTSSON, Maria Family First": 7.0,
-     "MACPHERSON, Pippa Animal Justice Party": 3.0,
-     "DE LORENZO, John One Nation Victoria": 74.0,
-     "GRULL, Brenden Socialist Alliance": 2.0,
-     "COUZENS, Christine Australian Labor Party": 83.0,
-     "VANDERPOL, Bree Victorian Socialists": 14.0,
-     "Informal votes": 29.0,
-     "Total votes polled": 385.0
-    }
-   },
-   {
-    "booth": "Ordinary votes total",
-    "values": {
-     "FLYNN, Emilie The Greens": 2044.0,
-     "POBJOY, Andy Liberal": 1825.0,
-     "BENGTSSON, Maria Family First": 153.0,
-     "MACPHERSON, Pippa Animal Justice Party": 138.0,
-     "DE LORENZO, John One Nation Victoria": 1538.0,
-     "GRULL, Brenden Socialist Alliance": 88.0,
-     "COUZENS, Christine Australian Labor Party": 1576.0,
-     "VANDERPOL, Bree Victorian Socialists": 257.0,
-     "Informal votes": 490.0,
-     "Total votes polled": 8109.0
-    }
-   },
-   {
-    "booth": "Early voting centres",
-    "values": {}
-   },
-   {
-    "booth": "Geelong - EVC 1",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Geelong - EVC 2",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Geelong - EVC 3",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Geelong - EVC 4",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Geelong - EVC 5",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Geelong - MEVC",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Other early votes",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Early votes total",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes",
-    "values": {}
-   },
-   {
-    "booth": "Absent votes",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Marked as voted votes",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Postal votes",
-    "values": {
-     "FLYNN, Emilie The Greens": 288.0,
-     "POBJOY, Andy Liberal": 1023.0,
-     "BENGTSSON, Maria Family First": 28.0,
-     "MACPHERSON, Pippa Animal Justice Party": 62.0,
-     "DE LORENZO, John One Nation Victoria": 478.0,
-     "GRULL, Brenden Socialist Alliance": 17.0,
-     "COUZENS, Christine Australian Labor Party": 481.0,
-     "VANDERPOL, Bree Victorian Socialists": 27.0,
-     "Informal votes": 80.0,
-     "Total votes polled": 2484.0
-    }
-   },
-   {
-    "booth": "Provisional votes",
-    "values": {
-     "FLYNN, Emilie The Greens": 0.0,
-     "POBJOY, Andy Liberal": 0.0,
-     "BENGTSSON, Maria Family First": 0.0,
-     "MACPHERSON, Pippa Animal Justice Party": 0.0,
-     "DE LORENZO, John One Nation Victoria": 0.0,
-     "GRULL, Brenden Socialist Alliance": 0.0,
-     "COUZENS, Christine Australian Labor Party": 0.0,
-     "VANDERPOL, Bree Victorian Socialists": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
-    }
-   },
-   {
-    "booth": "Declaration votes total",
-    "values": {
-     "FLYNN, Emilie The Greens": 288.0,
-     "POBJOY, Andy Liberal": 1023.0,
-     "BENGTSSON, Maria Family First": 28.0,
-     "MACPHERSON, Pippa Animal Justice Party": 62.0,
-     "DE LORENZO, John One Nation Victoria": 478.0,
-     "GRULL, Brenden Socialist Alliance": 17.0,
-     "COUZENS, Christine Australian Labor Party": 481.0,
-     "VANDERPOL, Bree Victorian Socialists": 27.0,
-     "Informal votes": 80.0,
-     "Total votes polled": 2484.0
-    }
-   }
-  ]
  }
 }

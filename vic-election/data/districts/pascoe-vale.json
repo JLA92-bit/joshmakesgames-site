@@ -3,86 +3,89 @@
  "name": "Pascoe Vale",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pascoe-vale-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:43:14+00:00",
+ "fetched_at": "2026-11-28T10:27:30+00:00",
  "title": "Pascoe Vale election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:13",
+ "last_updated": "Saturday, 28 November 2026 21:25:12",
  "enrolment": 52169,
- "counted_pct": 4.58,
+ "formal": 9067,
+ "informal": 457,
+ "total_votes": 9524,
+ "counted_pct": 18.26,
  "notes": [],
  "primary": [
   {
    "candidate": "HICKEY, Amanda",
    "party": "Free Palestine",
-   "votes": 74,
-   "pct": 1.12
+   "votes": 98,
+   "pct": 1.08
   },
   {
    "candidate": "LAWRENCE, Stuart",
    "party": "Climate Action Now",
-   "votes": 33,
-   "pct": 0.5
+   "votes": 39,
+   "pct": 0.43
   },
   {
    "candidate": "CIANFLONE, Anthony",
    "party": "Australian Labor Party",
-   "votes": 1519,
-   "pct": 22.91
+   "votes": 2074,
+   "pct": 22.87
   },
   {
    "candidate": "GANCI, Rosemarie Pauline",
    "party": "One Nation Victoria",
-   "votes": 802,
-   "pct": 12.09
+   "votes": 1061,
+   "pct": 11.7
   },
   {
    "candidate": "PANOPOULOS, Angelica",
    "party": "The Greens",
-   "votes": 1992,
-   "pct": 30.04
+   "votes": 2750,
+   "pct": 30.33
   },
   {
    "candidate": "ASHTON, Kathrine",
    "party": "Family First",
-   "votes": 57,
-   "pct": 0.86
+   "votes": 81,
+   "pct": 0.89
   },
   {
    "candidate": "ANDREWARTHA, Jacob",
    "party": "Socialist Alliance",
-   "votes": 105,
-   "pct": 1.58
+   "votes": 151,
+   "pct": 1.67
   },
   {
    "candidate": "HAUPT, Kerry",
    "party": "I'm Voting to Avoid the Fine",
-   "votes": 47,
-   "pct": 0.71
+   "votes": 60,
+   "pct": 0.66
   },
   {
    "candidate": "SHAMSILI, Yasemin",
    "party": "Victorian Socialists",
-   "votes": 738,
-   "pct": 11.13
+   "votes": 1065,
+   "pct": 11.75
   },
   {
    "candidate": "TAGGAR, Rohit",
    "party": "Liberal",
-   "votes": 1264,
-   "pct": 19.06
+   "votes": 1688,
+   "pct": 18.62
   }
  ],
  "tcp": [
   {
    "candidate": "CIANFLONE, Anthony",
    "party": "Australian Labor Party",
-   "votes": 1004,
-   "pct": 40.93
+   "votes": 2016,
+   "pct": 41.25
   },
   {
    "candidate": "PANOPOULOS, Angelica",
    "party": "The Greens",
-   "votes": 1449,
-   "pct": 59.07
+   "votes": 2871,
+   "pct": 58.75
   }
  ],
  "links": {

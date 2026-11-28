@@ -3,80 +3,83 @@
  "name": "Macedon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/macedon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:42:39+00:00",
+ "fetched_at": "2026-11-28T10:27:22+00:00",
  "title": "Macedon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:08",
+ "last_updated": "Saturday, 28 November 2026 21:25:08",
  "enrolment": 51446,
- "counted_pct": 5.87,
+ "formal": 10168,
+ "informal": 596,
+ "total_votes": 10764,
+ "counted_pct": 20.92,
  "notes": [],
  "primary": [
   {
    "candidate": "BONANNO, Dom",
    "party": "",
-   "votes": 159,
-   "pct": 2.17
+   "votes": 224,
+   "pct": 2.2
   },
   {
    "candidate": "DEATH, Annette",
    "party": "Australian Labor Party",
-   "votes": 1186,
-   "pct": 16.16
+   "votes": 1696,
+   "pct": 16.68
   },
   {
    "candidate": "WILSON, Catherine",
    "party": "Victorian Socialists",
-   "votes": 248,
-   "pct": 3.38
+   "votes": 374,
+   "pct": 3.68
   },
   {
    "candidate": "MCRAE MCLEOD, Marley",
    "party": "The Greens",
-   "votes": 1274,
-   "pct": 17.35
+   "votes": 1806,
+   "pct": 17.76
   },
   {
    "candidate": "SETON, Michael",
    "party": "",
-   "votes": 184,
-   "pct": 2.51
+   "votes": 283,
+   "pct": 2.78
   },
   {
    "candidate": "MAYNE, Bernadette",
    "party": "Family First",
-   "votes": 98,
-   "pct": 1.33
+   "votes": 128,
+   "pct": 1.26
   },
   {
    "candidate": "KORINFSKY, Natalie",
    "party": "Animal Justice Party",
-   "votes": 397,
-   "pct": 5.41
+   "votes": 591,
+   "pct": 5.81
   },
   {
    "candidate": "KENDALL, Kate",
    "party": "Liberal",
-   "votes": 2094,
-   "pct": 28.52
+   "votes": 2911,
+   "pct": 28.63
   },
   {
    "candidate": "PAROLIN, Damien",
    "party": "One Nation Victoria",
-   "votes": 1701,
-   "pct": 23.17
+   "votes": 2155,
+   "pct": 21.19
   }
  ],
  "tcp": [
   {
    "candidate": "DEATH, Annette",
    "party": "Australian Labor Party",
-   "votes": 701,
-   "pct": 53.11
+   "votes": 1650,
+   "pct": 52.35
   },
   {
    "candidate": "KENDALL, Kate",
    "party": "Liberal",
-   "votes": 619,
-   "pct": 46.89
+   "votes": 1502,
+   "pct": 47.65
   }
  ],
  "links": {

@@ -3,96 +3,650 @@
  "name": "Sunbury",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sunbury-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:43:36+00:00",
+ "fetched_at": "2026-11-28T10:26:58+00:00",
  "title": "Sunbury election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:16",
+ "last_updated": "Saturday, 28 November 2026 21:25:15",
  "enrolment": 51664,
- "counted_pct": 6.28,
+ "formal": 8407,
+ "informal": 673,
+ "total_votes": 9080,
+ "counted_pct": 17.58,
  "notes": [],
  "primary": [
   {
    "candidate": "BREMNER, Adam",
    "party": "Victorian Socialists",
-   "votes": 423,
-   "pct": 6.79
+   "votes": 586,
+   "pct": 6.97
   },
   {
    "candidate": "DABROWSKI, Elita",
    "party": "One Nation Victoria",
-   "votes": 1757,
-   "pct": 28.22
+   "votes": 2398,
+   "pct": 28.52
   },
   {
    "candidate": "VINE, Geoff",
    "party": "The West Party",
-   "votes": 41,
-   "pct": 0.66
+   "votes": 59,
+   "pct": 0.7
   },
   {
    "candidate": "COTTOM, Simmone",
    "party": "Liberal",
-   "votes": 1755,
-   "pct": 28.19
+   "votes": 2362,
+   "pct": 28.1
   },
   {
    "candidate": "BULL, Josh",
    "party": "Australian Labor Party",
-   "votes": 1187,
-   "pct": 19.07
+   "votes": 1578,
+   "pct": 18.77
   },
   {
    "candidate": "MOHR, Rohanna",
    "party": "Animal Justice Party",
-   "votes": 122,
-   "pct": 1.96
+   "votes": 156,
+   "pct": 1.86
   },
   {
    "candidate": "BETHI, Bhasker Reddy",
    "party": "The Republican",
-   "votes": 9,
+   "votes": 12,
    "pct": 0.14
   },
   {
    "candidate": "STAFFORD, John",
    "party": "Labour DLP",
-   "votes": 45,
-   "pct": 0.72
+   "votes": 67,
+   "pct": 0.8
   },
   {
    "candidate": "MEDCRAFT, Steve Jack",
    "party": "",
-   "votes": 72,
-   "pct": 1.16
+   "votes": 99,
+   "pct": 1.18
   },
   {
    "candidate": "GRANGER-BROWN, Lauren",
    "party": "The Greens",
-   "votes": 686,
-   "pct": 11.02
+   "votes": 903,
+   "pct": 10.74
   },
   {
    "candidate": "BATRES, Elmer",
    "party": "Family First",
-   "votes": 129,
-   "pct": 2.07
+   "votes": 187,
+   "pct": 2.22
   }
  ],
  "tcp": [
   {
    "candidate": "DABROWSKI, Elita",
    "party": "One Nation Victoria",
-   "votes": 1794,
-   "pct": 54.6
+   "votes": 2120,
+   "pct": 54.01
   },
   {
    "candidate": "BULL, Josh",
    "party": "Australian Labor Party",
-   "votes": 1492,
-   "pct": 45.4
+   "votes": 1805,
+   "pct": 45.99
   }
  ],
  "links": {
   "booths_primary": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sunbury-district-results/Sunbury-District-results-by-voting-centre",
   "booths_tcp": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sunbury-district-results/Sunbury-2CP-results-by-voting-centre"
+ },
+ "booths_primary": {
+  "columns": [
+   "BREMNER, Adam Victorian Socialists",
+   "DABROWSKI, Elita One Nation Victoria",
+   "VINE, Geoff The West Party",
+   "COTTOM, Simmone Liberal",
+   "BULL, Josh Australian Labor Party",
+   "MOHR, Rohanna Animal Justice Party",
+   "BETHI, Bhasker Reddy The Republican",
+   "STAFFORD, John Labour DLP",
+   "MEDCRAFT, Steve Jack",
+   "GRANGER BROWN, Lauren",
+   "BATRES, Elmer Family First",
+   "Informal votes",
+   "Total votes polled"
+  ],
+  "rows": [
+   {
+    "booth": "Total first preference votes",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 586.0,
+     "DABROWSKI, Elita One Nation Victoria": 2398.0,
+     "VINE, Geoff The West Party": 59.0,
+     "COTTOM, Simmone Liberal": 2362.0,
+     "BULL, Josh Australian Labor Party": 1578.0,
+     "MOHR, Rohanna Animal Justice Party": 156.0,
+     "BETHI, Bhasker Reddy The Republican": 12.0,
+     "STAFFORD, John Labour DLP": 67.0,
+     "MEDCRAFT, Steve Jack": 99.0,
+     "GRANGER BROWN, Lauren": 903.0,
+     "BATRES, Elmer Family First": 187.0,
+     "Informal votes": 673.0,
+     "Total votes polled": 9080.0
+    }
+   },
+   {
+    "booth": "Percentage of formal vote polled by candidate",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 6.97,
+     "DABROWSKI, Elita One Nation Victoria": 28.52,
+     "VINE, Geoff The West Party": 0.7,
+     "COTTOM, Simmone Liberal": 28.1,
+     "BULL, Josh Australian Labor Party": 18.77,
+     "MOHR, Rohanna Animal Justice Party": 1.86,
+     "BETHI, Bhasker Reddy The Republican": 0.14,
+     "STAFFORD, John Labour DLP": 0.8,
+     "MEDCRAFT, Steve Jack": 1.18,
+     "GRANGER BROWN, Lauren": 10.74,
+     "BATRES, Elmer Family First": 2.22
+    }
+   },
+   {
+    "booth": "Ordinary votes",
+    "values": {}
+   },
+   {
+    "booth": "Bulla East",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 4.0,
+     "DABROWSKI, Elita One Nation Victoria": 27.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 19.0,
+     "BULL, Josh Australian Labor Party": 14.0,
+     "MOHR, Rohanna Animal Justice Party": 1.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 1.0,
+     "GRANGER BROWN, Lauren": 10.0,
+     "BATRES, Elmer Family First": 1.0,
+     "Informal votes": 5.0,
+     "Total votes polled": 82.0
+    }
+   },
+   {
+    "booth": "Diggers Rest",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Gladstone Park",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Gladstone Views",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 55.0,
+     "DABROWSKI, Elita One Nation Victoria": 236.0,
+     "VINE, Geoff The West Party": 3.0,
+     "COTTOM, Simmone Liberal": 233.0,
+     "BULL, Josh Australian Labor Party": 178.0,
+     "MOHR, Rohanna Animal Justice Party": 11.0,
+     "BETHI, Bhasker Reddy The Republican": 2.0,
+     "STAFFORD, John Labour DLP": 14.0,
+     "MEDCRAFT, Steve Jack": 10.0,
+     "GRANGER BROWN, Lauren": 77.0,
+     "BATRES, Elmer Family First": 14.0,
+     "Informal votes": 104.0,
+     "Total votes polled": 937.0
+    }
+   },
+   {
+    "booth": "Goonawarra",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Jacksons Hill",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 57.0,
+     "DABROWSKI, Elita One Nation Victoria": 156.0,
+     "VINE, Geoff The West Party": 6.0,
+     "COTTOM, Simmone Liberal": 199.0,
+     "BULL, Josh Australian Labor Party": 124.0,
+     "MOHR, Rohanna Animal Justice Party": 12.0,
+     "BETHI, Bhasker Reddy The Republican": 1.0,
+     "STAFFORD, John Labour DLP": 3.0,
+     "MEDCRAFT, Steve Jack": 3.0,
+     "GRANGER BROWN, Lauren": 70.0,
+     "BATRES, Elmer Family First": 8.0,
+     "Informal votes": 38.0,
+     "Total votes polled": 677.0
+    }
+   },
+   {
+    "booth": "Sunbury",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 83.0,
+     "DABROWSKI, Elita One Nation Victoria": 230.0,
+     "VINE, Geoff The West Party": 1.0,
+     "COTTOM, Simmone Liberal": 255.0,
+     "BULL, Josh Australian Labor Party": 148.0,
+     "MOHR, Rohanna Animal Justice Party": 12.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 3.0,
+     "MEDCRAFT, Steve Jack": 7.0,
+     "GRANGER BROWN, Lauren": 76.0,
+     "BATRES, Elmer Family First": 16.0,
+     "Informal votes": 60.0,
+     "Total votes polled": 891.0
+    }
+   },
+   {
+    "booth": "Sunbury Central",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 83.0,
+     "DABROWSKI, Elita One Nation Victoria": 309.0,
+     "VINE, Geoff The West Party": 6.0,
+     "COTTOM, Simmone Liberal": 226.0,
+     "BULL, Josh Australian Labor Party": 144.0,
+     "MOHR, Rohanna Animal Justice Party": 19.0,
+     "BETHI, Bhasker Reddy The Republican": 1.0,
+     "STAFFORD, John Labour DLP": 11.0,
+     "MEDCRAFT, Steve Jack": 21.0,
+     "GRANGER BROWN, Lauren": 113.0,
+     "BATRES, Elmer Family First": 22.0,
+     "Informal votes": 106.0,
+     "Total votes polled": 1061.0
+    }
+   },
+   {
+    "booth": "Sunbury Heights",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 59.0,
+     "DABROWSKI, Elita One Nation Victoria": 213.0,
+     "VINE, Geoff The West Party": 9.0,
+     "COTTOM, Simmone Liberal": 171.0,
+     "BULL, Josh Australian Labor Party": 147.0,
+     "MOHR, Rohanna Animal Justice Party": 18.0,
+     "BETHI, Bhasker Reddy The Republican": 1.0,
+     "STAFFORD, John Labour DLP": 2.0,
+     "MEDCRAFT, Steve Jack": 11.0,
+     "GRANGER BROWN, Lauren": 114.0,
+     "BATRES, Elmer Family First": 22.0,
+     "Informal votes": 43.0,
+     "Total votes polled": 810.0
+    }
+   },
+   {
+    "booth": "Sunbury North",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 60.0,
+     "DABROWSKI, Elita One Nation Victoria": 182.0,
+     "VINE, Geoff The West Party": 2.0,
+     "COTTOM, Simmone Liberal": 188.0,
+     "BULL, Josh Australian Labor Party": 127.0,
+     "MOHR, Rohanna Animal Justice Party": 12.0,
+     "BETHI, Bhasker Reddy The Republican": 1.0,
+     "STAFFORD, John Labour DLP": 4.0,
+     "MEDCRAFT, Steve Jack": 7.0,
+     "GRANGER BROWN, Lauren": 102.0,
+     "BATRES, Elmer Family First": 10.0,
+     "Informal votes": 49.0,
+     "Total votes polled": 744.0
+    }
+   },
+   {
+    "booth": "Sunbury North West",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 60.0,
+     "DABROWSKI, Elita One Nation Victoria": 280.0,
+     "VINE, Geoff The West Party": 16.0,
+     "COTTOM, Simmone Liberal": 193.0,
+     "BULL, Josh Australian Labor Party": 172.0,
+     "MOHR, Rohanna Animal Justice Party": 21.0,
+     "BETHI, Bhasker Reddy The Republican": 2.0,
+     "STAFFORD, John Labour DLP": 3.0,
+     "MEDCRAFT, Steve Jack": 8.0,
+     "GRANGER BROWN, Lauren": 118.0,
+     "BATRES, Elmer Family First": 16.0,
+     "Informal votes": 29.0,
+     "Total votes polled": 918.0
+    }
+   },
+   {
+    "booth": "Sunbury West",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Tullamarine",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 79.0,
+     "DABROWSKI, Elita One Nation Victoria": 331.0,
+     "VINE, Geoff The West Party": 8.0,
+     "COTTOM, Simmone Liberal": 351.0,
+     "BULL, Josh Australian Labor Party": 236.0,
+     "MOHR, Rohanna Animal Justice Party": 14.0,
+     "BETHI, Bhasker Reddy The Republican": 2.0,
+     "STAFFORD, John Labour DLP": 12.0,
+     "MEDCRAFT, Steve Jack": 9.0,
+     "GRANGER BROWN, Lauren": 126.0,
+     "BATRES, Elmer Family First": 37.0,
+     "Informal votes": 156.0,
+     "Total votes polled": 1361.0
+    }
+   },
+   {
+    "booth": "Westmeadows",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 5.0,
+     "DABROWSKI, Elita One Nation Victoria": 35.0,
+     "VINE, Geoff The West Party": 1.0,
+     "COTTOM, Simmone Liberal": 23.0,
+     "BULL, Josh Australian Labor Party": 20.0,
+     "MOHR, Rohanna Animal Justice Party": 4.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 1.0,
+     "MEDCRAFT, Steve Jack": 1.0,
+     "GRANGER BROWN, Lauren": 12.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 20.0,
+     "Total votes polled": 122.0
+    }
+   },
+   {
+    "booth": "Ordinary votes total",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 545.0,
+     "DABROWSKI, Elita One Nation Victoria": 1999.0,
+     "VINE, Geoff The West Party": 52.0,
+     "COTTOM, Simmone Liberal": 1858.0,
+     "BULL, Josh Australian Labor Party": 1310.0,
+     "MOHR, Rohanna Animal Justice Party": 124.0,
+     "BETHI, Bhasker Reddy The Republican": 10.0,
+     "STAFFORD, John Labour DLP": 53.0,
+     "MEDCRAFT, Steve Jack": 78.0,
+     "GRANGER BROWN, Lauren": 818.0,
+     "BATRES, Elmer Family First": 146.0,
+     "Informal votes": 610.0,
+     "Total votes polled": 7603.0
+    }
+   },
+   {
+    "booth": "Early voting centres",
+    "values": {}
+   },
+   {
+    "booth": "Greenvale - EVC 3",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sunbury - EVC 1",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sunbury - EVC 2",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sunbury - EVC 3",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Sunbury - MEVC",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Other early votes",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Early votes total",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes",
+    "values": {}
+   },
+   {
+    "booth": "Absent votes",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Marked as voted votes",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Postal votes",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 41.0,
+     "DABROWSKI, Elita One Nation Victoria": 399.0,
+     "VINE, Geoff The West Party": 7.0,
+     "COTTOM, Simmone Liberal": 504.0,
+     "BULL, Josh Australian Labor Party": 268.0,
+     "MOHR, Rohanna Animal Justice Party": 32.0,
+     "BETHI, Bhasker Reddy The Republican": 2.0,
+     "STAFFORD, John Labour DLP": 14.0,
+     "MEDCRAFT, Steve Jack": 21.0,
+     "GRANGER BROWN, Lauren": 85.0,
+     "BATRES, Elmer Family First": 41.0,
+     "Informal votes": 63.0,
+     "Total votes polled": 1477.0
+    }
+   },
+   {
+    "booth": "Provisional votes",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 0.0,
+     "DABROWSKI, Elita One Nation Victoria": 0.0,
+     "VINE, Geoff The West Party": 0.0,
+     "COTTOM, Simmone Liberal": 0.0,
+     "BULL, Josh Australian Labor Party": 0.0,
+     "MOHR, Rohanna Animal Justice Party": 0.0,
+     "BETHI, Bhasker Reddy The Republican": 0.0,
+     "STAFFORD, John Labour DLP": 0.0,
+     "MEDCRAFT, Steve Jack": 0.0,
+     "GRANGER BROWN, Lauren": 0.0,
+     "BATRES, Elmer Family First": 0.0,
+     "Informal votes": 0.0,
+     "Total votes polled": 0.0
+    }
+   },
+   {
+    "booth": "Declaration votes total",
+    "values": {
+     "BREMNER, Adam Victorian Socialists": 41.0,
+     "DABROWSKI, Elita One Nation Victoria": 399.0,
+     "VINE, Geoff The West Party": 7.0,
+     "COTTOM, Simmone Liberal": 504.0,
+     "BULL, Josh Australian Labor Party": 268.0,
+     "MOHR, Rohanna Animal Justice Party": 32.0,
+     "BETHI, Bhasker Reddy The Republican": 2.0,
+     "STAFFORD, John Labour DLP": 14.0,
+     "MEDCRAFT, Steve Jack": 21.0,
+     "GRANGER BROWN, Lauren": 85.0,
+     "BATRES, Elmer Family First": 41.0,
+     "Informal votes": 63.0,
+     "Total votes polled": 1477.0
+    }
+   }
+  ]
  }
 }

@@ -3,80 +3,83 @@
  "name": "Shepparton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/shepparton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T09:43:31+00:00",
+ "fetched_at": "2026-11-28T10:26:54+00:00",
  "title": "Shepparton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 20:40:14",
+ "last_updated": "Saturday, 28 November 2026 21:25:15",
  "enrolment": 52626,
- "counted_pct": 6.72,
+ "formal": 17075,
+ "informal": 1267,
+ "total_votes": 18342,
+ "counted_pct": 34.85,
  "notes": [],
  "primary": [
   {
    "candidate": "SALI, Shane",
    "party": "The Nationals",
-   "votes": 6137,
-   "pct": 40.88
+   "votes": 6811,
+   "pct": 39.89
   },
   {
    "candidate": "WHITE, Alison",
    "party": "Family First",
-   "votes": 245,
-   "pct": 1.63
+   "votes": 282,
+   "pct": 1.65
   },
   {
    "candidate": "VERNEY, Grace",
    "party": "The Greens",
-   "votes": 550,
-   "pct": 3.66
+   "votes": 688,
+   "pct": 4.03
   },
   {
    "candidate": "HOCKING, Karen",
    "party": "Victorian Socialists",
-   "votes": 175,
+   "votes": 199,
    "pct": 1.17
   },
   {
    "candidate": "COSTA, Lou",
    "party": "",
-   "votes": 1839,
-   "pct": 12.25
+   "votes": 2034,
+   "pct": 11.91
   },
   {
    "candidate": "FIN, Cayla",
    "party": "Australian Labor Party",
-   "votes": 646,
-   "pct": 4.3
+   "votes": 814,
+   "pct": 4.77
   },
   {
    "candidate": "BRYANT, Phillip",
    "party": "One Nation Victoria",
-   "votes": 5181,
-   "pct": 34.51
+   "votes": 5976,
+   "pct": 35.0
   },
   {
    "candidate": "MURPHY-GINGER, Faith",
    "party": "Animal Justice Party",
-   "votes": 140,
-   "pct": 0.93
+   "votes": 165,
+   "pct": 0.97
   },
   {
    "candidate": "VARKEY, Johnson",
    "party": "",
-   "votes": 99,
-   "pct": 0.66
+   "votes": 106,
+   "pct": 0.62
   }
  ],
  "tcp": [
   {
    "candidate": "SALI, Shane",
    "party": "The Nationals",
-   "votes": 3634,
-   "pct": 59.02
+   "votes": 6732,
+   "pct": 57.99
   },
   {
    "candidate": "BRYANT, Phillip",
    "party": "One Nation Victoria",
-   "votes": 2523,
-   "pct": 40.98
+   "votes": 4876,
+   "pct": 42.01
   }
  ],
  "links": {
