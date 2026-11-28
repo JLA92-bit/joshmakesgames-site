@@ -3,87 +3,87 @@
  "name": "North Eastern Metropolitan Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:44:45+00:00",
+ "fetched_at": "2026-11-28T10:50:50+00:00",
  "title": "North-Eastern Victoria Region election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:11",
+ "last_updated": "Saturday, 28 November 2026 21:50:10",
  "enrolment": 566998,
- "formal": 25497,
- "informal": 879,
- "total_votes": 26376,
- "counted_pct": 4.65,
+ "formal": 31196,
+ "informal": 1066,
+ "total_votes": 32262,
+ "counted_pct": 5.69,
  "notes": [],
  "primary": [
   {
    "candidate": "Legalise Cannabis Victoria",
    "party": "Legalise Cannabis Victoria",
-   "votes": 835,
-   "pct": 3.27
+   "votes": 997,
+   "pct": 3.2
   },
   {
    "candidate": "Victorian Socialists",
    "party": "Victorian Socialists",
-   "votes": 923,
-   "pct": 3.62
+   "votes": 1106,
+   "pct": 3.55
   },
   {
    "candidate": "Australian Labor Party",
    "party": "Australian Labor Party",
-   "votes": 4707,
-   "pct": 18.46
+   "votes": 5626,
+   "pct": 18.03
   },
   {
    "candidate": "Affordable Housing Now – Sustainable Australia Party",
    "party": "Affordable Housing Now – Sustainable Australia Party",
-   "votes": 323,
-   "pct": 1.27
+   "votes": 384,
+   "pct": 1.23
   },
   {
    "candidate": "Labour DLP",
    "party": "Labour DLP",
-   "votes": 189,
-   "pct": 0.74
+   "votes": 235,
+   "pct": 0.75
   },
   {
    "candidate": "Family First",
    "party": "Family First",
-   "votes": 519,
-   "pct": 2.04
+   "votes": 648,
+   "pct": 2.08
   },
   {
    "candidate": "One Nation Victoria",
    "party": "One Nation Victoria",
-   "votes": 3643,
-   "pct": 14.29
+   "votes": 4635,
+   "pct": 14.86
   },
   {
    "candidate": "Liberal",
    "party": "Liberal",
-   "votes": 9095,
-   "pct": 35.67
+   "votes": 11291,
+   "pct": 36.19
   },
   {
    "candidate": "Libertarian (formerly Liberal Democrats)",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 142,
-   "pct": 0.56
+   "votes": 179,
+   "pct": 0.57
   },
   {
    "candidate": "Group J",
    "party": "Group J",
-   "votes": 90,
-   "pct": 0.35
+   "votes": 123,
+   "pct": 0.39
   },
   {
    "candidate": "The Greens",
    "party": "The Greens",
-   "votes": 4842,
-   "pct": 18.99
+   "votes": 5738,
+   "pct": 18.39
   },
   {
    "candidate": "Australian Democrats",
    "party": "Australian Democrats",
-   "votes": 189,
-   "pct": 0.74
+   "votes": 234,
+   "pct": 0.75
   }
  ],
  "links": {

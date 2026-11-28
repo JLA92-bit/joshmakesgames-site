@@ -3,57 +3,57 @@
  "name": "Hawthorn",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hawthorn-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:47:59+00:00",
+ "fetched_at": "2026-11-28T10:50:38+00:00",
  "title": "| Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:45:07",
+ "last_updated": "Saturday, 28 November 2026 21:50:07",
  "enrolment": 51920,
- "formal": 13139,
- "informal": 393,
- "total_votes": 13532,
- "counted_pct": 26.06,
+ "formal": 13636,
+ "informal": 414,
+ "total_votes": 14050,
+ "counted_pct": 27.06,
  "notes": [],
  "primary": [
   {
    "candidate": "CROSBY, Clive",
    "party": "Australian Labor Party",
-   "votes": 1040,
-   "pct": 7.92
+   "votes": 1079,
+   "pct": 7.91
   },
   {
    "candidate": "ROCHA, Kylie",
    "party": "The Greens",
-   "votes": 1291,
-   "pct": 9.83
+   "votes": 1346,
+   "pct": 9.87
   },
   {
    "candidate": "IBUKI, Shima",
    "party": "",
-   "votes": 3409,
-   "pct": 25.95
+   "votes": 3519,
+   "pct": 25.81
   },
   {
    "candidate": "PRIBILOVICS, Paul",
    "party": "One Nation Victoria",
-   "votes": 689,
-   "pct": 5.24
+   "votes": 724,
+   "pct": 5.31
   },
   {
    "candidate": "NICOLL, Adam",
    "party": "Family First",
-   "votes": 90,
-   "pct": 0.68
+   "votes": 102,
+   "pct": 0.75
   },
   {
    "candidate": "McENEARNEY, Tess",
    "party": "Victorian Socialists",
-   "votes": 325,
-   "pct": 2.47
+   "votes": 339,
+   "pct": 2.49
   },
   {
    "candidate": "PESUTTO, John",
    "party": "Liberal",
-   "votes": 6295,
-   "pct": 47.91
+   "votes": 6527,
+   "pct": 47.87
   }
  ],
  "tcp": [

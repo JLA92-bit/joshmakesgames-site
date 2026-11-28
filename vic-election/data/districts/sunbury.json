@@ -3,81 +3,81 @@
  "name": "Sunbury",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/sunbury-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:47:45+00:00",
+ "fetched_at": "2026-11-28T10:50:25+00:00",
  "title": "Sunbury election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:45:15",
+ "last_updated": "Saturday, 28 November 2026 21:50:15",
  "enrolment": 51664,
- "formal": 8407,
- "informal": 673,
- "total_votes": 9080,
- "counted_pct": 17.58,
+ "formal": 10580,
+ "informal": 824,
+ "total_votes": 11404,
+ "counted_pct": 22.07,
  "notes": [],
  "primary": [
   {
    "candidate": "BREMNER, Adam",
    "party": "Victorian Socialists",
-   "votes": 586,
-   "pct": 6.97
+   "votes": 758,
+   "pct": 7.16
   },
   {
    "candidate": "DABROWSKI, Elita",
    "party": "One Nation Victoria",
-   "votes": 2398,
-   "pct": 28.52
+   "votes": 3136,
+   "pct": 29.64
   },
   {
    "candidate": "VINE, Geoff",
    "party": "The West Party",
-   "votes": 59,
-   "pct": 0.7
+   "votes": 65,
+   "pct": 0.61
   },
   {
    "candidate": "COTTOM, Simmone",
    "party": "Liberal",
-   "votes": 2362,
-   "pct": 28.1
+   "votes": 2862,
+   "pct": 27.05
   },
   {
    "candidate": "BULL, Josh",
    "party": "Australian Labor Party",
-   "votes": 1578,
-   "pct": 18.77
+   "votes": 1920,
+   "pct": 18.15
   },
   {
    "candidate": "MOHR, Rohanna",
    "party": "Animal Justice Party",
-   "votes": 156,
-   "pct": 1.86
+   "votes": 205,
+   "pct": 1.94
   },
   {
    "candidate": "BETHI, Bhasker Reddy",
    "party": "The Republican",
-   "votes": 12,
-   "pct": 0.14
+   "votes": 19,
+   "pct": 0.18
   },
   {
    "candidate": "STAFFORD, John",
    "party": "Labour DLP",
-   "votes": 67,
-   "pct": 0.8
+   "votes": 86,
+   "pct": 0.81
   },
   {
    "candidate": "MEDCRAFT, Steve Jack",
    "party": "",
-   "votes": 99,
-   "pct": 1.18
+   "votes": 137,
+   "pct": 1.29
   },
   {
    "candidate": "GRANGER-BROWN, Lauren",
    "party": "The Greens",
-   "votes": 903,
-   "pct": 10.74
+   "votes": 1161,
+   "pct": 10.97
   },
   {
    "candidate": "BATRES, Elmer",
    "party": "Family First",
-   "votes": 187,
-   "pct": 2.22
+   "votes": 231,
+   "pct": 2.18
   }
  ],
  "tcp": [
@@ -118,35 +118,35 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "BREMNER, Adam Victorian Socialists": 586.0,
-     "DABROWSKI, Elita One Nation Victoria": 2398.0,
-     "VINE, Geoff The West Party": 59.0,
-     "COTTOM, Simmone Liberal": 2362.0,
-     "BULL, Josh Australian Labor Party": 1578.0,
-     "MOHR, Rohanna Animal Justice Party": 156.0,
-     "BETHI, Bhasker Reddy The Republican": 12.0,
-     "STAFFORD, John Labour DLP": 67.0,
-     "MEDCRAFT, Steve Jack": 99.0,
-     "GRANGER BROWN, Lauren": 903.0,
-     "BATRES, Elmer Family First": 187.0,
-     "Informal votes": 673.0,
-     "Total votes polled": 9080.0
+     "BREMNER, Adam Victorian Socialists": 758.0,
+     "DABROWSKI, Elita One Nation Victoria": 3136.0,
+     "VINE, Geoff The West Party": 65.0,
+     "COTTOM, Simmone Liberal": 2862.0,
+     "BULL, Josh Australian Labor Party": 1920.0,
+     "MOHR, Rohanna Animal Justice Party": 205.0,
+     "BETHI, Bhasker Reddy The Republican": 19.0,
+     "STAFFORD, John Labour DLP": 86.0,
+     "MEDCRAFT, Steve Jack": 137.0,
+     "GRANGER BROWN, Lauren": 1161.0,
+     "BATRES, Elmer Family First": 231.0,
+     "Informal votes": 824.0,
+     "Total votes polled": 11404.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "BREMNER, Adam Victorian Socialists": 6.97,
-     "DABROWSKI, Elita One Nation Victoria": 28.52,
-     "VINE, Geoff The West Party": 0.7,
-     "COTTOM, Simmone Liberal": 28.1,
-     "BULL, Josh Australian Labor Party": 18.77,
-     "MOHR, Rohanna Animal Justice Party": 1.86,
-     "BETHI, Bhasker Reddy The Republican": 0.14,
-     "STAFFORD, John Labour DLP": 0.8,
-     "MEDCRAFT, Steve Jack": 1.18,
-     "GRANGER BROWN, Lauren": 10.74,
-     "BATRES, Elmer Family First": 2.22
+     "BREMNER, Adam Victorian Socialists": 7.16,
+     "DABROWSKI, Elita One Nation Victoria": 29.64,
+     "VINE, Geoff The West Party": 0.61,
+     "COTTOM, Simmone Liberal": 27.05,
+     "BULL, Josh Australian Labor Party": 18.15,
+     "MOHR, Rohanna Animal Justice Party": 1.94,
+     "BETHI, Bhasker Reddy The Republican": 0.18,
+     "STAFFORD, John Labour DLP": 0.81,
+     "MEDCRAFT, Steve Jack": 1.29,
+     "GRANGER BROWN, Lauren": 10.97,
+     "BATRES, Elmer Family First": 2.18
     }
    },
    {
@@ -228,19 +228,19 @@
    {
     "booth": "Goonawarra",
     "values": {
-     "BREMNER, Adam Victorian Socialists": 0.0,
-     "DABROWSKI, Elita One Nation Victoria": 0.0,
-     "VINE, Geoff The West Party": 0.0,
-     "COTTOM, Simmone Liberal": 0.0,
-     "BULL, Josh Australian Labor Party": 0.0,
-     "MOHR, Rohanna Animal Justice Party": 0.0,
-     "BETHI, Bhasker Reddy The Republican": 0.0,
-     "STAFFORD, John Labour DLP": 0.0,
-     "MEDCRAFT, Steve Jack": 0.0,
-     "GRANGER BROWN, Lauren": 0.0,
-     "BATRES, Elmer Family First": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "BREMNER, Adam Victorian Socialists": 107.0,
+     "DABROWSKI, Elita One Nation Victoria": 477.0,
+     "VINE, Geoff The West Party": 5.0,
+     "COTTOM, Simmone Liberal": 312.0,
+     "BULL, Josh Australian Labor Party": 224.0,
+     "MOHR, Rohanna Animal Justice Party": 35.0,
+     "BETHI, Bhasker Reddy The Republican": 4.0,
+     "STAFFORD, John Labour DLP": 10.0,
+     "MEDCRAFT, Steve Jack": 30.0,
+     "GRANGER BROWN, Lauren": 176.0,
+     "BATRES, Elmer Family First": 27.0,
+     "Informal votes": 92.0,
+     "Total votes polled": 1499.0
     }
    },
    {
@@ -354,19 +354,19 @@
    {
     "booth": "Sunbury West",
     "values": {
-     "BREMNER, Adam Victorian Socialists": 0.0,
-     "DABROWSKI, Elita One Nation Victoria": 0.0,
-     "VINE, Geoff The West Party": 0.0,
-     "COTTOM, Simmone Liberal": 0.0,
-     "BULL, Josh Australian Labor Party": 0.0,
-     "MOHR, Rohanna Animal Justice Party": 0.0,
-     "BETHI, Bhasker Reddy The Republican": 0.0,
-     "STAFFORD, John Labour DLP": 0.0,
-     "MEDCRAFT, Steve Jack": 0.0,
-     "GRANGER BROWN, Lauren": 0.0,
-     "BATRES, Elmer Family First": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "BREMNER, Adam Victorian Socialists": 65.0,
+     "DABROWSKI, Elita One Nation Victoria": 261.0,
+     "VINE, Geoff The West Party": 1.0,
+     "COTTOM, Simmone Liberal": 188.0,
+     "BULL, Josh Australian Labor Party": 118.0,
+     "MOHR, Rohanna Animal Justice Party": 14.0,
+     "BETHI, Bhasker Reddy The Republican": 3.0,
+     "STAFFORD, John Labour DLP": 9.0,
+     "MEDCRAFT, Steve Jack": 8.0,
+     "GRANGER BROWN, Lauren": 82.0,
+     "BATRES, Elmer Family First": 17.0,
+     "Informal votes": 59.0,
+     "Total votes polled": 825.0
     }
    },
    {
@@ -408,19 +408,19 @@
    {
     "booth": "Ordinary votes total",
     "values": {
-     "BREMNER, Adam Victorian Socialists": 545.0,
-     "DABROWSKI, Elita One Nation Victoria": 1999.0,
-     "VINE, Geoff The West Party": 52.0,
-     "COTTOM, Simmone Liberal": 1858.0,
-     "BULL, Josh Australian Labor Party": 1310.0,
-     "MOHR, Rohanna Animal Justice Party": 124.0,
-     "BETHI, Bhasker Reddy The Republican": 10.0,
-     "STAFFORD, John Labour DLP": 53.0,
-     "MEDCRAFT, Steve Jack": 78.0,
-     "GRANGER BROWN, Lauren": 818.0,
-     "BATRES, Elmer Family First": 146.0,
-     "Informal votes": 610.0,
-     "Total votes polled": 7603.0
+     "BREMNER, Adam Victorian Socialists": 717.0,
+     "DABROWSKI, Elita One Nation Victoria": 2737.0,
+     "VINE, Geoff The West Party": 58.0,
+     "COTTOM, Simmone Liberal": 2358.0,
+     "BULL, Josh Australian Labor Party": 1652.0,
+     "MOHR, Rohanna Animal Justice Party": 173.0,
+     "BETHI, Bhasker Reddy The Republican": 17.0,
+     "STAFFORD, John Labour DLP": 72.0,
+     "MEDCRAFT, Steve Jack": 116.0,
+     "GRANGER BROWN, Lauren": 1076.0,
+     "BATRES, Elmer Family First": 190.0,
+     "Informal votes": 761.0,
+     "Total votes polled": 9927.0
     }
    },
    {

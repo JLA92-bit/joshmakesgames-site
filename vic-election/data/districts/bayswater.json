@@ -3,77 +3,77 @@
  "name": "Bayswater",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bayswater-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:41:57+00:00",
+ "fetched_at": "2026-11-28T10:50:30+00:00",
  "title": "Bayswater election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:02",
+ "last_updated": "Saturday, 28 November 2026 21:50:02",
  "enrolment": 51511,
- "formal": 11861,
- "informal": 828,
- "total_votes": 12689,
- "counted_pct": 24.63,
+ "formal": 13285,
+ "informal": 885,
+ "total_votes": 14170,
+ "counted_pct": 27.51,
  "notes": [],
  "primary": [
   {
    "candidate": "BLEAKNEY, Kayte",
    "party": "One Nation Victoria",
-   "votes": 2517,
-   "pct": 21.22
+   "votes": 2768,
+   "pct": 20.84
   },
   {
    "candidate": "KENNEDY, Jess",
    "party": "The Greens",
-   "votes": 2056,
-   "pct": 17.33
+   "votes": 2155,
+   "pct": 16.22
   },
   {
    "candidate": "BUXTON, Julie",
    "party": "Australian Labor Party",
-   "votes": 2259,
-   "pct": 19.05
+   "votes": 2526,
+   "pct": 19.01
   },
   {
    "candidate": "KITCHEN, David",
    "party": "Liberal",
-   "votes": 3943,
-   "pct": 33.24
+   "votes": 4678,
+   "pct": 35.21
   },
   {
    "candidate": "CLARKE, Mathew",
    "party": "",
-   "votes": 191,
-   "pct": 1.61
+   "votes": 204,
+   "pct": 1.54
   },
   {
    "candidate": "HUBBARD, Naomi",
    "party": "Labour DLP",
-   "votes": 72,
-   "pct": 0.61
+   "votes": 78,
+   "pct": 0.59
   },
   {
    "candidate": "FERGUSON, Alec",
    "party": "Victorian Socialists",
-   "votes": 487,
-   "pct": 4.11
+   "votes": 503,
+   "pct": 3.79
   },
   {
    "candidate": "COOMBES, Gary",
    "party": "Family First",
-   "votes": 336,
-   "pct": 2.83
+   "votes": 373,
+   "pct": 2.81
   }
  ],
  "tcp": [
   {
    "candidate": "BUXTON, Julie",
    "party": "Australian Labor Party",
-   "votes": 4813,
-   "pct": 40.63
+   "votes": 5213,
+   "pct": 39.28
   },
   {
    "candidate": "KITCHEN, David",
    "party": "Liberal",
-   "votes": 7033,
-   "pct": 59.37
+   "votes": 8057,
+   "pct": 60.72
   }
  ],
  "links": {

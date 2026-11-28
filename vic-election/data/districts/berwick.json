@@ -3,20 +3,20 @@
  "name": "Berwick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/berwick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:42:01+00:00",
+ "fetched_at": "2026-11-28T10:50:32+00:00",
  "title": "Berwick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:40:02",
+ "last_updated": "Saturday, 28 November 2026 21:50:02",
  "enrolment": 67010,
- "formal": 14113,
+ "formal": 14114,
  "informal": 971,
- "total_votes": 15084,
+ "total_votes": 15085,
  "counted_pct": 22.51,
  "notes": [],
  "primary": [
   {
    "candidate": "KHAN, Rana",
    "party": "Australian Labor Party",
-   "votes": 2334,
+   "votes": 2335,
    "pct": 16.54
   },
   {
@@ -41,7 +41,7 @@
    "candidate": "BATTIN, Brad",
    "party": "Liberal",
    "votes": 6102,
-   "pct": 43.24
+   "pct": 43.23
   },
   {
    "candidate": "DOWLING, Scott",
@@ -72,14 +72,14 @@
   {
    "candidate": "KHAN, Rana",
    "party": "Australian Labor Party",
-   "votes": 3126,
-   "pct": 31.0
+   "votes": 3565,
+   "pct": 31.47
   },
   {
    "candidate": "BATTIN, Brad",
    "party": "Liberal",
-   "votes": 6959,
-   "pct": 69.0
+   "votes": 7765,
+   "pct": 68.53
   }
  ],
  "links": {

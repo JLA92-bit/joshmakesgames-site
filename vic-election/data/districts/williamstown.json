@@ -3,69 +3,69 @@
  "name": "Williamstown",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/williamstown-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T10:48:07+00:00",
+ "fetched_at": "2026-11-28T10:50:47+00:00",
  "title": "Williamstown election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 21:45:16",
+ "last_updated": "Saturday, 28 November 2026 21:50:16",
  "enrolment": 50405,
- "formal": 6810,
- "informal": 431,
- "total_votes": 7241,
- "counted_pct": 14.37,
+ "formal": 9112,
+ "informal": 532,
+ "total_votes": 9644,
+ "counted_pct": 19.13,
  "notes": [],
  "primary": [
   {
    "candidate": "MARTIN, Oskar",
    "party": "Victorian Socialists",
-   "votes": 591,
-   "pct": 8.68
+   "votes": 674,
+   "pct": 7.4
   },
   {
    "candidate": "HOCKING, Ben",
    "party": "The Greens",
-   "votes": 1394,
-   "pct": 20.47
+   "votes": 1625,
+   "pct": 17.83
   },
   {
    "candidate": "O'REGAN, Bruce",
    "party": "Family First",
-   "votes": 95,
-   "pct": 1.4
+   "votes": 126,
+   "pct": 1.38
   },
   {
    "candidate": "LOUGHNAN, Catherine",
    "party": "One Nation Victoria",
-   "votes": 860,
-   "pct": 12.63
+   "votes": 1310,
+   "pct": 14.38
   },
   {
    "candidate": "YARRA, Sagar Reddy",
    "party": "The Republican",
-   "votes": 8,
-   "pct": 0.12
+   "votes": 12,
+   "pct": 0.13
   },
   {
    "candidate": "GANNON, Gill",
    "party": "The West Party",
-   "votes": 606,
-   "pct": 8.9
+   "votes": 786,
+   "pct": 8.63
   },
   {
    "candidate": "HORNE, Melissa",
    "party": "Australian Labor Party",
-   "votes": 1518,
-   "pct": 22.29
+   "votes": 2025,
+   "pct": 22.22
   },
   {
    "candidate": "BRIFFA, Tony",
    "party": "",
-   "votes": 534,
-   "pct": 7.84
+   "votes": 733,
+   "pct": 8.04
   },
   {
    "candidate": "LINDEMANN, Paul",
    "party": "Liberal",
-   "votes": 1204,
-   "pct": 17.68
+   "votes": 1821,
+   "pct": 19.98
   }
  ],
  "tcp": [
