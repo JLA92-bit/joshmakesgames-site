@@ -3,9 +3,9 @@
  "name": "Wendouree",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/wendouree-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:20:42+00:00",
+ "fetched_at": "2026-11-28T11:35:37+00:00",
  "title": "Wendouree election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:15",
+ "last_updated": "Saturday, 28 November 2026 22:35:15",
  "enrolment": 53581,
  "formal": 20517,
  "informal": 869,
@@ -60,14 +60,14 @@
   {
    "candidate": "ADDISON, Juliana",
    "party": "Australian Labor Party",
-   "votes": 5421,
-   "pct": 48.94
+   "votes": 5950,
+   "pct": 49.34
   },
   {
    "candidate": "RONAN, Gav",
    "party": "Liberal",
-   "votes": 5656,
-   "pct": 51.06
+   "votes": 6108,
+   "pct": 50.66
   }
  ],
  "links": {

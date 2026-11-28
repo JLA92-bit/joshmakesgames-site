@@ -3,13 +3,13 @@
  "name": "Broadmeadows",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/broadmeadows-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:26:52+00:00",
+ "fetched_at": "2026-11-28T11:35:25+00:00",
  "title": "Broadmeadows election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:25:02",
+ "last_updated": "Saturday, 28 November 2026 22:35:02",
  "enrolment": 51575,
- "formal": 11610,
+ "formal": 11611,
  "informal": 1373,
- "total_votes": 12983,
+ "total_votes": 12984,
  "counted_pct": 25.17,
  "notes": [],
  "primary": [
@@ -70,7 +70,7 @@
   {
    "candidate": "BOLTON, Sue",
    "party": "Socialist Alliance",
-   "votes": 580,
+   "votes": 581,
    "pct": 5.0
   }
  ],

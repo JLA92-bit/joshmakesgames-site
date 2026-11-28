@@ -3,9 +3,9 @@
  "name": "Pascoe Vale",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pascoe-vale-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:20:39+00:00",
+ "fetched_at": "2026-11-28T11:35:34+00:00",
  "title": "Pascoe Vale election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:12",
+ "last_updated": "Saturday, 28 November 2026 22:35:13",
  "enrolment": 52169,
  "formal": 13198,
  "informal": 747,
@@ -78,14 +78,14 @@
   {
    "candidate": "CIANFLONE, Anthony",
    "party": "Australian Labor Party",
-   "votes": 3978,
-   "pct": 44.68
+   "votes": 4094,
+   "pct": 44.51
   },
   {
    "candidate": "PANOPOULOS, Angelica",
    "party": "The Greens",
-   "votes": 4925,
-   "pct": 55.32
+   "votes": 5103,
+   "pct": 55.49
   }
  ],
  "links": {

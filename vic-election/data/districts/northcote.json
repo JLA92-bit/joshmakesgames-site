@@ -3,14 +3,14 @@
  "name": "Northcote",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/northcote-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:20:37+00:00",
+ "fetched_at": "2026-11-28T11:35:34+00:00",
  "title": "Northcote election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:20:11",
+ "last_updated": "Saturday, 28 November 2026 22:35:11",
  "enrolment": 53893,
- "formal": 14343,
- "informal": 624,
- "total_votes": 14967,
- "counted_pct": 27.77,
+ "formal": 14349,
+ "informal": 625,
+ "total_votes": 14974,
+ "counted_pct": 27.78,
  "notes": [],
  "primary": [
   {
@@ -29,7 +29,7 @@
    "candidate": "LARKIN, Kath",
    "party": "Victorian Socialists",
    "votes": 2174,
-   "pct": 15.16
+   "pct": 15.15
   },
   {
    "candidate": "PILLEY, Clive",
@@ -40,26 +40,26 @@
   {
    "candidate": "HILLMAN, Ian",
    "party": "",
-   "votes": 171,
-   "pct": 1.19
+   "votes": 170,
+   "pct": 1.18
   },
   {
    "candidate": "BRADBURY, Christopher",
    "party": "One Nation Victoria",
-   "votes": 701,
-   "pct": 4.89
+   "votes": 703,
+   "pct": 4.9
   },
   {
    "candidate": "AWAD, Lynda",
    "party": "Liberal",
-   "votes": 2064,
-   "pct": 14.39
+   "votes": 2066,
+   "pct": 14.4
   },
   {
    "candidate": "THEOPHANOUS, Kat",
    "party": "Australian Labor Party",
-   "votes": 3423,
-   "pct": 23.87
+   "votes": 3424,
+   "pct": 23.86
   },
   {
    "candidate": "KAFEL, Hannah",
@@ -70,7 +70,7 @@
   {
    "candidate": "GOME, Campbell",
    "party": "The Greens",
-   "votes": 5501,
+   "votes": 5503,
    "pct": 38.35
   }
  ],
@@ -78,14 +78,14 @@
   {
    "candidate": "THEOPHANOUS, Kat",
    "party": "Australian Labor Party",
-   "votes": 4259,
-   "pct": 38.05
+   "votes": 5089,
+   "pct": 38.54
   },
   {
    "candidate": "GOME, Campbell",
    "party": "The Greens",
-   "votes": 6935,
-   "pct": 61.95
+   "votes": 8116,
+   "pct": 61.46
   }
  ],
  "links": {
