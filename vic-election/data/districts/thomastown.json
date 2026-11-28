@@ -3,51 +3,51 @@
  "name": "Thomastown",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/thomastown-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:49:38+00:00",
+ "fetched_at": "2026-11-28T15:59:35+00:00",
  "title": "Thomastown election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:45:14",
+ "last_updated": "Sunday, 29 November 2026 02:55:14",
  "enrolment": 56190,
- "formal": 15265,
- "informal": 882,
- "total_votes": 16147,
- "counted_pct": 28.74,
+ "formal": 29409,
+ "informal": 1532,
+ "total_votes": 30941,
+ "counted_pct": 55.06,
  "notes": [],
  "primary": [
   {
    "candidate": "RANCIE, Rob",
    "party": "Family First",
-   "votes": 620,
-   "pct": 4.06
+   "votes": 1144,
+   "pct": 3.89
   },
   {
    "candidate": "STOJCEVSKI, Belinda",
    "party": "Liberal",
-   "votes": 4003,
-   "pct": 26.22
+   "votes": 8158,
+   "pct": 27.74
   },
   {
    "candidate": "ANTHONY, Nadia",
    "party": "One Nation Victoria",
-   "votes": 3072,
-   "pct": 20.12
+   "votes": 5912,
+   "pct": 20.1
   },
   {
    "candidate": "REDDY, Priya",
    "party": "Victorian Socialists",
-   "votes": 1658,
-   "pct": 10.86
+   "votes": 3256,
+   "pct": 11.07
   },
   {
    "candidate": "HALFPENNY, Bronwyn",
    "party": "Australian Labor Party",
-   "votes": 4297,
-   "pct": 28.15
+   "votes": 7947,
+   "pct": 27.02
   },
   {
    "candidate": "TREWELLA, Gavin",
    "party": "The Greens",
-   "votes": 1615,
-   "pct": 10.58
+   "votes": 2992,
+   "pct": 10.17
   }
  ],
  "tcp": [

@@ -3,63 +3,63 @@
  "name": "South Barwon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/south-barwon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T15:49:36+00:00",
+ "fetched_at": "2026-11-28T15:59:32+00:00",
  "title": "South Barwon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 02:45:13",
+ "last_updated": "Sunday, 29 November 2026 02:55:13",
  "enrolment": 61036,
- "formal": 28036,
- "informal": 1447,
- "total_votes": 29483,
- "counted_pct": 48.3,
+ "formal": 36379,
+ "informal": 1729,
+ "total_votes": 38108,
+ "counted_pct": 62.44,
  "notes": [],
  "primary": [
   {
    "candidate": "THISTLETON, Rebecca",
    "party": "Australian Labor Party",
-   "votes": 4831,
-   "pct": 17.23
+   "votes": 6249,
+   "pct": 17.18
   },
   {
    "candidate": "NELSON, Ron",
    "party": "",
-   "votes": 1713,
-   "pct": 6.11
+   "votes": 2061,
+   "pct": 5.67
   },
   {
    "candidate": "BARRON, Alan",
    "party": "Family First",
-   "votes": 539,
-   "pct": 1.92
+   "votes": 690,
+   "pct": 1.9
   },
   {
    "candidate": "HEDLEY, Freya",
    "party": "Socialist Alliance",
-   "votes": 225,
+   "votes": 292,
    "pct": 0.8
   },
   {
    "candidate": "GORMAN, Madilyn",
    "party": "Victorian Socialists",
-   "votes": 664,
-   "pct": 2.37
+   "votes": 850,
+   "pct": 2.34
   },
   {
    "candidate": "GEARD, Josh",
    "party": "One Nation Victoria",
-   "votes": 5283,
-   "pct": 18.84
+   "votes": 7004,
+   "pct": 19.25
   },
   {
    "candidate": "SCHERRER, Izzy",
    "party": "The Greens",
-   "votes": 5317,
-   "pct": 18.96
+   "votes": 6855,
+   "pct": 18.84
   },
   {
    "candidate": "PETTIT, Libby",
    "party": "Liberal",
-   "votes": 9464,
-   "pct": 33.76
+   "votes": 12378,
+   "pct": 34.03
   }
  ],
  "tcp": [
