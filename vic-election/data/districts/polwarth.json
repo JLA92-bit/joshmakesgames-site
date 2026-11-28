@@ -3,23 +3,23 @@
  "name": "Polwarth",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/polwarth-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:54:06+00:00",
+ "fetched_at": "2026-11-28T12:03:02+00:00",
  "title": "Polwarth election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:50:12",
+ "last_updated": "Saturday, 28 November 2026 23:00:12",
  "enrolment": 55081,
  "formal": 10856,
  "informal": 583,
  "total_votes": 11439,
  "counted_pct": 20.77,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Polwarth District results Polwarth District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:12 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Polwarth District results Polwarth District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:00:12 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "TOLLEY, Lula",
    "party": "Victorian Socialists",
-   "votes": 288,
-   "pct": 2.65
+   "votes": 289,
+   "pct": 2.66
   },
   {
    "candidate": "RIORDAN, Richard",
@@ -36,8 +36,8 @@
   {
    "candidate": "HOLDEN, Jesse",
    "party": "The Greens",
-   "votes": 1910,
-   "pct": 17.59
+   "votes": 1909,
+   "pct": 17.58
   },
   {
    "candidate": "CARBINS, Brenton",
@@ -62,14 +62,14 @@
   {
    "candidate": "RIORDAN, Richard",
    "party": "Liberal",
-   "votes": 6964,
-   "pct": 69.1
+   "votes": 7242,
+   "pct": 68.66
   },
   {
    "candidate": "HUSSEIN, Hutch",
    "party": "Australian Labor Party",
-   "votes": 3114,
-   "pct": 30.9
+   "votes": 3306,
+   "pct": 31.34
   }
  ],
  "links": {

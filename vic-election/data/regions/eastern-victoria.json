@@ -3,83 +3,83 @@
  "name": "Eastern Victoria Region",
  "url": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:57:09+00:00",
+ "fetched_at": "2026-11-28T12:03:06+00:00",
  "title": "Eastern Victoria Region election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:55:05",
+ "last_updated": "Saturday, 28 November 2026 23:00:04",
  "enrolment": 583167,
- "formal": 95247,
- "informal": 3634,
- "total_votes": 98881,
- "counted_pct": 16.96,
+ "formal": 96196,
+ "informal": 3709,
+ "total_votes": 99905,
+ "counted_pct": 17.13,
  "notes": [
-  "Close Back to Results by region Home Results 2026 state election results Region results Results by region Eastern Victoria Region results Eastern Victoria Region results Listen Provisional results Last updated: Saturday, 28 November 2026 22:55:05 These results are provisional."
+  "Close Back to Results by region Home Results 2026 state election results Region results Results by region Eastern Victoria Region results Eastern Victoria Region results Listen Provisional results Last updated: Saturday, 28 November 2026 23:00:04 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "Victorian Socialists",
    "party": "Victorian Socialists",
-   "votes": 2559,
+   "votes": 2586,
    "pct": 2.69
   },
   {
    "candidate": "One Nation Victoria",
    "party": "One Nation Victoria",
-   "votes": 31812,
-   "pct": 33.4
+   "votes": 32105,
+   "pct": 33.37
   },
   {
    "candidate": "Liberal / The Nationals",
    "party": "Liberal / The Nationals",
-   "votes": 28115,
-   "pct": 29.52
+   "votes": 28423,
+   "pct": 29.55
   },
   {
    "candidate": "Legalise Cannabis Victoria",
    "party": "Legalise Cannabis Victoria",
-   "votes": 3049,
+   "votes": 3081,
    "pct": 3.2
   },
   {
    "candidate": "Labour DLP",
    "party": "Labour DLP",
-   "votes": 1007,
+   "votes": 1020,
    "pct": 1.06
   },
   {
    "candidate": "Animal Justice Party",
    "party": "Animal Justice Party",
-   "votes": 1707,
+   "votes": 1723,
    "pct": 1.79
   },
   {
    "candidate": "Australian Labor Party",
    "party": "Australian Labor Party",
-   "votes": 11235,
-   "pct": 11.8
+   "votes": 11297,
+   "pct": 11.74
   },
   {
    "candidate": "Affordable Housing Now – Sustainable Australia Party",
    "party": "Affordable Housing Now – Sustainable Australia Party",
-   "votes": 938,
-   "pct": 0.98
+   "votes": 951,
+   "pct": 0.99
   },
   {
    "candidate": "Shooters, Fishers and Farmers Party Victoria",
    "party": "Shooters, Fishers and Farmers Party Victoria",
-   "votes": 1551,
-   "pct": 1.63
+   "votes": 1560,
+   "pct": 1.62
   },
   {
    "candidate": "Group J",
    "party": "Group J",
-   "votes": 697,
+   "votes": 704,
    "pct": 0.73
   },
   {
    "candidate": "The Greens",
    "party": "The Greens",
-   "votes": 12577,
-   "pct": 13.2
+   "votes": 12746,
+   "pct": 13.25
   }
  ],
  "links": {

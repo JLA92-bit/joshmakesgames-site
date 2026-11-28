@@ -3,65 +3,65 @@
  "name": "Bundoora",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bundoora-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:53:55+00:00",
+ "fetched_at": "2026-11-28T12:02:52+00:00",
  "title": "Bundoora election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:50:03",
+ "last_updated": "Saturday, 28 November 2026 23:00:02",
  "enrolment": 48975,
- "formal": 13825,
- "informal": 786,
- "total_votes": 14611,
- "counted_pct": 29.83,
+ "formal": 16796,
+ "informal": 1016,
+ "total_votes": 17812,
+ "counted_pct": 36.37,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bundoora District results Bundoora District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:03 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bundoora District results Bundoora District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:00:02 These results are provisional."
  ],
  "primary": [
   {
    "candidate": "MURPHY-WEBSTER, Melissa",
    "party": "",
-   "votes": 374,
-   "pct": 2.71
+   "votes": 444,
+   "pct": 2.64
   },
   {
    "candidate": "LAITALA, Nina",
    "party": "The Greens",
-   "votes": 2462,
-   "pct": 17.81
+   "votes": 2797,
+   "pct": 16.65
   },
   {
    "candidate": "PARR, Chris",
    "party": "Liberal",
-   "votes": 4082,
-   "pct": 29.53
+   "votes": 4963,
+   "pct": 29.55
   },
   {
    "candidate": "WHALLEY, Bruce",
    "party": "One Nation Victoria",
-   "votes": 2481,
-   "pct": 17.95
+   "votes": 3180,
+   "pct": 18.93
   },
   {
    "candidate": "RANCIE, Rae",
    "party": "Family First",
-   "votes": 228,
-   "pct": 1.65
+   "votes": 296,
+   "pct": 1.76
   },
   {
    "candidate": "NICOLOSI, Chloe",
    "party": "Animal Justice Party",
-   "votes": 225,
-   "pct": 1.63
+   "votes": 262,
+   "pct": 1.56
   },
   {
    "candidate": "BROOKS, Colin",
    "party": "Australian Labor Party",
-   "votes": 3355,
-   "pct": 24.27
+   "votes": 4176,
+   "pct": 24.86
   },
   {
    "candidate": "SANYAL, Sagar",
    "party": "Victorian Socialists",
-   "votes": 618,
-   "pct": 4.47
+   "votes": 678,
+   "pct": 4.04
   }
  ],
  "tcp": [

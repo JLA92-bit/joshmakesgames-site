@@ -1,9 +1,9 @@
 {
- "scraped_at": "2026-11-28T11:59:07+00:00",
+ "scraped_at": "2026-11-28T12:02:06+00:00",
  "base": "/results/2026-results/district-election-page",
  "discovery_log": [],
  "errors": [],
- "iteration": 31,
+ "iteration": 32,
  "region_urls": {
   "eastern-victoria": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
   "north-eastern-metropolitan": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
@@ -17,10 +17,10 @@
  "fetched": {
   "hot": 22,
   "cold": 22,
-  "regions": 0
+  "regions": 8
  },
  "blocked_responses": 0,
  "status": "ok",
- "requests": 44,
- "seconds": 32.0
+ "requests": 90,
+ "seconds": 65.0
 }

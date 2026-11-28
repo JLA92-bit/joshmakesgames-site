@@ -3,16 +3,16 @@
  "name": "Bendigo East",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-east-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:53:53+00:00",
+ "fetched_at": "2026-11-28T12:02:49+00:00",
  "title": "Bendigo East election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:50:03",
+ "last_updated": "Saturday, 28 November 2026 23:00:02",
  "enrolment": 56152,
  "formal": 7866,
  "informal": 486,
  "total_votes": 8352,
  "counted_pct": 14.87,
  "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bendigo East District results Bendigo East District results Listen Provisional results Last updated: Saturday, 28 November 2026 22:50:03 These results are provisional."
+  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bendigo East District results Bendigo East District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:00:02 These results are provisional."
  ],
  "primary": [
   {
@@ -74,14 +74,14 @@
   {
    "candidate": "LETHLEAN, Andrew",
    "party": "The Nationals",
-   "votes": 2413,
-   "pct": 66.73
+   "votes": 2605,
+   "pct": 66.54
   },
   {
    "candidate": "RICKWOOD, Tim",
    "party": "Australian Labor Party",
-   "votes": 1203,
-   "pct": 33.27
+   "votes": 1310,
+   "pct": 33.46
   }
  ],
  "links": {
