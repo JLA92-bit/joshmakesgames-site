@@ -3,17 +3,15 @@
  "name": "Box Hill",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/box-hill-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:14:28+00:00",
+ "fetched_at": "2026-11-28T12:59:41+00:00",
  "title": "Box Hill election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:02",
+ "last_updated": "Saturday, 28 November 2026 23:55:02",
  "enrolment": 52758,
  "formal": 15505,
  "informal": 607,
  "total_votes": 16112,
  "counted_pct": 30.54,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Box Hill District results Box Hill District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:02 These results are provisional."
- ],
+ "notes": [],
  "primary": [
   {
    "candidate": "QIN, Aaron",

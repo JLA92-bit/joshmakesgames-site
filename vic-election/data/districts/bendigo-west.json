@@ -3,73 +3,71 @@
  "name": "Bendigo West",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-west-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:14:27+00:00",
+ "fetched_at": "2026-11-28T12:59:41+00:00",
  "title": "Bendigo West election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:02",
+ "last_updated": "Saturday, 28 November 2026 23:55:02",
  "enrolment": 49735,
- "formal": 11447,
- "informal": 519,
- "total_votes": 11966,
- "counted_pct": 24.06,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bendigo West District results Bendigo West District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:02 These results are provisional."
- ],
+ "formal": 12030,
+ "informal": 563,
+ "total_votes": 12593,
+ "counted_pct": 25.32,
+ "notes": [],
  "primary": [
   {
    "candidate": "SHALEVSKI, Tayne",
    "party": "Victorian Socialists",
-   "votes": 641,
-   "pct": 5.6
+   "votes": 681,
+   "pct": 5.66
   },
   {
    "candidate": "HUTCHINGS, David",
    "party": "The Nationals",
-   "votes": 3026,
-   "pct": 26.43
+   "votes": 3169,
+   "pct": 26.34
   },
   {
    "candidate": "TRANTER, Debra",
    "party": "Animal Justice Party",
-   "votes": 515,
-   "pct": 4.5
+   "votes": 542,
+   "pct": 4.51
   },
   {
    "candidate": "BALDWIN, Brenton",
    "party": "Australian Labor Party",
-   "votes": 2268,
-   "pct": 19.81
+   "votes": 2371,
+   "pct": 19.71
   },
   {
    "candidate": "SHAW, Liza",
    "party": "The Greens",
-   "votes": 1985,
-   "pct": 17.34
+   "votes": 2125,
+   "pct": 17.66
   },
   {
    "candidate": "HARISOPOULOS, Christos",
    "party": "Family First",
-   "votes": 258,
-   "pct": 2.25
+   "votes": 269,
+   "pct": 2.24
   },
   {
    "candidate": "MORGAN, Ellen",
    "party": "One Nation Victoria",
-   "votes": 2754,
-   "pct": 24.06
+   "votes": 2873,
+   "pct": 23.88
   }
  ],
  "tcp": [
   {
    "candidate": "HUTCHINGS, David",
    "party": "The Nationals",
-   "votes": 5424,
-   "pct": 56.27
+   "votes": 5734,
+   "pct": 56.09
   },
   {
    "candidate": "BALDWIN, Brenton",
    "party": "Australian Labor Party",
-   "votes": 4215,
-   "pct": 43.73
+   "votes": 4488,
+   "pct": 43.91
   }
  ],
  "links": {

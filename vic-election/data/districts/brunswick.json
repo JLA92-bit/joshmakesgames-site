@@ -3,53 +3,51 @@
  "name": "Brunswick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brunswick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:14:30+00:00",
+ "fetched_at": "2026-11-28T12:59:41+00:00",
  "title": "Brunswick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:02",
+ "last_updated": "Saturday, 28 November 2026 23:55:02",
  "enrolment": 56194,
- "formal": 16323,
- "informal": 737,
- "total_votes": 17060,
- "counted_pct": 30.36,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Brunswick District results Brunswick District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:02 These results are provisional."
- ],
+ "formal": 16422,
+ "informal": 745,
+ "total_votes": 17167,
+ "counted_pct": 30.55,
+ "notes": [],
  "primary": [
   {
    "candidate": "FARMER, Naomi",
    "party": "Victorian Socialists",
-   "votes": 3207,
-   "pct": 19.65
+   "votes": 3236,
+   "pct": 19.71
   },
   {
    "candidate": "MARGELIS, John",
    "party": "Liberal",
-   "votes": 1742,
-   "pct": 10.67
+   "votes": 1746,
+   "pct": 10.63
   },
   {
    "candidate": "PULFORD, Adam",
    "party": "The Greens",
-   "votes": 7548,
-   "pct": 46.24
+   "votes": 7587,
+   "pct": 46.2
   },
   {
    "candidate": "HELMAN, Adam",
    "party": "One Nation Victoria",
-   "votes": 680,
+   "votes": 685,
    "pct": 4.17
   },
   {
    "candidate": "ROSE, India",
    "party": "Animal Justice Party",
    "votes": 290,
-   "pct": 1.78
+   "pct": 1.77
   },
   {
    "candidate": "STEGER, Gabe",
    "party": "Australian Labor Party",
-   "votes": 2494,
-   "pct": 15.28
+   "votes": 2513,
+   "pct": 15.3
   },
   {
    "candidate": "AMANATIDIS, Jack",
@@ -60,8 +58,8 @@
   {
    "candidate": "YUAN, Melissa",
    "party": "",
-   "votes": 283,
-   "pct": 1.73
+   "votes": 286,
+   "pct": 1.74
   }
  ],
  "tcp": [

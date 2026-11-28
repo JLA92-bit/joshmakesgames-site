@@ -3,17 +3,15 @@
  "name": "Bellarine",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bellarine-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:14:27+00:00",
+ "fetched_at": "2026-11-28T12:59:39+00:00",
  "title": "Bellarine election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:02",
+ "last_updated": "Saturday, 28 November 2026 23:55:02",
  "enrolment": 59824,
  "formal": 17019,
  "informal": 909,
  "total_votes": 17928,
  "counted_pct": 29.97,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bellarine District results Bellarine District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:02 These results are provisional."
- ],
+ "notes": [],
  "primary": [
   {
    "candidate": "WHITEHEAD, Callum",
@@ -68,14 +66,14 @@
   {
    "candidate": "WHITEHEAD, Callum",
    "party": "Liberal",
-   "votes": 8010,
-   "pct": 54.45
+   "votes": 9618,
+   "pct": 56.53
   },
   {
    "candidate": "MARCHANT, Alison",
    "party": "Australian Labor Party",
-   "votes": 6700,
-   "pct": 45.55
+   "votes": 7396,
+   "pct": 43.47
   }
  ],
  "links": {
