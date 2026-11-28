@@ -3,71 +3,69 @@
  "name": "Benambra",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/benambra-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:17:55+00:00",
+ "fetched_at": "2026-11-28T13:03:01+00:00",
  "title": "Benambra election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:02",
+ "last_updated": "Sunday, 29 November 2026 00:00:02",
  "enrolment": 51973,
- "formal": 16934,
- "informal": 1122,
- "total_votes": 18056,
- "counted_pct": 34.74,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Benambra District results Benambra District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:02 These results are provisional."
- ],
+ "formal": 28506,
+ "informal": 1860,
+ "total_votes": 30366,
+ "counted_pct": 58.43,
+ "notes": [],
  "primary": [
   {
    "candidate": "FUERY, Mike",
    "party": "Animal Justice Party",
-   "votes": 361,
-   "pct": 2.13
+   "votes": 602,
+   "pct": 2.11
   },
   {
    "candidate": "PARTON, Graham",
    "party": "The Greens",
-   "votes": 842,
-   "pct": 4.97
+   "votes": 1290,
+   "pct": 4.53
   },
   {
    "candidate": "YOUNG, Oliver",
    "party": "Australian Labor Party",
-   "votes": 683,
-   "pct": 4.03
+   "votes": 1163,
+   "pct": 4.08
   },
   {
    "candidate": "VANGALEN, Alex",
    "party": "Victorian Socialists",
-   "votes": 186,
-   "pct": 1.1
+   "votes": 298,
+   "pct": 1.05
   },
   {
    "candidate": "McKEEMAN, Lachie",
    "party": "",
-   "votes": 5603,
-   "pct": 33.09
+   "votes": 9350,
+   "pct": 32.8
   },
   {
    "candidate": "MARTIN, Steve",
    "party": "Liberal",
-   "votes": 4237,
-   "pct": 25.02
+   "votes": 7636,
+   "pct": 26.79
   },
   {
    "candidate": "SHEPPARD, Kellie",
    "party": "One Nation Victoria",
-   "votes": 4630,
-   "pct": 27.34
+   "votes": 7548,
+   "pct": 26.48
   },
   {
    "candidate": "PEPPER, Evette",
    "party": "Family First",
-   "votes": 240,
-   "pct": 1.42
+   "votes": 396,
+   "pct": 1.39
   },
   {
    "candidate": "QUILTY, Tim",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 152,
-   "pct": 0.9
+   "votes": 223,
+   "pct": 0.78
   }
  ],
  "tcp": [

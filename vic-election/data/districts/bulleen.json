@@ -3,13 +3,13 @@
  "name": "Bulleen",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bulleen-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:53:38+00:00",
+ "fetched_at": "2026-11-28T13:03:04+00:00",
  "title": "Bulleen election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:50:02",
+ "last_updated": "Sunday, 29 November 2026 00:00:02",
  "enrolment": 51233,
- "formal": 19100,
+ "formal": 19101,
  "informal": 1182,
- "total_votes": 20282,
+ "total_votes": 20283,
  "counted_pct": 39.59,
  "notes": [],
  "primary": [
@@ -58,22 +58,22 @@
   {
    "candidate": "ATHARI, Mahdi",
    "party": "One Nation Victoria",
-   "votes": 2254,
-   "pct": 11.8
+   "votes": 2255,
+   "pct": 11.81
   }
  ],
  "tcp": [
   {
    "candidate": "GUY, Matthew",
    "party": "Liberal",
-   "votes": 10420,
-   "pct": 70.71
+   "votes": 12704,
+   "pct": 70.35
   },
   {
    "candidate": "DALE, Tim",
    "party": "Australian Labor Party",
-   "votes": 4317,
-   "pct": 29.29
+   "votes": 5353,
+   "pct": 29.65
   }
  ],
  "links": {

@@ -3,67 +3,65 @@
  "name": "Bentleigh",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bentleigh-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:17:55+00:00",
+ "fetched_at": "2026-11-28T13:03:03+00:00",
  "title": "Bentleigh election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:02",
+ "last_updated": "Sunday, 29 November 2026 00:00:02",
  "enrolment": 54956,
- "formal": 20416,
- "informal": 557,
- "total_votes": 20973,
- "counted_pct": 38.16,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Bentleigh District results Bentleigh District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:02 These results are provisional."
- ],
+ "formal": 24637,
+ "informal": 626,
+ "total_votes": 25263,
+ "counted_pct": 45.97,
+ "notes": [],
  "primary": [
   {
    "candidate": "PUTT, Tynan",
    "party": "Liberal",
-   "votes": 9005,
-   "pct": 44.11
+   "votes": 11350,
+   "pct": 46.07
   },
   {
    "candidate": "VAINORAS, Tony",
    "party": "Citizens Party",
-   "votes": 175,
-   "pct": 0.86
+   "votes": 199,
+   "pct": 0.81
   },
   {
    "candidate": "LONSING, Herbert",
    "party": "One Nation Victoria",
-   "votes": 2690,
-   "pct": 13.18
+   "votes": 3299,
+   "pct": 13.39
   },
   {
    "candidate": "PROCTOR, Claire",
    "party": "The Greens",
-   "votes": 2831,
-   "pct": 13.87
+   "votes": 3114,
+   "pct": 12.64
   },
   {
    "candidate": "STAIKOS, Nick",
    "party": "Australian Labor Party",
-   "votes": 5112,
-   "pct": 25.04
+   "votes": 6004,
+   "pct": 24.37
   },
   {
    "candidate": "KRUGER, Liam",
    "party": "Victorian Socialists",
-   "votes": 603,
-   "pct": 2.95
+   "votes": 671,
+   "pct": 2.72
   }
  ],
  "tcp": [
   {
    "candidate": "PUTT, Tynan",
    "party": "Liberal",
-   "votes": 7551,
-   "pct": 57.46
+   "votes": 10546,
+   "pct": 60.75
   },
   {
    "candidate": "STAIKOS, Nick",
    "party": "Australian Labor Party",
-   "votes": 5591,
-   "pct": 42.54
+   "votes": 6815,
+   "pct": 39.25
   }
  ],
  "links": {

@@ -3,17 +3,15 @@
  "name": "Laverton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/laverton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:14:36+00:00",
+ "fetched_at": "2026-11-28T13:03:11+00:00",
  "title": "Laverton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:07",
+ "last_updated": "Sunday, 29 November 2026 00:00:07",
  "enrolment": 56046,
  "formal": 11645,
  "informal": 978,
  "total_votes": 12623,
  "counted_pct": 22.52,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Laverton District results Laverton District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:07 These results are provisional."
- ],
+ "notes": [],
  "primary": [
   {
    "candidate": "NGUYEN, Lucy",
@@ -74,14 +72,14 @@
   {
    "candidate": "CONNOLLY, Sarah",
    "party": "Australian Labor Party",
-   "votes": 4368,
-   "pct": 58.05
+   "votes": 4592,
+   "pct": 57.41
   },
   {
    "candidate": "NOUNE, Ghada",
    "party": "Liberal",
-   "votes": 3156,
-   "pct": 41.95
+   "votes": 3407,
+   "pct": 42.59
   }
  ],
  "links": {

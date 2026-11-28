@@ -3,17 +3,15 @@
  "name": "Ashwood",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ashwood-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:17:54+00:00",
+ "fetched_at": "2026-11-28T13:03:01+00:00",
  "title": "Ashwood election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:02",
+ "last_updated": "Sunday, 29 November 2026 00:00:02",
  "enrolment": 53131,
- "formal": 18914,
+ "formal": 18915,
  "informal": 739,
- "total_votes": 19653,
+ "total_votes": 19654,
  "counted_pct": 36.99,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Ashwood District results Ashwood District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:02 These results are provisional."
- ],
+ "notes": [],
  "primary": [
   {
    "candidate": "UWIMANA, Enid",
@@ -54,22 +52,22 @@
   {
    "candidate": "MITCHELL, Steven",
    "party": "One Nation Victoria",
-   "votes": 1599,
-   "pct": 8.45
+   "votes": 1600,
+   "pct": 8.46
   }
  ],
  "tcp": [
   {
    "candidate": "FREGON, Matt",
    "party": "Australian Labor Party",
-   "votes": 5036,
-   "pct": 40.63
+   "votes": 6638,
+   "pct": 38.09
   },
   {
    "candidate": "ZOGRAPHOS, Theo",
    "party": "Liberal",
-   "votes": 7358,
-   "pct": 59.37
+   "votes": 10788,
+   "pct": 61.91
   }
  ],
  "links": {

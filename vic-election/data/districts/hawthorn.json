@@ -3,73 +3,71 @@
  "name": "Hawthorn",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/hawthorn-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:14:35+00:00",
+ "fetched_at": "2026-11-28T13:03:08+00:00",
  "title": "Hawthorn District results | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:10:07",
+ "last_updated": "Sunday, 29 November 2026 00:00:07",
  "enrolment": 51920,
- "formal": 23935,
- "informal": 644,
- "total_votes": 24579,
- "counted_pct": 47.34,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Hawthorn District Results Hawthorn District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:10:07 These results are provisional."
- ],
+ "formal": 34836,
+ "informal": 852,
+ "total_votes": 35688,
+ "counted_pct": 68.74,
+ "notes": [],
  "primary": [
   {
    "candidate": "CROSBY, Clive",
    "party": "Australian Labor Party",
-   "votes": 1757,
-   "pct": 7.34
+   "votes": 2451,
+   "pct": 7.04
   },
   {
    "candidate": "ROCHA, Kylie",
    "party": "The Greens",
-   "votes": 2318,
-   "pct": 9.68
+   "votes": 3434,
+   "pct": 9.86
   },
   {
    "candidate": "IBUKI, Shima",
    "party": "",
-   "votes": 6216,
-   "pct": 25.97
+   "votes": 8924,
+   "pct": 25.62
   },
   {
    "candidate": "PRIBILOVICS, Paul",
    "party": "One Nation Victoria",
-   "votes": 1287,
-   "pct": 5.38
+   "votes": 1820,
+   "pct": 5.22
   },
   {
    "candidate": "NICOLL, Adam",
    "party": "Family First",
-   "votes": 170,
-   "pct": 0.71
+   "votes": 253,
+   "pct": 0.73
   },
   {
    "candidate": "McENEARNEY, Tess",
    "party": "Victorian Socialists",
-   "votes": 672,
-   "pct": 2.81
+   "votes": 1082,
+   "pct": 3.11
   },
   {
    "candidate": "PESUTTO, John",
    "party": "Liberal",
-   "votes": 11515,
-   "pct": 48.11
+   "votes": 16872,
+   "pct": 48.43
   }
  ],
  "tcp": [
   {
    "candidate": "IBUKI, Shima",
    "party": "",
-   "votes": 10464,
-   "pct": 43.74
+   "votes": 15202,
+   "pct": 43.66
   },
   {
    "candidate": "PESUTTO, John",
    "party": "Liberal",
-   "votes": 13461,
-   "pct": 56.26
+   "votes": 19615,
+   "pct": 56.34
   }
  ],
  "links": {

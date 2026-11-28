@@ -3,17 +3,15 @@
  "name": "Brighton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brighton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T12:17:56+00:00",
+ "fetched_at": "2026-11-28T13:03:03+00:00",
  "title": "Brighton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 23:15:02",
+ "last_updated": "Sunday, 29 November 2026 00:00:02",
  "enrolment": 50950,
  "formal": 13257,
  "informal": 531,
  "total_votes": 13788,
  "counted_pct": 27.06,
- "notes": [
-  "Close Back to Results by district Home Results 2026 state election results District election page Results by district Brighton District results Brighton District results Listen Provisional results Last updated: Saturday, 28 November 2026 23:15:02 These results are provisional."
- ],
+ "notes": [],
  "primary": [
   {
    "candidate": "FAGAN, Alexander",
@@ -48,8 +46,8 @@
   {
    "candidate": "NEWBURY, James",
    "party": "Liberal",
-   "votes": 7232,
-   "pct": 54.55
+   "votes": 7233,
+   "pct": 54.56
   },
   {
    "candidate": "VINCENT, Barry",
@@ -60,22 +58,22 @@
   {
    "candidate": "BAIN, Ebony",
    "party": "The Greens",
-   "votes": 2576,
-   "pct": 19.43
+   "votes": 2575,
+   "pct": 19.42
   }
  ],
  "tcp": [
   {
    "candidate": "MULLAHY, Bridget",
    "party": "Australian Labor Party",
-   "votes": 3064,
-   "pct": 31.4
+   "votes": 3622,
+   "pct": 33.54
   },
   {
    "candidate": "NEWBURY, James",
    "party": "Liberal",
-   "votes": 6695,
-   "pct": 68.6
+   "votes": 7178,
+   "pct": 66.46
   }
  ],
  "links": {
