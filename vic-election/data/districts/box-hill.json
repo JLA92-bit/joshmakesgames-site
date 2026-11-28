@@ -3,9 +3,9 @@
  "name": "Box Hill",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/box-hill-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:02:57+00:00",
+ "fetched_at": "2026-11-28T11:11:53+00:00",
  "title": "Box Hill election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:00:02",
+ "last_updated": "Saturday, 28 November 2026 22:10:02",
  "enrolment": 52758,
  "formal": 9620,
  "informal": 433,
@@ -66,14 +66,14 @@
   {
    "candidate": "HOUGUET, Sally",
    "party": "Liberal",
-   "votes": 2813,
-   "pct": 56.35
+   "votes": 3133,
+   "pct": 56.39
   },
   {
    "candidate": "HAMER, Paul",
    "party": "Australian Labor Party",
-   "votes": 2179,
-   "pct": 43.65
+   "votes": 2423,
+   "pct": 43.61
   }
  ],
  "links": {

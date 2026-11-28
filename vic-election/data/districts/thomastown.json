@@ -3,9 +3,9 @@
  "name": "Thomastown",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/thomastown-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:05:50+00:00",
+ "fetched_at": "2026-11-28T11:12:05+00:00",
  "title": "Thomastown election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:16",
+ "last_updated": "Saturday, 28 November 2026 22:10:15",
  "enrolment": 56190,
  "formal": 9766,
  "informal": 559,
@@ -54,14 +54,14 @@
   {
    "candidate": "ANTHONY, Nadia",
    "party": "One Nation Victoria",
-   "votes": 2219,
-   "pct": 41.47
+   "votes": 3837,
+   "pct": 44.21
   },
   {
    "candidate": "HALFPENNY, Bronwyn",
    "party": "Australian Labor Party",
-   "votes": 3132,
-   "pct": 58.53
+   "votes": 4842,
+   "pct": 55.79
   }
  ],
  "links": {

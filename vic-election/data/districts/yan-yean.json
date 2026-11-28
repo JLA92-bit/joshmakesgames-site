@@ -3,62 +3,62 @@
  "name": "Yan Yean",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/yan-yean-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:09:06+00:00",
+ "fetched_at": "2026-11-28T11:11:48+00:00",
  "title": "Yan Yean election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:17",
+ "last_updated": "Saturday, 28 November 2026 22:10:16",
  "enrolment": 57294,
- "formal": 10689,
- "informal": 574,
- "total_votes": 11263,
- "counted_pct": 19.66,
+ "formal": 10802,
+ "informal": 581,
+ "total_votes": 11383,
+ "counted_pct": 19.87,
  "notes": [],
  "primary": [
   {
    "candidate": "KATHAGE, Lauren",
    "party": "Australian Labor Party",
-   "votes": 2006,
-   "pct": 18.77
+   "votes": 2034,
+   "pct": 18.83
   },
   {
    "candidate": "JOHNSON, Jeremy",
    "party": "One Nation Victoria",
-   "votes": 3157,
-   "pct": 29.54
+   "votes": 3168,
+   "pct": 29.33
   },
   {
    "candidate": "BELL, Andrew",
    "party": "Victorian Socialists",
-   "votes": 234,
-   "pct": 2.19
+   "votes": 238,
+   "pct": 2.2
   },
   {
    "candidate": "HALL, James",
    "party": "Family First",
    "votes": 266,
-   "pct": 2.49
+   "pct": 2.46
   },
   {
    "candidate": "OKATAN, Sinan",
    "party": "Animal Justice Party",
-   "votes": 242,
-   "pct": 2.26
+   "votes": 245,
+   "pct": 2.27
   },
   {
    "candidate": "DOW, Amanda",
    "party": "Liberal",
-   "votes": 3552,
-   "pct": 33.23
+   "votes": 3601,
+   "pct": 33.34
   },
   {
    "candidate": "MOHAMMED, Gufran",
    "party": "The Greens",
-   "votes": 1180,
-   "pct": 11.04
+   "votes": 1197,
+   "pct": 11.08
   },
   {
    "candidate": "CHEERS, Troy",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 52,
+   "votes": 53,
    "pct": 0.49
   }
  ],
@@ -97,28 +97,28 @@
    {
     "booth": "Total first preference votes",
     "values": {
-     "KATHAGE, Lauren Australian Labor Party": 2006.0,
-     "JOHNSON, Jeremy One Nation Victoria": 3157.0,
-     "BELL, Andrew Victorian Socialists": 234.0,
+     "KATHAGE, Lauren Australian Labor Party": 2034.0,
+     "JOHNSON, Jeremy One Nation Victoria": 3168.0,
+     "BELL, Andrew Victorian Socialists": 238.0,
      "HALL, James Family First": 266.0,
-     "OKATAN, Sinan Animal Justice Party": 242.0,
-     "DOW, Amanda Liberal": 3552.0,
-     "MOHAMMED, Gufran The Greens": 1180.0,
-     "CHEERS, Troy Libertarian (formerly Liberal Democrats)": 52.0,
-     "Informal votes": 574.0,
-     "Total votes polled": 11263.0
+     "OKATAN, Sinan Animal Justice Party": 245.0,
+     "DOW, Amanda Liberal": 3601.0,
+     "MOHAMMED, Gufran The Greens": 1197.0,
+     "CHEERS, Troy Libertarian (formerly Liberal Democrats)": 53.0,
+     "Informal votes": 581.0,
+     "Total votes polled": 11383.0
     }
    },
    {
     "booth": "Percentage of formal vote polled by candidate",
     "values": {
-     "KATHAGE, Lauren Australian Labor Party": 18.77,
-     "JOHNSON, Jeremy One Nation Victoria": 29.54,
-     "BELL, Andrew Victorian Socialists": 2.19,
-     "HALL, James Family First": 2.49,
-     "OKATAN, Sinan Animal Justice Party": 2.26,
-     "DOW, Amanda Liberal": 33.23,
-     "MOHAMMED, Gufran The Greens": 11.04,
+     "KATHAGE, Lauren Australian Labor Party": 18.83,
+     "JOHNSON, Jeremy One Nation Victoria": 29.33,
+     "BELL, Andrew Victorian Socialists": 2.2,
+     "HALL, James Family First": 2.46,
+     "OKATAN, Sinan Animal Justice Party": 2.27,
+     "DOW, Amanda Liberal": 33.34,
+     "MOHAMMED, Gufran The Greens": 11.08,
      "CHEERS, Troy Libertarian (formerly Liberal Democrats)": 0.49
     }
    },
@@ -493,16 +493,16 @@
    {
     "booth": "Yan Yean - MEVC",
     "values": {
-     "KATHAGE, Lauren Australian Labor Party": 0.0,
-     "JOHNSON, Jeremy One Nation Victoria": 0.0,
-     "BELL, Andrew Victorian Socialists": 0.0,
-     "HALL, James Family First": 0.0,
-     "OKATAN, Sinan Animal Justice Party": 0.0,
-     "DOW, Amanda Liberal": 0.0,
-     "MOHAMMED, Gufran The Greens": 0.0,
-     "CHEERS, Troy Libertarian (formerly Liberal Democrats)": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "KATHAGE, Lauren Australian Labor Party": 28.0,
+     "JOHNSON, Jeremy One Nation Victoria": 11.0,
+     "BELL, Andrew Victorian Socialists": 4.0,
+     "HALL, James Family First": 1.0,
+     "OKATAN, Sinan Animal Justice Party": 3.0,
+     "DOW, Amanda Liberal": 46.0,
+     "MOHAMMED, Gufran The Greens": 17.0,
+     "CHEERS, Troy Libertarian (formerly Liberal Democrats)": 1.0,
+     "Informal votes": 7.0,
+     "Total votes polled": 118.0
     }
    },
    {
@@ -523,16 +523,16 @@
    {
     "booth": "Early votes total",
     "values": {
-     "KATHAGE, Lauren Australian Labor Party": 0.0,
-     "JOHNSON, Jeremy One Nation Victoria": 0.0,
-     "BELL, Andrew Victorian Socialists": 0.0,
-     "HALL, James Family First": 0.0,
-     "OKATAN, Sinan Animal Justice Party": 0.0,
-     "DOW, Amanda Liberal": 0.0,
-     "MOHAMMED, Gufran The Greens": 0.0,
-     "CHEERS, Troy Libertarian (formerly Liberal Democrats)": 0.0,
-     "Informal votes": 0.0,
-     "Total votes polled": 0.0
+     "KATHAGE, Lauren Australian Labor Party": 28.0,
+     "JOHNSON, Jeremy One Nation Victoria": 11.0,
+     "BELL, Andrew Victorian Socialists": 4.0,
+     "HALL, James Family First": 1.0,
+     "OKATAN, Sinan Animal Justice Party": 3.0,
+     "DOW, Amanda Liberal": 46.0,
+     "MOHAMMED, Gufran The Greens": 17.0,
+     "CHEERS, Troy Libertarian (formerly Liberal Democrats)": 1.0,
+     "Informal votes": 7.0,
+     "Total votes polled": 118.0
     }
    },
    {
@@ -575,13 +575,13 @@
      "KATHAGE, Lauren Australian Labor Party": 302.0,
      "JOHNSON, Jeremy One Nation Victoria": 593.0,
      "BELL, Andrew Victorian Socialists": 26.0,
-     "HALL, James Family First": 49.0,
+     "HALL, James Family First": 48.0,
      "OKATAN, Sinan Animal Justice Party": 39.0,
-     "DOW, Amanda Liberal": 793.0,
+     "DOW, Amanda Liberal": 796.0,
      "MOHAMMED, Gufran The Greens": 61.0,
      "CHEERS, Troy Libertarian (formerly Liberal Democrats)": 6.0,
      "Informal votes": 47.0,
-     "Total votes polled": 1916.0
+     "Total votes polled": 1918.0
     }
    },
    {
@@ -605,13 +605,13 @@
      "KATHAGE, Lauren Australian Labor Party": 302.0,
      "JOHNSON, Jeremy One Nation Victoria": 593.0,
      "BELL, Andrew Victorian Socialists": 26.0,
-     "HALL, James Family First": 49.0,
+     "HALL, James Family First": 48.0,
      "OKATAN, Sinan Animal Justice Party": 39.0,
-     "DOW, Amanda Liberal": 793.0,
+     "DOW, Amanda Liberal": 796.0,
      "MOHAMMED, Gufran The Greens": 61.0,
      "CHEERS, Troy Libertarian (formerly Liberal Democrats)": 6.0,
      "Informal votes": 47.0,
-     "Total votes polled": 1916.0
+     "Total votes polled": 1918.0
     }
    }
   ]

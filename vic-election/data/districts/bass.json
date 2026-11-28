@@ -3,9 +3,9 @@
  "name": "Bass",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bass-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:08:09+00:00",
+ "fetched_at": "2026-11-28T11:11:10+00:00",
  "title": "Bass District results | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:02",
+ "last_updated": "Saturday, 28 November 2026 22:10:02",
  "enrolment": 57998,
  "formal": 14407,
  "informal": 478,
@@ -54,14 +54,14 @@
   {
    "candidate": "SCHELLEKENS, Nikole",
    "party": "One Nation Victoria",
-   "votes": 4954,
-   "pct": 40.18
+   "votes": 5197,
+   "pct": 40.58
   },
   {
    "candidate": "HALSTEAD, Rochelle",
    "party": "Liberal",
-   "votes": 7377,
-   "pct": 59.82
+   "votes": 7611,
+   "pct": 59.42
   }
  ],
  "links": {

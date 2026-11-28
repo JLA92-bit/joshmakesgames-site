@@ -3,20 +3,20 @@
  "name": "Carrum",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/carrum-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:03:00+00:00",
+ "fetched_at": "2026-11-28T11:11:54+00:00",
  "title": "Carrum election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:00:04",
+ "last_updated": "Saturday, 28 November 2026 22:10:04",
  "enrolment": 54535,
- "formal": 13747,
+ "formal": 13749,
  "informal": 831,
- "total_votes": 14578,
- "counted_pct": 26.73,
+ "total_votes": 14580,
+ "counted_pct": 26.74,
  "notes": [],
  "primary": [
   {
    "candidate": "MATHEWS, Joshua",
    "party": "One Nation Victoria",
-   "votes": 3471,
+   "votes": 3472,
    "pct": 25.25
   },
   {
@@ -46,34 +46,34 @@
   {
    "candidate": "KILKENNY, Sonya",
    "party": "Australian Labor Party",
-   "votes": 2915,
-   "pct": 21.2
+   "votes": 2916,
+   "pct": 21.21
   },
   {
    "candidate": "PEGRUM, Zoe",
    "party": "The Greens",
-   "votes": 1795,
-   "pct": 13.06
+   "votes": 1794,
+   "pct": 13.05
   },
   {
    "candidate": "SHELLEY, Jeff",
    "party": "Liberal",
-   "votes": 4324,
-   "pct": 31.45
+   "votes": 4325,
+   "pct": 31.46
   }
  ],
  "tcp": [
   {
    "candidate": "KILKENNY, Sonya",
    "party": "Australian Labor Party",
-   "votes": 2925,
-   "pct": 41.32
+   "votes": 3501,
+   "pct": 39.68
   },
   {
    "candidate": "SHELLEY, Jeff",
    "party": "Liberal",
-   "votes": 4154,
-   "pct": 58.68
+   "votes": 5322,
+   "pct": 60.32
   }
  ],
  "links": {

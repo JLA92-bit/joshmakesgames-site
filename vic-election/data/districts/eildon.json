@@ -3,9 +3,9 @@
  "name": "Eildon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/eildon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:03:01+00:00",
+ "fetched_at": "2026-11-28T11:11:56+00:00",
  "title": "Eildon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:00:05",
+ "last_updated": "Saturday, 28 November 2026 22:10:05",
  "enrolment": 51711,
  "formal": 15839,
  "informal": 938,
@@ -66,14 +66,14 @@
   {
    "candidate": "MCLEISH, Cindy",
    "party": "Liberal",
-   "votes": 7279,
-   "pct": 60.64
+   "votes": 8045,
+   "pct": 60.93
   },
   {
    "candidate": "BARBER, Tim",
    "party": "One Nation Victoria",
-   "votes": 4724,
-   "pct": 39.36
+   "votes": 5159,
+   "pct": 39.07
   }
  ],
  "links": {

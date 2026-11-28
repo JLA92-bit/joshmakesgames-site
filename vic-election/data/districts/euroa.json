@@ -3,71 +3,71 @@
  "name": "Euroa",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/euroa-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:08:09+00:00",
+ "fetched_at": "2026-11-28T11:11:09+00:00",
  "title": "Euroa election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:05",
+ "last_updated": "Saturday, 28 November 2026 22:10:05",
  "enrolment": 53147,
- "formal": 10539,
- "informal": 552,
- "total_votes": 11091,
- "counted_pct": 20.87,
+ "formal": 11196,
+ "informal": 577,
+ "total_votes": 11773,
+ "counted_pct": 22.15,
  "notes": [],
  "primary": [
   {
    "candidate": "CLEELAND, Annabelle",
    "party": "The Nationals",
-   "votes": 4200,
-   "pct": 39.85
+   "votes": 4475,
+   "pct": 39.97
   },
   {
    "candidate": "TAOUK, Moussa",
    "party": "Family First",
-   "votes": 213,
-   "pct": 2.02
+   "votes": 230,
+   "pct": 2.05
   },
   {
    "candidate": "REGAN, Alysia",
    "party": "The Greens",
-   "votes": 836,
-   "pct": 7.93
+   "votes": 897,
+   "pct": 8.01
   },
   {
    "candidate": "KELLY, Karina",
    "party": "Animal Justice Party",
-   "votes": 251,
-   "pct": 2.38
+   "votes": 268,
+   "pct": 2.39
   },
   {
    "candidate": "KELLY, Julian",
    "party": "Australian Labor Party",
-   "votes": 932,
-   "pct": 8.84
+   "votes": 984,
+   "pct": 8.79
   },
   {
    "candidate": "CAMPBELL, Steve",
    "party": "One Nation Victoria",
-   "votes": 3880,
-   "pct": 36.82
+   "votes": 4098,
+   "pct": 36.6
   },
   {
    "candidate": "LYLE, Zoe",
    "party": "Victorian Socialists",
-   "votes": 227,
-   "pct": 2.15
+   "votes": 244,
+   "pct": 2.18
   }
  ],
  "tcp": [
   {
    "candidate": "CLEELAND, Annabelle",
    "party": "The Nationals",
-   "votes": 5656,
-   "pct": 57.67
+   "votes": 6066,
+   "pct": 57.97
   },
   {
    "candidate": "CAMPBELL, Steve",
    "party": "One Nation Victoria",
-   "votes": 4151,
-   "pct": 42.33
+   "votes": 4398,
+   "pct": 42.03
   }
  ],
  "links": {

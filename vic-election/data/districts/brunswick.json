@@ -3,51 +3,51 @@
  "name": "Brunswick",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brunswick-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:02:59+00:00",
+ "fetched_at": "2026-11-28T11:11:53+00:00",
  "title": "Brunswick election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:00:02",
+ "last_updated": "Saturday, 28 November 2026 22:10:02",
  "enrolment": 56194,
- "formal": 15368,
- "informal": 688,
- "total_votes": 16056,
- "counted_pct": 28.57,
+ "formal": 15419,
+ "informal": 693,
+ "total_votes": 16112,
+ "counted_pct": 28.67,
  "notes": [],
  "primary": [
   {
    "candidate": "FARMER, Naomi",
    "party": "Victorian Socialists",
-   "votes": 2977,
-   "pct": 19.37
+   "votes": 2988,
+   "pct": 19.38
   },
   {
    "candidate": "MARGELIS, John",
    "party": "Liberal",
-   "votes": 1679,
+   "votes": 1685,
    "pct": 10.93
   },
   {
    "candidate": "PULFORD, Adam",
    "party": "The Greens",
-   "votes": 7073,
-   "pct": 46.02
+   "votes": 7094,
+   "pct": 46.01
   },
   {
    "candidate": "HELMAN, Adam",
    "party": "One Nation Victoria",
    "votes": 643,
-   "pct": 4.18
+   "pct": 4.17
   },
   {
    "candidate": "ROSE, India",
    "party": "Animal Justice Party",
-   "votes": 272,
-   "pct": 1.77
+   "votes": 274,
+   "pct": 1.78
   },
   {
    "candidate": "STEGER, Gabe",
    "party": "Australian Labor Party",
-   "votes": 2381,
-   "pct": 15.49
+   "votes": 2392,
+   "pct": 15.51
   },
   {
    "candidate": "AMANATIDIS, Jack",
@@ -59,21 +59,21 @@
    "candidate": "YUAN, Melissa",
    "party": "",
    "votes": 267,
-   "pct": 1.74
+   "pct": 1.73
   }
  ],
  "tcp": [
   {
    "candidate": "PULFORD, Adam",
    "party": "The Greens",
-   "votes": 7117,
-   "pct": 73.04
+   "votes": 9936,
+   "pct": 74.44
   },
   {
    "candidate": "STEGER, Gabe",
    "party": "Australian Labor Party",
-   "votes": 2627,
-   "pct": 26.96
+   "votes": 3412,
+   "pct": 25.56
   }
  ],
  "links": {

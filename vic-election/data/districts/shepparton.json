@@ -3,21 +3,21 @@
  "name": "Shepparton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/shepparton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T11:08:50+00:00",
+ "fetched_at": "2026-11-28T11:11:38+00:00",
  "title": "Shepparton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Saturday, 28 November 2026 22:05:15",
+ "last_updated": "Saturday, 28 November 2026 22:10:13",
  "enrolment": 52626,
- "formal": 17499,
+ "formal": 17505,
  "informal": 1313,
- "total_votes": 18812,
- "counted_pct": 35.75,
+ "total_votes": 18818,
+ "counted_pct": 35.76,
  "notes": [],
  "primary": [
   {
    "candidate": "SALI, Shane",
    "party": "The Nationals",
    "votes": 6962,
-   "pct": 39.79
+   "pct": 39.77
   },
   {
    "candidate": "WHITE, Alison",
@@ -40,8 +40,8 @@
   {
    "candidate": "COSTA, Lou",
    "party": "",
-   "votes": 2093,
-   "pct": 11.96
+   "votes": 2099,
+   "pct": 11.99
   },
   {
    "candidate": "FIN, Cayla",
@@ -53,7 +53,7 @@
    "candidate": "BRYANT, Phillip",
    "party": "One Nation Victoria",
    "votes": 6123,
-   "pct": 34.99
+   "pct": 34.98
   },
   {
    "candidate": "MURPHY-GINGER, Faith",
