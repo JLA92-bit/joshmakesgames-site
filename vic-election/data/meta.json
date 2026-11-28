@@ -1,15 +1,9 @@
 {
- "scraped_at": "2026-11-28T13:56:24+00:00",
+ "scraped_at": "2026-11-28T13:59:22+00:00",
  "base": "/results/2026-results/district-election-page",
- "discovery_log": [
-  {
-   "probe": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/pakenham-district-results",
-   "status": 200,
-   "ok": true
-  }
- ],
+ "discovery_log": [],
  "errors": [],
- "iteration": 61,
+ "iteration": 62,
  "region_urls": {
   "eastern-victoria": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Eastern-Victoria-Region-results",
   "north-eastern-metropolitan": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/North-Eastern-Metropolitan-Region-results",
@@ -21,12 +15,12 @@
   "western-victoria": "https://www.vec.vic.gov.au/results/2026-results/region-election-page/region-summary-page/Western-Victoria-Region-results"
  },
  "fetched": {
-  "hot": 19,
+  "hot": 18,
   "cold": 23,
-  "regions": 0
+  "regions": 8
  },
  "blocked_responses": 0,
  "status": "ok",
- "requests": 81,
- "seconds": 53.8
+ "requests": 49,
+ "seconds": 34.9
 }

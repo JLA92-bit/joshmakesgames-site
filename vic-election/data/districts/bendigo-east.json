@@ -3,83 +3,83 @@
  "name": "Bendigo East",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/bendigo-east-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:50:44+00:00",
+ "fetched_at": "2026-11-28T13:59:36+00:00",
  "title": "Bendigo East election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:50:03",
+ "last_updated": "Sunday, 29 November 2026 00:55:01",
  "enrolment": 56152,
- "formal": 12687,
- "informal": 867,
- "total_votes": 13554,
- "counted_pct": 24.14,
+ "formal": 13637,
+ "informal": 913,
+ "total_votes": 14550,
+ "counted_pct": 25.91,
  "notes": [],
  "primary": [
   {
    "candidate": "JOHN, Des",
    "party": "Family First",
-   "votes": 398,
-   "pct": 3.14
+   "votes": 415,
+   "pct": 3.04
   },
   {
    "candidate": "DUNN, Bonnie",
    "party": "Animal Justice Party",
-   "votes": 347,
-   "pct": 2.74
+   "votes": 390,
+   "pct": 2.86
   },
   {
    "candidate": "NORSEN, Denali",
    "party": "Victorian Socialists",
-   "votes": 329,
-   "pct": 2.59
+   "votes": 369,
+   "pct": 2.71
   },
   {
    "candidate": "HAWKEN, Cheryl",
    "party": "One Nation Victoria",
-   "votes": 2883,
-   "pct": 22.72
+   "votes": 3008,
+   "pct": 22.06
   },
   {
    "candidate": "LETHLEAN, Andrew",
    "party": "The Nationals",
-   "votes": 4603,
-   "pct": 36.28
+   "votes": 4934,
+   "pct": 36.18
   },
   {
    "candidate": "WRIGHT, Liz",
    "party": "",
-   "votes": 279,
-   "pct": 2.2
+   "votes": 294,
+   "pct": 2.16
   },
   {
    "candidate": "HOSKINS, Kristie",
    "party": "",
-   "votes": 62,
-   "pct": 0.49
+   "votes": 65,
+   "pct": 0.48
   },
   {
    "candidate": "RICKWOOD, Tim",
    "party": "Australian Labor Party",
-   "votes": 2092,
-   "pct": 16.49
+   "votes": 2290,
+   "pct": 16.79
   },
   {
    "candidate": "TOLHURST, Michael",
    "party": "The Greens",
-   "votes": 1694,
-   "pct": 13.35
+   "votes": 1872,
+   "pct": 13.73
   }
  ],
  "tcp": [
   {
    "candidate": "LETHLEAN, Andrew",
    "party": "The Nationals",
-   "votes": 3656,
-   "pct": 65.24
+   "votes": 5241,
+   "pct": 64.43
   },
   {
    "candidate": "RICKWOOD, Tim",
    "party": "Australian Labor Party",
-   "votes": 1948,
-   "pct": 34.76
+   "votes": 2893,
+   "pct": 35.57
   }
  ],
  "links": {

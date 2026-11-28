@@ -3,9 +3,9 @@
  "name": "Dandenong",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/dandenong-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:50:49+00:00",
+ "fetched_at": "2026-11-28T13:59:40+00:00",
  "title": "Dandenong election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:50:05",
+ "last_updated": "Sunday, 29 November 2026 00:55:04",
  "enrolment": 54251,
  "formal": 30659,
  "informal": 3235,
@@ -66,14 +66,14 @@
   {
    "candidate": "WILLIAMS, Gabrielle",
    "party": "Australian Labor Party",
-   "votes": 8910,
-   "pct": 61.25
+   "votes": 9333,
+   "pct": 61.81
   },
   {
    "candidate": "WRIGHT, Glenda",
    "party": "One Nation Victoria",
-   "votes": 5637,
-   "pct": 38.75
+   "votes": 5767,
+   "pct": 38.19
   }
  ],
  "links": {

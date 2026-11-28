@@ -3,81 +3,81 @@
  "name": "Niddrie",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/niddrie-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:50:53+00:00",
+ "fetched_at": "2026-11-28T13:59:46+00:00",
  "title": "Niddrie election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:50:10",
+ "last_updated": "Sunday, 29 November 2026 00:55:09",
  "enrolment": 52610,
- "formal": 30081,
- "informal": 2462,
- "total_votes": 32543,
- "counted_pct": 61.86,
+ "formal": 30937,
+ "informal": 2565,
+ "total_votes": 33502,
+ "counted_pct": 63.68,
  "notes": [],
  "primary": [
   {
    "candidate": "SFAMENI, Sam",
    "party": "",
-   "votes": 302,
-   "pct": 1.0
+   "votes": 316,
+   "pct": 1.02
   },
   {
    "candidate": "CARROLL, Ben",
    "party": "Australian Labor Party",
-   "votes": 6864,
-   "pct": 22.82
+   "votes": 7082,
+   "pct": 22.89
   },
   {
    "candidate": "THEODOROU, George",
    "party": "Family First",
-   "votes": 407,
-   "pct": 1.35
+   "votes": 429,
+   "pct": 1.39
   },
   {
    "candidate": "BYRNE, Samantha",
    "party": "Liberal",
-   "votes": 11624,
-   "pct": 38.64
+   "votes": 11898,
+   "pct": 38.46
   },
   {
    "candidate": "METE, Domenic",
    "party": "Labour DLP",
-   "votes": 113,
-   "pct": 0.38
+   "votes": 120,
+   "pct": 0.39
   },
   {
    "candidate": "LAWS, Brendan",
    "party": "Victorian Socialists",
-   "votes": 1072,
-   "pct": 3.56
+   "votes": 1104,
+   "pct": 3.57
   },
   {
    "candidate": "HASELGROVE, Salomae",
    "party": "Animal Justice Party",
-   "votes": 307,
+   "votes": 316,
    "pct": 1.02
   },
   {
    "candidate": "TAVERNA, Jason",
    "party": "One Nation Victoria",
-   "votes": 6413,
-   "pct": 21.32
+   "votes": 6605,
+   "pct": 21.35
   },
   {
    "candidate": "NGUYEN, Lana",
    "party": "The Greens",
-   "votes": 2742,
-   "pct": 9.12
+   "votes": 2819,
+   "pct": 9.11
   },
   {
    "candidate": "CHITTEDI, Karthik Reddy",
    "party": "The Republican",
-   "votes": 34,
-   "pct": 0.11
+   "votes": 38,
+   "pct": 0.12
   },
   {
    "candidate": "PATRIKEOS, Brett",
    "party": "The West Party",
-   "votes": 203,
-   "pct": 0.67
+   "votes": 210,
+   "pct": 0.68
   }
  ],
  "tcp": [
