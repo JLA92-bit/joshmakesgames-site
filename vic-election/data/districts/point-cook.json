@@ -3,21 +3,21 @@
  "name": "Point Cook",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/point-cook-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:48:11+00:00",
+ "fetched_at": "2026-11-28T13:57:12+00:00",
  "title": "Point Cook election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:45:12",
+ "last_updated": "Sunday, 29 November 2026 00:55:11",
  "enrolment": 55756,
- "formal": 15106,
+ "formal": 15105,
  "informal": 1010,
- "total_votes": 16116,
+ "total_votes": 16115,
  "counted_pct": 28.9,
  "notes": [],
  "primary": [
   {
    "candidate": "LAINE, Taylor",
    "party": "Victorian Socialists",
-   "votes": 782,
-   "pct": 5.18
+   "votes": 781,
+   "pct": 5.17
   },
   {
    "candidate": "GRECH, Mark",
@@ -72,14 +72,14 @@
   {
    "candidate": "HILAKARI, Mathew",
    "party": "Australian Labor Party",
-   "votes": 6530,
-   "pct": 46.1
+   "votes": 7025,
+   "pct": 46.54
   },
   {
    "candidate": "REDDY, Raja",
    "party": "Liberal",
-   "votes": 7634,
-   "pct": 53.9
+   "votes": 8070,
+   "pct": 53.46
   }
  ],
  "links": {

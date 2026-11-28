@@ -3,9 +3,9 @@
  "name": "Mill Park",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/mill-park-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:48:09+00:00",
+ "fetched_at": "2026-11-28T13:57:09+00:00",
  "title": "Mill Park election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:45:09",
+ "last_updated": "Sunday, 29 November 2026 00:55:09",
  "enrolment": 48297,
  "formal": 24658,
  "informal": 2112,
@@ -66,14 +66,14 @@
   {
    "candidate": "NEALY, Elizabeth",
    "party": "Australian Labor Party",
-   "votes": 7095,
-   "pct": 50.18
+   "votes": 7704,
+   "pct": 50.05
   },
   {
    "candidate": "TSOUTSOULIS, Arthur",
    "party": "One Nation Victoria",
-   "votes": 7045,
-   "pct": 49.82
+   "votes": 7690,
+   "pct": 49.95
   }
  ],
  "links": {

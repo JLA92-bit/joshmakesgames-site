@@ -3,9 +3,9 @@
  "name": "Caulfield",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/caulfield-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:48:04+00:00",
+ "fetched_at": "2026-11-28T13:57:04+00:00",
  "title": "Caulfield election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:45:05",
+ "last_updated": "Sunday, 29 November 2026 00:55:04",
  "enrolment": 51087,
  "formal": 32624,
  "informal": 1179,
@@ -60,14 +60,14 @@
   {
    "candidate": "STAFRACE, Mikaela",
    "party": "Australian Labor Party",
-   "votes": 4969,
-   "pct": 46.86
+   "votes": 7096,
+   "pct": 40.77
   },
   {
    "candidate": "SOUTHWICK, David",
    "party": "Liberal",
-   "votes": 5635,
-   "pct": 53.14
+   "votes": 10310,
+   "pct": 59.23
   }
  ],
  "links": {

@@ -3,9 +3,9 @@
  "name": "Croydon",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/croydon-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:48:05+00:00",
+ "fetched_at": "2026-11-28T13:57:04+00:00",
  "title": "Croydon election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:45:05",
+ "last_updated": "Sunday, 29 November 2026 00:55:04",
  "enrolment": 55612,
  "formal": 35309,
  "informal": 1852,
@@ -66,14 +66,14 @@
   {
    "candidate": "FARR, Richard",
    "party": "Australian Labor Party",
-   "votes": 10868,
-   "pct": 37.74
+   "votes": 11555,
+   "pct": 37.56
   },
   {
    "candidate": "WOOLDRIDGE, Toby",
    "party": "Liberal",
-   "votes": 17931,
-   "pct": 62.26
+   "votes": 19212,
+   "pct": 62.44
   }
  ],
  "links": {

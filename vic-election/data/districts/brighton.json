@@ -3,63 +3,63 @@
  "name": "Brighton",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/brighton-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:48:03+00:00",
+ "fetched_at": "2026-11-28T13:57:03+00:00",
  "title": "Brighton election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:45:02",
+ "last_updated": "Sunday, 29 November 2026 00:55:01",
  "enrolment": 50950,
- "formal": 20166,
- "informal": 782,
- "total_votes": 20948,
- "counted_pct": 41.11,
+ "formal": 29703,
+ "informal": 1053,
+ "total_votes": 30756,
+ "counted_pct": 60.37,
  "notes": [],
  "primary": [
   {
    "candidate": "FAGAN, Alexander",
    "party": "One Nation Victoria",
-   "votes": 1568,
-   "pct": 7.78
+   "votes": 2289,
+   "pct": 7.71
   },
   {
    "candidate": "CASLEY, John",
    "party": "",
-   "votes": 113,
-   "pct": 0.56
+   "votes": 145,
+   "pct": 0.49
   },
   {
    "candidate": "HAIN, Anthony",
    "party": "Libertarian (formerly Liberal Democrats)",
-   "votes": 135,
-   "pct": 0.67
+   "votes": 194,
+   "pct": 0.65
   },
   {
    "candidate": "MULLAHY, Bridget",
    "party": "Australian Labor Party",
-   "votes": 2543,
-   "pct": 12.61
+   "votes": 3420,
+   "pct": 11.51
   },
   {
    "candidate": "SMITH, Jessica",
    "party": "Victorian Socialists",
-   "votes": 520,
-   "pct": 2.58
+   "votes": 617,
+   "pct": 2.08
   },
   {
    "candidate": "NEWBURY, James",
    "party": "Liberal",
-   "votes": 11559,
-   "pct": 57.32
+   "votes": 18133,
+   "pct": 61.05
   },
   {
    "candidate": "VINCENT, Barry",
    "party": "Family First",
-   "votes": 122,
-   "pct": 0.6
+   "votes": 160,
+   "pct": 0.54
   },
   {
    "candidate": "BAIN, Ebony",
    "party": "The Greens",
-   "votes": 3606,
-   "pct": 17.88
+   "votes": 4745,
+   "pct": 15.97
   }
  ],
  "tcp": [

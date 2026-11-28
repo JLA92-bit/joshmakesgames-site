@@ -3,9 +3,9 @@
  "name": "Ashwood",
  "url": "https://www.vec.vic.gov.au/results/2026-results/district-election-page/results-by-district/ashwood-district-results",
  "status": 200,
- "fetched_at": "2026-11-28T13:47:59+00:00",
+ "fetched_at": "2026-11-28T13:57:00+00:00",
  "title": "Ashwood election results 2026 | Victorian Electoral Commission",
- "last_updated": "Sunday, 29 November 2026 00:45:02",
+ "last_updated": "Sunday, 29 November 2026 00:55:01",
  "enrolment": 53131,
  "formal": 34520,
  "informal": 1248,
@@ -60,14 +60,14 @@
   {
    "candidate": "FREGON, Matt",
    "party": "Australian Labor Party",
-   "votes": 6638,
-   "pct": 38.09
+   "votes": 12284,
+   "pct": 37.2
   },
   {
    "candidate": "ZOGRAPHOS, Theo",
    "party": "Liberal",
-   "votes": 10788,
-   "pct": 61.91
+   "votes": 20740,
+   "pct": 62.8
   }
  ],
  "links": {
